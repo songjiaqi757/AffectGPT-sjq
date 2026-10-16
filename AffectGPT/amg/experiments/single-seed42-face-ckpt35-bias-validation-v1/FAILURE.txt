@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_validation.py", line 376, in run
+    run_gpu_queue(ARMS,self.gpus,self.train_arm,self.stop_event,self.stop_children)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_experiment.py", line 93, in run_gpu_queue
+    job.result()
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_experiment.py", line 82, in worker
+    run_job(mode, gpu)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_validation.py", line 289, in train_arm
+    audit=self.validate_inference(run/"dev.jsonl",checkpoint,mode,"none")
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_validation.py", line 214, in validate_inference
+    flat=[name for group in neighbors for name in group]
+TypeError: 'NoneType' object is not iterable

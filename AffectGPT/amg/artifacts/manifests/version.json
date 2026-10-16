@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "requested_split_sizes": [
+    4000,
+    500,
+    500
+  ],
+  "group_policy": "clip_id_only",
+  "deduplication_claim": false,
+  "retain_all_training_clips": true,
+  "accepted_ovmerdplus_overlap_count": 99,
+  "source_dir": "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset",
+  "source_sha256": {
+    "track2_train_mercaptionplus.csv": "230d4d33ba32ba0fd8c7207d015afbf03f165e2e19e232a38d806046ef9b8528",
+    "track3_train_mercaptionplus.csv": "dda02825e8fad71212dc7f77dc98ec5cfc243e9871404a5383177dce970e8957",
+    "subtitle_chieng.csv": "bc3562cfda38a44e6a970a44cffc38fbca7f39ec39ed9c438152b0794bed4003"
+  },
+  "group_map_sha256": null,
+  "outputs": {
+    "main": {
+      "file": "main.jsonl",
+      "rows": 31327,
+      "sha256": "b82393b50fb383f86542d2523873712dcb108eb491774c1b1cb686dc1b581280"
+    },
+    "fit": {
+      "file": "fit.jsonl",
+      "rows": 4000,
+      "sha256": "add25ff295837e1d9b0f190b3bca8a6fcd70367b80ce170c30e8a51615af7f89"
+    },
+    "dev": {
+      "file": "dev.jsonl",
+      "rows": 500,
+      "sha256": "c169fea8e48ef20957760176aad430cb6012fb689e1b6ae4e6bf65f492c718ee"
+    },
+    "holdout": {
+      "file": "holdout.jsonl",
+      "rows": 500,
+      "sha256": "05626c85b851383c4e05768aa7aef026bd276eccf51e8f4154d2f00849afe6b4"
+    }
+  },
+  "version_sha256": "4da15ae1b22cd5252d1f5f065fade348b3a66b1d6f7a9449b14233401449447c"
+}

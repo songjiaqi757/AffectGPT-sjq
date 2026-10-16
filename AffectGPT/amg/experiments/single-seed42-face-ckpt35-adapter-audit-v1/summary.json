@@ -1,0 +1,27 @@
+{
+  "schema": "amg-adapter-mechanism-audit-v1",
+  "status": "complete",
+  "completed_at": "2026-10-15T17:45:28.565377+00:00",
+  "N_real_cached_dev_queries": 500,
+  "cpu_only": true,
+  "no_gpu_no_training_no_generation": true,
+  "checkpoint_sha256": "7c7d254b30922099bdfb88693d6ef4056eae661afd98bdd714dace9576f1b929",
+  "value_second_bias_signal_norm_ratio": 4.460743250474933,
+  "reports": {
+    "layers": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-adapter-audit-v1/layer-audit/SUMMARY.md",
+    "attention": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-adapter-audit-v1/attention-audit/SUMMARY.md",
+    "optimization": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-adapter-audit-v1/optimization-audit/OPTIMIZATION_AUDIT.md"
+  },
+  "findings": [
+    "Shared last value-MLP bias dominates representation direction and dilutes relative neighbor contrast; adding a shared bias does not erase absolute differences.",
+    "Actual across-neighbor attention logits have very small spread; high-precision checks confirm nearly uniform weights.",
+    "Replacing attention with exact mean changes tokens by about 1e-6 relative or less on average.",
+    "Final optimizer moments show extremely small query/Q/K task-gradient scales relative to eps; changed tensors alone do not prove learned content selection."
+  ],
+  "limits": [
+    "No reconstruction of unknown random initial Adapter; no claim about a unique training-history cause.",
+    "Internal bias/normalization probes are not new task-quality measurements.",
+    "No change to model code, original checkpoints, scoring resources, holdout or target evaluation."
+  ],
+  "next_minimal_candidate": "Independently validate only the last value-MLP bias under a fixed protocol; do not jointly change gate, LR, temperature and retrieval."
+}

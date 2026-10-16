@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_recovery.py", line 155, in <module>
+    raise SystemExit(main())
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_recovery.py", line 145, in main
+    job=Recovery(args.protocol,args.output_dir,python=args.python)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_validation.py", line 53, in __init__
+    super().__init__(*args,**kwargs)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_experiment.py", line 175, in __init__
+    self.protocol = read_json(self.protocol_path)
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_experiment.py", line 44, in read_json
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/protocol.json'

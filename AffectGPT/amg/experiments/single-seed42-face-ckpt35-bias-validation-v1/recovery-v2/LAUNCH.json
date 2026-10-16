@@ -1,0 +1,17 @@
+{
+  "launched_at": "2026-10-16T03:28:59.041368+00:00",
+  "runner_pid": 2754760,
+  "argv": [
+    "/ai/sjq/miniconda3/envs/vllm/bin/python",
+    "-B",
+    "-m",
+    "amg.run_bias_recovery",
+    "--protocol",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/protocol.json",
+    "--output-dir",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2"
+  ],
+  "detached": true,
+  "no_retraining": true,
+  "all_artifacts_server_only": true
+}

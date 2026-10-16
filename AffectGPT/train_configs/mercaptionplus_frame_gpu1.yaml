@@ -1,0 +1,96 @@
+# MER-Caption+ raw video frames + audio + English subtitles.
+# Physical GPU 1 is selected by CUDA_VISIBLE_DEVICES=1.
+# With that mask, the process uses logical cuda:0 (run.device: cuda).
+# Start from /ai/sjq/AffectGPT-sjq/AffectGPT:
+# CUDA_VISIBLE_DEVICES=1 python -u train.py --cfg-path=train_configs/mercaptionplus_frame_gpu1.yaml
+# Training output is derived from this filename: output/mercaptionplus_frame_gpu1/.
+# Model and training hyperparameters match the GPU 0 face experiment.
+# LoRA rank defaults to 16 in AffectGPT.from_config.
+# inference.gpu: 0 is the logical device for future inference with the same mask.
+
+model:
+  arch: affectgpt
+  model_type: pretrain_vicuna
+  frozen_video_proj: false
+  frozen_video_Qformer: false
+  frozen_audio_Qformer: false
+  frozen_audio_proj: false
+  frozen_multi_Qformer: false
+  frozen_multi_llama_proj: false
+  frozen_llm: false
+  multi_fusion_type: attention
+  video_fusion_type: attention
+  audio_fusion_type: attention
+  image_fusion_type: mean
+  ckpt: ''
+  ckpt_2: ''
+  llama_model: Qwen25
+  acoustic_encoder: HUBERT_LARGE
+  visual_encoder: CLIP_VIT_LARGE
+  num_audio_query_token: 1
+  num_video_query_token: 1
+  num_multi_query_token: 1
+  num_image_query_token: 1
+  max_length: 1024
+  vis_processor:
+    train:
+      name: alpro_video_train
+      n_frms: 8
+      image_size: 224
+  text_processor:
+    train:
+      name: blip_caption
+  img_processor:
+    train:
+      name: blip2_image_train
+      image_size: 224
+datasets:
+  mercaptionplus:
+    data_type: video
+    face_or_frame: multiframe_audio_frame_text
+    label_type: hybird
+run:
+  task: video_text_pretrain
+  lr_sched: linear_warmup_cosine_lr
+  init_lr: 1.0e-05
+  min_lr: 1.0e-05
+  warmup_lr: 1.0e-06
+  weight_decay: 0.05
+  max_epoch: 60
+  iters_per_epoch: 5000
+  warmup_steps: 5000
+  batch_size_train: 3
+  batch_size_eval: 3
+  seed: 42
+  num_workers: 4
+  amp: true
+  resume_ckpt_path: null
+  evaluate: false
+  train_splits:
+  - train
+  device: cuda
+  world_size: 1
+  dist_url: env://
+  distributed: false
+inference:
+  task: video_text_pretrain
+  vis_processor:
+    train:
+      name: alpro_video_eval
+      n_frms: 8
+      image_size: 224
+  text_processor:
+    train:
+      name: blip_caption
+  img_processor:
+    train:
+      name: blip2_image_eval
+      image_size: 224
+  face_or_frame: xxx
+  base_root: output/results
+  ckpt_root: xxx
+  ckpt_name: xxx
+  test_epoch: xxx
+  test_epochs: xxx-xxx
+  skip_epoch: 1
+  gpu: 0

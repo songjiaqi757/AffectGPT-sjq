@@ -1,0 +1,454 @@
+{
+  "schema": "amg-m0-implementation-status-v2",
+  "updated_at": "2026-10-16T04:11:09.666996+00:00",
+  "server_root": "/ai/sjq/AffectGPT-sjq/AffectGPT",
+  "all_artifacts_server_only": true,
+  "stage": "baseline35 single-seed42 five-method source development training and evaluation complete",
+  "baseline_checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+  "baseline_sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+  "seed": 42,
+  "gpus": [
+    0,
+    1
+  ],
+  "max_concurrent_new_gpu_jobs": 2,
+  "tests": {
+    "cpu_tests": 124,
+    "result": "passed",
+    "log": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/single_seed42_unit_tests.log"
+  },
+  "fit_bank": {
+    "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/m0-bank-face-fit.pt",
+    "records": 4000,
+    "complete": true,
+    "sha256": "2efe1d8c69c82080a862978f95bccc7038c601f1466bb0c32ced3a27499666b7"
+  },
+  "experiment": {
+    "protocol": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/protocol.json",
+    "state": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/state.json",
+    "methods": [
+      "off",
+      "retrieval",
+      "learned",
+      "current",
+      "random"
+    ],
+    "iterations_each": 1334,
+    "nominal_examples_each": 4002
+  },
+  "training_samples": 31327,
+  "accepted_overlap_retained": 99,
+  "ovmerdplus_final_denominator": 532,
+  "not_executed": [
+    "final full31327 AMG training",
+    "Situation/HGT/E1/E2/G3",
+    "target benchmark evaluation"
+  ],
+  "original_training_pids": [
+    10012,
+    12782
+  ],
+  "notes": [
+    "Raw source checkpoints are preserved",
+    "Retired AMG experiment and its derived verification artifacts removed",
+    "Retrieval source micro-F1 is below off; all retrieval comparison 95% paired bootstrap intervals include zero"
+  ],
+  "runner_pid": 3190132,
+  "current_jobs": {},
+  "launch_validation": {
+    "passed": true,
+    "locked_files": 40,
+    "log": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/validation.log"
+  },
+  "first_five_validation": {
+    "off": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/off/first-five-validation.json",
+      "result": {
+        "schema": "amg-first-five-training-validation-v1",
+        "recorded_at": "2026-10-15T13:02:32.572797+00:00",
+        "all_losses_finite": true,
+        "optimizer_attempts": 5,
+        "optimizer_updates": 5,
+        "rows": [
+          {
+            "step": 1,
+            "iteration": 1,
+            "processed_microsteps": 3,
+            "optimizer_attempts": 1,
+            "loss": 0.8008756637573241,
+            "grad_norm": 5.955924034118652,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 3,
+            "optimizer_updates": 1,
+            "no_update": false,
+            "memory_enabled": 0,
+            "elapsed_s": 8.274801408872008,
+            "replacements": []
+          },
+          {
+            "step": 2,
+            "iteration": 2,
+            "processed_microsteps": 6,
+            "optimizer_attempts": 2,
+            "loss": 0.866869608561198,
+            "grad_norm": 9.938820838928223,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 6,
+            "optimizer_updates": 2,
+            "no_update": false,
+            "memory_enabled": 0,
+            "elapsed_s": 9.390905182808638,
+            "replacements": []
+          },
+          {
+            "step": 3,
+            "iteration": 3,
+            "processed_microsteps": 9,
+            "optimizer_attempts": 3,
+            "loss": 0.6512070298194885,
+            "grad_norm": 8.23273754119873,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 9,
+            "optimizer_updates": 3,
+            "no_update": false,
+            "memory_enabled": 0,
+            "elapsed_s": 10.442584721371531,
+            "replacements": []
+          },
+          {
+            "step": 4,
+            "iteration": 4,
+            "processed_microsteps": 12,
+            "optimizer_attempts": 4,
+            "loss": 0.5698015193144481,
+            "grad_norm": 17.88359832763672,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 12,
+            "optimizer_updates": 4,
+            "no_update": false,
+            "memory_enabled": 0,
+            "elapsed_s": 11.481042040511966,
+            "replacements": []
+          },
+          {
+            "step": 5,
+            "iteration": 5,
+            "processed_microsteps": 15,
+            "optimizer_attempts": 5,
+            "loss": 0.8125688334306082,
+            "grad_norm": 7.559571743011475,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 15,
+            "optimizer_updates": 5,
+            "no_update": false,
+            "memory_enabled": 0,
+            "elapsed_s": 12.614197287708521,
+            "replacements": []
+          }
+        ],
+        "amp_overflow_iterations": [],
+        "gradient_nonfinite_iterations": [],
+        "policy": "AMP may skip overflowing updates; at least one real update and five finite losses required"
+      }
+    },
+    "retrieval": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/retrieval/first-five-validation.json",
+      "result": {
+        "schema": "amg-first-five-training-validation-v1",
+        "recorded_at": "2026-10-15T13:02:33.587946+00:00",
+        "all_losses_finite": true,
+        "optimizer_attempts": 5,
+        "optimizer_updates": 5,
+        "rows": [
+          {
+            "step": 1,
+            "iteration": 1,
+            "processed_microsteps": 3,
+            "optimizer_attempts": 1,
+            "loss": 0.8024402658144633,
+            "grad_norm": 5.848024845123291,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 3,
+            "optimizer_updates": 1,
+            "no_update": false,
+            "memory_enabled": 3,
+            "elapsed_s": 8.35281746648252,
+            "replacements": []
+          },
+          {
+            "step": 2,
+            "iteration": 2,
+            "processed_microsteps": 6,
+            "optimizer_attempts": 2,
+            "loss": 0.8578992883364358,
+            "grad_norm": 9.80385684967041,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 6,
+            "optimizer_updates": 2,
+            "no_update": false,
+            "memory_enabled": 3,
+            "elapsed_s": 9.568603644147515,
+            "replacements": []
+          },
+          {
+            "step": 3,
+            "iteration": 3,
+            "processed_microsteps": 9,
+            "optimizer_attempts": 3,
+            "loss": 0.6551825205485026,
+            "grad_norm": 8.485386848449707,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 9,
+            "optimizer_updates": 3,
+            "no_update": false,
+            "memory_enabled": 3,
+            "elapsed_s": 10.790467768907547,
+            "replacements": []
+          },
+          {
+            "step": 4,
+            "iteration": 4,
+            "processed_microsteps": 12,
+            "optimizer_attempts": 4,
+            "loss": 0.5877286990483601,
+            "grad_norm": 18.56623077392578,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 12,
+            "optimizer_updates": 4,
+            "no_update": false,
+            "memory_enabled": 1,
+            "elapsed_s": 11.891974464058876,
+            "replacements": []
+          },
+          {
+            "step": 5,
+            "iteration": 5,
+            "processed_microsteps": 15,
+            "optimizer_attempts": 5,
+            "loss": 0.815829594930013,
+            "grad_norm": 7.649276256561279,
+            "grad_norm_nonfinite": false,
+            "amp_overflow": false,
+            "examples": 3,
+            "cumulative_examples": 15,
+            "optimizer_updates": 5,
+            "no_update": false,
+            "memory_enabled": 2,
+            "elapsed_s": 13.001176135614514,
+            "replacements": []
+          }
+        ],
+        "amp_overflow_iterations": [],
+        "gradient_nonfinite_iterations": [],
+        "policy": "AMP may skip overflowing updates; at least one real update and five finite losses required"
+      }
+    }
+  },
+  "early_exposure_alignment": {
+    "records_checked": 15,
+    "requested_actual_id_task_and_full_budget_match": true,
+    "method": "independent read-only comparison",
+    "sha256": "9f5274653d8f9033513e02fd283d9c1ed86bd392901d7be25bbfa0925adadfc5"
+  },
+  "completed_at": "2026-10-15T14:52:30.765339+00:00",
+  "completed_methods": {
+    "off": {
+      "iterations": 1334,
+      "optimizer_updates": 1332,
+      "actual_exposures": 4002,
+      "covered_ids": 4000,
+      "dev_N": 500,
+      "failed_predictions": 0,
+      "micro_f1": 0.46443650535888276
+    },
+    "retrieval": {
+      "iterations": 1334,
+      "optimizer_updates": 1332,
+      "actual_exposures": 4002,
+      "covered_ids": 4000,
+      "dev_N": 500,
+      "failed_predictions": 0,
+      "micro_f1": 0.46078431372549017
+    },
+    "learned": {
+      "iterations": 1334,
+      "optimizer_updates": 1332,
+      "actual_exposures": 4002,
+      "covered_ids": 4000,
+      "dev_N": 500,
+      "failed_predictions": 0,
+      "micro_f1": 0.4583741429970617
+    },
+    "current": {
+      "iterations": 1334,
+      "optimizer_updates": 1332,
+      "actual_exposures": 4002,
+      "covered_ids": 4000,
+      "dev_N": 500,
+      "failed_predictions": 0,
+      "micro_f1": 0.4596800522363696
+    },
+    "random": {
+      "iterations": 1334,
+      "optimizer_updates": 1332,
+      "actual_exposures": 4002,
+      "covered_ids": 4000,
+      "dev_N": 500,
+      "failed_predictions": 0,
+      "micro_f1": 0.45703125
+    }
+  },
+  "full_exposure_alignment": {
+    "passed": true,
+    "records_per_method": 4002,
+    "covered_ids_per_method": 4000,
+    "reports": "per-method exposure-alignment.json"
+  },
+  "paired_comparisons_complete": 7,
+  "summary": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/SUMMARY.md",
+  "summary_json": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-v1/summary.json",
+  "intervention": {
+    "directory": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-intervention-v1",
+    "state": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-intervention-v1/state.json",
+    "runner_pid": 1323785,
+    "no_training": true,
+    "stage": "complete",
+    "cpu_diagnostics": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-intervention-v1/cpu-diagnostics/CPU_DIAGNOSTICS.md",
+    "completed_at": "2026-10-15T16:51:16.941752+00:00",
+    "summary": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-intervention-v1/SUMMARY.md",
+    "interpretation": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-intervention-v1/INTERPRETATION.md",
+    "same_checkpoint_sha256": "7c7d254b30922099bdfb88693d6ef4056eae661afd98bdd714dace9576f1b929",
+    "metrics": {
+      "retrieval": 0.46078431372549017,
+      "random": 0.4607329842931937,
+      "off": 0.4637491835401698
+    },
+    "all_500_successful": true,
+    "paired_comparisons": 3
+  },
+  "adapter_sensitivity": {
+    "directory": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-sensitivity-v1",
+    "state": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-sensitivity-v1/state.json",
+    "runner_pid": 1754651,
+    "started_at": "2026-10-15T17:14:27.008681+00:00",
+    "stage_at_launch": "validated; launching two background AV/Adapter workers",
+    "source_locks": 57,
+    "no_training": true,
+    "no_qwen_or_text_generation": true,
+    "cpu_bank_audit": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-sensitivity-v1/cpu-bank-audit/BANK_AUDIT.md",
+    "gpu_shards": {
+      "0": [
+        0,
+        250
+      ],
+      "1": [
+        250,
+        500
+      ]
+    },
+    "completion_report": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-sensitivity-v1/SUMMARY.md"
+  },
+  "adapter_mechanism_audit": {
+    "status": "complete",
+    "directory": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-adapter-audit-v1",
+    "report": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-adapter-audit-v1/FINDINGS.md",
+    "N": 500,
+    "cpu_only": true,
+    "no_new_training_or_generation": true
+  },
+  "latest_activity": "bounded bias validation complete; no evidence to expand graph or full-data budget",
+  "bias_validation": {
+    "directory": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1",
+    "protocol": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/protocol.json",
+    "state": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/state.json",
+    "runner_pid": 2347620,
+    "stage_at_launch": "stage_a: two zero-bias inference workers launched on GPUs 0 and 1",
+    "workers_at_launch": {
+      "stage-a-zero-retrieval": {
+        "pid": 2348995,
+        "gpu": 0
+      },
+      "stage-a-zero-random": {
+        "pid": 2348994,
+        "gpu": 1
+      }
+    },
+    "tests": {
+      "cpu_tests": 142,
+      "result": "passed",
+      "log": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/unit_tests.log"
+    },
+    "locked_files": 67,
+    "launch_validation": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/launch-validation.json",
+    "followed_by": "one fresh shared-init seed42 matched training pair, then on/off/random generation and paired scoring",
+    "zero_bias_stays_trainable": true,
+    "old_initialization_reproduced": false,
+    "no_automatic_full_data_or_graph_expansion": true,
+    "completion_reports": [
+      "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/SUMMARY.md",
+      "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/summary.json"
+    ],
+    "original_pipeline_status": "failed_after_training_due_to_off_null_list_validation",
+    "recovery_directory": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2",
+    "recovery_state": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/state.json",
+    "recovery_runner_pid": 2754760,
+    "recovery_stage_at_launch": "two inference workers launched",
+    "recovery_launch_validation": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/launch-validation.json",
+    "no_retraining": true,
+    "recovery_tests": {
+      "count": 145,
+      "result": "passed",
+      "log": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/unit_tests.log"
+    },
+    "recovery_final_reports": [
+      "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/SUMMARY.md",
+      "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/summary.json"
+    ],
+    "status": "complete",
+    "completed_at": "2026-10-16T03:50:01.282486+00:00",
+    "recovery_stage": "complete",
+    "recovery_summary": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/SUMMARY.md",
+    "recovery_summary_json": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/summary.json",
+    "completion_validation": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/completion-validation.json",
+    "paired_comparisons_complete": 11,
+    "stage_b_micro_f1": {
+      "control": {
+        "retrieval": 0.45917700849118226,
+        "off": 0.46529814271749753,
+        "random": 0.4601827676240209
+      },
+      "zero_init": {
+        "retrieval": 0.4635501797973194,
+        "off": 0.4661016949152542,
+        "random": 0.4622918707149853
+      }
+    },
+    "decision_flags": {
+      "zero_init_vs_control_positive_95ci": false,
+      "zero_init_vs_control_gain_at_least_preset": false,
+      "all_new_predictions_without_errors": true,
+      "zero_init_retrieval_beats_off_95ci": false,
+      "zero_init_retrieval_beats_random_95ci": true
+    },
+    "recommendation": "do_not_expand_graph_or_training_budget_on_this_evidence",
+    "no_further_gpu_jobs_scheduled": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "launched_at": "2026-10-15T23:47:50.908856+00:00",
+  "runner_pid": 2347620,
+  "argv": [
+    "/ai/sjq/miniconda3/envs/vllm/bin/python",
+    "-B",
+    "-m",
+    "amg.run_bias_validation",
+    "--protocol",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/protocol.json",
+    "--output-dir",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1"
+  ],
+  "server_only": true,
+  "detached": true,
+  "user_preference": "End assistant turn after launch/PID validation; no continuous monitoring"
+}

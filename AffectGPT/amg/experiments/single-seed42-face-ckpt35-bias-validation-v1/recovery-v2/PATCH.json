@@ -1,0 +1,8 @@
+{
+  "reason": "Off mode intentionally serializes retrieved_ids=null; normalize it to empty before iteration",
+  "scope": "validation-only; no model/train/inference/scoring logic changes",
+  "before_sha256": "9b69ed66294b641036466173561d1ba31b7306c7f3b582e132c778c93761c1fc",
+  "after_sha256": "ab753073ab0e2f08abaf28194dbe4452f3588e81ddf3ec3a79aa041e1b8c7ecd",
+  "parent_ready": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/READY.json",
+  "changed_file": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/run_bias_validation.py"
+}

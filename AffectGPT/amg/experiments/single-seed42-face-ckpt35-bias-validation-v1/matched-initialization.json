@@ -1,0 +1,16 @@
+{
+  "schema": "amg-matched-initialization-comparison-v1",
+  "verified_at": "2026-10-16T00:06:54.278457+00:00",
+  "identical_except": [
+    "value_projection.2.bias"
+  ],
+  "changed_parameters": [
+    "value_projection.2.bias"
+  ],
+  "same_baseline_lora": true,
+  "same_shared_file": true,
+  "bias_remains_trainable": true,
+  "control_adapter_sha256": "f2ba8adeaa7399aeadfc324839cecc3684a50bd5c9f02edf804586cf3f69ed7f",
+  "zero_adapter_sha256": "d4e2dbf0b17bc7e01993ac3189b1e4c5293b6d0054ed3e4c1cd60063da0c51bb",
+  "lora_state_sha256": "5a0cff95b2b011ed2ffbec75829eda2024bde80993ba8d0511170a4155af1484"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "amg-adapter-sensitivity-state-v1",
+  "status": "complete",
+  "jobs": {
+    "pipeline": {
+      "time": "2026-10-15T17:18:36.540239+00:00",
+      "name": "pipeline",
+      "stage": "complete",
+      "summary": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-sensitivity-v1/SUMMARY.md"
+    },
+    "worker1": {
+      "time": "2026-10-15T17:18:27.475617+00:00",
+      "name": "worker1",
+      "stage": "complete",
+      "gpu": 1
+    },
+    "worker0": {
+      "time": "2026-10-15T17:18:28.509844+00:00",
+      "name": "worker0",
+      "stage": "complete",
+      "gpu": 0
+    },
+    "aggregate": {
+      "time": "2026-10-15T17:18:36.533111+00:00",
+      "name": "aggregate",
+      "stage": "complete",
+      "gpu": null
+    }
+  },
+  "runner_pid": 1754651,
+  "started_at": "2026-10-15T17:14:29.325707+00:00",
+  "no_training": true,
+  "no_qwen": true,
+  "no_text_generation": true,
+  "updated_at": "2026-10-15T17:18:36.540239+00:00",
+  "completed_at": "2026-10-15T17:18:36.540158+00:00"
+}

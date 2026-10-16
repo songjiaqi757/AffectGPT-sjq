@@ -1,0 +1,512 @@
+{
+  "schema": "amg-bias-validation-summary-v1",
+  "finished_at": "2026-10-16T03:50:01.276212+00:00",
+  "metrics": {
+    "stage-a-zero-retrieval": {
+      "N": 500,
+      "tp": 702,
+      "fp": 565,
+      "fn": 1092,
+      "micro_precision": 0.5540647198105761,
+      "micro_recall": 0.391304347826087,
+      "micro_f1": 0.4586736360666449,
+      "sample_macro_precision": 0.5751000000000001,
+      "sample_macro_recall": 0.4489809523809524,
+      "sample_macro_f1": 0.48901385281385373,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 18,
+      "unmapped_prediction_labels": 21,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-b-zero_init-retrieval": {
+      "N": 500,
+      "tp": 709,
+      "fp": 556,
+      "fn": 1085,
+      "micro_precision": 0.5604743083003952,
+      "micro_recall": 0.39520624303233,
+      "micro_f1": 0.4635501797973194,
+      "sample_macro_precision": 0.5812666666666668,
+      "sample_macro_recall": 0.4526666666666667,
+      "sample_macro_f1": 0.49390461760461857,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 20,
+      "unmapped_prediction_labels": 25,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "ref-random": {
+      "N": 500,
+      "tp": 704,
+      "fp": 558,
+      "fn": 1090,
+      "micro_precision": 0.5578446909667195,
+      "micro_recall": 0.39241917502787066,
+      "micro_f1": 0.4607329842931937,
+      "sample_macro_precision": 0.5782333333333335,
+      "sample_macro_recall": 0.45001666666666673,
+      "sample_macro_f1": 0.4908604617604627,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 21,
+      "unmapped_prediction_labels": 26,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "ref-off": {
+      "N": 500,
+      "tp": 710,
+      "fp": 558,
+      "fn": 1084,
+      "micro_precision": 0.5599369085173501,
+      "micro_recall": 0.3957636566332218,
+      "micro_f1": 0.4637491835401698,
+      "sample_macro_precision": 0.5806666666666668,
+      "sample_macro_recall": 0.4550904761904762,
+      "sample_macro_f1": 0.49484227994228114,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 17,
+      "unmapped_prediction_labels": 19,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-a-zero-random": {
+      "N": 500,
+      "tp": 701,
+      "fp": 568,
+      "fn": 1093,
+      "micro_precision": 0.5524034672970843,
+      "micro_recall": 0.3907469342251951,
+      "micro_f1": 0.4577211883774078,
+      "sample_macro_precision": 0.5744333333333332,
+      "sample_macro_recall": 0.44858095238095247,
+      "sample_macro_f1": 0.4884424242424252,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 18,
+      "unmapped_prediction_labels": 21,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-b-control-retrieval": {
+      "N": 500,
+      "tp": 703,
+      "fp": 565,
+      "fn": 1091,
+      "micro_precision": 0.554416403785489,
+      "micro_recall": 0.3918617614269788,
+      "micro_f1": 0.45917700849118226,
+      "sample_macro_precision": 0.5785666666666668,
+      "sample_macro_recall": 0.4502785714285714,
+      "sample_macro_f1": 0.491382251082252,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 21,
+      "unmapped_prediction_labels": 26,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "ref-off_trained": {
+      "N": 500,
+      "tp": 715,
+      "fp": 570,
+      "fn": 1079,
+      "micro_precision": 0.556420233463035,
+      "micro_recall": 0.39855072463768115,
+      "micro_f1": 0.46443650535888276,
+      "sample_macro_precision": 0.5849333333333333,
+      "sample_macro_recall": 0.45789285714285705,
+      "sample_macro_f1": 0.49853145743145844,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 15,
+      "unmapped_prediction_labels": 16,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "ref-normal": {
+      "N": 500,
+      "tp": 705,
+      "fp": 561,
+      "fn": 1089,
+      "micro_precision": 0.556872037914692,
+      "micro_recall": 0.39297658862876256,
+      "micro_f1": 0.46078431372549017,
+      "sample_macro_precision": 0.5784333333333335,
+      "sample_macro_recall": 0.45095000000000013,
+      "sample_macro_f1": 0.4914632034632044,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 20,
+      "unmapped_prediction_labels": 25,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-b-zero_init-off": {
+      "N": 500,
+      "tp": 715,
+      "fp": 559,
+      "fn": 1079,
+      "micro_precision": 0.5612244897959183,
+      "micro_recall": 0.39855072463768115,
+      "micro_f1": 0.4661016949152542,
+      "sample_macro_precision": 0.5827,
+      "sample_macro_recall": 0.45726190476190476,
+      "sample_macro_f1": 0.4971808080808091,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 17,
+      "unmapped_prediction_labels": 19,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-b-control-off": {
+      "N": 500,
+      "tp": 714,
+      "fp": 561,
+      "fn": 1080,
+      "micro_precision": 0.56,
+      "micro_recall": 0.3979933110367893,
+      "micro_f1": 0.46529814271749753,
+      "sample_macro_precision": 0.5816333333333334,
+      "sample_macro_recall": 0.4572571428571429,
+      "sample_macro_f1": 0.49648383838383947,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 16,
+      "unmapped_prediction_labels": 17,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-b-zero_init-random": {
+      "N": 500,
+      "tp": 708,
+      "fp": 561,
+      "fn": 1086,
+      "micro_precision": 0.557919621749409,
+      "micro_recall": 0.39464882943143814,
+      "micro_f1": 0.4622918707149853,
+      "sample_macro_precision": 0.5799333333333334,
+      "sample_macro_recall": 0.45226666666666676,
+      "sample_macro_f1": 0.4929363636363646,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 20,
+      "unmapped_prediction_labels": 25,
+      "reference_clips_outside_fit_vocabulary": 62
+    },
+    "stage-b-control-random": {
+      "N": 500,
+      "tp": 705,
+      "fp": 565,
+      "fn": 1089,
+      "micro_precision": 0.5551181102362205,
+      "micro_recall": 0.39297658862876256,
+      "micro_f1": 0.4601827676240209,
+      "sample_macro_precision": 0.5799000000000001,
+      "sample_macro_recall": 0.4514452380952381,
+      "sample_macro_f1": 0.49262034632034724,
+      "successful_predictions": 500,
+      "failed_predictions": 0,
+      "generation_errors": 0,
+      "missing_predictions": 0,
+      "empty_predictions": 0,
+      "empty_successful_predictions": 0,
+      "unmapped_prediction_clips": 21,
+      "unmapped_prediction_labels": 26,
+      "reference_clips_outside_fit_vocabulary": 62
+    }
+  },
+  "paired": {
+    "stage-a-zero-retrieval-vs-ref-off": {
+      "delta": {
+        "micro_f1": -0.0050755474735248995,
+        "sample_macro_f1": -0.005828427128427405
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.016283091530522355,
+          0.004939238253190498
+        ],
+        "sample_macro_f1": [
+          -0.01742961038961064,
+          0.005631937229437119
+        ]
+      },
+      "negative_gain_fraction": 0.098
+    },
+    "stage-a-zero-retrieval-vs-stage-a-zero-random": {
+      "delta": {
+        "micro_f1": 0.0009524476892371347,
+        "sample_macro_f1": 0.0005714285714285561
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.0001405604841872396,
+          0.0028201259328285862
+        ],
+        "sample_macro_f1": [
+          -0.00019523809523808305,
+          0.001971904761904866
+        ]
+      },
+      "negative_gain_fraction": 0.002
+    },
+    "stage-a-zero-random-vs-ref-random": {
+      "delta": {
+        "micro_f1": -0.003011795915785931,
+        "sample_macro_f1": -0.0024180375180375413
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.007711343974396119,
+          0.0015388788707553667
+        ],
+        "sample_macro_f1": [
+          -0.006708149350649376,
+          0.0019476479076479005
+        ]
+      },
+      "negative_gain_fraction": 0.022
+    },
+    "stage-a-zero-retrieval-vs-ref-normal": {
+      "delta": {
+        "micro_f1": -0.0021106776588452614,
+        "sample_macro_f1": -0.0024493506493506456
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.006293131810056254,
+          0.001822973531487198
+        ],
+        "sample_macro_f1": [
+          -0.006623593073593233,
+          0.0016156818181817594
+        ]
+      },
+      "negative_gain_fraction": 0.02
+    },
+    "stage-b-zero_init-retrieval-vs-stage-b-control-retrieval": {
+      "delta": {
+        "micro_f1": 0.004373171306137125,
+        "sample_macro_f1": 0.0025223665223665925
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.0007242008226182955,
+          0.010019813548892822
+        ],
+        "sample_macro_f1": [
+          -0.002296919191919175,
+          0.007496002886002967
+        ]
+      },
+      "negative_gain_fraction": 0.012
+    },
+    "stage-b-zero_init-retrieval-vs-ref-off_trained": {
+      "delta": {
+        "micro_f1": -0.0008863255615633725,
+        "sample_macro_f1": -0.004626839826839868
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.01313371002616055,
+          0.010478099361831462
+        ],
+        "sample_macro_f1": [
+          -0.016104592352092415,
+          0.006734080086580111
+        ]
+      },
+      "negative_gain_fraction": 0.114
+    },
+    "stage-b-control-retrieval-vs-ref-normal": {
+      "delta": {
+        "micro_f1": -0.0016073052343079097,
+        "sample_macro_f1": -8.095238095240376e-05
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.006536785328990592,
+          0.0029664255970321056
+        ],
+        "sample_macro_f1": [
+          -0.00430492063492071,
+          0.004277380952381013
+        ]
+      },
+      "negative_gain_fraction": 0.02
+    },
+    "stage-b-control-retrieval-vs-stage-b-control-off": {
+      "delta": {
+        "micro_f1": -0.006121134226315272,
+        "sample_macro_f1": -0.005101587301587496
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.01603389260598009,
+          0.003610155436457038
+        ],
+        "sample_macro_f1": [
+          -0.016027604617604593,
+          0.005637698412697971
+        ]
+      },
+      "negative_gain_fraction": 0.098
+    },
+    "stage-b-control-retrieval-vs-stage-b-control-random": {
+      "delta": {
+        "micro_f1": -0.001005759132838624,
+        "sample_macro_f1": -0.0012380952380952603
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.0026639407477341117,
+          0.0
+        ],
+        "sample_macro_f1": [
+          -0.0031428571428571694,
+          0.0
+        ]
+      },
+      "negative_gain_fraction": 0.004
+    },
+    "stage-b-zero_init-retrieval-vs-stage-b-zero_init-off": {
+      "delta": {
+        "micro_f1": -0.0025515151179348328,
+        "sample_macro_f1": -0.0032761904761905436
+      },
+      "intervals": {
+        "micro_f1": [
+          -0.012039941715711034,
+          0.007353710395752718
+        ],
+        "sample_macro_f1": [
+          -0.013530425685426149,
+          0.007439411976911858
+        ]
+      },
+      "negative_gain_fraction": 0.086
+    },
+    "stage-b-zero_init-retrieval-vs-stage-b-zero_init-random": {
+      "delta": {
+        "micro_f1": 0.001258309082334097,
+        "sample_macro_f1": 0.0009682539682539515
+      },
+      "intervals": {
+        "micro_f1": [
+          0.00014501479825515805,
+          0.0029926269129101676
+        ],
+        "sample_macro_f1": [
+          0.0,
+          0.002460714285714317
+        ]
+      },
+      "negative_gain_fraction": 0.0
+    }
+  },
+  "decision_flags": {
+    "zero_init_vs_control_positive_95ci": false,
+    "zero_init_vs_control_gain_at_least_preset": false,
+    "all_new_predictions_without_errors": true,
+    "zero_init_retrieval_beats_off_95ci": false,
+    "zero_init_retrieval_beats_random_95ci": true
+  },
+  "preset_practical_gain": 0.005,
+  "recommendation": "do_not_expand_graph_or_training_budget_on_this_evidence",
+  "limitations": [
+    "Single training seed only; paired bootstrap covers sample uncertainty, not cross-seed stability.",
+    "Baseline35 was already supervised on all source31327, including source dev/holdout.",
+    "Source normalized open-label microF1 is not the paper's nine-benchmark Emotion Wheel score.",
+    "Stage A clears a learned bias at inference, an out-of-distribution intervention.",
+    "Stage B uses a fresh CPU shared Adapter initialization; old unsaved initialization is not reconstructed.",
+    "Initial zero bias is trainable and can become nonzero; this is not a permanently bias-free architecture.",
+    "group_id currently clip ID; cross-clip near-duplicate separation is not claimed.",
+    "The final protocol retains all31327 source clips, accepted99 overlaps, full532 OV+; no target scores here.",
+    "No holdout, target, full-data, HGT/Situation, or multi-seed jobs are included."
+  ],
+  "automatic_expansion": false,
+  "final_learned_bias": {
+    "control": {
+      "sha256": "c87f1f42a0b08662e319c0a1e88413f09fb6479d23ac5c5fbb0813e1fd9659e6",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "numel": 256,
+      "nonzero": 256,
+      "l2_norm": 0.5475908517837524,
+      "max_abs": 0.06232667341828346,
+      "all_finite": true
+    },
+    "zero_init": {
+      "sha256": "37cb4a73b187b33a4c4961df5ba150afa4b670a65f48d9fe1f755397e1cbe3ad",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "numel": 256,
+      "nonzero": 256,
+      "l2_norm": 0.004839712288230658,
+      "max_abs": 0.0011739862384274602,
+      "all_finite": true
+    }
+  },
+  "label_set_agreement": {
+    "control-retrieval-vs-random": {
+      "same": 495,
+      "total": 500
+    },
+    "control-retrieval-vs-off": {
+      "same": 382,
+      "total": 500
+    },
+    "zero_init-retrieval-vs-random": {
+      "same": 495,
+      "total": 500
+    },
+    "zero_init-retrieval-vs-off": {
+      "same": 380,
+      "total": 500
+    }
+  }
+}

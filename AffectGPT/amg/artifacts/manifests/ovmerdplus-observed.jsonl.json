@@ -1,0 +1,20 @@
+{
+  "schema": "amg-observed-manifest-v1",
+  "dataset": "OVMERDPlus",
+  "records": 532,
+  "target_denominator": 532,
+  "source_csv": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+  "source_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+  "manifest_sha256": "6c735be0b403657af9c64f3248bd5629e9902ed5ad41eaf5febb33e2cd3b7a2d",
+  "fields": [
+    "name",
+    "subtitle",
+    "group_id"
+  ],
+  "group_policy": "clip_id_only",
+  "labels_read": false,
+  "purpose": "evaluation_only",
+  "training_allowed": false,
+  "memory_construction_allowed": false,
+  "model_selection_allowed": false
+}

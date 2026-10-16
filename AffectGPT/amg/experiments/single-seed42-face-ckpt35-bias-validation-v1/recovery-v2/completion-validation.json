@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-16T04:11:09.666996+00:00",
+  "completed_at": "2026-10-16T03:50:01.282486+00:00",
+  "completed_at_beijing": "2026-10-16T11:50:01.282486+08:00",
+  "state": "complete",
+  "all_12_metric_conditions_N500_zero_errors": true,
+  "paired_comparisons": 11,
+  "paired_reports": {
+    "stage-a-zero-retrieval-vs-ref-off": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/reports/stage-a-zero-retrieval-vs-ref-off.json",
+      "sha256": "74efa17e3a1bf9b0a82e018c0a3aae42f09e2372a3914a8582485b409a429145"
+    },
+    "stage-a-zero-retrieval-vs-stage-a-zero-random": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/reports/stage-a-zero-retrieval-vs-stage-a-zero-random.json",
+      "sha256": "d84eb57b39284f5d514878621daeafcd2312d67408c49a84577151cfa7e9a32b"
+    },
+    "stage-a-zero-random-vs-ref-random": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/reports/stage-a-zero-random-vs-ref-random.json",
+      "sha256": "1c7619338566d0ec7567b50639b23f61c34eaa0b4c86da1471cd65b7a15130cc"
+    },
+    "stage-a-zero-retrieval-vs-ref-normal": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/reports/stage-a-zero-retrieval-vs-ref-normal.json",
+      "sha256": "0a4586047485f3ede18735fb43aad934ef77224ce7841061826d5ebcc3f5f88e"
+    },
+    "stage-b-zero_init-retrieval-vs-stage-b-control-retrieval": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-zero_init-retrieval-vs-stage-b-control-retrieval.json",
+      "sha256": "82b954af386c84cf36fad17840c4a52f2fdc08a892a9f6ad8620c2f27cf55d6f"
+    },
+    "stage-b-zero_init-retrieval-vs-ref-off_trained": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-zero_init-retrieval-vs-ref-off_trained.json",
+      "sha256": "cfd761e36fada8a8d6f81f925333580f160300e25b3a25a434790a1f79cd188c"
+    },
+    "stage-b-control-retrieval-vs-ref-normal": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-control-retrieval-vs-ref-normal.json",
+      "sha256": "c8455fecad302f84c598f004285a44f926a28b41dbe6c9591c130c280f133ef6"
+    },
+    "stage-b-control-retrieval-vs-stage-b-control-off": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-control-retrieval-vs-stage-b-control-off.json",
+      "sha256": "b19d50eb964ba904a4300b16a2646aa086e100c8e40ffa4a562a421fe1fa6df6"
+    },
+    "stage-b-control-retrieval-vs-stage-b-control-random": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-control-retrieval-vs-stage-b-control-random.json",
+      "sha256": "82414cd86a58d55508a0bbf35f7c0340a8adf86ae4768f8340e0d772cc178aff"
+    },
+    "stage-b-zero_init-retrieval-vs-stage-b-zero_init-off": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-zero_init-retrieval-vs-stage-b-zero_init-off.json",
+      "sha256": "1dc4f469cdd8b57910229525577e756f5adbc949a546831c30511d8436405ab9"
+    },
+    "stage-b-zero_init-retrieval-vs-stage-b-zero_init-random": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/recovery-v2/reports/stage-b-zero_init-retrieval-vs-stage-b-zero_init-random.json",
+      "sha256": "8a92fbb391347114b3fc5d78a5244b7a4009349e638c2fba1825eddfa0afe467"
+    }
+  },
+  "matched_initialization": true,
+  "training_examples_each": 4002,
+  "covered_fit_ids_each": 4000,
+  "stage_b_micro_f1": {
+    "control": {
+      "retrieval": 0.45917700849118226,
+      "off": 0.46529814271749753,
+      "random": 0.4601827676240209
+    },
+    "zero_init": {
+      "retrieval": 0.4635501797973194,
+      "off": 0.4661016949152542,
+      "random": 0.4622918707149853
+    }
+  },
+  "label_set_agreement": {
+    "control-retrieval-vs-random": {
+      "same": 495,
+      "total": 500
+    },
+    "control-retrieval-vs-off": {
+      "same": 382,
+      "total": 500
+    },
+    "zero_init-retrieval-vs-random": {
+      "same": 495,
+      "total": 500
+    },
+    "zero_init-retrieval-vs-off": {
+      "same": 380,
+      "total": 500
+    }
+  },
+  "recommendation": "do_not_expand_graph_or_training_budget_on_this_evidence",
+  "all_artifacts_server_only": true
+}

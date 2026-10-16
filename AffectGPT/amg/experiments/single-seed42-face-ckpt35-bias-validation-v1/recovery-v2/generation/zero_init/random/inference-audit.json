@@ -1,0 +1,39 @@
+{
+  "rows": 500,
+  "errors": 0,
+  "memory_mode": "random",
+  "checkpoint_sha256": "6b12110075af91bef3aab76dc69c4a0d9d671ceac6984ef568c74631d24a9c47",
+  "model_intervention": {
+    "schema": "amg-value-last-bias-intervention-v1",
+    "policy": "none",
+    "target_parameter": "memory_adapter.value_projection.2.bias",
+    "applied": false,
+    "changed_parameters": [],
+    "source_adapter_sha256": "669f5df54f4e06321fdbde37da5b69cf2223adfef71c75127f9f171caa9bd618",
+    "runtime_adapter_sha256": "669f5df54f4e06321fdbde37da5b69cf2223adfef71c75127f9f171caa9bd618",
+    "target_before": {
+      "sha256": "37cb4a73b187b33a4c4961df5ba150afa4b670a65f48d9fe1f755397e1cbe3ad",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "numel": 256,
+      "nonzero": 256,
+      "l2_norm": 0.004839712288230658,
+      "max_abs": 0.0011739862384274602,
+      "all_finite": true
+    },
+    "target_after": {
+      "sha256": "37cb4a73b187b33a4c4961df5ba150afa4b670a65f48d9fe1f755397e1cbe3ad",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "numel": 256,
+      "nonzero": 256,
+      "l2_norm": 0.004839712288230658,
+      "max_abs": 0.0011739862384274602,
+      "all_finite": true
+    }
+  }
+}

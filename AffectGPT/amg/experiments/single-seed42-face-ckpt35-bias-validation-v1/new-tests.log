@@ -1,0 +1,35 @@
+.usage: python -m unittest [-h] --config CONFIG --baseline-checkpoint
+                          BASELINE_CHECKPOINT --amg-checkpoint AMG_CHECKPOINT
+                          [--memory-bank MEMORY_BANK] --manifest MANIFEST
+                          [--dataset DATASET] --output OUTPUT
+                          [--device DEVICE] [--limit LIMIT]
+                          [--memory-mode {retrieval,random,off,current,learned}]
+                          [--task {ovlabel,description}]
+                          [--value-last-bias-override {none,zero}]
+                          [--question QUESTION]
+                          [--max-new-tokens MAX_NEW_TOKENS] [--seed SEED]
+                          [--overwrite] [--dry-run]
+python -m unittest: error: the following arguments are required: --config
+E.........
+======================================================================
+ERROR: test_infer_flag_explicit_and_default_none (amg.tests.test_adapter_state.BiasTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/tests/test_adapter_state.py", line 128, in test_infer_flag_explicit_and_default_none
+    self.assertEqual(infer_parser().parse_args(required).value_last_bias_override,"none")
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/argparse.py", line 1833, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/argparse.py", line 1866, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/argparse.py", line 2107, in _parse_known_args
+    self.error(_('the following arguments are required: %s') %
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/argparse.py", line 2594, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/ai/sjq/miniconda3/envs/vllm/lib/python3.10/argparse.py", line 2581, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.192s
+
+FAILED (errors=1)

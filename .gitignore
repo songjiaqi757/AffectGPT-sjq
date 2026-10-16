@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Server-local models and datasets
+/AffectGPT/models/
+/dataset/
+
+# Model weights and runtime state
+*.pth
+*.pt
+*.bin
+*.model
+*.pid
+*.lock
+/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/
