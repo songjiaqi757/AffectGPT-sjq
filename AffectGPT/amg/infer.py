@@ -248,6 +248,9 @@ def parser():
                         help="Media paths: MERCaptionPlus/source (default) or OVMERDPlus/OV-MERD+")
     result.add_argument("--output", type=Path, required=True)
     result.add_argument("--device", default="cuda:0")
+    result.add_argument("--cuda-memory-fraction", type=float)
+    result.add_argument("--prefix-control", choices=("none", "zero", "bank_mean"), default="none")
+    result.add_argument("--semantic-content-override", choices=("av_only", "subtitle", "caption", "shuffled_caption"))
     result.add_argument("--limit", type=int)
     result.add_argument("--memory-mode", choices=MODES, help="Generation override; checkpoint loading uses its trained mode")
     result.add_argument("--task", choices=("ovlabel", "description"), default="ovlabel")
@@ -273,6 +276,11 @@ def main(argv=None):
     for name in ("config", "baseline_checkpoint", "amg_checkpoint", "manifest", "output", "memory_bank"):
         if getattr(args, name) is not None:
             setattr(args, name, getattr(args, name).resolve())
+    if args.cuda_memory_fraction is not None:
+        if not 0 < args.cuda_memory_fraction <= 1 or not args.device.startswith("cuda"):
+            raise ValueError("cuda-memory-fraction requires CUDA and a value in (0,1]")
+        if not args.dry_run:
+            torch.cuda.set_per_process_memory_fraction(args.cuda_memory_fraction, torch.device(args.device))
     checkpoint = _load_checkpoint(args.amg_checkpoint)
     saved = checkpoint["config"]
     if saved.get("config_sha256") is not None and sha256_file(args.config) != saved["config_sha256"]:
@@ -281,7 +289,14 @@ def main(argv=None):
     cfg = load_config(args.config, face_or_frame=saved["face_or_frame"])
     baseline, bank_path = _verify_artifacts(args, saved, cfg)
     effective = args.memory_mode or saved["mode"]
+    if args.prefix_control != "none" and effective != "retrieval":
+        raise ValueError("Prefix controls require retrieval mode on a trained retrieval adapter")
     _validate_generation_override(saved["mode"], effective)
+    semantic_content = args.semantic_content_override or saved.get("semantic_content", "none")
+    if args.semantic_content_override and not saved.get("semantic_values"):
+        raise ValueError("Semantic override requires a semantic-trained checkpoint")
+    if saved.get("semantic_values") and sha256_file(saved["semantic_values"]) != saved["semantic_values_sha256"]:
+        raise ValueError("Checkpoint semantic artifact hash differs")
     if args.value_last_bias_override == "zero" and saved["mode"] not in {"retrieval", "random", "current"}:
         raise ValueError("Bias override requires a checkpoint with a trained Memory Adapter")
     if effective in {"retrieval", "random"} and bank_path is None:
@@ -315,6 +330,11 @@ def main(argv=None):
                 "target_denominator": 532 if args.dataset == "OVMERDPlus" else len(records),
                 "preview_errors": preview_errors, "validated": not preview_errors,
                 "trained_mode": saved["mode"], "memory_mode": effective,
+                "prefix_control": args.prefix_control,
+                "semantic_content": semantic_content, "trained_semantic_content": saved.get("semantic_content", "none"),
+                "semantic_values": saved.get("semantic_values"), "semantic_values_sha256": saved.get("semantic_values_sha256"),
+                "attention_logit_scale": float(saved.get("attention_logit_scale", 1.0)),
+                "cuda_memory_fraction": args.cuda_memory_fraction,
                 "task": args.task, "question": args.question, "seed": args.seed,
                 "face_or_frame": saved["face_or_frame"], "previews": previews,
                 "dry_run": args.dry_run, "max_new_tokens": args.max_new_tokens,
@@ -357,12 +377,21 @@ def main(argv=None):
     from .memory import MemoryBank
     from .model import AMGAffectGPT
     bank = MemoryBank.load(bank_path).to(args.device) if bank_path else None
+    semantic_values = None
+    if saved.get("semantic_values"):
+        from .semantic_values import SemanticValues
+        semantic_values = SemanticValues.load(saved["semantic_values"], bank, saved["semantic_values_sha256"])
+        if semantic_values.bank_sha256 != saved["memory_sha256"]:
+            raise ValueError("Semantic values differ from the checkpoint AV bank")
     base = load_base(cfg, baseline, args.device)
     # Restore with the checkpoint's trained parameter set before any ablation.
     model = AMGAffectGPT(base, bank, memory_mode=saved["mode"],
                         num_tokens=int(saved["num_tokens"]), hidden_dim=int(saved["hidden_dim"]),
-                        memory_dropout=float(saved["memory_dropout"]), train_peft=saved["train_peft"])
+                        memory_dropout=float(saved["memory_dropout"]), train_peft=saved["train_peft"],
+                        attention_logit_scale=float(saved.get("attention_logit_scale", 1.0)),
+                        semantic_values=semantic_values, semantic_content=semantic_content)
     model.restore_trainable_state(checkpoint["model"])
+    model.prefix_control = args.prefix_control
     if saved["mode"] in {"retrieval", "random", "current"}:
         from .adapter_state import apply_value_last_bias_override
         metadata["model_intervention"] = apply_value_last_bias_override(
@@ -383,7 +412,12 @@ def main(argv=None):
         for row in selected:
             trace = None
             result = {"name": row["name"], "group_id": row["group_id"], "dataset": args.dataset,
-                      "trained_mode": saved["mode"], "memory_mode": effective, "task": args.task}
+                      "trained_mode": saved["mode"], "memory_mode": effective,
+                "prefix_control": args.prefix_control,
+                "semantic_content": semantic_content, "trained_semantic_content": saved.get("semantic_content", "none"),
+                "semantic_values": saved.get("semantic_values"), "semantic_values_sha256": saved.get("semantic_values_sha256"),
+                "attention_logit_scale": float(saved.get("attention_logit_scale", 1.0)),
+                "cuda_memory_fraction": args.cuda_memory_fraction, "task": args.task}
             try:
                 sample, _ = prepare_generation_sample(builder, row, task=args.task,
                                                       question=args.question, read_media=True,

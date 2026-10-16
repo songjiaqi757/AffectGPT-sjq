@@ -1,0 +1,51 @@
+{
+  "N": 500,
+  "results": {
+    "av-only": {
+      "checkpoint_sha256": "fbefc77f370d5d0c5d36bf26f3f83e57933ce44e15da6c21f02a6dcb45eff885",
+      "semantic_content": "av_only",
+      "normal_attention_normalized_entropy_mean": 1.0,
+      "attention_max_weight_mean": 0.20000474154949188,
+      "tokens_vs_same_adapter_av_only_cosine_mean": 1.0,
+      "tokens_vs_same_adapter_av_only_relative_l2_mean": 0.0,
+      "first_layer_av_signal_norm_mean": 0.2627624571323395,
+      "first_layer_text_signal_norm_mean": 0.0,
+      "nonempty_semantic_slots": 0
+    },
+    "subtitle": {
+      "checkpoint_sha256": "1251138a674980c37129e8cf8a41a4b837b412fa0e6e2b47fcf3320f2746fcce",
+      "semantic_content": "subtitle",
+      "normal_attention_normalized_entropy_mean": 1.0,
+      "attention_max_weight_mean": 0.20001283288002014,
+      "tokens_vs_same_adapter_av_only_cosine_mean": 0.9724878072738647,
+      "tokens_vs_same_adapter_av_only_relative_l2_mean": 0.236151784658432,
+      "first_layer_av_signal_norm_mean": 0.25893834233283997,
+      "first_layer_text_signal_norm_mean": 0.18434220552444458,
+      "nonempty_semantic_slots": 2454
+    },
+    "caption": {
+      "checkpoint_sha256": "5707d776a2b97004245b608e92695d56566f9a13da5c2006e24e15fb0d64071e",
+      "semantic_content": "caption",
+      "normal_attention_normalized_entropy_mean": 1.0,
+      "attention_max_weight_mean": 0.2000105232000351,
+      "tokens_vs_same_adapter_av_only_cosine_mean": 0.9486298561096191,
+      "tokens_vs_same_adapter_av_only_relative_l2_mean": 0.31903254985809326,
+      "first_layer_av_signal_norm_mean": 0.2503826916217804,
+      "first_layer_text_signal_norm_mean": 0.19209307432174683,
+      "nonempty_semantic_slots": 2500
+    },
+    "shuffled-caption": {
+      "checkpoint_sha256": "9cca56984c48ca9af5105651f6802f7c7556a154a1df0ba6173f3edd4700dea1",
+      "semantic_content": "shuffled_caption",
+      "normal_attention_normalized_entropy_mean": 1.0,
+      "attention_max_weight_mean": 0.2000107765197754,
+      "tokens_vs_same_adapter_av_only_cosine_mean": 0.9584563970565796,
+      "tokens_vs_same_adapter_av_only_relative_l2_mean": 0.2897253632545471,
+      "first_layer_av_signal_norm_mean": 0.2596752345561981,
+      "first_layer_text_signal_norm_mean": 0.19718071818351746,
+      "nonempty_semantic_slots": 2500
+    }
+  },
+  "scope": "fixed frozen real-dev query/AV candidates; internal sensitivity does not prove semantic correctness or benefit",
+  "all_artifacts_server_only": true
+}

@@ -10,20 +10,24 @@ class AMGAffectGPT(nn.Module):
     MODES = {"retrieval", "random", "off", "current", "learned"}
 
     def __init__(self, base, bank=None, *, memory_mode="retrieval", num_tokens=4,
-                 hidden_dim=256, memory_dropout=0.2, train_peft=True):
+                 hidden_dim=256, memory_dropout=0.2, train_peft=True, attention_logit_scale=1.0, semantic_values=None, semantic_content="none"):
         super().__init__()
         if memory_mode not in self.MODES:
             raise ValueError(f"Unknown memory mode: {memory_mode}")
         self.base = base
         self.bank = bank
         self.memory_mode = memory_mode
+        self.semantic_values = semantic_values
+        self.semantic_content = semantic_content
+        if (semantic_values is None) != (semantic_content == "none"):
+            raise ValueError("Semantic values/content must be configured together")
         self.memory_dropout = float(memory_dropout)
         if not 0 <= self.memory_dropout <= 1:
             raise ValueError("memory_dropout must be in [0,1]")
         self.num_tokens = int(num_tokens)
         dim = base.llama_model.get_input_embeddings().embedding_dim
-        self.memory_adapter = MemoryAdapter(d_query=1792, d_value=1792,
-            d_hidden=hidden_dim, llm_dim=dim, num_tokens=num_tokens)
+        self.memory_adapter = MemoryAdapter(d_query=1792, d_value=1792 + (1024 if semantic_values is not None else 0),
+            d_hidden=hidden_dim, llm_dim=dim, num_tokens=num_tokens, attention_logit_scale=attention_logit_scale)
         self.learned_tokens = nn.Parameter(torch.empty(num_tokens, dim))
         nn.init.normal_(self.learned_tokens, std=0.01)
         for p in self.base.parameters():
@@ -135,9 +139,23 @@ class AMGAffectGPT(nn.Module):
                     clip_ids=samples.get("clip_ids"), group_ids=samples.get("group_ids"),
                     training=self.training, k=5, mode=mode)
                 query, values, mask = retrieval.query_features, retrieval.values, retrieval.mask
+            prefix_control = getattr(self, "prefix_control", "none")
+            if prefix_control == "bank_mean":
+                if self.bank is None:
+                    raise ValueError("bank_mean control needs the checkpoint bank")
+                values = self.bank.features.mean(0).to(values).view(1, 1, -1).expand_as(values)
+            if self.semantic_values is not None:
+                if mode == "current" or prefix_control != "none":
+                    raise ValueError("Semantic experiments require historical retrieval/random and no prefix control")
+                text_values, source_ids = self.semantic_values.lookup(retrieval.ids,
+                    samples["clip_ids"], samples["group_ids"], self.semantic_content)
+                values = torch.cat([values, text_values.to(values)], -1)
+                retrieval.semantic_source_ids = source_ids
             adapted = self.memory_adapter(query, values, mask,
                 dropout_p=self.memory_dropout if self.training else 0.0)
             tokens, enabled, gate = adapted.tokens, adapted.enabled, adapted.gate
+            if prefix_control == "zero":
+                tokens = torch.zeros_like(tokens)
         embed = self.base.llama_model.get_input_embeddings()
         if tokens is not None:
             tokens = tokens.to(device=embed.weight.device, dtype=embed.weight.dtype)
@@ -159,6 +177,7 @@ class AMGAffectGPT(nn.Module):
                 labels=assembled.labels, return_dict=True)
         return {"loss": result.loss, "memory_enabled": assembled.memory_enabled,
                 "retrieved_ids": None if retrieval is None else retrieval.ids,
+                "semantic_source_ids": getattr(retrieval, "semantic_source_ids", None),
                 "gate": gate, "input_lengths": assembled.lengths,
                 "attended_lengths": assembled.attention_mask.sum(-1)}
 
@@ -181,6 +200,8 @@ class AMGAffectGPT(nn.Module):
             output = self.base.llama_model.generate(inputs_embeds=assembled.inputs_embeds,
                 attention_mask=assembled.attention_mask, **generation)
         return output, {"retrieved_ids": None if retrieved is None else retrieved.ids,
+                        "semantic_source_ids": getattr(retrieved, "semantic_source_ids", None),
+                        "semantic_content": self.semantic_content,
                         "memory_enabled": assembled.memory_enabled.detach().cpu().tolist(),
                         "gate": None if gate is None else gate.detach().cpu().tolist()}
 

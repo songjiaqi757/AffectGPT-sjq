@@ -1,0 +1,158 @@
+{
+  "schema": "amg-m0-inference-v1",
+  "baseline_checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+  "base_sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+  "amg_checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-reader-validation-v1/training/scaled-retrieval/checkpoint_001334.pth",
+  "amg_sha256": "e2843dce497d448cc50e89e65f8b2d9818825c9509e720f53f59bf9356931be8",
+  "memory_bank": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/m0-bank-face-fit.pt",
+  "memory_sha256": "2efe1d8c69c82080a862978f95bccc7038c601f1466bb0c32ced3a27499666b7",
+  "manifest": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/manifests/dev.jsonl",
+  "manifest_sha256": "c169fea8e48ef20957760176aad430cb6012fb689e1b6ae4e6bf65f492c718ee",
+  "selected_clips": 500,
+  "dataset": "MERCaptionPlus",
+  "manifest_records": 500,
+  "target_denominator": 500,
+  "preview_errors": [],
+  "validated": true,
+  "trained_mode": "retrieval",
+  "memory_mode": "off",
+  "prefix_control": "none",
+  "attention_logit_scale": 50000.0,
+  "cuda_memory_fraction": 0.35,
+  "task": "ovlabel",
+  "question": null,
+  "seed": 42,
+  "face_or_frame": "multiface_audio_face_text",
+  "previews": [
+    {
+      "name": "samplenew3_00105356",
+      "prompt_tokens": 113,
+      "memory_insert_index": 86,
+      "budget": {
+        "schema": "amg-context-budget-v1",
+        "policy": "asr_prefix_only_shared_memory_budget_v1",
+        "max_length": 1024,
+        "subtitle_tokens_original": 17,
+        "subtitle_tokens_kept": 17,
+        "subtitle_tokens_truncated": 0,
+        "subtitle_characters_truncated": 0,
+        "prompt_tokens": 112,
+        "target_tokens": 0,
+        "bos_tokens": 1,
+        "eos_tokens": 0,
+        "memory_tokens_reserved": 4,
+        "generation_tokens_reserved": 128,
+        "input_tokens_without_memory": 113,
+        "final_tokens_with_memory": 117,
+        "total_tokens_with_generation": 245
+      }
+    },
+    {
+      "name": "samplenew3_00051090",
+      "prompt_tokens": 107,
+      "memory_insert_index": 80,
+      "budget": {
+        "schema": "amg-context-budget-v1",
+        "policy": "asr_prefix_only_shared_memory_budget_v1",
+        "max_length": 1024,
+        "subtitle_tokens_original": 11,
+        "subtitle_tokens_kept": 11,
+        "subtitle_tokens_truncated": 0,
+        "subtitle_characters_truncated": 0,
+        "prompt_tokens": 106,
+        "target_tokens": 0,
+        "bos_tokens": 1,
+        "eos_tokens": 0,
+        "memory_tokens_reserved": 4,
+        "generation_tokens_reserved": 128,
+        "input_tokens_without_memory": 107,
+        "final_tokens_with_memory": 111,
+        "total_tokens_with_generation": 239
+      }
+    },
+    {
+      "name": "samplenew3_00093127",
+      "prompt_tokens": 108,
+      "memory_insert_index": 81,
+      "budget": {
+        "schema": "amg-context-budget-v1",
+        "policy": "asr_prefix_only_shared_memory_budget_v1",
+        "max_length": 1024,
+        "subtitle_tokens_original": 12,
+        "subtitle_tokens_kept": 12,
+        "subtitle_tokens_truncated": 0,
+        "subtitle_characters_truncated": 0,
+        "prompt_tokens": 107,
+        "target_tokens": 0,
+        "bos_tokens": 1,
+        "eos_tokens": 0,
+        "memory_tokens_reserved": 4,
+        "generation_tokens_reserved": 128,
+        "input_tokens_without_memory": 108,
+        "final_tokens_with_memory": 112,
+        "total_tokens_with_generation": 240
+      }
+    }
+  ],
+  "dry_run": false,
+  "max_new_tokens": 128,
+  "requested_value_last_bias_override": "none",
+  "model_intervention": {
+    "schema": "amg-value-last-bias-intervention-v1",
+    "policy": "none",
+    "target_parameter": "memory_adapter.value_projection.2.bias",
+    "applied": false,
+    "changed_parameters": [],
+    "source_adapter_sha256": "f624d16d3e38a881468366667c730b0cb3dba009b7fd22c8cad8d4d1e13445be",
+    "runtime_adapter_sha256": "f624d16d3e38a881468366667c730b0cb3dba009b7fd22c8cad8d4d1e13445be",
+    "target_before": {
+      "sha256": "f91329d24c459ba2d8918980896a534e5cab6d2300bbabf9c47975f597a8fd26",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "numel": 256,
+      "nonzero": 256,
+      "l2_norm": 0.005080587696284056,
+      "max_abs": 0.001146257040090859,
+      "all_finite": true
+    },
+    "target_after": {
+      "sha256": "f91329d24c459ba2d8918980896a534e5cab6d2300bbabf9c47975f597a8fd26",
+      "shape": [
+        256
+      ],
+      "dtype": "torch.float32",
+      "numel": 256,
+      "nonzero": 256,
+      "l2_norm": 0.005080587696284056,
+      "max_abs": 0.001146257040090859,
+      "all_finite": true
+    }
+  },
+  "training_initialization": {
+    "adapter_init_state": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-bias-validation-v1/shared-adapter-init.pth",
+    "adapter_init_state_sha256": "2e5c18739c285199a861204fbc2a460d429a1012261bfd530e427cb6479adacd",
+    "value_last_bias_init": "zero",
+    "initial_adapter_state_sha256": "d4e2dbf0b17bc7e01993ac3189b1e4c5293b6d0054ed3e4c1cd60063da0c51bb",
+    "initial_lora_state_sha256": "5a0cff95b2b011ed2ffbec75829eda2024bde80993ba8d0511170a4155af1484"
+  },
+  "prompt_version": "amg-source-question-v1",
+  "infer_sha256": "312bbc478cef6621d85d362f7d9bc7c59a2c4236ba8beb7205c3340a907f250a",
+  "base_dataset_sha256": "9cc1f3435f5cc8e1cfbc7bf551d0518a7197c3f2da789ed5889e61831341152c",
+  "budget_schema": "amg-context-budget-v1",
+  "budget_source_sha256": "d4628a5f994c1b982af1fdf82f00d8ebd57e88831e3a13d786ba472c2cc9a382",
+  "config_sha256": "e976dbc2ab8d6c7928ebcac8a3e5ad7ca369071e98e8194f80b14885cbc349df",
+  "max_length": 1024,
+  "memory_tokens_reserved": 4,
+  "decoding": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 128,
+    "eos_token_id": 151645,
+    "pad_token_id": 151645
+  },
+  "prompt_sha256": "49ac94ac47485d462025cb447ff782abebe13c4dbb1d36827b127369810b517f",
+  "successes": 500,
+  "errors": 0
+}

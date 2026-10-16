@@ -37,6 +37,9 @@ def parser():
     p.add_argument("--adapter-init-state", help="Absolute shared Adapter initialization file for a new matched trial")
     p.add_argument("--value-last-bias-init", choices=("preserve", "zero"), default="preserve",
                    help="With --adapter-init-state, preserve or only zero the trainable value_projection.2.bias")
+    p.add_argument("--attention-logit-scale", type=float, default=1.0)
+    p.add_argument("--semantic-values")
+    p.add_argument("--semantic-content", choices=("none", "av_only", "subtitle", "caption", "shuffled_caption"), default="none")
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--workers", type=int, default=2)
     p.add_argument("--device", default="cuda:0")
@@ -73,6 +76,8 @@ def prepare_run(args):
             raise FileNotFoundError(shared_init)
         if args.mode not in {"retrieval", "random", "current"}:
             raise ValueError("Shared Adapter initialization requires a trainable Adapter mode")
+    if not __import__("math").isfinite(args.attention_logit_scale) or args.attention_logit_scale <= 0:
+        raise ValueError("attention-logit-scale must be finite and positive")
     cfg = load_config(args.config, face_or_frame=args.face_or_frame)
     manifest = Path(args.manifest).resolve()
     # Validate the training schema before any bank/model loading, including dry-run.
@@ -100,6 +105,7 @@ def prepare_run(args):
         "schema": "amg-m0-config-v1", "mode": args.mode,
         "num_tokens": args.num_tokens, "hidden_dim": args.hidden_dim,
         "memory_dropout": args.memory_dropout, "train_peft": not args.freeze_peft,
+        "attention_logit_scale": args.attention_logit_scale,
         "base_checkpoint": str(baseline), "base_sha256": sha256_file(baseline),
         "memory_bank": str(bank_path) if bank_path else None,
         "memory_sha256": meta["bank_sha256"] if meta else None,
@@ -118,6 +124,18 @@ def prepare_run(args):
         "encoder_policy": "frozen AV encoders eval; original AV projections frozen",
         "group_policy": "manifest group_id; default clip_id, no near-duplicate claim",
     }
+    semantic_path = getattr(args, "semantic_values", None)
+    semantic_content = getattr(args, "semantic_content", "none")
+    if (semantic_path is None) != (semantic_content == "none"):
+        raise ValueError("Semantic artifact/content must be configured together")
+    if semantic_path is not None:
+        semantic_path = Path(semantic_path)
+        if not semantic_path.is_absolute() or not semantic_path.is_file() or bank_path is None:
+            raise ValueError("Semantic values require absolute existing fit artifact and AV bank")
+        if args.mode not in {"retrieval", "random"}:
+            raise ValueError("Semantic experiments require retrieval/random")
+        run.update(semantic_values=str(semantic_path.resolve()), semantic_values_sha256=sha256_file(semantic_path),
+                   semantic_content=semantic_content, semantic_dim=1024)
     if shared_init is not None:
         run.update(adapter_init_state=str(shared_init),
                    adapter_init_state_sha256=sha256_file(shared_init),
@@ -239,6 +257,10 @@ class ExposureAudit:
                      "task_type": task, "replacement_failures": failures,
                      "was_replaced": requested != actual, "memory_enabled": enabled,
                      "input_length": length, "budget": budgets[i]}
+            if result.get("retrieved_ids") is not None:
+                entry["retrieved_ids"] = result["retrieved_ids"][i]
+            if result.get("semantic_source_ids") is not None:
+                entry["semantic_source_ids"] = result["semantic_source_ids"][i]
             examples.append(entry)
             self.ids[requested]["requested"] += 1
             seen = self.ids[actual]
@@ -370,10 +392,17 @@ def main(argv=None):
     if bank is not None and not args.allow_partial_bank:
         if set(bank.clip_ids) != {r["name"] for r in rows}:
             raise ValueError("Memory clip IDs differ from training manifest")
+    semantic_values = None
+    if run.get("semantic_values"):
+        from .semantic_values import SemanticValues
+        semantic_values = SemanticValues.load(run["semantic_values"], bank, run["semantic_values_sha256"])
+        if semantic_values.bank_sha256 != run["memory_sha256"] or semantic_values.fit_sha256 != run["manifest_sha256"]:
+            raise ValueError("Semantic values differ from training fit/bank")
     base = load_base(cfg, run["base_checkpoint"], device)
     model = AMGAffectGPT(base, bank, memory_mode=args.mode, num_tokens=args.num_tokens,
         hidden_dim=args.hidden_dim, memory_dropout=args.memory_dropout,
-        train_peft=not args.freeze_peft).to(device).train()
+        train_peft=not args.freeze_peft, attention_logit_scale=run.get("attention_logit_scale", 1.0),
+        semantic_values=semantic_values, semantic_content=run.get("semantic_content", "none")).to(device).train()
     initialization = load_shared_adapter_initialization(model, args, run)
     params = [p for p in model.parameters() if p.requires_grad]
     if not params:

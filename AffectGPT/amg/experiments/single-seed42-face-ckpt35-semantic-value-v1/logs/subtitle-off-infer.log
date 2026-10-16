@@ -1,0 +1,42 @@
+{"time": "2026-10-16T12:44:33.208060+00:00", "gpu": 0, "args": ["/ai/sjq/miniconda3/envs/vllm/bin/python", "-B", "-m", "amg.infer", "--config", "/ai/sjq/AffectGPT-sjq/AffectGPT/train_configs/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz.yaml", "--baseline-checkpoint", "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth", "--amg-checkpoint", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/training/subtitle/checkpoint_001334.pth", "--memory-bank", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/m0-bank-face-fit.pt", "--manifest", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/manifests/dev.jsonl", "--output", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/predictions/subtitle-off/dev.jsonl", "--device", "cuda:0", "--cuda-memory-fraction", "0.35", "--memory-mode", "off", "--task", "ovlabel", "--max-new-tokens", "128", "--seed", "42"]}
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/timm/models/hub.py:4: FutureWarning: Importing from timm.models.hub is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+====== Loading LLM ======
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.60s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.60s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.58s/it]
+====== Using LoRA on LLM ======
+trainable: LLAMA Model
+trainable params: 40,370,176 || all params: 7,655,986,688 || trainable%: 0.5273
+====== Loading Image Encoder ======
+====== Loading CLIP_VIT_LARGE ======
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/models/clip/feature_extraction_clip.py:28: FutureWarning: The class CLIPFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use CLIPImageProcessor instead.
+  warnings.warn(
+====== All these parameters are fixed during training!! ======
+====== Loading Video Q-Former ======
+====== Loading Video LLAMA proj ======
+trainable: Video Q-Former LLaMA proj
+====== Loading Audio Encoder ======
+====== Loading HUBERT_LARGE ======
+====== All these parameters are fixed during training!! ======
+====== Loading Audio Q-Former: ======
+====== Loading audio_llama_proj: ======
+trainable: Audio Q-Former LLaMA proj
+====== Loading Multi Q-Former (pre-fusion: this part is put in front of LLMs): ======
+====== Loading multi_llama_proj: ======
+trainable: Multi Q-Former LLaMA proj
+{"checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth", "legacy_renames": {}, "restored_trainable_count": 412, "frozen_missing_count": 1344}
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:629: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:634: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:651: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{"output": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/predictions/subtitle-off/dev.jsonl", "retrieval_trace": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/predictions/subtitle-off/dev.retrieval.jsonl", "metadata": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/predictions/subtitle-off/dev.meta.json", "successes": 500, "errors": 0}

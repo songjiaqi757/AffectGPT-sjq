@@ -1,0 +1,14 @@
+{"time": "2026-10-16T12:13:36.158520+00:00", "gpu": 1, "args": ["/ai/sjq/miniconda3/envs/vllm/bin/python", "-B", "-m", "amg.build_semantic_values", "--manifest", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/manifests/fit.jsonl", "--memory-bank", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/artifacts/m0-bank-face-fit.pt", "--field", "description", "--output", "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/artifacts/caption.pt", "--model", "/ai/sjq/AffectGPT-sjq/AffectGPT/models/bge-m3", "--device", "cuda:0", "--batch-size", "16", "--max-length", "256"]}
+Some weights of the model checkpoint at /ai/sjq/AffectGPT-sjq/AffectGPT/models/bge-m3 were not used when initializing XLMRobertaModel: ['pooler.dense.bias', 'pooler.dense.weight']
+- This IS expected if you are initializing XLMRobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing XLMRobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+{"field": "description", "encoded": 16, "total": 4000}
+{"field": "description", "encoded": 512, "total": 4000}
+{"field": "description", "encoded": 1024, "total": 4000}
+{"field": "description", "encoded": 1536, "total": 4000}
+{"field": "description", "encoded": 2048, "total": 4000}
+{"field": "description", "encoded": 2560, "total": 4000}
+{"field": "description", "encoded": 3072, "total": 4000}
+{"field": "description", "encoded": 3584, "total": 4000}
+{"field": "description", "encoded": 4000, "total": 4000}
+{"output": "/ai/sjq/AffectGPT-sjq/AffectGPT/amg/experiments/single-seed42-face-ckpt35-semantic-value-v1/artifacts/caption.pt", "sha256": "71a1b8bf1333689beb9ec4051c3571d02f75859984f00a6b3dc2807f8ea61074", "statistics": {"valid": 4000, "missing": 0, "truncated": 7, "max_tokens": 280}}

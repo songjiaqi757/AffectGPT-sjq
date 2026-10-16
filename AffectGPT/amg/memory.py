@@ -5,6 +5,7 @@ from typing import List, Optional
 
 import torch
 from torch import Tensor, nn
+from .scaled_attention import LogitScaledAttention
 import torch.nn.functional as F
 
 VISUAL_DIM = 768
@@ -187,7 +188,7 @@ class AdapterOutput:
 
 class MemoryAdapter(nn.Module):
     def __init__(self, d_query=MEMORY_DIM, d_value=MEMORY_DIM, d_hidden=256,
-                 llm_dim=3584, num_tokens=4, num_heads=4, memory_dropout=0.1):
+                 llm_dim=3584, num_tokens=4, num_heads=4, memory_dropout=0.1, attention_logit_scale=1.0):
         super().__init__()
         if d_hidden % num_heads:
             raise ValueError("d_hidden must be divisible by num_heads")
@@ -202,7 +203,7 @@ class MemoryAdapter(nn.Module):
                                                nn.Linear(d_hidden, d_hidden))
         self.queries = nn.Parameter(torch.empty(num_tokens, d_hidden))
         nn.init.normal_(self.queries, std=0.02)
-        self.attention = nn.MultiheadAttention(d_hidden, num_heads, batch_first=True)
+        self.attention = LogitScaledAttention(d_hidden, num_heads, batch_first=True, logit_scale=attention_logit_scale)
         self.output_projection = nn.Sequential(nn.LayerNorm(d_hidden),
                                                 nn.Linear(d_hidden, llm_dim))
         self.gate_projection = nn.Linear(d_query, 1)
