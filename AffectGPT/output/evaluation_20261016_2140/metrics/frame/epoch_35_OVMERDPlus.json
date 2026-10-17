@@ -1,0 +1,20 @@
+{
+  "job_id": "frame_e35_OVMERDPlus",
+  "variant": "frame",
+  "gpu": 1,
+  "epoch": 35,
+  "dataset": "OVMERDPlus",
+  "samples": 532,
+  "ground_truth_records": 532,
+  "checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/mercaptionplus_frame_gpu1/mercaptionplus_frame_gpu1_20261014231/checkpoint_000035_loss_0.711.pth",
+  "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/evaluation_20261016_2140/frame/results-ovmerdplus/mercaptionplus_frame_gpu1_20261014231/checkpoint_000035_loss_0.711.npz",
+  "main_metric": "F_s",
+  "main_score": 0.6077016677561232,
+  "metrics": {
+    "F_s": 0.6077016677561232,
+    "P_s": 0.6052474971019024,
+    "R_s": 0.6118910099478873
+  },
+  "completed_at": "2026-10-17T10:01:53+08:00",
+  "protocol": "Repository per-checkpoint functions; original Qwen prompts and wheel resources."
+}

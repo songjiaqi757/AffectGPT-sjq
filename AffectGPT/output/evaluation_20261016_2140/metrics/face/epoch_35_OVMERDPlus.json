@@ -1,0 +1,20 @@
+{
+  "job_id": "face_e35_OVMERDPlus",
+  "variant": "face",
+  "gpu": 0,
+  "epoch": 35,
+  "dataset": "OVMERDPlus",
+  "samples": 532,
+  "ground_truth_records": 532,
+  "checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+  "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/evaluation_20261016_2140/face/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.npz",
+  "main_metric": "F_s",
+  "main_score": 0.6119463265389085,
+  "metrics": {
+    "F_s": 0.6119463265389085,
+    "P_s": 0.6026461837208203,
+    "R_s": 0.6228304433415274
+  },
+  "completed_at": "2026-10-17T09:28:56+08:00",
+  "protocol": "Repository per-checkpoint functions; original Qwen prompts and wheel resources."
+}

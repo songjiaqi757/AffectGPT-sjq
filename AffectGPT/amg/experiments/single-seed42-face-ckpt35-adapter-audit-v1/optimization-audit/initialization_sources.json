@@ -1,9 +1,0 @@
-{
-  "torch_version": "2.4.0+cu121",
-  "linear_reset_parameters": "    def reset_parameters(self) -> None:\n        # Setting a=sqrt(5) in kaiming_uniform is the same as initializing with\n        # uniform(-1/sqrt(in_features), 1/sqrt(in_features)). For details, see\n        # https://github.com/pytorch/pytorch/issues/57109\n        init.kaiming_uniform_(self.weight, a=math.sqrt(5))\n        if self.bias is not None:\n            fan_in, _ = init._calculate_fan_in_and_fan_out(self.weight)\n            bound = 1 / math.sqrt(fan_in) if fan_in > 0 else 0\n            init.uniform_(self.bias, -bound, bound)\n",
-  "mha_reset_parameters": "    def _reset_parameters(self):\n        if self._qkv_same_embed_dim:\n            xavier_uniform_(self.in_proj_weight)\n        else:\n            xavier_uniform_(self.q_proj_weight)\n            xavier_uniform_(self.k_proj_weight)\n            xavier_uniform_(self.v_proj_weight)\n\n        if self.in_proj_bias is not None:\n            constant_(self.in_proj_bias, 0.)\n            constant_(self.out_proj.bias, 0.)\n        if self.bias_k is not None:\n            xavier_normal_(self.bias_k)\n        if self.bias_v is not None:\n            xavier_normal_(self.bias_v)\n",
-  "source_sha256": {
-    "linear_reset": "69e4a8abec312ccc3a2a976be4afa2d72e427b9e8ae3fe8f9d52b33774f7bc93",
-    "mha_reset": "43f78ed01f46f8e40fec031acda3e2941b4e41533070106f913ffc84552b1eb7"
-  }
-}

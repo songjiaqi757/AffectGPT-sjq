@@ -1,0 +1,18 @@
+{
+  "job_id": "frame_e40_MER2023",
+  "variant": "frame",
+  "gpu": 1,
+  "epoch": 40,
+  "dataset": "MER2023",
+  "samples": 411,
+  "ground_truth_records": 411,
+  "checkpoint": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/mercaptionplus_frame_gpu1/mercaptionplus_frame_gpu1_20261014231/checkpoint_000040_loss_0.650.pth",
+  "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/evaluation_20261016_2140/frame/results-mer2023/mercaptionplus_frame_gpu1_20261014231/checkpoint_000040_loss_0.650.npz",
+  "main_metric": "HIT",
+  "main_score": 0.76710145663097,
+  "metrics": {
+    "HIT": 0.76710145663097
+  },
+  "completed_at": "2026-10-17T10:05:55+08:00",
+  "protocol": "Repository per-checkpoint functions; original Qwen prompts and wheel resources."
+}
