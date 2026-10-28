@@ -1,0 +1,130 @@
+"""Single-GPU, five-epoch AffectGPT continuation with frozen graph evidence."""
+import argparse,copy,json,math,os,random,sys,time,traceback
+from pathlib import Path
+import numpy as np
+import torch
+from amg_runtime.common import read,sha,canonical,atomic_json,require
+from .common import ROOT,load_plan,now,verify_code
+
+def seed_worker(index):
+ seed=torch.initial_seed()%2**32;np.random.seed(seed);random.seed(seed);torch.set_num_threads(1)
+def to_device(value,device):
+ if torch.is_tensor(value):return value.to(device,non_blocking=True)
+ if isinstance(value,dict):return {k:to_device(v,device) for k,v in value.items()}
+ if isinstance(value,list):return [to_device(v,device) for v in value]
+ return value
+def build_optimizer(model,settings):
+ decay=[];no_decay=[];names=[]
+ for name,p in model.named_parameters():
+  if not p.requires_grad:continue
+  names.append(name)
+  (no_decay if p.ndim<2 or any(x in name for x in ["bias","ln","bn"]) else decay).append(p)
+ optimizer=torch.optim.AdamW([dict(params=decay,weight_decay=settings["weight_decay"]),dict(params=no_decay,weight_decay=0)],lr=settings["learning_rate"],weight_decay=settings["weight_decay"],betas=(.9,.999))
+ return optimizer,names
+def save_checkpoint(model,optimizer,scaler,config,epoch,stats,output,metadata):
+ grad={k:p.requires_grad for k,p in model.named_parameters()}
+ state={k:v for k,v in model.state_dict().items() if k not in grad or grad[k]}
+ obj=dict(model=state,optimizer=optimizer.state_dict(),config=config,scaler=scaler.state_dict(),epoch=epoch,amg_finetune=metadata,training_stats=stats,rng_state=dict(torch=torch.get_rng_state(),cuda=torch.cuda.get_rng_state_all(),python=random.getstate(),numpy=dict(name=np.random.get_state()[0],keys=np.random.get_state()[1].tolist(),position=int(np.random.get_state()[2]),has_gauss=int(np.random.get_state()[3]),cached_gaussian=float(np.random.get_state()[4]))))
+ target=output/f"checkpoint_{epoch:06d}_loss_{stats['loss']:.3f}.pth";tmp=target.with_suffix(".pth.tmp")
+ torch.save(obj,tmp);tmp.replace(target)
+ return dict(path=str(target),sha256=sha(target),epoch=epoch,loss=stats["loss"])
+def main():
+ p=argparse.ArgumentParser();p.add_argument("--run",required=True);p.add_argument("--base-epoch",type=int,required=True);args=p.parse_args()
+ run=Path(args.run).resolve();plan=load_plan(run);verify_code(run)
+ spec=next(s for s in plan["checkpoints"] if s["base_epoch"]==args.base_epoch);output=Path(spec["output"]);output.mkdir(exist_ok=False)
+ status=dict(state="loading",base_epoch=args.base_epoch,physical_gpu=os.environ.get("CUDA_VISIBLE_DEVICES"),pid=os.getpid(),plan_id=plan["plan_id"],started_at_beijing=now(),completed_steps=0,completed_epochs=0,total_steps=25000,additional_epochs=5)
+ status_path=run/f"experiment_{args.base_epoch}_status.json"
+ def update(**fields):
+  status.update(fields,updated_at_beijing=now());atomic_json(status_path,status);atomic_json(output/"status.json",status)
+ try:
+  update()
+  require(read(run/"gpu_smoke_report.json")["passed"],"Real GPU preflight has not passed")
+  for relative,key in [("train_records.json","train_records_sha256"),("human_audit_500.json","audit_records_sha256")]:
+   require(sha(run/relative)==plan["inputs"][key],"Current-run data manifest changed")
+  assets=read(run/"model_assets_manifest.json")
+  for filename,binding in assets["assets"].items():
+   st=Path(filename).stat();require(st.st_size==binding["bytes"] and st.st_mtime_ns==binding["mtime_ns"],"Pretrained model asset changed")
+  ready=read(run/"cache_manifest.json");require(ready["complete"] and ready["samples"]==plan["training_count"] and ready["plan_id"]==plan["plan_id"],"Graph evidence preflight incomplete")
+  require(sha(run/"query_engine_config.json")==plan["inputs"]["query_config_sha256"],"Frozen query configuration changed")
+  require(sha(spec["path"])==spec["sha256"],"Original checkpoint changed")
+  torch.set_num_threads(4);random.seed(42);np.random.seed(42);torch.manual_seed(42);torch.cuda.manual_seed_all(42);torch.backends.cudnn.benchmark=False;torch.backends.cudnn.deterministic=True
+  os.chdir(ROOT/"AffectGPT");sys.path.insert(0,str(ROOT/"AffectGPT"))
+  from omegaconf import OmegaConf
+  from my_affectgpt.models.affectgpt import AffectGPT
+  from .dataset import GraphContinueDataset
+  config=read(run/"original_config.json");config=copy.deepcopy(config)
+  config["model"].update(ckpt="",ckpt_2="",ckpt_3="",max_length=plan["training"]["max_sequence_tokens"])
+  config["run"].update(distributed=False,world_size=1,max_epoch=args.base_epoch+5,output_dir=str(output),resume_ckpt_path=spec["path"],warmup_steps=0)
+  config["amg_finetune"]=dict(plan_id=plan["plan_id"],query_config_id=plan["query_config_id"],cache_manifest_sha256=sha(run/"cache_manifest.json"),base_checkpoint_sha256=spec["sha256"],memory_execution_sha256=sha(run/"training_execution.json"),llm_gradient_checkpointing=True)
+  atomic_json(output/"config.json",config)
+  cfg=OmegaConf.create(config["model"])
+  checkpoint=torch.load(spec["path"],map_location="cpu",weights_only=True)
+  require(checkpoint["epoch"]==args.base_epoch,"Base checkpoint epoch mismatch")
+  model=AffectGPT.from_config(cfg)
+  trainable={k:p for k,p in model.named_parameters() if p.requires_grad}
+  unexpected=set(checkpoint["model"])-set(model.state_dict());missing=set(trainable)-set(checkpoint["model"])
+  require(not unexpected and not missing,"Checkpoint architecture/trainable mismatch: "+repr((unexpected,missing)))
+  for name,value in checkpoint["model"].items():require(tuple(value.shape)==tuple(model.state_dict()[name].shape),"Checkpoint tensor shape mismatch: "+name)
+  result=model.load_state_dict(checkpoint["model"],strict=False);require(not result.unexpected_keys and not (set(result.missing_keys)&set(trainable)),"Trainable weight loading incomplete")
+  # Only frozen base/encoder tensors may be absent from this trainable-only checkpoint.
+  for name in trainable:require(torch.equal(trainable[name].detach().cpu(),checkpoint["model"][name]),"Restored weight mismatch: "+name)
+  model=model.to("cuda:0");model.train()
+  model.llama_model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant":False})
+  model.llama_model.config.use_cache=False
+  atomic_json(output/"memory_execution.json",read(run/"training_execution.json"))
+  optimizer,names=build_optimizer(model,plan["training"])
+  require([len(g["params"]) for g in optimizer.param_groups]==[len(g["params"]) for g in checkpoint["optimizer"]["param_groups"]],"Optimizer parameter group sizes differ")
+  optimizer.load_state_dict(checkpoint["optimizer"])
+  for group in optimizer.param_groups:group["lr"]=plan["training"]["learning_rate"]
+  for parameter,state in optimizer.state.items():
+   for key in ["exp_avg","exp_avg_sq"]:
+    require(key in state and state[key].shape==parameter.shape,"Optimizer state/parameter alignment mismatch")
+  scaler=torch.amp.GradScaler("cuda");scaler.load_state_dict(checkpoint["scaler"])
+  load_report=dict(passed=True,base_epoch=args.base_epoch,base_checkpoint_sha256=spec["sha256"],trainable_tensor_count=len(trainable),all_trainable_weights_equal_before_training=True,optimizer_restored=True,optimizer_groups=[len(g["params"]) for g in optimizer.param_groups],optimizer_parameter_order_sha256=canonical(names),scaler_restored=True,initial_scaler=scaler.state_dict(),next_epoch=args.base_epoch+1,final_epoch=args.base_epoch+5,missing_frozen_tensors=len(result.missing_keys))
+  atomic_json(output/"checkpoint_load_report.json",load_report);del checkpoint
+  dataset=GraphContinueDataset(run,cfg)
+  require(len(dataset)==plan["training_count"],"Training membership changed")
+  generator=torch.Generator();generator.manual_seed(42)
+  loader=torch.utils.data.DataLoader(dataset,batch_size=plan["training"]["batch_size"],shuffle=True,drop_last=True,num_workers=plan["training"]["num_workers"],collate_fn=dataset.collater,worker_init_fn=seed_worker,generator=generator,pin_memory=True,persistent_workers=True,multiprocessing_context="spawn",prefetch_factor=2)
+  iterator=iter(loader);optimizer.zero_grad(set_to_none=True);started=time.time();completed=0;optimizer_updates=0;skipped=0;checkpoints=[];smoke_passed=False
+  probe_name=next(n for n in trainable if "lora_B" in n);probe=model.get_parameter(probe_name);initial_probe=probe.detach().clone()
+  settings=plan["training"];metrics_file=(output/"steps.jsonl").open("a",buffering=1)
+  update(state="training",current_epoch=args.base_epoch+1,epoch_step=0,trainable_parameters=sum(p.numel() for p in trainable.values()),gpu_memory_allocated=int(torch.cuda.memory_allocated()))
+  for epoch in spec["epochs"]:
+   losses=[];epoch_started=time.time()
+   for step in range(settings["iters_per_epoch"]):
+    try:batch=next(iterator)
+    except StopIteration:iterator=iter(loader);batch=next(iterator)
+    require(batch["labels"].shape[1]<=settings["max_sequence_tokens"],"Actual batch context exceeds budget")
+    require(all(not r["fallback"] or r["graph_tokens"]==0 for r in batch["prompt_info"]),"Fallback evidence contract violated")
+    if not smoke_passed and step<2:
+     atomic_json(output/f"first_batch_{step}.json",dict(sample_ids=batch["sample_ids"],prompt_info=batch["prompt_info"],shape=list(batch["input_ids"].shape),supervised_tokens=[int((r!=-100).sum()) for r in batch["labels"]],graph_tokens_masked_from_loss=True))
+    batch=to_device(batch,torch.device("cuda:0"))
+    with torch.amp.autocast("cuda",dtype=torch.float16):loss=model(batch)["loss"]
+    require(bool(torch.isfinite(loss)),"Non-finite training loss")
+    scale_before=scaler.get_scale();scaler.scale(loss).backward();scaler.step(optimizer);scaler.update();optimizer.zero_grad(set_to_none=True)
+    successful=scaler.get_scale()>=scale_before;optimizer_updates+=int(successful);skipped+=int(not successful)
+    value=float(loss.detach().float());losses.append(value);completed+=1
+    row=dict(time_beijing=now(),epoch=epoch,epoch_step=step+1,global_additional_step=completed,loss=value,learning_rate=optimizer.param_groups[0]["lr"],optimizer_step_applied=successful,grad_scaler=scaler.get_scale(),sequence_tokens=int(batch["input_ids"].shape[1]),sample_ids=batch["sample_ids"],prompt_info=batch["prompt_info"])
+    metrics_file.write(json.dumps(row,ensure_ascii=False,allow_nan=False)+"\n")
+    if not smoke_passed and optimizer_updates>=2:
+     changed=not torch.equal(initial_probe,probe.detach());require(changed,"No LoRA parameter update after successful optimizer steps")
+     smoke_passed=True
+     atomic_json(output/"smoke_report.json",dict(passed=True,finite_forward_backward=True,successful_optimizer_updates=optimizer_updates,restored_optimizer=True,changed_parameter=probe_name,changed_parameter_maximum_absolute_difference=float((initial_probe-probe.detach()).abs().max()),graph_evidence_present=any(x["graph_tokens"]>0 for x in batch["prompt_info"]),batch_size=settings["batch_size"],actual_sequence_tokens=int(batch["input_ids"].shape[1]),counted_within_requested_25000_iterations=True))
+     del initial_probe
+    require(completed<50 or smoke_passed,"No successful optimizer progress within first 50 iterations")
+    if completed%10==0 or completed<=3:
+     elapsed=time.time()-started;update(state="training",current_epoch=epoch,epoch_step=step+1,completed_steps=completed,optimizer_updates=optimizer_updates,amp_skipped_steps=skipped,last_loss=value,mean_loss_current_epoch=math.fsum(losses)/len(losses),elapsed_training_seconds=elapsed,seconds_per_step=elapsed/completed,smoke_passed=smoke_passed,gpu_memory_allocated=int(torch.cuda.memory_allocated()),gpu_memory_peak=int(torch.cuda.max_memory_allocated()))
+     print(json.dumps(dict(epoch=epoch,step=step+1,completed_steps=completed,loss=value,optimizer_updates=optimizer_updates,smoke_passed=smoke_passed)),flush=True)
+    del batch,loss
+   require(smoke_passed,"GPU smoke test did not pass")
+   stats=dict(loss=math.fsum(losses)/len(losses),iterations=len(losses),epoch_seconds=time.time()-epoch_started)
+   metadata=dict(config["amg_finetune"],base_epoch=args.base_epoch,additional_epoch=epoch-args.base_epoch,additional_steps=completed,training_members_digest=plan["training_ids_digest"],audit_excluded=True)
+   saved=save_checkpoint(model,optimizer,scaler,config,epoch,stats,output,metadata);checkpoints.append(saved)
+   atomic_json(output/"checkpoints.json",checkpoints)
+   update(completed_epochs=epoch-args.base_epoch,checkpoints=checkpoints)
+  metrics_file.close();require(completed==25000 and status["completed_epochs"]==5,"Continuation did not complete exactly five epochs")
+  update(state="complete",completed_steps=completed,finished_at_beijing=now(),elapsed_training_seconds=time.time()-started)
+ except Exception as exc:
+  update(state="failed",error=type(exc).__name__+": "+str(exc),traceback=traceback.format_exc());raise
+if __name__=="__main__":main()

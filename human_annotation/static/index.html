@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AffectGPT · 人工标注工作台</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brand-icon">A</span><span>AffectGPT <small>人工标注工作台</small></span></a><span class="mode">Qwen 辅助复核 · 500 个保留样本</span><button id="export" class="quiet">导出到服务器 ↗</button></header>
+<div class="layout">
+<aside class="sidebar">
+<div class="side-title"><h2>标注队列</h2><span id="queueCount" class="muted">500 个样本</span></div>
+<div class="overview"><div><strong id="submitted">0</strong><span>已提交</span></div><div><strong id="drafted">0</strong><span>草稿</span></div><div><strong id="pending">500</strong><span>未开始</span></div></div>
+<progress id="progress" max="500" value="0" aria-label="总体标注进度"></progress>
+<label class="sr-only" for="search">搜索样本</label><input id="search" type="search" placeholder="搜索样本 ID 或中英文文本">
+<div class="filters"><select id="role" aria-label="分区"><option value="all">全部分区 · 500</option><option value="gold_audit">人工审计 · 300</option><option value="diagnostic_reserved">诊断保留 · 200</option></select><select id="status" aria-label="进度"><option value="all">全部进度</option><option value="pending">未开始</option><option value="draft">草稿</option><option value="submitted">已提交</option></select></div>
+<div id="listCount" class="list-count"></div><nav id="samples" aria-label="样本队列"></nav>
+<div class="side-foot">保存位置：服务器数据库<br>标注时显示 Qwen 原始结果</div>
+</aside>
+<main id="main">
+<div id="error" class="error" role="alert" hidden></div><div id="exportResult" class="notice" hidden></div>
+<div id="loading" class="empty">正在读取服务器上的样本…</div>
+<div id="workspace" hidden>
+<section class="sample-head"><div><div class="eyebrow" id="samplePosition">SAMPLE</div><h1 id="sampleId"></h1><p id="sampleMeta"></p></div><div class="sample-nav"><button id="prev" class="quiet" aria-label="上一个样本">← 上一个</button><button id="next" class="quiet" aria-label="下一个样本">下一个 →</button></div></section>
+<section class="media-card"><div class="video-wrap"><video id="video" controls playsinline preload="metadata" aria-label="完整有声视频"></video><span class="video-label">视频 · 画面 + 原始音频</span></div><div class="transcript"><div class="eyebrow">TEXT · 原始文本</div><p id="zh" class="zh"></p><p id="en" class="en"></p><div class="audio-head"><span>音频 · 单独播放</span><button id="sync" class="small quiet">▶ 播放音视频</button></div><audio id="audio" controls preload="metadata" aria-label="原始完整音频"></audio><p id="mediaNote" class="hint">视频默认有声播放；单独播放音频时会暂停视频，避免重复出声。</p></div></section>
+<section class="review-meta"><label>标注人<input id="annotator" maxlength="100" placeholder="填写姓名或编号（提交必填）" autocomplete="off"></label><label class="context">人工事件概述（选填）<input id="eventContext" maxlength="6000" placeholder="描述当前样本中直接可观察的事件"></label></section>
+<div class="work-heading"><div><h2>节点复核</h2><p>左侧查看 Qwen 原始标注，右侧只确认存在的标签。其余留空，无需填满；证据选填。</p></div><span id="nodeProgress" class="node-count">已确认 0 项 · 可直接提交</span></div>
+<div class="tabs" role="tablist" aria-label="标注模态"><button class="active" id="tab-text" role="tab" aria-selected="true" data-tab="text">文本 Cue <span>15</span></button><button id="tab-audio" role="tab" aria-selected="false" data-tab="audio">音频 Cue <span>17</span></button><button id="tab-visual" role="tab" aria-selected="false" data-tab="visual">视觉 Cue <span>10</span></button><button id="tab-appraisal" role="tab" aria-selected="false" data-tab="appraisal">Appraisal <span>6 维 / 16 状态</span></button></div>
+<div id="guidance" class="guidance"></div>
+<div class="columns"><span>节点 / 中文释义</span><span>Qwen · 原始标注</span><span>人工标注</span></div>
+<div id="nodes" role="tabpanel" aria-labelledby="tab-text"></div>
+<details class="provenance"><summary>查看 Qwen 原始内容与来源</summary><p>原始状态及证据直接读取历史 teacher_raw；人工结果独立保存。此模式记录为可见 Teacher 的辅助复核。</p><pre id="raw"></pre></details>
+<label class="notes">样本备注（选填）<textarea id="notes" rows="2" placeholder="记录争议、边界情况或复核说明"></textarea></label>
+<footer class="savebar"><div><strong id="saveStatus" role="status">尚未标注</strong><small id="revision">所有标注保存至服务器</small></div><div class="save-actions"><button id="save" class="quiet">保存草稿</button><button id="submit" class="primary">提交并进入下一条 →</button></div></footer>
+</div>
+</main></div></body></html>

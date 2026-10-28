@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>流泪样本 · MER-Caption+</title><link rel="stylesheet" href="/assets/tearing.css"><script src="/assets/tearing.js" defer></script></head>
+<body>
+<aside><a class="brand" href="/">AffectGPT <span>样本复核</span></a><h1>流泪样本</h1><p class="intro" id="cohortIntro">查看流泪阳性样本及大模型原始证据。</p><label class="search-label" for="search">搜索样本 / 证据</label><input id="search" type="search" placeholder="样本ID、字幕或证据关键词"><div id="count" class="count">正在读取候选…</div><nav id="list" aria-label="流泪候选样本"></nav><p class="aside-foot">只读浏览 · 不会修改标签</p></aside>
+<main>
+<header><div><div class="eyebrow">MER-CAPTION+ · QWEN3.8-OMNI-FLASH</div><h2>查看流泪样本与原始依据</h2><p>播放完整静音视频，逐条核对眼睑或面颊的泪滴、泪痕。</p></div><span class="pill" id="labelStatus">正在读取标签</span></header>
+<div id="error" class="error" role="alert" hidden></div><p id="loading">正在加载…</p>
+<section id="workspace" hidden>
+<div class="sample-heading"><div><strong id="sid"></strong><span id="videoMeta"></span></div><div class="navigation"><span id="position"></span><button id="prev" type="button">← 上一条</button><button id="next" type="button">下一条 →</button></div></div>
+<div class="content"><div class="video-card"><video id="video" controls playsinline preload="metadata" aria-label="流泪候选完整静音视频"></video><div class="video-foot"><span>完整视频 · 已移除音轨</span><span id="duration"></span></div><p id="mediaError" class="error" hidden>视频加载失败，请刷新或检查连接。</p></div>
+<section class="evidence-card"><h3>模型标注依据</h3><p class="caption">以下是大模型返回的原始证据。</p><blockquote id="evidence"></blockquote><button id="seek" type="button" hidden>跳到模型提及的时间</button><div class="states"><div><span>模型原始判断</span><strong>positive · 存在</strong></div><div><span>当前训练标签</span><strong id="currentLabel">正在读取</strong></div></div><p class="note" id="labelNote"></p></section></div>
+<details class="transcript"><summary>查看中英文文本（不作为视觉标注依据）</summary><p id="chinese"></p><p id="english"></p></details>
+<p class="helper">使用“上一条 / 下一条”逐条浏览，也可用键盘 ← / → 切换样本。这里展示902条流泪阳性样本，采用大模型原始标签。</p>
+</section></main></body></html>

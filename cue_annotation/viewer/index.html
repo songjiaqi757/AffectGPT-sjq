@@ -1,0 +1,34 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MER-Caption+ · 标注查看器</title><link rel="stylesheet" href="/assets/style.css"><script defer src="/assets/app.js"></script></head>
+<body><aside class="sidebar">
+<a class="brand" href="/"><span class="brand-icon">M<sup>+</sup></span><span>MER-Caption+<small>多模态标注工作台</small></span></a>
+<div class="side-label">样本库 <span id="sampleCount">—</span></div>
+<label class="search"><span>⌕</span><input id="sampleSearch" placeholder="搜索 ID / 中文 / English" aria-label="搜索样本"></label>
+<label class="review-toggle"><input type="checkbox" id="reviewOnly"> 仅看有待复核项的样本</label>
+<nav id="sampleList" aria-label="样本列表"></nav>
+<div class="sidebar-foot"><span class="live-dot"></span> 服务器数据 · 只读查看<small>J / K 切换样本</small></div></aside>
+<main><header class="topbar"><div><span class="eyebrow">ANNOTATION EXPLORER</span><h1>看见数据，也看见判断。</h1><p>对照原始内容，逐项查看模型的多模态线索标注。</p></div><span class="status-pill">● 30 条试标</span></header>
+<section class="run-toolbar" aria-label="固定标注协议"><span>当前固定版本</span><strong id="runLabel"></strong><a href="/appraisal" class="export-link">Appraisal 联合标注</a><a href="/tearing" class="export-link">查看流泪样本</a><a id="downloadLabels" class="export-link">下载标签 CSV</a></section>
+<p id="runNotice" class="run-notice" role="status"></p>
+<section class="metrics" aria-label="总体统计">
+<div><span>已标注样本</span><strong id="totalSamples">—</strong><small id="sourceCount">—</small></div>
+<div><span>Cue 标注</span><strong id="totalCues">—</strong><small>文本 15 · 音频 17 · 视觉 10 / 样本</small></div>
+<div><span>线索存在</span><strong class="teal" id="positiveCount">—</strong><small>positive · 模型观察到的线索</small></div>
+<div><span>不确定 / 不可观测</span><strong class="amber" id="maskedCount">—</strong><small>mask = 0 · 不计入监督</small></div></section>
+<p id="pilotProgress" class="review-notice" role="status" hidden></p><div id="connectionBanner" class="connection-banner" role="alert" hidden><span id="connectionMessage"></span><button id="retryMedia" type="button">重新检查并加载</button></div><div id="error" role="alert" hidden></div><div id="loading" role="status">正在加载服务器上的标注结果…</div>
+<div id="workspace" hidden>
+<section class="sample-heading"><div><span class="eyebrow">CURRENT SAMPLE <span id="position"></span></span><h2 id="sampleId"></h2></div><div class="navigation"><button id="prev" aria-label="上一个样本">← 上一个</button><button id="next" aria-label="下一个样本">下一个 →</button></div></section>
+<section class="source-grid">
+<article class="card video-card"><div class="card-heading"><h3><span class="section-number">01</span> 视频 · 兼容预览</h3><select id="visualView" aria-label="视频观察视图"><option value="original">原视频</option><option value="teacher">模型输入 · 完整静音视频</option></select><span class="subtle" id="duration"></span></div><video id="video" controls playsinline preload="metadata" aria-label="原视频内容的兼容播放副本"></video><div class="frame-heading"><span id="frameHeading">浏览缩略图 · 8 帧</span><small>点击缩略图查看原图</small></div><div id="frames" class="frames"></div><div class="media-error" id="videoError" hidden>浏览器无法播放此视频，可查看采样帧。</div></article>
+<div class="text-audio">
+<article class="card text-card"><div class="card-heading"><h3><span class="section-number">02</span> 原始文本</h3><span class="small-pill">中英双语输入</span></div><div class="transcript"><span class="language">中文 · ZH</span><p id="chinese"></p><span class="language">英文 · EN</span><p id="english" lang="en"></p></div></article>
+<article class="card audio-card"><div class="card-heading"><h3><span class="section-number">03</span> 音频</h3><select id="audioSource" aria-label="音频来源"><option value="audio">原始音频</option><option value="teacher_audio">模型输入 · 完整 16 kHz</option></select></div><audio id="audio" controls preload="metadata" aria-label="样本音频"></audio><p class="helper">完整连续录音 · 点击播放可独立听取</p><p class="media-error" id="audioError" hidden>音频暂时无法播放，请重试。</p></article></div></section>
+<section class="card labels-card">
+<div class="labels-heading"><div><span class="eyebrow">MODEL ANNOTATIONS</span><h3>线索标注 <span id="labelCount" class="subtle"></span></h3></div><span id="auditBadge" class="audit-badge">模型试标 · 待人工复核</span></div>
+<div class="toolbar"><div class="tabs" role="tablist" aria-label="模态"><button class="active" role="tab" aria-selected="true" data-modality="all">全部 <span>42</span></button><button role="tab" aria-selected="false" data-modality="text">文本 <span>15</span></button><button role="tab" aria-selected="false" data-modality="audio">音频 <span>17</span></button><button role="tab" aria-selected="false" data-modality="visual">视觉 <span>10</span></button></div>
+<div class="filters"><input id="cueSearch" placeholder="搜索 Cue / 证据" aria-label="搜索线索和证据"><select id="stateFilter" aria-label="筛选标注状态"><option value="all">所有状态</option><option value="positive">存在 · positive</option><option value="negative">未观察到 · negative</option><option value="uncertain">不确定 · uncertain</option><option value="unobservable">不可观测 · unobservable</option><option value="unlabeled">未标注 · unlabeled</option></select></div></div>
+<div class="legend"><span><i class="dot positive"></i>存在</span><span><i class="dot negative"></i>未观察到</span><span><i class="dot uncertain"></i>不确定</span><span><i class="dot unobservable"></i>不可观测</span><small>不确定 / 不可观测的 mask = 0；“未观察到”是可监督的负例。</small></div>
+<div id="humanReviewNotice" class="review-notice" hidden></div>
+<div class="table-wrap"><table><thead><tr><th>线索 / Cue</th><th>模态</th><th>标注状态</th><th>模型证据 · 原文</th><th>监督</th></tr></thead><tbody id="labelRows"></tbody></table><div id="noLabels" class="empty" hidden>没有符合当前条件的标注。</div></div></section>
+<details class="card provenance"><summary>查看输入来源、标注版本与原始 JSON</summary><div id="provenance"></div><div id="rawAnnotations"></div></details>
+<footer>MER-Caption+ · <span id="runId"></span><span>原始证据与模型输出均来自服务器上的试标结果</span></footer>
+</div></main><dialog id="frameDialog" aria-labelledby="frameTitle"><div class="frame-dialog-head"><h3 id="frameTitle">采样帧原图</h3><button id="closeFrame" aria-label="关闭采样帧">关闭 ×</button></div><div class="full-frame-wrap"><img id="fullFrame" alt="原视频浏览帧原图"><p id="frameLoadStatus" role="status">加载原图…</p></div><div class="frame-dialog-foot"><button id="prevFrame">← 上一帧</button><span id="frameCaption"></span><button id="nextFrame">下一帧 →</button><button id="seekFrame">定位到视频</button></div></dialog></body></html>
