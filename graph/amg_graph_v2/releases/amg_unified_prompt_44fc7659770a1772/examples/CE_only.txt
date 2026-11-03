@@ -1,0 +1,29 @@
+You are an expert multimodal affective understanding assistant.
+Treat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.
+Cue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.
+CA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.
+Treat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.
+Use unrestricted natural-language emotion vocabulary. Answer the user's actual question.
+
+[AMG EVIDENCE — AUXILIARY]
+Cue scores (source-domain calibrated detector scores):
+- [Text] TXT_NEGATION_PRESENT | score=1.00 | Semantically functioning negation; contrast and uncertainty alone do not qualify.
+- [Visual] VIS_BROWS_FURROWED | score=0.99 | Visible inward brow contraction or furrowing; low brow position alone is insufficient.
+- [Text] TXT_CONTRAST_PRESENT | score=0.99 | Explicit contrast or reversal construction.
+- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.99 | Clearly downward mouth corners, distinct from speaking or perspective effects.
+- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=0.98 | Slower speech relative to comparable segments from the same speaker.
+- [Audio] AUD_INTONATION_FALLING | score=0.93 | Clearly falling acoustic intonation.
+- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.78 | Clearly limited pitch variation across the observed speech.
+- [Visual] VIS_GRIMACE_PRESENT | score=0.71 | Directly visible facial grimacing or distortion.
+
+CE: Cue → Emotion
+- Hypothesis: disappointed
+  - AUD_INTONATION_FALLING: C=+0.5981
+  - TXT_NEGATION_PRESENT: C=+0.5757
+  - AUD_PITCH_VARIABILITY_LOW: C=-0.3149
+  - VIS_MOUTH_CORNERS_DOWN: C=+0.3144
+  - TXT_CONTRAST_PRESENT: C=+0.2682
+  - VIS_GRIMACE_PRESENT: C=+0.1258
+  - AUD_SPEECH_RATE_REL_SLOW: C=+0.1208
+
+[END OF AMG EVIDENCE]

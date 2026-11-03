@@ -1,0 +1,181 @@
+{
+  "schema_version": "amg_unified_prompt_packet_v1",
+  "sample_id": "samplenew3_00015387",
+  "graph_release_id": "amg_v2_1_cue_admission_8a8994fe1e7495f0",
+  "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Audio] AUD_INTONATION_FALLING | score=0.99 | Clearly falling acoustic intonation.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.84 | Clearly limited pitch variation across the observed speech.\n- [Text] TXT_EVALUATION_NEGATIVE | score=0.69 | Explicit negative evaluation of a person, event, object, or outcome.\n- [Visual] VIS_HEAD_LOWERED | score=0.64 | Head visibly lowered relative to the torso or pose; downward gaze alone is insufficient.\n\nCA: Cue → Appraisal\n- Hypothesis: Certainty / Certain\n  - AUD_INTONATION_FALLING: C=+1.726\n  - AUD_PITCH_VARIABILITY_LOW: C=-0.4554\n  - TXT_EVALUATION_NEGATIVE: C=+0.4175\n\n[END OF AMG EVIDENCE]",
+  "audit": {
+    "task_independent": true,
+    "default_condition": "P4",
+    "features": {
+      "description": true,
+      "score": true,
+      "nodes": true,
+      "contribution": true,
+      "weight": false
+    },
+    "source_sample_graph_sha256": "446f17681a6dd4c907939fd2a2b06b43cf3ad9b1325b3baad74cacae27a017ba",
+    "fixed_instruction_sha256": "e524887b96eae5b6808f4322042251f431f0c2642fb18671a0c0d2c293070786",
+    "description_mapping_sha256": "e0fa5eb9b4965c29e6729c51b022aeb3e96c50357ae47109fac9e3bd8bc76e40",
+    "cue_ids": [
+      "AUD_INTONATION_FALLING",
+      "AUD_PITCH_VARIABILITY_LOW",
+      "TXT_EVALUATION_NEGATIVE",
+      "VIS_HEAD_LOWERED"
+    ],
+    "cue_instance_ids": [
+      "samplenew3_00015387::cue::AUD_INTONATION_FALLING",
+      "samplenew3_00015387::cue::AUD_PITCH_VARIABILITY_LOW",
+      "samplenew3_00015387::cue::TXT_EVALUATION_NEGATIVE",
+      "samplenew3_00015387::cue::VIS_HEAD_LOWERED"
+    ],
+    "cue_source_calibrated_scores": [
+      0.9863903007786862,
+      0.8423427143658977,
+      0.6863740760286038,
+      0.6427632609505468
+    ],
+    "source_score_semantics": "source-domain calibrated detector score, not emotion probability",
+    "blocks": [
+      {
+        "relation_type": "CA",
+        "target_id": "ACT_CERTAIN",
+        "target_instance_id": "samplenew3_00015387::appraisal::ACT_CERTAIN",
+        "label": "Certainty / Certain",
+        "relations": [
+          {
+            "cue_id": "AUD_INTONATION_FALLING",
+            "cue_index": 26,
+            "target_id": "ACT_CERTAIN",
+            "relation_type": "CA",
+            "global_edge_id": "CA_26_011",
+            "contribution": 1.725813764377644,
+            "weight": 1.7279649124084355,
+            "raw_score": 0.9987550973892212,
+            "sample_edge_id": "samplenew3_00015387::CA_26_011"
+          },
+          {
+            "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+            "cue_index": 22,
+            "target_id": "ACT_CERTAIN",
+            "relation_type": "CA",
+            "global_edge_id": "CA_22_011",
+            "contribution": -0.45538805176417785,
+            "weight": -0.5230754221729276,
+            "raw_score": 0.8705973029136658,
+            "sample_edge_id": "samplenew3_00015387::CA_22_011"
+          },
+          {
+            "cue_id": "TXT_EVALUATION_NEGATIVE",
+            "cue_index": 3,
+            "target_id": "ACT_CERTAIN",
+            "relation_type": "CA",
+            "global_edge_id": "CA_03_011",
+            "contribution": 0.41750279914109406,
+            "weight": 0.5036593510620799,
+            "raw_score": 0.8289388418197632,
+            "sample_edge_id": "samplenew3_00015387::CA_03_011"
+          }
+        ],
+        "coverage": {
+          "indices": [
+            26,
+            22,
+            3
+          ],
+          "minimum_edge_count": 3,
+          "absolute_coverage": 0.9421772669444873,
+          "positive_coverage": 0.9662674756362682,
+          "total_absolute_contribution": 2.75819074229057,
+          "total_positive_contribution": 2.2181400259875312,
+          "selected_absolute_contribution": 2.598704615282916,
+          "selected_positive_contribution": 2.1433165635187383
+        },
+        "priority": 2.598704615282916
+      }
+    ],
+    "rejected_or_dropped_targets": [],
+    "prompt_cue_mask": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "selected_global_edge_ids": [
+      "CA_26_011",
+      "CA_22_011",
+      "CA_03_011"
+    ],
+    "relation_support_edge_ids": [
+      "CA_26_011",
+      "CA_22_011",
+      "CA_03_011"
+    ],
+    "selected_target_instance_ids": [
+      "samplenew3_00015387::appraisal::ACT_CERTAIN"
+    ],
+    "CA_edge_count": 3,
+    "CE_edge_count": 0,
+    "evidence_tokens": 352,
+    "full_prompt_tokens": null,
+    "budget_attempts": [
+      {
+        "cue_count": 4,
+        "targets": [
+          "ACT_CERTAIN"
+        ],
+        "evidence_tokens": 352,
+        "full_prompt_tokens": null,
+        "fits": true
+      }
+    ],
+    "fallback": false,
+    "fallback_reason": null,
+    "candidate_cue_count": 0,
+    "deferred_cue_count": 0,
+    "AE_edge_count": 0,
+    "contribution_source": "Frozen ledger raw_score times global_weight; source_calibrated_score is never multiplied by W",
+    "contribution_coverage_scope": "All Cue contribution terms, excluding bias; selected relation subset must cover both absolute and positive mass",
+    "Student_changed": false,
+    "G1_changed": false,
+    "calibration_changed": false,
+    "threshold_changed": false
+  }
+}

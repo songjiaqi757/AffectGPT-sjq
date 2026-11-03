@@ -25,18 +25,18 @@ def main():
     if msg is None:break
     require(msg.get('op')=='node_heartbeat','Only a node heartbeat is accepted on this channel')
     v=msg['status'];require(v['node']=='Qi' and v['deployment_id']==cfg['deployment_id'] and v['plan_id']==p['plan_id'],'Node identity changed')
-    require(v['configured_workers']==7 and int(v['controller_pid'])==int(opening['pid']),'Node configuration changed')
+    require(v['configured_workers']==len(cfg['slots']) and int(v['controller_pid'])==int(opening['pid']),'Node configuration changed')
     require(v['phase'] in ['inference','gpu_released','failed'],'Unsupported node phase')
     if v['phase']=='gpu_released':
      require(v.get('own_workers_exited') is True,'Qi workers still resident')
-     require(all(read(RUN/'workers'/('rl_'+str(slot)+'.json'))['state']=='complete' for slot in range(8,15)),'Qi queue sessions incomplete')
+     require(all(read(RUN/'workers'/('rl_'+str(slot)+'.json'))['state']=='complete' for slot in cfg['slots']),'Qi queue sessions incomplete')
     v.update(time_beijing=now(),broker_pid=os.getpid());dump(RUN/'multinode_control/Qi.json',v)
     send(dict(type='node_recorded'))
   finally:owner.close()
   return
  require(opening and opening.get('op')=='hello','Hello required')
  require(opening['deployment_id']==cfg['deployment_id'],'Wrong remote deployment')
- slot=int(opening['slot']);require(8<=slot<=14,'Invalid Qi slot')
+ slot=int(opening['slot']);require(slot in cfg['slots'],'Invalid or disabled Qi slot')
  require(int(opening['gpu'])==(0 if slot<=10 else 1),'Wrong slot GPU')
  owner=lock(C/('slot_'+str(slot)+'.lock'));require(owner is not None,'Qi slot already connected')
  expected=mp['contract'];runtime=opening['runtime'];remote_pid=int(opening['pid'])

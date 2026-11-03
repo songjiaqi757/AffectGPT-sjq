@@ -1,0 +1,24 @@
+{
+  "method": "Exact upstream function ASTs compiled in isolated namespaces; no model weights or generate() loaded",
+  "tokenizer_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/models/tokenizer.py",
+  "tokenizer_source_sha256": "3c17bfe9a638cdfe96529f152cd2d745b000cfb5d10592a43af262870effcad1",
+  "prompt_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/datasets/datasets/base_dataset.py",
+  "prompt_source_sha256": "9cc1f3435f5cc8e1cfbc7bf551d0518a7197c3f2da789ed5889e61831341152c",
+  "chat_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/conversation/conversation_video.py",
+  "chat_source_sha256": "42e1fbdc2daca57746a6cb983878116894da50b87f9077e8c9f5e7c8728cdbef",
+  "assets": {
+    "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+    "generation_config.json": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  "special_token_ids": {
+    "<ImageHere>": 151665,
+    "<AudioHere>": 151666,
+    "<FrameHere>": 151667,
+    "<FaceHere>": 151668,
+    "<MultiHere>": 151669
+  }
+}

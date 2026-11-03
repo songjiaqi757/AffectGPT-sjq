@@ -1,0 +1,1 @@
+统一 AMG Prompt Adapter。入口：上级 current_unified_prompt.json。原图/Student/G1/校准/阈值不变，保留全部样本。adapter.UnifiedAMGPromptAdapter.build() 是不含 task/mode 的统一接口；integration.AffectGPTUnifiedBridge 追加原任务指令并检查真实 tokenizer 预算；离线消融在 PromptAblations。全量输入和代表样本 P0–P5 预检通过，实际生成与下游实验尚未运行，P4 仍是候选而非正式采用默认。详见冻结 REPORT.md。

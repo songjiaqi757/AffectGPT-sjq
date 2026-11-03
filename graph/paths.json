@@ -149,14 +149,21 @@
   "图构建.md": {
     "path": "/ai/sjq/AffectGPT-sjq/graph/图构建.md",
     "kind": "file",
-    "previous_path": "/ai/sjq/AffectGPT-sjq/图构建.md"
+    "note": "当前 v2.0 设计（可学习关系图与样本级证据子图）；amg_graph_v2 代码按 PROJECT/图构建.md 读取项目根目录副本，两处须保持同一 SHA256（36e3daa8…）；v2.9 NPMI 历史版见 archive/。"
   },
   "_latest": {
     "method_decision_run": "/ai/sjq/AffectGPT-sjq/graph/amg_method_decision/runs/decision_20261028_200538",
     "final_analysis": "/ai/sjq/AffectGPT-sjq/graph/amg_method_decision/runs/decision_20261028_200538/analysis/FINAL_ANALYSIS_20261029.md",
     "method_decision": "/ai/sjq/AffectGPT-sjq/graph/amg_method_decision/runs/decision_20261028_200538/method_decision.json",
     "recommended_checkpoint": "/ai/sjq/AffectGPT-sjq/graph/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
-    "server_resources": "/ai/sjq/AffectGPT-sjq/graph/amg_188_path_noemotion/server_resources.json"
+    "server_resources": "/ai/sjq/AffectGPT-sjq/graph/amg_188_path_noemotion/server_resources.json",
+    "_comment": "amg_runtime v1 时代的遗留指针，保留作历史溯源；当前图实现见 amg_graph_v2 current 指针。",
+    "graph_v2_current_release": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_v2_reuse_b874bc7746edf155",
+    "graph_v2_current_report": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_v2_reuse_b874bc7746edf155/REPORT.md",
+    "graph_v2_design_plan": "/ai/sjq/AffectGPT-sjq/graph/图构建.md",
+    "graph_v2_1_current_release": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_v2_1_cue_admission_8a8994fe1e7495f0",
+    "graph_v2_1_current_report": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_v2_1_cue_admission_8a8994fe1e7495f0/REPORT.md",
+    "graph_v2_1_design_plan": "/ai/sjq/AffectGPT-sjq/改进方案.md"
   },
   "_structure": {
     "mode": "actual_directories_no_organization_symlinks",
@@ -165,5 +172,22 @@
     "base_affectgpt": "/ai/sjq/AffectGPT-sjq/AffectGPT",
     "base_dataset": "/ai/sjq/AffectGPT-sjq/dataset",
     "historical_path_map": "/ai/sjq/AffectGPT-sjq/graph/_organization/20261029_no_symlinks/source_migration.json"
+  },
+  "amg_graph_v2": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2",
+    "kind": "directory",
+    "current.json": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/current.json",
+    "current_v21.json": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/current_v21.json",
+    "v21": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/v21"
+  },
+  "改进方案.md": {
+    "path": "/ai/sjq/AffectGPT-sjq/改进方案.md",
+    "kind": "file",
+    "note": "AMG v2.1 改进方案（Cue 阈值校准与双层证据准入）；源副本同步于 amg_graph_v2/v21/source_snapshot/改进方案.md"
+  },
+  "archive/图构建_v2.9_NPMI_20261022.md": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/archive/图构建_v2.9_NPMI_20261022.md",
+    "kind": "file",
+    "note": "历史 v2.9 全局 NPMI 统计图方案；已被 图构建.md v2.0 替代，仅用于 v1 时代实验溯源"
   }
 }

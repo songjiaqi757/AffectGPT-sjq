@@ -3,24 +3,22 @@
   "source_plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
   "destination_root": "/data/sjq/affectgpt_rl_graph10",
   "slots": [
-    8,
-    9,
-    10,
     11,
     12,
     13,
     14
   ],
   "gpu_workers": {
-    "0": 3,
+    "0": 0,
     "1": 4
   },
-  "total_workers_with_existing": 15,
+  "total_workers_with_existing": 12,
   "queue": "existing shared flock, held on original server for the whole remote shard session",
   "official_source_unchanged": true,
   "worker_code_sha256": "bfb94a5360702838f5358c91c1f0818a0fa76e8a8e798dc6f91f64505bb3ad79",
   "created_at_beijing": "2026-11-03T17:32:49.073313+08:00",
   "deployment_id": "6f48f4f9f64e0052faaa148c19d1d96a17006ce312f0386f146dc38c093d49c1",
   "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
-  "supervisor_sha256": "4c945be5d5f91f94853077bcd6c0b2a4347b1c2f1cdc9c8ceb53b201826f28e7"
+  "supervisor_sha256": "10a2ce6eef07d0a784db37ef0fd93556c0ea16a7968aa0eb22cf4701e373c9fc",
+  "changed_at_beijing": "2026-11-03T19:12:49.196852+08:00"
 }

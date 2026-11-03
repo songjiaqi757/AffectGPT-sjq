@@ -36,7 +36,7 @@ def main():
   if node=='A800' and pipeline_owner is not None:
    nodes={n:read(c/(n+'.json')) for n in SLOTS if (c/(n+'.json')).exists()}
    if (c/'Qi.json').exists():nodes['Qi']=read(c/'Qi.json')
-   dump(run/'pipeline_rl.json',dict(role='rl',pid=os.getpid(),controller='multinode_v1',workers=8+(7 if 'Qi' in nodes else 0),phase=state.get('phase','inference'),pids={str(k):v for k,v in pids.items()},nodes=nodes,time_beijing=now()))
+   dump(run/'pipeline_rl.json',dict(role='rl',pid=os.getpid(),controller='multinode_v1',workers=8+(nodes['Qi'].get('configured_workers',0) if 'Qi' in nodes else 0),phase=state.get('phase','inference'),pids={str(k):v for k,v in pids.items()},nodes=nodes,time_beijing=now()))
  def spawn(slot,mode='infer'):
   with (run/'logs'/('rl_'+mode+'_'+str(slot)+'.log')).open('ab',buffering=0) as log:
    z=subprocess.Popen([PYTHON,'-u','-B','-m','amg_rl_oppo_graph10.execute',mode,'--run',str(run),'--role','rl','--slot',str(slot)],cwd=GRAPH,env=env(),stdin=subprocess.DEVNULL,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
@@ -105,7 +105,7 @@ def main():
   for f in (run/'jobs').glob('rl*.json'):finalize(run,p,f.stem)
   jobs=[read(f) for f in (run/'jobs').glob('rl*.json')]
   require(len(jobs)==108 and all(j['state']=='complete' for j in jobs),'Global inference jobs incomplete')
-  dump(c/'global_inference_barrier.json',dict(passed=True,inference_jobs=108,workers=15 if (c/'Qi.json').exists() else 8,nodes=list(SLOTS)+(['Qi'] if (c/'Qi.json').exists() else []),both_gpus_released=True,all_eight_inference_workers_exited=True,Qi_own_workers_exited=(read(c/'Qi.json').get('own_workers_exited') if (c/'Qi.json').exists() else None),plan_id=p['plan_id'],time_beijing=now()))
+  dump(c/'global_inference_barrier.json',dict(passed=True,inference_jobs=108,workers=8+(read(c/'Qi.json').get('configured_workers',0) if (c/'Qi.json').exists() else 0),nodes=list(SLOTS)+(['Qi'] if (c/'Qi.json').exists() else []),both_gpus_released=True,all_eight_inference_workers_exited=True,Qi_own_workers_exited=(read(c/'Qi.json').get('own_workers_exited') if (c/'Qi.json').exists() else None),plan_id=p['plan_id'],time_beijing=now()))
   update(phase='evaluation',global_inference_barrier_passed=True)
   for attempt in range(3):
    pid=spawn(0,'score');z=children[0]

@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "scope": "Unified adapter implementation, complete source input preflight and paired P0-P5 input export",
+  "acceptance_checks": 35,
+  "samples": 1538,
+  "paired_probe_samples": 16,
+  "actual_generation_run": false,
+  "stats": {
+    "passed": true,
+    "samples": 1538,
+    "source_membership_sha256": "55d1604baba1a668e5209f6485a6a5e2a2fb2d94eaf225c1093df9c4ea9d4c79",
+    "original_source_member_ids_sha256": "55d1604baba1a668e5209f6485a6a5e2a2fb2d94eaf225c1093df9c4ea9d4c79",
+    "excluded_samples": 0,
+    "mean_evidence_tokens": 386.5104031209363,
+    "maximum_evidence_tokens": 852,
+    "p95_evidence_tokens": 524.5999999999995,
+    "maximum_full_prompt_tokens": 964,
+    "evidence_token_budget": 1000,
+    "prompt_token_budget": 1536,
+    "max_new_tokens": 512,
+    "total_context_limit": 2048,
+    "statistics": {
+      "samples": 1538,
+      "fallback": 0,
+      "formal_Cue_nodes": 11129,
+      "serialized_Cue_nodes": 10219,
+      "CA_targets": 342,
+      "CE_targets": 109,
+      "CA_edges": 1366,
+      "CE_edges": 557,
+      "negative_edges": 552,
+      "missing_face_assets": 0
+    },
+    "graph_category_counts": {
+      "Cue_only": 1193,
+      "high_and_low_formal_scores": 1149,
+      "contrasting_modality_pattern_not_verified_emotional_conflict": 105,
+      "CA_and_CE": 57,
+      "serialized_CE": 100,
+      "CA_only": 233,
+      "negative_signed_relation": 254,
+      "CE_only": 55
+    },
+    "actual_generation_run": false,
+    "elapsed_seconds": 16.792124271392822
+  }
+}

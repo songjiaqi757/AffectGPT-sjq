@@ -1,0 +1,42 @@
+{
+  "time_beijing": "2026-11-03T19:14:01.594122+08:00",
+  "configured_total": 12,
+  "Qi_workers": 4,
+  "Qi_slots": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "Qi_gpu0_disabled": true,
+  "source_queue_sessions_released": true,
+  "affected_shards": [
+    {
+      "id": "rl_e045_CMUMOSEI_00160",
+      "state": "pending",
+      "slot": 8,
+      "attempts": 1
+    },
+    {
+      "id": "rl_e045_CMUMOSEI_00032",
+      "state": "pending",
+      "slot": 9,
+      "attempts": 1
+    },
+    {
+      "id": "rl_e045_CMUMOSEI_00128",
+      "state": "pending",
+      "slot": 10,
+      "attempts": 2
+    }
+  ],
+  "source_plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "auto_evaluation": {
+    "state": "evaluating_batch",
+    "checkpoints": [
+      "rl_e040"
+    ],
+    "pid": 290836,
+    "time_beijing": "2026-11-03T19:13:57.699367+08:00"
+  }
+}

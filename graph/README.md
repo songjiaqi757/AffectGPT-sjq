@@ -7,7 +7,10 @@
 本次整理创建的 31 个软链接已全部删除。
 
 目录索引及当前结果：paths.json。
-图构建方案：图构建.md；Cue 提取与训练方案：Cue 提取与训练执行方案.md。
+当前图构建方案：图构建.md（v2.0，可学习关系图与样本级证据子图；实现 amg_graph_v2/，当前发布入口 amg_graph_v2/current.json）。
+v2.1 改进方案：/ai/sjq/AffectGPT-sjq/改进方案.md（Cue 阈值校准与双层证据准入；实现 amg_graph_v2/v21/，入口 amg_graph_v2/current_v21.json）。
+历史方案：archive/图构建_v2.9_NPMI_20261022.md（v2.9 全局 NPMI 统计图，已由 v2.0 替代，仅作 v1 时代实验的溯源记录，不再是当前实现）。
+Cue 提取与训练方案：Cue 提取与训练执行方案.md。
 最新分析：amg_method_decision/runs/decision_20261028_200538/analysis/FINAL_ANALYSIS_20261029.md。
 资源配置：amg_188_path_noemotion/server_resources.json，A800/A100 各四路推理。
 

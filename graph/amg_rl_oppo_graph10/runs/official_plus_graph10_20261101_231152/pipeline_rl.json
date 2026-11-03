@@ -1,8 +1,8 @@
 {
   "role": "rl",
-  "pid": 1452325,
+  "pid": 1488447,
   "controller": "multinode_v1",
-  "workers": 15,
+  "workers": 12,
   "phase": "inference",
   "pids": {
     "0": 25899,
@@ -13,7 +13,7 @@
   "nodes": {
     "A800": {
       "node": "A800",
-      "controller_pid": 1452325,
+      "controller_pid": 1488447,
       "slots": [
         0,
         1,
@@ -22,8 +22,8 @@
       ],
       "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
       "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
-      "controller_sha256": "4b3056d9f60b5ee90969c3ef70cceee64d72f449e029869e5343d48c36e6bb7b",
-      "started_at_beijing": "2026-11-03T17:54:20.099661+08:00",
+      "controller_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
+      "started_at_beijing": "2026-11-03T19:12:50.116196+08:00",
       "phase": "inference",
       "workers": 4,
       "adopted_existing_workers": true,
@@ -33,7 +33,7 @@
         "2": 25901,
         "3": 25902
       },
-      "time_beijing": "2026-11-03T18:24:44.659593+08:00",
+      "time_beijing": "2026-11-03T20:54:16.495970+08:00",
       "active_slots": [
         0,
         1,
@@ -49,7 +49,7 @@
     },
     "A100": {
       "node": "A100",
-      "controller_pid": 854406,
+      "controller_pid": 933057,
       "slots": [
         4,
         5,
@@ -58,18 +58,18 @@
       ],
       "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c",
       "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
-      "controller_sha256": "83551a082b1d4ef445747eaf1932b739d485e640d936e26f3acf00ce4294892b",
-      "started_at_beijing": "2026-11-03T14:03:11.798896+08:00",
+      "controller_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
+      "started_at_beijing": "2026-11-03T19:28:03.363592+08:00",
       "phase": "inference",
       "workers": 4,
       "adopted_existing_workers": false,
       "pids": {
-        "4": 854417,
-        "5": 854418,
-        "6": 854419,
-        "7": 854420
+        "4": 933068,
+        "5": 933069,
+        "6": 933070,
+        "7": 933071
       },
-      "time_beijing": "2026-11-03T18:29:37.789001+08:00",
+      "time_beijing": "2026-11-03T20:59:12.014005+08:00",
       "active_slots": [
         4,
         5,
@@ -86,13 +86,10 @@
     "Qi": {
       "node": "Qi",
       "phase": "inference",
-      "controller_pid": 585857,
-      "configured_workers": 7,
-      "workers": 7,
+      "controller_pid": 665610,
+      "configured_workers": 4,
+      "workers": 4,
       "slots": [
-        8,
-        9,
-        10,
         11,
         12,
         13,
@@ -100,114 +97,23 @@
       ],
       "pids": {
         "11": 585858,
-        "8": 586583,
-        "9": 586584,
-        "10": 586585,
         "12": 586586,
         "13": 586587,
         "14": 586588
       },
       "worker_states": {
-        "8": {
-          "state": "inference",
-          "slot": 8,
-          "gpu": 0,
-          "pid": 586583,
-          "time": 1793701730.8747518,
-          "checkpoint": "rl_e040",
-          "dataset": "MER2024",
-          "shard": "rl_e040_MER2024_00192",
-          "completed_samples": 169,
-          "last_sample": "MER2024::samplenew_00013955",
-          "last_seconds": 2.81400887388736,
-          "runtime": {
-            "torch": "2.7.1+cu128",
-            "cuda": "12.8",
-            "transformers": "4.52.4",
-            "torchaudio": "2.7.1+cu128",
-            "torchvision": "0.22.1+cu128",
-            "dtype": "bfloat16",
-            "quantized": false,
-            "gpu_uuid": "GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285",
-            "gpu_name": "NVIDIA RTX 6000D",
-            "gpu_arch": [
-              12,
-              0
-            ],
-            "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
-            "unused_scoring_imports_deferred": true
-          }
-        },
-        "9": {
-          "state": "inference",
-          "slot": 9,
-          "gpu": 0,
-          "pid": 586584,
-          "time": 1793701728.1860805,
-          "checkpoint": "rl_e040",
-          "dataset": "MER2024",
-          "shard": "rl_e040_MER2024_00256",
-          "completed_samples": 197,
-          "last_sample": "MER2024::samplenew_00015241",
-          "last_seconds": 1.8233016142621636,
-          "runtime": {
-            "torch": "2.7.1+cu128",
-            "cuda": "12.8",
-            "transformers": "4.52.4",
-            "torchaudio": "2.7.1+cu128",
-            "torchvision": "0.22.1+cu128",
-            "dtype": "bfloat16",
-            "quantized": false,
-            "gpu_uuid": "GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285",
-            "gpu_name": "NVIDIA RTX 6000D",
-            "gpu_arch": [
-              12,
-              0
-            ],
-            "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
-            "unused_scoring_imports_deferred": true
-          }
-        },
-        "10": {
-          "state": "inference",
-          "slot": 10,
-          "gpu": 0,
-          "pid": 586585,
-          "time": 1793701738.5384407,
-          "checkpoint": "rl_e040",
-          "dataset": "MER2024",
-          "shard": "rl_e040_MER2024_00352",
-          "completed_samples": 192,
-          "runtime": {
-            "torch": "2.7.1+cu128",
-            "cuda": "12.8",
-            "transformers": "4.52.4",
-            "torchaudio": "2.7.1+cu128",
-            "torchvision": "0.22.1+cu128",
-            "dtype": "bfloat16",
-            "quantized": false,
-            "gpu_uuid": "GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285",
-            "gpu_name": "NVIDIA RTX 6000D",
-            "gpu_arch": [
-              12,
-              0
-            ],
-            "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
-            "unused_scoring_imports_deferred": true
-          }
-        },
         "11": {
           "state": "inference",
           "slot": 11,
           "gpu": 1,
           "pid": 585858,
-          "time": 1793701731.5743299,
-          "checkpoint": "rl_e040",
-          "dataset": "MER2024",
-          "shard": "rl_e040_MER2024_00064",
-          "completed_samples": 183,
-          "last_sample": "MER2024::samplenew_00000870",
-          "last_seconds": 19.613912526518106,
+          "time": 1793710719.9362183,
+          "checkpoint": "rl_e045",
+          "dataset": "CMUMOSEI",
+          "shard": "rl_e045_CMUMOSEI_03360",
+          "completed_samples": 833,
+          "last_sample": "CMUMOSEI::MHyW857u_X8_22",
+          "last_seconds": 22.879376242868602,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -231,13 +137,13 @@
           "slot": 12,
           "gpu": 1,
           "pid": 586586,
-          "time": 1793701728.178094,
-          "checkpoint": "rl_e040",
-          "dataset": "MER2024",
-          "shard": "rl_e040_MER2024_00320",
-          "completed_samples": 161,
-          "last_sample": "MER2024::samplenew_00016526",
-          "last_seconds": 3.5310872541740537,
+          "time": 1793710704.7583,
+          "checkpoint": "rl_e045",
+          "dataset": "CMUMOSEI",
+          "shard": "rl_e045_CMUMOSEI_03296",
+          "completed_samples": 784,
+          "last_sample": "CMUMOSEI::25640_4",
+          "last_seconds": 24.940938255749643,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -261,13 +167,13 @@
           "slot": 13,
           "gpu": 1,
           "pid": 586587,
-          "time": 1793701732.9929292,
-          "checkpoint": "rl_e040",
-          "dataset": "MER2024",
-          "shard": "rl_e040_MER2024_00288",
-          "completed_samples": 157,
-          "last_sample": "MER2024::samplenew_00015716",
-          "last_seconds": 5.259207423776388,
+          "time": 1793710710.6241589,
+          "checkpoint": "rl_e045",
+          "dataset": "CMUMOSEI",
+          "shard": "rl_e045_CMUMOSEI_03232",
+          "completed_samples": 865,
+          "last_sample": "CMUMOSEI::KB5hSnV1emg_6",
+          "last_seconds": 25.68193486984819,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -291,13 +197,13 @@
           "slot": 14,
           "gpu": 1,
           "pid": 586588,
-          "time": 1793701726.925527,
-          "checkpoint": "rl_e040",
-          "dataset": "IEMOCAPFour",
-          "shard": "rl_e040_IEMOCAPFour_01184",
-          "completed_samples": 140,
-          "last_sample": "IEMOCAPFour::Ses05M_script03_2_M027",
-          "last_seconds": 3.616167246364057,
+          "time": 1793710704.6995897,
+          "checkpoint": "rl_e045",
+          "dataset": "CMUMOSEI",
+          "shard": "rl_e045_CMUMOSEI_03200",
+          "completed_samples": 791,
+          "last_sample": "CMUMOSEI::275267_9",
+          "last_seconds": 18.14560153428465,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -319,21 +225,19 @@
       },
       "retries": {
         "11": 0,
-        "8": 0,
-        "9": 0,
-        "10": 0,
         "12": 0,
         "13": 0,
         "14": 0
       },
       "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
       "deployment_id": "6f48f4f9f64e0052faaa148c19d1d96a17006ce312f0386f146dc38c093d49c1",
-      "time": 1793701739.6709025,
+      "time": 1793710720.579345,
       "own_workers_exited": false,
-      "gpu_info": "0, GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285, 65063, 96\n1, GPU-ac40f187-8891-00f2-3999-959bbdcf952f, 79922, 96",
-      "time_beijing": "2026-11-03T18:24:34.882989+08:00",
-      "broker_pid": 1452601
+      "gpu0_inference_disabled": true,
+      "gpu_info": "0, GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285, 26062, 0\n1, GPU-ac40f187-8891-00f2-3999-959bbdcf952f, 79932, 96",
+      "time_beijing": "2026-11-03T20:54:15.573770+08:00",
+      "broker_pid": 1488529
     }
   },
-  "time_beijing": "2026-11-03T18:24:44.668049+08:00"
+  "time_beijing": "2026-11-03T20:54:16.503776+08:00"
 }
