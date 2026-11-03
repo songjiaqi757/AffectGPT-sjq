@@ -1,0 +1,926 @@
+{
+  "schema_version": "amg_sample_graph_v2",
+  "sample_id": "samplenew3_00000827",
+  "graph_release_id": "amg_v2_reuse_b874bc7746edf155",
+  "cue_release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::calibration",
+  "student_retrained": false,
+  "cue_training_predictions_oof": false,
+  "prompt_limits": {
+    "cue_top_k": 12,
+    "emotion_top_k": 2,
+    "selection": "Cue: tuning-set activated-count 75th percentile; Emotion: tuning-set thresholded-count 90th percentile; pre-specified quantile rules; not selected on targets",
+    "status": "engineering_only_downstream_prompt_validation_not_run"
+  },
+  "nodes": [
+    {
+      "instance_id": "samplenew3_00000827::cue::TXT_EVALUATION_POSITIVE",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "TXT_EVALUATION_POSITIVE",
+      "cue_type_id": "TXT_EVALUATION_POSITIVE",
+      "modality": "text",
+      "raw_score": 0.9940890073776245,
+      "calibrated_score": 0.9229459257430606,
+      "score": 0.9229459257430606,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::cue::TXT_INTENSIFIER_PRESENT",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "TXT_INTENSIFIER_PRESENT",
+      "cue_type_id": "TXT_INTENSIFIER_PRESENT",
+      "modality": "text",
+      "raw_score": 0.999220609664917,
+      "calibrated_score": 0.9418544902254778,
+      "score": 0.9418544902254778,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::cue::AUD_SPEECH_RATE_REL_SLOW",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "cue_type_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "modality": "audio",
+      "raw_score": 0.5954925417900085,
+      "calibrated_score": 0.4884436458864625,
+      "score": 0.4884436458864625,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::cue::AUD_PITCH_VARIABILITY_LOW",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "AUD_PITCH_VARIABILITY_LOW",
+      "cue_type_id": "AUD_PITCH_VARIABILITY_LOW",
+      "modality": "audio",
+      "raw_score": 0.499301940202713,
+      "calibrated_score": 0.5904587442338946,
+      "score": 0.5904587442338946,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::cue::AUD_INTONATION_FALLING",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "AUD_INTONATION_FALLING",
+      "cue_type_id": "AUD_INTONATION_FALLING",
+      "modality": "audio",
+      "raw_score": 0.896251380443573,
+      "calibrated_score": 0.8165192202749106,
+      "score": 0.8165192202749106,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::cue::VIS_BROWS_RAISED",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "VIS_BROWS_RAISED",
+      "cue_type_id": "VIS_BROWS_RAISED",
+      "modality": "visual",
+      "raw_score": 0.1127954050898552,
+      "calibrated_score": 0.31228448911641105,
+      "score": 0.31228448911641105,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::cue::VIS_EYES_WIDENED",
+      "node_type": "CueEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "VIS_EYES_WIDENED",
+      "cue_type_id": "VIS_EYES_WIDENED",
+      "modality": "visual",
+      "raw_score": 0.06465348601341248,
+      "calibrated_score": 0.1479955363104911,
+      "score": 0.1479955363104911,
+      "score_semantics": "internal_development_Platt_score",
+      "availability": "available",
+      "activation_status": "active",
+      "student_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+      "calibration_release_id": "amg_v2_reuse_b874bc7746edf155::cue"
+    },
+    {
+      "instance_id": "samplenew3_00000827::appraisal::AGR_RELEVANT",
+      "node_type": "AppraisalEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "AGR_RELEVANT",
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "state_id": "AGR_RELEVANT",
+      "state_probability": 0.9951209599791021,
+      "raw_model_probability": 0.9977585882359089,
+      "score": 0.9951209599791021,
+      "dimension_confidence": 0.9951209599791021,
+      "evidence_coverage": 0.8536853146874607,
+      "status": "supported",
+      "relation_model_release_id": "amg_v2_reuse_b874bc7746edf155"
+    },
+    {
+      "instance_id": "samplenew3_00000827::appraisal::AGC_CONGRUENT",
+      "node_type": "AppraisalEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "AGC_CONGRUENT",
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "state_id": "AGC_CONGRUENT",
+      "state_probability": 0.8453338292277413,
+      "raw_model_probability": 0.839447337554849,
+      "score": 0.8453338292277413,
+      "dimension_confidence": 0.8453338292277413,
+      "evidence_coverage": 0.9739923655586548,
+      "status": "supported",
+      "relation_model_release_id": "amg_v2_reuse_b874bc7746edf155"
+    },
+    {
+      "instance_id": "samplenew3_00000827::appraisal::ACT_CERTAIN",
+      "node_type": "AppraisalEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "ACT_CERTAIN",
+      "dimension_id": "APP_CERTAINTY",
+      "state_id": "ACT_CERTAIN",
+      "state_probability": 0.9846246441059365,
+      "raw_model_probability": 0.9765197884618636,
+      "score": 0.9846246441059365,
+      "dimension_confidence": 0.9846246441059365,
+      "evidence_coverage": 0.6548552564634358,
+      "status": "supported",
+      "relation_model_release_id": "amg_v2_reuse_b874bc7746edf155"
+    },
+    {
+      "instance_id": "samplenew3_00000827::appraisal::ACP_HIGH",
+      "node_type": "AppraisalEvidence",
+      "sample_id": "samplenew3_00000827",
+      "ontology_id": "ACP_HIGH",
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "state_id": "ACP_HIGH",
+      "state_probability": 0.8524936022355181,
+      "raw_model_probability": 0.7961827563700943,
+      "score": 0.8524936022355181,
+      "dimension_confidence": 0.8524936022355181,
+      "evidence_coverage": 0.9396038897098462,
+      "status": "supported",
+      "relation_model_release_id": "amg_v2_reuse_b874bc7746edf155"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "samplenew3_00000827::cue::TXT_EVALUATION_POSITIVE::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::TXT_EVALUATION_POSITIVE",
+      "target": "TXT_EVALUATION_POSITIVE",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::cue::TXT_INTENSIFIER_PRESENT::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::TXT_INTENSIFIER_PRESENT",
+      "target": "TXT_INTENSIFIER_PRESENT",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::cue::AUD_SPEECH_RATE_REL_SLOW::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::AUD_SPEECH_RATE_REL_SLOW",
+      "target": "AUD_SPEECH_RATE_REL_SLOW",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::cue::AUD_PITCH_VARIABILITY_LOW::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::AUD_PITCH_VARIABILITY_LOW",
+      "target": "AUD_PITCH_VARIABILITY_LOW",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::cue::AUD_INTONATION_FALLING::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::AUD_INTONATION_FALLING",
+      "target": "AUD_INTONATION_FALLING",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::cue::VIS_BROWS_RAISED::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::VIS_BROWS_RAISED",
+      "target": "VIS_BROWS_RAISED",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::cue::VIS_EYES_WIDENED::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::cue::VIS_EYES_WIDENED",
+      "target": "VIS_EYES_WIDENED",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::appraisal::AGR_RELEVANT::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::appraisal::AGR_RELEVANT",
+      "target": "AGR_RELEVANT",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_02_000",
+      "global_edge_id": "CA_02_000",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::TXT_EVALUATION_POSITIVE",
+      "target": "samplenew3_00000827::appraisal::AGR_RELEVANT",
+      "target_scope": "sample",
+      "contribution": 0.25115230434997915,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.9940890073776245,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.11004949593236875,
+        0.331182627219562
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_16_000",
+      "global_edge_id": "CA_16_000",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_SPEECH_RATE_REL_SLOW",
+      "target": "samplenew3_00000827::appraisal::AGR_RELEVANT",
+      "target_scope": "sample",
+      "contribution": 0.2310797108902082,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.5954925417900085,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.22493861054191255,
+        0.4743875590688083
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::appraisal::AGC_CONGRUENT::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::appraisal::AGC_CONGRUENT",
+      "target": "AGC_CONGRUENT",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_02_002",
+      "global_edge_id": "CA_02_002",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::TXT_EVALUATION_POSITIVE",
+      "target": "samplenew3_00000827::appraisal::AGC_CONGRUENT",
+      "target_scope": "sample",
+      "contribution": 0.9375803103142812,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.9940890073776245,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.8521693624677941,
+        1.140490669493353
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_26_002",
+      "global_edge_id": "CA_26_002",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_INTONATION_FALLING",
+      "target": "samplenew3_00000827::appraisal::AGC_CONGRUENT",
+      "target_scope": "sample",
+      "contribution": 0.29822249612072765,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.896251380443573,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.06069012365054656,
+        0.474542671227113
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_33_002",
+      "global_edge_id": "CA_33_002",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::VIS_BROWS_RAISED",
+      "target": "samplenew3_00000827::appraisal::AGC_CONGRUENT",
+      "target_scope": "sample",
+      "contribution": 0.01596223001976474,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.1127954050898552,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.0033857304622852634,
+        0.29860913931402505
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::appraisal::ACT_CERTAIN::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::appraisal::ACT_CERTAIN",
+      "target": "ACT_CERTAIN",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_16_011",
+      "global_edge_id": "CA_16_011",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_SPEECH_RATE_REL_SLOW",
+      "target": "samplenew3_00000827::appraisal::ACT_CERTAIN",
+      "target_scope": "sample",
+      "contribution": -0.185038512980164,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.5954925417900085,
+      "sign": "negative",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        -0.3947865148820354,
+        -0.24408797902326687
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_22_011",
+      "global_edge_id": "CA_22_011",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_PITCH_VARIABILITY_LOW",
+      "target": "samplenew3_00000827::appraisal::ACT_CERTAIN",
+      "target_scope": "sample",
+      "contribution": -0.26117257316329595,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.499301940202713,
+      "sign": "negative",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        -0.6161513217588445,
+        -0.3640349911075263
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_26_011",
+      "global_edge_id": "CA_26_011",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_INTONATION_FALLING",
+      "target": "samplenew3_00000827::appraisal::ACT_CERTAIN",
+      "target_scope": "sample",
+      "contribution": 1.548690938104118,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.896251380443573,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        1.4977847956610926,
+        1.8202453825028921
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_33_011",
+      "global_edge_id": "CA_33_011",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::VIS_BROWS_RAISED",
+      "target": "samplenew3_00000827::appraisal::ACT_CERTAIN",
+      "target_scope": "sample",
+      "contribution": 0.023975061271178075,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.1127954050898552,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.0977379351461749,
+        0.2981794619568992
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::appraisal::ACP_HIGH::INSTANCE_OF",
+      "relation_type": "INSTANCE_OF",
+      "source": "samplenew3_00000827::appraisal::ACP_HIGH",
+      "target": "ACP_HIGH",
+      "target_scope": "ontology",
+      "sample_id": "samplenew3_00000827"
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_02_013",
+      "global_edge_id": "CA_02_013",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::TXT_EVALUATION_POSITIVE",
+      "target": "samplenew3_00000827::appraisal::ACP_HIGH",
+      "target_scope": "sample",
+      "contribution": 0.6828714487965708,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.9940890073776245,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.5468230079323181,
+        0.7102638642383143
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_16_013",
+      "global_edge_id": "CA_16_013",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_SPEECH_RATE_REL_SLOW",
+      "target": "samplenew3_00000827::appraisal::ACP_HIGH",
+      "target_scope": "sample",
+      "contribution": -0.22623542085841303,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.5954925417900085,
+      "sign": "negative",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        -0.4269883363906836,
+        -0.23010852601911333
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_26_013",
+      "global_edge_id": "CA_26_013",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::AUD_INTONATION_FALLING",
+      "target": "samplenew3_00000827::appraisal::ACP_HIGH",
+      "target_scope": "sample",
+      "contribution": 0.34992046382251235,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.896251380443573,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.24044592493794673,
+        0.36833871761474124
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    },
+    {
+      "edge_id": "samplenew3_00000827::CA_33_013",
+      "global_edge_id": "CA_33_013",
+      "sample_id": "samplenew3_00000827",
+      "relation_type": "SUPPORTS_APPRAISAL",
+      "source": "samplenew3_00000827::cue::VIS_BROWS_RAISED",
+      "target": "samplenew3_00000827::appraisal::ACP_HIGH",
+      "target_scope": "sample",
+      "contribution": 0.010409771779614297,
+      "contribution_semantics": "signed_conditional_logit_contribution_not_probability",
+      "input_score": 0.1127954050898552,
+      "sign": "positive",
+      "fold_sign_consistency": 1.0,
+      "bootstrap_interval": [
+        0.0034304416713496597,
+        0.193081659376666
+      ],
+      "model_release_id": "amg_v2_reuse_b874bc7746edf155",
+      "entered_prompt": false
+    }
+  ],
+  "cue_audit": [
+    {
+      "cue_type_id": "TXT_AFFECT_WORD_POSITIVE",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.000487857119878754,
+      "calibrated_score": 0.0036943632669123043
+    },
+    {
+      "cue_type_id": "TXT_AFFECT_WORD_NEGATIVE",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.00017952796770259738,
+      "calibrated_score": 0.006713831271546032
+    },
+    {
+      "cue_type_id": "TXT_EVALUATION_POSITIVE",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.9940890073776245,
+      "calibrated_score": 0.9229459257430606
+    },
+    {
+      "cue_type_id": "TXT_EVALUATION_NEGATIVE",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.00010229986219201237,
+      "calibrated_score": 0.008490583113145968
+    },
+    {
+      "cue_type_id": "TXT_NEGATION_PRESENT",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.0007793660624884069,
+      "calibrated_score": 0.006691858466972646
+    },
+    {
+      "cue_type_id": "TXT_CONTRAST_PRESENT",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.00011591933434829116,
+      "calibrated_score": 0.0013247193822790184
+    },
+    {
+      "cue_type_id": "TXT_INTENSIFIER_PRESENT",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.999220609664917,
+      "calibrated_score": 0.9418544902254778
+    },
+    {
+      "cue_type_id": "TXT_UNCERTAINTY_HEDGE",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 2.1233784082141938e-06,
+      "calibrated_score": 0.00011495748090235459
+    },
+    {
+      "cue_type_id": "TXT_RHETORICAL_QUESTION",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 7.031184941297397e-05,
+      "calibrated_score": 0.0002176932613886719
+    },
+    {
+      "cue_type_id": "TXT_EXCLAMATION_INTERJECTION",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 2.586742994026281e-05,
+      "calibrated_score": 0.0004428535100921531
+    },
+    {
+      "cue_type_id": "TXT_DESIRE_NEED",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.0010322310263291001,
+      "calibrated_score": 0.013061602384885835
+    },
+    {
+      "cue_type_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 3.7266393064783188e-06,
+      "calibrated_score": 2.9555966024905967e-05
+    },
+    {
+      "cue_type_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.034618835896253586,
+      "calibrated_score": 0.07634019454684818
+    },
+    {
+      "cue_type_id": "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 8.481103577651083e-05,
+      "calibrated_score": 0.001804431840659993
+    },
+    {
+      "cue_type_id": "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 2.2603242086915998e-06,
+      "calibrated_score": 0.00026636493078382843
+    },
+    {
+      "cue_type_id": "AUD_SPEECH_RATE_REL_FAST",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 7.338210252783028e-07,
+      "calibrated_score": 3.4830223383417975e-05
+    },
+    {
+      "cue_type_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.5954925417900085,
+      "calibrated_score": 0.4884436458864625
+    },
+    {
+      "cue_type_id": "AUD_PITCH_LEVEL_REL_HIGH",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 1.8738753624347737e-06,
+      "calibrated_score": 2.721209839293473e-06
+    },
+    {
+      "cue_type_id": "AUD_PITCH_LEVEL_REL_LOW",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.00015843621804378927,
+      "calibrated_score": 0.0007298959703978583
+    },
+    {
+      "cue_type_id": "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 1.855391076333035e-07,
+      "calibrated_score": 2.1574161942062385e-06
+    },
+    {
+      "cue_type_id": "AUD_VOCAL_INTENSITY_REL_LOW",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.000626334105618298,
+      "calibrated_score": 0.001340643272212705
+    },
+    {
+      "cue_type_id": "AUD_PITCH_VARIABILITY_HIGH",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 3.1201914680423215e-05,
+      "calibrated_score": 0.00010112470013122737
+    },
+    {
+      "cue_type_id": "AUD_PITCH_VARIABILITY_LOW",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.499301940202713,
+      "calibrated_score": 0.5904587442338946
+    },
+    {
+      "cue_type_id": "AUD_PAUSE_LONG",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.0003569706459529698,
+      "calibrated_score": 0.0022042871401616775
+    },
+    {
+      "cue_type_id": "AUD_PAUSE_FREQUENT",
+      "activation_status": "deferred",
+      "availability": "available",
+      "raw_score": 1.221907587023452e-05,
+      "calibrated_score": null
+    },
+    {
+      "cue_type_id": "AUD_INTONATION_RISING",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.07696083933115005,
+      "calibrated_score": 0.14711211928286683
+    },
+    {
+      "cue_type_id": "AUD_INTONATION_FALLING",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.896251380443573,
+      "calibrated_score": 0.8165192202749106
+    },
+    {
+      "cue_type_id": "AUD_INTONATION_FLAT",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.016914913430809975,
+      "calibrated_score": 0.03314949235370111
+    },
+    {
+      "cue_type_id": "AUD_VOICE_TENSE",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 9.610241977497935e-05,
+      "calibrated_score": 0.0010629092954657262
+    },
+    {
+      "cue_type_id": "AUD_VOICE_TREMBLING",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.0003150386910419911,
+      "calibrated_score": 0.0008810558631262444
+    },
+    {
+      "cue_type_id": "AUD_LAUGHTER_PRESENT",
+      "activation_status": "deferred",
+      "availability": "available",
+      "raw_score": 4.495181656238856e-06,
+      "calibrated_score": null
+    },
+    {
+      "cue_type_id": "AUD_CRYING_SOBBING_PRESENT",
+      "activation_status": "deferred",
+      "availability": "available",
+      "raw_score": 6.60521473037079e-05,
+      "calibrated_score": null
+    },
+    {
+      "cue_type_id": "VIS_BROWS_FURROWED",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.0009110511746257544,
+      "calibrated_score": 0.016056284439868524
+    },
+    {
+      "cue_type_id": "VIS_BROWS_RAISED",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.1127954050898552,
+      "calibrated_score": 0.31228448911641105
+    },
+    {
+      "cue_type_id": "VIS_EYES_WIDENED",
+      "activation_status": "active",
+      "availability": "available",
+      "raw_score": 0.06465348601341248,
+      "calibrated_score": 0.1479955363104911
+    },
+    {
+      "cue_type_id": "VIS_EYES_SQUINTED",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.000626334105618298,
+      "calibrated_score": 0.006078502589982969
+    },
+    {
+      "cue_type_id": "VIS_SMILE_PRESENT",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.00712142838165164,
+      "calibrated_score": 0.029850116213836323
+    },
+    {
+      "cue_type_id": "VIS_MOUTH_CORNERS_DOWN",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.0838903859257698,
+      "calibrated_score": 0.14243994457349152
+    },
+    {
+      "cue_type_id": "VIS_LIPS_PRESSED",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.22953522205352783,
+      "calibrated_score": 0.21855807711006928
+    },
+    {
+      "cue_type_id": "VIS_GRIMACE_PRESENT",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 5.144220995134674e-05,
+      "calibrated_score": 0.0011789510628235878
+    },
+    {
+      "cue_type_id": "VIS_TEARING_PRESENT",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.005220125429332256,
+      "calibrated_score": 0.02591903749149247
+    },
+    {
+      "cue_type_id": "VIS_HEAD_LOWERED",
+      "activation_status": "below_threshold",
+      "availability": "available",
+      "raw_score": 0.013222821988165379,
+      "calibrated_score": 0.03536085970755931
+    }
+  ],
+  "appraisal_audit": [
+    {
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "state_id": "AGR_RELEVANT",
+      "status": "supported",
+      "top_state_audit": "AGR_RELEVANT",
+      "state_probability": 0.9951209599791021,
+      "margin": 0.9902419199582041,
+      "normalized_entropy": 0.04448882768878198,
+      "evidence_coverage": 0.8536853146874607,
+      "reasons": []
+    },
+    {
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "state_id": "AGC_CONGRUENT",
+      "status": "supported",
+      "top_state_audit": "AGC_CONGRUENT",
+      "state_probability": 0.8453338292277413,
+      "margin": 0.6981354394461128,
+      "normalized_entropy": 0.4192882980313327,
+      "evidence_coverage": 0.9739923655586548,
+      "reasons": []
+    },
+    {
+      "dimension_id": "APP_EXPECTEDNESS",
+      "state_id": null,
+      "status": "unresolved",
+      "top_state_audit": "AEX_EXPECTED",
+      "state_probability": 0.5294423166875291,
+      "margin": 0.05888463337505806,
+      "normalized_entropy": 0.9974973521209405,
+      "evidence_coverage": 0.747544884774656,
+      "reasons": [
+        "state_ambiguous"
+      ]
+    },
+    {
+      "dimension_id": "APP_AGENCY",
+      "state_id": null,
+      "status": "unresolved",
+      "top_state_audit": "AAG_OTHER",
+      "state_probability": 0.7559803592770612,
+      "margin": 0.5715902335915404,
+      "normalized_entropy": 0.5250075935774541,
+      "evidence_coverage": 0.0,
+      "reasons": [
+        "insufficient_active_stable_Cue_coverage"
+      ]
+    },
+    {
+      "dimension_id": "APP_CERTAINTY",
+      "state_id": "ACT_CERTAIN",
+      "status": "supported",
+      "top_state_audit": "ACT_CERTAIN",
+      "state_probability": 0.9846246441059365,
+      "margin": 0.9692492882118732,
+      "normalized_entropy": 0.11461994430915896,
+      "evidence_coverage": 0.6548552564634358,
+      "reasons": []
+    },
+    {
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "state_id": "ACP_HIGH",
+      "status": "supported",
+      "top_state_audit": "ACP_HIGH",
+      "state_probability": 0.8524936022355181,
+      "margin": 0.7067632664128388,
+      "normalized_entropy": 0.3895585135880424,
+      "evidence_coverage": 0.9396038897098462,
+      "reasons": []
+    }
+  ],
+  "candidate_audit": [],
+  "coverage": {
+    "cue_count": 7,
+    "appraisal_supported_count": 4,
+    "appraisal_unresolved_dimensions": 2,
+    "emotion_candidate_count": 0,
+    "available_modalities": {
+      "text": true,
+      "audio": true,
+      "visual": true
+    }
+  },
+  "fallback": {
+    "required": false,
+    "reason": null,
+    "target": "original_affectgpt"
+  },
+  "evidence_profile": "internal_source_engineering",
+  "semantics": "Conditional model associations; calibrated scores are internal-development estimates; no psychological causal or factual claim"
+}

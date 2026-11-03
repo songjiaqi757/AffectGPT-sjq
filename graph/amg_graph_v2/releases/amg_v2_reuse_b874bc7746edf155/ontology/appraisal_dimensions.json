@@ -1,0 +1,66 @@
+[
+  {
+    "id": "APP_GOAL_RELEVANCE",
+    "node_type": "AppraisalDimension",
+    "states": [
+      "AGR_RELEVANT",
+      "AGR_IRRELEVANT"
+    ],
+    "definition": null,
+    "valid_training_samples": 12395
+  },
+  {
+    "id": "APP_GOAL_CONGRUENCE",
+    "node_type": "AppraisalDimension",
+    "states": [
+      "AGC_CONGRUENT",
+      "AGC_INCONGRUENT",
+      "AGC_MIXED"
+    ],
+    "definition": null,
+    "valid_training_samples": 8604
+  },
+  {
+    "id": "APP_EXPECTEDNESS",
+    "node_type": "AppraisalDimension",
+    "states": [
+      "AEX_EXPECTED",
+      "AEX_UNEXPECTED"
+    ],
+    "definition": null,
+    "valid_training_samples": 4645
+  },
+  {
+    "id": "APP_AGENCY",
+    "node_type": "AppraisalDimension",
+    "states": [
+      "AAG_SELF",
+      "AAG_OTHER",
+      "AAG_CIRCUMSTANCE",
+      "AAG_SHARED"
+    ],
+    "definition": null,
+    "valid_training_samples": 8258
+  },
+  {
+    "id": "APP_CERTAINTY",
+    "node_type": "AppraisalDimension",
+    "states": [
+      "ACT_CERTAIN",
+      "ACT_UNCERTAIN"
+    ],
+    "definition": null,
+    "valid_training_samples": 15378
+  },
+  {
+    "id": "APP_COPING_POTENTIAL",
+    "node_type": "AppraisalDimension",
+    "states": [
+      "ACP_HIGH",
+      "ACP_LOW",
+      "ACP_MIXED"
+    ],
+    "definition": null,
+    "valid_training_samples": 2400
+  }
+]

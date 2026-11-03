@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AMG v2 sample evidence graph",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sample_id",
+    "graph_release_id",
+    "nodes",
+    "edges",
+    "cue_audit",
+    "appraisal_audit",
+    "candidate_audit",
+    "coverage",
+    "fallback"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "amg_sample_graph_v2"
+    },
+    "sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "instance_id",
+          "node_type",
+          "ontology_id",
+          "sample_id"
+        ],
+        "properties": {
+          "node_type": {
+            "enum": [
+              "CueEvidence",
+              "AppraisalEvidence",
+              "EmotionEvidence"
+            ]
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "edge_id",
+          "source",
+          "target",
+          "relation_type"
+        ]
+      }
+    },
+    "cue_audit": {
+      "type": "array",
+      "minItems": 42,
+      "maxItems": 42
+    },
+    "appraisal_audit": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6
+    },
+    "fallback": {
+      "type": "object",
+      "required": [
+        "required",
+        "reason",
+        "target"
+      ],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
