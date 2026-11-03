@@ -1,0 +1,27 @@
+{
+  "schema_version": "amg_query_config_v1",
+  "purpose": "source_validation_frozen",
+  "graph_release_id": "1c8818a7679aa543920e73da26e8a1c02cdfd0644842e951e63f9f3dd640b091",
+  "frozen_build_constraints": {
+    "edge_min_source_groups": 20,
+    "path_min_joint_source_groups": 5
+  },
+  "query_parameters": {
+    "query_min_support_groups": 20,
+    "query_path_min_joint_support_groups": 5,
+    "dimension_min_evidence": {
+      "APP_GOAL_RELEVANCE": 0.0,
+      "APP_GOAL_CONGRUENCE": 0.01,
+      "APP_EXPECTEDNESS": 0.025,
+      "APP_AGENCY": 0.025,
+      "APP_CERTAINTY": 0.025,
+      "APP_COPING_POTENTIAL": 0.0
+    },
+    "minimum_coverage": 0.0,
+    "emotion_top_k": 3,
+    "path_top_k": 10,
+    "direct_two_hop_lambda": 0.75,
+    "branch": "full"
+  },
+  "notes": "P4 e26564f91580a5003afe1d9af271c88f5ef95521c04be16f7af56e520c42a45a; selected only on 3,076 source pseudo_validation members. Teacher retrieval consistency, not human or independent target accuracy. Cue threshold 0.5 and engineering active/deferred policy unchanged."
+}

@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-10-20T11:15:19.118998+08:00",
+  "policy": "preserve_original_model_state_and_evidence_for_all_cues",
+  "pause_special_postprocessing": false,
+  "frequent_pause_conflicts_usage": "diagnostic_only; no duration-based override or extra masking",
+  "audio_annotations_verified": 31322,
+  "pause_labels_compared_with_raw_api": 62644,
+  "csv_rows": 1315734,
+  "state_counts": {
+    "AUD_PAUSE_LONG": {
+      "negative": 27322,
+      "positive": 3181,
+      "unobservable": 187,
+      "uncertain": 632,
+      "unlabeled": 5
+    },
+    "AUD_PAUSE_FREQUENT": {
+      "negative": 13519,
+      "unobservable": 17087,
+      "uncertain": 519,
+      "positive": 197,
+      "unlabeled": 5
+    }
+  },
+  "state_y_mask_counts": {
+    "AUD_PAUSE_LONG": {
+      "negative|0|1": 27322,
+      "positive|1|1": 3181,
+      "unobservable||0": 187,
+      "uncertain||0": 632,
+      "unlabeled||0": 5
+    },
+    "AUD_PAUSE_FREQUENT": {
+      "negative|0|1": 13519,
+      "unobservable||0": 17087,
+      "uncertain||0": 519,
+      "positive|1|1": 197,
+      "unlabeled||0": 5
+    }
+  },
+  "historical_eligibility_conflict_state_counts": {
+    "negative": 11381,
+    "positive": 14
+  },
+  "raw_annotation_csv_mismatches": 0,
+  "annotation_records_changed": 0,
+  "csv_changed": false,
+  "labels_csv_sha256": "26a974f93241c5506da86b25706cb13a9ddbb2604da0fb8082e1cd046020ea15",
+  "api_calls": 0,
+  "original_uncertain_unobservable_preserved": true
+}

@@ -1,0 +1,1358 @@
+[
+  {
+    "job_id": "winner_CMUMOSEI_A",
+    "variant": "winner_CMUMOSEI_A",
+    "dataset": "CMUMOSEI",
+    "condition": "A",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.8010649026347441,
+    "metrics": {
+      "WAF": 0.8010649026347441,
+      "ACC": 0.8007705008255366,
+      "mean_extracted_labels": 3.210560206052801,
+      "empty_extracted_labels": 14
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000055_loss_0.499.pth",
+      "sha256": "42f6d8d5ef941a1457e2e9af5df13dc512ccc1075aa2fccaaba540068a9e0196",
+      "epoch": 55,
+      "loss": 0.49865148469731213
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSEI_A/name2reason.npz",
+    "raw_sha256": "a3a3ece9252cb7f0a582a5d3853dc567c77d03752c44b4e70056a2a72bab625b",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSEI_B",
+    "variant": "winner_CMUMOSEI_B",
+    "dataset": "CMUMOSEI",
+    "condition": "B",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.8070669779314795,
+    "metrics": {
+      "WAF": 0.8070669779314795,
+      "ACC": 0.806549257017061,
+      "mean_extracted_labels": 3.2361021678471773,
+      "empty_extracted_labels": 17
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000055_loss_0.499.pth",
+      "sha256": "42f6d8d5ef941a1457e2e9af5df13dc512ccc1075aa2fccaaba540068a9e0196",
+      "epoch": 55,
+      "loss": 0.49865148469731213
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSEI_B/name2reason.npz",
+    "raw_sha256": "89911e8c1709a02eb0ea4fa0acbe84d6deb4ea029b999278ecb5444d3dc8cad9",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSEI_C",
+    "variant": "winner_CMUMOSEI_C",
+    "dataset": "CMUMOSEI",
+    "condition": "C",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.802936698711086,
+    "metrics": {
+      "WAF": 0.802936698711086,
+      "ACC": 0.802421574023115,
+      "mean_extracted_labels": 3.248121914573943,
+      "empty_extracted_labels": 17
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000055_loss_0.499.pth",
+      "sha256": "42f6d8d5ef941a1457e2e9af5df13dc512ccc1075aa2fccaaba540068a9e0196",
+      "epoch": 55,
+      "loss": 0.49865148469731213
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSEI_C/name2reason.npz",
+    "raw_sha256": "5fb0882cff84022f0de3cb39d29fa21f58751f399cab653ee7dd53ae503419a6",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSEI_D",
+    "variant": "winner_CMUMOSEI_D",
+    "dataset": "CMUMOSEI",
+    "condition": "D",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.8072473135366485,
+    "metrics": {
+      "WAF": 0.8072473135366485,
+      "ACC": 0.8068244358833242,
+      "mean_extracted_labels": 3.2206482077699077,
+      "empty_extracted_labels": 18
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000055_loss_0.499.pth",
+      "sha256": "42f6d8d5ef941a1457e2e9af5df13dc512ccc1075aa2fccaaba540068a9e0196",
+      "epoch": 55,
+      "loss": 0.49865148469731213
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSEI_D/name2reason.npz",
+    "raw_sha256": "840d2179368fdcf6c9fd7786f2fc6a2e974584ca214a19eb6fe93b3c31d26763",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSEI_E",
+    "variant": "winner_CMUMOSEI_E",
+    "dataset": "CMUMOSEI",
+    "condition": "E",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.8007685610394313,
+    "metrics": {
+      "WAF": 0.8007685610394313,
+      "ACC": 0.8002201430930105,
+      "mean_extracted_labels": 3.24275595621378,
+      "empty_extracted_labels": 16
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000055_loss_0.499.pth",
+      "sha256": "42f6d8d5ef941a1457e2e9af5df13dc512ccc1075aa2fccaaba540068a9e0196",
+      "epoch": 55,
+      "loss": 0.49865148469731213
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSEI_E/name2reason.npz",
+    "raw_sha256": "142e3d8f3c9ebcb06705c5f273ededd3004903ed8606bfcfcd6831d4d7bcc9dc",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSEI_P",
+    "variant": "winner_CMUMOSEI_P",
+    "dataset": "CMUMOSEI",
+    "condition": "P",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.8019206281166662,
+    "metrics": {
+      "WAF": 0.8019206281166662,
+      "ACC": 0.8013208585580628,
+      "mean_extracted_labels": 3.254346426271732,
+      "empty_extracted_labels": 17
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000055_loss_0.499.pth",
+      "sha256": "42f6d8d5ef941a1457e2e9af5df13dc512ccc1075aa2fccaaba540068a9e0196",
+      "epoch": 55,
+      "loss": 0.49865148469731213
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSEI_P/name2reason.npz",
+    "raw_sha256": "ce35a0ce5c291d24ae27dd1d40d0880c4f3786a13819f481304e2b6d0a93128a",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSI_A",
+    "variant": "winner_CMUMOSI_A",
+    "dataset": "CMUMOSI",
+    "condition": "A",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.8285652105698733,
+    "metrics": {
+      "WAF": 0.8285652105698733,
+      "ACC": 0.8277439024390244,
+      "mean_extracted_labels": 3.4489795918367347,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000057_loss_0.474.pth",
+      "sha256": "472b6188db8a8a95166a22cf0a25a88c0e06c997f05763af846d42add303a172",
+      "epoch": 57,
+      "loss": 0.47419277824908496
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSI_A/name2reason.npz",
+    "raw_sha256": "c17105e2460fc1e400d95ae3a2c907bd21c3273fd4f899d53f30e5df05e1b839",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSI_B",
+    "variant": "winner_CMUMOSI_B",
+    "dataset": "CMUMOSI",
+    "condition": "B",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.8166117066672265,
+    "metrics": {
+      "WAF": 0.8166117066672265,
+      "ACC": 0.8155487804878049,
+      "mean_extracted_labels": 3.454810495626822,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000057_loss_0.474.pth",
+      "sha256": "472b6188db8a8a95166a22cf0a25a88c0e06c997f05763af846d42add303a172",
+      "epoch": 57,
+      "loss": 0.47419277824908496
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSI_B/name2reason.npz",
+    "raw_sha256": "9ae3f0dd5a1946d0c6b34b9e6c0378da1bf8235a887f4fee583c90597036f435",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSI_C",
+    "variant": "winner_CMUMOSI_C",
+    "dataset": "CMUMOSI",
+    "condition": "C",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.8241310740709166,
+    "metrics": {
+      "WAF": 0.8241310740709166,
+      "ACC": 0.823170731707317,
+      "mean_extracted_labels": 3.4620991253644315,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000057_loss_0.474.pth",
+      "sha256": "472b6188db8a8a95166a22cf0a25a88c0e06c997f05763af846d42add303a172",
+      "epoch": 57,
+      "loss": 0.47419277824908496
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSI_C/name2reason.npz",
+    "raw_sha256": "2025102035e75052c071fdb22d7539ac37c48c76868942b04de57f28bca25f6f",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSI_D",
+    "variant": "winner_CMUMOSI_D",
+    "dataset": "CMUMOSI",
+    "condition": "D",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.822569362901332,
+    "metrics": {
+      "WAF": 0.822569362901332,
+      "ACC": 0.8216463414634146,
+      "mean_extracted_labels": 3.434402332361516,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000057_loss_0.474.pth",
+      "sha256": "472b6188db8a8a95166a22cf0a25a88c0e06c997f05763af846d42add303a172",
+      "epoch": 57,
+      "loss": 0.47419277824908496
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSI_D/name2reason.npz",
+    "raw_sha256": "972e6e9dc96b3996bacc2764b061a713409fa2337c03066eefeb57c6ae215237",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSI_E",
+    "variant": "winner_CMUMOSI_E",
+    "dataset": "CMUMOSI",
+    "condition": "E",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.822628476665185,
+    "metrics": {
+      "WAF": 0.822628476665185,
+      "ACC": 0.8216463414634146,
+      "mean_extracted_labels": 3.456268221574344,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000057_loss_0.474.pth",
+      "sha256": "472b6188db8a8a95166a22cf0a25a88c0e06c997f05763af846d42add303a172",
+      "epoch": 57,
+      "loss": 0.47419277824908496
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSI_E/name2reason.npz",
+    "raw_sha256": "ee0a377defdbb917ebd0f014b96fe9ac76a0e0a919d83579423ad45ff7f37ec0",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_CMUMOSI_P",
+    "variant": "winner_CMUMOSI_P",
+    "dataset": "CMUMOSI",
+    "condition": "P",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.8286353675884659,
+    "metrics": {
+      "WAF": 0.8286353675884659,
+      "ACC": 0.8277439024390244,
+      "mean_extracted_labels": 3.432944606413994,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_50/checkpoint_000057_loss_0.474.pth",
+      "sha256": "472b6188db8a8a95166a22cf0a25a88c0e06c997f05763af846d42add303a172",
+      "epoch": 57,
+      "loss": 0.47419277824908496
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_CMUMOSI_P/name2reason.npz",
+    "raw_sha256": "b97b05c06db1e4f99210ff4645a725307494637ec0e0158ce3da6f690bd0aa59",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_IEMOCAPFour_A",
+    "variant": "winner_IEMOCAPFour_A",
+    "dataset": "IEMOCAPFour",
+    "condition": "A",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6154025670945158,
+    "metrics": {
+      "HIT": 0.6154025670945158,
+      "M": 0.5383508362504861,
+      "mean_extracted_labels": 3.556809024979855,
+      "empty_extracted_labels": 3
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_IEMOCAPFour_A/name2reason.npz",
+    "raw_sha256": "1a107676810588fc67af5487948f00cf6bfce54f13112703da557389e33b6eab",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_IEMOCAPFour_B",
+    "variant": "winner_IEMOCAPFour_B",
+    "dataset": "IEMOCAPFour",
+    "condition": "B",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6007001166861144,
+    "metrics": {
+      "HIT": 0.6007001166861144,
+      "M": 0.533605600933489,
+      "mean_extracted_labels": 3.541498791297341,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_IEMOCAPFour_B/name2reason.npz",
+    "raw_sha256": "bb7eb68e97b8bef893d45d8e0b83d0d327e03585d5c3a7502f858c48dcb78d25",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_IEMOCAPFour_C",
+    "variant": "winner_IEMOCAPFour_C",
+    "dataset": "IEMOCAPFour",
+    "condition": "C",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6098016336056009,
+    "metrics": {
+      "HIT": 0.6098016336056009,
+      "M": 0.540879035394788,
+      "mean_extracted_labels": 3.573730862207897,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_IEMOCAPFour_C/name2reason.npz",
+    "raw_sha256": "2e6b2d4c494217cc2f2084db413d883d2ce7a995fd1ef28f2f38f6eb82a0b7ad",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_IEMOCAPFour_D",
+    "variant": "winner_IEMOCAPFour_D",
+    "dataset": "IEMOCAPFour",
+    "condition": "D",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6030338389731622,
+    "metrics": {
+      "HIT": 0.6030338389731622,
+      "M": 0.5315830416180475,
+      "mean_extracted_labels": 3.5366639806607574,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_IEMOCAPFour_D/name2reason.npz",
+    "raw_sha256": "632cf5dbf6613b809daa5648b077f311ab61f4c68438533aceb124fac2ebdae3",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_IEMOCAPFour_E",
+    "variant": "winner_IEMOCAPFour_E",
+    "dataset": "IEMOCAPFour",
+    "condition": "E",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6009334889148191,
+    "metrics": {
+      "HIT": 0.6009334889148191,
+      "M": 0.5337222870478413,
+      "mean_extracted_labels": 3.5592264302981467,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_IEMOCAPFour_E/name2reason.npz",
+    "raw_sha256": "159e9ca0293bed013336e26a57fd8a88d1a14ea1a3863eceb685872866632874",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_IEMOCAPFour_P",
+    "variant": "winner_IEMOCAPFour_P",
+    "dataset": "IEMOCAPFour",
+    "condition": "P",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6016336056009335,
+    "metrics": {
+      "HIT": 0.6016336056009335,
+      "M": 0.5311551925320886,
+      "mean_extracted_labels": 3.556003223207091,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_IEMOCAPFour_P/name2reason.npz",
+    "raw_sha256": "345c94b10a0267744c17b1a5ef29fa000fc22cdd43b527276d197cabd1e0c672",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MELD_A",
+    "variant": "winner_MELD_A",
+    "dataset": "MELD",
+    "condition": "A",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.5967588899757389,
+    "metrics": {
+      "HIT": 0.5967588899757389,
+      "M": 0.38118962027769376,
+      "mean_extracted_labels": 3.539463601532567,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MELD_A/name2reason.npz",
+    "raw_sha256": "b05f4ab0ff13f8f605c7791dedec4d6d37c781bce3ab6867cdada041ce4efb58",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MELD_B",
+    "variant": "winner_MELD_B",
+    "dataset": "MELD",
+    "condition": "B",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.5919729453789835,
+    "metrics": {
+      "HIT": 0.5919729453789835,
+      "M": 0.38036342704270376,
+      "mean_extracted_labels": 3.496168582375479,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MELD_B/name2reason.npz",
+    "raw_sha256": "a55d8f877dab5d7ff90876b9df46279783460c95696a5033bb4aadfdc83de05d",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MELD_C",
+    "variant": "winner_MELD_C",
+    "dataset": "MELD",
+    "condition": "C",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.5880265046625155,
+    "metrics": {
+      "HIT": 0.5880265046625155,
+      "M": 0.3748678079349404,
+      "mean_extracted_labels": 3.514942528735632,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MELD_C/name2reason.npz",
+    "raw_sha256": "6b8ebed9ac3780c3a9451d3b731a8ba5a24031631b9c6cb9bea3e26710013a16",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MELD_D",
+    "variant": "winner_MELD_D",
+    "dataset": "MELD",
+    "condition": "D",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.5897414590456178,
+    "metrics": {
+      "HIT": 0.5897414590456178,
+      "M": 0.3777706498226371,
+      "mean_extracted_labels": 3.4808429118773945,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MELD_D/name2reason.npz",
+    "raw_sha256": "ec9af0ca5d9c9cbcc68193c50cb1275f48cdd714484ce373e38d7979e01fe1e0",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MELD_E",
+    "variant": "winner_MELD_E",
+    "dataset": "MELD",
+    "condition": "E",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.585680291408518,
+    "metrics": {
+      "HIT": 0.585680291408518,
+      "M": 0.3739818567524738,
+      "mean_extracted_labels": 3.528735632183908,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MELD_E/name2reason.npz",
+    "raw_sha256": "6b6cdc40747529b065b731dd94c1c37e59d325a3b2fb4517c5d267bdc3f27640",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MELD_P",
+    "variant": "winner_MELD_P",
+    "dataset": "MELD",
+    "condition": "P",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.5852572124023048,
+    "metrics": {
+      "HIT": 0.5852572124023048,
+      "M": 0.37198573835241244,
+      "mean_extracted_labels": 3.527586206896552,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MELD_P/name2reason.npz",
+    "raw_sha256": "2d5069ab21f60e363c7aa2f7df3bb3d1f14fedb1ab6b0eb3e3e73df9e6aa0aae",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2023_A",
+    "variant": "winner_MER2023_A",
+    "dataset": "MER2023",
+    "condition": "A",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7756605593056894,
+    "metrics": {
+      "HIT": 0.7756605593056894,
+      "M": 0.5167817083692838,
+      "mean_extracted_labels": 3.732360097323601,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2023_A/name2reason.npz",
+    "raw_sha256": "ab871cf2b96d3039894052544fadb79cf4fd16991d01b8d105a42e3f524454f5",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2023_B",
+    "variant": "winner_MER2023_B",
+    "dataset": "MER2023",
+    "condition": "B",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7644785058112977,
+    "metrics": {
+      "HIT": 0.7644785058112977,
+      "M": 0.5141269519024176,
+      "mean_extracted_labels": 3.7153284671532845,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2023_B/name2reason.npz",
+    "raw_sha256": "182edcad63fa39d98da480a664ec2c007ea450ef4f9f8bec00722112c6a25922",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2023_C",
+    "variant": "winner_MER2023_C",
+    "dataset": "MER2023",
+    "condition": "C",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7876810637973912,
+    "metrics": {
+      "HIT": 0.7876810637973912,
+      "M": 0.5270114534165694,
+      "mean_extracted_labels": 3.7201946472019465,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2023_C/name2reason.npz",
+    "raw_sha256": "5562600891936f3e6098f2ab909c1815b99f1a52499be08c7b3c587fa9dffce6",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2023_D",
+    "variant": "winner_MER2023_D",
+    "dataset": "MER2023",
+    "condition": "D",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7656803532456986,
+    "metrics": {
+      "HIT": 0.7656803532456986,
+      "M": 0.5122962662200342,
+      "mean_extracted_labels": 3.7372262773722627,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2023_D/name2reason.npz",
+    "raw_sha256": "8e38abf0cb9698f115ce49b91fb5bf81d557cdaaebac9925b5577b3f8a562a0e",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2023_E",
+    "variant": "winner_MER2023_E",
+    "dataset": "MER2023",
+    "condition": "E",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7882637161853525,
+    "metrics": {
+      "HIT": 0.7882637161853525,
+      "M": 0.525821448510379,
+      "mean_extracted_labels": 3.7469586374695862,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2023_E/name2reason.npz",
+    "raw_sha256": "ea3cd330800c243c16a79d78cb596334c485645d48f13af21e5503fe5e59dc31",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2023_P",
+    "variant": "winner_MER2023_P",
+    "dataset": "MER2023",
+    "condition": "P",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7882271735268741,
+    "metrics": {
+      "HIT": 0.7882271735268741,
+      "M": 0.5316432353787072,
+      "mean_extracted_labels": 3.7542579075425793,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2023_P/name2reason.npz",
+    "raw_sha256": "f5d89a1a371f205973e4167deff642ef7d74d2ec9a85fff18037df8fa8b2eb82",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2024_A",
+    "variant": "winner_MER2024_A",
+    "dataset": "MER2024",
+    "condition": "A",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7983713872157632,
+    "metrics": {
+      "HIT": 0.7983713872157632,
+      "M": 0.5505732595601625,
+      "mean_extracted_labels": 3.6407185628742513,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2024_A/name2reason.npz",
+    "raw_sha256": "4ee259f1b4c5882ee3f8cc2c24848ffdd0942f57e395f318fcd742850d4db57a",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2024_B",
+    "variant": "winner_MER2024_B",
+    "dataset": "MER2024",
+    "condition": "B",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7869108652005418,
+    "metrics": {
+      "HIT": 0.7869108652005418,
+      "M": 0.5456078504614714,
+      "mean_extracted_labels": 3.5859709153122328,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2024_B/name2reason.npz",
+    "raw_sha256": "4d4921bb4e9b37b39e71ff71bb59b76d77974b8513234191cc8fb11a0e574bcc",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2024_C",
+    "variant": "winner_MER2024_C",
+    "dataset": "MER2024",
+    "condition": "C",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7974417518793483,
+    "metrics": {
+      "HIT": 0.7974417518793483,
+      "M": 0.5489878951300369,
+      "mean_extracted_labels": 3.5876817792985456,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2024_C/name2reason.npz",
+    "raw_sha256": "35bebce123183c3c5b969c2c80f47265661ca71fef414c54642d08e456ea6347",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2024_D",
+    "variant": "winner_MER2024_D",
+    "dataset": "MER2024",
+    "condition": "D",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7838504459074567,
+    "metrics": {
+      "HIT": 0.7838504459074567,
+      "M": 0.5477805403806945,
+      "mean_extracted_labels": 3.5380667236954664,
+      "empty_extracted_labels": 2
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2024_D/name2reason.npz",
+    "raw_sha256": "fdb714eff3b4e2bf7e3ec76d23052e90712639b907241933c87646b0c41f019c",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2024_E",
+    "variant": "winner_MER2024_E",
+    "dataset": "MER2024",
+    "condition": "E",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7925928001120605,
+    "metrics": {
+      "HIT": 0.7925928001120605,
+      "M": 0.5492579882025181,
+      "mean_extracted_labels": 3.561163387510693,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2024_E/name2reason.npz",
+    "raw_sha256": "da1a79edfd51a13583d1a0ea43dbdd2ab556911dd300be832951ba0d2ac492ed",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_MER2024_P",
+    "variant": "winner_MER2024_P",
+    "dataset": "MER2024",
+    "condition": "P",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7980809637204092,
+    "metrics": {
+      "HIT": 0.7980809637204092,
+      "M": 0.5551555228712394,
+      "mean_extracted_labels": 3.575705731394354,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_MER2024_P/name2reason.npz",
+    "raw_sha256": "b53e00294c10027a1b33c2d7968b48708307b4be34b2bccccd6e4594b2613750",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_OVMERDPlus_A",
+    "variant": "winner_OVMERDPlus_A",
+    "dataset": "OVMERDPlus",
+    "condition": "A",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6125820594083342,
+    "metrics": {
+      "F_s": 0.6125820594083342,
+      "P_s": 0.6017363548751234,
+      "R_s": 0.6255597897039081,
+      "mean_extracted_labels": 3.4323308270676693,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/D/checkpoint_000040_loss_0.669.pth",
+      "sha256": "14d994b28053001183154d3e35d0dd702f21758edc6108ff3afa83fa144dbf42",
+      "epoch": 40,
+      "loss": 0.669410815218091
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_OVMERDPlus_A/name2reason.npz",
+    "raw_sha256": "00216a18ea7479628443003d68779aba1c264c1b97df871e05862aaeb7686086",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_OVMERDPlus_B",
+    "variant": "winner_OVMERDPlus_B",
+    "dataset": "OVMERDPlus",
+    "condition": "B",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6178393770898112,
+    "metrics": {
+      "F_s": 0.6178393770898112,
+      "P_s": 0.6079793364271346,
+      "R_s": 0.629820222090548,
+      "mean_extracted_labels": 3.4003759398496243,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/D/checkpoint_000040_loss_0.669.pth",
+      "sha256": "14d994b28053001183154d3e35d0dd702f21758edc6108ff3afa83fa144dbf42",
+      "epoch": 40,
+      "loss": 0.669410815218091
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_OVMERDPlus_B/name2reason.npz",
+    "raw_sha256": "f233e753d283c9589211ea0b85327925074698993e5f8997012e924b43c93d45",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_OVMERDPlus_C",
+    "variant": "winner_OVMERDPlus_C",
+    "dataset": "OVMERDPlus",
+    "condition": "C",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.629245843790013,
+    "metrics": {
+      "F_s": 0.629245843790013,
+      "P_s": 0.6170398721813241,
+      "R_s": 0.64314635916538,
+      "mean_extracted_labels": 3.4342105263157894,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/D/checkpoint_000040_loss_0.669.pth",
+      "sha256": "14d994b28053001183154d3e35d0dd702f21758edc6108ff3afa83fa144dbf42",
+      "epoch": 40,
+      "loss": 0.669410815218091
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_OVMERDPlus_C/name2reason.npz",
+    "raw_sha256": "492b4d004e10768bbd84c5836912bd45fb99f718edbd93a7e8f30f30f13fbbd8",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_OVMERDPlus_D",
+    "variant": "winner_OVMERDPlus_D",
+    "dataset": "OVMERDPlus",
+    "condition": "D",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.617469414945059,
+    "metrics": {
+      "F_s": 0.617469414945059,
+      "P_s": 0.6085882022903862,
+      "R_s": 0.6281827996952934,
+      "mean_extracted_labels": 3.4003759398496243,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/D/checkpoint_000040_loss_0.669.pth",
+      "sha256": "14d994b28053001183154d3e35d0dd702f21758edc6108ff3afa83fa144dbf42",
+      "epoch": 40,
+      "loss": 0.669410815218091
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_OVMERDPlus_D/name2reason.npz",
+    "raw_sha256": "42a67e43ea8aa5cacb0f2b1784d323924733710c73626582368b49f40035267c",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_OVMERDPlus_E",
+    "variant": "winner_OVMERDPlus_E",
+    "dataset": "OVMERDPlus",
+    "condition": "E",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6250617231212582,
+    "metrics": {
+      "F_s": 0.6250617231212582,
+      "P_s": 0.6134392244155188,
+      "R_s": 0.63851558416007,
+      "mean_extracted_labels": 3.4097744360902253,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/D/checkpoint_000040_loss_0.669.pth",
+      "sha256": "14d994b28053001183154d3e35d0dd702f21758edc6108ff3afa83fa144dbf42",
+      "epoch": 40,
+      "loss": 0.669410815218091
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_OVMERDPlus_E/name2reason.npz",
+    "raw_sha256": "9fb82e62550509d588e40d2b7545f2db408b8f793c24972d2c1ce05c946ef9e5",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_OVMERDPlus_P",
+    "variant": "winner_OVMERDPlus_P",
+    "dataset": "OVMERDPlus",
+    "condition": "P",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6272695662858674,
+    "metrics": {
+      "F_s": 0.6272695662858674,
+      "P_s": 0.6162766044512926,
+      "R_s": 0.6400821351861399,
+      "mean_extracted_labels": 3.424812030075188,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/D/checkpoint_000040_loss_0.669.pth",
+      "sha256": "14d994b28053001183154d3e35d0dd702f21758edc6108ff3afa83fa144dbf42",
+      "epoch": 40,
+      "loss": 0.669410815218091
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_OVMERDPlus_P/name2reason.npz",
+    "raw_sha256": "d0d075ce0d753b0b957d1109438838e3234778c7ec314d8b13761cd6a9cb443c",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMS_A",
+    "variant": "winner_SIMS_A",
+    "dataset": "SIMS",
+    "condition": "A",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8640901955158315,
+    "metrics": {
+      "WAF": 0.8640901955158315,
+      "ACC": 0.8634020618556701,
+      "mean_extracted_labels": 3.5295404814004376,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+      "sha256": "df2fa700ab7843392c56b2c83081f82f4146a8675263191d76a70339d209edbf",
+      "epoch": 41,
+      "loss": 0.6040179334327579
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMS_A/name2reason.npz",
+    "raw_sha256": "2d281a9ae976671533aa5282e17e89e57a732f8e7aa294ee48c739df5201f99a",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMS_B",
+    "variant": "winner_SIMS_B",
+    "dataset": "SIMS",
+    "condition": "B",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8667422492629523,
+    "metrics": {
+      "WAF": 0.8667422492629523,
+      "ACC": 0.865979381443299,
+      "mean_extracted_labels": 3.446389496717724,
+      "empty_extracted_labels": 1
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+      "sha256": "df2fa700ab7843392c56b2c83081f82f4146a8675263191d76a70339d209edbf",
+      "epoch": 41,
+      "loss": 0.6040179334327579
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMS_B/name2reason.npz",
+    "raw_sha256": "38c8d97cfac1d9a930cd5482c77f71cf91640c967bc967706ca40029d275647b",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMS_C",
+    "variant": "winner_SIMS_C",
+    "dataset": "SIMS",
+    "condition": "C",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8994055230395788,
+    "metrics": {
+      "WAF": 0.8994055230395788,
+      "ACC": 0.8994845360824743,
+      "mean_extracted_labels": 3.551422319474836,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+      "sha256": "df2fa700ab7843392c56b2c83081f82f4146a8675263191d76a70339d209edbf",
+      "epoch": 41,
+      "loss": 0.6040179334327579
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMS_C/name2reason.npz",
+    "raw_sha256": "66ecb4e460ab715a0b30377de411440528da7f423408babcc7b60d3357ee7c4a",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMS_D",
+    "variant": "winner_SIMS_D",
+    "dataset": "SIMS",
+    "condition": "D",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8616169511576812,
+    "metrics": {
+      "WAF": 0.8616169511576812,
+      "ACC": 0.8608247422680413,
+      "mean_extracted_labels": 3.448577680525164,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+      "sha256": "df2fa700ab7843392c56b2c83081f82f4146a8675263191d76a70339d209edbf",
+      "epoch": 41,
+      "loss": 0.6040179334327579
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMS_D/name2reason.npz",
+    "raw_sha256": "451a89ec2e5cc0d508c9df18c445300eddca9745b2739a74f81ff0bd7db37d5b",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMS_E",
+    "variant": "winner_SIMS_E",
+    "dataset": "SIMS",
+    "condition": "E",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8969072164948454,
+    "metrics": {
+      "WAF": 0.8969072164948454,
+      "ACC": 0.8969072164948454,
+      "mean_extracted_labels": 3.5689277899343543,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+      "sha256": "df2fa700ab7843392c56b2c83081f82f4146a8675263191d76a70339d209edbf",
+      "epoch": 41,
+      "loss": 0.6040179334327579
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMS_E/name2reason.npz",
+    "raw_sha256": "a05d22b8bce0e4612241a54bf8faad245319f5e583cd7240b5b5cda5bba4020e",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMS_P",
+    "variant": "winner_SIMS_P",
+    "dataset": "SIMS",
+    "condition": "P",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8969072164948454,
+    "metrics": {
+      "WAF": 0.8969072164948454,
+      "ACC": 0.8969072164948454,
+      "mean_extracted_labels": 3.5404814004376366,
+      "empty_extracted_labels": 0
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+      "sha256": "df2fa700ab7843392c56b2c83081f82f4146a8675263191d76a70339d209edbf",
+      "epoch": 41,
+      "loss": 0.6040179334327579
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMS_P/name2reason.npz",
+    "raw_sha256": "9092397adb7da3ccc25e077ef65bc0c4e852ce7a6ee7675b977f9e8fcf252b0b",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMSv2_A",
+    "variant": "winner_SIMSv2_A",
+    "dataset": "SIMSv2",
+    "condition": "A",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.8596555750058653,
+    "metrics": {
+      "WAF": 0.8596555750058653,
+      "ACC": 0.8594950603732162,
+      "mean_extracted_labels": 3.3617021276595747,
+      "empty_extracted_labels": 5
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000049_loss_0.595.pth",
+      "sha256": "7d801aaef5b19546dce80cc6891087a5af13d0940bf7b566e92adcebe0fe9966",
+      "epoch": 49,
+      "loss": 0.5949900240957737
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMSv2_A/name2reason.npz",
+    "raw_sha256": "628d3dccf78cbebeb3df142f03123ca6bd2c37c4b8a7b4051c4f4be51b5dcf7b",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMSv2_B",
+    "variant": "winner_SIMSv2_B",
+    "dataset": "SIMSv2",
+    "condition": "B",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.8551842068424459,
+    "metrics": {
+      "WAF": 0.8551842068424459,
+      "ACC": 0.8551042810098792,
+      "mean_extracted_labels": 3.3568665377176017,
+      "empty_extracted_labels": 4
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000049_loss_0.595.pth",
+      "sha256": "7d801aaef5b19546dce80cc6891087a5af13d0940bf7b566e92adcebe0fe9966",
+      "epoch": 49,
+      "loss": 0.5949900240957737
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMSv2_B/name2reason.npz",
+    "raw_sha256": "17d2ed8fcbd8ac82b09508a1d4c166537975f3c60d9b61ea434915702c66d72a",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMSv2_C",
+    "variant": "winner_SIMSv2_C",
+    "dataset": "SIMSv2",
+    "condition": "C",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.8606928850843691,
+    "metrics": {
+      "WAF": 0.8606928850843691,
+      "ACC": 0.8605927552140505,
+      "mean_extracted_labels": 3.377176015473888,
+      "empty_extracted_labels": 3
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000049_loss_0.595.pth",
+      "sha256": "7d801aaef5b19546dce80cc6891087a5af13d0940bf7b566e92adcebe0fe9966",
+      "epoch": 49,
+      "loss": 0.5949900240957737
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMSv2_C/name2reason.npz",
+    "raw_sha256": "8b655e2a5b5513b773da3be6f45ad138f346beb121bbdf5792b4448817c7e52a",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMSv2_D",
+    "variant": "winner_SIMSv2_D",
+    "dataset": "SIMSv2",
+    "condition": "D",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.8442750077891339,
+    "metrics": {
+      "WAF": 0.8442750077891339,
+      "ACC": 0.8441273326015367,
+      "mean_extracted_labels": 3.3230174081237913,
+      "empty_extracted_labels": 4
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000049_loss_0.595.pth",
+      "sha256": "7d801aaef5b19546dce80cc6891087a5af13d0940bf7b566e92adcebe0fe9966",
+      "epoch": 49,
+      "loss": 0.5949900240957737
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMSv2_D/name2reason.npz",
+    "raw_sha256": "da1e73795f73b9df89ae3ee7fcb448dd975ab635b4ba8242deb8a81fe57c4848",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMSv2_E",
+    "variant": "winner_SIMSv2_E",
+    "dataset": "SIMSv2",
+    "condition": "E",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.8596281760352755,
+    "metrics": {
+      "WAF": 0.8596281760352755,
+      "ACC": 0.8594950603732162,
+      "mean_extracted_labels": 3.3916827852998064,
+      "empty_extracted_labels": 3
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000049_loss_0.595.pth",
+      "sha256": "7d801aaef5b19546dce80cc6891087a5af13d0940bf7b566e92adcebe0fe9966",
+      "epoch": 49,
+      "loss": 0.5949900240957737
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMSv2_E/name2reason.npz",
+    "raw_sha256": "6b1f8d1525b3493c9be91e5ce2a9c24e7c82288d0b927cd44f9fc35581f2e747",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  },
+  {
+    "job_id": "winner_SIMSv2_P",
+    "variant": "winner_SIMSv2_P",
+    "dataset": "SIMSv2",
+    "condition": "P",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.8607066785225358,
+    "metrics": {
+      "WAF": 0.8607066785225358,
+      "ACC": 0.8605927552140505,
+      "mean_extracted_labels": 3.365570599613153,
+      "empty_extracted_labels": 4
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000049_loss_0.595.pth",
+      "sha256": "7d801aaef5b19546dce80cc6891087a5af13d0940bf7b566e92adcebe0fe9966",
+      "epoch": 49,
+      "loss": 0.5949900240957737
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057/predictions/winner_SIMSv2_P/name2reason.npz",
+    "raw_sha256": "9629cb5f5db11049711526db47fb7e2116fe4e568f3c8c7615ecbc85124e38f2",
+    "plan_id": "6d9786990407082d768cbcbef0e0474a7aaf2d7b66bc0c60c91baab5840d6f2d",
+    "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "cpu_only": true,
+  "gpu_model_calls": 0,
+  "training_records": 30755,
+  "audit_records": 500,
+  "independent_validation": false,
+  "source_examples_checked": 113,
+  "prompt_tasks_checked": 678,
+  "maximum_checked_sequence_tokens": 653,
+  "certified_runtime_limit": 1398,
+  "evidence_levels": {
+    "3": 386,
+    "2": 292
+  },
+  "logical_inference_jobs": 45,
+  "inference_shards": 360,
+  "total_predictions": 21000,
+  "gate_parameters_frozen": {
+    "version": "bcd_evidence_v1",
+    "graph_token_budget": 512,
+    "target_tokens": 384,
+    "max_paths": 2,
+    "min_selected_cues": 2,
+    "min_candidate_coverage": 0.35,
+    "min_relative_candidate_gap": 0.1,
+    "min_candidate_support_cues": 2,
+    "dropout_none": 0.2,
+    "dropout_no_emotions": 0.2,
+    "scores_are_calibrated_probabilities": false,
+    "threshold_selection": "fixed engineering preset; no target tuning"
+  },
+  "evaluation_after_all_inference": true,
+  "completed_at_beijing": "2026-10-24T16:15:47.794451+08:00"
+}

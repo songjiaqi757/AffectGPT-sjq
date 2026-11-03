@@ -1,0 +1,70 @@
+{
+  "version": "emotion_ontology_affectgpt_original_v1_no_diagnostic",
+  "total_source_samples": 31327,
+  "eligible_samples": 31255,
+  "excluded_by_cue_policy": 72,
+  "emotion_nodes": 188,
+  "canonical_discovery_role": "pseudo_train",
+  "role_summary": {
+    "pseudo_train": {
+      "samples": 27879,
+      "mapping_nonempty_samples": 27311,
+      "empty_after_mapping_samples": 568,
+      "samples_with_dropped_terms": 10720,
+      "samples_with_lexicographic_choices": 27117,
+      "oov_samples": 0,
+      "graph_eligible_samples": 27311,
+      "explicit_empty_source_samples": 484
+    },
+    "pseudo_validation": {
+      "samples": 3076,
+      "mapping_nonempty_samples": 3003,
+      "empty_after_mapping_samples": 73,
+      "samples_with_dropped_terms": 1183,
+      "samples_with_lexicographic_choices": 2982,
+      "oov_samples": 2,
+      "graph_eligible_samples": 0,
+      "explicit_empty_source_samples": 61
+    },
+    "gold_audit": {
+      "samples": 300,
+      "mapping_nonempty_samples": 296,
+      "empty_after_mapping_samples": 4,
+      "samples_with_dropped_terms": 107,
+      "samples_with_lexicographic_choices": 292,
+      "oov_samples": 0,
+      "graph_eligible_samples": 0,
+      "explicit_empty_source_samples": 4
+    }
+  },
+  "term_statistics": {
+    "source_term_occurrences": 111481,
+    "dropped_term_occurrences": 16507,
+    "lexicographic_choice_occurrences": 83916
+  },
+  "raw_distinct_terms": 3345,
+  "original_format_inputs": 7386,
+  "original_synonym_inputs": 1255,
+  "original_wheel_labels": 253,
+  "model_calls": 0,
+  "custom_aliases_used": false,
+  "original_empty_to_neutral_conversion_used": false,
+  "source_labels": "official track2_train_mercaptionplus.csv; same file read by original MERCaptionPlus_Dataset",
+  "lexical_tiebreak_policy": "exact original sorted(...)[0]",
+  "out_of_dictionary_policy": "exact original drop",
+  "graph_nodes_frozen": true,
+  "graph_edges_constructed": false,
+  "wheel_projection_noncommutation_samples": {
+    "wheel1_level1": 10841,
+    "wheel1_level2": 18596,
+    "wheel2_level1": 12358,
+    "wheel2_level2": 17348,
+    "wheel3_level1": 17152,
+    "wheel3_level2": 21392,
+    "wheel4_level1": 13574,
+    "wheel4_level2": 16853,
+    "wheel5_level1": 18429,
+    "wheel5_level2": 21345
+  },
+  "note": "Sample Wheel views are computed from raw labels with original case3; projecting case2 nodes can differ and is preserved separately."
+}

@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "cases": {
+    "all_modalities_and_holdout_failed_ids_disjoint": {
+      "passed": true,
+      "excluded": 72,
+      "failed_tasks": 78,
+      "holdout": 300,
+      "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7"
+    },
+    "text_first_step_reused": {
+      "passed": true
+    },
+    "text_checkpoint": {
+      "passed": true,
+      "step": 1,
+      "encoder_train": "full",
+      "temporal_model": "none",
+      "new_holdout": true
+    },
+    "audio_first_step": {
+      "passed": true
+    },
+    "audio_checkpoint": {
+      "passed": true,
+      "step": 1,
+      "encoder_train": "frozen",
+      "temporal_model": "none",
+      "new_holdout": true
+    },
+    "visual_first_step": {
+      "passed": true
+    },
+    "visual_checkpoint": {
+      "passed": true,
+      "step": 1,
+      "encoder_train": "frozen",
+      "temporal_model": "none",
+      "new_holdout": true
+    },
+    "visual_temporal_first_step": {
+      "passed": true
+    },
+    "visual_temporal_checkpoint": {
+      "passed": true,
+      "step": 1,
+      "encoder_train": "frozen",
+      "temporal_model": "transformer",
+      "new_holdout": true
+    },
+    "audio_temporal_first_step": {
+      "passed": true
+    },
+    "audio_temporal_checkpoint": {
+      "passed": true,
+      "step": 1,
+      "encoder_train": "frozen",
+      "temporal_model": "transformer",
+      "new_holdout": true
+    },
+    "audio_temporal_resume": {
+      "passed": true
+    }
+  },
+  "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76"
+}

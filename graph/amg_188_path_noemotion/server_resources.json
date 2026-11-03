@@ -1,0 +1,40 @@
+{
+  "updated_at_beijing": "2026-10-28T21:01:40.126059+08:00",
+  "project": "/ai/sjq/AffectGPT-sjq",
+  "execution_policy": "Project, code, media, checkpoints, logs and outputs remain on servers; no local copies.",
+  "shared_storage": "/ai/sjq",
+  "nodes": [
+    {
+      "alias": "Qiii",
+      "ssh_host": "172.23.166.144",
+      "ssh_port": 34989,
+      "user": "root",
+      "gpu": "NVIDIA A800-SXM4-80GB",
+      "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "local_cuda_device": 0,
+      "host_memory_GiB": 128,
+      "inference_processes": 4,
+      "capacity_status": "1536+1200 source-only full-window passed"
+    },
+    {
+      "alias": "Qiii-A100",
+      "ssh_host": "172.23.166.144",
+      "ssh_port": 31764,
+      "user": "root",
+      "gpu": "NVIDIA A100 80GB PCIe",
+      "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c",
+      "local_cuda_device": 0,
+      "host_memory_GiB": 32,
+      "inference_processes": 4,
+      "capacity_status": "Current GPU passed four concurrent workers, 1536-input + 1200-output full-window source probe",
+      "loading_policy": "Serialize model construction and checkpoint loading; parallelize GPU inference"
+    }
+  ],
+  "current_run": "/ai/sjq/AffectGPT-sjq/graph/amg_method_decision/runs/decision_20261028_200538",
+  "notes": [
+    "These are two separate single-GPU servers; do not address the A100 as cuda:1 on the A800 node.",
+    "Assign all paired arms for each sample to the same physical GPU.",
+    "Host wall clocks differ by approximately five minutes; compare phases through shared barriers and use per-node monotonic deadlines."
+  ],
+  "graph_workspace": "/ai/sjq/AffectGPT-sjq/graph"
+}

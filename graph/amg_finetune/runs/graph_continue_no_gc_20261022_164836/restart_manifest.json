@@ -1,0 +1,57 @@
+{
+  "restarted_at_beijing": "2026-10-22T16:56:10.580561+08:00",
+  "plan_id": "06b8b107de36e0507f6b0815a2335096eb6a4f1df89c9ed5c3745ee5fe1a9a01",
+  "old_training_results_deleted": true,
+  "old_checkpoint_outputs_deleted": 2,
+  "old_output_deletion_manifest": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/training_results_deletion.json",
+  "trained_weights_archived": false,
+  "from_original_checkpoints": true,
+  "additional_epochs_each": 5,
+  "iterations_per_epoch": 5000,
+  "llm_gradient_checkpointing": false,
+  "query_config_id": "ac35200d82683b116f9cb1ad0f58d119d6eda556339edf87cf3c7f4c69c7f3ff",
+  "training_samples": 30755,
+  "human_audit_samples_excluded": 500,
+  "cache_reused": true,
+  "prompt_unchanged": true,
+  "gpu_preflight_passed": true,
+  "max_actual_tokens": 1398,
+  "max_batch_size": 3,
+  "max_test_gpu_allocated_bytes": 65025907200,
+  "code_manifest_sha256": "37e32eb8150a39afabe265ed67544a045c745f7affbc9e03e1f2a09ded9ffd0a",
+  "memory_execution_sha256": "e037d397365e3236da9a58f73285aa451ce3fce19a47002709259b3133d1b012",
+  "queue_policy": {
+    "0": [
+      30,
+      40,
+      50
+    ],
+    "1": [
+      35,
+      45
+    ]
+  },
+  "confirmed_training_at_beijing": "2026-10-22T16:58:02.416076+08:00",
+  "both_first_experiments_running_without_gradient_checkpointing": true,
+  "observed_experiments": {
+    "30": {
+      "physical_gpu": "0",
+      "completed_steps": 80,
+      "optimizer_updates": 80,
+      "seconds_per_step": 1.1931713610887527,
+      "gpu_memory_peak": 62815222784,
+      "gpu_memory_reserved": 65475182592,
+      "llm_gradient_checkpointing": false
+    },
+    "35": {
+      "physical_gpu": "1",
+      "completed_steps": 80,
+      "optimizer_updates": 80,
+      "seconds_per_step": 1.172855094075203,
+      "gpu_memory_peak": 62815222784,
+      "gpu_memory_reserved": 65475182592,
+      "llm_gradient_checkpointing": false
+    }
+  },
+  "source_code_fingerprints_verified": true
+}

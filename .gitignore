@@ -18,3 +18,49 @@ __pycache__/
 # Oversized evaluation logs retained on server
 /AffectGPT/output/evaluation_20261016_2140/logs/face/score_lane_0.log
 /AffectGPT/output/evaluation_20261016_2140/logs/frame/score_lane_0.log
+
+# === Experiment run outputs / caches under graph/ (bulk, regenerable) ===
+graph/**/runs/**/*cache/
+graph/**/runs/**/inputs/
+graph/**/runs/**/annotations/
+graph/**/runs/**/teacher_raw/
+graph/**/runs/**/prompts/
+graph/**/runs/**/predictions/
+graph/**/runs/**/shards/
+graph/**/runs/**/scores/
+graph/**/runs/**/jobs/
+graph/**/runs/**/evaluation_jobs/
+graph/**/runs/**/phases/
+graph/**/runs/**/code_history/
+graph/**/*.npz
+graph/**/*.mp4
+graph/**/*.wav
+graph/**/*.parquet
+graph/**/*.sqlite3
+graph/**/*.jsonl
+graph/**/*.log
+graph/**/unique_results/
+graph/**/target_cache/
+graph/**/assets/**/folds/
+graph/**/*cache/
+graph/**/inputs/
+graph/**/predictions/
+graph/**/shards/
+graph/**/annotations/
+graph/**/teacher_raw/
+
+# Model weights (exceed GitHub 100 MB limit)
+*.safetensors
+graph/**/weights/
+
+# Large per-dataset data files / migration logs
+graph/**/labels*.csv
+graph/**/train_records.json
+graph/**/train_inputs.json
+graph/**/cache_inputs_*.json
+graph/**/samples.json
+graph/**/source_members.json
+graph/**/polarity_labels.json
+graph/**/deletion_manifest.json
+graph/**/audit/
+graph/**/data_migrations/

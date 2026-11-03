@@ -1,0 +1,108 @@
+{
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1.0,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2736
+  },
+  "limits": {
+    "additional_epochs": 10,
+    "iters_per_epoch": 5000,
+    "batch_size": 3,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.05,
+    "seed": 42,
+    "num_workers": 4,
+    "max_sequence_tokens": 2048,
+    "prompt_token_budget": 1536,
+    "answer_token_budget": 510,
+    "graph_token_budget": 512,
+    "subtitle_token_budget": 256,
+    "amp": "fp16 with restored GradScaler",
+    "restore_optimizer": true,
+    "restore_scaler": true,
+    "lr_schedule": "constant continuation at original 1e-5; no new warmup",
+    "supervision": "Original MERCaptionPlus hybird(description/ovlabel),50/50 random tasks; auxiliary polarity lambda0.1 for every valid source example, with and without graph",
+    "original_empty_openset_neutral_fallback_count": 543,
+    "gradient_checkpointing": false,
+    "llm_use_cache": false,
+    "certified_actual_max_tokens": 1398,
+    "cuda_allocator": "expandable_segments:True"
+  },
+  "prompt_question": "Please recognize all possible emotional states of the character.",
+  "judge_protocol_id": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d",
+  "physical_nodes": [
+    {
+      "name": "A800",
+      "ssh_port": 34989,
+      "index": 0,
+      "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "A100",
+      "ssh_port": 31764,
+      "index": 1,
+      "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c",
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "schema": "method_decision_v1",
+  "training_run": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "S",
+    "P"
+  ],
+  "ablation_by_variant": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "S": "S",
+    "P": "P"
+  },
+  "checkpoints": {
+    "original_epoch40": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000040_loss_0.664.pth",
+      "sha256": "cfcb328799605ebfa3839bd0a50a0f7f2b93efd2992550c3a7e482297c8fbfc0",
+      "epoch": 40
+    },
+    "fixed_graph45_to54": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_45/checkpoint_000054_loss_0.511.pth",
+      "sha256": "6e8b802d56f4391c221c1af192c36e41df8b15c51f5639a8ef666244676751f2",
+      "epoch": 54,
+      "loss": 0.5111880569674074
+    }
+  },
+  "seeds": [
+    42,
+    2026,
+    2027
+  ],
+  "source_protocol_sha256": "15859320b41d33ca1c0703e306e4c46831dbd64b8dd83d73f96280e7fe2bb411",
+  "confirmation_requires": "frozen_selection.json",
+  "source_independence_certified": false,
+  "created_at_beijing": "2026-10-28T20:27:56.361499+08:00",
+  "input_files": {
+    "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/data/development_records.json": "52f318ddc1d7cc78f36b7e0525de4a27bf55d6a8da29b2f6b9f8c35977aed826",
+    "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/data/development_labels.json": "9153304ca33691e62c9d3a91066bec42fec7a85d71619ea36b81ae539e964ccf",
+    "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/data/confirmation_records.json": "0507f555f1f36a9c44d207e3e80351f46d37652f51cd5ad2059f8ec6c9033661",
+    "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/data/confirmation_labels.json": "8368fc7d18b65bb427926a21398bda5506ff5ada90463387cfbc5beed5bc192a"
+  },
+  "plan_id": "0187c66020ecf84e7056d0c941036a4de6b83128a76a215d82c49fe8f36fefa3",
+  "hardware_refresh_reason": "Same authorized A100 SSH endpoint currently exposes a replacement A100 UUID; no formal predictions existed. Fresh four-worker full-window capacity probe required."
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "job_id": "from_50_epoch_52_MER2023",
+    "base_epoch": 50,
+    "epoch": 52,
+    "dataset": "MER2023",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7872445820433436,
+    "metrics": {
+      "HIT": 0.7872445820433436
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_50/checkpoint_000052_loss_0.586.pth",
+      "sha256": "710ba2c53755f34be022783af1501c4c79672cd325e63ac57fd21a7a17667928",
+      "epoch": 52,
+      "loss": 0.5855199875269085
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_50_epoch_52_MER2023/name2reason.npz",
+    "raw_sha256": "46d08f911fdeb0c1d97b32527c1c846289293ae126b974f9750141157761fe96",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 1,
+    "completed_at_beijing": "2026-10-24T15:07:49.270310+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_35_epoch_40_MER2024",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "MER2024",
+    "samples": 1169,
+    "main_metric": "HIT",
+    "main_score": 0.7872337395526918,
+    "metrics": {
+      "HIT": 0.7872337395526918
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_35/checkpoint_000040_loss_0.665.pth",
+      "sha256": "ac4ac60c58c5764885029f5a0f23114c224ab66e97a1f4af08ebdd01ef9f483b",
+      "epoch": 40,
+      "loss": 0.665055534170568
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_35_epoch_40_MER2024/name2reason.npz",
+    "raw_sha256": "ce0d569a26b7a0381a3e470e07d51d220866c8499ef99e1da183a2519e2a3664",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 0,
+    "completed_at_beijing": "2026-10-24T14:54:04.363987+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_35_epoch_40_MELD",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "MELD",
+    "samples": 2610,
+    "main_metric": "HIT",
+    "main_score": 0.5827147229365187,
+    "metrics": {
+      "HIT": 0.5827147229365187
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_35/checkpoint_000040_loss_0.665.pth",
+      "sha256": "ac4ac60c58c5764885029f5a0f23114c224ab66e97a1f4af08ebdd01ef9f483b",
+      "epoch": 40,
+      "loss": 0.665055534170568
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_35_epoch_40_MELD/name2reason.npz",
+    "raw_sha256": "8f7df240dc264eb6cdfdd1ddd46d88af6505553d099370a2437ca1568e3e09ee",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 1,
+    "completed_at_beijing": "2026-10-24T14:19:49.738478+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_50_epoch_52_IEMOCAPFour",
+    "base_epoch": 50,
+    "epoch": 52,
+    "dataset": "IEMOCAPFour",
+    "samples": 1241,
+    "main_metric": "HIT",
+    "main_score": 0.6149358226371062,
+    "metrics": {
+      "HIT": 0.6149358226371062
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_50/checkpoint_000052_loss_0.586.pth",
+      "sha256": "710ba2c53755f34be022783af1501c4c79672cd325e63ac57fd21a7a17667928",
+      "epoch": 52,
+      "loss": 0.5855199875269085
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_50_epoch_52_IEMOCAPFour/name2reason.npz",
+    "raw_sha256": "d2a48c2e37daed3143c22b6b44d27586effb22a3530fd27effb3dba29da60929",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 1,
+    "completed_at_beijing": "2026-10-24T14:49:33.652124+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_50_epoch_53_CMUMOSI",
+    "base_epoch": 50,
+    "epoch": 53,
+    "dataset": "CMUMOSI",
+    "samples": 686,
+    "main_metric": "WAF",
+    "main_score": 0.8166624836703628,
+    "metrics": {
+      "WAF": 0.8166624836703628,
+      "ACC": 0.8155487804878049
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_50/checkpoint_000053_loss_0.533.pth",
+      "sha256": "a9ddc966add2771f55f66c9606567f16d21002cbb8944e0dff255c180ca7ad58",
+      "epoch": 53,
+      "loss": 0.5326811909414828
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_50_epoch_53_CMUMOSI/name2reason.npz",
+    "raw_sha256": "de6263916e1d802ec1e428f989b6ca891faed9e46c709d9aebb2bd1957734eab",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 0,
+    "completed_at_beijing": "2026-10-24T15:05:23.815788+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_35_epoch_40_CMUMOSEI",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "CMUMOSEI",
+    "samples": 4659,
+    "main_metric": "WAF",
+    "main_score": 0.7975164818217997,
+    "metrics": {
+      "WAF": 0.7975164818217997,
+      "ACC": 0.7958172812328013
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_35/checkpoint_000040_loss_0.665.pth",
+      "sha256": "ac4ac60c58c5764885029f5a0f23114c224ab66e97a1f4af08ebdd01ef9f483b",
+      "epoch": 40,
+      "loss": 0.665055534170568
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_35_epoch_40_CMUMOSEI/name2reason.npz",
+    "raw_sha256": "2a10e25c2be34afea1c3238edfc9046e978ebe33b33c89ca80579a7ecb7fd63d",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 0,
+    "completed_at_beijing": "2026-10-24T13:45:25.741037+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_35_epoch_40_SIMS",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "SIMS",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8698489481295701,
+    "metrics": {
+      "WAF": 0.8698489481295701,
+      "ACC": 0.8685567010309279
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_35/checkpoint_000040_loss_0.665.pth",
+      "sha256": "ac4ac60c58c5764885029f5a0f23114c224ab66e97a1f4af08ebdd01ef9f483b",
+      "epoch": 40,
+      "loss": 0.665055534170568
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/phases/priority_20x3_20261023_121637/score_inputs/from_35_epoch_40_SIMS/name2reason.npz",
+    "raw_sha256": "bb7b5b42e2945bb7a86569a8b62392bf5a5e68c0922b3cd6cc3f218ea61c829b",
+    "phase_id": "493e958d00817aca9fd3418e2e7f8d863d7ac4e9c482a8c371a5274ea0912803",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "a2a444cad6fec881c063b4753cc5a2ed1294d4163b54d629c7d81dae6a0fb509",
+    "completed_at_beijing": "2026-10-23T16:26:02.443021+08:00",
+    "protocol": "Unmodified repository evaluation.py metric functions and Qwen25 judge loader; all 60 inference jobs must complete before scoring; sequential scoring in a single evaluator with one judge instance"
+  },
+  {
+    "job_id": "from_50_epoch_55_SIMSv2",
+    "base_epoch": 50,
+    "epoch": 55,
+    "dataset": "SIMSv2",
+    "samples": 1034,
+    "main_metric": "WAF",
+    "main_score": 0.868349278947678,
+    "metrics": {
+      "WAF": 0.868349278947678,
+      "ACC": 0.8682766190998902
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_50/checkpoint_000055_loss_0.505.pth",
+      "sha256": "a51c1183e7cedf3ca3b57a96ec010c2ae0c8ff0f24ff68a5f619aae04f553c90",
+      "epoch": 55,
+      "loss": 0.5050532211698592
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/score_inputs/from_50_epoch_55_SIMSv2/name2reason.npz",
+    "raw_sha256": "c91412b17feb65588d38092b60b54682941a9b96566309a9718cbae6f398f8b5",
+    "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "673ebb7eca0f906d011ceda52b7576970df0663dfe9241b511c0c9a68532a664",
+    "evaluation_gpu": 1,
+    "completed_at_beijing": "2026-10-24T14:41:41.672012+08:00",
+    "protocol": "Unmodified repository evaluation.py Qwen25 loader and metric functions; fixed test membership; HIT for discrete datasets, WAF/ACC for dimensional datasets, F_s/P_s/R_s for OVMERDPlus; report secondary metrics from the primary-best checkpoint"
+  },
+  {
+    "job_id": "from_40_epoch_43_OVMERDPlus",
+    "base_epoch": 40,
+    "epoch": 43,
+    "dataset": "OVMERDPlus",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6315285499420461,
+    "metrics": {
+      "F_s": 0.6315285499420461,
+      "P_s": 0.6193981433647214,
+      "R_s": 0.6448988207699058
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_40/checkpoint_000043_loss_0.638.pth",
+      "sha256": "af53949a4e28593a84d92d0c6d9982c745e49b1ec588351540654d34a94815be",
+      "epoch": 43,
+      "loss": 0.637843754298985
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/phases/priority_20x3_20261023_121637/score_inputs/from_40_epoch_43_OVMERDPlus/name2reason.npz",
+    "raw_sha256": "b0ed57affd902f3e0115848f4a5176439989db3952a7c8eb7a0edd7988862ad1",
+    "phase_id": "493e958d00817aca9fd3418e2e7f8d863d7ac4e9c482a8c371a5274ea0912803",
+    "inference_plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+    "evaluation_lock_id": "a2a444cad6fec881c063b4753cc5a2ed1294d4163b54d629c7d81dae6a0fb509",
+    "completed_at_beijing": "2026-10-23T16:29:09.302952+08:00",
+    "protocol": "Unmodified repository evaluation.py metric functions and Qwen25 judge loader; all 60 inference jobs must complete before scoring; sequential scoring in a single evaluator with one judge instance"
+  }
+]

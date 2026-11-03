@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "pilot_annotation_records_deleted": true,
+  "tests_passed": 19,
+  "credential_scan_passed": true,
+  "temporary_preview_service_stopped": true,
+  "full_runner_pid": 273141,
+  "full_runner_alive": true,
+  "latest_status": {
+    "counts": {
+      "ok": 375,
+      "pending": 30847,
+      "running": 32,
+      "failed": 1
+    },
+    "queue_counts": {
+      "failed": 1,
+      "pending": 30847,
+      "running": 32,
+      "succeeded": 375
+    },
+    "successful_samples": 375,
+    "completed_samples": 375,
+    "valid_dimension_count": 745,
+    "invalid_dimension_count": 1505,
+    "dimension_rows": 2250,
+    "retryable_failed_tasks": 1,
+    "http_attempts": 385,
+    "usage_including_failed_generations": {
+      "prompt_tokens": 2075727,
+      "completion_tokens": 181043,
+      "total_tokens": 2256770
+    },
+    "phase": "running",
+    "complete": false,
+    "test_complete": false,
+    "tested_samples": 376,
+    "total_samples": 31255,
+    "total_tasks": 31255,
+    "expected_dimensions": 187530,
+    "run_id": "mercaptionplus_v2_4",
+    "run_label": "Appraisal v2.4 全量 · 32请求并发",
+    "updated_unix": 1792581408.040813,
+    "pid": 273141,
+    "round": 1,
+    "halt_reason": "",
+    "limits": {
+      "request_concurrency": 32,
+      "rpm_limit": 360,
+      "rpm_ceiling": 360,
+      "tpm_limit": 1600000,
+      "rate_limit_events": 0
+    },
+    "prompt_version": "appraisal_teacher_v2.4",
+    "annotation_schema_version": "appraisal_annotation_schema_v2.4",
+    "ontology_version": "appraisal_ontology_v2.3",
+    "actual_input_mode": "joint_text_audio_video_single_request",
+    "human_gold_audit_completed": false,
+    "full_dataset_started": true
+  },
+  "checked_unix": 1792581411.791555
+}

@@ -1,0 +1,2237 @@
+[
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "B",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -2.1660212127555534,
+        "paired_bootstrap95_pp": [
+          -5.769420629724061,
+          1.396136587236131
+        ],
+        "per_seed_delta_pp": [
+          0.6499895331798289,
+          -3.5016746912287955,
+          -3.6463784802176935
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 67.80303030303031,
+            "reference_HIT": 76.36363636363636,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 69.68036529680364,
+            "reference_HIT": 75.70776255707763,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 77.73584905660375,
+            "reference_HIT": 70.062893081761,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 36.111111111111114,
+            "reference_HIT": 42.59259259259259,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 70.11494252873564,
+            "reference_HIT": 66.20689655172414,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -1.6729376620069607,
+        "paired_bootstrap95_pp": [
+          -5.188192240716017,
+          1.7645676010309463
+        ],
+        "per_seed_delta_pp": [
+          0.9140182553259546,
+          -3.1444118715055924,
+          -2.788419369841244
+        ],
+        "corrected_across_three_seeds": 55,
+        "harmed_across_three_seeds": 64,
+        "positive_recall": 0.6013745704467354,
+        "negative_recall": 0.8888888888888888
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": -1.438889115159414,
+        "paired_bootstrap95_pp": [
+          -5.769571289900654,
+          2.874635899380877
+        ],
+        "per_seed_delta_pp": [
+          3.0984695379036973,
+          -3.5315841183509225,
+          -3.8835527650310175
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -1.8024551639574837,
+      "paired_bootstrap95_pp": [
+        -4.711541357866846,
+        1.0092383611961129
+      ],
+      "per_seed_delta_pp": [
+        1.874229535541763,
+        -3.516629404789859,
+        -3.7649656226243557
+      ]
+    }
+  },
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "C",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 1.248604423976004,
+        "paired_bootstrap95_pp": [
+          -1.5924552771684035,
+          4.110459562820811
+        ],
+        "per_seed_delta_pp": [
+          3.731683064684954,
+          -0.4864454678668584,
+          0.5005756751099155
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 75.3030303030303,
+            "reference_HIT": 76.36363636363636,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 71.23287671232876,
+            "reference_HIT": 75.70776255707763,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 71.9496855345912,
+            "reference_HIT": 70.062893081761,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 46.296296296296305,
+            "reference_HIT": 42.59259259259259,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 77.24137931034483,
+            "reference_HIT": 66.20689655172414,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": 0.6418863742400933,
+        "paired_bootstrap95_pp": [
+          -2.5531007647057726,
+          3.9739295438827127
+        ],
+        "per_seed_delta_pp": [
+          1.417663312022266,
+          1.1427567448555886,
+          -0.6347609341575744
+        ],
+        "corrected_across_three_seeds": 60,
+        "harmed_across_three_seeds": 50,
+        "positive_recall": 0.6219931271477663,
+        "negative_recall": 0.912962962962963
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 4.324055177544909,
+        "paired_bootstrap95_pp": [
+          0.932652354859316,
+          7.877919321059464
+        ],
+        "per_seed_delta_pp": [
+          7.066233132061789,
+          -0.2115009982453675,
+          6.1174333988183065
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 2.7863298007604564,
+      "paired_bootstrap95_pp": [
+        0.5217653702246938,
+        5.076686666541471
+      ],
+      "per_seed_delta_pp": [
+        5.398958098373371,
+        -0.34897323305611294,
+        3.3090045369641112
+      ]
+    }
+  },
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "C",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "B",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 3.4146256367315573,
+        "paired_bootstrap95_pp": [
+          0.30684941741072763,
+          6.615164142952619
+        ],
+        "per_seed_delta_pp": [
+          3.0816935315051253,
+          3.015229223361937,
+          4.1469541553276095
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 75.3030303030303,
+            "reference_HIT": 67.80303030303031,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 71.23287671232876,
+            "reference_HIT": 69.68036529680364,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 71.9496855345912,
+            "reference_HIT": 77.73584905660375,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 46.296296296296305,
+            "reference_HIT": 36.111111111111114,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 77.24137931034483,
+            "reference_HIT": 70.11494252873564,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": 2.314824036247054,
+        "paired_bootstrap95_pp": [
+          -0.4584759499386521,
+          5.333827371722243
+        ],
+        "per_seed_delta_pp": [
+          0.5036450566963113,
+          4.287168616361181,
+          2.1536584356836697
+        ],
+        "corrected_across_three_seeds": 58,
+        "harmed_across_three_seeds": 39,
+        "positive_recall": 0.6219931271477663,
+        "negative_recall": 0.912962962962963
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 5.762944292704323,
+        "paired_bootstrap95_pp": [
+          1.8946861070290775,
+          9.940711229632981
+        ],
+        "per_seed_delta_pp": [
+          3.9677635941580913,
+          3.3200831201055547,
+          10.000986163849323
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 4.58878496471794,
+      "paired_bootstrap95_pp": [
+        1.9841882954005776,
+        7.268195297711991
+      ],
+      "per_seed_delta_pp": [
+        3.5247285628316085,
+        3.167656171733746,
+        7.073970159588466
+      ]
+    }
+  },
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "C",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "S",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 0.21509315469960452,
+        "paired_bootstrap95_pp": [
+          -1.7168014733804287,
+          2.098796921441873
+        ],
+        "per_seed_delta_pp": [
+          0.43411136696671626,
+          -0.21823320075361474,
+          0.429401297885712
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 75.3030303030303,
+            "reference_HIT": 74.54545454545455,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 71.23287671232876,
+            "reference_HIT": 72.87671232876713,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 71.9496855345912,
+            "reference_HIT": 72.07547169811322,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 46.296296296296305,
+            "reference_HIT": 46.296296296296305,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 77.24137931034483,
+            "reference_HIT": 75.17241379310344,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": 0.3624869893716539,
+        "paired_bootstrap95_pp": [
+          -1.3455417443456124,
+          2.099247296214234
+        ],
+        "per_seed_delta_pp": [
+          0.22019759956675156,
+          0.5919683637932605,
+          0.2752950047549496
+        ],
+        "corrected_across_three_seeds": 24,
+        "harmed_across_three_seeds": 22,
+        "positive_recall": 0.6219931271477663,
+        "negative_recall": 0.912962962962963
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": -0.6580873534616283,
+        "paired_bootstrap95_pp": [
+          -2.187935814595937,
+          0.9885097831306561
+        ],
+        "per_seed_delta_pp": [
+          -0.8452762358610699,
+          -1.4740979915304375,
+          0.3451121670066226
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -0.22149709938101186,
+      "paired_bootstrap95_pp": [
+        -1.451111820501494,
+        0.9928560258284962
+      ],
+      "per_seed_delta_pp": [
+        -0.20558243444717683,
+        -0.8461655961420261,
+        0.3872567324461673
+      ]
+    }
+  },
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "P",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 2.8585758146675078,
+        "paired_bootstrap95_pp": [
+          -0.8229703221853322,
+          6.345846982922552
+        ],
+        "per_seed_delta_pp": [
+          4.393447770567304,
+          2.6711325099434746,
+          1.511147163491744
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.46969696969698,
+            "reference_HIT": 76.36363636363636,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 78.08219178082193,
+            "reference_HIT": 75.70776255707763,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 73.08176100628931,
+            "reference_HIT": 70.062893081761,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 37.962962962962955,
+            "reference_HIT": 42.59259259259259,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 70.0,
+            "reference_HIT": 66.20689655172414,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": 0.20750082787147997,
+        "paired_bootstrap95_pp": [
+          -3.6130700340975195,
+          3.9055716339087456
+        ],
+        "per_seed_delta_pp": [
+          0.5223602243364267,
+          -0.4507298389114789,
+          0.5508720981894921
+        ],
+        "corrected_across_three_seeds": 63,
+        "harmed_across_three_seeds": 59,
+        "positive_recall": 0.6563573883161512,
+        "negative_recall": 0.8833333333333333
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 6.455140334611658,
+        "paired_bootstrap95_pp": [
+          2.4241158302734895,
+          10.500275618031386
+        ],
+        "per_seed_delta_pp": [
+          6.530572429666931,
+          2.8858183481519752,
+          9.949030226016065
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 4.656858074639583,
+      "paired_bootstrap95_pp": [
+        1.7876703258590019,
+        7.185932783146681
+      ],
+      "per_seed_delta_pp": [
+        5.4620101001171175,
+        2.7784754290477247,
+        5.7300886947539045
+      ]
+    }
+  },
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "P",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "B",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 5.024597027423061,
+        "paired_bootstrap95_pp": [
+          0.9931095606608967,
+          9.00019645592261
+        ],
+        "per_seed_delta_pp": [
+          3.743458237387476,
+          6.1728072011722706,
+          5.1575256437094374
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.46969696969698,
+            "reference_HIT": 67.80303030303031,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 78.08219178082193,
+            "reference_HIT": 69.68036529680364,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 73.08176100628931,
+            "reference_HIT": 77.73584905660375,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 37.962962962962955,
+            "reference_HIT": 36.111111111111114,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 70.0,
+            "reference_HIT": 70.11494252873564,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": 1.8804384898784405,
+        "paired_bootstrap95_pp": [
+          -1.1500175702132842,
+          5.200302751333388
+        ],
+        "per_seed_delta_pp": [
+          -0.3916580309895279,
+          2.6936820325941135,
+          3.339291468030736
+        ],
+        "corrected_across_three_seeds": 60,
+        "harmed_across_three_seeds": 47,
+        "positive_recall": 0.6563573883161512,
+        "negative_recall": 0.8833333333333333
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 7.894029449771072,
+        "paired_bootstrap95_pp": [
+          3.259136203451718,
+          12.335757514441742
+        ],
+        "per_seed_delta_pp": [
+          3.4321028917632335,
+          6.417402466502898,
+          13.832582991047083
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 6.459313238597066,
+      "paired_bootstrap95_pp": [
+        3.429628228095087,
+        9.459073759269675
+      ],
+      "per_seed_delta_pp": [
+        3.587780564575355,
+        6.295104833837584,
+        9.49505431737826
+      ]
+    }
+  },
+  {
+    "checkpoint": "original_epoch40",
+    "condition": "P",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "C",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 1.609971390691504,
+        "paired_bootstrap95_pp": [
+          -0.9985232604255535,
+          4.096324048199329
+        ],
+        "per_seed_delta_pp": [
+          0.6617647058823506,
+          3.157577977810333,
+          1.0105714883818284
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.46969696969698,
+            "reference_HIT": 75.3030303030303,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 78.08219178082193,
+            "reference_HIT": 71.23287671232876,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 73.08176100628931,
+            "reference_HIT": 71.9496855345912,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 37.962962962962955,
+            "reference_HIT": 46.296296296296305,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 70.0,
+            "reference_HIT": 77.24137931034483,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -0.43438554636861343,
+        "paired_bootstrap95_pp": [
+          -2.712292398331995,
+          1.8829637154294274
+        ],
+        "per_seed_delta_pp": [
+          -0.8953030876858392,
+          -1.5934865837670675,
+          1.1856330323470665
+        ],
+        "corrected_across_three_seeds": 19,
+        "harmed_across_three_seeds": 25,
+        "positive_recall": 0.6563573883161512,
+        "negative_recall": 0.8833333333333333
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 2.1310851570667477,
+        "paired_bootstrap95_pp": [
+          -1.214990793519349,
+          5.225564749977649
+        ],
+        "per_seed_delta_pp": [
+          -0.5356607023948579,
+          3.0973193463973425,
+          3.8315968271977585
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 1.8705282738791258,
+      "paired_bootstrap95_pp": [
+        -0.2438507453461087,
+        3.8494166104947354
+      ],
+      "per_seed_delta_pp": [
+        0.06305200174374637,
+        3.1274486621038378,
+        2.4210841577897932
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "B",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -1.1711499546437723,
+        "paired_bootstrap95_pp": [
+          -3.0385818811512073,
+          0.7035835535255891
+        ],
+        "per_seed_delta_pp": [
+          -1.577611471634921,
+          0.42233619426419455,
+          -2.3581745865605908
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 78.93939393939394,
+            "reference_HIT": 79.92424242424244,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 78.72146118721462,
+            "reference_HIT": 79.17808219178083,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 67.79874213836477,
+            "reference_HIT": 71.69811320754717,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.0,
+            "reference_HIT": 58.333333333333336,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.86206896551722,
+            "reference_HIT": 74.82758620689656,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -0.5641429035045091,
+        "paired_bootstrap95_pp": [
+          -2.3319876472433405,
+          1.1559027024808206
+        ],
+        "per_seed_delta_pp": [
+          -0.04700155043619869,
+          0.3937051710651618,
+          -2.0391323311424903
+        ],
+        "corrected_across_three_seeds": 23,
+        "harmed_across_three_seeds": 28,
+        "positive_recall": 0.718213058419244,
+        "negative_recall": 0.8777777777777778
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": -1.9725631660821141,
+        "paired_bootstrap95_pp": [
+          -4.07066744229532,
+          0.07435420549935673
+        ],
+        "per_seed_delta_pp": [
+          -0.41364983980765047,
+          -5.956713499926436,
+          0.45267384148774403
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -1.571856560362943,
+      "paired_bootstrap95_pp": [
+        -2.9305664522839106,
+        -0.14887932983405386
+      ],
+      "per_seed_delta_pp": [
+        -0.9956306557212857,
+        -2.7671886528311207,
+        -0.9527503725364234
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "C",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -2.751116460819203,
+        "paired_bootstrap95_pp": [
+          -4.727202265091698,
+          -0.7861974582388532
+        ],
+        "per_seed_delta_pp": [
+          -3.5181599330123547,
+          -2.296420347498429,
+          -2.438769101946825
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 78.03030303030302,
+            "reference_HIT": 79.92424242424244,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 76.89497716894978,
+            "reference_HIT": 79.17808219178083,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 63.647798742138356,
+            "reference_HIT": 71.69811320754717,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.925925925925924,
+            "reference_HIT": 58.333333333333336,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.63218390804597,
+            "reference_HIT": 74.82758620689656,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -1.9402462482136507,
+        "paired_bootstrap95_pp": [
+          -3.9938359885607957,
+          0.032578067718598884
+        ],
+        "per_seed_delta_pp": [
+          -2.174125281739503,
+          -1.0132850820575023,
+          -2.6333283808439467
+        ],
+        "corrected_across_three_seeds": 21,
+        "harmed_across_three_seeds": 38,
+        "positive_recall": 0.7147766323024055,
+        "negative_recall": 0.8574074074074075
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": -1.962454378726869,
+        "paired_bootstrap95_pp": [
+          -4.502157078564352,
+          0.46746931904558403
+        ],
+        "per_seed_delta_pp": [
+          -1.5481894458934664,
+          -2.749016326187481,
+          -1.5901573640996591
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -2.356785419773036,
+      "paired_bootstrap95_pp": [
+        -4.008115189636421,
+        -0.7714348774356427
+      ],
+      "per_seed_delta_pp": [
+        -2.5331746894529106,
+        -2.522718336842955,
+        -2.014463233023242
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "C",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "B",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -1.5799665061754304,
+        "paired_bootstrap95_pp": [
+          -3.5822721671975715,
+          0.33580829984258564
+        ],
+        "per_seed_delta_pp": [
+          -1.9405484613774338,
+          -2.7187565417626236,
+          -0.08059451538623419
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 78.03030303030302,
+            "reference_HIT": 78.93939393939394,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 76.89497716894978,
+            "reference_HIT": 78.72146118721462,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 63.647798742138356,
+            "reference_HIT": 67.79874213836477,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.925925925925924,
+            "reference_HIT": 50.0,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.63218390804597,
+            "reference_HIT": 75.86206896551722,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -1.3761033447091418,
+        "paired_bootstrap95_pp": [
+          -3.3867603663734265,
+          0.5945041516182609
+        ],
+        "per_seed_delta_pp": [
+          -2.1271237313033042,
+          -1.4069902531226641,
+          -0.5941960497014565
+        ],
+        "corrected_across_three_seeds": 27,
+        "harmed_across_three_seeds": 39,
+        "positive_recall": 0.7147766323024055,
+        "negative_recall": 0.8574074074074075
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 0.01010878735524523,
+        "paired_bootstrap95_pp": [
+          -2.049262260676102,
+          2.0887136309888747
+        ],
+        "per_seed_delta_pp": [
+          -1.134539606085816,
+          3.207697173738955,
+          -2.042831205587403
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -0.7849288594100926,
+      "paired_bootstrap95_pp": [
+        -2.2672871516531137,
+        0.646255808205327
+      ],
+      "per_seed_delta_pp": [
+        -1.5375440337316248,
+        0.2444703159881656,
+        -1.0617128604868187
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "C",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "S",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -0.7915532761147204,
+        "paired_bootstrap95_pp": [
+          -1.6753643890044998,
+          0.044554242217610444
+        ],
+        "per_seed_delta_pp": [
+          -0.5076407787314219,
+          -1.435262717186514,
+          -0.43175633242622524
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 78.03030303030302,
+            "reference_HIT": 77.8030303030303,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 76.89497716894978,
+            "reference_HIT": 77.8082191780822,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 63.647798742138356,
+            "reference_HIT": 66.0377358490566,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.925925925925924,
+            "reference_HIT": 50.925925925925924,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.63218390804597,
+            "reference_HIT": 76.4367816091954,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -0.11421701096678467,
+        "paired_bootstrap95_pp": [
+          -0.8236127681274316,
+          0.5897525650747533
+        ],
+        "per_seed_delta_pp": [
+          0.33657259515084137,
+          0.0,
+          -0.6792236280511954
+        ],
+        "corrected_across_three_seeds": 5,
+        "harmed_across_three_seeds": 6,
+        "positive_recall": 0.7147766323024055,
+        "negative_recall": 0.8574074074074075
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": -0.24772400843549405,
+        "paired_bootstrap95_pp": [
+          -0.7343068935936311,
+          0.21139169748620562
+        ],
+        "per_seed_delta_pp": [
+          0.14135482245344333,
+          -0.7405025302836377,
+          -0.14402431747628786
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -0.5196386422751073,
+      "paired_bootstrap95_pp": [
+        -1.030016743058045,
+        -0.05810696469335879
+      ],
+      "per_seed_delta_pp": [
+        -0.18314297813898928,
+        -1.0878826237350758,
+        -0.28789032495125655
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "P",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -2.510728490684533,
+        "paired_bootstrap95_pp": [
+          -4.558649650977574,
+          -0.47121816768027575
+        ],
+        "per_seed_delta_pp": [
+          -2.657002302700451,
+          -1.0770357965250166,
+          -3.798147372828131
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.31818181818183,
+            "reference_HIT": 79.92424242424244,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 76.16438356164385,
+            "reference_HIT": 79.17808219178083,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 64.27672955974843,
+            "reference_HIT": 71.69811320754717,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.925925925925924,
+            "reference_HIT": 58.333333333333336,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.17241379310344,
+            "reference_HIT": 74.82758620689656,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -2.230055570765928,
+        "paired_bootstrap95_pp": [
+          -4.2672368236747635,
+          -0.27713536459382543
+        ],
+        "per_seed_delta_pp": [
+          -2.226882124065843,
+          -1.0700643589420022,
+          -3.3932202292899394
+        ],
+        "corrected_across_three_seeds": 21,
+        "harmed_across_three_seeds": 40,
+        "positive_recall": 0.7010309278350516,
+        "negative_recall": 0.8611111111111112
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": -1.4127833461082504,
+        "paired_bootstrap95_pp": [
+          -4.015324081722562,
+          0.9806969070717362
+        ],
+        "per_seed_delta_pp": [
+          -0.3445860292764391,
+          -2.011509053992533,
+          -1.8822549550557788
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -1.9617559183963915,
+      "paired_bootstrap95_pp": [
+        -3.6353365183905466,
+        -0.3375212692378606
+      ],
+      "per_seed_delta_pp": [
+        -1.500794165988445,
+        -1.5442724252587747,
+        -2.840201163941955
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "P",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "B",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": -1.3395785360407606,
+        "paired_bootstrap95_pp": [
+          -3.425197826514545,
+          0.6982735069355019
+        ],
+        "per_seed_delta_pp": [
+          -1.0793908310655298,
+          -1.4993719907892111,
+          -1.4399727862675404
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.31818181818183,
+            "reference_HIT": 78.93939393939394,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 76.16438356164385,
+            "reference_HIT": 78.72146118721462,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 64.27672955974843,
+            "reference_HIT": 67.79874213836477,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.925925925925924,
+            "reference_HIT": 50.0,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.17241379310344,
+            "reference_HIT": 75.86206896551722,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -1.6659126672614193,
+        "paired_bootstrap95_pp": [
+          -3.3680746649890168,
+          -0.0893035370717893
+        ],
+        "per_seed_delta_pp": [
+          -2.1798805736296445,
+          -1.463769530007164,
+          -1.3540878981474491
+        ],
+        "corrected_across_three_seeds": 23,
+        "harmed_across_three_seeds": 37,
+        "positive_recall": 0.7010309278350516,
+        "negative_recall": 0.8611111111111112
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 0.559779819973864,
+        "paired_bootstrap95_pp": [
+          -1.5930673180593495,
+          2.82923724660725
+        ],
+        "per_seed_delta_pp": [
+          0.06906381053121136,
+          3.945204445933903,
+          -2.334928796543523
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": -0.38989935803344833,
+      "paired_bootstrap95_pp": [
+        -1.986587575247178,
+        1.2100457038926058
+      ],
+      "per_seed_delta_pp": [
+        -0.5051635102671592,
+        1.222916227572346,
+        -1.8874507914055316
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "P",
+    "reference_checkpoint": "fixed_graph45_to54",
+    "reference": "C",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 0.24038797013467006,
+        "paired_bootstrap95_pp": [
+          -0.8656392640714439,
+          1.389000880072303
+        ],
+        "per_seed_delta_pp": [
+          0.861157630311904,
+          1.2193845509734125,
+          -1.3593782708813062
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.31818181818183,
+            "reference_HIT": 78.03030303030302,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 76.16438356164385,
+            "reference_HIT": 76.89497716894978,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 64.27672955974843,
+            "reference_HIT": 63.647798742138356,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 50.925925925925924,
+            "reference_HIT": 50.925925925925924,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 75.17241379310344,
+            "reference_HIT": 75.63218390804597,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": -0.28980932255227765,
+        "paired_bootstrap95_pp": [
+          -1.3370739924853974,
+          0.5828530008102082
+        ],
+        "per_seed_delta_pp": [
+          -0.05275684232634026,
+          -0.05677927688449991,
+          -0.7598918484459927
+        ],
+        "corrected_across_three_seeds": 8,
+        "harmed_across_three_seeds": 10,
+        "positive_recall": 0.7010309278350516,
+        "negative_recall": 0.8611111111111112
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 0.5496710326186187,
+        "paired_bootstrap95_pp": [
+          -0.7701705515884792,
+          1.9415160397676305
+        ],
+        "per_seed_delta_pp": [
+          1.2036034166170273,
+          0.7375072721949483,
+          -0.29209759095611965
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 0.3950295013766444,
+      "paired_bootstrap95_pp": [
+        -0.46891856768094115,
+        1.281244961131781
+      ],
+      "per_seed_delta_pp": [
+        1.0323805234644656,
+        0.9784459115841804,
+        -0.825737930918713
+      ]
+    }
+  },
+  {
+    "checkpoint": "fixed_graph45_to54",
+    "condition": "A",
+    "reference_checkpoint": "original_epoch40",
+    "reference": "A",
+    "tasks": {
+      "MER_track1_discrete": {
+        "unique_samples": 384,
+        "delta_pp": 4.524980810829671,
+        "paired_bootstrap95_pp": [
+          1.7161837729542506,
+          7.2892373787660825
+        ],
+        "per_seed_delta_pp": [
+          5.067510990161194,
+          4.379317563324259,
+          4.128113879003559
+        ],
+        "per_class": {
+          "angry": {
+            "n": 88,
+            "current_HIT": 79.92424242424244,
+            "reference_HIT": 76.36363636363636,
+            "scorable_samples": 88,
+            "scorable_samples_by_wheel": [
+              88,
+              88,
+              88,
+              88,
+              88
+            ],
+            "status": "defined"
+          },
+          "happy": {
+            "n": 73,
+            "current_HIT": 79.17808219178083,
+            "reference_HIT": 75.70776255707763,
+            "scorable_samples": 73,
+            "scorable_samples_by_wheel": [
+              73,
+              73,
+              73,
+              73,
+              73
+            ],
+            "status": "defined"
+          },
+          "neutral": {
+            "n": 103,
+            "current_HIT": null,
+            "reference_HIT": null,
+            "scorable_samples": 0,
+            "scorable_samples_by_wheel": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "not_defined_by_original_wheel_metric"
+          },
+          "sad": {
+            "n": 53,
+            "current_HIT": 71.69811320754717,
+            "reference_HIT": 70.062893081761,
+            "scorable_samples": 53,
+            "scorable_samples_by_wheel": [
+              53,
+              53,
+              53,
+              53,
+              53
+            ],
+            "status": "defined"
+          },
+          "surprise": {
+            "n": 9,
+            "current_HIT": 58.333333333333336,
+            "reference_HIT": 42.59259259259259,
+            "scorable_samples": 9,
+            "scorable_samples_by_wheel": [
+              9,
+              9,
+              9,
+              9,
+              0
+            ],
+            "status": "defined"
+          },
+          "worried": {
+            "n": 58,
+            "current_HIT": 74.82758620689656,
+            "reference_HIT": 66.20689655172414,
+            "scorable_samples": 58,
+            "scorable_samples_by_wheel": [
+              58,
+              58,
+              58,
+              58,
+              58
+            ],
+            "status": "defined"
+          }
+        }
+      },
+      "MER_track1_polarity": {
+        "unique_samples": 277,
+        "delta_pp": 2.8042897808972915,
+        "paired_bootstrap95_pp": [
+          0.3679886773004194,
+          5.373691082703202
+        ],
+        "per_seed_delta_pp": [
+          1.7392283700058742,
+          2.359393095750695,
+          4.3142478769353065
+        ],
+        "corrected_across_three_seeds": 55,
+        "harmed_across_three_seeds": 31,
+        "positive_recall": 0.718213058419244,
+        "negative_recall": 0.887037037037037
+      },
+      "MER_OV": {
+        "unique_samples": 128,
+        "delta_pp": 5.666757230014506,
+        "paired_bootstrap95_pp": [
+          2.3180861475928145,
+          8.922939372287662
+        ],
+        "per_seed_delta_pp": [
+          5.143938919654451,
+          5.593264061824926,
+          6.26306870856414
+        ]
+      }
+    },
+    "primary_equal_weight_HIT_OV": {
+      "delta_pp": 5.0958690204220884,
+      "paired_bootstrap95_pp": [
+        2.870098914716902,
+        7.201950935381513
+      ],
+      "per_seed_delta_pp": [
+        5.1057249549078225,
+        4.986290812574593,
+        5.195591293783849
+      ]
+    }
+  }
+]

@@ -1,0 +1,1131 @@
+{
+  "author_run": "emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100",
+  "paper_row": [
+    78.54,
+    78.8,
+    55.65,
+    60.54,
+    81.3,
+    80.9,
+    88.49,
+    86.18,
+    62.52
+  ],
+  "paper_mean": 74.77,
+  "all_best_rounded_match": true,
+  "dataset_winners": [
+    {
+      "dataset": "MER2023",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 78.53869969040248,
+      "secondary": [
+        55.609111979563174
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 411,
+      "paper_score": 78.54,
+      "rounded_paper_matches": [
+        "checkpoint_000050_loss_0.527"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 78.79698370453379,
+      "secondary": [
+        56.511013447261526
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 1169,
+      "paper_score": 78.8,
+      "rounded_paper_matches": [
+        "checkpoint_000045_loss_0.551"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 55.64914455680917,
+      "secondary": [
+        38.044921214958904
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 2610,
+      "paper_score": 55.65,
+      "rounded_paper_matches": [
+        "checkpoint_000030_loss_0.602"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 60.536756126021004,
+      "secondary": [
+        53.971217425126405
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 1241,
+      "paper_score": 60.54,
+      "rounded_paper_matches": [
+        "checkpoint_000035_loss_0.597"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 81.30135648592024,
+      "secondary": [
+        81.25
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 686,
+      "paper_score": 81.3,
+      "rounded_paper_matches": [
+        "checkpoint_000040_loss_0.569"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 80.89990475876728,
+      "secondary": [
+        80.68244358833242
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 4659,
+      "paper_score": 80.9,
+      "rounded_paper_matches": [
+        "checkpoint_000030_loss_0.602"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 88.48974386225954,
+      "secondary": [
+        88.4020618556701
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 457,
+      "paper_score": 88.49,
+      "rounded_paper_matches": [
+        "checkpoint_000030_loss_0.602"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 86.18484566463987,
+      "secondary": [
+        86.16904500548847
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 1034,
+      "paper_score": 86.18,
+      "rounded_paper_matches": [
+        "checkpoint_000035_loss_0.597"
+      ],
+      "best_matches_paper": true
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 62.5228809651194,
+      "secondary": [
+        62.21062490823146,
+        62.999578186627915
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 532,
+      "paper_score": 62.52,
+      "rounded_paper_matches": [
+        "checkpoint_000050_loss_0.527"
+      ],
+      "best_matches_paper": true
+    }
+  ],
+  "best_of_each_mean": 74.76892397938586,
+  "fixed_checkpoint_means": [
+    {
+      "epoch": 30,
+      "mean": 73.54911061467489,
+      "scores": {
+        "MER2023": 72.55402730548649,
+        "MER2024": 76.57008451230331,
+        "MELD": 55.64914455680917,
+        "IEMOCAPFour": 58.27304550758461,
+        "CMUMOSI": 81.21243289256722,
+        "CMUMOSEI": 80.89990475876728,
+        "SIMS": 88.48974386225954,
+        "SIMSv2": 86.0643367716257,
+        "OVMERDPlus": 62.22927536467072
+      }
+    },
+    {
+      "epoch": 35,
+      "mean": 73.96300257618137,
+      "scores": {
+        "MER2023": 76.78668223113232,
+        "MER2024": 78.43864686930944,
+        "MELD": 55.42100291287143,
+        "IEMOCAPFour": 60.536756126021004,
+        "CMUMOSI": 78.48303812919247,
+        "CMUMOSEI": 80.7236751785362,
+        "SIMS": 88.0183218086496,
+        "SIMSv2": 86.18484566463987,
+        "OVMERDPlus": 61.07405426528002
+      }
+    },
+    {
+      "epoch": 40,
+      "mean": 72.36744435397848,
+      "scores": {
+        "MER2023": 73.442825965589,
+        "MER2024": 75.9954475416725,
+        "MELD": 54.05816768890717,
+        "IEMOCAPFour": 56.94282380396732,
+        "CMUMOSI": 81.30135648592024,
+        "CMUMOSEI": 78.78574133383299,
+        "SIMS": 84.2904445267141,
+        "SIMSv2": 85.08282940966008,
+        "OVMERDPlus": 61.407362429542964
+      }
+    },
+    {
+      "epoch": 45,
+      "mean": 73.48631561786016,
+      "scores": {
+        "MER2023": 74.63756788306351,
+        "MER2024": 78.79698370453379,
+        "MELD": 54.80181325386502,
+        "IEMOCAPFour": 59.416569428238034,
+        "CMUMOSI": 80.7404351183497,
+        "CMUMOSEI": 79.73928660574596,
+        "SIMS": 86.70718171430705,
+        "SIMSv2": 85.07774475112356,
+        "OVMERDPlus": 61.459258101514735
+      }
+    },
+    {
+      "epoch": 50,
+      "mean": 73.42299853891484,
+      "scores": {
+        "MER2023": 78.53869969040248,
+        "MER2024": 77.51599196899659,
+        "MELD": 53.81256493113272,
+        "IEMOCAPFour": 57.269544924154026,
+        "CMUMOSI": 79.84825883084751,
+        "CMUMOSEI": 79.20580240089738,
+        "SIMS": 87.23307605970052,
+        "SIMSv2": 84.86016707898297,
+        "OVMERDPlus": 62.5228809651194
+      }
+    },
+    {
+      "epoch": 55,
+      "mean": 73.32305879235545,
+      "scores": {
+        "MER2023": 75.69750799370654,
+        "MER2024": 76.5565205210814,
+        "MELD": 54.9773672990538,
+        "IEMOCAPFour": 59.0431738623104,
+        "CMUMOSI": 79.53405499982902,
+        "CMUMOSEI": 78.9077096736773,
+        "SIMS": 87.89591627468137,
+        "SIMSv2": 85.61904798817783,
+        "OVMERDPlus": 61.67623051868147
+      }
+    },
+    {
+      "epoch": 60,
+      "mean": 71.96777010677366,
+      "scores": {
+        "MER2023": 73.686849718317,
+        "MER2024": 76.90131671102395,
+        "MELD": 52.09129196829382,
+        "IEMOCAPFour": 57.73628938156359,
+        "CMUMOSI": 78.30397046943699,
+        "CMUMOSEI": 78.50757963603986,
+        "SIMS": 85.28384559312394,
+        "SIMSv2": 85.30802096083208,
+        "OVMERDPlus": 59.890766522331695
+      }
+    }
+  ],
+  "all_scores": [
+    {
+      "dataset": "MER2023",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 72.55402730548649,
+      "secondary": [
+        52.250114195807754
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2023",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 76.78668223113232,
+      "secondary": [
+        54.082305571063635
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2023",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 73.442825965589,
+      "secondary": [
+        51.665702346512376
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2023",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 74.63756788306351,
+      "secondary": [
+        53.031585714527395
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2023",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 78.53869969040248,
+      "secondary": [
+        55.609111979563174
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2023",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 75.69750799370654,
+      "secondary": [
+        54.71782638853643
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2023",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 73.686849718317,
+      "secondary": [
+        51.76135613865909
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 411
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 76.57008451230331,
+      "secondary": [
+        56.67091562777233
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 78.43864686930944,
+      "secondary": [
+        57.379019392694275
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 75.9954475416725,
+      "secondary": [
+        55.702650542404
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 78.79698370453379,
+      "secondary": [
+        56.511013447261526
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 77.51599196899659,
+      "secondary": [
+        56.33034894398531
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 76.5565205210814,
+      "secondary": [
+        55.92825208946165
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MER2024",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 76.90131671102395,
+      "secondary": [
+        54.61072006661374
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 1169
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 55.64914455680917,
+      "secondary": [
+        38.044921214958904
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 55.42100291287143,
+      "secondary": [
+        38.644081683268304
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 54.05816768890717,
+      "secondary": [
+        36.695620615996724
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 54.80181325386502,
+      "secondary": [
+        36.70750176158344
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 53.81256493113272,
+      "secondary": [
+        36.783883124782065
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 54.9773672990538,
+      "secondary": [
+        37.38591343282134
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "MELD",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 52.09129196829382,
+      "secondary": [
+        35.405320491535655
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 2610
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 58.27304550758461,
+      "secondary": [
+        52.28704784130688
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 60.536756126021004,
+      "secondary": [
+        53.971217425126405
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 56.94282380396732,
+      "secondary": [
+        50.22170361726954
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 59.416569428238034,
+      "secondary": [
+        53.38389731621936
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 57.269544924154026,
+      "secondary": [
+        51.51302994943603
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 59.0431738623104,
+      "secondary": [
+        52.61376896149359
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 57.73628938156359,
+      "secondary": [
+        52.322053675612615
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 1241
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 81.21243289256722,
+      "secondary": [
+        81.09756097560977
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 78.48303812919247,
+      "secondary": [
+        78.35365853658537
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 81.30135648592024,
+      "secondary": [
+        81.25
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 80.7404351183497,
+      "secondary": [
+        80.64024390243902
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 79.84825883084751,
+      "secondary": [
+        79.72560975609755
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 79.53405499982902,
+      "secondary": [
+        79.42073170731707
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSI",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 78.30397046943699,
+      "secondary": [
+        78.20121951219512
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 686
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 80.89990475876728,
+      "secondary": [
+        80.68244358833242
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 80.7236751785362,
+      "secondary": [
+        80.54485415520088
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 78.78574133383299,
+      "secondary": [
+        78.48101265822784
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 79.73928660574596,
+      "secondary": [
+        79.44413869014859
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 79.20580240089738,
+      "secondary": [
+        78.97633461750138
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 78.9077096736773,
+      "secondary": [
+        78.61860209135938
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 78.50757963603986,
+      "secondary": [
+        78.31590533847
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 4659
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 88.48974386225954,
+      "secondary": [
+        88.4020618556701
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 88.0183218086496,
+      "secondary": [
+        87.88659793814433
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 84.2904445267141,
+      "secondary": [
+        84.27835051546391
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 86.70718171430705,
+      "secondary": [
+        86.5979381443299
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 87.23307605970052,
+      "secondary": [
+        87.11340206185567
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 87.89591627468137,
+      "secondary": [
+        87.88659793814433
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMS",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 85.28384559312394,
+      "secondary": [
+        85.05154639175258
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 457
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 86.0643367716257,
+      "secondary": [
+        86.05927552140506
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 86.18484566463987,
+      "secondary": [
+        86.16904500548847
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 85.08282940966008,
+      "secondary": [
+        85.07135016465422
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 85.07774475112356,
+      "secondary": [
+        85.07135016465422
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 84.86016707898297,
+      "secondary": [
+        84.85181119648738
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 85.61904798817783,
+      "secondary": [
+        85.62019758507134
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "SIMSv2",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 85.30802096083208,
+      "secondary": [
+        85.29088913282108
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 1034
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 30,
+      "checkpoint_stem": "checkpoint_000030_loss_0.602",
+      "score": 62.22927536467072,
+      "secondary": [
+        62.38673727313228,
+        62.18356829627818
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz",
+      "gt_samples": 532
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 35,
+      "checkpoint_stem": "checkpoint_000035_loss_0.597",
+      "score": 61.07405426528002,
+      "secondary": [
+        60.94927594436221,
+        61.2777388421591
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz",
+      "gt_samples": 532
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 40,
+      "checkpoint_stem": "checkpoint_000040_loss_0.569",
+      "score": 61.407362429542964,
+      "secondary": [
+        60.72460113449244,
+        62.31682006959082
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz",
+      "gt_samples": 532
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 45,
+      "checkpoint_stem": "checkpoint_000045_loss_0.551",
+      "score": 61.459258101514735,
+      "secondary": [
+        59.876501265286564,
+        63.18219504565407
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz",
+      "gt_samples": 532
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 50,
+      "checkpoint_stem": "checkpoint_000050_loss_0.527",
+      "score": 62.5228809651194,
+      "secondary": [
+        62.21062490823146,
+        62.999578186627915
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz",
+      "gt_samples": 532
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 55,
+      "checkpoint_stem": "checkpoint_000055_loss_0.493",
+      "score": 61.67623051868147,
+      "secondary": [
+        60.86544846376637,
+        62.604385085835624
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz",
+      "gt_samples": 532
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "epoch": 60,
+      "checkpoint_stem": "checkpoint_000060_loss_0.480",
+      "score": 59.890766522331695,
+      "secondary": [
+        58.42013329636877,
+        61.5410594737403
+      ],
+      "raw_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz",
+      "gt_samples": 532
+    }
+  ],
+  "input_cache_sha256": {
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "224a84654c1c367658456129e7c485a39e48e406988f2a99d515009b488323db",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "75ed356b76339da7caf05d07789ac8be40eb2cb9c6f26e47c804a6b10ef0853d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "6abe9b184ffcb98f96d58eeac464a033793e918260f686a4f9f98481de021e56",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "771fe962b987ef21a174f0aa9d41d99fa3183f7e446757592b5040983310717a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "ecc715b9a9d7da6fd628778ea9c7b1c6baca9fd950fca01eafb8ad57cc3acfaf",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "92b71c84166ba2e4bb498fb83fab10801608ecbd0a5711558ba58f0d8ec62dce",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "7244f03714f1a20fd8fcb2e8d671e63a2b7a48a1253d73754ac6347c1f41993d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "0d2f22359c2a67d013f6f1e80a175ac2901ac8137c2848cc0168c4afbf43e3d5",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "0063a8971ead3212e8b926dbedea4c648c5a52c6bb1221a870b4eec61ffda925",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "881c85dfcdfa3f3a98e820ebd213df60aa837f28e6138d478dc32530cff870d4",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "69d10254bc74afe0d81b900125003b48524dc6a2d5910119e3fa79fa380b52fd",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "b5bd14b8dd9fec849eadc4873f46d3b2ba6454ec435b5bd3e03f6d6b36121752",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "fcd0b94833a2c7360fdf7edf0180d7d2e63d55ca764ad5e8631e19e28d1b9867",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2023/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "e1f3b8cdfbeec8e26087e8e857c78cc864b69c94591d32e9b9e0db3b209a182f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "c0f1633727b6561414cb68c9aa099eb8dcf1ea016003e1b95dbee1abd9542882",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "eeee3d04f07016b98fc6eed220edde7a7ca21fa0f5246722c57e922b5690e83e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "117ede7c6151142c080b0cdefd8f7fd494713a014f4ec8fbfc26dc155bb2f07d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "083af9a0dc86a46a314145d97f02ccb35f4f0d01d98e1120b514875d06e50a2e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "cc44436c674c33fd5797eeb1acefb2650b3db1b098f7dd43ce2c1fb370eb76ef",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "f5d385ecd942e782b50e01ca2e43559a5a39eb140d40a49766378a6e0cebcc99",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "6a6772442d256e7399bcf4e3120b727d90acc184ba6826ae508e5ae096acc32d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "863d6c580bc19cc6c55e9be3c96182e1ec4b947525d9cdcd246d2b74df83de4a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "4517731065f59755743256d98c7ddf1cf7c5c2bbff764263254843616087f7be",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "1a71e3f0d9241b5a0029f89640007be142d08f9d5fe8b851b676a273671a032f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "6527a59555ecd9c3f40eb7253f57383f83997dad7bc1d4d3989b2c703adbc53c",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "14efb3b0c6d67dddd94488a85aa06a678f7e927063e8c9d7745f3419dd9d115c",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "ff21d3bd8314b2c70aecb61168dee4d447ec70b333780a9a07fea715e0425b47",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-mer2024/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "1a07e0c39e35639313a1139f80bc072ad40e6089db576d63723d90cfa7769b03",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "659e46ed956d3decae23ca448277ee444b2d17d3c7b3b9451d18e521d446ccc1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "5e0a614052145debba3454d68588eb4adc115e2e1d841c8792efd54703442bcb",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "0bb068ff36882389be4d6bd924583d38c15c58090434ecce073ce545c57ac36e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "2a3735537a0ea7f446d79693f8685030f797f32b02a18c43998d24798ec13b6a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "368feb42fd0c96c0a072cb39fccae617f4a7eaf6951af713de50858f2248839c",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "7b02ce853876d71a3ca59a800982ed27978fb63fb6945990e3e942ce31d84246",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "3e05d9122f88dca0697239543080bc6d419ac0de6ae48c183e3b81b14aa73e11",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "f83f9a65070d6732cbe603e32dbcb17ad516b095a34096b997523b33ffd88615",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "906d8f6761e9272535a05bd0ccb770cdeeeb423bcc6fa002a872b512867456c1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "b4f7d20296e9eea6e48d98be96df87f2ffbab3a09441424f220c563d835fd077",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "7b530d713a2cf4442a7dd2d0cf6859d24f5c90aa013a4ad6ba195ad28cebe76e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "a412f84e26c3a8fb971593999dfbec19187c4cace0a0e9d722baad876eb33546",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "b7cd2956cf423e94aa638be8fea64353cc2d05567e91777b8e3dbccebd685504",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-meld/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "884733c24a48452aae89f1b2cb63a6be90e5250f801e8c611bf4f1cae2aca32f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "c5852c772bf0d824e604bd34f4a617460d9cceac77a2c0db0f922cd2175cefce",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "92d55bc9b627ab687cf37ca72847ccd6d5e365d846621e4cd71cbe94ee7fed85",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "9b867591586dceaa9cb8b4ed24be426b676c2e621d0f82ae8bec07b1ca8fc257",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "f81ddbdc6466176cbe12c5f3dfe7559c2a9b67884c6dd8534f3f37138b8ad495",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "aed3e63ff411861c3c2a657f4f651670f31ec468733d2d366cca9e07bc1bc584",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "511a1690a68ee8c1d8f374557b7394a340f71aee89da20e8c49006a612ea08c0",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "4c1967c40255dc3753c1f9edcb3b754b969ea74039369f1619c84e0880b2ffdd",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "3bfe817cf57ad9a3b117bd7383fc1f883beefc9bfcc20306d125d176afdb867a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "ffef158871a9f03bf9fc9a820c5daf27676b85e521ae7052dc36a2c6d2a3069d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "9399585f30f9384c324ef449959e5558cde4498b39b4479c6c587fd17296d321",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "a16aafeaae416154159744e0b42ee12529c3f9bc3eaf1982cdc69807b44f9ac1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "73f44037e390df3d7e11311496104f32b782703740af17ef766307bee2f433b8",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "c2c35d734f626e825082cc29560f75f06c5af5172a41186d81799bad62b73585",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-iemocapfour/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "a0b7dcab74714035a9b848cf62c47da8f33352a7bd56a088bbe9dfd1c8f7bf6b",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "41460c2da4d59b75fbc188387a6149f5c55a3ecf37037dd8476d27da719de3ea",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "da8897d49061bb071839289348d5de7e5ce66d40c2ff1578d09ab16e9c0d254f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset-sentiment.npz": "79391796b8e0683216febf47feafb546c0789a58d241824c34aa1ee87a2d2796",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "3a51e1e407bb03362f03de377f7d51136a6ad9172738968f1fe55660d8177b4e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "a65abf853564f2ab41cc113cf803c0c50673c343473c7f59bdabd8f35b901591",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset-sentiment.npz": "d6e8e34ba802385a379011092a84b5a50e8cb2292d364da3cbdb3e316373b83d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "472655ba1a22a229d97d4b0ca879b7599cbcd22e639dab89c974766fdb29f825",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "33cd796d1392083818c72f1fe448eeb4d9908685822c1472693d1cf9627781b7",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset-sentiment.npz": "7524be2751c8cc790eee87ed39789356867255a0afb6dbc605215a85c3de5def",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "5dc84d137f5a9c018b5d53faacbeed7a5ea6da32a0aa08575cf550301ca22140",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "ee525d65dc3ec7ed3d5c0abb5b43323b8c7614394a41a7d4573b8819237631b6",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset-sentiment.npz": "53da42ae8a416062c17e57c469a83da240b761893a13c3d7443f0b68e874ab8d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "5dcc72d421923cd0abc501f5b7019d0aac8ad5a6417bd000cc358e2a41dd699d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "6244750eb76ead98345bc52396edf118825d03e7740aa3079aa2f8667c7ee055",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset-sentiment.npz": "48151568bc4e8e678e67003e4fbf0dae3b8366ae607b8da10e451be3a7667120",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "312ac4df30347244d6522f041ce87ffe0b57889e893ae225eacbedb4701e7865",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "55136bf12e91e9938af55b33ed4e1936f6b21ebdbd580ea7ee26fcbae60ae0a4",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset-sentiment.npz": "74eb8ce2b99c7cca54eae1e5cfe3b5acc68c124ab168483e11301ef851be7112",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "242f4a3ea6b6407cdb749697535fcad0e97f470930d4470ef7019993e116ad01",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "aa540594459b52236588f77094b3fb92ccfa261c5b62e0f230f50d3000c08d1d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosi/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset-sentiment.npz": "d356be3557f597420b46dca2d781609d7ad508e15eebebd550beba4c75724588",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "52704eab54955f0698793c2fc01c187110affd144331765009b2afd27e2a111f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "3189cabff1eba99338571c4a33151bb7cf6fdb7fd964509a1192194d35820058",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset-sentiment.npz": "180a4e261bb59636baa047c61a7df590290048db304887cb0f446a6baad4f999",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "fae544f8a11025a7692ea04a41e3624e4afe05e5958f4fb30b6284dbf5e279a4",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "cd3afb69f5efd4a2a1b94546bb22c6c529af229613edaaae3949cb8be7b1b9c5",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset-sentiment.npz": "346a38a63b6aac1425b08367c6ddccc3d7c715b03e221e006b995169e1c6b3f0",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "be34e0d5c4e523300ef4cbf9f82e3512a926aac3b4be65819ebea9f8fac4dffd",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "b2b60c5c4ad1877b72cc69da8822c632726210f1296f6017aaf3d7245d438604",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset-sentiment.npz": "dd42659a3ef91f9466eb92b08aa750f073eb0e499a5c2b7a4753a4c7e3d37705",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "723b7a2fa053d3a5714f0425046b2c9d545f8f208dd8f18578cac04ee18e8bb1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "ec67b6c54f235797657796063d1ceb39c086c9d35322f87e375e06274ca38fbf",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset-sentiment.npz": "c68f1f53b029848eb2334837d5cb7825862baa3d1766aeb34bbbaad36e715d19",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "c562c3e092936a750e6d2eea784bc50b338eb4f0d8a95515b93bc9279e65715e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "7547ea0227058da0c3e6c489b878c2dd4f40dac37b2668e6c9523f27e69059e5",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset-sentiment.npz": "2b120e0f43f0d2bba39aec5d162ad53cd32be44946de429c8bcd0264d49192c1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "1b67bd40a2c5fb682c2b1ed28d01d6b436a2936d82f35f58381b05fefeb5ba6b",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "6dd0b1ca06222dc9edb213217b85e5d970ec74d17852cf0dcb853f91a6c15431",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset-sentiment.npz": "7e2684fa1c6d82c9d2d67fed363ca898c32c6ee0f0fa844d3b5e11601c21c109",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "a02e372ec44629581ba55347d1cc2471799947f9bc0a46cc5aabbc99c0e31342",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "51829f367b782996b3af1fc19c35489aba87dd495f69e01f154303e6fdecfe71",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-cmumosei/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset-sentiment.npz": "397d93c3c0d9ba222fda782e06263aa5fd7a5f6165ae67124a5b54d41aa87cb6",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "a9fc640d3fe3ccfbc49d032c52b02978f3d026fb5957ccc66852b1f6fd00bfd2",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "a739ae4b5b4cbae7e403ddf7d43c96f6681c8af7add7c5cfde5c6d3aadfe7af6",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset-sentiment.npz": "d2eac09221132e83e1f277d94ec95e989d5fdf0cfca4b6f686da36e5785df127",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "8b0840b48c8d9c50b3bd468cc6f9e9d4c692c0db71cef976e05562e7275553a2",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "7125d086b23bbb2d4e08660dcdaec8d9351755f3d77a45afdd5880aefac8ea5e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset-sentiment.npz": "918c8777ec031cc144079e4b8327ec28ad77b94fd2c231209e1119052e3c434b",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "b1f4c7d0f6856223be24e97fe4497f6390435e4f9c566d313140d122b6668a46",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "33b72dd6dcdf3bae1280087cc1d3ae8773b532afef68fac72589a902ea6308c4",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset-sentiment.npz": "1ca5c5a39e406911502327222f7df0373eb55e4309da8d328c70bfd0f8d068c6",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "de4443495add39dbff863ff1707220024ae180b5fc75e68fb77def933be58c23",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "66f9ab6aebc9d744bf6569dbfa47e165a2c2cdd8ab53df3686afc9edf2fbde62",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset-sentiment.npz": "017833e1a93b995f1d93678af5e05d32e91cd89632efed514b3759a003e0954b",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "980388e454feed29e922c00d0cfa7358a1afac7c7698861f20472afe4ec465d2",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "6a3009861d1ce0bc38de3f9284512a59da694e1145436b1d6aa592c7317bb163",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset-sentiment.npz": "e2b25416da1cf6f778ce0b3bda9764026d69401557e099964ce969517cba96dd",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "8aed0863fe7bdb6f4488e8dc1b151f17c57899e24ef3151d2ba21d89888c6b93",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "c7357a0caee33295f8371006f9410777f67f11c963d9b806f74703157cd986aa",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset-sentiment.npz": "4c762543686eb21998ea46fbe29398f4ec845af4ce56b2ddfd92190664efc28b",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "7476ce17e15b46faf5abf57baa1bc5497db80647781bca719cb8246bc0802f96",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "24fd4b1c2a7c5ac5b4a48fe42a486dafe848aeb508a662b0f1b1dc8c99a1a4dc",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-sims/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset-sentiment.npz": "f8be1c197392f3274179f915da6e342e81925a1138469a988b5a80fa3a992bd8",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "0fd8b67e5ed7db84aa51e3f04685ae08821456c893a50bf1a65a02b38a2ad5c3",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "d217b641b70fd549faf2b3cd98ef694567c982b9f074bf31a23e77cc37fb6961",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset-sentiment.npz": "81536999af948e981261a9da26f5aa3a6c68b24b520d86f04e57b0386c77b02a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "9ce42e88246604f6c569ac06b229be604a3ec0149b88f9a48552d434b5fbd36f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "10522edd83efe9f33e1e12127e952ecedda2ffcae5d9aefb7bdfc3a9efed3357",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset-sentiment.npz": "671604580426b4cb017e985ea3f9b013ca8b9c9a9b887be4086b09434eb0c74f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "63c23e98312643d6273419b77e992b980a708dd0599647e4af263b98fb621576",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "05038d6ee90d8e3365d0ed85d6c3620b2def98b0418ac16f7afd4162cdddccdc",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset-sentiment.npz": "4ec9d2fc8e7b5adac5a2ca9cd6c7e211cd12c882d03bbe2a36ac971c34a3efe1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "2a77d64ed03e97b711c9ac35ef7c8fc41f54f2e33a62d609281f567b14182381",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "ce54375949828a034ee7ef9c0c89c4510f65ff02c575d2581348cbf84283677c",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset-sentiment.npz": "35bb56800dd06925b5f7e0c4df3b8da0569cfde13cfe3a9ebea5d20d500a3ac3",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "c18ba7c1be7214c957ed4eae13960849cd2c1e3c69b0df2a0bfa7b0baf2f773b",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "73f146a38b3677192f0cd50aa5c85ab3955f4a03acfec1ff5f8065e9515fa3e6",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset-sentiment.npz": "f920f13a993b1b8c2f8b29b52147604898d933416c6c8c83d6747c3bdced9ceb",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "6b3a929e41d230f28fe88aadeae067c8008f4697d26d5638b4baacff03ef61cc",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "1f37bddddc3d59c35e00d0fbde9739f2ed16a1803406744a3139c74b5eb7fe69",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset-sentiment.npz": "9f8d84c04ad0565b298ef2ca857310271533f9d4e7bd00eea3e984947c512a75",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "d0a8fa81058ee41ddb3924dfd03c1c3a0e83af2f9e5fe568e0a24769c2884e1f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "a6b85963541f7c3fbcde036832d63f046477c1f279521dd867baac8011f55ba0",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-simsv2/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset-sentiment.npz": "6e411038c1b8f969e58865166732e3bb018678058f4c7272818da2a747d1b068",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602.npz": "4e9e684fa4cfb9146fdc6b8f6aa32b03457a2bbe962d745c5a9719f066848dcf",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000030_loss_0.602-openset.npz": "472fe0b1130c133d6eeda79622d6f866976e2b186915176c8fbe479c2817a31c",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597.npz": "f6a8eea1051cc4a8d32cbea5117d1d88a2a5ad77bdecf99db9ff1e015b7f25c9",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000035_loss_0.597-openset.npz": "92a14aca182ab13ad2028766473d7726551037d7dc5b1abb65a482aca34d9702",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569.npz": "08c4b3d6ce60927ce5b8c58ddee62e685a97093e850eeb72ff738d18684ca9d4",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000040_loss_0.569-openset.npz": "53718cbb6a1bb2896b9f0f213eb930e241986e757e6c227c3f09b25636d0b76d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551.npz": "bfa971c554536dbbc22e40547b1ccf8ffe44bbead3792ab2d399034c2dccf77e",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000045_loss_0.551-openset.npz": "aea692e2372d1fe2201fc813e819275f4eff25774f9df6d9e6828685c5dfc934",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527.npz": "d9c354dbca07f0eee1dd33fc7405d0c4b4eb1d34928e00d83033609292836989",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000050_loss_0.527-openset.npz": "4cadbf5c3db26dfbd09e36d00e9b18c3fb62f485cb62943b672acb1f485a8044",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493.npz": "030c5a092ef15cc7d8d238133580a30e2fcffa238e0e89551e468a0e44227b9d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000055_loss_0.493-openset.npz": "27e054c8c34abca593ad220b28fa0e25160bfe5e3e1c7799c31ae4e51cff4d67",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480.npz": "e9eb4044f95b405970c290d9dda914139a40b096bd6e3d09d851e16f23f1ee1f",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/output/results-ovmerdplus/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20250110100/checkpoint_000060_loss_0.480-openset.npz": "7f2a754fe37052170250e169b309478fffe077313f03d3cb6a20b689b2babff6"
+  },
+  "official_weight_files_under_output": [],
+  "method": "Original evaluation-scoreonly.py functions, existing supplied openset/sentiment caches, no model loaded, no original cache modified."
+}

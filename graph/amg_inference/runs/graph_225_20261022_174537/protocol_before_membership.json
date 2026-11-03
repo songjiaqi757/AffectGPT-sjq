@@ -1,0 +1,64 @@
+{
+  "schema_version": "amg_prediction_queue_v1",
+  "created_at_beijing": "2026-10-22T17:45:37.106458+08:00",
+  "training_run": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836",
+  "training_plan_id": "06b8b107de36e0507f6b0815a2335096eb6a4f1df89c9ed5c3745ee5fe1a9a01",
+  "training_plan_sha256": "c258a25b4cf587be867778fb6a139bd0165376688b6a2b488325955664b35ecd",
+  "runtime_path": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315",
+  "runtime_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+  "cue_profile": "engineering",
+  "query_config_path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/query_engine_config.json",
+  "query_config_id": "ac35200d82683b116f9cb1ad0f58d119d6eda556339edf87cf3c7f4c69c7f3ff",
+  "query_selection_id": "4726a2985cccd3065ce77fed4e175048b744125507d4036db6d67406cf61179e",
+  "graph_release_id": "75d45e203722ce060829e0db17ce7348f24ef44c024f1e99ff310f050194a420",
+  "limits": {
+    "additional_epochs": 5,
+    "iters_per_epoch": 5000,
+    "batch_size": 3,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.05,
+    "seed": 42,
+    "num_workers": 4,
+    "max_sequence_tokens": 2048,
+    "prompt_token_budget": 1536,
+    "answer_token_budget": 510,
+    "graph_token_budget": 1000,
+    "subtitle_token_budget": 256,
+    "amp": "fp16 with restored GradScaler",
+    "restore_optimizer": true,
+    "restore_scaler": true,
+    "lr_schedule": "constant continuation at original 1e-5; no new warmup",
+    "supervision": "Original MERCaptionPlus hybird(description/ovlabel), 50/50 random tasks",
+    "original_empty_openset_neutral_fallback_count": 543,
+    "gradient_checkpointing": false,
+    "llm_use_cache": false,
+    "certified_actual_max_tokens": 1398,
+    "cuda_allocator": "expandable_segments:True"
+  },
+  "datasets": {},
+  "concurrency_per_gpu": 3,
+  "seed": 42,
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1.0,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2736
+  },
+  "prompt_question": "Please recognize all possible emotional states of the character.",
+  "protocol": "Original zero-shot open-vocabulary question; original face/audio/subtitle plus identical frozen graph formatter. Original generation settings, context extended from 2000 to 2736 to retain the complete <=1536 token multimodal prompt plus <=1200 output tokens. Per-sample deterministic seed fixed before any target generation.",
+  "policy": "All 25 epochs x all nine test sets; no target-driven prompt/threshold/checkpoint selection. Predictions only, no target label scoring. Cue cache is native single-record engineering profile. Human reliability and overlap audits remain pending.",
+  "gpu_policy": {
+    "0": [
+      30,
+      40,
+      50
+    ],
+    "1": [
+      35,
+      45
+    ]
+  },
+  "capacity_policy": "After its complete training queue releases the GPU lock, run three concurrent source-only full-window generation probes before three inference workers. Fail closed on capacity or probe error."
+}

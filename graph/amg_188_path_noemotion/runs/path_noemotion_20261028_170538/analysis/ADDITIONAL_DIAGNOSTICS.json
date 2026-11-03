@@ -1,0 +1,624 @@
+{
+  "created_at_beijing": "2026-10-28T19:24:03.129585+08:00",
+  "datasets": {
+    "MER2023": {
+      "active_samples": 146,
+      "scorable_active_samples": 120,
+      "path_structure": {
+        "1_hop_paths": 277,
+        "2_hop_paths": 15
+      },
+      "mean_unique_path_emotions": 1.8767123287671232,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 83.05797101449276,
+          "M_pct": 56.887077294685994
+        },
+        "E": {
+          "main_pct": 83.21739130434781,
+          "M_pct": 56.57065217391304
+        },
+        "P": {
+          "main_pct": 83.21014492753622,
+          "M_pct": 58.1346618357488
+        },
+        "H": {
+          "main_pct": 81.70289855072464,
+          "M_pct": 56.76280193236717
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 146,
+          "raw_answer_changed": 72,
+          "raw_answer_changed_pct": 49.31506849315068,
+          "extraction_changed": 72
+        },
+        "H-P": {
+          "active_samples": 146,
+          "raw_answer_changed": 61,
+          "raw_answer_changed_pct": 41.78082191780822,
+          "extraction_changed": 61
+        },
+        "E-C": {
+          "active_samples": 146,
+          "raw_answer_changed": 67,
+          "raw_answer_changed_pct": 45.89041095890411,
+          "extraction_changed": 67
+        },
+        "P-E": {
+          "active_samples": 146,
+          "raw_answer_changed": 70,
+          "raw_answer_changed_pct": 47.945205479452056,
+          "extraction_changed": 70
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.6727099236641222,
+        "E": 0.6717557251908397,
+        "P": 0.6774809160305344,
+        "H": 0.6641221374045801
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": 1.1025210084033614,
+        "E": 1.13109243697479,
+        "P": 1.0857142857142856,
+        "H": 1.0974789915966388
+      }
+    },
+    "MER2024": {
+      "active_samples": 421,
+      "scorable_active_samples": 348,
+      "path_structure": {
+        "1_hop_paths": 805,
+        "2_hop_paths": 37
+      },
+      "mean_unique_path_emotions": 1.8741092636579573,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 79.80335133638,
+          "M_pct": 58.55473618612381
+        },
+        "E": {
+          "main_pct": 78.46766375848219,
+          "M_pct": 58.63292249457602
+        },
+        "P": {
+          "main_pct": 79.97853482897106,
+          "M_pct": 60.249803812952976
+        },
+        "H": {
+          "main_pct": 78.3610303282094,
+          "M_pct": 58.954207635138275
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 421,
+          "raw_answer_changed": 235,
+          "raw_answer_changed_pct": 55.819477434679335,
+          "extraction_changed": 233
+        },
+        "H-P": {
+          "active_samples": 421,
+          "raw_answer_changed": 202,
+          "raw_answer_changed_pct": 47.980997624703086,
+          "extraction_changed": 201
+        },
+        "E-C": {
+          "active_samples": 421,
+          "raw_answer_changed": 211,
+          "raw_answer_changed_pct": 50.1187648456057,
+          "extraction_changed": 209
+        },
+        "P-E": {
+          "active_samples": 421,
+          "raw_answer_changed": 219,
+          "raw_answer_changed_pct": 52.019002375296914,
+          "extraction_changed": 218
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.6088483146067416,
+        "E": 0.586376404494382,
+        "P": 0.6028792134831461,
+        "H": 0.6049859550561798
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": 0.9564965197215777,
+        "E": 0.9176334106728539,
+        "P": 0.910092807424594,
+        "H": 0.9309744779582366
+      }
+    },
+    "MELD": {
+      "active_samples": 1120,
+      "scorable_active_samples": 568,
+      "path_structure": {
+        "1_hop_paths": 1968,
+        "2_hop_paths": 272
+      },
+      "mean_unique_path_emotions": 1.8348214285714286,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 61.87438063278595,
+          "M_pct": 40.27335714397108
+        },
+        "E": {
+          "main_pct": 61.325566993375666,
+          "M_pct": 40.07116721605385
+        },
+        "P": {
+          "main_pct": 61.224426719727,
+          "M_pct": 39.59584301352785
+        },
+        "H": {
+          "main_pct": 60.386126767452296,
+          "M_pct": 39.38594694890993
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 1120,
+          "raw_answer_changed": 496,
+          "raw_answer_changed_pct": 44.285714285714285,
+          "extraction_changed": 495
+        },
+        "H-P": {
+          "active_samples": 1120,
+          "raw_answer_changed": 465,
+          "raw_answer_changed_pct": 41.517857142857146,
+          "extraction_changed": 464
+        },
+        "E-C": {
+          "active_samples": 1120,
+          "raw_answer_changed": 484,
+          "raw_answer_changed_pct": 43.214285714285715,
+          "extraction_changed": 482
+        },
+        "P-E": {
+          "active_samples": 1120,
+          "raw_answer_changed": 505,
+          "raw_answer_changed_pct": 45.089285714285715,
+          "extraction_changed": 501
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.5195255231240837,
+        "E": 0.5285885645741704,
+        "P": 0.5211248833799813,
+        "H": 0.5211248833799813
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": 1.2317164179104478,
+        "E": 1.2373134328358208,
+        "P": 1.2388059701492538,
+        "H": 1.2264925373134328
+      }
+    },
+    "IEMOCAPFour": {
+      "active_samples": 536,
+      "scorable_active_samples": 401,
+      "path_structure": {
+        "1_hop_paths": 968,
+        "2_hop_paths": 104
+      },
+      "mean_unique_path_emotions": 1.8936567164179106,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 64.78802992518705,
+          "M_pct": 59.46799667497922
+        },
+        "E": {
+          "main_pct": 62.8927680798005,
+          "M_pct": 57.93848711554447
+        },
+        "P": {
+          "main_pct": 63.04239401496259,
+          "M_pct": 57.38985868661679
+        },
+        "H": {
+          "main_pct": 63.99002493765587,
+          "M_pct": 59.07730673316708
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 536,
+          "raw_answer_changed": 243,
+          "raw_answer_changed_pct": 45.33582089552239,
+          "extraction_changed": 240
+        },
+        "H-P": {
+          "active_samples": 536,
+          "raw_answer_changed": 223,
+          "raw_answer_changed_pct": 41.6044776119403,
+          "extraction_changed": 221
+        },
+        "E-C": {
+          "active_samples": 536,
+          "raw_answer_changed": 230,
+          "raw_answer_changed_pct": 42.91044776119403,
+          "extraction_changed": 226
+        },
+        "P-E": {
+          "active_samples": 536,
+          "raw_answer_changed": 244,
+          "raw_answer_changed_pct": 45.52238805970149,
+          "extraction_changed": 239
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.5605925925925926,
+        "E": 0.5466666666666666,
+        "P": 0.549037037037037,
+        "H": 0.557037037037037
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": 1.1441396508728179,
+        "E": 1.1206982543640898,
+        "P": 1.143142144638404,
+        "H": 1.1276807980049874
+      }
+    },
+    "CMUMOSI": {
+      "active_samples": 194,
+      "scorable_active_samples": 185,
+      "path_structure": {
+        "1_hop_paths": 358,
+        "2_hop_paths": 30
+      },
+      "mean_unique_path_emotions": 1.8969072164948453,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 79.2440376510049
+        },
+        "E": {
+          "main_pct": 78.7229044592637
+        },
+        "P": {
+          "main_pct": 80.80350620891161
+        },
+        "H": {
+          "main_pct": 80.25502577712699
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 194,
+          "raw_answer_changed": 108,
+          "raw_answer_changed_pct": 55.670103092783506,
+          "extraction_changed": 108
+        },
+        "H-P": {
+          "active_samples": 194,
+          "raw_answer_changed": 98,
+          "raw_answer_changed_pct": 50.51546391752577,
+          "extraction_changed": 96
+        },
+        "E-C": {
+          "active_samples": 194,
+          "raw_answer_changed": 105,
+          "raw_answer_changed_pct": 54.123711340206185,
+          "extraction_changed": 105
+        },
+        "P-E": {
+          "active_samples": 194,
+          "raw_answer_changed": 95,
+          "raw_answer_changed_pct": 48.96907216494845,
+          "extraction_changed": 95
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.5089734386216799,
+        "E": 0.4996410624551328,
+        "P": 0.49174443646805455,
+        "H": 0.49605168700646085
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": null,
+        "E": null,
+        "P": null,
+        "H": null
+      }
+    },
+    "CMUMOSEI": {
+      "active_samples": 1592,
+      "scorable_active_samples": 1252,
+      "path_structure": {
+        "1_hop_paths": 2751,
+        "2_hop_paths": 433
+      },
+      "mean_unique_path_emotions": 1.8724874371859297,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 81.26285420784683
+        },
+        "E": {
+          "main_pct": 80.62907180301517
+        },
+        "P": {
+          "main_pct": 80.95564792054871
+        },
+        "H": {
+          "main_pct": 80.15484867326667
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 1592,
+          "raw_answer_changed": 765,
+          "raw_answer_changed_pct": 48.052763819095475,
+          "extraction_changed": 755
+        },
+        "H-P": {
+          "active_samples": 1592,
+          "raw_answer_changed": 703,
+          "raw_answer_changed_pct": 44.15829145728643,
+          "extraction_changed": 695
+        },
+        "E-C": {
+          "active_samples": 1592,
+          "raw_answer_changed": 749,
+          "raw_answer_changed_pct": 47.04773869346734,
+          "extraction_changed": 744
+        },
+        "P-E": {
+          "active_samples": 1592,
+          "raw_answer_changed": 764,
+          "raw_answer_changed_pct": 47.98994974874372,
+          "extraction_changed": 760
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.486817675454883,
+        "E": 0.48199034533976975,
+        "P": 0.48468251021165987,
+        "H": 0.4879316747122169
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": null,
+        "E": null,
+        "P": null,
+        "H": null
+      }
+    },
+    "SIMS": {
+      "active_samples": 152,
+      "scorable_active_samples": 130,
+      "path_structure": {
+        "1_hop_paths": 277,
+        "2_hop_paths": 27
+      },
+      "mean_unique_path_emotions": 1.7763157894736843,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 91.45725012173858
+        },
+        "E": {
+          "main_pct": 90.71178821178822
+        },
+        "P": {
+          "main_pct": 90.71178821178822
+        },
+        "H": {
+          "main_pct": 92.25982350982352
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 152,
+          "raw_answer_changed": 89,
+          "raw_answer_changed_pct": 58.55263157894737,
+          "extraction_changed": 89
+        },
+        "H-P": {
+          "active_samples": 152,
+          "raw_answer_changed": 64,
+          "raw_answer_changed_pct": 42.10526315789474,
+          "extraction_changed": 62
+        },
+        "E-C": {
+          "active_samples": 152,
+          "raw_answer_changed": 78,
+          "raw_answer_changed_pct": 51.31578947368421,
+          "extraction_changed": 78
+        },
+        "P-E": {
+          "active_samples": 152,
+          "raw_answer_changed": 78,
+          "raw_answer_changed_pct": 51.31578947368421,
+          "extraction_changed": 77
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.5484818805093046,
+        "E": 0.5602350636630754,
+        "P": 0.564152791380999,
+        "H": 0.56513222331048
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": null,
+        "E": null,
+        "P": null,
+        "H": null
+      }
+    },
+    "SIMSv2": {
+      "active_samples": 401,
+      "scorable_active_samples": 363,
+      "path_structure": {
+        "1_hop_paths": 740,
+        "2_hop_paths": 62
+      },
+      "mean_unique_path_emotions": 1.8453865336658355,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 87.32049472062533
+        },
+        "E": {
+          "main_pct": 87.05371929092185
+        },
+        "P": {
+          "main_pct": 87.32454673683205
+        },
+        "H": {
+          "main_pct": 85.4034423488969
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 401,
+          "raw_answer_changed": 202,
+          "raw_answer_changed_pct": 50.37406483790524,
+          "extraction_changed": 200
+        },
+        "H-P": {
+          "active_samples": 401,
+          "raw_answer_changed": 181,
+          "raw_answer_changed_pct": 45.13715710723192,
+          "extraction_changed": 180
+        },
+        "E-C": {
+          "active_samples": 401,
+          "raw_answer_changed": 205,
+          "raw_answer_changed_pct": 51.12219451371571,
+          "extraction_changed": 204
+        },
+        "P-E": {
+          "active_samples": 401,
+          "raw_answer_changed": 201,
+          "raw_answer_changed_pct": 50.12468827930174,
+          "extraction_changed": 200
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.6028602860286029,
+        "E": 0.6006600660066007,
+        "P": 0.6072607260726073,
+        "H": 0.5955262192885955
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": null,
+        "E": null,
+        "P": null,
+        "H": null
+      }
+    },
+    "OVMERDPlus": {
+      "active_samples": 215,
+      "scorable_active_samples": 215,
+      "path_structure": {
+        "1_hop_paths": 410,
+        "2_hop_paths": 20
+      },
+      "mean_unique_path_emotions": 1.8325581395348838,
+      "mean_list_emotions": 3.0,
+      "active_metrics": {
+        "C": {
+          "main_pct": 62.06549404549047,
+          "P_pct": 61.089020762157766,
+          "R_pct": 63.22025118748415
+        },
+        "E": {
+          "main_pct": 61.01851043328907,
+          "P_pct": 60.19215612448754,
+          "R_pct": 62.06797382637082
+        },
+        "P": {
+          "main_pct": 61.56437467520579,
+          "P_pct": 60.89588077367595,
+          "R_pct": 62.45606246970452
+        },
+        "H": {
+          "main_pct": 61.0803644590432,
+          "P_pct": 60.173348423609255,
+          "R_pct": 62.189486012600945
+        }
+      },
+      "contrasts": {
+        "H-C": {
+          "active_samples": 215,
+          "raw_answer_changed": 83,
+          "raw_answer_changed_pct": 38.604651162790695,
+          "extraction_changed": 83
+        },
+        "H-P": {
+          "active_samples": 215,
+          "raw_answer_changed": 70,
+          "raw_answer_changed_pct": 32.55813953488372,
+          "extraction_changed": 70
+        },
+        "E-C": {
+          "active_samples": 215,
+          "raw_answer_changed": 75,
+          "raw_answer_changed_pct": 34.883720930232556,
+          "extraction_changed": 74
+        },
+        "P-E": {
+          "active_samples": 215,
+          "raw_answer_changed": 75,
+          "raw_answer_changed_pct": 34.883720930232556,
+          "extraction_changed": 75
+        }
+      },
+      "path_label_coverage": {
+        "C": 0.5974801061007957,
+        "E": 0.5981432360742706,
+        "P": 0.6080901856763926,
+        "H": 0.6080901856763926
+      },
+      "mean_reference_external_mapped_labels_active": {
+        "C": 0.7111111111111111,
+        "E": 0.7053140096618358,
+        "P": 0.7130434782608696,
+        "H": 0.7371980676328502
+      }
+    }
+  },
+  "all_path_counts": {
+    "1_hop_paths": 8554,
+    "2_hop_paths": 1000
+  },
+  "all_raw_contrasts": {
+    "H-C": {
+      "active_samples": 4777,
+      "raw_answer_changed": 2293,
+      "extraction_changed": 2275
+    },
+    "H-P": {
+      "active_samples": 4777,
+      "raw_answer_changed": 2067,
+      "extraction_changed": 2050
+    },
+    "E-C": {
+      "active_samples": 4777,
+      "raw_answer_changed": 2204,
+      "extraction_changed": 2189
+    },
+    "P-E": {
+      "active_samples": 4777,
+      "raw_answer_changed": 2251,
+      "extraction_changed": 2235
+    }
+  },
+  "notes": [
+    "Active subset metrics are descriptive, not separately preregistered confirmatory tests.",
+    "Path-label coverage measures output adoption, not correctness or grounded reasoning.",
+    "H retains original path Emotion endpoints; it is not an Emotion-free condition."
+  ],
+  "input_sha256": {
+    "/ai/sjq/AffectGPT-sjq/amg_188_path_noemotion/runs/path_noemotion_20261028_170538/plan.json": "e13c6ec8818793612d151be0a80b111d888ac11ee220c4de0e4c7e6f3701d390",
+    "/ai/sjq/AffectGPT-sjq/amg_188_path_noemotion/runs/path_noemotion_20261028_170538/metrics_all.json": "08f50edc2bf2a9c86dd6aac49745c1afe36c4f1f5de85c616011dbca4922f86c",
+    "/ai/sjq/AffectGPT-sjq/amg_188_path_noemotion/runs/path_noemotion_20261028_170538/final_verification.json": "9268feaed0b0b69a1c967493d8879015aeab0e39168c69b1e765f1f5846086fe",
+    "/ai/sjq/AffectGPT-sjq/amg_188_path_noemotion/runs/path_noemotion_20261028_170538/analysis/summary.json": "9309dd7ff3acc14d08f9c80b487edfcd9a8e5dbfe42adbbb73b9843ed6788378"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema": "rl_oppo_official_plus_graph10_v1",
+  "created_at_beijing": "2026-11-01T23:16:47.555924+08:00",
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152",
+  "prior_run": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105",
+  "prior_datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/MER2023.json",
+      "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "MER2024": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/MER2024.json",
+      "sha256": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+      "samples": 1169,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "92e6e9c075bdda0a7d33a99434d0a8f4c064e235b70a89d1783fa7675720251e",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "MELD": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/MELD.json",
+      "sha256": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+      "samples": 2610,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/meld-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "d1a1f66257bfdfcd76465e106e095137439011b32fbe0bed29375f4d4158b921",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "IEMOCAPFour": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/IEMOCAPFour.json",
+      "sha256": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+      "samples": 1241,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/iemocap-process/label_4way.npz",
+      "membership_member": "whole_corpus",
+      "subtitle_sha256": "8cdae9b8509b9eca4e74b3e4f792a30660f361ee0d143caddfdb2f8b5a21751a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "CMUMOSI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/CMUMOSI.json",
+      "sha256": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+      "samples": 686,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/cmumosi-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "0ca7e39cb94c1a796d02a98f7ef9d15f7afa2228e9223b294fec2f494b1ee732",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "CMUMOSEI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/CMUMOSEI.json",
+      "sha256": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+      "samples": 4659,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/cmumosei-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "8a162df9e9b64642772776d2a98991fc4ee016ac4696cbb36d761e2b123e4821",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/SIMS.json",
+      "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMSv2": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/SIMSv2.json",
+      "sha256": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+      "samples": 1034,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/simsv2-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "ebf167aa78eca31269df229ac1cd23602a4f86d02cc7b81aa941ebf167ff0462",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/OVMERDPlus.json",
+      "sha256": "eb646f3cb8ed788ca656e68601b676fada095bc23af28795423b9c7d69a753c3",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "graph_cache_directory": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_D_graph10_20261031_000904/cache",
+  "graph_cache_plan_id": "14ab48004e9b933e3bc5ce464fdc26b57bda5368cd05f9dce555cef9a45b1958",
+  "graph_release_id": "bfeb27136ed6b95b5cf22e6c285bd62436dbf8208156034c9b0865aa128c5abf",
+  "query_config_id": "6852804624376c269a0a0c58aaccef84ab3d9c87003f6085dce5419298af0c0d",
+  "node_counts": {
+    "CueType": 42,
+    "AppraisalDimension": 6,
+    "AppraisalState": 16,
+    "EmotionConcept": 10
+  },
+  "graph_policy": "D compact+gate; exact prior format_evidence; 512 tokens; frozen graph10",
+  "graph_only_change": true,
+  "models": {},
+  "protected_sources": {},
+  "cache_inventory_sha256": "ec6dc7fe63b16d089f75df4068f5fe702e9aadf96d36d7056699c2b2cd43036f"
+}

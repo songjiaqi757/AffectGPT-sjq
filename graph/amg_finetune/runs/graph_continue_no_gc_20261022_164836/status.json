@@ -1,0 +1,62 @@
+{
+  "phase": "complete",
+  "pid": 581494,
+  "plan_id": "06b8b107de36e0507f6b0815a2335096eb6a4f1df89c9ed5c3745ee5fe1a9a01",
+  "llm_gradient_checkpointing": false,
+  "started_at_beijing": "2026-10-22T16:53:07.283305+08:00",
+  "updated_at_beijing": "2026-10-23T17:06:46.632615+08:00",
+  "queues": [
+    {
+      "gpu": 0,
+      "pid": 581655
+    },
+    {
+      "gpu": 1,
+      "pid": 581656
+    }
+  ],
+  "queue_status": [
+    {
+      "state": "complete",
+      "gpu": 0,
+      "pid": 581655,
+      "queue": [
+        30,
+        40,
+        50
+      ],
+      "completed": [
+        30,
+        40,
+        50
+      ],
+      "started_at_beijing": "2026-10-22T16:54:15.317618+08:00",
+      "updated_at_beijing": "2026-10-23T17:06:32.998468+08:00",
+      "current_base_epoch": 50,
+      "child_pid": 701964,
+      "log": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/train_from_50.log",
+      "finished_at_beijing": "2026-10-23T17:06:32.998444+08:00"
+    },
+    {
+      "state": "complete",
+      "gpu": 1,
+      "pid": 581656,
+      "queue": [
+        35,
+        45
+      ],
+      "completed": [
+        35,
+        45
+      ],
+      "started_at_beijing": "2026-10-22T16:54:15.317955+08:00",
+      "updated_at_beijing": "2026-10-23T08:43:15.967731+08:00",
+      "current_base_epoch": 45,
+      "child_pid": 641072,
+      "log": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/train_from_45.log",
+      "finished_at_beijing": "2026-10-23T08:43:15.967703+08:00"
+    }
+  ],
+  "completed_experiments": 5,
+  "finished_at_beijing": "2026-10-23T17:06:46.632584+08:00"
+}

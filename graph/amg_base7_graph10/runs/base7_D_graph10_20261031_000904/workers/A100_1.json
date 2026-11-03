@@ -1,0 +1,11 @@
+{
+  "node": "A100",
+  "slot": 1,
+  "pid": 56611,
+  "completed_samples": 0,
+  "started_at_beijing": "2026-10-31T00:50:59.388344+08:00",
+  "state": "failed",
+  "updated_at_beijing": "2026-10-31T00:52:44.016836+08:00",
+  "error": "ValueError('Failed shard epoch_030_CMUMOSEI_00704.json')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/execution_v2.py\", line 49, in infer\n    claim=choose(files)\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/execution_v2.py\", line 20, in choose\n    require(s['state']!='failed','Failed shard '+f.name)\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_runtime/common.py\", line 25, in require\n    if not test:raise ValueError(message)\nValueError: Failed shard epoch_030_CMUMOSEI_00704.json\n"
+}

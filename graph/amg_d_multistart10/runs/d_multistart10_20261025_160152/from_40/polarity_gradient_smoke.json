@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "polarity_loss": 1.1154543161392212,
+  "loss_weight": 0.1,
+  "existing_lora_parameter": "llama_model.base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight",
+  "lora_gradient_norm": 1.2567187547683716,
+  "head_gradient_norm": 104.63387298583984,
+  "pooling": "last unsupervised prompt position",
+  "positions": [
+    263,
+    101,
+    111
+  ],
+  "no_answer_token_pooling": true,
+  "ignored_samples_skip_only_polarity_loss": true
+}

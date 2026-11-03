@@ -1,0 +1,46 @@
+{
+  "counts": {
+    "failed": 78,
+    "succeeded": 93903
+  },
+  "modality_counts": {
+    "text": {
+      "failed": 4,
+      "succeeded": 31323
+    },
+    "audio": {
+      "failed": 5,
+      "succeeded": 31322
+    },
+    "visual": {
+      "failed": 69,
+      "succeeded": 31258
+    }
+  },
+  "completed_samples": 31255,
+  "failed_samples": 72,
+  "retryable_failed_tasks": 0,
+  "usage_including_failed_generations": {
+    "prompt_tokens": 265580873,
+    "completion_tokens": 37528814,
+    "total_tokens": 303109687
+  },
+  "http_attempts": 94366,
+  "phase": "complete_with_failures",
+  "complete": false,
+  "total_tasks": 93981,
+  "total_samples": 31327,
+  "run_id": "mercaptionplus",
+  "run_label": "MER-Caption+全量 · 32请求并发",
+  "updated_unix": 1792460415.030543,
+  "pid": 4129455,
+  "round": 1,
+  "halt_reason": "",
+  "limits": {
+    "request_concurrency": 32,
+    "rpm_limit": 360,
+    "rpm_ceiling": 360,
+    "tpm_limit": 1600000,
+    "rate_limit_events": 0
+  }
+}

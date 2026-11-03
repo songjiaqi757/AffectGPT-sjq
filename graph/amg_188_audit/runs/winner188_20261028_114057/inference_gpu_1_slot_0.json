@@ -1,0 +1,37 @@
+{
+  "state": "complete",
+  "pid": 1712456,
+  "gpu": 1,
+  "slot": 0,
+  "started_at_beijing": "2026-10-28T11:49:22.384138+08:00",
+  "updated_at_beijing": "2026-10-28T14:56:32.033806+08:00",
+  "capacity_passed": true,
+  "probe_info": {
+    "fallback": true,
+    "evidence_level": 2,
+    "gate_reasons": [
+      "emotion_support_not_separated"
+    ],
+    "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+    "graph_tokens": 0,
+    "omitted_evidence": 0,
+    "displayed_paths": 0,
+    "emotion_candidates_displayed": 0,
+    "cues_displayed": 0,
+    "appraisals_displayed": 0,
+    "ablation": "A",
+    "ablation_description": "No evidence",
+    "gate_frozen": true,
+    "graph_text_id": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "prompt_tokens": 119,
+    "subtitle_truncated": false,
+    "prompt_id": "8f2197fa9ab77cfe1a7dbb4fbad40d0c96a7ca5af33c04822a7f774ff2c3b567",
+    "stress_prompt_tokens": 1536,
+    "stress_generated_tokens": 1200
+  },
+  "peak_memory_bytes": 18944854016,
+  "job_id": "winner_MER2023_P",
+  "shard": "winner_MER2023_P_0192.json",
+  "completed_samples": 9683,
+  "finished_at_beijing": "2026-10-28T14:56:32.033771+08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "separate_physical_gpus": 2,
+  "workers_per_gpu": 3,
+  "jobs": 63,
+  "shards": 2828,
+  "predictions": 89593,
+  "cache_samples": 12799,
+  "seven_checkpoint_shapes_verified": true,
+  "disjoint_complete_shards": true,
+  "raw_target_labels_absent_from_inputs": true,
+  "policy": "amg_bcd.policy / variant D",
+  "max_graph_tokens": 246,
+  "graph_nodes": {
+    "CueType": 42,
+    "AppraisalDimension": 6,
+    "AppraisalState": 16,
+    "EmotionConcept": 10
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "run": {
+    "task": "video_text_pretrain",
+    "lr_sched": "linear_warmup_cosine_lr",
+    "init_lr": 1e-05,
+    "min_lr": 1e-05,
+    "warmup_lr": 1e-06,
+    "weight_decay": 0.05,
+    "max_epoch": 50,
+    "iters_per_epoch": 5000,
+    "warmup_steps": 0,
+    "batch_size_train": 3,
+    "batch_size_eval": 3,
+    "seed": 42,
+    "num_workers": 4,
+    "amp": true,
+    "resume_ckpt_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000040_loss_0.664.pth",
+    "evaluate": false,
+    "train_splits": [
+      "train"
+    ],
+    "device": "cuda",
+    "world_size": 1,
+    "dist_url": "env://",
+    "distributed": false,
+    "output_dir": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_40"
+  },
+  "model": {
+    "arch": "affectgpt",
+    "model_type": "pretrain_vicuna",
+    "frozen_video_proj": false,
+    "frozen_video_Qformer": false,
+    "frozen_audio_Qformer": false,
+    "frozen_audio_proj": false,
+    "frozen_multi_Qformer": false,
+    "frozen_multi_llama_proj": false,
+    "frozen_llm": false,
+    "multi_fusion_type": "attention",
+    "video_fusion_type": "attention",
+    "audio_fusion_type": "attention",
+    "image_fusion_type": "mean",
+    "ckpt": "",
+    "ckpt_2": "",
+    "llama_model": "Qwen25",
+    "acoustic_encoder": "HUBERT_LARGE",
+    "visual_encoder": "CLIP_VIT_LARGE",
+    "num_audio_query_token": 1,
+    "num_video_query_token": 1,
+    "num_multi_query_token": 1,
+    "num_image_query_token": 1,
+    "max_length": 2048,
+    "vis_processor": {
+      "train": {
+        "name": "alpro_video_train",
+        "n_frms": 8,
+        "image_size": 224
+      }
+    },
+    "text_processor": {
+      "train": {
+        "name": "blip_caption"
+      }
+    },
+    "img_processor": {
+      "train": {
+        "name": "blip2_image_train",
+        "image_size": 224
+      }
+    },
+    "ckpt_3": ""
+  },
+  "datasets": {
+    "mercaptionplus": {
+      "data_type": "video",
+      "face_or_frame": "multiface_audio_face_text",
+      "label_type": "hybird"
+    }
+  },
+  "inference": {
+    "task": "video_text_pretrain",
+    "vis_processor": {
+      "train": {
+        "name": "alpro_video_eval",
+        "n_frms": 8,
+        "image_size": 224
+      }
+    },
+    "text_processor": {
+      "train": {
+        "name": "blip_caption"
+      }
+    },
+    "img_processor": {
+      "train": {
+        "name": "blip2_image_eval",
+        "image_size": 224
+      }
+    },
+    "face_or_frame": "xxx",
+    "base_root": "output/results",
+    "ckpt_root": "xxx",
+    "ckpt_name": "xxx",
+    "test_epoch": "xxx",
+    "test_epochs": "xxx-xxx",
+    "skip_epoch": 1,
+    "gpu": 0
+  },
+  "amg_finetune": {
+    "variant": "from_40",
+    "plan_id": "a765f15430f8485b142cfba397168a699a318ff545abd94a395f20a63d1ee730",
+    "query_config_id": "ac35200d82683b116f9cb1ad0f58d119d6eda556339edf87cf3c7f4c69c7f3ff",
+    "cache_manifest_sha256": "d1d73f1508fe72c948b2a05936f632d29322ec7622dce46cdb1fea2ecaf69413",
+    "base_checkpoint_sha256": "cfcb328799605ebfa3839bd0a50a0f7f2b93efd2992550c3a7e482297c8fbfc0",
+    "memory_execution_sha256": "e037d397365e3236da9a58f73285aa451ce3fce19a47002709259b3133d1b012",
+    "llm_gradient_checkpointing": false,
+    "graph_oof": true,
+    "oof_reference_plan_id": "77b13587cd9455fc51b31830e85f13ecdf561096fbd0ab2d7c23491ab74b2d93",
+    "evidence_policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+    "graph_probability": 0.5,
+    "polarity_loss_weight": 0.1,
+    "polarity_plan_id": "abb7060ee90e5fef7e46e9a5f55e329fdf6f8d39a41eea9a6efea1e0d3381b6f"
+  }
+}

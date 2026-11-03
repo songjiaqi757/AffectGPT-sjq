@@ -1,0 +1,47 @@
+{
+  "phase": "complete",
+  "pid": 1150901,
+  "pgid": 1149869,
+  "plan_id": "6a3513da5dcde8fac46d11e7eb8a9baf4703c2267b44fb5a3863b40429f9cbd7",
+  "started_at_beijing": "2026-10-25T11:21:59.154452+08:00",
+  "training": {},
+  "updated_at_beijing": "2026-10-25T15:41:44.026496+08:00",
+  "training_completed": {
+    "0": [
+      "D_continue"
+    ],
+    "1": [
+      "D_newgraph"
+    ]
+  },
+  "queued": {
+    "0": [],
+    "1": []
+  },
+  "inference_pids": {
+    "0": [
+      1177403,
+      1177404,
+      1177405,
+      1177406
+    ],
+    "1": [
+      1176616,
+      1176617,
+      1176618,
+      1176619
+    ]
+  },
+  "inference_jobs_complete": 30,
+  "inference_jobs_total": 30,
+  "evaluation_pids": [
+    1185409,
+    1185410
+  ],
+  "scores_complete": 30,
+  "weights": 10,
+  "predictions": 14000,
+  "scores": 30,
+  "finished_at_beijing": "2026-10-25T15:41:44.026381+08:00",
+  "summary": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/RESULTS.md"
+}

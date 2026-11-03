@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "classification": "Concurrent storage cleanup documentation update only",
+  "graph_release_id": "75d45e203722ce060829e0db17ce7348f24ef44c024f1e99ff310f050194a420",
+  "all_frozen_graph_input_fingerprints_reverified": true,
+  "selected_appraisal_annotation_ordered_digest": "7e5cbe1361f8c2dc7ac309f3e71f5f25863599188619ec5d5080e6a4d761af60",
+  "current_method_document_sha256": "c3645d85eb80fe3a8ca1a05596dfa2b315a570344245d2c8eb11f75d2206fda9",
+  "p0_method_document_sha256": "9e52fa2e488522ba656aec948f8e8d4a92ff7a2b1f0f320f5c3bb9b6efe27ced",
+  "existing_method_text_byte_preserved": true,
+  "inserted_storage_notes": [
+    "**媒体存储清理（2026-10-22）：** 全量标注完成后，按用户要求删除Appraisal的31,255份音频和31,255份静音视频副本，共57.53 GiB；删除前原件与副本均逐一通过标注时SHA256核验。原始dataset、Teacher标注/原始响应、输入元数据与哈希、CSV及图产物均保留。页面改为读取原件或按需兼容预览，并明确标示来源；共享Cue缓存不属于本次清理范围。核验与清单位于`data_migrations/appraisal_media_cleanup_20261022`。\n\n"
+  ],
+  "changed_graph_metadata_path": "/ai/sjq/AffectGPT-sjq/amg_graph/runs/amg_edges_v2_restore_diagnostic_20261022/manifest/document_revision.json",
+  "changed_graph_metadata_sha256": "68a50d5e35287a3320c716f84755ef20b04016bf0d4c966bb892897df8959fc0",
+  "cleanup_audit_path": "/ai/sjq/AffectGPT-sjq/data_migrations/appraisal_media_cleanup_20261022/final_verification.json",
+  "cleanup_audit_sha256": "9bb5e63b9b30f459bf9a2f24b19a37c1341cc5cd0628d265b0d17d9255153c71",
+  "frozen_source_plan_sha256": "a8c116f1b0d94dce7119468d9b6098375bbc272247feaac90463890c016ca9fa",
+  "note": "No old graph or documentation records were edited by this P2/P3 task. The external cleanup updated one mutable documentation record, outside the graph release identity."
+}

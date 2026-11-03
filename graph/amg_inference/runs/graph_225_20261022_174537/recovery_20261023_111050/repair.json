@@ -1,0 +1,12 @@
+{
+  "reason": "Transformers subtracts inputs_embeds length from min_length; source-only capacity test must use min_new_tokens. No formal target predictions existed or were changed.",
+  "changed_files": [
+    "amg_inference/model.py",
+    "amg_inference/worker.py",
+    "amg_inference/tests.py"
+  ],
+  "old_code_manifest_sha256": "a77b36e8a8fa27ca231a6ca59dc55b6cdec48d7d97b31505c415b8fd841f7550",
+  "new_code_manifest_sha256": "ed886946fc5890e9d5e1b1b973951d118f009d379e74befde1d5e4172e53d39d",
+  "plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+  "time_beijing": "2026-10-23T11:10:50.815599+08:00"
+}

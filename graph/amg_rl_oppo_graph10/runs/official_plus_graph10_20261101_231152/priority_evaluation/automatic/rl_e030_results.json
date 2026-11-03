@@ -1,0 +1,157 @@
+{
+  "checkpoint": "rl_e030",
+  "epoch": 30,
+  "datasets": 9,
+  "samples": 12799,
+  "mean": 0.748747247527476,
+  "rows": [
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "CMUMOSI",
+      "samples": 686,
+      "main_metric": "WAF",
+      "main_score": 0.7398802133833279,
+      "metrics": {
+        "WAF": 0.7398802133833279,
+        "ACC": 0.7439024390243902
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:44:07.441746+08:00",
+      "raw_sha256": "01898d6ef7de9a4c193a5f250c4253bac4c0fd52d6b1dc69d8aa754b95ddfddc"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "CMUMOSEI",
+      "samples": 4659,
+      "main_metric": "WAF",
+      "main_score": 0.6709975723497281,
+      "metrics": {
+        "WAF": 0.6709975723497281,
+        "ACC": 0.6681342872867364
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:39:25.669767+08:00",
+      "raw_sha256": "99e4ea85e4f13f43f4024436481b91e670c32cd4f1de2f3e7fb0e258250971af"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8391244814076835,
+      "metrics": {
+        "WAF": 0.8391244814076835,
+        "ACC": 0.8402061855670103
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:44:33.443548+08:00",
+      "raw_sha256": "1d7dc809f506a199ea586121ed1f5d184036b909503ecdf7633797c5234029b9"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "SIMSv2",
+      "samples": 1034,
+      "main_metric": "WAF",
+      "main_score": 0.8310361598334239,
+      "metrics": {
+        "WAF": 0.8310361598334239,
+        "ACC": 0.8320526893523601
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:43:31.997172+08:00",
+      "raw_sha256": "899a440e9bf3641af22033feed64dd7064ee6836809f559d4020621a42348af8"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.8115028168299243,
+      "metrics": {
+        "HIT": 0.8115028168299243,
+        "MSCORE": 0.45652726319173054
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:44:50.027051+08:00",
+      "raw_sha256": "bc0a776b3526af13428fe7b15541758a05acf31841ec08561cdfbf0611a5349d"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "MER2024",
+      "samples": 1169,
+      "main_metric": "HIT",
+      "main_score": 0.8906952420973993,
+      "metrics": {
+        "HIT": 0.8906952420973993,
+        "MSCORE": 0.5524092232027517
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:42:35.577808+08:00",
+      "raw_sha256": "f1d6a1b72c2622e0bdead2d8c7b9211a9a92366fb530a6aa40921c95d317a379"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "MELD",
+      "samples": 2610,
+      "main_metric": "HIT",
+      "main_score": 0.6285808952896957,
+      "metrics": {
+        "HIT": 0.6285808952896957,
+        "MSCORE": 0.36778799991617284
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:41:02.997861+08:00",
+      "raw_sha256": "5de831f249f10fd925ca444170d0e8ed4347cd11384584dbb0b1af7a65493a55"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "IEMOCAPFour",
+      "samples": 1241,
+      "main_metric": "HIT",
+      "main_score": 0.6844807467911319,
+      "metrics": {
+        "HIT": 0.6844807467911319,
+        "MSCORE": 0.5770906262154805
+      },
+      "official_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:41:51.161971+08:00",
+      "raw_sha256": "d2c663b7c86326e79a1f31937b16a693369a669f8bf006b1e81cf225c84dfdd5"
+    },
+    {
+      "role": "rl",
+      "checkpoint": "rl_e030",
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6424270997649695,
+      "metrics": {
+        "F_s": 0.6424270997649695,
+        "P_s": 0.5686759293027184,
+        "R_s": 0.7384529841714581
+      },
+      "official_source": "/ai/sjq/AffectGPT-RL/statistic.py",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "completed_at_beijing": "2026-11-03T09:33:55.400584+08:00",
+      "raw_sha256": "b3161c1e2156ea43a97ef7dd502a4bc6650114a67443b556e7f8e629b6023259"
+    }
+  ],
+  "report": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/CKPT30_RESULTS.md",
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "completed_at_beijing": "2026-11-03T09:45:01.991065+08:00"
+}

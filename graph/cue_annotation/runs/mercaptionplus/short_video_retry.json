@@ -1,0 +1,148 @@
+{
+  "started_unix": 1792460410.460983,
+  "maximum_new_model_requests_per_task": 1,
+  "original_inputs_unchanged": true,
+  "targets_before": [
+    {
+      "sid": "samplenew3_00015189",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-c9c1f443-bc05-9682-87b4-0385d618d3c8\"}",
+      "updated": 1792443586.3300636,
+      "submitted_video_sha256": "3e4d875df20c588eb9b323a874afd9f6d9795e088c597f41fce38e8c54dd2688",
+      "duration_sec": 0.8
+    },
+    {
+      "sid": "samplenew3_00020818",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-30afb243-0d95-94bb-975c-3a6f627ee962\"}",
+      "updated": 1792434465.4082594,
+      "submitted_video_sha256": "ec6f101bdc1dfbb89f6384bf624ee8939f53f2e8b1806acf9e9bc1b3750b4b55",
+      "duration_sec": 0.76
+    },
+    {
+      "sid": "samplenew3_00047087",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-12a11159-5774-94f2-82bd-fa69695f2c16\"}",
+      "updated": 1792446521.4963906,
+      "submitted_video_sha256": "3ad2f79d5ce4e11cc4c46ad1cdcbcbcba7dc3985ec2b4dc3b2a305f7254c32c8",
+      "duration_sec": 0.68
+    },
+    {
+      "sid": "samplenew3_00064640",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-f4dd39e7-d94f-9247-90c4-65fafcd29088\"}",
+      "updated": 1792445073.847772,
+      "submitted_video_sha256": "bed86ff1d6775e578b8f9ce600807c8869421c07a94423fe1d29ec29eb28dcd7",
+      "duration_sec": 0.84
+    },
+    {
+      "sid": "samplenew3_00073148",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-eff91b00-9f30-9149-9902-bc3e43fa9c8d\"}",
+      "updated": 1792439168.0604398,
+      "submitted_video_sha256": "8632b1db340035838bf8ff0580c6d615fe6016e125b2aa4819af7bc7491b10a8",
+      "duration_sec": 0.84
+    }
+  ],
+  "state": "finished",
+  "finished_unix": 1792460415.0326638,
+  "results": [
+    {
+      "sample_id": "samplenew3_00015189",
+      "duration_sec": 0.8,
+      "state": "failed",
+      "attempts": 2,
+      "new_requests": 1,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-26f19c65-929b-9ae3-a508-7d50ddc982fb\"}",
+      "same_video_sha256": true,
+      "transport": "provider_private_temporary_oss"
+    },
+    {
+      "sample_id": "samplenew3_00020818",
+      "duration_sec": 0.76,
+      "state": "failed",
+      "attempts": 2,
+      "new_requests": 1,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-536fcdb5-e055-95ce-acd7-8d515291f9da\"}",
+      "same_video_sha256": true,
+      "transport": "provider_private_temporary_oss"
+    },
+    {
+      "sample_id": "samplenew3_00047087",
+      "duration_sec": 0.68,
+      "state": "failed",
+      "attempts": 2,
+      "new_requests": 1,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-a5b7a59a-f08d-9e39-95c5-51f790397ca3\"}",
+      "same_video_sha256": true,
+      "transport": "provider_private_temporary_oss"
+    },
+    {
+      "sample_id": "samplenew3_00064640",
+      "duration_sec": 0.84,
+      "state": "failed",
+      "attempts": 2,
+      "new_requests": 1,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-8a4f54f3-367c-98cd-a398-f6ded250a377\"}",
+      "same_video_sha256": true,
+      "transport": "provider_private_temporary_oss"
+    },
+    {
+      "sample_id": "samplenew3_00073148",
+      "duration_sec": 0.84,
+      "state": "failed",
+      "attempts": 2,
+      "new_requests": 1,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-dad22455-4e93-9e20-90b0-181b8755f646\"}",
+      "same_video_sha256": true,
+      "transport": "provider_private_temporary_oss"
+    }
+  ],
+  "global_state": {
+    "counts": {
+      "failed": 78,
+      "succeeded": 93903
+    },
+    "modality_counts": {
+      "text": {
+        "failed": 4,
+        "succeeded": 31323
+      },
+      "audio": {
+        "failed": 5,
+        "succeeded": 31322
+      },
+      "visual": {
+        "failed": 69,
+        "succeeded": 31258
+      }
+    },
+    "completed_samples": 31255,
+    "failed_samples": 72,
+    "retryable_failed_tasks": 0,
+    "usage_including_failed_generations": {
+      "prompt_tokens": 265580873,
+      "completion_tokens": 37528814,
+      "total_tokens": 303109687
+    },
+    "http_attempts": 94366
+  },
+  "additional_tokens": 0,
+  "new_http_attempts": 5,
+  "labels_csv_reexported": false
+}

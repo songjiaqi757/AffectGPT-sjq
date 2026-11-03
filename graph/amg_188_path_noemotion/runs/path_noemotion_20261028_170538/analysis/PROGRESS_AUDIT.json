@@ -1,0 +1,163 @@
+{
+  "time_beijing": "2026-10-28T18:14:14.643753+08:00",
+  "phase": "inference",
+  "responses_present": 11748,
+  "responses_expected": 19108,
+  "completion_pct": 61.48210173749215,
+  "complete_four_arm_samples": 2936,
+  "active_samples_expected": 4777,
+  "datasets": [
+    {
+      "dataset": "MER2023",
+      "total_samples": 411,
+      "active_samples": 146,
+      "complete_four_arm_samples": 30,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 30,
+        "E": 30,
+        "P": 30,
+        "H": 30
+      },
+      "responses_present": 120,
+      "responses_expected": 584,
+      "inference_complete": false
+    },
+    {
+      "dataset": "MER2024",
+      "total_samples": 1169,
+      "active_samples": 421,
+      "complete_four_arm_samples": 378,
+      "partial_four_arm_samples": 1,
+      "response_counts": {
+        "C": 379,
+        "E": 378,
+        "P": 378,
+        "H": 378
+      },
+      "responses_present": 1513,
+      "responses_expected": 1684,
+      "inference_complete": false
+    },
+    {
+      "dataset": "MELD",
+      "total_samples": 2610,
+      "active_samples": 1120,
+      "complete_four_arm_samples": 242,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 242,
+        "E": 242,
+        "P": 242,
+        "H": 242
+      },
+      "responses_present": 968,
+      "responses_expected": 4480,
+      "inference_complete": false
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "total_samples": 1241,
+      "active_samples": 536,
+      "complete_four_arm_samples": 121,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 121,
+        "E": 121,
+        "P": 121,
+        "H": 121
+      },
+      "responses_present": 484,
+      "responses_expected": 2144,
+      "inference_complete": false
+    },
+    {
+      "dataset": "CMUMOSI",
+      "total_samples": 686,
+      "active_samples": 194,
+      "complete_four_arm_samples": 194,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 194,
+        "E": 194,
+        "P": 194,
+        "H": 194
+      },
+      "responses_present": 776,
+      "responses_expected": 776,
+      "inference_complete": true
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "total_samples": 4659,
+      "active_samples": 1592,
+      "complete_four_arm_samples": 1592,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 1592,
+        "E": 1592,
+        "P": 1592,
+        "H": 1592
+      },
+      "responses_present": 6368,
+      "responses_expected": 6368,
+      "inference_complete": true
+    },
+    {
+      "dataset": "SIMS",
+      "total_samples": 457,
+      "active_samples": 152,
+      "complete_four_arm_samples": 31,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 31,
+        "E": 31,
+        "P": 31,
+        "H": 31
+      },
+      "responses_present": 124,
+      "responses_expected": 608,
+      "inference_complete": false
+    },
+    {
+      "dataset": "SIMSv2",
+      "total_samples": 1034,
+      "active_samples": 401,
+      "complete_four_arm_samples": 133,
+      "partial_four_arm_samples": 1,
+      "response_counts": {
+        "C": 134,
+        "E": 134,
+        "P": 134,
+        "H": 133
+      },
+      "responses_present": 535,
+      "responses_expected": 1604,
+      "inference_complete": false
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "total_samples": 532,
+      "active_samples": 215,
+      "complete_four_arm_samples": 215,
+      "partial_four_arm_samples": 0,
+      "response_counts": {
+        "C": 215,
+        "E": 215,
+        "P": 215,
+        "H": 215
+      },
+      "responses_present": 860,
+      "responses_expected": 860,
+      "inference_complete": true
+    }
+  ],
+  "node_phases": {
+    "A800": "inference",
+    "A100": "inference_complete"
+  },
+  "has_failure": false,
+  "final_verification_exists": false,
+  "scores_present": 0,
+  "note": "Progress audit only. No final effect analysis until all inference exits and both content-seeded judge stages complete."
+}

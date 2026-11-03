@@ -1,0 +1,88 @@
+{
+  "authorized_by": "用户明确同意调整引用后删除API输入副本，并执行已审阅清单",
+  "started_unix": 1792465341.4833562,
+  "phase": "complete",
+  "original_files_verified": 62654,
+  "prepared_files": 62654,
+  "prepared_bytes": 61886077531,
+  "protected_before": {
+    "labels.csv": "26a974f93241c5506da86b25706cb13a9ddbb2604da0fb8082e1cd046020ea15",
+    "tasks.sqlite3": "6cab7872784d6e936de0089aba0871f60a3cfc4dd2a0c2b663341e20830c18be",
+    "failures.csv": "3692056a764f8b92787e31e4598ee5b2d4b5b9423d3642470baa44e4ba83badb",
+    "samples.json": "246069a2ef97edfb919113b23cb61c5f94bb57852c0af6e4104cf1e939d101d4",
+    "ontology.json": "6de0ce8885f37b4f039b123af97cca24961646cc429b63e632b2b9af3228b757",
+    "protocol.json": "342b9e6114e85b5345d01ce8546cf548f4c8dc576a1649124f263f3b11e96cd2",
+    "status.json": "0aa2be07a9695194f8ab14cba0ba7935b2496fc9e4f1832589713f034a79586a",
+    "summary.json": "a5d2e3b00fc4ada5aa098983faad670bff8a6924c491e4b9e5cc09c5cce14062"
+  },
+  "task_counts": {
+    "failed": 78,
+    "succeeded": 93903
+  },
+  "source_dataset_deleted": false,
+  "moved_files": [
+    {
+      "source": "FULL_RUN.md",
+      "destination": "docs/FULL_RUN.md",
+      "source_sha256": "1832484238e81adf32a20adda1edd403cdff3b56b427b54cabf27ef8b5ba658f"
+    },
+    {
+      "source": "test_full_runner.py",
+      "destination": "tests/test_full_runner.py",
+      "source_sha256": "e6da7300d383967b949581a0d911c6e9e5c4828724fb8b8ae71a879e5cc5be96"
+    },
+    {
+      "source": "test_media_upload.py",
+      "destination": "tests/test_media_upload.py",
+      "source_sha256": "cc2565fded9bbea7ba24261eb8e5361aa125389c2c9d657b9e203d2f513bc32e"
+    },
+    {
+      "source": "budget_estimate.json",
+      "destination": "reports/history/budget_estimate.json",
+      "source_sha256": "c605e3ae3a257f7616d20b1f77742975f65d3b4e2f8d9be1c874a90f0d9fd750"
+    },
+    {
+      "source": "cleanup.json",
+      "destination": "reports/history/cleanup.json",
+      "source_sha256": "30fad0ab995175fcb310d2c91217d6fa3bb8abab40823c5ca961798c47e606e7"
+    },
+    {
+      "source": "plan_status_snapshot.json",
+      "destination": "reports/history/plan_status_snapshot.json",
+      "source_sha256": "01f683ba750ac14aa63a2ae650273e8272667ed91a69b0133fcfff602d88b1ea"
+    }
+  ],
+  "tests_passed": 23,
+  "preview_from_original_verified": true,
+  "preview_test": {
+    "sample_id": "samplenew3_00005910",
+    "submitted_path_deliberately_missing": true,
+    "source": "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset/video/samplenew3_00005910.mp4",
+    "range_status": 206
+  },
+  "deleted_prepared_files": 62654,
+  "deleted_prepared_bytes": 61886077531,
+  "deleted_small_files": 282,
+  "deleted_small_bytes": 201951,
+  "skipped_changed_small_files": [],
+  "protected_after": {
+    "labels.csv": "26a974f93241c5506da86b25706cb13a9ddbb2604da0fb8082e1cd046020ea15",
+    "tasks.sqlite3": "6cab7872784d6e936de0089aba0871f60a3cfc4dd2a0c2b663341e20830c18be",
+    "failures.csv": "3692056a764f8b92787e31e4598ee5b2d4b5b9423d3642470baa44e4ba83badb",
+    "samples.json": "246069a2ef97edfb919113b23cb61c5f94bb57852c0af6e4104cf1e939d101d4",
+    "ontology.json": "6de0ce8885f37b4f039b123af97cca24961646cc429b63e632b2b9af3228b757",
+    "protocol.json": "342b9e6114e85b5345d01ce8546cf548f4c8dc576a1649124f263f3b11e96cd2",
+    "status.json": "0aa2be07a9695194f8ab14cba0ba7935b2496fc9e4f1832589713f034a79586a",
+    "summary.json": "a5d2e3b00fc4ada5aa098983faad670bff8a6924c491e4b9e5cc09c5cce14062"
+  },
+  "finished_unix": 1792465706.4236503,
+  "original_files_verified_after": 62654,
+  "annotations_retained": 93903,
+  "raw_responses_retained": 94366,
+  "post_delete_playback_verified": true,
+  "post_delete_fresh_preview_sample": "samplenew3_00006924",
+  "real_input_regeneration_verified": true,
+  "prepared_media_directory_absent": true,
+  "protected_hashes_unchanged": true,
+  "paid_api_calls": 0
+}

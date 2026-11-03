@@ -1,0 +1,35 @@
+{
+  "stage1": {
+    "status": "running",
+    "run": "/ai/sjq/AffectGPT-sjq/amg_188_audit/runs/winner188_20261028_114057",
+    "purpose": "188-class evidence intervention, diagnostic only",
+    "controller_pid": 1712440
+  },
+  "stage2": {
+    "status": "waiting_for_validation_media_and_independence_audit",
+    "candidate_count": 1253,
+    "arms": [
+      "no extra evidence",
+      "Cue only",
+      "Cue plus grounded speaker/time/target/negation/scope evidence"
+    ],
+    "scope": "At most two fixed strong checkpoints; identical media/random streams; no test-label evidence; no automatic training",
+    "media_candidates_checked": 1253,
+    "available_candidate_media": 0
+  },
+  "stage3": {
+    "status": "gated_by_stage2",
+    "base": "one preregistered strong original checkpoint",
+    "arms": [
+      "T0 matched no-graph continuation",
+      "T1 explicit overall sentiment task separated from emotion",
+      "T2 T1 + validated semantic evidence",
+      "T3 validity Appraisal only if incremental value demonstrated"
+    ],
+    "budget": "pilot5000 optimizer steps/arm with same data order, resume policy and batch; expand to3 seeds only after dev net benefit; LR candidates2e-6/1e-5 require preregistration before fitting",
+    "forbidden": [
+      "training on238 inspected test cases then reporting original-test gain",
+      "automatic graph rebuild/checkpoint sweep"
+    ]
+  }
+}

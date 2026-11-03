@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "listen": "127.0.0.1:8765",
+  "routes": {
+    "/": 200,
+    "/tearing": 200,
+    "/api/health": 200,
+    "/api/bootstrap": 200,
+    "/appraisal": 200,
+    "/appraisal/assets/app.js": 200,
+    "/appraisal/assets/style.css": 200,
+    "failure_record_and_raw_response": true,
+    "exports": true,
+    "manifest_access": true
+  },
+  "tested_samples": 30,
+  "successful_samples": 29,
+  "technical_failures": 1
+}

@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "original_graph_pointers_artifacts_and_code_unchanged": true,
+  "cue_appraisal_candidates_unchanged": 672,
+  "cue_appraisal_admitted_unchanged": 177,
+  "shared_bootstrap_draws_match": true,
+  "checked_equal_fields": [
+    "n11",
+    "n10",
+    "n01",
+    "n00",
+    "eligible_samples",
+    "npmi_point_estimate",
+    "npmi_ci95_low",
+    "npmi_ci95_high",
+    "permutation_p",
+    "fdr_q",
+    "edge_weight",
+    "admitted"
+  ],
+  "emotion_nodes_with_edges_and_paths": 10,
+  "by_emotion": [
+    {
+      "emotion": "anger",
+      "aliases": [
+        "anger",
+        "angry",
+        "mad"
+      ],
+      "train_support_samples": 11560,
+      "cue_in_edges": 22,
+      "appraisal_in_edges": 6,
+      "full_paths": 98
+    },
+    {
+      "emotion": "disgust",
+      "aliases": [
+        "disgust",
+        "disgusted"
+      ],
+      "train_support_samples": 3435,
+      "cue_in_edges": 22,
+      "appraisal_in_edges": 5,
+      "full_paths": 89
+    },
+    {
+      "emotion": "fear",
+      "aliases": [
+        "fear",
+        "fearful",
+        "scared"
+      ],
+      "train_support_samples": 14960,
+      "cue_in_edges": 22,
+      "appraisal_in_edges": 6,
+      "full_paths": 86
+    },
+    {
+      "emotion": "joy",
+      "aliases": [
+        "happy",
+        "joy",
+        "joyful"
+      ],
+      "train_support_samples": 12143,
+      "cue_in_edges": 10,
+      "appraisal_in_edges": 7,
+      "full_paths": 71
+    },
+    {
+      "emotion": "sad",
+      "aliases": [
+        "sad"
+      ],
+      "train_support_samples": 13557,
+      "cue_in_edges": 27,
+      "appraisal_in_edges": 6,
+      "full_paths": 98
+    },
+    {
+      "emotion": "surprised",
+      "aliases": [
+        "surprised"
+      ],
+      "train_support_samples": 7021,
+      "cue_in_edges": 13,
+      "appraisal_in_edges": 3,
+      "full_paths": 38
+    },
+    {
+      "emotion": "peaceful",
+      "aliases": [
+        "peaceful"
+      ],
+      "train_support_samples": 4001,
+      "cue_in_edges": 9,
+      "appraisal_in_edges": 5,
+      "full_paths": 66
+    },
+    {
+      "emotion": "powerful",
+      "aliases": [
+        "powerful"
+      ],
+      "train_support_samples": 8606,
+      "cue_in_edges": 11,
+      "appraisal_in_edges": 7,
+      "full_paths": 71
+    },
+    {
+      "emotion": "bad",
+      "aliases": [
+        "bad"
+      ],
+      "train_support_samples": 6225,
+      "cue_in_edges": 11,
+      "appraisal_in_edges": 6,
+      "full_paths": 85
+    },
+    {
+      "emotion": "genius",
+      "aliases": [
+        "genius"
+      ],
+      "train_support_samples": 8879,
+      "cue_in_edges": 8,
+      "appraisal_in_edges": 6,
+      "full_paths": 71
+    }
+  ]
+}

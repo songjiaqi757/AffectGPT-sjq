@@ -1,0 +1,16 @@
+{
+  "sample_id": "samplenew3_00054744",
+  "modality": "audio",
+  "kind": "request_rejected",
+  "error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-844b33db-71ba-95aa-acf8-e96f75fe3033\"}",
+  "retryable": false,
+  "errors": [
+    {
+      "attempt": 1,
+      "kind": "request_rejected",
+      "error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-844b33db-71ba-95aa-acf8-e96f75fe3033\"}"
+    }
+  ],
+  "labels_written": false,
+  "updated_unix": 1792436079.6940775
+}

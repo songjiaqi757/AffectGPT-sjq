@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "counts": {
+    "successful_samples": 31255,
+    "valid_dimensions": 58443,
+    "invalid_dimensions": 129087
+  },
+  "queue_counts": {
+    "ok": 31255,
+    "pending": 0,
+    "running": 0,
+    "failed": 0
+  },
+  "dimensions_checked": 187530,
+  "roles": {
+    "pseudo_train": 27879,
+    "pseudo_validation": 3076,
+    "gold_audit": 300
+  },
+  "by_role": {
+    "pseudo_train": {
+      "valid_dimensions": 52044,
+      "invalid_dimensions": 115230,
+      "successful_samples": 27879
+    },
+    "pseudo_validation": {
+      "valid_dimensions": 5827,
+      "invalid_dimensions": 12629,
+      "successful_samples": 3076
+    },
+    "gold_audit": {
+      "valid_dimensions": 572,
+      "invalid_dimensions": 1228,
+      "successful_samples": 300
+    }
+  },
+  "csv_rows": 187530,
+  "current_data_release_id": "c2fbc889a6a3cf00c6f37be78347342ef58e809468ff62890bec2927ddbe8a14",
+  "original_annotation_snapshot_roles_preserved": true,
+  "exported_csv_sha256": "250b7c46a8a6220387ee0ada815f41e01ae9d4170cf0eb1373fda3df7e9d9d22"
+}

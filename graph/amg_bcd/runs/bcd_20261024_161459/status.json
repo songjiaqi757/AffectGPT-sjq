@@ -1,0 +1,50 @@
+{
+  "phase": "complete",
+  "pid": 999147,
+  "pgid": 999147,
+  "plan_id": "77b13587cd9455fc51b31830e85f13ecdf561096fbd0ab2d7c23491ab74b2d93",
+  "started_at_beijing": "2026-10-24T16:17:21.932637+08:00",
+  "training": {},
+  "oof_pid": 999148,
+  "updated_at_beijing": "2026-10-24T23:40:08.938734+08:00",
+  "training_completed": {
+    "0": [
+      "B",
+      "D"
+    ],
+    "1": [
+      "C"
+    ]
+  },
+  "queued": {
+    "0": [],
+    "1": []
+  },
+  "inference_pids": {
+    "0": [
+      1055029,
+      1055030,
+      1055031,
+      1055032
+    ],
+    "1": [
+      1025593,
+      1025594,
+      1025595,
+      1025596
+    ]
+  },
+  "inference_jobs_complete": 45,
+  "inference_jobs_total": 45,
+  "oof_state": "complete",
+  "evaluation_pids": [
+    1056873,
+    1056874
+  ],
+  "scores_complete": 45,
+  "weights": 15,
+  "predictions": 21000,
+  "scores": 45,
+  "finished_at_beijing": "2026-10-24T23:40:08.938671+08:00",
+  "summary": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/RESULTS.md"
+}

@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "datasets": {
+    "CMUMOSI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_CMUMOSI.json",
+      "sha256": "b11efa902e0a69f303c71813b227073a0dbb8a4bf3cc752f834bbea1c25f954c",
+      "samples": 686
+    },
+    "CMUMOSEI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_CMUMOSEI.json",
+      "sha256": "67b73deae88e163e5426729eaa69dd82444594032daa6fa52cf9666db852b8a4",
+      "samples": 4659
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_SIMS.json",
+      "sha256": "ff36a0807c873f6138847b589f52a8e07a9468b503a49f743034dff276ef37f1",
+      "samples": 457
+    },
+    "SIMSv2": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_SIMSv2.json",
+      "sha256": "3c481c303be0404398f6c988e719ecc95e33f11e127b3a4716e784fd1fd5dee4",
+      "samples": 1034
+    },
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MER2023.json",
+      "sha256": "4a10f5139ef69c7da449d40e0b65b472526b17abc580dde57bfc90ff7343e00a",
+      "samples": 411
+    },
+    "MER2024": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MER2024.json",
+      "sha256": "ec24d584159f1df3d472c45f29e247a5eefdd8cda9a87d7d4bf47b3e819b5bb0",
+      "samples": 1169
+    },
+    "MELD": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MELD.json",
+      "sha256": "373486c6e1897433801113a1cc74a4b98dcb50165e045884f42a22a09bce7c45",
+      "samples": 2610
+    },
+    "IEMOCAPFour": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_IEMOCAPFour.json",
+      "sha256": "cc21318b43796f4cfa0dbd14bc44991fd9a550bbc9a8accab4e5d6df7d6af2f1",
+      "samples": 1241
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_OVMERDPlus.json",
+      "sha256": "4c52078ad0a2813f36e440626040faeb89a3aa3d26eecf55ed68f4cbb433b041",
+      "samples": 532
+    }
+  },
+  "audit": {
+    "CMUMOSI": {
+      "samples": 686,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "CMUMOSEI": {
+      "samples": 4659,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "SIMS": {
+      "samples": 457,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "SIMSv2": {
+      "samples": 1034,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "MER2023": {
+      "samples": 411,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "MER2024": {
+      "samples": 1169,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "MELD": {
+      "samples": 2610,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "IEMOCAPFour": {
+      "samples": 1241,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    },
+    "OVMERDPlus": {
+      "samples": 532,
+      "native_membership_verified": true,
+      "native_media_verified": true,
+      "subtitle_source": "OPPO native read_subtitles",
+      "missing": []
+    }
+  },
+  "contract": {
+    "native_sample_ast_verified": true,
+    "generation": {
+      "max_new_tokens": 1024,
+      "do_sample": true,
+      "temperature": 0.9,
+      "top_p": 0.9
+    },
+    "use_audio_in_video": true,
+    "use_face_video": false,
+    "official_launcher_defaults": true,
+    "only_prompt_change": "append graph evidence to existing user text content",
+    "seed": null
+  }
+}

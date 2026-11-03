@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "base_epoch": 45,
+  "base_checkpoint_sha256": "1a10c268a632969f6f2bc0f31910688c8c55f03661d99f3c46be9db69c8de480",
+  "trainable_tensor_count": 412,
+  "all_trainable_weights_equal_before_training": true,
+  "optimizer_restored": true,
+  "all_saved_optimizer_states_equal": true,
+  "optimizer_groups": [
+    402,
+    10,
+    2
+  ],
+  "optimizer_parameter_order_sha256": "4cb0d18f5f04ca38a2c25d378312cee17701c2bbab6a80f3464986eb20ea19ba",
+  "scaler_restored": true,
+  "initial_scaler": {
+    "scale": 2048.0,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 1505
+  },
+  "next_epoch": 46,
+  "final_epoch": 55,
+  "missing_frozen_tensors": 1344,
+  "llm_gradient_checkpointing": false,
+  "polarity_head_restored": false,
+  "rng_state_restored": false,
+  "data_loader_state": "reconstructed with original fixed seed42; old checkpoints did not store sampler and per-worker RNG state"
+}

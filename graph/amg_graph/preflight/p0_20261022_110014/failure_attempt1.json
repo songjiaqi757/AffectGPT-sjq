@@ -1,0 +1,5 @@
+{
+  "type": "AssertionError",
+  "message": "archived_training_code_hash:text: None",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/amg_graph/preflight/p0_20261022_110014/run_preflight.py\", line 260, in <module>\n    try:main()\n  File \"/ai/sjq/AffectGPT-sjq/amg_graph/preflight/p0_20261022_110014/run_preflight.py\", line 159, in main\n    check(\"archived_training_code_hash:\"+name,canonical(archive_hash)==metadata[\"code_hash\"])\n  File \"/ai/sjq/AffectGPT-sjq/amg_graph/preflight/p0_20261022_110014/run_preflight.py\", line 26, in check\n    if not bool(condition):raise AssertionError(name+\": \"+str(details))\nAssertionError: archived_training_code_hash:text: None\n"
+}

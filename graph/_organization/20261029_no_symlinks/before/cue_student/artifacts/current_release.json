@@ -1,0 +1,14 @@
+{
+  "path": "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+  "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "role_counts": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "policy": "restore_original_diagnostic_reservation_v1",
+  "previous_release": "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_no_diagnostic_20261021",
+  "existing_checkpoints_retrained": false,
+  "training_candidate_split_matches_existing_checkpoints": true
+}

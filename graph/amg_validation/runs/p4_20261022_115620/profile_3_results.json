@@ -1,0 +1,776 @@
+{
+  "summaries": [
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.0,
+      "emotion_top_k": 3,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.17405309341330666,
+        "emotion_sample_macro_recall": 0.19290395265070373,
+        "emotion_sample_macro_f1": 0.17569863954402443,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 2.998699609882965,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.092327698309493,
+        "available_path_count_mean": 41.21001300390117,
+        "explained_candidate_fraction_mean": 0.9960988296488946,
+        "context_characters_mean": 15140.50032509753,
+        "context_utf8_bytes_mean": 15140.50032509753,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2819741595250861
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.0,
+      "emotion_top_k": 5,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.15218260579806733,
+        "emotion_sample_macro_recall": 0.2766120287946346,
+        "emotion_sample_macro_f1": 0.1895677982648992,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 4.995448634590377,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.866384915474644,
+        "available_path_count_mean": 67.40019505851755,
+        "explained_candidate_fraction_mean": 0.9450585175552666,
+        "context_characters_mean": 16301.729193758127,
+        "context_utf8_bytes_mean": 16301.729193758127,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.28890873888552343
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.0,
+      "emotion_top_k": 10,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.12399081258628077,
+        "emotion_sample_macro_recall": 0.44446295679218045,
+        "emotion_sample_macro_f1": 0.1886250186704473,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 9.980494148244473,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.985045513654097,
+        "available_path_count_mean": 129.17457737321197,
+        "explained_candidate_fraction_mean": 0.7469301504737136,
+        "context_characters_mean": 18803.230169050716,
+        "context_utf8_bytes_mean": 18803.230169050716,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2884373490882975
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.25,
+      "emotion_top_k": 3,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.18449405753637674,
+        "emotion_sample_macro_recall": 0.2077579960119114,
+        "emotion_sample_macro_f1": 0.1882156312346249,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 2.998699609882965,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 18.852080624187256,
+        "available_path_count_mean": 39.26625487646294,
+        "explained_candidate_fraction_mean": 0.9945817078456869,
+        "context_characters_mean": 15220.187906371912,
+        "context_utf8_bytes_mean": 15220.187906371912,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2882326553703863
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.25,
+      "emotion_top_k": 5,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.15544818393868712,
+        "emotion_sample_macro_recall": 0.2850322379312716,
+        "emotion_sample_macro_f1": 0.19426942970761693,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 4.995448634590377,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.856957087126137,
+        "available_path_count_mean": 65.7760078023407,
+        "explained_candidate_fraction_mean": 0.9410923276983095,
+        "context_characters_mean": 16428.608257477244,
+        "context_utf8_bytes_mean": 16428.608257477244,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2912595546068823
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.25,
+      "emotion_top_k": 10,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.12249131241966964,
+        "emotion_sample_macro_recall": 0.43795983349465517,
+        "emotion_sample_macro_f1": 0.1862755180939883,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 9.980494148244473,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.985045513654097,
+        "available_path_count_mean": 127.23211963589077,
+        "explained_candidate_fraction_mean": 0.7438092141928293,
+        "context_characters_mean": 18827.99122236671,
+        "context_utf8_bytes_mean": 18827.99122236671,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.287262598800068
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.5,
+      "emotion_top_k": 3,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.19082528046206818,
+        "emotion_sample_macro_recall": 0.2178474899901091,
+        "emotion_sample_macro_f1": 0.19586070192534702,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 2.998699609882965,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 18.697984395318596,
+        "available_path_count_mean": 38.01072821846554,
+        "explained_candidate_fraction_mean": 0.9916558300823579,
+        "context_characters_mean": 15313.019180754227,
+        "context_utf8_bytes_mean": 15313.019180754227,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.29205519071574737
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.5,
+      "emotion_top_k": 5,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.15324891702765744,
+        "emotion_sample_macro_recall": 0.2826083104573608,
+        "emotion_sample_macro_f1": 0.19191209397807196,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 4.995448634590377,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.806241872561767,
+        "available_path_count_mean": 63.07899869960988,
+        "explained_candidate_fraction_mean": 0.9365409622886867,
+        "context_characters_mean": 16619.867360208063,
+        "context_utf8_bytes_mean": 16619.867360208063,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.29008088674210986
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.5,
+      "emotion_top_k": 10,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.11785952301613747,
+        "emotion_sample_macro_recall": 0.4213848029492814,
+        "emotion_sample_macro_f1": 0.17926093986981326,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 9.980494148244473,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.985045513654097,
+        "available_path_count_mean": 124.47659297789336,
+        "explained_candidate_fraction_mean": 0.741501021735092,
+        "context_characters_mean": 18911.86866059818,
+        "context_utf8_bytes_mean": 18911.86866059818,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.28375530968798046
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.75,
+      "emotion_top_k": 3,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.1920470954126402,
+        "emotion_sample_macro_recall": 0.21904431327123758,
+        "emotion_sample_macro_f1": 0.19707116904717706,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 2.998699609882965,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 18.69408322496749,
+        "available_path_count_mean": 37.46651495448634,
+        "explained_candidate_fraction_mean": 0.9898136107498917,
+        "context_characters_mean": 15441.714564369311,
+        "context_utf8_bytes_mean": 15441.714564369311,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2926604242766624
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.75,
+      "emotion_top_k": 5,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.15544818393868712,
+        "emotion_sample_macro_recall": 0.2873626780491159,
+        "emotion_sample_macro_f1": 0.1947345223919699,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 4.995448634590377,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.79518855656697,
+        "available_path_count_mean": 61.52990897269181,
+        "explained_candidate_fraction_mean": 0.9336801040312094,
+        "context_characters_mean": 16787.314369310792,
+        "context_utf8_bytes_mean": 16787.314369310792,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2914921009490588
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 0.75,
+      "emotion_top_k": 10,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.11182820012376828,
+        "emotion_sample_macro_recall": 0.40021738785484207,
+        "emotion_sample_macro_f1": 0.17013831413154448,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 9.980494148244473,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.985045513654097,
+        "available_path_count_mean": 120.6631989596879,
+        "explained_candidate_fraction_mean": 0.7408183169236485,
+        "context_characters_mean": 19001.8111183355,
+        "context_utf8_bytes_mean": 19001.8111183355,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2791939968188461
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 1.0,
+      "emotion_top_k": 3,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.18949239142508048,
+        "emotion_sample_macro_recall": 0.21640048555243488,
+        "emotion_sample_macro_f1": 0.19456539055006236,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 2.998699609882965,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 18.68660598179454,
+        "available_path_count_mean": 37.39791937581274,
+        "explained_candidate_fraction_mean": 0.9879713914174252,
+        "context_characters_mean": 15458.192132639791,
+        "context_utf8_bytes_mean": 15458.192132639791,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.291407535028105
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 1.0,
+      "emotion_top_k": 5,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.15151616127957349,
+        "emotion_sample_macro_recall": 0.2800168462364397,
+        "emotion_sample_macro_f1": 0.18977871142149713,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 4.995448634590377,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.7925877763329,
+        "available_path_count_mean": 60.7074122236671,
+        "explained_candidate_fraction_mean": 0.9351105331599479,
+        "context_characters_mean": 16871.389141742522,
+        "context_utf8_bytes_mean": 16871.389141742522,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.2890141954638224
+      }
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_min_evidence": {
+        "APP_GOAL_RELEVANCE": 0.0,
+        "APP_GOAL_CONGRUENCE": 0.01,
+        "APP_EXPECTEDNESS": 0.025,
+        "APP_AGENCY": 0.01,
+        "APP_CERTAINTY": 0.025,
+        "APP_COPING_POTENTIAL": 0.025
+      },
+      "direct_two_hop_lambda": 1.0,
+      "emotion_top_k": 10,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.10852929975722378,
+        "emotion_sample_macro_recall": 0.3886283937100332,
+        "emotion_sample_macro_f1": 0.165130597494861,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 9.980494148244473,
+        "available_emotion_candidate_count_mean": 42.70286085825748,
+        "path_count_mean": 19.985695708712615,
+        "available_path_count_mean": 117.05591677503251,
+        "explained_candidate_fraction_mean": 0.7457272896154562,
+        "context_characters_mean": 19091.670026007803,
+        "context_utf8_bytes_mean": 19091.670026007803,
+        "graph_query_weight_coverage_mean": 0.9856800266171682,
+        "appraisal_macro_state_f1": 0.3882496795061477,
+        "appraisal_macro_state_precision": 0.5159644609897845,
+        "appraisal_macro_state_recall": 0.36281920574714677,
+        "appraisal_valid_dimension_coverage": 0.5742234425948173,
+        "objective": 0.27669013850050433
+      }
+    }
+  ],
+  "appraisal_metrics": {
+    "macro_state_precision": 0.5159644609897845,
+    "macro_state_recall": 0.36281920574714677,
+    "macro_state_f1": 0.3882496795061477,
+    "valid_reference_dimensions": 5827,
+    "covered_reference_dimensions": 3346,
+    "valid_dimension_coverage": 0.5742234425948173,
+    "abstention": 0.4257765574051827,
+    "per_dimension": {
+      "APP_GOAL_RELEVANCE": {
+        "macro_precision": 0.5416666666666666,
+        "macro_recall": 0.03012249675989799,
+        "macro_f1": 0.035902205036587455,
+        "valid_reference": 1424,
+        "predicted_on_valid": 14,
+        "coverage": 0.009831460674157303,
+        "abstention": 0.9901685393258427,
+        "unscorable_predictions": 16,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 1405,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.0014214641080312722,
+            "f1": 0.0028388928317956,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 11,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.08333333333333333,
+            "recall": 0.058823529411764705,
+            "f1": 0.06896551724137931,
+            "evaluable": true
+          }
+        }
+      },
+      "APP_GOAL_CONGRUENCE": {
+        "macro_precision": 0.5592111596986111,
+        "macro_recall": 0.5248422935693438,
+        "macro_f1": 0.5328551746208793,
+        "valid_reference": 988,
+        "predicted_on_valid": 860,
+        "coverage": 0.8704453441295547,
+        "abstention": 0.12955465587044535,
+        "unscorable_predictions": 1757,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 122,
+            "fp": 66,
+            "fn": 93,
+            "positive_reference": 215,
+            "precision": 0.648936170212766,
+            "recall": 0.5674418604651162,
+            "f1": 0.6054590570719603,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 590,
+            "fp": 56,
+            "fn": 170,
+            "positive_reference": 760,
+            "precision": 0.913312693498452,
+            "recall": 0.7763157894736842,
+            "f1": 0.8392603129445235,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 3,
+            "fp": 23,
+            "fn": 10,
+            "positive_reference": 13,
+            "precision": 0.11538461538461539,
+            "recall": 0.23076923076923078,
+            "f1": 0.15384615384615385,
+            "evaluable": true
+          }
+        }
+      },
+      "APP_EXPECTEDNESS": {
+        "macro_precision": 0.6427045177045176,
+        "macro_recall": 0.5525344687753446,
+        "macro_f1": 0.5857480648687234,
+        "valid_reference": 497,
+        "predicted_on_valid": 408,
+        "coverage": 0.8209255533199196,
+        "abstention": 0.17907444668008043,
+        "unscorable_predictions": 2091,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 73,
+            "fp": 83,
+            "fn": 64,
+            "positive_reference": 137,
+            "precision": 0.46794871794871795,
+            "recall": 0.5328467153284672,
+            "f1": 0.49829351535836175,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 206,
+            "fp": 46,
+            "fn": 154,
+            "positive_reference": 360,
+            "precision": 0.8174603174603174,
+            "recall": 0.5722222222222222,
+            "f1": 0.673202614379085,
+            "evaluable": true
+          }
+        }
+      },
+      "APP_AGENCY": {
+        "macro_precision": 0.3029125966625967,
+        "macro_recall": 0.22371628527261533,
+        "macro_f1": 0.2386388761846493,
+        "valid_reference": 960,
+        "predicted_on_valid": 667,
+        "coverage": 0.6947916666666667,
+        "abstention": 0.3052083333333333,
+        "unscorable_predictions": 1464,
+        "states": {
+          "AAG_SELF": {
+            "tp": 81,
+            "fp": 199,
+            "fn": 105,
+            "positive_reference": 186,
+            "precision": 0.2892857142857143,
+            "recall": 0.43548387096774194,
+            "f1": 0.34763948497854075,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 314,
+            "fp": 37,
+            "fn": 425,
+            "positive_reference": 739,
+            "precision": 0.8945868945868946,
+            "recall": 0.4248985115020298,
+            "f1": 0.5761467889908257,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 1,
+            "fp": 35,
+            "fn": 28,
+            "positive_reference": 29,
+            "precision": 0.027777777777777776,
+            "recall": 0.034482758620689655,
+            "f1": 0.03076923076923077,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "APP_CERTAINTY": {
+        "macro_precision": 0.6916249451032059,
+        "macro_recall": 0.5466492676735264,
+        "macro_f1": 0.5903369874137231,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1209,
+        "coverage": 0.7136953955135773,
+        "abstention": 0.2863046044864227,
+        "unscorable_predictions": 1013,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 694,
+            "fp": 65,
+            "fn": 629,
+            "positive_reference": 1323,
+            "precision": 0.9143610013175231,
+            "recall": 0.5245653817082389,
+            "f1": 0.6666666666666666,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 211,
+            "fp": 239,
+            "fn": 160,
+            "positive_reference": 371,
+            "precision": 0.4688888888888889,
+            "recall": 0.568733153638814,
+            "f1": 0.5140073081607796,
+            "evaluable": true
+          }
+        }
+      },
+      "APP_COPING_POTENTIAL": {
+        "macro_precision": 0.5380517503805176,
+        "macro_recall": 0.35903426791277254,
+        "macro_f1": 0.4116331096196868,
+        "valid_reference": 264,
+        "predicted_on_valid": 188,
+        "coverage": 0.7121212121212122,
+        "abstention": 0.28787878787878785,
+        "unscorable_predictions": 1858,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 35,
+            "fp": 7,
+            "fn": 72,
+            "positive_reference": 107,
+            "precision": 0.8333333333333334,
+            "recall": 0.32710280373831774,
+            "f1": 0.4697986577181208,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 114,
+            "fp": 32,
+            "fn": 38,
+            "positive_reference": 152,
+            "precision": 0.7808219178082192,
+            "recall": 0.75,
+            "f1": 0.7651006711409396,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      }
+    }
+  },
+  "preregistration_id": "e26564f91580a5003afe1d9af271c88f5ef95521c04be16f7af56e520c42a45a",
+  "runtime_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+  "native_derived_equality_checks": 60,
+  "all_3076_appraisal_predictions_match_native": true
+}

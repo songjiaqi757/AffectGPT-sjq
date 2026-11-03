@@ -1,0 +1,219 @@
+{
+  "version": "appraisal_candidate_repair_v1",
+  "status": "CPU source-development experiment; not promoted",
+  "graph_release_id": "bfeb27136ed6b95b5cf22e6c285bd62436dbf8208156034c9b0865aa128c5abf",
+  "cue_release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "cue_ids": [
+    "TXT_AFFECT_WORD_POSITIVE",
+    "TXT_AFFECT_WORD_NEGATIVE",
+    "TXT_EVALUATION_POSITIVE",
+    "TXT_EVALUATION_NEGATIVE",
+    "TXT_NEGATION_PRESENT",
+    "TXT_CONTRAST_PRESENT",
+    "TXT_INTENSIFIER_PRESENT",
+    "TXT_UNCERTAINTY_HEDGE",
+    "TXT_RHETORICAL_QUESTION",
+    "TXT_EXCLAMATION_INTERJECTION",
+    "TXT_DESIRE_NEED",
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+    "TXT_EXPLICIT_SUCCESS_OUTCOME",
+    "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+    "AUD_SPEECH_RATE_REL_FAST",
+    "AUD_SPEECH_RATE_REL_SLOW",
+    "AUD_PITCH_LEVEL_REL_HIGH",
+    "AUD_PITCH_LEVEL_REL_LOW",
+    "AUD_VOCAL_INTENSITY_REL_HIGH",
+    "AUD_VOCAL_INTENSITY_REL_LOW",
+    "AUD_PITCH_VARIABILITY_HIGH",
+    "AUD_PITCH_VARIABILITY_LOW",
+    "AUD_PAUSE_LONG",
+    "AUD_PAUSE_FREQUENT",
+    "AUD_INTONATION_RISING",
+    "AUD_INTONATION_FALLING",
+    "AUD_INTONATION_FLAT",
+    "AUD_VOICE_TENSE",
+    "AUD_VOICE_TREMBLING",
+    "AUD_LAUGHTER_PRESENT",
+    "AUD_CRYING_SOBBING_PRESENT",
+    "VIS_BROWS_FURROWED",
+    "VIS_BROWS_RAISED",
+    "VIS_EYES_WIDENED",
+    "VIS_EYES_SQUINTED",
+    "VIS_SMILE_PRESENT",
+    "VIS_MOUTH_CORNERS_DOWN",
+    "VIS_LIPS_PRESSED",
+    "VIS_GRIMACE_PRESENT",
+    "VIS_TEARING_PRESENT",
+    "VIS_HEAD_LOWERED"
+  ],
+  "dimensions": [
+    "APP_GOAL_RELEVANCE",
+    "APP_GOAL_CONGRUENCE",
+    "APP_EXPECTEDNESS",
+    "APP_AGENCY",
+    "APP_CERTAINTY",
+    "APP_COPING_POTENTIAL"
+  ],
+  "state_ids": [
+    "AGR_RELEVANT",
+    "AGR_IRRELEVANT",
+    "AGC_CONGRUENT",
+    "AGC_INCONGRUENT",
+    "AGC_MIXED",
+    "AEX_EXPECTED",
+    "AEX_UNEXPECTED",
+    "AAG_SELF",
+    "AAG_OTHER",
+    "AAG_CIRCUMSTANCE",
+    "AAG_SHARED",
+    "ACT_CERTAIN",
+    "ACT_UNCERTAIN",
+    "ACP_HIGH",
+    "ACP_LOW",
+    "ACP_MIXED"
+  ],
+  "state_groups": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13,
+      14,
+      15
+    ]
+  ],
+  "emotion_ids": [
+    "EMO10_d4cc56aa47e0b5c7",
+    "EMO10_b2dfe878c689fbab",
+    "EMO10_58d54e7c7553ce1f",
+    "EMO10_b113405b6f9114b2",
+    "EMO10_45c9a6614fccd4f9",
+    "EMO10_0f471c347284f2de",
+    "EMO10_2a4baa647f524b2a",
+    "EMO10_58c48602d373404d",
+    "EMO10_2f05d4b689d270ca",
+    "EMO10_9ed142d60c4571b6"
+  ],
+  "emotion_names": [
+    "anger",
+    "disgust",
+    "fear",
+    "joy",
+    "sad",
+    "surprised",
+    "peaceful",
+    "powerful",
+    "bad",
+    "genius"
+  ],
+  "native_dimension_thresholds": [
+    0.0,
+    0.01,
+    0.025,
+    0.025,
+    0.025,
+    0.0
+  ],
+  "mixture": 0.75,
+  "emotion_top_k": 3,
+  "kappa": 0.5,
+  "prior_correction_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "conditional_margins": [
+    1.01,
+    0,
+    0,
+    0,
+    0,
+    0.2
+  ],
+  "balanced_margins": [
+    1.01,
+    0,
+    0.1,
+    0,
+    0,
+    0
+  ],
+  "gate": {
+    "min_cue_eligible": 20,
+    "min_state_joint_support": 20,
+    "min_state_lift": 0.025,
+    "app_min_cues": 2,
+    "app_min_modalities": 1,
+    "app_min_coverage": 0.35,
+    "disabled_dimension_indices": [
+      0
+    ],
+    "app_margin_thresholds": [
+      1.01,
+      0,
+      0.1,
+      0,
+      0,
+      0
+    ],
+    "emotion_min_cues": 2,
+    "emotion_min_modalities": 2,
+    "emotion_min_coverage": 0.35
+  },
+  "training_members": 27679,
+  "validation_members": 3076,
+  "training_group_fold": "SHA256(group_id) first 8 hex digits modulo 5",
+  "gate_selection": "Training-only OOF Teacher Cue; maximal coverage with n>=100 and Wilson lower 95% accuracy>=0.75. Valid annotated dimensions only.",
+  "parameter_selection": "kappa .5 fixed numerical regularization. Smoothing and prior-correction grids evaluated only on training OOF Teacher Cue; no target data.",
+  "limitations": [
+    "Teacher-source consistency, not human truth",
+    "Source pseudo_validation historically used for graph selection and later continuation training",
+    "Teacher-Cue OOF gate thresholds are not calibrated on Student predictions",
+    "Cross-modality count is not a statistical independence guarantee",
+    "No GPU/model generation/training in this repair run",
+    "Applicability predicts Teacher annotatability, not whether a psychological dimension is objectively absent."
+  ],
+  "repair_id": "4df60605a50fa0324fb39fca3948039a3e7d14619177274b86cc7038888a66cc",
+  "conditional_applicability": [
+    1.01,
+    0.9,
+    1.01,
+    0.7,
+    1.01,
+    1.01
+  ],
+  "balanced_applicability": [
+    1.01,
+    0.8,
+    1.01,
+    0.7,
+    0.8,
+    1.01
+  ],
+  "applicability_model": "CPU L2 logistic regression C=1 lbfgs; 42 frozen selected-Cue flags; training-only group OOF; thresholds selected for >=.75 Wilson joint source-supported-and-correct agreement with >=100 emissions.",
+  "promotion_status": "NOT_PROMOTED: conditional reweighting degraded source emotion retrieval; keep C0 baseline.",
+  "default_ablation": "baseline"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "finite_forward_backward": true,
+  "successful_optimizer_updates": 2,
+  "restored_optimizer": true,
+  "changed_parameter": "llama_model.base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight",
+  "changed_parameter_maximum_absolute_difference": 2.126488834619522e-05,
+  "graph_evidence_present": true,
+  "batch_size": 3,
+  "actual_sequence_tokens": 1239,
+  "counted_within_requested_25000_iterations": true
+}

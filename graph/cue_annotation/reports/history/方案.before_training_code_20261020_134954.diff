@@ -1,0 +1,74 @@
+--- /ai/sjq/AffectGPT-sjq/cue_annotation/reports/history/方案.before_training_code_20261020_134954.md
++++ 方案.md
+@@ -56,7 +56,7 @@
+ 
+ 表格单位为Cue位置，不是模态任务；positive/negative均为可用二分类监督。随机30条、90份JSON结构抽查通过，不等于全部JSON逐项响应核验或人工语义审计。
+ 
+-当前尚未完成可信来源分组、300条盲审/60条双标、正式角色清单及训练发布包；三路Cue提取器尚未实现/训练。已有标注可供后续伪标签基线使用，先冻结角色隔离与发布验收，不因训练准备重新调用全量Teacher。
++当前尚未完成可信来源分组、300条盲审/60条双标、正式角色清单及训练发布包；三路Cue提取器基线代码已实现并通过独立smoke训练测试，正式全量训练尚未启动。已有标注可供后续伪标签基线使用，先冻结角色隔离与发布验收，不因训练准备重新调用全量Teacher。
+ 
+ 证据：`cue_annotation/reports/training_readiness_evidence_20261020.json`；审查依据：`cue_annotation/reports/training_readiness_review_20261020.md`。检查、代码、缓存、日志和权重均只在服务器`/ai/sjq/AffectGPT-sjq`内处理，不下载到本地。
+ 
+@@ -588,7 +588,7 @@
+ -   任何目标域标签都不得用于 Prompt、Teacher、Student、阈值、Cue 选择或
+     AMG 检索策略的调整。
+ 
+-### 5.4 训练数据发布与角色验收（待实现）
++### 5.4 训练数据发布与角色验收（prepare代码已实现，正式全量包待生成）
+ 
+ 正式发布物至少包含：本体顺序及版本、成员与原始路径清单、训练/验证/审计/诊断及已知同源排除角色、各模态逐Cue正负支持/覆盖率、失败明细、来源/重复检查限制、标签映射版本与文件SHA256。发布器校验CSV重复/缺失/额外键、非法state、y/mask、成功/失败JSON与数据库一致性，并对当前原始媒体存在性/来源哈希作核验；缺失/变更文件阻断该发布，不能静默生成阴性。历史API副本哈希作为提交证据，不要求已删除副本当前存在。
+ 
+@@ -596,11 +596,11 @@
+ 
+ ## 6. Cue 提取器（三个 Student）的训练设计
+ 
+-本节是待实现的训练规格，不代表模型已训练。三个提取器分别学习 Text 15、Audio 17、Visual 10 个独立 Cue；文本编码器指定为XLM-RoBERTa Base，音视频编码器复用现有Chinese HuBERT-Large、CLIP ViT-L/14权重。XLM-R下载、全量分词统计及临时双语分类头的单批次前向/反向检查已完成；正式提取器训练链路仍待实现。各模态独立优化和选择 checkpoint，共用数据角色清单，输出按本体固定顺序合并为 42 维。首版不采用多模态融合来预测单模态 Cue，避免从其他模态猜测当前模态证据。
++本节为训练规格；三路基线代码与smoke测试已完成（见第19节），不代表正式全量模型或人类准确率已通过。三个提取器分别学习 Text 15、Audio 17、Visual 10 个独立 Cue；文本编码器指定为XLM-RoBERTa Base，音视频编码器复用现有Chinese HuBERT-Large、CLIP ViT-L/14权重。XLM-R下载、全量分词统计及临时双语分类头的单批次前向/反向检查已完成；三路基线训练链路已实现并通过短测试，正式全量训练尚未启动。各模态独立优化和选择 checkpoint，共用数据角色清单，输出按本体固定顺序合并为 42 维。首版不采用多模态融合来预测单模态 Cue，避免从其他模态猜测当前模态证据。
+ 
+ ### 6.1 独立实现入口与数据契约
+ 
+-建议新增项目根目录 `cue_student/`，包含发布验收、角色划分、Dataset/collate、三路模型、训练、评估与推理模块；这些模块当前尚未实现。原 `AffectGPT/train.py` 及 MERCaptionPlus Dataset 读取 openset/reason/english，优化 LLM token 生成损失，不能仅修改旧 YAML 就视为 Cue 提取器训练。无需为三路 Cue 训练加载 Qwen 或原 Q-former/LoRA 融合链路。
++已新增项目根目录 `cue_student/`，包含prepare发布验收/分组、Dataset/collate、三路模型、train/evaluate/predict及实际输入观察记录；主配置与测试说明见其README。已通过smoke检查，正式全量来源核实/发布和训练仍待执行。原 `AffectGPT/train.py` 及 MERCaptionPlus Dataset 读取 openset/reason/english，优化 LLM token 生成损失，不能仅修改旧 YAML 就视为 Cue 提取器训练。无需为三路 Cue 训练加载 Qwen 或原 Q-former/LoRA 融合链路。
+ 
+ 训练输入契约：
+ 
+@@ -620,7 +620,7 @@
+     -> 小型融合 MLP / dropout -> 15 logits
+ ```
+ 
+-- 主编码器为 `FacebookAI/xlm-roberta-base`，服务器目录为 `AffectGPT/models/xlm-roberta-base/`，固定revision=`e73636d4f797dec63c3081bb6ed5c7b0bb3f2089`，hidden_size=768。11个下载文件的大小/SHA256已与下载清单逐项匹配；XLM-R tokenizer和不含pooler的AutoModel均离线加载通过，encoder无缺失或形状不匹配参数，未使用的MLM/pooler参数不进入Cue分类。已通过真实标签的小批次前向/反向检查，正式Cue训练链路仍待实现/验收。两个字段分别编码，保留语言边界；每条样本只计算一次15维损失，不将译文作为第二个独立训练样本。
++- 主编码器为 `FacebookAI/xlm-roberta-base`，服务器目录为 `AffectGPT/models/xlm-roberta-base/`，固定revision=`e73636d4f797dec63c3081bb6ed5c7b0bb3f2089`，hidden_size=768。11个下载文件的大小/SHA256已与下载清单逐项匹配；XLM-R tokenizer和不含pooler的AutoModel均离线加载通过，encoder无缺失或形状不匹配参数，未使用的MLM/pooler参数不进入Cue分类。已通过真实标签的小批次前向/反向检查，Cue基线链路及文本完整编码器优化步骤已通过smoke，正式全量训练尚未启动。两个字段分别编码，保留语言边界；每条样本只计算一次15维损失，不将译文作为第二个独立训练样本。
+ - `a_ZH/a_EN` 来自字段是否真实存在，缺失字段置零表征并屏蔽。全量中文非空，英文缺失 588 条，不能把空串编码后的特殊 token 当正常英语参与等权平均。两字段都缺失时标记文本输入不可用。
+ - 首版采用共享XLM-R编码器、带token mask的mean pooling和上述拼接MLP；首个特殊token（`<s>`）池化或语言门控作为后续独立对照。输入使用该模型自己的tokenizer及特殊token规则，不沿用BERT专属分词、段ID或特殊token假设。词面Cue可以从任一语言取证，语义判断不能靠所有Cue通用的双语max规则替代；共享分类器学习融合。
+ - 已使用XLM-R自己的tokenizer对31,327条样本的中英文独立字段全量统计（含特殊token）：中文median=11、p99=29、max=79；英文median=14、p99=42、max=97，超过128/256/512的条数均为0，英文缺失588条。首版采用`max_length=128`与动态padding，可覆盖当前源域输入；这是XLM-R实测结果，不复用旧编码器统计。未来输入仍检测overflow并按tokenizer/config允许长度校验：确定性分块回退初始重叠32 tokens，记录语言/块位置，在语言内聚合后再融合，不静默截断。
+@@ -793,12 +793,12 @@
+ 2. **保留统一监督。** positive和negative共同训练，uncertain/unobservable/unlabeled屏蔽主BCE；停顿/流泪无专用门控。保留78个失败对应样本其他模态的标签，不重跑成功标注。
+ 3. **先固定隔离，再开展训练。** 核验来源/近重复、抽样总体与300条审计角色，排除同源组，冻结统一train/validation成员及逐Cue支持数。人工300条/60条双标可在独立角色冻结后与工程实现推进；人工未完成时，任何训练结果仅是伪标签基线。
+ 4. **发布训练数据包。** 全量检查31,327个成员、93,981个任务键、1,315,734个Cue位置，核对状态/y/mask、原始路径、标签与JSON的一致性、版本及文件哈希。已有审查是CSV全量结构核对和30样本90份JSON结构抽查，不能冒充全部原始响应逐项验收。
+-5. **实现提取器并通过第6.7节检查。** 新建独立Cue链路，先跑三路单GPU短闭环；当前正式Student训练代码及三路完整验收仍未完成；XLM-R临时融合头的单批次前向/反向已通过，但不等于正式提取器已训练或全部第6.7节检查已通过。主方案修订不是训练完成。
++5. **实现提取器并通过第6.7节检查。** 新建独立Cue链路，先跑三路单GPU短闭环；当前三路Student基线代码、19项单元测试及真实GPU短训练/恢复/评估/推理已通过；来源核验、正式全量数据发布及独立人工评估仍未完成，不能据smoke声称正式全量提取器已训练。主方案修订不是训练完成。
+ 6. **完成第一轮主基线及有限对照。** Text双语XLM-R微调；Audio/Visual冻结编码器，样本级聚合+masked BCE，使用完整有效正负例。再逐项比较加权损失、聚合、4FPS、声学特征及末层微调，不直接展开全部组合。
+ 7. **完成独立人工评估。** 300条主审计、60条双标与独立稀有Cue诊断分别报告；确认支持不足/覆盖风险，冻结模型后做阈值交叉拟合与active/deferred。
+ 8. **再执行OOF建库和AMG。** 单次基线、阈值交叉拟合、额外折模型训练分别记录，全部输出只留服务器；九个目标数据集不参与训练/模型/阈值/建库策略选择。
+ 
+-当前尚无完整正式训练release（含角色清单、验收结果及固定哈希）与Cue模型checkpoint。`verify_api.py`仍针对旧30条输入，不是全量训练数据发布器；已有23项标注/上传/媒体恢复测试也不是Student测试。实现状态必须随实际工作更新，不能把本方案的参数表写成已运行事实。
++当前尚无完整正式训练release（含全量来源核验、角色清单及固定哈希）和正式全量Cue checkpoint；已有48条独立smoke包及明确标注scope=smoke的测试checkpoint。`verify_api.py`仍针对旧30条输入，不是全量训练数据发布器；已有23项标注/上传/媒体恢复测试也不是Student测试。实现状态必须随实际工作更新，不能把本方案的参数表写成已运行事实。
+ 
+ ## 11. 全量运行、失败处理与恢复
+ 
+@@ -932,3 +932,15 @@
+ 已在cuda:0以float32临时构造共享XLM-R、双语mean pooling、缺失语言屏蔽及15维融合头，读取3条真实样本（含英文缺失）、42个有效Cue监督（positive 13、negative 29）完成一次forward/backward；输出[3,15]，loss/梯度有限，峰值分配显存约3,430.8 MiB。encoder权重无missing/mismatched keys，未使用的MLM/pooler checkpoint参数属于预期省略。检查的随机融合头与loss只用于计算连通性验证，不是已训练模型或准确率结果。
+ 
+ optimizer steps=0，未保存/更新磁盘模型权重，未启动正式训练；角色隔离、发布验收、正式三路训练入口及完整第6.7节检查仍待实施。本次核验、方案备份、差异及证据全部只在服务器；证据为`cue_annotation/reports/xlmr_download_verification_20261020.json`，校验脚本为`cue_annotation/reports/verify_xlmr_download_20261020.py`。
++
++## 19. 2026-10-20 Cue训练代码实现与真实数据测试
++
++已在服务器新增cue_student/：prepare.py、data.py、models.py、objectives.py、train.py、evaluate.py、predict.py、observations.py、三路configs与tests；使用说明见README。Text共享XLM-R双语融合；Audio完整HuBERT；Visual全时段CLIP；15/17/10维独立输出，positive/negative共同监督，其他状态屏蔽，未改现有标签或Prompt。
++
++已完成19项单元测试、16项首轮真实模型集成检查及12项最终日志/周期checkpoint回归。验证真实参数更新、文本冻结基线恢复与连续训练权重差异0（包括分类头dropout=0.2时的随机数状态恢复）、三路固定小子集loss下降、padding一致性、冻结编码器不变、全XLM-R反向及实际optimizer更新、缺失输入null输出和输入PTS/分块范围持久化。长音频26.9119375秒完整读取；长视频2FPS采样55帧，末PTS26.88秒，保留最后可解码帧。
++
++主配置为text全编码器微调、audio/visual冻结基线；支持末层解冻、init-from、普通/加权BCE、mean/attention/Top-k、bf16/float32、早停、周期last/best和RNG恢复；当前仅单进程单GPU，明确拒绝DDP。默认每200个optimizer step保存last，恢复固定原目录/代码/数据/模型指纹。音频目前完整编码，自动分块及声学/区域消融仍为后续，不静默裁剪。
++
++测试使用48条独立scope=smoke包（train30、validation10、审计逻辑角色4、诊断4）；测试checkpoint不是正式最终权重，不把小子集loss当泛化性能。测试成员登记development_exposure，未来正式gold候选排除其已知来源/重复组。正式全量来源/近重复核验、300条/60条人工审计、全量发布/训练、人工阈值、OOF和AMG仍未完成。
++
++完整实现和证据见cue_student/reports/implementation_test_report_20261020.md及同名JSON，具体训练/测试命令见cue_student/README.md。原标签、本体、协议及成员文件SHA256未变；所有代码、日志、测试权重和备份均只保存在服务器。

@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "failed": 78,
+    "succeeded": 93903
+  },
+  "modality_counts": {
+    "text": {
+      "failed": 4,
+      "succeeded": 31323
+    },
+    "audio": {
+      "failed": 5,
+      "succeeded": 31322
+    },
+    "visual": {
+      "failed": 69,
+      "succeeded": 31258
+    }
+  },
+  "completed_samples": 31255,
+  "failed_samples": 72,
+  "retryable_failed_tasks": 0,
+  "usage_including_failed_generations": {
+    "prompt_tokens": 265580873,
+    "completion_tokens": 37528814,
+    "total_tokens": 303109687
+  },
+  "http_attempts": 94366
+}

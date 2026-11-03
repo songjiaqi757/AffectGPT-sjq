@@ -1,0 +1,63 @@
+{
+  "experiment_job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308",
+  "baseline_job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131",
+  "profiles": {
+    "audio_full": {
+      "passed": true,
+      "encoder_parameters": 315435136,
+      "trainable_encoder_parameters": 315435136,
+      "peak_allocated_mib": 5288.09912109375,
+      "peak_reserved_mib": 6994.0,
+      "loss": 0.6820745468139648,
+      "grad_norm": 0.1891198754310608,
+      "seconds": 3.789202880114317,
+      "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+      "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224"
+    },
+    "audio_temporal_full": {
+      "passed": true,
+      "encoder_parameters": 315435136,
+      "trainable_encoder_parameters": 315435136,
+      "peak_allocated_mib": 6076.1787109375,
+      "peak_reserved_mib": 7230.0,
+      "loss": 0.7098038792610168,
+      "grad_norm": 0.7757604718208313,
+      "seconds": 2.935245204716921,
+      "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+      "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224"
+    },
+    "visual_full": {
+      "passed": true,
+      "encoder_parameters": 303966208,
+      "trainable_encoder_parameters": 303966208,
+      "peak_allocated_mib": 5882.23193359375,
+      "peak_reserved_mib": 6318.0,
+      "loss": 0.687330961227417,
+      "grad_norm": 1.9705390930175781,
+      "seconds": 3.1212256029248238,
+      "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+      "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224"
+    },
+    "visual_temporal_full": {
+      "passed": true,
+      "encoder_parameters": 303966208,
+      "trainable_encoder_parameters": 303966208,
+      "peak_allocated_mib": 5894.79296875,
+      "peak_reserved_mib": 6350.0,
+      "loss": 0.6628212332725525,
+      "grad_norm": 2.865041732788086,
+      "seconds": 1.856936987489462,
+      "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+      "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224"
+    }
+  },
+  "preflight_execution": "Sequential, one process only, 20% GPU allocator cap; all passed.",
+  "new_assignment": {
+    "audio_full": 0,
+    "audio_temporal_full": 0,
+    "visual_full": 0,
+    "visual_temporal_full": 1
+  },
+  "new_runs_fresh": true,
+  "existing_five_unchanged": true
+}

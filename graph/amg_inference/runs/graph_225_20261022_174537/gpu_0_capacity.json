@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "concurrent_models": 3,
+  "full_prompt_limit": 1536,
+  "generated_tokens_per_probe": 1200,
+  "source_only": true,
+  "reports": [
+    {
+      "state": "complete",
+      "pid": 778895,
+      "gpu": "0",
+      "slot": 0,
+      "started_at_beijing": "2026-10-23T17:06:55.940703+08:00",
+      "updated_at_beijing": "2026-10-23T17:09:16.948431+08:00",
+      "prompt_info": {
+        "fallback": false,
+        "graph_tokens": 978,
+        "omitted_evidence": 6,
+        "displayed_paths": 4,
+        "prompt_tokens": 1097,
+        "subtitle_truncated": false,
+        "prompt_id": "c25c39d571a202cd9ad6d74ffb6531ac15d62260ccb5002bb6b9cd9026c1516d",
+        "stress_prompt_tokens": 1536,
+        "stress_generated_tokens": 1200
+      },
+      "peak_bytes": 18944851968,
+      "reserved_bytes": 18987614208,
+      "passed": true
+    },
+    {
+      "state": "complete",
+      "pid": 778896,
+      "gpu": "0",
+      "slot": 1,
+      "started_at_beijing": "2026-10-23T17:06:55.940240+08:00",
+      "updated_at_beijing": "2026-10-23T17:09:16.958245+08:00",
+      "prompt_info": {
+        "fallback": false,
+        "graph_tokens": 978,
+        "omitted_evidence": 6,
+        "displayed_paths": 4,
+        "prompt_tokens": 1097,
+        "subtitle_truncated": false,
+        "prompt_id": "c25c39d571a202cd9ad6d74ffb6531ac15d62260ccb5002bb6b9cd9026c1516d",
+        "stress_prompt_tokens": 1536,
+        "stress_generated_tokens": 1200
+      },
+      "peak_bytes": 18944851968,
+      "reserved_bytes": 18987614208,
+      "passed": true
+    },
+    {
+      "state": "complete",
+      "pid": 778897,
+      "gpu": "0",
+      "slot": 2,
+      "started_at_beijing": "2026-10-23T17:06:55.940609+08:00",
+      "updated_at_beijing": "2026-10-23T17:09:16.759933+08:00",
+      "prompt_info": {
+        "fallback": false,
+        "graph_tokens": 978,
+        "omitted_evidence": 6,
+        "displayed_paths": 4,
+        "prompt_tokens": 1097,
+        "subtitle_truncated": false,
+        "prompt_id": "c25c39d571a202cd9ad6d74ffb6531ac15d62260ccb5002bb6b9cd9026c1516d",
+        "stress_prompt_tokens": 1536,
+        "stress_generated_tokens": 1200
+      },
+      "peak_bytes": 18944851968,
+      "reserved_bytes": 18987614208,
+      "passed": true
+    }
+  ],
+  "finished_at_beijing": "2026-10-23T17:09:20.329057+08:00"
+}

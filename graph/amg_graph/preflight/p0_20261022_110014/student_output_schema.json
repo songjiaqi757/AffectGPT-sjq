@@ -1,0 +1,17 @@
+{
+  "schema_id": "cue_predict_single_modality_output_existing_v1",
+  "format": "JSON",
+  "fields": {
+    "sample_id": "string",
+    "modality": "text|audio|visual",
+    "cue_ids": "ordered 15|17|10 strings",
+    "scores": "same-length sigmoid scores or null if unavailable",
+    "input_valid": "boolean",
+    "thresholds": "all 0.5",
+    "threshold_status": "uncalibrated_0.5",
+    "selected_positive": "score >= 0.5 cue IDs; not active/deferred policy",
+    "input_observation": "per-modality input diagnostics when valid",
+    "error": "string when invalid"
+  },
+  "status": "documents existing code; unified 42D active/deferred schema remains P2"
+}

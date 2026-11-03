@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "state": "complete",
+  "reports": [
+    {
+      "dataset": "OVMERDPlus",
+      "name": "samplenew3_00000062",
+      "response": "<think>In the text, caption reads: \"The fact that Director Qiu is having a quarrel with Li Lanbing over divorce has reached the ears of a passing nurse, causing a sensation throughout the hospital.\" Based on the facial expressions, body language, and tone of urgency described in the video clues, it can be inferred that the individual is experiencing intense negative emotions such as anger, frustration, anxiety, and tension. The audio clues also support this inference by describing the individual's voice as tense, agitated, with a high pitch and rapid speech rate. Therefore, this caption content can be interpreted as the individual expressing their emotions of dissatisfaction, anger, frustration, anxiety, and tension, aligning with the emotional states described in the video and audio clues.</think><answer>anger, frustration, anxiety, tension, dissatisfaction</answer>",
+      "info": {
+        "fallback": false,
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+        "graph_tokens": 192,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "emotion_candidates_displayed": 0,
+        "cues_displayed": 14,
+        "appraisals_displayed": 12,
+        "prompt_sha256": "df3ab1ae98c19aa3888648e153d9514c63ec860696528f331675605916aa4d2d",
+        "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+        "contract": {
+          "native_sample_ast_verified": true,
+          "generation": {
+            "max_new_tokens": 1024,
+            "do_sample": true,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "use_audio_in_video": true,
+          "use_face_video": false,
+          "official_launcher_defaults": true,
+          "only_prompt_change": "append graph evidence to existing user text content",
+          "seed": null
+        },
+        "video_path": "/ai/sjq/OPPO/datasets/mer2025/ovmerdplus-process/video/samplenew3_00000062.mp4",
+        "audio_path": "/ai/sjq/OPPO/datasets/mer2025/ovmerdplus-process/audio/samplenew3_00000062.wav"
+      },
+      "elapsed": 8.074296055361629,
+      "gpu_peak_allocated_bytes": 19023730688,
+      "gpu_peak_reserved_bytes": 19591593984
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "name": "skRqBxLLJkE_0",
+      "response": "<think>In the text, based on the facial expressions, body movements, tone, subtitle content, etc., in the video clues, it can be inferred that the individual may be experiencing a range of emotions including excitement, confidence, and enthusiasm. At the same time, based on the audio clues, the individual may be experiencing a range of emotions including happiness, confidence, and excitement. Therefore, it can be inferred that the individual is in a positive emotional state, possibly feeling excited and confident about something. This aligns with the content of the subtitles where the individual mentions a \"great success\" and expresses appreciation for others.</think><answer>excited, confident, enthusiastic, happy</answer>",
+      "info": {
+        "fallback": false,
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+        "graph_tokens": 173,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "emotion_candidates_displayed": 0,
+        "cues_displayed": 13,
+        "appraisals_displayed": 11,
+        "prompt_sha256": "9d13415d1b455b238a6d258a50f41098fe6dbc6cdabd315be756cf484a60acb7",
+        "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: contrast present; text: intensifier present; text: desire need; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pause long; audio: pause frequent; audio: intonation rising; audio: intonation falling; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag other; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+        "contract": {
+          "native_sample_ast_verified": true,
+          "generation": {
+            "max_new_tokens": 1024,
+            "do_sample": true,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "use_audio_in_video": true,
+          "use_face_video": false,
+          "official_launcher_defaults": true,
+          "only_prompt_change": "append graph evidence to existing user text content",
+          "seed": null
+        },
+        "video_path": "/ai/sjq/OPPO/datasets/mer2025/cmumosei-process/subvideo_new/skRqBxLLJkE_0.mp4",
+        "audio_path": "/ai/sjq/OPPO/datasets/mer2025/cmumosei-process/subaudio/skRqBxLLJkE_0.wav"
+      },
+      "elapsed": 45.453274762257934,
+      "gpu_peak_allocated_bytes": 49273110528,
+      "gpu_peak_reserved_bytes": 69143101440
+    }
+  ],
+  "all_checkpoint_loads_verified": true,
+  "time": "2026-11-01T23:29:46.457943+08:00"
+}

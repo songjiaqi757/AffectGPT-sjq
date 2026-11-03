@@ -1,0 +1,105 @@
+{
+  "schema": "server_only_posthoc_sample_audit_v1",
+  "root": "/ai/sjq/AffectGPT-sjq",
+  "run": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152",
+  "selection": "Within each dataset pick highest stored official main score among 50 weights; cases chosen by fixed SHA256 ordering within four strata and truth diversity; not random population estimate.",
+  "oracle_mean_percent": 75.43340005789153,
+  "nine_unique_dataset_samples": 12799,
+  "sample_predictions_compared": 639950,
+  "detailed_cases": 72,
+  "media_frame_review_cases": 16,
+  "media_review": "Four sparse frame positions per clip on server; one final frame failed in first montage. No full audiovisual manual relabeling; no audio listening claimed.",
+  "checks": [
+    {
+      "dataset": "MER2023",
+      "winner": "from_30_epoch_39_MER2023",
+      "score": 0.790084758666193,
+      "raw_sha256": "f5d89a1a371f205973e4167deff642ef7d74d2ec9a85fff18037df8fa8b2eb82",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_30_epoch_39_MER2023/name2reason.npz",
+      "samples": 411,
+      "metric_match": true
+    },
+    {
+      "dataset": "MER2024",
+      "winner": "from_45_epoch_54_MER2024",
+      "score": 0.7980809637204092,
+      "raw_sha256": "b53e00294c10027a1b33c2d7968b48708307b4be34b2bccccd6e4594b2613750",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_45_epoch_54_MER2024/name2reason.npz",
+      "samples": 1169,
+      "metric_match": true
+    },
+    {
+      "dataset": "MELD",
+      "winner": "from_30_epoch_39_MELD",
+      "score": 0.5852572124023048,
+      "raw_sha256": "2d5069ab21f60e363c7aa2f7df3bb3d1f14fedb1ab6b0eb3e3e73df9e6aa0aae",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_30_epoch_39_MELD/name2reason.npz",
+      "samples": 2610,
+      "metric_match": true
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "winner": "from_30_epoch_39_IEMOCAPFour",
+      "score": 0.6011668611435239,
+      "raw_sha256": "345c94b10a0267744c17b1a5ef29fa000fc22cdd43b527276d197cabd1e0c672",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_30_epoch_39_IEMOCAPFour/name2reason.npz",
+      "samples": 1241,
+      "metric_match": true
+    },
+    {
+      "dataset": "CMUMOSI",
+      "winner": "from_50_epoch_57_CMUMOSI",
+      "score": 0.8286353675884659,
+      "raw_sha256": "b97b05c06db1e4f99210ff4645a725307494637ec0e0158ce3da6f690bd0aa59",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_50_epoch_57_CMUMOSI/name2reason.npz",
+      "samples": 686,
+      "metric_match": true
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "winner": "from_50_epoch_55_CMUMOSEI",
+      "score": 0.8031507109394831,
+      "raw_sha256": "ce35a0ce5c291d24ae27dd1d40d0880c4f3786a13819f481304e2b6d0a93128a",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_50_epoch_55_CMUMOSEI/name2reason.npz",
+      "samples": 4659,
+      "metric_match": true
+    },
+    {
+      "dataset": "SIMS",
+      "winner": "from_35_epoch_41_SIMS",
+      "score": 0.8944111845238163,
+      "raw_sha256": "9092397adb7da3ccc25e077ef65bc0c4e852ce7a6ee7675b977f9e8fcf252b0b",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/predictions/D_continue_epoch_41_SIMS/name2reason.npz",
+      "samples": 457,
+      "metric_match": true
+    },
+    {
+      "dataset": "SIMSv2",
+      "winner": "from_45_epoch_49_SIMSv2",
+      "score": 0.8607066785225358,
+      "raw_sha256": "9629cb5f5db11049711526db47fb7e2116fe4e568f3c8c7615ecbc85124e38f2",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/predictions/from_45_epoch_49_SIMSv2/name2reason.npz",
+      "samples": 1034,
+      "metric_match": true
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "winner": "from_35_epoch_40_OVMERDPlus",
+      "score": 0.6275122677035071,
+      "raw_sha256": "d0d075ce0d753b0b957d1109438838e3234778c7ec314d8b13761cd6a9cb443c",
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/predictions/D_epoch_40_OVMERDPlus/name2reason.npz",
+      "samples": 532,
+      "metric_match": true
+    }
+  ],
+  "notes": [
+    "All computations and file writes on server; no project or media files written to local filesystem.",
+    "No training/inference/scoring-model run started; existing caches only.",
+    "Categorical diagnostic quality is mean HIT over applicable wheels; OV diagnostic quality is mean per-sample harmonic P/R over applicable wheels, not official F_s.",
+    "For categorical tasks neutral GT is unscored under current wheels. OV one sample has no valid GT wheel; diagnostic denominators exclude it.",
+    "Binary tasks exclude GT=0 and treat nonpositive judge results as nonpositive, following existing implementation.",
+    "All50 errors refer to these correlated weights and current cached scoring; not proof of impossibility.",
+    "Between-experiment changes in weights and graph are descriptive; A-G within-weight comparisons are more controlled."
+  ],
+  "gpu_imported": false
+}

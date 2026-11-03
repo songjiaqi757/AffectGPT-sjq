@@ -1,0 +1,27 @@
+{
+  "schema_version": "amg_query_config_v1",
+  "purpose": "engineering_contract_tests",
+  "graph_release_id": "75d45e203722ce060829e0db17ce7348f24ef44c024f1e99ff310f050194a420",
+  "frozen_build_constraints": {
+    "edge_min_source_groups": 20,
+    "path_min_joint_source_groups": 5
+  },
+  "query_parameters": {
+    "query_min_support_groups": 20,
+    "query_path_min_joint_support_groups": 5,
+    "dimension_min_evidence": {
+      "APP_GOAL_RELEVANCE": 0.0,
+      "APP_GOAL_CONGRUENCE": 0.0,
+      "APP_EXPECTEDNESS": 0.0,
+      "APP_AGENCY": 0.0,
+      "APP_CERTAINTY": 0.0,
+      "APP_COPING_POTENTIAL": 0.0
+    },
+    "minimum_coverage": 0.0,
+    "emotion_top_k": 5,
+    "path_top_k": 10,
+    "direct_two_hop_lambda": 0.5,
+    "branch": "full"
+  },
+  "notes": "Executable smoke-test profile only. K=5/lambda=0.5 reuse the old structural proxy convention; zero evidence/coverage cutoffs and path K=10 are engineering settings, not P4-selected values. Query filters never resurrect excluded graph edges/paths."
+}

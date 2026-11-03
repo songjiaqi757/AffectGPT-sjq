@@ -1,0 +1,260 @@
+{
+  "schema": "native_original_plus_graph10_noemotion_v1",
+  "created_at_beijing": "2026-10-31T22:58:41.988905+08:00",
+  "training_run": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841",
+  "variant": "CueAppraisal_noEmotion",
+  "policy": {
+    "version": "bcd_evidence_noemotion_v1",
+    "graph_token_budget": 512,
+    "target_tokens": 384,
+    "max_paths": 2,
+    "min_selected_cues": 2,
+    "min_candidate_coverage": 0.35,
+    "min_relative_candidate_gap": 0.1,
+    "min_candidate_support_cues": 2,
+    "dropout_none": 0.2,
+    "dropout_no_emotions": 0.2,
+    "scores_are_calibrated_probabilities": false,
+    "threshold_selection": "fixed engineering preset; no target tuning",
+    "evidence_blocks": [
+      "cue",
+      "appraisal"
+    ],
+    "emotion_nodes": false,
+    "removed_prompt_blocks": [
+      "Emotion hypotheses:",
+      "Supporting links:"
+    ],
+    "change_scope": "single-variable prompt ablation"
+  },
+  "policy_module": "amg_bcd.policy",
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2000
+  },
+  "limits": {
+    "graph_token_budget": 512
+  },
+  "prompt_question": "Please recognize all possible emotional states of the character.",
+  "datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/MER2023.json",
+      "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "MER2024": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/MER2024.json",
+      "sha256": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+      "samples": 1169,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "92e6e9c075bdda0a7d33a99434d0a8f4c064e235b70a89d1783fa7675720251e",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "MELD": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/MELD.json",
+      "sha256": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+      "samples": 2610,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/meld-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "d1a1f66257bfdfcd76465e106e095137439011b32fbe0bed29375f4d4158b921",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "IEMOCAPFour": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/IEMOCAPFour.json",
+      "sha256": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+      "samples": 1241,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/iemocap-process/label_4way.npz",
+      "membership_member": "whole_corpus",
+      "subtitle_sha256": "8cdae9b8509b9eca4e74b3e4f792a30660f361ee0d143caddfdb2f8b5a21751a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "CMUMOSI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/CMUMOSI.json",
+      "sha256": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+      "samples": 686,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/cmumosi-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "0ca7e39cb94c1a796d02a98f7ef9d15f7afa2228e9223b294fec2f494b1ee732",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "CMUMOSEI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/CMUMOSEI.json",
+      "sha256": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+      "samples": 4659,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/cmumosei-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "8a162df9e9b64642772776d2a98991fc4ee016ac4696cbb36d761e2b123e4821",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/SIMS.json",
+      "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMSv2": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/SIMSv2.json",
+      "sha256": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+      "samples": 1034,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/simsv2-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "ebf167aa78eca31269df229ac1cd23602a4f86d02cc7b81aa941ebf167ff0462",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/OVMERDPlus.json",
+      "sha256": "eb646f3cb8ed788ca656e68601b676fada095bc23af28795423b9c7d69a753c3",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "checkpoints": {
+    "30": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000030_loss_0.768.pth",
+      "sha256": "73fb1c257c0482e792ecad2ca0706ecccce04639e209071793484b65a97df380",
+      "epoch": 30
+    },
+    "35": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "epoch": 35
+    },
+    "40": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000040_loss_0.664.pth",
+      "sha256": "cfcb328799605ebfa3839bd0a50a0f7f2b93efd2992550c3a7e482297c8fbfc0",
+      "epoch": 40
+    },
+    "45": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000045_loss_0.589.pth",
+      "sha256": "1a10c268a632969f6f2bc0f31910688c8c55f03661d99f3c46be9db69c8de480",
+      "epoch": 45
+    },
+    "50": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000050_loss_0.556.pth",
+      "sha256": "5cc4c9b1a42347e7ffcce995605a98996bf0905420622d1a5d59369e86263f1e",
+      "epoch": 50
+    },
+    "55": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000055_loss_0.475.pth",
+      "sha256": "99823ecf1bd0d9b17b1f66ab2134ed1b67b734462e858ceb86acbd6c2ba9504d",
+      "epoch": 55
+    },
+    "60": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000060_loss_0.429.pth",
+      "sha256": "144c0927d78219a685c112ff647644160cf0bbcab80cbe095254de970320a65b",
+      "epoch": 60
+    }
+  },
+  "seed": null,
+  "concurrency_per_node": 3,
+  "logical_jobs": 63,
+  "dataset_samples_total": 12799,
+  "sample_predictions_total": 89593,
+  "graph_release_id": "bfeb27136ed6b95b5cf22e6c285bd62436dbf8208156034c9b0865aa128c5abf",
+  "query_config_id": "6852804624376c269a0a0c58aaccef84ab3d9c87003f6085dce5419298af0c0d",
+  "query_config_path": "/ai/sjq/AffectGPT-sjq/graph/amg_d_graph_compare/assets/graph10_20261025_110938/query_engine_config.json",
+  "new_graph_path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph10_rebuild/runs/wheel5_level1_alias10_full_20261025",
+  "node_counts": {
+    "CueType": 42,
+    "AppraisalDimension": 6,
+    "AppraisalState": 16,
+    "EmotionConcept": 10
+  },
+  "nodes": {
+    "A800": {
+      "port": 34989,
+      "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875"
+    },
+    "A100": {
+      "port": 31764,
+      "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c"
+    }
+  },
+  "semantics": "Native inference_hybird.py sample loop, original readers/model/Chat/generation. Reuse the frozen graph10 query cache; remove only the Emotion hypotheses and Supporting links lines from the evidence text. Cue and Appraisal lines are otherwise unchanged. No training, no target graph fitting, no polarity head.",
+  "protected_files": {
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/run.py": "ef4aaf521c913ac9838c5a50242aa48c2d9a55aebc98c6e873364504bae2fe35",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/execution_original.py": "d71c3a9287def5ab14618b777703e4bf9960dbd2ba705213fea4bb4e3c6d5dc2",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/original_model.py": "51dca2742e649d98734f0fcadf464250bf5e71af54da493de860ea35d32513e1",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_bcd/policy.py": "8267157ec2ee5d069a62156ca8bf83ab922e81d6f1c59190d722949f0ec22247",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/inference_hybird.py": "2fde4b43e1566c870746ee60333ff9220ebbc1410c6dcbfbf456511ad0679a58",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/conversation/conversation_video.py": "42e1fbdc2daca57746a6cb983878116894da50b87f9077e8c9f5e7c8728cdbef",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/models/affectgpt.py": "29d0e88767b4cefaee2dc715f21c50a6e857bb951e7ea2daacfe61956283b8f7",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/datasets/datasets/base_dataset.py": "9cc1f3435f5cc8e1cfbc7bf551d0518a7197c3f2da789ed5889e61831341152c",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_graph10_rebuild/runs/wheel5_level1_alias10_full_20261025/graph/graph.json": "4bff1555470a23e9d0c9effe7529d58cfa6ab20f4245cd7f7aa40a652413e96c",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_graph10_rebuild/runs/wheel5_level1_alias10_full_20261025/graph/paths_cue_appraisal_emotion.csv": "6cf6084c324cd6accbb1591f8a23c75e47d9748d190fe22e9c2ed8c6fc7f3cbe",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_d_graph_compare/assets/graph10_20261025_110938/query_engine_config.json": "e83bdfbc9f4dcdc88fb245cf53bcea1d815deb5a0dd3d9f1fb3e6e763297ded5",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/original_config.json": "efbcc12ea8fee6d5f9f79b946f621e8bed27defb80010f0e90c62f1a3dc88c80",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/cache_inventory.json": "ec6dc7fe63b16d089f75df4068f5fe702e9aadf96d36d7056699c2b2cd43036f",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/cache_manifest.json": "9b6185162b12b561700e14fb722e96f3cc40683472c0e39a4c44cad3ea0cb915",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/native_contract_test.json": "ebade3571a2d70a8eb45440aa79dc4ce86a3a980c712b8d63fd740c5e1a8dd7f",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/native_dataset_audit.json": "ecc1cb7731bd32731cd4dff676e81294c85c1a0cdd3c7d58f420aebc1b7863f7",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/prompt_policy.json": "c74e4598aae8acf27d79a235f714ef96f5e5759c1f6db7b60f3bb20776c3c7e4",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/affected_level3_samples.json": "e0f4a2429be39649effaafd377c7bc0070e258537da41cfe98edd65e250a5312",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/MER2023.json": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/MER2024.json": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/MELD.json": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/IEMOCAPFour.json": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/CMUMOSI.json": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/CMUMOSEI.json": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/SIMS.json": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/SIMSv2.json": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10_noemotion/runs/base7_noemotion_20261031_225841/inputs/OVMERDPlus.json": "eb646f3cb8ed788ca656e68601b676fada095bc23af28795423b9c7d69a753c3"
+  },
+  "randomness_policy": "Original script; no added per-sample RNG reseeding or backend overrides",
+  "native_script_sha256": "2fde4b43e1566c870746ee60333ff9220ebbc1410c6dcbfbf456511ad0679a58",
+  "graph_cache_directory": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_D_graph10_20261031_000904/cache",
+  "graph_cache_plan_id": "14ab48004e9b933e3bc5ce464fdc26b57bda5368cd05f9dce555cef9a45b1958",
+  "previous_run": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105",
+  "plan_id": "cea6e0084897e17bfbcf33de7ca3a689a673c5101f4ce89511825c7c9702980c"
+}

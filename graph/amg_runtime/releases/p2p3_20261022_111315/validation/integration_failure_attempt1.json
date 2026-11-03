@@ -1,0 +1,5 @@
+{
+  "type": "RuntimeError",
+  "error": "Invalid device argument ",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/amg_runtime/integration.py\", line 102, in main\n    try:run(args.release,args.device)\n  File \"/ai/sjq/AffectGPT-sjq/amg_runtime/integration.py\", line 24, in run\n    if device.startswith(\"cuda\"):torch.cuda.reset_peak_memory_stats(torch.device(device))\n  File \"/ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/torch/cuda/memory.py\", line 322, in reset_peak_memory_stats\n    return torch._C._cuda_resetPeakMemoryStats(device)\nRuntimeError: Invalid device argument \n"
+}

@@ -1,0 +1,13 @@
+{
+  "workers": 48,
+  "rpm": 360,
+  "tpm": 1600000,
+  "maximum_attempts_per_round": 3,
+  "maximum_attempts_total": 6,
+  "automatic_retry_rounds": 1,
+  "read_timeout_seconds": 240,
+  "source_target_labels_excluded": true,
+  "full_dataset_explicitly_authorized": true,
+  "live_reconfiguration": true,
+  "temporary_upload_workers": 4
+}

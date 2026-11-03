@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+  "coverage": {
+    "MER2023": 411,
+    "MER2024": 1169,
+    "MELD": 2610,
+    "IEMOCAPFour": 1241,
+    "CMUMOSI": 686,
+    "CMUMOSEI": 4659,
+    "SIMS": 457,
+    "SIMSv2": 1034,
+    "OVMERDPlus": 532
+  },
+  "checkpoint_count": 25,
+  "inference_tasks": 225,
+  "total_predictions": 319975,
+  "reused_scores": 60,
+  "remaining_scores": 165,
+  "evaluation_gpus": [
+    0,
+    1
+  ],
+  "evaluation_processes_per_gpu": 1,
+  "tests": {
+    "score_exclusive_lpt": true,
+    "all_225_barrier": true,
+    "missing_job_blocks_scoring": true,
+    "inference_remaining_work_lpt": true
+  },
+  "no_gpu_judge_loaded": true,
+  "no_new_predictions_scored": true,
+  "finished_at_beijing": "2026-10-23T18:03:39.331152+08:00"
+}

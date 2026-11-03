@@ -1,0 +1,1382 @@
+[
+  {
+    "job_id": "original_epoch40__42__A__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7158213493823249,
+      "M": 0.4690543765177912
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.4973958333333335
+  },
+  {
+    "job_id": "original_epoch40__42__A__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8137918244066719,
+      "ACC": 0.8144329896907216
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.4973958333333335
+  },
+  {
+    "job_id": "original_epoch40__42__A__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "A",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__A__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5141500170826548,
+      "P_s": 0.5392644376484189,
+      "R_s": 0.4926170166229221
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.78125
+  },
+  {
+    "job_id": "original_epoch40__42__B__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7333949952486537,
+      "M": 0.46351810790835185
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.8984375
+  },
+  {
+    "job_id": "original_epoch40__42__B__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8497412277596732,
+      "ACC": 0.852233676975945
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.8984375
+  },
+  {
+    "job_id": "original_epoch40__42__B__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "B",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__B__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5320131424066876,
+      "P_s": 0.544669142919635,
+      "R_s": 0.5208809315502229
+    },
+    "samples": 128,
+    "mean_extracted_labels": 4.0
+  },
+  {
+    "job_id": "original_epoch40__42__C__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7934190687361419,
+      "M": 0.47546996093337557
+    },
+    "samples": 384,
+    "mean_extracted_labels": 4.458333333333333
+  },
+  {
+    "job_id": "original_epoch40__42__C__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8631519005189089,
+      "ACC": 0.865979381443299
+    },
+    "samples": 308,
+    "mean_extracted_labels": 4.458333333333333
+  },
+  {
+    "job_id": "original_epoch40__42__C__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "C",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__C__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5692799594791411,
+      "P_s": 0.5700655875046868,
+      "R_s": 0.5696914252905888
+    },
+    "samples": 128,
+    "mean_extracted_labels": 4.3828125
+  },
+  {
+    "job_id": "original_epoch40__42__S__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7904491605955021,
+      "M": 0.47692788512300704
+    },
+    "samples": 384,
+    "mean_extracted_labels": 4.479166666666667
+  },
+  {
+    "job_id": "original_epoch40__42__S__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8578461013632901,
+      "ACC": 0.8591065292096219
+    },
+    "samples": 308,
+    "mean_extracted_labels": 4.479166666666667
+  },
+  {
+    "job_id": "original_epoch40__42__S__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "S",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__S__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5490408523422468,
+      "P_s": 0.5458863800879057,
+      "R_s": 0.5528644173384578
+    },
+    "samples": 128,
+    "mean_extracted_labels": 4.1953125
+  },
+  {
+    "job_id": "original_epoch40__42__P__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7796338295850491,
+      "M": 0.46415288776264385
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.9947916666666665
+  },
+  {
+    "job_id": "original_epoch40__42__P__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8482748198869179,
+      "ACC": 0.8487972508591065
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.9947916666666665
+  },
+  {
+    "job_id": "original_epoch40__42__P__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 42,
+    "condition": "P",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__42__P__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5427198669900086,
+      "P_s": 0.5412534305607632,
+      "R_s": 0.5452107614152396
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.7890625
+  },
+  {
+    "job_id": "original_epoch40__2026__A__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.6997630662020906,
+      "M": 0.4797345581248019
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.2526041666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__A__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8255985641552651,
+      "ACC": 0.8247422680412371
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.2526041666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__A__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "A",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__A__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.4841351600868726,
+      "P_s": 0.5449668075344749,
+      "R_s": 0.4370745551337333
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.265625
+  },
+  {
+    "job_id": "original_epoch40__2026__B__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.6464973075704783,
+      "M": 0.4269042339774047
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.2057291666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__B__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8534782603915412,
+      "ACC": 0.8591065292096219
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.2057291666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__B__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "B",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__B__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5072276513655265,
+      "P_s": 0.5451486695673456,
+      "R_s": 0.4759938764164896
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.390625
+  },
+  {
+    "job_id": "original_epoch40__2026__C__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7070357934748178,
+      "M": 0.4480671523598353
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.5651041666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__C__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.845558410927625,
+      "ACC": 0.852233676975945
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.5651041666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__C__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "C",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__C__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5442675627563816,
+      "P_s": 0.5865732506092989,
+      "R_s": 0.5107401190736574
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.609375
+  },
+  {
+    "job_id": "original_epoch40__2026__S__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7254279379157428,
+      "M": 0.4535909618836447
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6041666666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__S__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.854862304761684,
+      "ACC": 0.8591065292096219
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6041666666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__S__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "S",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__S__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.54879410295622,
+      "P_s": 0.5789296324938549,
+      "R_s": 0.5246586429300504
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.7578125
+  },
+  {
+    "job_id": "original_epoch40__2026__P__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7016129236617041,
+      "M": 0.44174976243268926
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.2994791666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__P__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8326068674784316,
+      "ACC": 0.8350515463917526
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.2994791666666665
+  },
+  {
+    "job_id": "original_epoch40__2026__P__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2026,
+    "condition": "P",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2026__P__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5298212837867948,
+      "P_s": 0.5495564747114943,
+      "R_s": 0.5125111216566679
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.3984375
+  },
+  {
+    "job_id": "original_epoch40__2027__A__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7035210643015521,
+      "M": 0.4995677330799282
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.0364583333333335
+  },
+  {
+    "job_id": "original_epoch40__2027__A__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8439774283255623,
+      "ACC": 0.845360824742268
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.0364583333333335
+  },
+  {
+    "job_id": "original_epoch40__2027__A__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "A",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__A__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.49098861326808957,
+      "P_s": 0.5601178758905137,
+      "R_s": 0.43805734244156974
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.171875
+  },
+  {
+    "job_id": "original_epoch40__2027__B__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.6724029141590118,
+      "M": 0.4477624326892619
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.2239583333333335
+  },
+  {
+    "job_id": "original_epoch40__2027__B__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8619421923342848,
+      "ACC": 0.865979381443299
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.2239583333333335
+  },
+  {
+    "job_id": "original_epoch40__2027__B__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "B",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__B__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5050202241147338,
+      "P_s": 0.5557313050712411,
+      "R_s": 0.4638607966972878
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.3046875
+  },
+  {
+    "job_id": "original_epoch40__2027__C__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7196401647133356,
+      "M": 0.4885993031358885
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.4244791666666665
+  },
+  {
+    "job_id": "original_epoch40__2027__C__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8328459719410889,
+      "ACC": 0.8384879725085911
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.4244791666666665
+  },
+  {
+    "job_id": "original_epoch40__2027__C__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "C",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__C__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5341370347937395,
+      "P_s": 0.5863640222055577,
+      "R_s": 0.4920251342280132
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.6015625
+  },
+  {
+    "job_id": "original_epoch40__2027__S__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7281545771301868,
+      "M": 0.48850892197233664
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.4375
+  },
+  {
+    "job_id": "original_epoch40__2027__S__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8484635562404188,
+      "ACC": 0.852233676975945
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.4375
+  },
+  {
+    "job_id": "original_epoch40__2027__S__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "S",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__S__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5193209883833354,
+      "P_s": 0.5605893924717744,
+      "R_s": 0.4868076614121152
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.8515625
+  },
+  {
+    "job_id": "original_epoch40__2027__P__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7212771618625278,
+      "M": 0.4766005701615458
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.265625
+  },
+  {
+    "job_id": "original_epoch40__2027__P__MER_track1",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8370430918066983,
+      "ACC": 0.8384879725085911
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.265625
+  },
+  {
+    "job_id": "original_epoch40__2027__P__MER_OV",
+    "checkpoint": "original_epoch40",
+    "seed": 2027,
+    "condition": "P",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/original_epoch40__2027__P__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5221978713450601,
+      "P_s": 0.5621059932612591,
+      "R_s": 0.48840185666895797
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.203125
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__A__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7516350966107064,
+      "M": 0.4906744799915531
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6744791666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__A__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8324378361491763,
+      "ACC": 0.8316151202749141
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6744791666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__A__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "A",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__A__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5340053110296833,
+      "P_s": 0.5555667455630545,
+      "R_s": 0.5146919753520394
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.8203125
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__B__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7424846373139056,
+      "M": 0.48436490338929356
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6822916666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__B__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8355952405846804,
+      "ACC": 0.8350515463917526
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6822916666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__B__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "B",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__B__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5198443624668732,
+      "P_s": 0.5493112351841438,
+      "R_s": 0.49376456849143857
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.5625
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__C__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7319708584098829,
+      "M": 0.4799613557174533
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6119791666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__C__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8302872806642617,
+      "ACC": 0.8281786941580757
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6119791666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__C__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "C",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__C__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5337645205796184,
+      "P_s": 0.549969961437112,
+      "R_s": 0.5196386389201351
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.875
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__S__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7431815014254038,
+      "M": 0.48203420969274624
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6328125
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__S__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8271327718182473,
+      "ACC": 0.8247422680412371
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6328125
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__S__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "S",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__S__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5464812424652683,
+      "P_s": 0.5584506819460067,
+      "R_s": 0.5360693162052661
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.90625
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__P__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7361520430788724,
+      "M": 0.4822297539858516
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.5677083333333335
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__P__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8124994157572253,
+      "ACC": 0.8109965635738832
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.5677083333333335
+  },
+  {
+    "job_id": "fixed_graph45_to54__42__P__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 42,
+    "condition": "P",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__42__P__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5345788725690793,
+      "P_s": 0.5603411389982502,
+      "R_s": 0.5118521610579927
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.71875
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__A__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7461818181818182,
+      "M": 0.48704107274838987
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6666666666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__A__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8292847986235828,
+      "ACC": 0.8281786941580757
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6666666666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__A__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "A",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__A__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5177327172131554,
+      "P_s": 0.5454409409761279,
+      "R_s": 0.493626079943132
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.78125
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__B__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7384859043395628,
+      "M": 0.485731179389716
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6458333333333335
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__B__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.82503454177205,
+      "ACC": 0.8247422680412371
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6458333333333335
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__B__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "B",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__B__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5029461517889892,
+      "P_s": 0.5418111407949006,
+      "R_s": 0.47012685263300413
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.625
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__C__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7405460880582831,
+      "M": 0.4918072009291522
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.640625
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__C__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8307321472821009,
+      "ACC": 0.8316151202749141
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.640625
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__C__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "C",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__C__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5265237605572799,
+      "P_s": 0.5562846473617882,
+      "R_s": 0.5010889654418198
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.7109375
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__S__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7271840354767184,
+      "M": 0.482532573117939
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6171875
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__S__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8281786941580757,
+      "ACC": 0.8281786941580757
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6171875
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__S__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "S",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__S__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5203226322304484,
+      "P_s": 0.5538006349466733,
+      "R_s": 0.49189818720576595
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.6328125
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__P__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.737000950269243,
+      "M": 0.4857193538169147
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.6744791666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__P__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8313276146109791,
+      "ACC": 0.8316151202749141
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.6744791666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2026__P__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2026,
+    "condition": "P",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2026__P__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5263519245615902,
+      "P_s": 0.5564954283058368,
+      "R_s": 0.5008015990188726
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.6328125
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__A__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7553018688628444,
+      "M": 0.508421497201985
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.3802083333333335
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__A__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "A",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__A__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8461163801369987,
+      "ACC": 0.845360824742268
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.3802083333333335
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__A__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "A",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__A__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.5122073094357814,
+      "P_s": 0.5606297747937757,
+      "R_s": 0.4730712925207266
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.3046875
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__B__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7637250554323726,
+      "M": 0.5184016471333545
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.4010416666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__B__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "B",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__B__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8355952405846804,
+      "ACC": 0.8350515463917526
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.4010416666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__B__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "B",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__B__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.4902811610138304,
+      "P_s": 0.5435743904407782,
+      "R_s": 0.44789454703578724
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.21875
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__C__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7756629711751662,
+      "M": 0.5317256889452011
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.3776041666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__C__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "C",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__C__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8477276661947213,
+      "ACC": 0.8487972508591065
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.3776041666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__C__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "C",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__C__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.49972587785307726,
+      "P_s": 0.5582192167385326,
+      "R_s": 0.4536510149772945
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.296875
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__S__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7735723788406715,
+      "M": 0.528705944462042
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.3203125
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__S__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "S",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__S__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8450967889284502,
+      "ACC": 0.845360824742268
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.3203125
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__S__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "S",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__S__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.48812608504426597,
+      "P_s": 0.5522929392940465,
+      "R_s": 0.4387109619110111
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.2578125
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__P__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_discrete",
+    "metrics": {
+      "HIT": 0.7721482420019006,
+      "M": 0.5300794002745223
+    },
+    "samples": 384,
+    "mean_extracted_labels": 3.4088541666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__P__MER_track1",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "P",
+    "family": "MER_track1",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__P__MER_track1/name2reason.npz",
+    "task": "MER_track1_polarity",
+    "metrics": {
+      "WAF": 0.8413782207908687,
+      "ACC": 0.8419243986254296
+    },
+    "samples": 308,
+    "mean_extracted_labels": 3.4088541666666665
+  },
+  {
+    "job_id": "fixed_graph45_to54__2027__P__MER_OV",
+    "checkpoint": "fixed_graph45_to54",
+    "seed": 2027,
+    "condition": "P",
+    "family": "MER_OV",
+    "raw": "/ai/sjq/AffectGPT-sjq/amg_method_decision/runs/decision_20261028_200538/evaluation/confirmation/predictions/fixed_graph45_to54__2027__P__MER_OV/name2reason.npz",
+    "task": "MER_OV",
+    "metrics": {
+      "F_s": 0.4871733157218482,
+      "P_s": 0.5472332527444486,
+      "R_s": 0.44020363990959466
+    },
+    "samples": 128,
+    "mean_extracted_labels": 3.1953125
+  }
+]

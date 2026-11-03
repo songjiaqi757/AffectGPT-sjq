@@ -1,0 +1,26 @@
+{
+  "version": "wheel5_level1_alias10_npmi_v1",
+  "seed": 20261022,
+  "bootstrap_replicates": 1000,
+  "smoothing_per_cell": 0.5,
+  "minimum_eligible_groups": 20,
+  "fdr_q": 0.05,
+  "support_grid": [
+    20
+  ],
+  "joint_support_grid": [
+    5
+  ],
+  "validation_emotion_k": 5,
+  "validation_lambda": 0.5,
+  "selection_objective": "fixed thresholds (support 20, joint 5); structural diagnostic only; no search",
+  "selection_queries": "held-out Cue Teacher positive flags; structural validation, not Student deployment performance",
+  "tie_break": "larger min_support then larger joint_support",
+  "bootstrap_unit": "manifest source_group_id; shared global train-group multinomial resamples",
+  "permutation_test": "exact one-sided fixed-marginal hypergeometric permutation under verified singleton manifest groups",
+  "non_singleton_policy": "fail closed; do not replace cluster permutation with a sample-level test",
+  "group_limitation": "manifest IDs and exact-media deduplication; original provenance and near-duplicate independence not fully verified",
+  "human_audit": "not completed; release is an engineering graph pending human/source audit",
+  "emotion_view": "raw labels -> original case3 wheel1..5 level1 -> union -> explicit 17-to-10 alias -> deduplicate",
+  "target_datasets_used": false
+}

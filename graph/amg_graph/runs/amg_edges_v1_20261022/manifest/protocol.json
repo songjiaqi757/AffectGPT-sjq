@@ -1,0 +1,76 @@
+{
+  "config": {
+    "version": "amg_edges_npmi_v1",
+    "seed": 20261022,
+    "bootstrap_replicates": 1000,
+    "smoothing_per_cell": 0.5,
+    "minimum_eligible_groups": 20,
+    "fdr_q": 0.05,
+    "support_grid": [
+      5,
+      10,
+      20
+    ],
+    "joint_support_grid": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "validation_emotion_k": 5,
+    "validation_lambda": 0.5,
+    "selection_objective": "mean(macro Appraisal state recall@1, sample-macro Emotion recall@5)",
+    "selection_queries": "held-out Cue Teacher positive flags; structural validation, not Student deployment performance",
+    "tie_break": "larger min_support then larger joint_support",
+    "bootstrap_unit": "manifest source_group_id; shared global train-group multinomial resamples",
+    "permutation_test": "exact one-sided fixed-marginal hypergeometric permutation under verified singleton manifest groups",
+    "non_singleton_policy": "fail closed; do not replace cluster permutation with a sample-level test",
+    "group_limitation": "manifest IDs and exact-media deduplication; original provenance and near-duplicate independence not fully verified",
+    "human_audit": "not completed; release is an engineering graph pending human/source audit",
+    "emotion_view": "frozen 188 case2 canonical concepts; preserve original AffectGPT mapping policy",
+    "target_datasets_used": false,
+    "minimum_valid_bootstrap_replicates": 950
+  },
+  "input_fingerprints": {
+    "cue_student/artifacts/release_strict_no_diagnostic_20261021/manifest.json": "25ae633f2a6bc052498fc2843ef0ffdae7c048028ddc64c7f3fa3240cd360d65",
+    "cue_student/artifacts/release_strict_no_diagnostic_20261021/members.json": "27412e072d1c5547359c4f7e8f7c0bd415de1aaf7cd1e333f7f0b10587a32318",
+    "cue_student/artifacts/release_strict_no_diagnostic_20261021/labels.npz": "49d84deb1764e708dc886ee139c82b8e5d6a6d4ad7886cff720d3f45bc4dee8b",
+    "emotion_nodes/runs/affectgpt_original_v1_no_diagnostic/protocol.json": "d5e6a3f0b27dede18ee55a93bcb33eff822b46c595129d550cf5da88aeb45b35",
+    "emotion_nodes/runs/affectgpt_original_v1_no_diagnostic/nodes.json": "a02ba46f2a3a43358426205c0df8cb91c5683a0d8f6b0039d7989c3048dd55cc",
+    "emotion_nodes/runs/affectgpt_original_v1_no_diagnostic/labels.jsonl": "86666ee606f9fe816da768aa61255763773a15138f79d9ce96eae7b472c18954",
+    "appraisal_annotation/runs/mercaptionplus_v2_4/protocol.json": "ab8324a6f24ec6a8e38c47e2c8d41076776d6ddd8cb748c8d3cad5d87816b8f9",
+    "appraisal_annotation/runs/mercaptionplus_v2_4/final_verification.json": "f3634b6dddc7b048f56a839e45522668b58ee7ce87a417cdcb9dd300c6395dc3",
+    "appraisal_annotation/runs/mercaptionplus_v2_4/format_normalization_audit.json": "7f7ff3a31530af5c2f62710ef8dbd803b14dedfded3a28582cef0c981d45dc56",
+    "图构建.md": "7fac053ddc562efaf2df03b911224ebcc08a9ae02eed2b6b4c98de2d889e9bdc",
+    "appraisal_selected_annotations_ordered_digest": "51e74228cb10362cff7e5f21f56da499a5d8a0a9179f844d81abf873adea0993"
+  },
+  "source_release_id": "c2fbc889a6a3cf00c6f37be78347342ef58e809468ff62890bec2927ddbe8a14",
+  "emotion_release_id": "85aa5a7cb7fceac7356eaa1efba2ac519d6e91ac899dba9f4b48e4a57b6be23a",
+  "statistical_fit_role": "pseudo_train",
+  "selection_role": "pseudo_validation",
+  "gold_role_used": false,
+  "selected_min_support": 20,
+  "selected_joint_support": 3,
+  "source_code_sha256": {
+    "amg_graph/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "amg_graph/build.py": "659f8b17256c08fc3371790ab5683d3844cf15787bb8b57b6e2691dc2c6281e1",
+    "amg_graph/data.py": "bb7be95f407c2d53953cbee619251ed1eef8e00fe5fa4f420f6d4df769198abe",
+    "amg_graph/stats.py": "d9020e3c19752192c79ce4cabaa31f756c2be23699371be547e663113df6bf9a"
+  },
+  "artifacts": {
+    "graph/candidate_edge_audit.csv": "1eff47f043f30301b840b09ccbc986ae114c8c5ce77a202a985c26e3fdef4e3d",
+    "graph/candidate_edge_audit.parquet": "ed70ece523950a710fdbad45fe40533b609125ec8bd10f9f7076e87e6f73268b",
+    "graph/candidate_path_audit.csv": "57e96ee8ca5c2480a10d86f21d85e29086ad45f89a51439ba3ca80182a74d904",
+    "graph/edges_appraisal_emotion.csv": "0301d3ba275e45b2ae37aa5534ce71e49e019b5c05395379f189aa2bca73bcf5",
+    "graph/edges_cue_appraisal.csv": "bbe74b92328ac051f06455040ada68e8686ffff2c8d034735dd97ef9be3e1ba1",
+    "graph/edges_cue_emotion.csv": "a8e4d40c1c91e72622086fd081c74e27c66efccf89d0cd07400c5d4d5212a134",
+    "graph/edges_has_state.csv": "bbf0a1c9ca0388f88f68e65279db71ece20f5d76eeae092d05dc7ec3c9450fdd",
+    "graph/graph.json": "a93665e4934e57ee1de66a734e1afc9b3db05dc8cf67de16c83b37ea23aa9d6a",
+    "graph/nodes_appraisal_dimension.csv": "d10d7200e233e06b958f94ea65c4f41dc3119d4613cbe5911fb6d663f1bfa94d",
+    "graph/nodes_appraisal_state.csv": "67a6355e05fb43c6abbacb6385fa70297f816161554de26ce6a89127f2485ac9",
+    "graph/nodes_cue.csv": "3c7b8ebd7e467fbc42e7ee9dfc3ac9429f2a63c39ea7e7934f7e5d533790338b",
+    "graph/nodes_emotion.csv": "ab6690360b92ea129b814c7c55920d77fe8ad31b29fb6a9afe703bceb56d11b7",
+    "graph/paths_cue_appraisal_emotion.csv": "30015fe511774b76be0e2560b20bed036a8482389432fd1c0b23486c6b9ad0ad"
+  },
+  "release_id": "e240085ecbe7d27617d76be04c3397fb983eb62184a992d1590ec077fb9e07d1"
+}

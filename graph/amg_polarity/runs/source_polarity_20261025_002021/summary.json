@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "plan_id": "abb7060ee90e5fef7e46e9a5f55e329fdf6f8d39a41eea9a6efea1e0d3381b6f",
+  "samples": 30755,
+  "unique_queries": 22547,
+  "sample_class_counts": {
+    "positive": 10306,
+    "negative": 19228,
+    "neutral": 1154,
+    "abstain": 67
+  },
+  "unique_class_counts": {
+    "positive": 8329,
+    "negative": 13670,
+    "neutral": 481,
+    "abstain": 67
+  },
+  "id_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "sign_mapping": {
+    "negative": -1,
+    "neutral": 0,
+    "positive": 1
+  },
+  "source_only": true,
+  "audit_500_excluded": true,
+  "valid_labels_have_allowed_classes": true,
+  "valid_for_polarity_loss": 30688,
+  "abstained_samples": 67,
+  "human_verified": false,
+  "training_started": false,
+  "files_sha256": {
+    "polarity_labels.json": "d5e249319288a1a63735d6b4a9f37761185faa5429946d13120a31aedfdf46b7",
+    "polarity_labels.jsonl": "5f3d9b4858bf7d80db5f3fa33bd4baf9d4e2ed3f35849fd13267f2b765e802ca",
+    "polarity_labels.csv": "a491ac8cccf18caed3bc81a1810cfb34fd1f459abfff286f2fbdcf59cbfd25a5"
+  },
+  "finished_at_beijing": "2026-10-25T00:27:04.124549+08:00"
+}

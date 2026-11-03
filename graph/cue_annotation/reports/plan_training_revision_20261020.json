@@ -1,0 +1,33 @@
+{
+  "revised_at_beijing": "2026-10-20T11:36:06.536399+08:00",
+  "plan": "/ai/sjq/AffectGPT-sjq/方案.md",
+  "before_sha256": "9bdde9b5de8f65ac0737ada345127b36d35e97c316d10583c42bb2dc2a4782d8",
+  "after_sha256": "1e0c5ffdac9764aaffb4a087f949a8899e14a88dce3142345dde3293f3011764",
+  "backup": "/ai/sjq/AffectGPT-sjq/cue_annotation/reports/history/方案.before_training_revision_20261020_113606.md",
+  "diff": "/ai/sjq/AffectGPT-sjq/cue_annotation/reports/history/plan_training_revision_20261020_113606.diff",
+  "before_lines": 866,
+  "after_lines": 920,
+  "scope": "plan only; no annotation/protocol/code/training mutations",
+  "reviewed_data_sha256": {
+    "labels.csv": "26a974f93241c5506da86b25706cb13a9ddbb2604da0fb8082e1cd046020ea15",
+    "samples.json": "246069a2ef97edfb919113b23cb61c5f94bb57852c0af6e4104cf1e939d101d4",
+    "ontology.json": "6de0ce8885f37b4f039b123af97cca24961646cc429b63e632b2b9af3228b757",
+    "protocol.json": "342b9e6114e85b5345d01ce8546cf548f4c8dc576a1649124f263f3b11e96cd2"
+  },
+  "checks": {
+    "section_numbering": true,
+    "code_fences_balanced": true,
+    "ontology_examples_and_history_12_15_preserved": true,
+    "old_text_input_conflict_removed": true,
+    "training_status_not_started": true,
+    "positive_and_negative_supervised": true,
+    "masked_unknown_not_negative": true,
+    "sample_level_loss": true,
+    "actual_training_not_started": true,
+    "preprocessing_and_split": true,
+    "checkpoint_and_resume": true,
+    "oof_distinct": true,
+    "reviewed_artifacts_unchanged": true,
+    "backup_and_current_sha256_verified": true
+  }
+}

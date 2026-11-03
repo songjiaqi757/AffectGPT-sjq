@@ -1,0 +1,83 @@
+{
+  "state": "complete",
+  "pid": 790823,
+  "pgid": 790823,
+  "phase_id": "3934612a290f7e88dc0ade342b81cbb69ffd89e2d14304a8ef37d8517f90749b",
+  "inference_tasks": 225,
+  "evaluation_processes_per_gpu": 1,
+  "reused_scores": 60,
+  "started_at_beijing": "2026-10-23T18:07:54.005930+08:00",
+  "updated_at_beijing": "2026-10-24T15:08:17.055847+08:00",
+  "inference": {
+    "complete": 225
+  },
+  "scheduling": {
+    "pending_jobs": 0,
+    "remaining_samples": 22,
+    "largest_remaining": [
+      [
+        21,
+        "from_50_epoch_55_SIMS"
+      ],
+      [
+        1,
+        "from_50_epoch_54_MER2023"
+      ],
+      [
+        0,
+        "from_30_epoch_31_CMUMOSEI"
+      ],
+      [
+        0,
+        "from_30_epoch_31_CMUMOSI"
+      ],
+      [
+        0,
+        "from_30_epoch_31_IEMOCAPFour"
+      ],
+      [
+        0,
+        "from_30_epoch_31_MELD"
+      ],
+      [
+        0,
+        "from_30_epoch_31_MER2023"
+      ],
+      [
+        0,
+        "from_30_epoch_31_MER2024"
+      ],
+      [
+        0,
+        "from_30_epoch_31_OVMERDPlus"
+      ],
+      [
+        0,
+        "from_30_epoch_31_SIMS"
+      ],
+      [
+        0,
+        "from_30_epoch_31_SIMSv2"
+      ],
+      [
+        0,
+        "from_30_epoch_32_CMUMOSEI"
+      ]
+    ]
+  },
+  "evaluation": {
+    "complete": 225
+  },
+  "evaluator_pids": [
+    976894,
+    976895
+  ],
+  "scores_written": 225,
+  "restarts": [
+    0,
+    0
+  ],
+  "scores_completed": 225,
+  "finished_at_beijing": "2026-10-24T15:08:17.055761+08:00",
+  "summary": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/per_checkpoint_summary.csv"
+}

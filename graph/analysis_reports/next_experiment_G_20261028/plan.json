@@ -1,0 +1,166 @@
+{
+  "status": "prepared_only_not_launched",
+  "prepared_at": "2026-10-28T00:15:05.192881+08:00",
+  "source_run": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553",
+  "source_plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+  "question": "At fixed Cue and Appraisal content, does explicit alternative wording without emotion candidates improve over Cue-only and flat Appraisal?",
+  "new_condition": {
+    "id": "G",
+    "definition": "Cue + explicit-alternative Appraisal; no emotion candidates or explanation paths",
+    "construction": "Use existing frozen F text and remove only the Tentative emotion alternatives line; retain uncertainty flags, Cue, Appraisal states, mixed-affect note and frozen original gate.",
+    "parameter_updates": false,
+    "new_cue_inference": false,
+    "new_graph_query": false
+  },
+  "weights": {
+    "base35": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "epoch": 35
+    },
+    "graph40": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+      "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "epoch": 40,
+      "loss": 0.6698148677974939
+    }
+  },
+  "datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/inputs/MER2023.json",
+      "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/inputs/SIMS.json",
+      "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/inputs/OVMERDPlus.json",
+      "sha256": "eb646f3cb8ed788ca656e68601b676fada095bc23af28795423b9c7d69a753c3",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "reuse_conditions": [
+    "A",
+    "B",
+    "C",
+    "E",
+    "F"
+  ],
+  "new_tasks": [
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "condition": "G",
+      "samples": 411,
+      "checkpoint_sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "planned_new_generations": 154,
+      "planned_reused_F_generations": 257
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "condition": "G",
+      "samples": 457,
+      "checkpoint_sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "planned_new_generations": 159,
+      "planned_reused_F_generations": 298
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "condition": "G",
+      "samples": 532,
+      "checkpoint_sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "planned_new_generations": 228,
+      "planned_reused_F_generations": 304
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "condition": "G",
+      "samples": 411,
+      "checkpoint_sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "planned_new_generations": 154,
+      "planned_reused_F_generations": 257
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "condition": "G",
+      "samples": 457,
+      "checkpoint_sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "planned_new_generations": 159,
+      "planned_reused_F_generations": 298
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "condition": "G",
+      "samples": 532,
+      "checkpoint_sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "planned_new_generations": 228,
+      "planned_reused_F_generations": 304
+    }
+  ],
+  "new_job_count": 6,
+  "new_predictions": 1082,
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1.0,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2736
+  },
+  "seed_policy": "(42 + int(canonical(sample_id)[:8],16)) % 2**32",
+  "scoring": "Use the already unified existing scoring pipeline, unchanged; no evaluator redesign or rescoring project.",
+  "primary_comparison": "G-B",
+  "mechanism_comparisons": [
+    "G-C: Appraisal expression only",
+    "G-F: emotion-candidate removal only",
+    "G-A: total online evidence increment"
+  ],
+  "notes": [
+    "No new GPU inference or training launched while preparing this plan.",
+    "Six inference tasks constitute exploratory screening on already-inspected targets,not independent generalization evidence.",
+    "Confirm promising direction with paired generation repetitions and independent development material before adopting or training.",
+    "If no stable increment over Cue-only,do not expand full-graph training."
+  ],
+  "cpu_prompt_audit": {
+    "samples": 1400,
+    "removed_emotion_line": 541,
+    "same_as_B": 1,
+    "same_as_C": 1,
+    "same_as_F": 859
+  },
+  "logical_prediction_count": 2800,
+  "reused_predictions": 1718,
+  "reuse_policy": "For each fixed weight,reuse F generation only after exact full-prompt ID,checkpoint SHA256,per-sample seed,media and generation config equality checks; otherwise infer. CPU graph-text audit identifies859/1400 identical G/F prompts per weight,leaving541 per weight changed."
+}

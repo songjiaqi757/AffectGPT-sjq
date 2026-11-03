@@ -1,0 +1,17 @@
+{
+  "state": "failed",
+  "pid": 1064256,
+  "started_at_beijing": "2026-10-25T00:20:23.864090+08:00",
+  "plan_id": "9dcae69a1f4993f2561b57446f02adf225b9eebbaf1b303bcc9b85b1c7de46d0",
+  "updated_at_beijing": "2026-10-25T00:21:19.181251+08:00",
+  "worker_pids": [
+    1064261,
+    1064262
+  ],
+  "jobs": {
+    "pending": 177
+  },
+  "unique_completed": 0,
+  "error": "ValueError('Worker failed; labels retained')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/amg_polarity/pipeline.py\", line 111, in controller\n    require(all(x.poll() in [None,0] for x in children),\"Worker failed; labels retained\");update(jobs=counts(run),unique_completed=sum(1 for f in (run/\"unique_results\").glob(\"*.json\")));time.sleep(5)\n  File \"/ai/sjq/AffectGPT-sjq/amg_runtime/common.py\", line 23, in require\n    if not test:raise ValueError(message)\nValueError: Worker failed; labels retained\n"
+}

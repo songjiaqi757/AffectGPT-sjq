@@ -1,0 +1,54 @@
+{
+  "phase": "complete",
+  "pid": 1191443,
+  "pgid": 1190892,
+  "plan_id": "45e8b11535fdbb277915fb834ba647f74c084c5f5a96f429339b0c50ac71e2e8",
+  "started_at_beijing": "2026-10-25T16:09:08.621916+08:00",
+  "training": {},
+  "updated_at_beijing": "2026-10-27T21:07:41.514368+08:00",
+  "training_completed": {
+    "0": [
+      "from_30",
+      "from_45"
+    ],
+    "1": [
+      "from_40",
+      "from_50"
+    ]
+  },
+  "queued": {
+    "0": [],
+    "1": []
+  },
+  "inference_pids": {
+    "0": [
+      1296559,
+      1296560,
+      1296561,
+      1296562
+    ],
+    "1": [
+      1295277,
+      1295278,
+      1295279,
+      1295280
+    ]
+  },
+  "inference_jobs_complete": 450,
+  "inference_jobs_total": 450,
+  "evaluation_pids": [
+    1564972,
+    1564973
+  ],
+  "scores_complete": 450,
+  "weights": 40,
+  "reused_weights": 10,
+  "predictions": 625950,
+  "reused_predictions": 14000,
+  "combined_predictions": 639950,
+  "new_scores": 420,
+  "reused_scores": 30,
+  "scores": 450,
+  "finished_at_beijing": "2026-10-27T21:07:41.514276+08:00",
+  "summary": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/RESULTS.md"
+}

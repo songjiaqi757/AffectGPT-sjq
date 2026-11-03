@@ -1,0 +1,923 @@
+{
+  "winner": "from_35_epoch_40_OVMERDPlus",
+  "zero_overlap": 56,
+  "no_prediction_wheel_mapping": 11,
+  "no_mapping_examples": [
+    {
+      "name": "samplenew3_00015189",
+      "gt": "surprised, joyful, happy, excited",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[neutral]"
+    },
+    {
+      "name": "samplenew3_00025414",
+      "gt": "serious, solemn, hesitation",
+      "raw": "The character's emotional state is neutral, objective.",
+      "opens": "[neutral]"
+    },
+    {
+      "name": "samplenew3_00038791",
+      "gt": "serious, focus, emphasis",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[neutral]"
+    },
+    {
+      "name": "samplenew3_00049640",
+      "gt": "serious, sad, nervous",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[]"
+    },
+    {
+      "name": "samplenew3_00052078",
+      "gt": "serious, confused, doubt",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[]"
+    },
+    {
+      "name": "samplenew3_00061957",
+      "gt": "shocked, confused, surprised",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[]"
+    },
+    {
+      "name": "samplenew3_00091062",
+      "gt": "sad, disappointed",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[neutral]"
+    },
+    {
+      "name": "sample_00000007",
+      "gt": "excited, joyful, happy",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[neutral]"
+    },
+    {
+      "name": "sample_00000070",
+      "gt": "sad, depressed",
+      "raw": "The character's emotional state is neutral.",
+      "opens": "[]"
+    },
+    {
+      "name": "sample_00000680",
+      "gt": "shy, relaxed, positive, grateful, happy",
+      "raw": "The character's emotional state is gratitude, apology, friendliness, positivity.",
+      "opens": "[gratitude, apology, friendliness, positivity]"
+    },
+    {
+      "name": "sample_00002444",
+      "gt": "relaxed, teasing, enjoy, joyful, charming, pleasant, delighted, happy",
+      "raw": "The character's emotional state is humor, sarcasm, jest.",
+      "opens": "[humor, sarcasm, jest]"
+    }
+  ],
+  "pred_unmapped_words": [
+    [
+      "tension",
+      40
+    ],
+    [
+      "humorous",
+      11
+    ],
+    [
+      "gratitude",
+      9
+    ],
+    [
+      "neutral",
+      7
+    ],
+    [
+      "friendly",
+      6
+    ],
+    [
+      "contemplation",
+      5
+    ],
+    [
+      "emotional detachment",
+      5
+    ],
+    [
+      "joking",
+      4
+    ],
+    [
+      "urgent",
+      4
+    ],
+    [
+      "affirmative",
+      4
+    ],
+    [
+      "aggression",
+      3
+    ],
+    [
+      "praise",
+      3
+    ],
+    [
+      "rational",
+      3
+    ],
+    [
+      "complaint",
+      3
+    ],
+    [
+      "sarcasm",
+      3
+    ],
+    [
+      "firm",
+      3
+    ],
+    [
+      "emotionally detached",
+      3
+    ],
+    [
+      "urgency",
+      3
+    ],
+    [
+      "self-mockery",
+      3
+    ],
+    [
+      "humor",
+      3
+    ],
+    [
+      "understanding",
+      3
+    ],
+    [
+      "liking",
+      2
+    ],
+    [
+      "under pressure",
+      2
+    ],
+    [
+      "resignation",
+      2
+    ],
+    [
+      "resolve",
+      2
+    ],
+    [
+      "negative evaluation",
+      2
+    ],
+    [
+      "difficulty",
+      2
+    ],
+    [
+      "self-blame",
+      2
+    ],
+    [
+      "emotional distress",
+      2
+    ],
+    [
+      "apology",
+      2
+    ],
+    [
+      "criticism",
+      2
+    ],
+    [
+      "longing",
+      2
+    ],
+    [
+      "laughter",
+      2
+    ],
+    [
+      "positive emotions",
+      2
+    ],
+    [
+      "polite",
+      2
+    ],
+    [
+      "stern",
+      2
+    ],
+    [
+      "reproachful",
+      2
+    ],
+    [
+      "authoritative",
+      1
+    ],
+    [
+      "willing",
+      1
+    ],
+    [
+      "need for help",
+      1
+    ],
+    [
+      "prohibition",
+      1
+    ],
+    [
+      "profound",
+      1
+    ],
+    [
+      "positive emotion",
+      1
+    ],
+    [
+      "self-comfort",
+      1
+    ],
+    [
+      "pessimism",
+      1
+    ],
+    [
+      "puzzlement",
+      1
+    ],
+    [
+      "celebratory",
+      1
+    ],
+    [
+      "anticipatory",
+      1
+    ],
+    [
+      "lack_of_confidence",
+      1
+    ],
+    [
+      "objective",
+      1
+    ],
+    [
+      "control",
+      1
+    ],
+    [
+      "difficulty coping",
+      1
+    ],
+    [
+      "pessimistic",
+      1
+    ],
+    [
+      "friendliness",
+      1
+    ],
+    [
+      "positivity",
+      1
+    ],
+    [
+      "commitment",
+      1
+    ],
+    [
+      "emotional attachment",
+      1
+    ],
+    [
+      "sincere",
+      1
+    ],
+    [
+      "struggle",
+      1
+    ],
+    [
+      "emotional intensity",
+      1
+    ],
+    [
+      "under immense pressure",
+      1
+    ],
+    [
+      "disagreement",
+      1
+    ],
+    [
+      "firmness",
+      1
+    ],
+    [
+      "fortunate",
+      1
+    ],
+    [
+      "disheartenment",
+      1
+    ],
+    [
+      "provocative",
+      1
+    ],
+    [
+      "loss_of_confidence",
+      1
+    ],
+    [
+      "self_blame",
+      1
+    ],
+    [
+      "looking_forward_to",
+      1
+    ],
+    [
+      "at_ease",
+      1
+    ],
+    [
+      "jest",
+      1
+    ],
+    [
+      "negative emotions",
+      1
+    ],
+    [
+      "emotional numbness",
+      1
+    ],
+    [
+      "harmony",
+      1
+    ]
+  ],
+  "reference_unmapped_words": [
+    [
+      "friendly",
+      24
+    ],
+    [
+      "accusation",
+      14
+    ],
+    [
+      "warning",
+      11
+    ],
+    [
+      "accuse",
+      7
+    ],
+    [
+      "emphasize",
+      7
+    ],
+    [
+      "contemplation",
+      7
+    ],
+    [
+      "emphasis",
+      6
+    ],
+    [
+      "looking forward to",
+      6
+    ],
+    [
+      "humorous",
+      6
+    ],
+    [
+      "advice",
+      6
+    ],
+    [
+      "kind",
+      5
+    ],
+    [
+      "resolute",
+      5
+    ],
+    [
+      "complain",
+      4
+    ],
+    [
+      "solemn",
+      4
+    ],
+    [
+      "self-blame",
+      4
+    ],
+    [
+      "breakdown",
+      4
+    ],
+    [
+      "negative emotions",
+      4
+    ],
+    [
+      "easy",
+      3
+    ],
+    [
+      "humor",
+      3
+    ],
+    [
+      "sincere",
+      3
+    ],
+    [
+      "firm",
+      3
+    ],
+    [
+      "urgent",
+      3
+    ],
+    [
+      "pleading",
+      3
+    ],
+    [
+      "memories",
+      3
+    ],
+    [
+      "praise",
+      3
+    ],
+    [
+      "quarrel",
+      3
+    ],
+    [
+      "naughty",
+      3
+    ],
+    [
+      "inquiry",
+      2
+    ],
+    [
+      "sigh",
+      2
+    ],
+    [
+      "sense of urgency",
+      2
+    ],
+    [
+      "complaint",
+      2
+    ],
+    [
+      "apology",
+      2
+    ],
+    [
+      "strict",
+      2
+    ],
+    [
+      "affirmative",
+      2
+    ],
+    [
+      "coquettish",
+      2
+    ],
+    [
+      "conflict",
+      2
+    ],
+    [
+      "friendliness",
+      2
+    ],
+    [
+      "looking forward",
+      2
+    ],
+    [
+      "criticism",
+      2
+    ],
+    [
+      "earnest",
+      1
+    ],
+    [
+      "ponder",
+      1
+    ],
+    [
+      "epiphany",
+      1
+    ],
+    [
+      "deep thought",
+      1
+    ],
+    [
+      "persistent",
+      1
+    ],
+    [
+      "incomprehension",
+      1
+    ],
+    [
+      "deep in thought",
+      1
+    ],
+    [
+      "slightly nervous",
+      1
+    ],
+    [
+      "complimentary",
+      1
+    ],
+    [
+      "guess",
+      1
+    ],
+    [
+      "requesting",
+      1
+    ],
+    [
+      "professional",
+      1
+    ],
+    [
+      "joking",
+      1
+    ],
+    [
+      "sincerity",
+      1
+    ],
+    [
+      "plead",
+      1
+    ],
+    [
+      "self-deprecating",
+      1
+    ],
+    [
+      "complaining",
+      1
+    ],
+    [
+      "suspect",
+      1
+    ],
+    [
+      "pessimism",
+      1
+    ],
+    [
+      "self-deprecation",
+      1
+    ],
+    [
+      "unfairness",
+      1
+    ],
+    [
+      "longing",
+      1
+    ],
+    [
+      "blessing",
+      1
+    ],
+    [
+      "positive emotion",
+      1
+    ],
+    [
+      "debate",
+      1
+    ],
+    [
+      "arguing",
+      1
+    ],
+    [
+      "like",
+      1
+    ],
+    [
+      "guessing",
+      1
+    ],
+    [
+      "questioning feeling",
+      1
+    ],
+    [
+      "hysterical",
+      1
+    ],
+    [
+      "down",
+      1
+    ],
+    [
+      "incredible",
+      1
+    ],
+    [
+      "crying",
+      1
+    ],
+    [
+      "understanding",
+      1
+    ],
+    [
+      "comprehension",
+      1
+    ],
+    [
+      "positivity",
+      1
+    ],
+    [
+      "admonish",
+      1
+    ],
+    [
+      "politeness",
+      1
+    ],
+    [
+      "complaints",
+      1
+    ],
+    [
+      "positive emotions",
+      1
+    ],
+    [
+      "suggestion",
+      1
+    ],
+    [
+      "sure",
+      1
+    ],
+    [
+      "appreciate it",
+      1
+    ],
+    [
+      "persuasion",
+      1
+    ],
+    [
+      "struggling",
+      1
+    ],
+    [
+      "argument",
+      1
+    ],
+    [
+      "gratitude",
+      1
+    ],
+    [
+      "collapse",
+      1
+    ],
+    [
+      "low mood",
+      1
+    ],
+    [
+      "frank",
+      1
+    ],
+    [
+      "unwilling",
+      1
+    ],
+    [
+      "polite",
+      1
+    ],
+    [
+      "positive attitude",
+      1
+    ]
+  ],
+  "word_probes": {
+    "gratitude": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "grateful": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "powerful"
+      ],
+      [
+        "joy"
+      ],
+      [
+        "powerful"
+      ]
+    ],
+    "thankful": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "peaceful"
+      ],
+      [
+        "joy"
+      ],
+      [
+        "peaceful"
+      ]
+    ],
+    "appreciation": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "powerful"
+      ],
+      [
+        "joy"
+      ],
+      [
+        "powerful"
+      ]
+    ],
+    "appreciative": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "powerful"
+      ],
+      [
+        "joy"
+      ],
+      [
+        "powerful"
+      ]
+    ],
+    "positivity": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "positive": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "joyful"
+      ],
+      [],
+      [
+        "powerful"
+      ]
+    ],
+    "happy": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "joyful"
+      ],
+      [
+        "joy"
+      ],
+      [
+        "powerful"
+      ]
+    ],
+    "calm": [
+      [
+        "happy"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "peaceful"
+      ],
+      [
+        "joy"
+      ],
+      [
+        "peaceful"
+      ]
+    ],
+    "rational": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fearlessness": [
+      [],
+      [
+        "happy"
+      ],
+      [
+        "joyful"
+      ],
+      [
+        "genius"
+      ],
+      [
+        "joyful"
+      ]
+    ],
+    "fear": [
+      [
+        "scared"
+      ],
+      [
+        "happy"
+      ],
+      [
+        "joyful"
+      ],
+      [
+        "genius"
+      ],
+      [
+        "joyful"
+      ]
+    ],
+    "serious": [
+      [],
+      [],
+      [],
+      [
+        "sad"
+      ],
+      []
+    ]
+  },
+  "notes": "Unmapped words are not automatically erroneous dictionary entries; some are intentionally outside emotional wheel coverage. Literal comparisons diagnose coverage; no scores changed."
+}

@@ -1,0 +1,47 @@
+--- cue_annotation/reports/history/方案.before_xlmr_ready_20261020_122134.md
++++ 方案.md
+@@ -596,7 +596,7 @@
+ 
+ ## 6. Cue 提取器（三个 Student）的训练设计
+ 
+-本节是待实现的训练规格，不代表模型已训练。三个提取器分别学习 Text 15、Audio 17、Visual 10 个独立 Cue；文本编码器指定为XLM-RoBERTa Base，音视频编码器复用现有Chinese HuBERT-Large、CLIP ViT-L/14权重。文本模型当前下载未完成，完整权重/tokenizer及加载验收是训练前置检查。各模态独立优化和选择 checkpoint，共用数据角色清单，输出按本体固定顺序合并为 42 维。首版不采用多模态融合来预测单模态 Cue，避免从其他模态猜测当前模态证据。
++本节是待实现的训练规格，不代表模型已训练。三个提取器分别学习 Text 15、Audio 17、Visual 10 个独立 Cue；文本编码器指定为XLM-RoBERTa Base，音视频编码器复用现有Chinese HuBERT-Large、CLIP ViT-L/14权重。XLM-R下载、全量分词统计及临时双语分类头的单批次前向/反向检查已完成；正式提取器训练链路仍待实现。各模态独立优化和选择 checkpoint，共用数据角色清单，输出按本体固定顺序合并为 42 维。首版不采用多模态融合来预测单模态 Cue，避免从其他模态猜测当前模态证据。
+ 
+ ### 6.1 独立实现入口与数据契约
+ 
+@@ -620,10 +620,10 @@
+     -> 小型融合 MLP / dropout -> 15 logits
+ ```
+ 
+-- 主编码器为 `FacebookAI/xlm-roberta-base`，服务器预定目录为 `AffectGPT/models/xlm-roberta-base/`。已有config对应hidden_size=768；审查时下载状态仍为downloading，tokenizer尚不能离线加载，不能将目录存在视为可训练。下载完成后校验revision、权重与tokenizer文件哈希并做离线加载/forward/backward验收。两个字段分别编码，保留语言边界；每条样本只计算一次15维损失，不将译文作为第二个独立训练样本。
++- 主编码器为 `FacebookAI/xlm-roberta-base`，服务器目录为 `AffectGPT/models/xlm-roberta-base/`，固定revision=`e73636d4f797dec63c3081bb6ed5c7b0bb3f2089`，hidden_size=768。11个下载文件的大小/SHA256已与下载清单逐项匹配；XLM-R tokenizer和不含pooler的AutoModel均离线加载通过，encoder无缺失或形状不匹配参数，未使用的MLM/pooler参数不进入Cue分类。已通过真实标签的小批次前向/反向检查，正式Cue训练链路仍待实现/验收。两个字段分别编码，保留语言边界；每条样本只计算一次15维损失，不将译文作为第二个独立训练样本。
+ - `a_ZH/a_EN` 来自字段是否真实存在，缺失字段置零表征并屏蔽。全量中文非空，英文缺失 588 条，不能把空串编码后的特殊 token 当正常英语参与等权平均。两字段都缺失时标记文本输入不可用。
+ - 首版采用共享XLM-R编码器、带token mask的mean pooling和上述拼接MLP；首个特殊token（`<s>`）池化或语言门控作为后续独立对照。输入使用该模型自己的tokenizer及特殊token规则，不沿用BERT专属分词、段ID或特殊token假设。词面Cue可以从任一语言取证，语义判断不能靠所有Cue通用的双语max规则替代；共享分类器学习融合。
+-- 长度须用XLM-R自己的tokenizer对全量中英文重新统计（含特殊token）；当前分词器文件未齐，统计待完成。原109/101 tokens属于旧编码器统计，不适用于XLM-R，不能据此宣称128可覆盖源域。暂以`max_length=512`和动态padding作为待验证起点，并按实际tokenizer/config允许长度核验；完成统计后可在源域开发比较128/256/512并冻结。遇到overflow必须检测：使用确定性分块回退，初始重叠32 tokens，记录语言/块位置，在语言内聚合后再融合，不静默截断。
++- 已使用XLM-R自己的tokenizer对31,327条样本的中英文独立字段全量统计（含特殊token）：中文median=11、p99=29、max=79；英文median=14、p99=42、max=97，超过128/256/512的条数均为0，英文缺失588条。首版采用`max_length=128`与动态padding，可覆盖当前源域输入；这是XLM-R实测结果，不复用旧编码器统计。未来输入仍检测overflow并按tokenizer/config允许长度校验：确定性分块回退初始重叠32 tokens，记录语言/块位置，在语言内聚合后再融合，不静默截断。
+ - 第一轮主模型微调 XLM-R 与融合头；保留冻结 XLM-R 的轻量基线。多语言编码器支持某语言，不构成该语言 Cue 性能已经验证的证据。
+ - `text_language/text_source/is_translation` 用于登记和分层误差分析；现有 samples.json 未完整提供这些 provenance，可靠信息补登记，未知值填 unknown，不编造原始语种。单语/固定翻译推理协议见第5.3节。
+ 
+@@ -793,7 +793,7 @@
+ 2. **保留统一监督。** positive和negative共同训练，uncertain/unobservable/unlabeled屏蔽主BCE；停顿/流泪无专用门控。保留78个失败对应样本其他模态的标签，不重跑成功标注。
+ 3. **先固定隔离，再开展训练。** 核验来源/近重复、抽样总体与300条审计角色，排除同源组，冻结统一train/validation成员及逐Cue支持数。人工300条/60条双标可在独立角色冻结后与工程实现推进；人工未完成时，任何训练结果仅是伪标签基线。
+ 4. **发布训练数据包。** 全量检查31,327个成员、93,981个任务键、1,315,734个Cue位置，核对状态/y/mask、原始路径、标签与JSON的一致性、版本及文件哈希。已有审查是CSV全量结构核对和30样本90份JSON结构抽查，不能冒充全部原始响应逐项验收。
+-5. **实现提取器并通过第6.7节检查。** 新建独立Cue链路，先跑三路单GPU短闭环；当前Student代码和完整forward/backward仍未实现/验证。主方案修订不是训练完成。
++5. **实现提取器并通过第6.7节检查。** 新建独立Cue链路，先跑三路单GPU短闭环；当前正式Student训练代码及三路完整验收仍未完成；XLM-R临时融合头的单批次前向/反向已通过，但不等于正式提取器已训练或全部第6.7节检查已通过。主方案修订不是训练完成。
+ 6. **完成第一轮主基线及有限对照。** Text双语XLM-R微调；Audio/Visual冻结编码器，样本级聚合+masked BCE，使用完整有效正负例。再逐项比较加权损失、聚合、4FPS、声学特征及末层微调，不直接展开全部组合。
+ 7. **完成独立人工评估。** 300条主审计、60条双标与独立稀有Cue诊断分别报告；确认支持不足/覆盖风险，冻结模型后做阈值交叉拟合与active/deferred。
+ 8. **再执行OOF建库和AMG。** 单次基线、阈值交叉拟合、额外折模型训练分别记录，全部输出只留服务器；九个目标数据集不参与训练/模型/阈值/建库策略选择。
+@@ -923,4 +923,12 @@
+ 
+ 按用户要求，文本主编码器统一改为`FacebookAI/xlm-roberta-base`，训练结构、双语字段独立编码/融合、15维输出、正负共同监督及mask规则保持一致；微调/冻结基线、参数表、执行步骤的模型引用均已同步。历史审查报告及旧分词统计保留为历史证据，不改写成XLM-R结果。
+ 
+-当前服务器目标目录已存在，下载状态记录仍为downloading，tokenizer离线加载未通过；本次未启动/中断已有下载，未启动训练。XLM-R全量token长度、完整权重与tokenizer哈希及forward/backward仍须在下载完成后验证；旧长度覆盖结论已撤下，暂定512上限仅为待验证配置。模型检查与本次变更见`cue_annotation/reports/xlmr_text_encoder_revision_20261020.json`；备份和diff均只留服务器。
++本节记录上次切换文本编码器时的历史状态：当时下载尚未完成，tokenizer离线加载未通过，长度暂定512。本次下载完成后的文件、分词及前向/反向验收结果见第18节；当前首版长度已依据XLM-R实测改为128。模型检查与本次变更见`cue_annotation/reports/xlmr_text_encoder_revision_20261020.json`；备份和diff均只留服务器。
++
++## 18. 2026-10-20 XLM-R下载完成与训练前验证
++
++固定模型revision为`e73636d4f797dec63c3081bb6ed5c7b0bb3f2089`，11个文件、6,352,430,498字节与下载清单的大小及SHA256逐项一致。下载记录为complete。完整分词结果见第6.2节，首版max_length=128，当前源域无overflow；英文缺失588条的语言mask规则保持。
++
++已在cuda:0以float32临时构造共享XLM-R、双语mean pooling、缺失语言屏蔽及15维融合头，读取3条真实样本（含英文缺失）、42个有效Cue监督（positive 13、negative 29）完成一次forward/backward；输出[3,15]，loss/梯度有限，峰值分配显存约3,430.8 MiB。encoder权重无missing/mismatched keys，未使用的MLM/pooler checkpoint参数属于预期省略。检查的随机融合头与loss只用于计算连通性验证，不是已训练模型或准确率结果。
++
++optimizer steps=0，未保存/更新磁盘模型权重，未启动正式训练；角色隔离、发布验收、正式三路训练入口及完整第6.7节检查仍待实施。本次核验、方案备份、差异及证据全部只在服务器；证据为`cue_annotation/reports/xlmr_download_verification_20261020.json`，校验脚本为`cue_annotation/reports/verify_xlmr_download_20261020.py`。

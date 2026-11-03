@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "amg_current_sample_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_id"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "chinese": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "english": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "audio_path": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^/"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "video_path": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^/"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  }
+}

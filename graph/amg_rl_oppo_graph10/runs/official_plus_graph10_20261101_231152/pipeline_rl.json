@@ -1,0 +1,88 @@
+{
+  "role": "rl",
+  "pid": 448757,
+  "controller": "multinode_v1",
+  "workers": 8,
+  "phase": "inference",
+  "pids": {
+    "0": 25899,
+    "1": 25900,
+    "2": 25901,
+    "3": 25902
+  },
+  "nodes": {
+    "A800": {
+      "node": "A800",
+      "controller_pid": 448757,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "controller_sha256": "d4ffdde8f1ed3b85d1bbcc756c5ca5fb74a3b3af660f15ba9d05d15f861b7f81",
+      "started_at_beijing": "2026-11-02T15:46:53.364889+08:00",
+      "phase": "inference",
+      "workers": 4,
+      "adopted_existing_workers": true,
+      "pids": {
+        "0": 25899,
+        "1": 25900,
+        "2": 25901,
+        "3": 25902
+      },
+      "time_beijing": "2026-11-03T14:16:20.895953+08:00",
+      "active_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "retries": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "A100": {
+      "node": "A100",
+      "controller_pid": 854406,
+      "slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c",
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "controller_sha256": "83551a082b1d4ef445747eaf1932b739d485e640d936e26f3acf00ce4294892b",
+      "started_at_beijing": "2026-11-03T14:03:11.798896+08:00",
+      "phase": "inference",
+      "workers": 4,
+      "adopted_existing_workers": false,
+      "pids": {
+        "4": 854417,
+        "5": 854418,
+        "6": 854419,
+        "7": 854420
+      },
+      "time_beijing": "2026-11-03T14:21:13.582032+08:00",
+      "active_slots": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "retries": {
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0
+      }
+    }
+  },
+  "time_beijing": "2026-11-03T14:16:20.903235+08:00"
+}

@@ -1,0 +1,61 @@
+{
+  "sample_count": 30,
+  "population": 31327,
+  "usage": {
+    "text": {
+      "prompt_tokens": 58939,
+      "completion_tokens": 12310,
+      "total_tokens": 71249
+    },
+    "audio": {
+      "prompt_tokens": 79651,
+      "completion_tokens": 14861,
+      "total_tokens": 94512
+    },
+    "visual": {
+      "prompt_tokens": 117558,
+      "completion_tokens": 9114,
+      "total_tokens": 126672
+    }
+  },
+  "projected": {
+    "text": {
+      "prompt_tokens": 61546068.43333333,
+      "completion_tokens": 12854512.333333334,
+      "total_tokens": 74400580.76666667,
+      "rmb": 83.94403804666666
+    },
+    "audio": {
+      "prompt_tokens": 83174229.23333333,
+      "completion_tokens": 15518351.566666666,
+      "total_tokens": 98692580.8,
+      "rmb": 108.43893261666668
+    },
+    "visual": {
+      "prompt_tokens": 122757982.2,
+      "completion_tokens": 9517142.6,
+      "total_tokens": 132275124.8,
+      "rmb": 123.90267078000001
+    }
+  },
+  "price_rmb_per_million": {
+    "input": 0.8,
+    "output": 2.7
+  },
+  "assumption": "No cache or batch discount; average of previous 30 samples; aggregate usage only, no sample labels retained.",
+  "pricing_source": "https://www.qianwenai.com/models/qwen3.8-omni-flash",
+  "pricing_checked_date": "2026-10-19",
+  "full_audio_inventory": {
+    "count": 31327,
+    "seconds": 104075.59462499803,
+    "mean_seconds": 3.32223304577521,
+    "missing_or_invalid": 0
+  },
+  "pilot_audio_mean_seconds": 3.2789854166666665,
+  "totals": {
+    "prompt_tokens": 267478279.86666667,
+    "completion_tokens": 37890006.5,
+    "total_tokens": 305368286.3666667,
+    "rmb": 316.28564144333336
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "state": "failed",
+  "pid": 712634,
+  "gpu": "1",
+  "slot": 0,
+  "started_at_beijing": "2026-10-23T10:26:01.470078+08:00",
+  "updated_at_beijing": "2026-10-23T10:26:59.695279+08:00",
+  "error": "ValueError('Source capacity probe did not fill the full input/output window')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/amg_inference/worker.py\", line 26, in main\n    require(1530<=info[\"stress_prompt_tokens\"]<=1536 and info[\"stress_generated_tokens\"]==1200,\"Source capacity probe did not fill the full input/output window\")\n  File \"/ai/sjq/AffectGPT-sjq/amg_runtime/common.py\", line 23, in require\n    if not test:raise ValueError(message)\nValueError: Source capacity probe did not fill the full input/output window\n"
+}

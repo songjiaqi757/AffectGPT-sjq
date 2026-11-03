@@ -1,0 +1,117 @@
+{
+  "answer_formats": [
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "A",
+      "total": 1536,
+      "empty_raw": 0,
+      "description_prefix": 0,
+      "over_50_words": 0
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "B",
+      "total": 1536,
+      "empty_raw": 180,
+      "description_prefix": 11,
+      "over_50_words": 61
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "C",
+      "total": 1536,
+      "empty_raw": 45,
+      "description_prefix": 32,
+      "over_50_words": 59
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "S",
+      "total": 1536,
+      "empty_raw": 55,
+      "description_prefix": 26,
+      "over_50_words": 60
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "P",
+      "total": 1536,
+      "empty_raw": 34,
+      "description_prefix": 22,
+      "over_50_words": 86
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A",
+      "total": 1536,
+      "empty_raw": 0,
+      "description_prefix": 0,
+      "over_50_words": 0
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "B",
+      "total": 1536,
+      "empty_raw": 0,
+      "description_prefix": 0,
+      "over_50_words": 0
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "C",
+      "total": 1536,
+      "empty_raw": 0,
+      "description_prefix": 0,
+      "over_50_words": 1
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "S",
+      "total": 1536,
+      "empty_raw": 0,
+      "description_prefix": 0,
+      "over_50_words": 1
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "P",
+      "total": 1536,
+      "empty_raw": 0,
+      "description_prefix": 0,
+      "over_50_words": 1
+    }
+  ],
+  "appraisal_dimension_counts": {
+    "goal relevance": {
+      "samples": 407,
+      "two_or_more_states": 136
+    },
+    "goal congruence": {
+      "samples": 511,
+      "two_or_more_states": 479
+    },
+    "expectedness": {
+      "samples": 511,
+      "two_or_more_states": 449
+    },
+    "agency": {
+      "samples": 506,
+      "two_or_more_states": 477
+    },
+    "certainty": {
+      "samples": 510,
+      "two_or_more_states": 470
+    },
+    "coping potential": {
+      "samples": 509,
+      "two_or_more_states": 421
+    }
+  },
+  "polarity_labeled": 305,
+  "polarity_counts": {
+    "negative": 180,
+    "zero": 28,
+    "positive": 97
+  },
+  "time_beijing": "2026-10-29T07:58:26.247525+08:00"
+}

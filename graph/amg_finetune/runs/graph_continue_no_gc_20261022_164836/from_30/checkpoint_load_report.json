@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "base_epoch": 30,
+  "base_checkpoint_sha256": "73fb1c257c0482e792ecad2ca0706ecccce04639e209071793484b65a97df380",
+  "trainable_tensor_count": 412,
+  "all_trainable_weights_equal_before_training": true,
+  "optimizer_restored": true,
+  "optimizer_groups": [
+    402,
+    10
+  ],
+  "optimizer_parameter_order_sha256": "4cb0d18f5f04ca38a2c25d378312cee17701c2bbab6a80f3464986eb20ea19ba",
+  "scaler_restored": true,
+  "initial_scaler": {
+    "scale": 8192.0,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 714
+  },
+  "next_epoch": 31,
+  "final_epoch": 35,
+  "missing_frozen_tensors": 1344,
+  "llm_gradient_checkpointing": false
+}

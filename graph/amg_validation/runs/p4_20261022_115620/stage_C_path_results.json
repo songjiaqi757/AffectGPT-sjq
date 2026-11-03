@@ -1,0 +1,82 @@
+{
+  "results": [
+    {
+      "path_top_k": 5,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.23592135954681773,
+        "emotion_sample_macro_recall": 0.26501562971073134,
+        "emotion_sample_macro_f1": 0.24010451579595196,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 3.0,
+        "available_emotion_candidate_count_mean": 85.02925877763329,
+        "path_count_mean": 4.997724317295188,
+        "available_path_count_mean": 59.64921976592978,
+        "explained_candidate_fraction_mean": 0.8999783268313828,
+        "context_characters_mean": 7810.7363459037715,
+        "context_utf8_bytes_mean": 7810.7363459037715,
+        "graph_query_weight_coverage_mean": 1.0
+      }
+    },
+    {
+      "path_top_k": 10,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.23592135954681773,
+        "emotion_sample_macro_recall": 0.26501562971073134,
+        "emotion_sample_macro_f1": 0.24010451579595196,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 3.0,
+        "available_emotion_candidate_count_mean": 85.02925877763329,
+        "path_count_mean": 9.979193758127439,
+        "available_path_count_mean": 59.64921976592978,
+        "explained_candidate_fraction_mean": 0.9780017338534893,
+        "context_characters_mean": 10420.490897269181,
+        "context_utf8_bytes_mean": 10420.490897269181,
+        "graph_query_weight_coverage_mean": 1.0
+      }
+    },
+    {
+      "path_top_k": 20,
+      "metrics": {
+        "emotion_sample_macro_precision": 0.23592135954681773,
+        "emotion_sample_macro_recall": 0.26501562971073134,
+        "emotion_sample_macro_f1": 0.24010451579595196,
+        "emotion_valid_reference": 3001,
+        "emotion_valid_query_coverage": 1.0,
+        "overall_query_coverage": 1.0,
+        "emotion_candidate_count_mean": 3.0,
+        "available_emotion_candidate_count_mean": 85.02925877763329,
+        "path_count_mean": 19.743172951885565,
+        "available_path_count_mean": 59.64921976592978,
+        "explained_candidate_fraction_mean": 0.9985912440398785,
+        "context_characters_mean": 16138.52568270481,
+        "context_utf8_bytes_mean": 16138.52568270481,
+        "graph_query_weight_coverage_mean": 1.0
+      }
+    }
+  ],
+  "maximum_explained_fraction": 0.9985912440398785,
+  "required_fraction": 0.95,
+  "selected": {
+    "path_top_k": 10,
+    "metrics": {
+      "emotion_sample_macro_precision": 0.23592135954681773,
+      "emotion_sample_macro_recall": 0.26501562971073134,
+      "emotion_sample_macro_f1": 0.24010451579595196,
+      "emotion_valid_reference": 3001,
+      "emotion_valid_query_coverage": 1.0,
+      "overall_query_coverage": 1.0,
+      "emotion_candidate_count_mean": 3.0,
+      "available_emotion_candidate_count_mean": 85.02925877763329,
+      "path_count_mean": 9.979193758127439,
+      "available_path_count_mean": 59.64921976592978,
+      "explained_candidate_fraction_mean": 0.9780017338534893,
+      "context_characters_mean": 10420.490897269181,
+      "context_utf8_bytes_mean": 10420.490897269181,
+      "graph_query_weight_coverage_mean": 1.0
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "amg_query_result_v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sample_id",
+    "runtime_release_id",
+    "graph_release_id",
+    "query_input_id",
+    "query_config_id",
+    "query_config",
+    "score_semantics",
+    "query_cues",
+    "query_weight_sum",
+    "appraisal_dimensions",
+    "emotion_candidates",
+    "explanation_paths",
+    "rejected_paths",
+    "coverage",
+    "fallback",
+    "input_snapshot",
+    "query_result_id"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "amg_query_result_v1"
+    },
+    "emotion_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "emotion_id",
+          "association_score",
+          "direct_available",
+          "two_hop_available",
+          "query_coverage"
+        ],
+        "properties": {
+          "emotion_id": {
+            "type": "string"
+          },
+          "association_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "direct_available": {
+            "type": "boolean"
+          },
+          "two_hop_available": {
+            "type": "boolean"
+          },
+          "query_coverage": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "explanation_paths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path_id",
+          "path_type",
+          "edge_ids",
+          "edge_weights",
+          "edge_support_count_groups",
+          "joint_support_groups",
+          "joint_support_ratio",
+          "gates"
+        ],
+        "properties": {
+          "path_id": {
+            "type": "string"
+          },
+          "path_type": {
+            "enum": [
+              "direct",
+              "two_hop"
+            ]
+          },
+          "edge_ids": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "edge_weights": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 2,
+            "items": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            }
+          },
+          "edge_support_count_groups": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 20
+            }
+          }
+        }
+      }
+    },
+    "input_snapshot": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$id": "cue_query_42_v1",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "cue_query_42_v1"
+        },
+        "sample_id": {
+          "type": "string"
+        },
+        "cue_id_order": {
+          "const": [
+            "TXT_AFFECT_WORD_POSITIVE",
+            "TXT_AFFECT_WORD_NEGATIVE",
+            "TXT_EVALUATION_POSITIVE",
+            "TXT_EVALUATION_NEGATIVE",
+            "TXT_NEGATION_PRESENT",
+            "TXT_CONTRAST_PRESENT",
+            "TXT_INTENSIFIER_PRESENT",
+            "TXT_UNCERTAINTY_HEDGE",
+            "TXT_RHETORICAL_QUESTION",
+            "TXT_EXCLAMATION_INTERJECTION",
+            "TXT_DESIRE_NEED",
+            "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+            "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+            "TXT_EXPLICIT_SUCCESS_OUTCOME",
+            "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+            "AUD_SPEECH_RATE_REL_FAST",
+            "AUD_SPEECH_RATE_REL_SLOW",
+            "AUD_PITCH_LEVEL_REL_HIGH",
+            "AUD_PITCH_LEVEL_REL_LOW",
+            "AUD_VOCAL_INTENSITY_REL_HIGH",
+            "AUD_VOCAL_INTENSITY_REL_LOW",
+            "AUD_PITCH_VARIABILITY_HIGH",
+            "AUD_PITCH_VARIABILITY_LOW",
+            "AUD_PAUSE_LONG",
+            "AUD_PAUSE_FREQUENT",
+            "AUD_INTONATION_RISING",
+            "AUD_INTONATION_FALLING",
+            "AUD_INTONATION_FLAT",
+            "AUD_VOICE_TENSE",
+            "AUD_VOICE_TREMBLING",
+            "AUD_LAUGHTER_PRESENT",
+            "AUD_CRYING_SOBBING_PRESENT",
+            "VIS_BROWS_FURROWED",
+            "VIS_BROWS_RAISED",
+            "VIS_EYES_WIDENED",
+            "VIS_EYES_SQUINTED",
+            "VIS_SMILE_PRESENT",
+            "VIS_MOUTH_CORNERS_DOWN",
+            "VIS_LIPS_PRESSED",
+            "VIS_GRIMACE_PRESENT",
+            "VIS_TEARING_PRESENT",
+            "VIS_HEAD_LOWERED"
+          ]
+        },
+        "scores": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "modality_present": {
+          "type": "object",
+          "required": [
+            "text",
+            "audio",
+            "visual"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "text": {
+              "type": "boolean"
+            },
+            "audio": {
+              "type": "boolean"
+            },
+            "visual": {
+              "type": "boolean"
+            }
+          }
+        },
+        "availability_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "active_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "deferred_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "requested_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "query_allowed_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "selected_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "query_weights": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "cue_states": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "enum": [
+              "modality_unavailable",
+              "deferred",
+              "not_requested",
+              "selected",
+              "below_threshold"
+            ]
+          }
+        },
+        "thresholds": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "threshold_status": {
+          "const": "uncalibrated_0.5"
+        },
+        "calibration": {
+          "type": "object"
+        },
+        "policy_profile": {
+          "enum": [
+            "engineering",
+            "deployment"
+          ]
+        },
+        "policy_status": {
+          "type": "string"
+        },
+        "policy_id": {
+          "type": "string"
+        },
+        "selected_cues": {
+          "type": "array"
+        },
+        "model_versions": {
+          "type": "object"
+        },
+        "cue_release_id": {
+          "type": "string"
+        },
+        "graph_release_id": {
+          "type": "string"
+        },
+        "diagnostics": {
+          "type": "object"
+        },
+        "input_fingerprints": {
+          "type": "object"
+        },
+        "fallback": {
+          "type": "object",
+          "required": [
+            "required",
+            "reason",
+            "target"
+          ],
+          "properties": {
+            "required": {
+              "type": "boolean"
+            },
+            "reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "target": {
+              "const": "original_affectgpt"
+            }
+          }
+        },
+        "semantics": {
+          "type": "string"
+        },
+        "query_input_id": {
+          "type": "string"
+        },
+        "runtime_release_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "sample_id",
+        "cue_id_order",
+        "scores",
+        "modality_present",
+        "availability_mask",
+        "active_mask",
+        "deferred_mask",
+        "requested_mask",
+        "query_allowed_mask",
+        "selected_mask",
+        "query_weights",
+        "cue_states",
+        "thresholds",
+        "threshold_status",
+        "calibration",
+        "policy_profile",
+        "policy_status",
+        "policy_id",
+        "selected_cues",
+        "model_versions",
+        "cue_release_id",
+        "graph_release_id",
+        "diagnostics",
+        "input_fingerprints",
+        "fallback",
+        "semantics",
+        "query_input_id",
+        "runtime_release_id"
+      ]
+    },
+    "query_result_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

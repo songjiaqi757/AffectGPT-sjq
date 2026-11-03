@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "loss_weight": 0.1,
+  "base_optimizer_restored": true,
+  "base_groups_unchanged": 2,
+  "new_head_group": 2,
+  "head_parameters": 10755,
+  "representation": "last prompt token after Qwen final norm",
+  "answer_tokens_used": false,
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "ignored_label": -100
+}

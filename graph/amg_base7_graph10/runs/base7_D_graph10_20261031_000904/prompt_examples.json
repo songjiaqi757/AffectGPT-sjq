@@ -1,0 +1,71 @@
+{
+  "2": {
+    "sample_id": "MER2023::sample_00001998",
+    "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; text: exclamation interjection; text: desire need; audio: intonation rising; visual: brows raised; visual: eyes squinted; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+    "info": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 149,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 8,
+      "appraisals_displayed": 11
+    }
+  },
+  "3": {
+    "sample_id": "MER2023::sample_00000733",
+    "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation negative; text: negation present; text: intensifier present; text: desire need; audio: pitch variability low; audio: intonation falling; visual: brows raised\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high\nEmotion hypotheses: sad, anger, joy\nSupporting links: text: evaluation negative -> anger; text: evaluation negative -> sad",
+    "info": {
+      "fallback": false,
+      "evidence_level": 3,
+      "gate_reasons": [
+        "supported_full_evidence"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 174,
+      "omitted_evidence": 0,
+      "displayed_paths": 2,
+      "emotion_candidates_displayed": 3,
+      "cues_displayed": 7,
+      "appraisals_displayed": 12
+    }
+  },
+  "1": {
+    "sample_id": "MER2023::sample_00001459",
+    "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: intonation rising",
+    "info": {
+      "fallback": false,
+      "evidence_level": 1,
+      "gate_reasons": [
+        "weak_or_absent_graph_support"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 26,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 1,
+      "appraisals_displayed": 0
+    }
+  },
+  "0": {
+    "sample_id": "CMUMOSEI::q5M1God4M6Y_11",
+    "graph_text": "",
+    "info": {
+      "fallback": true,
+      "evidence_level": 0,
+      "gate_reasons": [
+        "no_available_selected_cues"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 0,
+      "omitted_evidence": 0,
+      "displayed_paths": 0
+    }
+  }
+}

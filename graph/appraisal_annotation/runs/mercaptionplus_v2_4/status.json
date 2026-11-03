@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "ok": 31255,
+    "pending": 0,
+    "running": 0,
+    "failed": 0
+  },
+  "queue_counts": {
+    "succeeded": 31255
+  },
+  "successful_samples": 31255,
+  "completed_samples": 31255,
+  "valid_dimension_count": 58443,
+  "invalid_dimension_count": 129087,
+  "dimension_rows": 187530,
+  "retryable_failed_tasks": 0,
+  "http_attempts": 32090,
+  "usage_including_failed_generations": {
+    "prompt_tokens": 170703584,
+    "completion_tokens": 14914884,
+    "total_tokens": 185618468
+  },
+  "phase": "complete",
+  "complete": true,
+  "test_complete": true,
+  "tested_samples": 31255,
+  "total_samples": 31255,
+  "total_tasks": 31255,
+  "expected_dimensions": 187530,
+  "run_id": "mercaptionplus_v2_4",
+  "run_label": "Appraisal v2.4 全量 · 48请求并发",
+  "updated_unix": 1792602369.7886033,
+  "pid": 445328,
+  "round": 2,
+  "halt_reason": "",
+  "limits": {
+    "request_concurrency": 48,
+    "rpm_limit": 360,
+    "rpm_ceiling": 360,
+    "tpm_limit": 1600000,
+    "rate_limit_events": 0
+  },
+  "prompt_version": "appraisal_teacher_v2.4",
+  "annotation_schema_version": "appraisal_annotation_schema_v2.4",
+  "ontology_version": "appraisal_ontology_v2.3",
+  "actual_input_mode": "joint_text_audio_video_single_request",
+  "human_gold_audit_completed": false,
+  "full_dataset_started": true,
+  "format_normalization": {
+    "rule": "json_null_string_to_null_v1",
+    "recovered_samples": 8,
+    "model_calls": 0
+  }
+}

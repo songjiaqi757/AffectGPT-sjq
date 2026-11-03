@@ -1,0 +1,591 @@
+{
+  "CMUMOSI": {
+    "total_predictions": 34300,
+    "unique_exact_responses": 11759,
+    "repeated_response_types": 3423,
+    "inconsistent_sentiment_types": 66,
+    "binary_flip_types": 41,
+    "occurrences_in_binary_flip_groups": 171,
+    "minority_binary_occurrences": 62,
+    "examples": [
+      {
+        "response": "The character's emotional state is excited, enthusiastic, tense, anxious.",
+        "sentiment_counts": {
+          "positive": 7,
+          "negative": 6
+        },
+        "provenance": {
+          "positive": {
+            "name": "rnaNMUZpvvg_18",
+            "job_id": "from_30_epoch_32_CMUMOSI"
+          },
+          "negative": {
+            "name": "rnaNMUZpvvg_18",
+            "job_id": "from_30_epoch_33_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is neutral, humorous.",
+        "sentiment_counts": {
+          "positive": 6,
+          "neutral": 4
+        },
+        "provenance": {
+          "positive": {
+            "name": "k5Y_838nuGo_24",
+            "job_id": "from_30_epoch_32_CMUMOSI"
+          },
+          "neutral": {
+            "name": "k5Y_838nuGo_24",
+            "job_id": "from_40_epoch_41_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is detached, ironic, sarcastic, relaxed, cheerful.",
+        "sentiment_counts": {
+          "positive": 7,
+          "neutral": 3
+        },
+        "provenance": {
+          "positive": {
+            "name": "d3_k5Xpfmik_7",
+            "job_id": "from_30_epoch_32_CMUMOSI"
+          },
+          "neutral": {
+            "name": "d3_k5Xpfmik_7",
+            "job_id": "from_30_epoch_37_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is positive, negative, complex, confident, tense.",
+        "sentiment_counts": {
+          "complex": 4,
+          "positive": 6
+        },
+        "provenance": {
+          "complex": {
+            "name": "f9O3YtZ2VfI_20",
+            "job_id": "from_30_epoch_34_CMUMOSI"
+          },
+          "positive": {
+            "name": "f9O3YtZ2VfI_20",
+            "job_id": "from_30_epoch_37_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is positive, negative, indifferent, sarcastic.",
+        "sentiment_counts": {
+          "neutral": 9,
+          "positive": 1
+        },
+        "provenance": {
+          "neutral": {
+            "name": "f9O3YtZ2VfI_20",
+            "job_id": "from_30_epoch_36_CMUMOSI"
+          },
+          "positive": {
+            "name": "pLTX3ipuDJI_7",
+            "job_id": "from_30_epoch_37_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is ironic, mocking, positive.",
+        "sentiment_counts": {
+          "positive": 2,
+          "negative": 7
+        },
+        "provenance": {
+          "positive": {
+            "name": "c7UH_rxdZv4_31",
+            "job_id": "from_30_epoch_31_CMUMOSI"
+          },
+          "negative": {
+            "name": "c7UH_rxdZv4_31",
+            "job_id": "from_35_epoch_37_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is disappointment, frustration, anticipation, humor, irony.",
+        "sentiment_counts": {
+          "positive": 4,
+          "mixed": 3
+        },
+        "provenance": {
+          "positive": {
+            "name": "lXPQBPVc5Cw_10",
+            "job_id": "from_30_epoch_37_CMUMOSI"
+          },
+          "mixed": {
+            "name": "lXPQBPVc5Cw_10",
+            "job_id": "from_45_epoch_47_CMUMOSI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is anxiety, excitement, confusion, uncertainty.",
+        "sentiment_counts": {
+          "positive": 3,
+          "negative": 4
+        },
+        "provenance": {
+          "positive": {
+            "name": "lXPQBPVc5Cw_6",
+            "job_id": "from_40_epoch_41_CMUMOSI"
+          },
+          "negative": {
+            "name": "lXPQBPVc5Cw_6",
+            "job_id": "from_40_epoch_42_CMUMOSI"
+          }
+        }
+      }
+    ]
+  },
+  "CMUMOSEI": {
+    "total_predictions": 232950,
+    "unique_exact_responses": 68342,
+    "repeated_response_types": 18817,
+    "inconsistent_sentiment_types": 319,
+    "binary_flip_types": 218,
+    "occurrences_in_binary_flip_groups": 1390,
+    "minority_binary_occurrences": 446,
+    "examples": [
+      {
+        "response": "The character's emotional state is excited, enthusiastic, contemplative, reflective.",
+        "sentiment_counts": {
+          "neutral": 12,
+          "positive": 40
+        },
+        "provenance": {
+          "neutral": {
+            "name": "CO6n-skQJss_2",
+            "job_id": "from_50_epoch_52_CMUMOSEI"
+          },
+          "positive": {
+            "name": "CO6n-skQJss_2",
+            "job_id": "from_50_epoch_53_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is neutral, professional, informative.",
+        "sentiment_counts": {
+          "neutral": 21,
+          "positive": 20
+        },
+        "provenance": {
+          "neutral": {
+            "name": "c9hE1ghElrM_0",
+            "job_id": "from_50_epoch_53_CMUMOSEI"
+          },
+          "positive": {
+            "name": "c9hE1ghElrM_0",
+            "job_id": "from_50_epoch_55_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is neutral, objective, calm.",
+        "sentiment_counts": {
+          "neutral": 33,
+          "positive": 8
+        },
+        "provenance": {
+          "neutral": {
+            "name": "wO8fUOC4OSE_0",
+            "job_id": "from_50_epoch_54_CMUMOSEI"
+          },
+          "positive": {
+            "name": "213327_3",
+            "job_id": "from_30_epoch_32_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is excited, enthusiastic, tense, anxious.",
+        "sentiment_counts": {
+          "negative": 23,
+          "positive": 13
+        },
+        "provenance": {
+          "negative": {
+            "name": "QBc7X5jj8oA_2",
+            "job_id": "from_50_epoch_52_CMUMOSEI"
+          },
+          "positive": {
+            "name": "MHyW857u_X8_5",
+            "job_id": "from_50_epoch_53_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is excited, anxious, hopeful.",
+        "sentiment_counts": {
+          "positive": 29,
+          "mixed": 5
+        },
+        "provenance": {
+          "positive": {
+            "name": "7idU7rR77Ss_4",
+            "job_id": "from_50_epoch_52_CMUMOSEI"
+          },
+          "mixed": {
+            "name": "QnYlpSeVOYo_1",
+            "job_id": "from_50_epoch_54_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is serious, concerned, passionate.",
+        "sentiment_counts": {
+          "positive": 21,
+          "negative": 5
+        },
+        "provenance": {
+          "positive": {
+            "name": "0bxhZ-LIfZY_4",
+            "job_id": "from_50_epoch_52_CMUMOSEI"
+          },
+          "negative": {
+            "name": "0bxhZ-LIfZY_4",
+            "job_id": "from_50_epoch_53_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is neutral, professional, objective.",
+        "sentiment_counts": {
+          "positive": 17,
+          "neutral": 8
+        },
+        "provenance": {
+          "positive": {
+            "name": "83400_3",
+            "job_id": "from_50_epoch_52_CMUMOSEI"
+          },
+          "neutral": {
+            "name": "83400_3",
+            "job_id": "from_50_epoch_53_CMUMOSEI"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is neutral, professional, educational.",
+        "sentiment_counts": {
+          "positive": 15,
+          "neutral": 10
+        },
+        "provenance": {
+          "positive": {
+            "name": "yUqNp-poh9M_5",
+            "job_id": "from_50_epoch_53_CMUMOSEI"
+          },
+          "neutral": {
+            "name": "rcfnqiD0y8o_2",
+            "job_id": "from_50_epoch_57_CMUMOSEI"
+          }
+        }
+      }
+    ]
+  },
+  "SIMS": {
+    "total_predictions": 22850,
+    "unique_exact_responses": 10274,
+    "repeated_response_types": 2693,
+    "inconsistent_sentiment_types": 15,
+    "binary_flip_types": 13,
+    "occurrences_in_binary_flip_groups": 49,
+    "minority_binary_occurrences": 18,
+    "examples": [
+      {
+        "response": "The character's emotional state is frustrated, excited.",
+        "sentiment_counts": {
+          "mixed": 6,
+          "positive": 3
+        },
+        "provenance": {
+          "mixed": {
+            "name": "video_0025_0018",
+            "job_id": "from_35_epoch_36_SIMS"
+          },
+          "positive": {
+            "name": "video_0025_0018",
+            "job_id": "from_30_epoch_38_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is serious, humorous.",
+        "sentiment_counts": {
+          "positive": 3,
+          "neutral": 4
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0043_0009",
+            "job_id": "from_35_epoch_37_SIMS"
+          },
+          "neutral": {
+            "name": "video_0043_0009",
+            "job_id": "from_30_epoch_36_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is angry, confrontational, confident.",
+        "sentiment_counts": {
+          "positive": 2,
+          "negative": 4
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0037_0017",
+            "job_id": "from_35_epoch_36_SIMS"
+          },
+          "negative": {
+            "name": "video_0037_0017",
+            "job_id": "from_35_epoch_42_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is anxious, stressed, frustrated, playful, teasing.",
+        "sentiment_counts": {
+          "mixed": 4,
+          "positive": 1
+        },
+        "provenance": {
+          "mixed": {
+            "name": "video_0011_0026",
+            "job_id": "from_35_epoch_36_SIMS"
+          },
+          "positive": {
+            "name": "video_0011_0026",
+            "job_id": "from_35_epoch_43_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is joyful, content, tense, anxious.",
+        "sentiment_counts": {
+          "positive": 2,
+          "mixed": 1
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0053_0049",
+            "job_id": "from_35_epoch_39_SIMS"
+          },
+          "mixed": {
+            "name": "video_0053_0049",
+            "job_id": "from_30_epoch_34_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is pride,炫耀.",
+        "sentiment_counts": {
+          "positive": 2,
+          "negative": 1
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0032_0013",
+            "job_id": "from_40_epoch_44_SIMS"
+          },
+          "negative": {
+            "name": "video_0032_0013",
+            "job_id": "from_45_epoch_49_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is refusal, refusal emotion, determination.",
+        "sentiment_counts": {
+          "positive": 2,
+          "negative": 1
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0022_0002",
+            "job_id": "from_40_epoch_49_SIMS"
+          },
+          "negative": {
+            "name": "video_0022_0002",
+            "job_id": "from_40_epoch_50_SIMS"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is happy, joy, fear, anxiety.",
+        "sentiment_counts": {
+          "mixed": 1,
+          "positive": 2
+        },
+        "provenance": {
+          "mixed": {
+            "name": "video_0056_0020",
+            "job_id": "from_45_epoch_54_SIMS"
+          },
+          "positive": {
+            "name": "video_0056_0020",
+            "job_id": "from_50_epoch_58_SIMS"
+          }
+        }
+      }
+    ]
+  },
+  "SIMSv2": {
+    "total_predictions": 51700,
+    "unique_exact_responses": 22265,
+    "repeated_response_types": 5965,
+    "inconsistent_sentiment_types": 55,
+    "binary_flip_types": 38,
+    "occurrences_in_binary_flip_groups": 132,
+    "minority_binary_occurrences": 50,
+    "examples": [
+      {
+        "response": "The character's emotional state is ironic, mocking, positive.",
+        "sentiment_counts": {
+          "negative": 9,
+          "positive": 6
+        },
+        "provenance": {
+          "negative": {
+            "name": "aqgy5_0015_00013",
+            "job_id": "from_30_epoch_33_SIMSv2"
+          },
+          "positive": {
+            "name": "video_0040_0041",
+            "job_id": "from_35_epoch_36_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is anticipation, excitement, anxiety, pressure.",
+        "sentiment_counts": {
+          "mixed": 4,
+          "positive": 4
+        },
+        "provenance": {
+          "mixed": {
+            "name": "video_0027_0036",
+            "job_id": "from_30_epoch_32_SIMSv2"
+          },
+          "positive": {
+            "name": "video_0027_0036",
+            "job_id": "from_35_epoch_38_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is excitement, enthusiasm, confidence, pride, anger, frustration.",
+        "sentiment_counts": {
+          "positive": 6,
+          "mixed": 2
+        },
+        "provenance": {
+          "positive": {
+            "name": "aqgy4_0001_00062",
+            "job_id": "from_30_epoch_32_SIMSv2"
+          },
+          "mixed": {
+            "name": "aqgy4_0001_00062",
+            "job_id": "from_35_epoch_39_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is curiosity, exploration, interest, concern.",
+        "sentiment_counts": {
+          "neutral": 4,
+          "positive": 1
+        },
+        "provenance": {
+          "neutral": {
+            "name": "aqgy5_0014_00028",
+            "job_id": "from_30_epoch_31_SIMSv2"
+          },
+          "positive": {
+            "name": "aqgy5_0014_00028",
+            "job_id": "from_30_epoch_32_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is anger, frustration, determination, readiness.",
+        "sentiment_counts": {
+          "positive": 3,
+          "negative": 2
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0009_0028",
+            "job_id": "from_30_epoch_38_SIMSv2"
+          },
+          "negative": {
+            "name": "video_0009_0028",
+            "job_id": "from_45_epoch_46_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is anticipation, excitement, anxiety, tension.",
+        "sentiment_counts": {
+          "positive": 4,
+          "negative": 1
+        },
+        "provenance": {
+          "positive": {
+            "name": "video_0027_0036",
+            "job_id": "from_35_epoch_36_SIMSv2"
+          },
+          "negative": {
+            "name": "video_0019_0001",
+            "job_id": "from_45_epoch_55_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is playful, humorous, tense.",
+        "sentiment_counts": {
+          "positive": 2,
+          "neutral": 2
+        },
+        "provenance": {
+          "positive": {
+            "name": "aqgy5_0010_00010",
+            "job_id": "from_30_epoch_34_SIMSv2"
+          },
+          "neutral": {
+            "name": "aqgy5_0010_00010",
+            "job_id": "from_35_epoch_38_SIMSv2"
+          }
+        }
+      },
+      {
+        "response": "The character's emotional state is surprised, shocked, excited, angry.",
+        "sentiment_counts": {
+          "negative": 2,
+          "positive": 2
+        },
+        "provenance": {
+          "negative": {
+            "name": "video_0018_0008",
+            "job_id": "from_30_epoch_39_SIMSv2"
+          },
+          "positive": {
+            "name": "video_0018_0008",
+            "job_id": "from_45_epoch_53_SIMSv2"
+          }
+        }
+      }
+    ]
+  },
+  "interpretation": "Identical full model responses with conflicting judge sentiments prove evaluator inconsistency conditional on text. Counts are sensitivity diagnostics,not true error rates or an estimate of score bias. Across jobs,different other batch requests and stochastic judge sampling may change extraction; no judge rerun performed."
+}

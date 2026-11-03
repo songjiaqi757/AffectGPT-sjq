@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "development": {
+    "passed": true,
+    "official_metric_records": 90,
+    "all_sample_array_metrics_match_official": true,
+    "unique_rows": 512,
+    "source_independence_certified": false,
+    "time_beijing": "2026-10-29T07:51:17.558806+08:00"
+  },
+  "confirmation": {
+    "passed": true,
+    "official_metric_records": 90,
+    "all_sample_array_metrics_match_official": true,
+    "unique_rows": 512,
+    "source_independence_certified": false,
+    "time_beijing": "2026-10-29T08:48:27.753740+08:00"
+  },
+  "frozen_selection_id": "9d9127ba2b07c5c0355cb4345b394f707640c87bb9f1fe3e407e37fc173f42e3",
+  "decision": {
+    "frozen_candidate": {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A"
+    },
+    "confirmation_passed": true,
+    "adopt_provisionally": {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A"
+    },
+    "Appraisal_validated": false,
+    "training_ready": false,
+    "training_reason": "Original-source/speaker isolation remains unverified; current results support provisional inference-method choice only. No new graph/semantic supervision was independently validated.",
+    "scope": "New sample/media-disjoint MER-only material, not source/speaker-independent validation or a new nine-benchmark claim.",
+    "time_beijing": "2026-10-29T08:48:27.710393+08:00"
+  },
+  "code_manifest_sha256": "a902b4e7af5701a97e4929e0e8b1e3aafe093db5dc250fe34f09ad2b95fa1cd0",
+  "source_independence_certified": false,
+  "training_executed": false,
+  "time_beijing": "2026-10-29T08:48:28.519989+08:00"
+}

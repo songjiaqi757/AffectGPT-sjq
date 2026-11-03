@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "MELD": {
+      "candidate_count": 256,
+      "flags": {
+        "missing_audio": 256,
+        "missing_face": 256,
+        "missing_video": 256
+      },
+      "admitted": false
+    },
+    "CMUMOSI": {
+      "candidate_count": 229,
+      "flags": {
+        "missing_audio": 229,
+        "missing_face": 229,
+        "missing_video": 229
+      },
+      "admitted": false
+    },
+    "CMUMOSEI": {
+      "candidate_count": 256,
+      "flags": {
+        "missing_audio": 256,
+        "missing_face": 256,
+        "missing_video": 256
+      },
+      "admitted": false
+    },
+    "SIMS": {
+      "candidate_count": 256,
+      "flags": {
+        "missing_audio": 256,
+        "missing_face": 256,
+        "missing_video": 256,
+        "test_video_group_overlap": 255
+      },
+      "admitted": false
+    },
+    "SIMSv2": {
+      "candidate_count": 256,
+      "flags": {
+        "missing_audio": 256,
+        "missing_face": 256,
+        "missing_video": 256,
+        "test_video_group_overlap": 256
+      },
+      "admitted": false
+    }
+  },
+  "candidates": 1253,
+  "source_audio_hashes": 30755,
+  "test_audio_hashes": 12318,
+  "admitted": false,
+  "reason": "Exact overlap checks do not prove base/Cue pretraining exclusion or speaker/source independence; no tuning/training permitted from this inventory yet.",
+  "checked_at_beijing": "2026-10-28T11:52:15.368302+08:00"
+}

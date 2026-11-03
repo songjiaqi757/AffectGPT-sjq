@@ -1,0 +1,4529 @@
+{
+  "created_unix": 1792457207.5097973,
+  "strategy": "Only technical failures; preserve complete duration/resolution/FPS/frames. Never requeue content moderation or pad short media.",
+  "official_reference": "https://platform.qianwenai.com/docs/api-reference/more/upload-file-get-temporary-url",
+  "tasks": [
+    {
+      "sid": "samplenew3_00001225",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792421719.7905304,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00001504",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792421747.9461875,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00003639",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422011.591343,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00004267",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422057.723853,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00004895",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-6fd1862f-5883-915d-8e4d-1ff96ae25584\"}",
+      "updated": 1792422072.1237276,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00007066",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422215.561757,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00009163",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422328.7745106,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00009839",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-9327dceb-e79f-9262-a830-52092bc36b50\"}",
+      "updated": 1792422348.3545947,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00011361",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422585.5067272,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00011454",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422602.051717,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00013166",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422681.0047038,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00013991",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422724.1696093,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00014510",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-d6184bf8-43c5-9237-8088-83241a58c510\"}",
+      "updated": 1792422718.5598404,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00016978",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422876.8114212,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00017676",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792422924.3418138,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00019549",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423005.3518658,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00019945",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423047.6779797,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00019998",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423034.4991243,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00024719",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-c865cb83-0f6c-9766-8069-15dbe3d03264\"}",
+      "updated": 1792423263.550196,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": true,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00025002",
+      "modality": "text",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input text data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-75fac235-4362-9208-9b00-c98e73d5a44a\"}",
+      "updated": 1792423283.348231,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00025002",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-0546b43d-8d9d-90d5-a39c-b134e473dcf2\"}",
+      "updated": 1792423275.5194714,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00028006",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423464.8588667,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00029330",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423544.6469884,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00031591",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423657.283319,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00032225",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423689.8301823,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00032448",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-02b5aca8-bb52-9577-ab4d-8f5dd605416b\"}",
+      "updated": 1792423674.4585578,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00032656",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423721.4517734,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00032993",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792423716.4624472,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00038934",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-4a21d9b1-99ca-9dee-beeb-a0e4e675fe5c\"}",
+      "updated": 1792424026.2262304,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00040558",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424147.7278798,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00040842",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-e4916282-eb0a-989b-af29-141d7a055b93\"}",
+      "updated": 1792424135.0488763,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00043688",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424286.8104167,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00046026",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424408.079114,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00047748",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424554.2817836,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00049293",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424593.2505884,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00055964",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424935.0631692,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00056583",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424990.7173996,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00057167",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792424997.6400597,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00060547",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425224.5776525,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00060759",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425198.9142926,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00061462",
+      "modality": "audio",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-56d90df8-7298-9d20-88b3-0eb59a739818\"}",
+      "updated": 1792425234.1283035,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00063857",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425383.8866997,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00067068",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425538.3453112,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00067476",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425570.418335,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00070126",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425678.9542007,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00070475",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425693.384607,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00071832",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425764.438358,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00074902",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425917.6574183,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00075094",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-a7a0b336-d9e8-95ba-a66b-40ab141aeaea\"}",
+      "updated": 1792425918.9002812,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": true,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00076162",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792425993.1105752,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00080286",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792426219.9831052,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00083118",
+      "modality": "audio",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-1ea9a655-6aa0-9159-a9cd-fa2384385487\"}",
+      "updated": 1792426383.9138565,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00083118",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-7aa07bd1-2c1c-9c27-a29a-2715e0f641c0\"}",
+      "updated": 1792426383.8903856,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00083642",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792426433.1706445,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00084612",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792426479.9811556,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00085624",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792426526.0690203,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00086642",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792426593.7262764,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00088056",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792426666.3639321,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00088154",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c6628e91-0839-94f2-b607-04400fc119fc\"}",
+      "updated": 1792426650.8144991,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00094241",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c0d3c541-ca0b-9abf-93f0-1d29d024e5f6\"}",
+      "updated": 1792426989.6620662,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00098481",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427250.4807632,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00099262",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427288.826399,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00101505",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427395.292521,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00103411",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427498.4440067,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00104699",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427570.2954745,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00105401",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427611.507712,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00105675",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427658.9051738,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00105944",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-50d916d5-82ab-9968-baab-8290f245c642\"}",
+      "updated": 1792427619.811583,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00106173",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427656.6816287,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00107375",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427729.257992,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00109309",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427840.4479587,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00110184",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427890.0142848,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00110205",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427894.6577044,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00111405",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427960.603903,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00112214",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792427992.482308,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00112504",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-dedec236-c025-9bd8-91ef-9ce2add2bb0f\"}",
+      "updated": 1792427994.1756923,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00114573",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-062ae6cf-084f-911b-8f84-d8b56dbb5301\"}",
+      "updated": 1792428098.0250196,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00099387",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428581.3867588,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00082935",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428678.387247,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00013668",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428796.4350963,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00066491",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428807.2968483,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00066501",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428830.998559,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00066508",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428907.481926,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00000327",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428873.0681705,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00066578",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792428971.320108,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00017158",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429028.9461896,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00099897",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429100.8369408,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00015997",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429252.3921916,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00100096",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429343.8064034,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00034048",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-eb332e5b-9bb7-9775-9704-657c5fc1aaca\"}",
+      "updated": 1792429383.6821811,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00050447",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429468.656119,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00100389",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429642.6402938,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00051064",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429887.571468,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00034646",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429930.7905536,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00020496",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429934.90353,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00034378",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792429998.1090052,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00100663",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792430045.6097429,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00084312",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792430187.5850956,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00001208",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792430231.535102,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00034754",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-60bc781f-d6be-9df4-a44b-f66eaffb6004\"}",
+      "updated": 1792430390.2599895,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00034841",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792430542.71299,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00051224",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792430569.834522,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00084968",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792430837.4680698,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00002041",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431014.8930688,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00068109",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431236.2609873,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00018746",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431392.7197146,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00030555",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431551.7833955,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00102710",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431651.9460824,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00002787",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-a2108857-a11c-9857-8a5d-4f40e771a665\"}",
+      "updated": 1792431691.2051024,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": true,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00002807",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431721.5067768,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00002935",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431848.2350469,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00003449",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792431968.2702386,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00035177",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432070.801113,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00086228",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432206.727303,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00035834",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432179.1115766,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00086246",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432202.5796301,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00003342",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432325.2478771,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00036097",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432405.1629968,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00103032",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432439.10935,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00103051",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432433.2238054,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00038936",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432555.6281037,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00019633",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432536.3158016,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00086863",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432684.0511572,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00019759",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-44b28a6c-d052-93ed-96ce-a170ccef6edb\"}",
+      "updated": 1792432731.002631,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00069185",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432857.2153525,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00103446",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432884.691102,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00004474",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792432911.4027507,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00044226",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-241e7f80-2413-992d-ab5c-053cdccacef2\"}",
+      "updated": 1792433228.574747,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00103943",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433422.0230637,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00046042",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-14638a47-e06e-9382-a82c-82483c5cc171\"}",
+      "updated": 1792433429.8024805,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": true,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00104620",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433455.1998105,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00104779",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433603.5149722,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00036906",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433638.105707,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00104183",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c33dcef1-f293-9cef-854c-23a06ee2793d\"}",
+      "updated": 1792433637.7299035,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00047677",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433686.3073657,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00104850",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-35f1a007-2f59-9215-9eb1-aeb8ff03c03f\"}",
+      "updated": 1792433673.2555928,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00047976",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-a544836a-99d3-951a-8316-1100603a1a29\"}",
+      "updated": 1792433765.2376096,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00069791",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433804.5191271,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00037043",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433847.1799648,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00053452",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433948.2345436,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00088052",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792433999.2878544,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00053513",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434047.945846,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00020599",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434240.0113883,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00020629",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434280.2513976,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00088228",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434331.718603,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00037312",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-1b3a3ebe-a30e-9340-9811-7561cad7f33f\"}",
+      "updated": 1792434403.0955992,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00020818",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-30afb243-0d95-94bb-975c-3a6f627ee962\"}",
+      "updated": 1792434465.4082594,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00020839",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434498.4172714,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00054895",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434582.1968265,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00005647",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434603.148153,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00055553",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434669.9984438,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00005741",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434693.7033358,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00037611",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434777.7729013,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00070471",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792434857.3347893,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00062408",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435048.9452438,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00054396",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435150.240404,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00061916",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435195.7289307,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00058612",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-2d21ad0b-c828-9afb-bbc9-8e841b4863ef\"}",
+      "updated": 1792435193.5129201,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00088996",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435261.9974768,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00054222",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435382.940722,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00070685",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-bc0dc1b1-d443-98af-b825-b8c588a46c08\"}",
+      "updated": 1792435398.1840339,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00089037",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435425.960241,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00089069",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435488.1751468,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00070737",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435504.1633525,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00054293",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435553.596325,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00021648",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435645.7382202,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00006671",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435665.4646826,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00064216",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435777.5217352,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00106245",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435905.6715357,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00065503",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792435966.2011275,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00065804",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436010.5721803,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00021919",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-46f44ec5-e328-9f0b-9a9e-898aa9e7cade\"}",
+      "updated": 1792436072.576523,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00054744",
+      "modality": "text",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input text data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-76411ddb-30c1-97b7-bb51-968d03710a7d\"}",
+      "updated": 1792436078.6537025,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00054744",
+      "modality": "audio",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-844b33db-71ba-95aa-acf8-e96f75fe3033\"}",
+      "updated": 1792436079.8297398,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00054793",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436185.2214258,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00107123",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436288.2406013,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00107082",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436339.374824,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00038505",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-774b0eb7-8ab0-9ea1-bf1a-154e37787856\"}",
+      "updated": 1792436344.416138,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00071313",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436457.2896898,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00068120",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-59c13871-3895-9fc3-ab55-4c05e116d12a\"}",
+      "updated": 1792436530.798308,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00054999",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436646.3320563,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00038684",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436687.17758,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00022079",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-2bd0efac-0ca9-92e4-8f12-dc12226ab210\"}",
+      "updated": 1792436707.090809,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00055067",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436930.199466,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00022431",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792436982.0808594,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00071836",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437079.4978652,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00071886",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437178.5940063,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00107376",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437210.4093022,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00008296",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437267.7819269,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00008309",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437309.9005954,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00039159",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437330.4319823,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00008418",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437407.507762,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00022773",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437447.9777393,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00076709",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437469.2194693,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00078985",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437752.9846275,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00039469",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-7fe01aa0-7fdc-993c-96ed-0fa960c8b22b\"}",
+      "updated": 1792437785.216602,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00079781",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-f428b9aa-ef57-9c6d-8cfb-273fc2ae7398\"}",
+      "updated": 1792437841.9365451,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00079889",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792437895.5925508,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00040018",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-416c5121-4dc4-914e-9c98-ec0891874aaf\"}",
+      "updated": 1792438023.8465624,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00023527",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438098.5946212,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00107986",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438127.0578446,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00092060",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438133.5933452,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00084730",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438214.8197086,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00009428",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438283.5733905,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00091924",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438287.4645092,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00081098",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-1809f853-bb55-9ecd-9064-72c5506bdc31\"}",
+      "updated": 1792438421.3093402,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": true,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00091765",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438541.9254835,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00091781",
+      "modality": "audio",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-b32580aa-9ab9-99a6-87ca-045ae183efc2\"}",
+      "updated": 1792438618.7684078,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00009238",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-9cf7ed70-8030-9683-8953-5015de6522d6\"}",
+      "updated": 1792438632.6482038,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00082946",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438700.781143,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00083200",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438723.2260945,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00091878",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438740.7442663,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00040078",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792438838.007651,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00109004",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439021.6949716,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00073148",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-eff91b00-9f30-9149-9902-bc3e43fa9c8d\"}",
+      "updated": 1792439168.0604398,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00092657",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439187.5507257,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00010268",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439247.620214,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00010283",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-274e0d2a-35e5-99e4-87b0-5cd91c048c27\"}",
+      "updated": 1792439255.8929334,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00024096",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439543.5602345,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00056783",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439555.3246987,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00056860",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439676.8488412,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00010766",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439796.9605672,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00109644",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439805.7346816,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00010851",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439891.7582119,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00095230",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792439933.7993004,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00109790",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440038.910062,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00073622",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440031.2622921,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00024637",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440209.733039,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00097232",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440294.7425308,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00109932",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440303.6116848,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00073701",
+      "modality": "text",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input text data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-9504df53-53b6-9ad2-99ec-ec2fb8f59918\"}",
+      "updated": 1792440309.776,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00073701",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c2321741-ad45-9c0c-852a-b3a469fd7f41\"}",
+      "updated": 1792440340.6933978,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00093444",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440365.8735886,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00041040",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440405.5973125,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00098716",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440398.3813004,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00057286",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440492.770673,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00093739",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440542.8346274,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00110336",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440554.0264747,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00024754",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440568.9281702,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00057612",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440901.4261408,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00041402",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440897.9718916,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00057637",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440932.8477275,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00074175",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792440956.245499,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00057787",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-9984cdb5-37d4-9410-91ad-9844dba2b120\"}",
+      "updated": 1792441140.5655882,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00012228",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-40a55305-4ff5-9888-9e3f-0b5dfee28cec\"}",
+      "updated": 1792441165.0169747,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": true,
+        "reason": "File decoding/transport compatibility"
+      }
+    },
+    {
+      "sid": "samplenew3_00012237",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441205.308973,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00111094",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441398.1379445,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00012555",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441530.9998324,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00094682",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-b15a162b-7704-966e-be49-f58368c0d0b3\"}",
+      "updated": 1792441511.1969054,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00012565",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441561.093716,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00111222",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-007b0b49-7ed8-9105-a0b1-19ea09600a29\"}",
+      "updated": 1792441531.4668431,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00074556",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-be4ee515-c854-9de1-9836-a0199e0661ea\"}",
+      "updated": 1792441543.8639739,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00041855",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441563.866968,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00012611",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441581.3218307,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00109033",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441625.6075914,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00058212",
+      "modality": "audio",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-9105486b-025e-9660-b875-1802bd8db8a0\"}",
+      "updated": 1792441840.0412958,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00058212",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-583a253a-d8ae-91fb-a0e9-a4681af1c5e7\"}",
+      "updated": 1792441841.3580058,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00025683",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792441988.7737129,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00112344",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c7baedd9-7b75-9b6c-ae6b-9df462f963df\"}",
+      "updated": 1792442095.5574222,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00095260",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792442222.544096,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00058432",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792442241.725936,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00111883",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792442377.8149304,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00075070",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792442443.1193936,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00075305",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792442721.7030866,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00042789",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792442854.3539665,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00026403",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443023.6813087,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00114371",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443046.017989,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00042856",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443049.1988392,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00075557",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443140.0450728,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00042923",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443150.9029756,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00026595",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443259.2645526,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00014726",
+      "modality": "text",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input text data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c33644da-362a-97de-9487-77e9b8f5ab29\"}",
+      "updated": 1792443231.8402054,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00059164",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443278.138972,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00026671",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443383.5262718,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00059304",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443457.20787,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00026709",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443451.276702,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00096481",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-67a3218b-50d4-9776-91da-23e83bb66510\"}",
+      "updated": 1792443446.750139,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00096508",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-66b89c9e-3ae0-9006-8c64-38160078e44a\"}",
+      "updated": 1792443473.3846967,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00015189",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-c9c1f443-bc05-9682-87b4-0385d618d3c8\"}",
+      "updated": 1792443586.3300636,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00113219",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443694.0607188,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00059525",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443776.8508945,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00113341",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443831.9545503,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00076030",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792443880.194245,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00076140",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-251f915c-2e57-971a-aafa-6606fc2a4cec\"}",
+      "updated": 1792444076.6602423,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00082408",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-f0c00af4-c243-907c-85a3-0d8af747c877\"}",
+      "updated": 1792444101.6219943,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00097041",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444188.7870386,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00049705",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-458a8186-c7ce-9874-8bb8-6fea4b6ff064\"}",
+      "updated": 1792444235.3054383,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00065558",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444305.4424434,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00033281",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444348.3405364,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00049522",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444383.0521839,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00033232",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444413.9147844,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00049417",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444460.2358787,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00049402",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-da3bc734-5b4e-9079-a452-fc2154f2d170\"}",
+      "updated": 1792444467.4495,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00065265",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444509.222417,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00049330",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-52a577b7-607f-9c44-9eef-630c64e2b1af\"}",
+      "updated": 1792444509.453004,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00015965",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-7fc7ff29-f45f-9997-a4a9-6661ef49928c\"}",
+      "updated": 1792444595.8704164,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00081702",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444671.1622064,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00081727",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444681.1860442,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00081552",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c87fcb41-a9aa-90bb-850e-820e3c3b49c1\"}",
+      "updated": 1792444775.5464945,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00081563",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444822.0463104,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00032654",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792444904.8804917,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00032364",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792445105.6071987,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00032365",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792445094.3426144,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00064640",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-f4dd39e7-d94f-9247-90c4-65fafcd29088\"}",
+      "updated": 1792445073.847772,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00113861",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-9cce4f3a-d7ec-9cdf-8226-0298949ba8a3\"}",
+      "updated": 1792445286.5135052,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00064494",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-e72e7a49-c4d9-9ffb-b850-69d78f6bf7c8\"}",
+      "updated": 1792445317.8569539,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00027334",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-765f5291-c3f6-9154-85d7-4f0cb46de753\"}",
+      "updated": 1792445359.1129246,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00048410",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792445425.4702613,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00064003",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792445800.131849,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00016553",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792445930.6415594,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00080253",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-341c958d-2d1a-9522-a429-4eedbd92677a\"}",
+      "updated": 1792446025.06864,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00060077",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792446188.210569,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00031282",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-99b48665-7ff7-9243-bc0c-aa3ef1d73051\"}",
+      "updated": 1792446146.360674,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00031181",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792446251.5223427,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00031079",
+      "modality": "audio",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input audio data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-3d230f4b-6de2-9235-bfaf-437cbe5a5163\"}",
+      "updated": 1792446317.5994124,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00031079",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-83796c12-52fc-96f1-ab50-8e0f4b714bfe\"}",
+      "updated": 1792446318.978258,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00047098",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-8c0a214e-a359-982a-816d-39ed74b3b19d\"}",
+      "updated": 1792446484.5987928,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00047087",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-12a11159-5774-94f2-82bd-fa69695f2c16\"}",
+      "updated": 1792446521.4963906,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00046991",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-6b6e96cb-079b-95e9-a811-706c1b672dec\"}",
+      "updated": 1792446547.0558312,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00063041",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792446582.8045917,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00062783",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-dbcaa004-b1c4-9f42-aa79-058c3af3931a\"}",
+      "updated": 1792446814.0644665,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00062593",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792446942.5959167,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00097827",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792447052.9468734,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00030219",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792447111.5352693,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00076862",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792447220.339178,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00078931",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792447310.0640512,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00061955",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792447706.0193195,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00045815",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-bae4ffe1-79a4-96ea-8931-c9a607e48bf0\"}",
+      "updated": 1792447719.8485665,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00114777",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-49634a88-72e6-95ff-89cb-891c2aeee40b\"}",
+      "updated": 1792447808.0671916,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00044445",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-150648b6-446a-9837-9520-0fd8056ba500\"}",
+      "updated": 1792447815.4762056,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00044553",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-d134b682-77b6-9dd5-9435-d0bfae587d84\"}",
+      "updated": 1792448006.2623277,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00045635",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448080.3246205,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00045560",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448119.0561342,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00045466",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-e6f1efdd-4cff-9480-a692-bdb38de92bab\"}",
+      "updated": 1792448150.9462695,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00078044",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-c71adadf-1e15-9cd6-a681-741c9f454b74\"}",
+      "updated": 1792448282.7832155,
+      "remedy": null
+    },
+    {
+      "sid": "samplenew3_00061429",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448343.4506578,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00115113",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448506.2801933,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00098574",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448516.5488734,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00098581",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448546.1859756,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00115359",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448671.859295,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00028483",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448674.2843904,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00115433",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448718.9865718,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00045076",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448758.9586253,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00099098",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448825.7690501,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    },
+    {
+      "sid": "samplenew3_00045048",
+      "modality": "visual",
+      "state": "failed",
+      "attempts": 0,
+      "retryable": 0,
+      "last_error": "AssertionError: Complete video exceeds frozen Base64 budget; no truncation allowed",
+      "updated": 1792448807.3037562,
+      "remedy": {
+        "transport": "provider_private_temporary_oss",
+        "force_h264": false,
+        "reason": "Complete file exceeds Base64 size limit"
+      }
+    }
+  ]
+}

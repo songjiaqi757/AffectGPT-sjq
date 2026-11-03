@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "sampled_from_cached_examples": 8889,
+  "largest_cache_examples": 128,
+  "random_examples": 128,
+  "unique_samples": 255,
+  "shards": [
+    {
+      "samples": 64,
+      "tasks": 128,
+      "max_sequence_tokens": 1278,
+      "answer_truncations": 0,
+      "maximum_omitted_evidence_entries": 11
+    },
+    {
+      "samples": 64,
+      "tasks": 128,
+      "max_sequence_tokens": 1253,
+      "answer_truncations": 0,
+      "maximum_omitted_evidence_entries": 17
+    },
+    {
+      "samples": 64,
+      "tasks": 128,
+      "max_sequence_tokens": 1266,
+      "answer_truncations": 0,
+      "maximum_omitted_evidence_entries": 15
+    },
+    {
+      "samples": 63,
+      "tasks": 126,
+      "max_sequence_tokens": 1251,
+      "answer_truncations": 0,
+      "maximum_omitted_evidence_entries": 11
+    }
+  ],
+  "semantics": "Largest-evidence and seeded-random early check; full membership/token preflight remains mandatory before training"
+}

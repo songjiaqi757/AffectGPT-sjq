@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "maximum_context_stress": {
+    "passed": true,
+    "batch_size": 3,
+    "sequence_tokens": 1398,
+    "finite_loss": 1.1718554496765137,
+    "peak_gpu_memory_allocated": 65025907200,
+    "peak_gpu_memory_reserved": 67823992832,
+    "gradient_checkpointing_active": false,
+    "synthetic_suffix_masked_from_loss": true,
+    "optimizer_step_applied": false
+  },
+  "llm_gradient_checkpointing": false,
+  "completed_at_beijing": "2026-10-22T16:54:12.271904+08:00",
+  "base_epoch": 30,
+  "base_checkpoint_sha256": "73fb1c257c0482e792ecad2ca0706ecccce04639e209071793484b65a97df380",
+  "sample_ids": [
+    "samplenew3_00098643",
+    "samplenew3_00060077",
+    "samplenew3_00090001"
+  ],
+  "actual_sequence_tokens": 1398,
+  "graph_prompt_info": [
+    {
+      "fallback": false,
+      "graph_tokens": 976,
+      "omitted_evidence": 6,
+      "displayed_paths": 4,
+      "prompt_tokens": 1143,
+      "answer_tokens": 231,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description"
+    },
+    {
+      "fallback": false,
+      "graph_tokens": 993,
+      "omitted_evidence": 8,
+      "displayed_paths": 2,
+      "prompt_tokens": 1131,
+      "answer_tokens": 233,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description"
+    },
+    {
+      "fallback": false,
+      "graph_tokens": 989,
+      "omitted_evidence": 20,
+      "displayed_paths": 0,
+      "prompt_tokens": 1175,
+      "answer_tokens": 221,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description"
+    }
+  ],
+  "steps": [
+    {
+      "iteration": 1,
+      "loss": 1.2099264860153198,
+      "scale": 8192.0,
+      "updates": 1
+    },
+    {
+      "iteration": 2,
+      "loss": 1.2062077522277832,
+      "scale": 8192.0,
+      "updates": 2
+    }
+  ],
+  "trainable_parameter_updated": "llama_model.base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight",
+  "max_absolute_parameter_change": 3.4639379009604454e-05,
+  "peak_gpu_memory_allocated": 65025907200,
+  "optimizer_and_scaler_restored": true,
+  "original_checkpoint_unchanged": true,
+  "elapsed_seconds": 194.0848627090454,
+  "semantics": "Disposable preflight update only; requested five-epoch experiments start separately from original checkpoints"
+}

@@ -1,0 +1,43 @@
+{
+  "job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131",
+  "source": "/ai/sjq/AffectGPT-sjq/cue_student",
+  "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+  "optimization": "ordered spawn DataLoader/prefetch/pin_memory/non_blocking/worker and decode thread limits",
+  "runs": {
+    "text": {
+      "num_workers": 0,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": null
+    },
+    "audio": {
+      "num_workers": 2,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": null
+    },
+    "visual": {
+      "num_workers": 4,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": 1
+    },
+    "visual_temporal": {
+      "num_workers": 4,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": 1
+    },
+    "audio_temporal": {
+      "num_workers": 2,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": null
+    }
+  }
+}

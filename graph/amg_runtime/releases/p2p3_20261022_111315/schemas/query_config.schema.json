@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "amg_query_config_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "purpose",
+    "graph_release_id",
+    "frozen_build_constraints",
+    "query_parameters",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "amg_query_config_v1"
+    },
+    "purpose": {
+      "enum": [
+        "engineering_contract_tests",
+        "source_validation_candidate",
+        "source_validation_frozen"
+      ]
+    },
+    "graph_release_id": {
+      "type": "string"
+    },
+    "frozen_build_constraints": {
+      "const": {
+        "edge_min_source_groups": 20,
+        "path_min_joint_source_groups": 5
+      }
+    },
+    "query_parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "query_min_support_groups",
+        "query_path_min_joint_support_groups",
+        "dimension_min_evidence",
+        "minimum_coverage",
+        "emotion_top_k",
+        "path_top_k",
+        "direct_two_hop_lambda",
+        "branch"
+      ],
+      "properties": {
+        "query_min_support_groups": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "query_path_min_joint_support_groups": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dimension_min_evidence": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "minimum_coverage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "emotion_top_k": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "path_top_k": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "direct_two_hop_lambda": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "branch": {
+          "enum": [
+            "full",
+            "direct",
+            "appraisal"
+          ]
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

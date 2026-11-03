@@ -1,0 +1,99 @@
+{
+  "enabled": true,
+  "first_batch": [
+    5,
+    10
+  ],
+  "subsequent_epochs": [
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60
+  ],
+  "batches": [
+    {
+      "trigger_checkpoint": "rl_e010",
+      "checkpoints": [
+        "rl_e005",
+        "rl_e010"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e015",
+      "checkpoints": [
+        "rl_e015"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e020",
+      "checkpoints": [
+        "rl_e020"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e025",
+      "checkpoints": [
+        "rl_e025"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e030",
+      "checkpoints": [
+        "rl_e030"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e035",
+      "checkpoints": [
+        "rl_e035"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e040",
+      "checkpoints": [
+        "rl_e040"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e045",
+      "checkpoints": [
+        "rl_e045"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e050",
+      "checkpoints": [
+        "rl_e050"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e055",
+      "checkpoints": [
+        "rl_e055"
+      ]
+    },
+    {
+      "trigger_checkpoint": "rl_e060",
+      "checkpoints": [
+        "rl_e060"
+      ]
+    }
+  ],
+  "node": "A100",
+  "A800_continues": true,
+  "resume_A100_four_workers_after_each_batch": true,
+  "official_scoring_unchanged": true,
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "source_sha256": {
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/priority_evaluation/automatic/score_checkpoints.py": "c5f3ae1414ac42d23114a504011e058d0cb466088a01d0fc33cdc32a6c045070",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/priority_evaluation/automatic/score_batch.py": "eabeadd60d2c25d1ca1c9ee7cefc30c97a7b3963defc0eb105d76b3642af93d3",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/priority_evaluation/automatic/manager.py": "4b5c428002104530bd5877a2473900506a88c4852e017e79dc61503c4176e1f0"
+  },
+  "created_at_beijing": "2026-11-02T16:39:34.786862+08:00"
+}

@@ -1,0 +1,5593 @@
+{
+  "run": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141",
+  "reference_run": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553",
+  "audit": {
+    "completed": true,
+    "all_42_job_metrics_reproduced": true,
+    "max_metric_replay_error": 2.220446049250313e-16,
+    "reused_predictions": 1718,
+    "new_predictions": 1082,
+    "code_manifest_passed": true,
+    "reference_inputs_verified": true,
+    "no_gpu_loaded": true
+  },
+  "scoring": "Existing unified official scoring artifacts used unchanged; no rescoring,no new generation",
+  "metrics": [
+    {
+      "job_id": "base35_A_epoch_35_MER2023",
+      "variant": "base35_A",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7081662690960767,
+      "metrics": {
+        "HIT": 0.7081662690960767,
+        "M": 0.5011478793415554,
+        "mean_extracted_labels": 3.119221411192214,
+        "empty_extracted_labels": 8
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_A_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "e0bf2924fdd42bad3f04277dae90abb8018ab8fbbd94f4d86019bb004a2ac29f",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:09:32.273438+08:00",
+      "weight": "base35",
+      "ablation": "A",
+      "HIT": 0.7081662690960767,
+      "M": 0.5011478793415554,
+      "mean_extracted_labels": 3.119221411192214,
+      "empty_extracted_labels": 8
+    },
+    {
+      "job_id": "base35_A_epoch_35_OVMERDPlus",
+      "variant": "base35_A",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6140530539454303,
+      "metrics": {
+        "F_s": 0.6140530539454303,
+        "P_s": 0.6177151197471404,
+        "R_s": 0.6119010801570586,
+        "mean_extracted_labels": 3.2274436090225564,
+        "empty_extracted_labels": 5
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_A_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "bb5b2a6f51a4c10340d6d8f232d39a7fb88b26b86602e93dc2f6175b76d05e7b",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:07:42.128529+08:00",
+      "weight": "base35",
+      "ablation": "A",
+      "F_s": 0.6140530539454303,
+      "P_s": 0.6177151197471404,
+      "R_s": 0.6119010801570586,
+      "mean_extracted_labels": 3.2274436090225564,
+      "empty_extracted_labels": 5
+    },
+    {
+      "job_id": "base35_A_epoch_35_SIMS",
+      "variant": "base35_A",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8617924714618636,
+      "metrics": {
+        "WAF": 0.8617924714618636,
+        "ACC": 0.8608247422680413
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_A_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "bce167a4c27f8a656e0a2e5866b037c9a4162536f84ff29b44a2aa9728fed346",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:05:30.423757+08:00",
+      "weight": "base35",
+      "ablation": "A",
+      "WAF": 0.8617924714618636,
+      "ACC": 0.8608247422680413
+    },
+    {
+      "job_id": "base35_B_epoch_35_MER2023",
+      "variant": "base35_B",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7278363700959244,
+      "metrics": {
+        "HIT": 0.7278363700959244,
+        "M": 0.48888680234820414,
+        "mean_extracted_labels": 3.493917274939173,
+        "empty_extracted_labels": 10
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_B_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "3cf945dcaedde8d32c3350adc719b398ba2c9a97b25ac1e6e3db6df9a2054c12",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:09:34.922449+08:00",
+      "weight": "base35",
+      "ablation": "B",
+      "HIT": 0.7278363700959244,
+      "M": 0.48888680234820414,
+      "mean_extracted_labels": 3.493917274939173,
+      "empty_extracted_labels": 10
+    },
+    {
+      "job_id": "base35_B_epoch_35_OVMERDPlus",
+      "variant": "base35_B",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6044143929497456,
+      "metrics": {
+        "F_s": 0.6044143929497456,
+        "P_s": 0.5820793165173439,
+        "R_s": 0.6305853415268677,
+        "mean_extracted_labels": 3.537593984962406,
+        "empty_extracted_labels": 4
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_B_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "6ca921fe7cb7019ecda941bf7307beab2b2679a426825fcd0177bff69bbf89e9",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:07:44.922745+08:00",
+      "weight": "base35",
+      "ablation": "B",
+      "F_s": 0.6044143929497456,
+      "P_s": 0.5820793165173439,
+      "R_s": 0.6305853415268677,
+      "mean_extracted_labels": 3.537593984962406,
+      "empty_extracted_labels": 4
+    },
+    {
+      "job_id": "base35_B_epoch_35_SIMS",
+      "variant": "base35_B",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8650721456967667,
+      "metrics": {
+        "WAF": 0.8650721456967667,
+        "ACC": 0.865979381443299
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_B_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "e33662823d3e8c7ab761f9483de191af34e1bb121572dfa67e1d0d10dfd2ac99",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:05:31.944907+08:00",
+      "weight": "base35",
+      "ablation": "B",
+      "WAF": 0.8650721456967667,
+      "ACC": 0.865979381443299
+    },
+    {
+      "job_id": "base35_C_epoch_35_MER2023",
+      "variant": "base35_C",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7233923767954118,
+      "metrics": {
+        "HIT": 0.7233923767954118,
+        "M": 0.4780415841919166,
+        "mean_extracted_labels": 3.6690997566909975,
+        "empty_extracted_labels": 2
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_C_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "7547f2e0beb22a6bba1eb3ca7d891f310dd1b61254a4af68b21c72daf0407f97",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:09:47.771420+08:00",
+      "weight": "base35",
+      "ablation": "C",
+      "HIT": 0.7233923767954118,
+      "M": 0.4780415841919166,
+      "mean_extracted_labels": 3.6690997566909975,
+      "empty_extracted_labels": 2
+    },
+    {
+      "job_id": "base35_C_epoch_35_OVMERDPlus",
+      "variant": "base35_C",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6075725787730154,
+      "metrics": {
+        "F_s": 0.6075725787730154,
+        "P_s": 0.5802915843815819,
+        "R_s": 0.6404519238855017,
+        "mean_extracted_labels": 3.693609022556391,
+        "empty_extracted_labels": 6
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_C_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "a2cded54a24a4a511189a0c468d908072d30e4157f01c94761adc1780c8c2a25",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:08:02.275145+08:00",
+      "weight": "base35",
+      "ablation": "C",
+      "F_s": 0.6075725787730154,
+      "P_s": 0.5802915843815819,
+      "R_s": 0.6404519238855017,
+      "mean_extracted_labels": 3.693609022556391,
+      "empty_extracted_labels": 6
+    },
+    {
+      "job_id": "base35_C_epoch_35_SIMS",
+      "variant": "base35_C",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8571567393738652,
+      "metrics": {
+        "WAF": 0.8571567393738652,
+        "ACC": 0.8582474226804123
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_C_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "83959a02ea31eeab343db3f38ec04b32c510a51e97d5f50b92384068d9f2e80f",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:05:54.283422+08:00",
+      "weight": "base35",
+      "ablation": "C",
+      "WAF": 0.8571567393738652,
+      "ACC": 0.8582474226804123
+    },
+    {
+      "job_id": "base35_D_epoch_35_MER2023",
+      "variant": "base35_D",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7376704055220016,
+      "metrics": {
+        "HIT": 0.7376704055220016,
+        "M": 0.46054509465563614,
+        "mean_extracted_labels": 3.2992700729927007,
+        "empty_extracted_labels": 9
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_D_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "d7646a8a7218e76eab9e04eda5bc756abca26151705742fde7ddd2eace0f149a",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:09:49.347185+08:00",
+      "weight": "base35",
+      "ablation": "D",
+      "HIT": 0.7376704055220016,
+      "M": 0.46054509465563614,
+      "mean_extracted_labels": 3.2992700729927007,
+      "empty_extracted_labels": 9
+    },
+    {
+      "job_id": "base35_D_epoch_35_OVMERDPlus",
+      "variant": "base35_D",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.5905533079120324,
+      "metrics": {
+        "F_s": 0.5905533079120324,
+        "P_s": 0.5562933786405342,
+        "R_s": 0.6309485484242515,
+        "mean_extracted_labels": 3.287593984962406,
+        "empty_extracted_labels": 3
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_D_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "2291ec87d8489c66a59cacbf20f02d9b885e3c6028dad46698ba530b0ba4b543",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:08:03.563017+08:00",
+      "weight": "base35",
+      "ablation": "D",
+      "F_s": 0.5905533079120324,
+      "P_s": 0.5562933786405342,
+      "R_s": 0.6309485484242515,
+      "mean_extracted_labels": 3.287593984962406,
+      "empty_extracted_labels": 3
+    },
+    {
+      "job_id": "base35_D_epoch_35_SIMS",
+      "variant": "base35_D",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.865544300014941,
+      "metrics": {
+        "WAF": 0.865544300014941,
+        "ACC": 0.865979381443299
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_D_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "2ec9a0821af269ea06d8659a6a8c0fcbe23460bd6a2f4f51e8c31072be46b5e5",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:05:54.398645+08:00",
+      "weight": "base35",
+      "ablation": "D",
+      "WAF": 0.865544300014941,
+      "ACC": 0.865979381443299
+    },
+    {
+      "job_id": "base35_E_epoch_35_MER2023",
+      "variant": "base35_E",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7397107039537126,
+      "metrics": {
+        "HIT": 0.7397107039537126,
+        "M": 0.4419112148742155,
+        "mean_extracted_labels": 3.457420924574209,
+        "empty_extracted_labels": 7
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_E_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "0bd006e2b42cdf94459d4de32702f45e61153e48627d07a945bfdf3d18679e70",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:10:02.547036+08:00",
+      "weight": "base35",
+      "ablation": "E",
+      "HIT": 0.7397107039537126,
+      "M": 0.4419112148742155,
+      "mean_extracted_labels": 3.457420924574209,
+      "empty_extracted_labels": 7
+    },
+    {
+      "job_id": "base35_E_epoch_35_OVMERDPlus",
+      "variant": "base35_E",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.5910288007752049,
+      "metrics": {
+        "F_s": 0.5910288007752049,
+        "P_s": 0.5434899487750227,
+        "R_s": 0.6493579404465541,
+        "mean_extracted_labels": 3.357142857142857,
+        "empty_extracted_labels": 4
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_E_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "1b96bc878afb064464ea5a7178accf387eb553a26bc1a53a912f6991b68c58b1",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:08:21.014515+08:00",
+      "weight": "base35",
+      "ablation": "E",
+      "F_s": 0.5910288007752049,
+      "P_s": 0.5434899487750227,
+      "R_s": 0.6493579404465541,
+      "mean_extracted_labels": 3.357142857142857,
+      "empty_extracted_labels": 4
+    },
+    {
+      "job_id": "base35_E_epoch_35_SIMS",
+      "variant": "base35_E",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8451150891484056,
+      "metrics": {
+        "WAF": 0.8451150891484056,
+        "ACC": 0.845360824742268
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_E_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "efd857129e6c8641e49f1afad8f84bd48a1af28953eedb3f65fb2c7a29515561",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:06:17.174251+08:00",
+      "weight": "base35",
+      "ablation": "E",
+      "WAF": 0.8451150891484056,
+      "ACC": 0.845360824742268
+    },
+    {
+      "job_id": "base35_F_epoch_35_MER2023",
+      "variant": "base35_F",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7484525199208243,
+      "metrics": {
+        "HIT": 0.7484525199208243,
+        "M": 0.48298617807778854,
+        "mean_extracted_labels": 3.318734793187348,
+        "empty_extracted_labels": 7
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_F_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "245a9538e7b76bf920cc7f045eb6413281d9560f39cd5f3d213c6cfcb0cc08dd",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:10:04.073577+08:00",
+      "weight": "base35",
+      "ablation": "F",
+      "HIT": 0.7484525199208243,
+      "M": 0.48298617807778854,
+      "mean_extracted_labels": 3.318734793187348,
+      "empty_extracted_labels": 7
+    },
+    {
+      "job_id": "base35_F_epoch_35_OVMERDPlus",
+      "variant": "base35_F",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.5980376679016924,
+      "metrics": {
+        "F_s": 0.5980376679016924,
+        "P_s": 0.5643938054912654,
+        "R_s": 0.6371210363270333,
+        "mean_extracted_labels": 3.204887218045113,
+        "empty_extracted_labels": 6
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_F_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "399e10ff3947d861fc364ada3f17a7d20fdfe64c8b3c15447e93b04ff7188959",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:08:22.028676+08:00",
+      "weight": "base35",
+      "ablation": "F",
+      "F_s": 0.5980376679016924,
+      "P_s": 0.5643938054912654,
+      "R_s": 0.6371210363270333,
+      "mean_extracted_labels": 3.204887218045113,
+      "empty_extracted_labels": 6
+    },
+    {
+      "job_id": "base35_F_epoch_35_SIMS",
+      "variant": "base35_F",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8626012889094195,
+      "metrics": {
+        "WAF": 0.8626012889094195,
+        "ACC": 0.8634020618556701
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/base35_F_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "0b97f63841e40debfa2e3c828cc62df97861d21797ecc22203485b155abcae09",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:06:15.918436+08:00",
+      "weight": "base35",
+      "ablation": "F",
+      "WAF": 0.8626012889094195,
+      "ACC": 0.8634020618556701
+    },
+    {
+      "job_id": "graph40_A_epoch_40_MER2023",
+      "variant": "graph40_A",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7577404456174188,
+      "metrics": {
+        "HIT": 0.7577404456174188,
+        "M": 0.5139919470808169,
+        "mean_extracted_labels": 3.5717761557177616,
+        "empty_extracted_labels": 5
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_A_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "86dbb137601e1b7d4bfbcffac8f8faef910655c71addf628aafa12c16f8af30b",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:10:17.492699+08:00",
+      "weight": "graph40",
+      "ablation": "A",
+      "HIT": 0.7577404456174188,
+      "M": 0.5139919470808169,
+      "mean_extracted_labels": 3.5717761557177616,
+      "empty_extracted_labels": 5
+    },
+    {
+      "job_id": "graph40_A_epoch_40_OVMERDPlus",
+      "variant": "graph40_A",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.5982515547357415,
+      "metrics": {
+        "F_s": 0.5982515547357415,
+        "P_s": 0.5820399178854349,
+        "R_s": 0.6164933053873465,
+        "mean_extracted_labels": 3.5169172932330826,
+        "empty_extracted_labels": 6
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_A_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "73800acdb4a26fe6c336ab14ad8f84d24c8b61ff8a8b1a052d9987a4ddbf8a10",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:08:40.895692+08:00",
+      "weight": "graph40",
+      "ablation": "A",
+      "F_s": 0.5982515547357415,
+      "P_s": 0.5820399178854349,
+      "R_s": 0.6164933053873465,
+      "mean_extracted_labels": 3.5169172932330826,
+      "empty_extracted_labels": 6
+    },
+    {
+      "job_id": "graph40_A_epoch_40_SIMS",
+      "variant": "graph40_A",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.842574982760524,
+      "metrics": {
+        "WAF": 0.842574982760524,
+        "ACC": 0.8402061855670103
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_A_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "44d1e3f0d7cca0670829b1b98a28d46bc898da9fdaacc6eb50f4d73404809905",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:06:38.252944+08:00",
+      "weight": "graph40",
+      "ablation": "A",
+      "WAF": 0.842574982760524,
+      "ACC": 0.8402061855670103
+    },
+    {
+      "job_id": "graph40_B_epoch_40_MER2023",
+      "variant": "graph40_B",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7545348424097853,
+      "metrics": {
+        "HIT": 0.7545348424097853,
+        "M": 0.5140782283577796,
+        "mean_extracted_labels": 3.542579075425791,
+        "empty_extracted_labels": 3
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_B_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "abee85f481aaf7b50efa1625e3963e1558d5f4e180a143d394d264dc15bd973b",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:10:19.026386+08:00",
+      "weight": "graph40",
+      "ablation": "B",
+      "HIT": 0.7545348424097853,
+      "M": 0.5140782283577796,
+      "mean_extracted_labels": 3.542579075425791,
+      "empty_extracted_labels": 3
+    },
+    {
+      "job_id": "graph40_B_epoch_40_OVMERDPlus",
+      "variant": "graph40_B",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.5955436212201691,
+      "metrics": {
+        "F_s": 0.5955436212201691,
+        "P_s": 0.5780914870976186,
+        "R_s": 0.6152917590914855,
+        "mean_extracted_labels": 3.4981203007518795,
+        "empty_extracted_labels": 5
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_B_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "820bebbe9c434c67ac3c67980bee2c46a8ecc5a31660d1d22b45fc3467e58897",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:08:41.562244+08:00",
+      "weight": "graph40",
+      "ablation": "B",
+      "F_s": 0.5955436212201691,
+      "P_s": 0.5780914870976186,
+      "R_s": 0.6152917590914855,
+      "mean_extracted_labels": 3.4981203007518795,
+      "empty_extracted_labels": 5
+    },
+    {
+      "job_id": "graph40_B_epoch_40_SIMS",
+      "variant": "graph40_B",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8476532091230877,
+      "metrics": {
+        "WAF": 0.8476532091230877,
+        "ACC": 0.845360824742268
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_B_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "28fc3262e5bc308200cf8ab2ba25d1d1feaebe99ec700b9c920a4a5cfa91f3b2",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:06:39.952140+08:00",
+      "weight": "graph40",
+      "ablation": "B",
+      "WAF": 0.8476532091230877,
+      "ACC": 0.845360824742268
+    },
+    {
+      "job_id": "graph40_C_epoch_40_MER2023",
+      "variant": "graph40_C",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7377800334974369,
+      "metrics": {
+        "HIT": 0.7377800334974369,
+        "M": 0.5008683956757853,
+        "mean_extracted_labels": 3.4720194647201947,
+        "empty_extracted_labels": 4
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_C_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "e08a3f3bb49c4a593da734a27ab4111c19d7fa12956b332461202a37df554887",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:10:32.030684+08:00",
+      "weight": "graph40",
+      "ablation": "C",
+      "HIT": 0.7377800334974369,
+      "M": 0.5008683956757853,
+      "mean_extracted_labels": 3.4720194647201947,
+      "empty_extracted_labels": 4
+    },
+    {
+      "job_id": "graph40_C_epoch_40_OVMERDPlus",
+      "variant": "graph40_C",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6062092402746833,
+      "metrics": {
+        "F_s": 0.6062092402746833,
+        "P_s": 0.5923833766226319,
+        "R_s": 0.6220514169381179,
+        "mean_extracted_labels": 3.4154135338345863,
+        "empty_extracted_labels": 6
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_C_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "5b4c82b0d581e118509ad53a914e6dac95eb4f9d0b0b7101ec8037f975d97eb3",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:08:59.909059+08:00",
+      "weight": "graph40",
+      "ablation": "C",
+      "F_s": 0.6062092402746833,
+      "P_s": 0.5923833766226319,
+      "R_s": 0.6220514169381179,
+      "mean_extracted_labels": 3.4154135338345863,
+      "empty_extracted_labels": 6
+    },
+    {
+      "job_id": "graph40_C_epoch_40_SIMS",
+      "variant": "graph40_C",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8476532091230877,
+      "metrics": {
+        "WAF": 0.8476532091230877,
+        "ACC": 0.845360824742268
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_C_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "f22b0f914d9589e12d518012ed038fb7b42d2269842e9748863fb7bd271a3f2f",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:07:00.982362+08:00",
+      "weight": "graph40",
+      "ablation": "C",
+      "WAF": 0.8476532091230877,
+      "ACC": 0.845360824742268
+    },
+    {
+      "job_id": "graph40_D_epoch_40_MER2023",
+      "variant": "graph40_D",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7538791047048672,
+      "metrics": {
+        "HIT": 0.7538791047048672,
+        "M": 0.5158963947960548,
+        "mean_extracted_labels": 3.5547445255474455,
+        "empty_extracted_labels": 1
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_D_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "6582d3a88e4b5a7156e506755c1da9ae6aabcfb218605fbb1854744e03d4848c",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:10:33.912322+08:00",
+      "weight": "graph40",
+      "ablation": "D",
+      "HIT": 0.7538791047048672,
+      "M": 0.5158963947960548,
+      "mean_extracted_labels": 3.5547445255474455,
+      "empty_extracted_labels": 1
+    },
+    {
+      "job_id": "graph40_D_epoch_40_OVMERDPlus",
+      "variant": "graph40_D",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.5977509435430075,
+      "metrics": {
+        "F_s": 0.5977509435430075,
+        "P_s": 0.581833864689042,
+        "R_s": 0.6155516288274024,
+        "mean_extracted_labels": 3.424812030075188,
+        "empty_extracted_labels": 7
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_D_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "9ff39d50a2381d19b8519e1e2c2face0198116235dc2583779e2bf91434f586b",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:09:00.810197+08:00",
+      "weight": "graph40",
+      "ablation": "D",
+      "F_s": 0.5977509435430075,
+      "P_s": 0.581833864689042,
+      "R_s": 0.6155516288274024,
+      "mean_extracted_labels": 3.424812030075188,
+      "empty_extracted_labels": 7
+    },
+    {
+      "job_id": "graph40_D_epoch_40_SIMS",
+      "variant": "graph40_D",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8399742079660354,
+      "metrics": {
+        "WAF": 0.8399742079660354,
+        "ACC": 0.8376288659793815
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_D_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "94dc24751b037e769bce868ed88f0554de1f49183df4c22cb4817f55812a7b54",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:07:02.567045+08:00",
+      "weight": "graph40",
+      "ablation": "D",
+      "WAF": 0.8399742079660354,
+      "ACC": 0.8376288659793815
+    },
+    {
+      "job_id": "graph40_E_epoch_40_MER2023",
+      "variant": "graph40_E",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7428066791859107,
+      "metrics": {
+        "HIT": 0.7428066791859107,
+        "M": 0.5054094977076249,
+        "mean_extracted_labels": 3.491484184914842,
+        "empty_extracted_labels": 4
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_E_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "812a050282a455280055d364e55639a357f262d582d9ffcb28bc0e3d831fec2d",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:10:46.356482+08:00",
+      "weight": "graph40",
+      "ablation": "E",
+      "HIT": 0.7428066791859107,
+      "M": 0.5054094977076249,
+      "mean_extracted_labels": 3.491484184914842,
+      "empty_extracted_labels": 4
+    },
+    {
+      "job_id": "graph40_E_epoch_40_OVMERDPlus",
+      "variant": "graph40_E",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6047560509566988,
+      "metrics": {
+        "F_s": 0.6047560509566988,
+        "P_s": 0.5943610526478947,
+        "R_s": 0.616891036753094,
+        "mean_extracted_labels": 3.3778195488721803,
+        "empty_extracted_labels": 5
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_E_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "81dab69ad8f74054ce3da2a73c162ab39c1d9239b98fba7636cc095872593ad5",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:09:18.663304+08:00",
+      "weight": "graph40",
+      "ablation": "E",
+      "F_s": 0.6047560509566988,
+      "P_s": 0.5943610526478947,
+      "R_s": 0.616891036753094,
+      "mean_extracted_labels": 3.3778195488721803,
+      "empty_extracted_labels": 5
+    },
+    {
+      "job_id": "graph40_E_epoch_40_SIMS",
+      "variant": "graph40_E",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8299424810388912,
+      "metrics": {
+        "WAF": 0.8299424810388912,
+        "ACC": 0.8273195876288659
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_E_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "ac608264c7c30103a4d2c9571300c6726511563ea72713cbde889407369e75a0",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-27T23:07:23.638631+08:00",
+      "weight": "graph40",
+      "ablation": "E",
+      "WAF": 0.8299424810388912,
+      "ACC": 0.8273195876288659
+    },
+    {
+      "job_id": "graph40_F_epoch_40_MER2023",
+      "variant": "graph40_F",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7571212505709791,
+      "metrics": {
+        "HIT": 0.7571212505709791,
+        "M": 0.5232692145020217,
+        "mean_extracted_labels": 3.420924574209246,
+        "empty_extracted_labels": 2
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_F_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "8a7340063f8205b2d9120c24a68f23537228e98102d879b2fdf9685e25b0c00f",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:10:48.403090+08:00",
+      "weight": "graph40",
+      "ablation": "F",
+      "HIT": 0.7571212505709791,
+      "M": 0.5232692145020217,
+      "mean_extracted_labels": 3.420924574209246,
+      "empty_extracted_labels": 2
+    },
+    {
+      "job_id": "graph40_F_epoch_40_OVMERDPlus",
+      "variant": "graph40_F",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6023169212067938,
+      "metrics": {
+        "F_s": 0.6023169212067938,
+        "P_s": 0.5872176885436593,
+        "R_s": 0.6194699370279041,
+        "mean_extracted_labels": 3.456766917293233,
+        "empty_extracted_labels": 3
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_F_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "c43159406eb336c6151af0f9b2b61e4a015c04b3b98cfa4b8ac08589cfbe4085",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:09:19.979786+08:00",
+      "weight": "graph40",
+      "ablation": "F",
+      "F_s": 0.6023169212067938,
+      "P_s": 0.5872176885436593,
+      "R_s": 0.6194699370279041,
+      "mean_extracted_labels": 3.456766917293233,
+      "empty_extracted_labels": 3
+    },
+    {
+      "job_id": "graph40_F_epoch_40_SIMS",
+      "variant": "graph40_F",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8302687110745048,
+      "metrics": {
+        "WAF": 0.8302687110745048,
+        "ACC": 0.8273195876288659
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation/runs/prompt_ablation_20261027_215553/predictions/graph40_F_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "2aaeaf8c312207096268ea2e4c2d8c81b32080037a3e53d014c7f801c161ce92",
+      "plan_id": "e4f4d2e7154f4473bf3acc1ded3add69e8ffd2ff537a2a628622ddfa845d6b69",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-27T23:07:25.239454+08:00",
+      "weight": "graph40",
+      "ablation": "F",
+      "WAF": 0.8302687110745048,
+      "ACC": 0.8273195876288659
+    },
+    {
+      "job_id": "base35_G_epoch_35_MER2023",
+      "variant": "base35_G",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7245211389128559,
+      "metrics": {
+        "HIT": 0.7245211389128559,
+        "M": 0.4803848821668443,
+        "mean_extracted_labels": 3.559610705596107,
+        "empty_extracted_labels": 6
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/base35_G_epoch_35_MER2023/name2reason.npz",
+      "raw_sha256": "d72dc928084a1baad752d5b7a99e989e9264d7082265e2a5fc49bf27bea80295",
+      "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-28T00:34:40.811403+08:00",
+      "weight": "base35",
+      "ablation": "G",
+      "HIT": 0.7245211389128559,
+      "M": 0.4803848821668443,
+      "mean_extracted_labels": 3.559610705596107,
+      "empty_extracted_labels": 6
+    },
+    {
+      "job_id": "base35_G_epoch_35_OVMERDPlus",
+      "variant": "base35_G",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6035784696530144,
+      "metrics": {
+        "F_s": 0.6035784696530144,
+        "P_s": 0.5825826870759251,
+        "R_s": 0.6280701266078108,
+        "mean_extracted_labels": 3.4530075187969924,
+        "empty_extracted_labels": 8
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/base35_G_epoch_35_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "b0a68afe2347b4642f76798469ecaf1c0fbff1c03768fb1b1a14012668b68954",
+      "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-28T00:34:25.600990+08:00",
+      "weight": "base35",
+      "ablation": "G",
+      "F_s": 0.6035784696530144,
+      "P_s": 0.5825826870759251,
+      "R_s": 0.6280701266078108,
+      "mean_extracted_labels": 3.4530075187969924,
+      "empty_extracted_labels": 8
+    },
+    {
+      "job_id": "base35_G_epoch_35_SIMS",
+      "variant": "base35_G",
+      "base_epoch": 35,
+      "epoch": 35,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8648218325493091,
+      "metrics": {
+        "WAF": 0.8648218325493091,
+        "ACC": 0.865979381443299
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+        "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+        "epoch": 35
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/base35_G_epoch_35_SIMS/name2reason.npz",
+      "raw_sha256": "132c75c1656b005ddffa8f2e1e0cec8bc57af8a7837fa5bb03f96b8ef36342f8",
+      "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-28T00:34:06.541297+08:00",
+      "weight": "base35",
+      "ablation": "G",
+      "WAF": 0.8648218325493091,
+      "ACC": 0.865979381443299
+    },
+    {
+      "job_id": "graph40_G_epoch_40_MER2023",
+      "variant": "graph40_G",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7552636654316602,
+      "metrics": {
+        "HIT": 0.7552636654316602,
+        "M": 0.5170980730514813,
+        "mean_extracted_labels": 3.4793187347931873,
+        "empty_extracted_labels": 5
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/graph40_G_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "ad89635d1e45bcdad00cb33886b1d48c82430f97d9702f5db90794259f7fe4ac",
+      "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-28T00:34:42.000587+08:00",
+      "weight": "graph40",
+      "ablation": "G",
+      "HIT": 0.7552636654316602,
+      "M": 0.5170980730514813,
+      "mean_extracted_labels": 3.4793187347931873,
+      "empty_extracted_labels": 5
+    },
+    {
+      "job_id": "graph40_G_epoch_40_OVMERDPlus",
+      "variant": "graph40_G",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6071351103203513,
+      "metrics": {
+        "F_s": 0.6071351103203513,
+        "P_s": 0.5905449059030675,
+        "R_s": 0.6258393161082701,
+        "mean_extracted_labels": 3.4398496240601504,
+        "empty_extracted_labels": 3
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/graph40_G_epoch_40_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "0dc90fbff920d269fd46dc209040bd42e36f2b840a622d240291811513af5e1e",
+      "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-28T00:34:27.463407+08:00",
+      "weight": "graph40",
+      "ablation": "G",
+      "F_s": 0.6071351103203513,
+      "P_s": 0.5905449059030675,
+      "R_s": 0.6258393161082701,
+      "mean_extracted_labels": 3.4398496240601504,
+      "empty_extracted_labels": 3
+    },
+    {
+      "job_id": "graph40_G_epoch_40_SIMS",
+      "variant": "graph40_G",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8301698323775428,
+      "metrics": {
+        "WAF": 0.8301698323775428,
+        "ACC": 0.8273195876288659
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+        "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+        "epoch": 40,
+        "loss": 0.6698148677974939
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/graph40_G_epoch_40_SIMS/name2reason.npz",
+      "raw_sha256": "b685142e3696d8db0254680e08789bb3caab1a1a2e367534205844fd482d52ab",
+      "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+      "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-28T00:34:08.243846+08:00",
+      "weight": "graph40",
+      "ablation": "G",
+      "WAF": 0.8301698323775428,
+      "ACC": 0.8273195876288659
+    }
+  ],
+  "pairs": [
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-A",
+      "samples": 411,
+      "G": {
+        "HIT": 72.45211389128559,
+        "M": 48.03848821668442
+      },
+      "reference": {
+        "HIT": 70.81662690960768,
+        "M": 50.114787934155544
+      },
+      "delta": {
+        "HIT": 1.6354869816779138,
+        "M": -2.076299717471125
+      },
+      "ci95": {
+        "HIT": [
+          -2.256620880775804,
+          5.331615751577425
+        ],
+        "M": [
+          -5.168461021017824,
+          0.9228491117514023
+        ]
+      },
+      "responses_changed": 355,
+      "response_change_rate": 0.8637469586374696,
+      "corrected_views": 160,
+      "harmed_views": 134,
+      "improved_samples": 56,
+      "worsened_samples": 51,
+      "G_mean_mapped_candidates": 1.5367396593673965,
+      "old_mean_mapped_candidates": 1.4788321167883212,
+      "G_mean_extracted_labels": 3.559610705596107,
+      "old_mean_extracted_labels": 3.119221411192214
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-B",
+      "samples": 411,
+      "G": {
+        "HIT": 72.45211389128559,
+        "M": 48.03848821668442
+      },
+      "reference": {
+        "HIT": 72.78363700959244,
+        "M": 48.88868023482041
+      },
+      "delta": {
+        "HIT": -0.33152311830685344,
+        "M": -0.8501920181359923
+      },
+      "ci95": {
+        "HIT": [
+          -3.706548394629495,
+          3.082165391238921
+        ],
+        "M": [
+          -3.6754182521832837,
+          2.0056994702313213
+        ]
+      },
+      "responses_changed": 324,
+      "response_change_rate": 0.7883211678832117,
+      "corrected_views": 110,
+      "harmed_views": 115,
+      "improved_samples": 41,
+      "worsened_samples": 48,
+      "G_mean_mapped_candidates": 1.5367396593673965,
+      "old_mean_mapped_candidates": 1.627250608272506,
+      "G_mean_extracted_labels": 3.559610705596107,
+      "old_mean_extracted_labels": 3.493917274939173
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "samples": 411,
+      "G": {
+        "HIT": 72.45211389128559,
+        "M": 48.03848821668442
+      },
+      "reference": {
+        "HIT": 72.33923767954118,
+        "M": 47.80415841919165
+      },
+      "delta": {
+        "HIT": 0.11287621174440599,
+        "M": 0.2343297974927716
+      },
+      "ci95": {
+        "HIT": [
+          -2.6539543820055345,
+          2.7482372150659153
+        ],
+        "M": [
+          -2.1362423778318513,
+          2.5379713458268705
+        ]
+      },
+      "responses_changed": 273,
+      "response_change_rate": 0.6642335766423357,
+      "corrected_views": 83,
+      "harmed_views": 81,
+      "improved_samples": 35,
+      "worsened_samples": 36,
+      "G_mean_mapped_candidates": 1.5367396593673965,
+      "old_mean_mapped_candidates": 1.694403892944039,
+      "G_mean_extracted_labels": 3.559610705596107,
+      "old_mean_extracted_labels": 3.6690997566909975
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-D",
+      "samples": 411,
+      "G": {
+        "HIT": 72.45211389128559,
+        "M": 48.03848821668442
+      },
+      "reference": {
+        "HIT": 73.76704055220016,
+        "M": 46.05450946556361
+      },
+      "delta": {
+        "HIT": -1.3149266609145727,
+        "M": 1.9839787511208073
+      },
+      "ci95": {
+        "HIT": [
+          -5.192725797627448,
+          2.498061557012523
+        ],
+        "M": [
+          -1.0730975667929652,
+          5.0136280071696255
+        ]
+      },
+      "responses_changed": 354,
+      "response_change_rate": 0.8613138686131386,
+      "corrected_views": 128,
+      "harmed_views": 149,
+      "improved_samples": 49,
+      "worsened_samples": 48,
+      "G_mean_mapped_candidates": 1.5367396593673965,
+      "old_mean_mapped_candidates": 1.7386861313868613,
+      "G_mean_extracted_labels": 3.559610705596107,
+      "old_mean_extracted_labels": 3.2992700729927007
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-E",
+      "samples": 411,
+      "G": {
+        "HIT": 72.45211389128559,
+        "M": 48.03848821668442
+      },
+      "reference": {
+        "HIT": 73.97107039537126,
+        "M": 44.19112148742153
+      },
+      "delta": {
+        "HIT": -1.5189565040856778,
+        "M": 3.847366729262891
+      },
+      "ci95": {
+        "HIT": [
+          -5.199485184933558,
+          2.00824297726601
+        ],
+        "M": [
+          0.9422052950178595,
+          6.707988872370972
+        ]
+      },
+      "responses_changed": 334,
+      "response_change_rate": 0.8126520681265207,
+      "corrected_views": 116,
+      "harmed_views": 140,
+      "improved_samples": 43,
+      "worsened_samples": 48,
+      "G_mean_mapped_candidates": 1.5367396593673965,
+      "old_mean_mapped_candidates": 1.861800486618005,
+      "G_mean_extracted_labels": 3.559610705596107,
+      "old_mean_extracted_labels": 3.457420924574209
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-F",
+      "samples": 411,
+      "G": {
+        "HIT": 72.45211389128559,
+        "M": 48.03848821668442
+      },
+      "reference": {
+        "HIT": 74.84525199208242,
+        "M": 48.29861780777886
+      },
+      "delta": {
+        "HIT": -2.3931381007968433,
+        "M": -0.2601295910944379
+      },
+      "ci95": {
+        "HIT": [
+          -5.473724152348615,
+          0.6143261755727248
+        ],
+        "M": [
+          -2.4839326045661148,
+          2.010526222284285
+        ]
+      },
+      "responses_changed": 133,
+      "response_change_rate": 0.3236009732360097,
+      "corrected_views": 54,
+      "harmed_views": 92,
+      "improved_samples": 15,
+      "worsened_samples": 25,
+      "G_mean_mapped_candidates": 1.5367396593673965,
+      "old_mean_mapped_candidates": 1.710462287104623,
+      "G_mean_extracted_labels": 3.559610705596107,
+      "old_mean_extracted_labels": 3.318734793187348
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-A",
+      "samples": 457,
+      "G": {
+        "WAF": 86.48218325493092,
+        "ACC": 86.5979381443299
+      },
+      "reference": {
+        "WAF": 86.17924714618636,
+        "ACC": 86.08247422680412
+      },
+      "delta": {
+        "WAF": 0.3029361087445559,
+        "ACC": 0.5154639175257714
+      },
+      "ci95": {
+        "WAF": [
+          -3.106911637427374,
+          3.8297154459227003
+        ],
+        "ACC": [
+          -2.8647703165796377,
+          4.043314340305016
+        ]
+      },
+      "responses_changed": 403,
+      "response_change_rate": 0.8818380743982495,
+      "scored_samples": 388,
+      "corrected": 24,
+      "harmed": 22,
+      "stable_correct": 312,
+      "stable_wrong": 30,
+      "G_confusion": [
+        [
+          227,
+          21
+        ],
+        [
+          31,
+          109
+        ]
+      ],
+      "old_confusion": [
+        [
+          216,
+          32
+        ],
+        [
+          22,
+          118
+        ]
+      ]
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "samples": 457,
+      "G": {
+        "WAF": 86.48218325493092,
+        "ACC": 86.5979381443299
+      },
+      "reference": {
+        "WAF": 86.50721456967668,
+        "ACC": 86.5979381443299
+      },
+      "delta": {
+        "WAF": -0.02503131474576037,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -3.2822389494539257,
+          3.222906195349678
+        ],
+        "ACC": [
+          -3.141567382611208,
+          3.2260070614668535
+        ]
+      },
+      "responses_changed": 369,
+      "response_change_rate": 0.8074398249452954,
+      "scored_samples": 388,
+      "corrected": 20,
+      "harmed": 20,
+      "stable_correct": 316,
+      "stable_wrong": 32,
+      "G_confusion": [
+        [
+          227,
+          21
+        ],
+        [
+          31,
+          109
+        ]
+      ],
+      "old_confusion": [
+        [
+          226,
+          22
+        ],
+        [
+          30,
+          110
+        ]
+      ]
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "samples": 457,
+      "G": {
+        "WAF": 86.48218325493092,
+        "ACC": 86.5979381443299
+      },
+      "reference": {
+        "WAF": 85.71567393738651,
+        "ACC": 85.82474226804123
+      },
+      "delta": {
+        "WAF": 0.7665093175443949,
+        "ACC": 0.7731958762886681
+      },
+      "ci95": {
+        "WAF": [
+          -1.7949501348212904,
+          3.3531117398594787
+        ],
+        "ACC": [
+          -1.7544961650357103,
+          3.3333333333333326
+        ]
+      },
+      "responses_changed": 332,
+      "response_change_rate": 0.7264770240700219,
+      "scored_samples": 388,
+      "corrected": 14,
+      "harmed": 11,
+      "stable_correct": 322,
+      "stable_wrong": 41,
+      "G_confusion": [
+        [
+          227,
+          21
+        ],
+        [
+          31,
+          109
+        ]
+      ],
+      "old_confusion": [
+        [
+          225,
+          23
+        ],
+        [
+          32,
+          108
+        ]
+      ]
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-D",
+      "samples": 457,
+      "G": {
+        "WAF": 86.48218325493092,
+        "ACC": 86.5979381443299
+      },
+      "reference": {
+        "WAF": 86.5544300014941,
+        "ACC": 86.5979381443299
+      },
+      "delta": {
+        "WAF": -0.07224674656318708,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -3.361107241139018,
+          3.2293392650790134
+        ],
+        "ACC": [
+          -3.2610061175442357,
+          3.316326530612246
+        ]
+      },
+      "responses_changed": 390,
+      "response_change_rate": 0.8533916849015317,
+      "scored_samples": 388,
+      "corrected": 21,
+      "harmed": 21,
+      "stable_correct": 315,
+      "stable_wrong": 31,
+      "G_confusion": [
+        [
+          227,
+          21
+        ],
+        [
+          31,
+          109
+        ]
+      ],
+      "old_confusion": [
+        [
+          224,
+          24
+        ],
+        [
+          28,
+          112
+        ]
+      ]
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-E",
+      "samples": 457,
+      "G": {
+        "WAF": 86.48218325493092,
+        "ACC": 86.5979381443299
+      },
+      "reference": {
+        "WAF": 84.51150891484056,
+        "ACC": 84.5360824742268
+      },
+      "delta": {
+        "WAF": 1.9706743400903504,
+        "ACC": 2.0618556701030966
+      },
+      "ci95": {
+        "WAF": [
+          -1.1027546696229509,
+          4.915494381995946
+        ],
+        "ACC": [
+          -1.0178117048346036,
+          5.013192612137207
+        ]
+      },
+      "responses_changed": 359,
+      "response_change_rate": 0.7855579868708972,
+      "scored_samples": 388,
+      "corrected": 22,
+      "harmed": 14,
+      "stable_correct": 314,
+      "stable_wrong": 38,
+      "G_confusion": [
+        [
+          227,
+          21
+        ],
+        [
+          31,
+          109
+        ]
+      ],
+      "old_confusion": [
+        [
+          219,
+          29
+        ],
+        [
+          31,
+          109
+        ]
+      ]
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-F",
+      "samples": 457,
+      "G": {
+        "WAF": 86.48218325493092,
+        "ACC": 86.5979381443299
+      },
+      "reference": {
+        "WAF": 86.26012889094194,
+        "ACC": 86.34020618556701
+      },
+      "delta": {
+        "WAF": 0.22205436398896605,
+        "ACC": 0.2577319587628857
+      },
+      "ci95": {
+        "WAF": [
+          -1.6455292924397573,
+          2.0489728297710927
+        ],
+        "ACC": [
+          -1.5706806282722474,
+          2.067183462532296
+        ]
+      },
+      "responses_changed": 141,
+      "response_change_rate": 0.3085339168490153,
+      "scored_samples": 388,
+      "corrected": 7,
+      "harmed": 6,
+      "stable_correct": 329,
+      "stable_wrong": 46,
+      "G_confusion": [
+        [
+          227,
+          21
+        ],
+        [
+          31,
+          109
+        ]
+      ],
+      "old_confusion": [
+        [
+          225,
+          23
+        ],
+        [
+          30,
+          110
+        ]
+      ]
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-A",
+      "samples": 532,
+      "G": {
+        "F_s": 60.35784696530142,
+        "P_s": 58.258268707592485,
+        "R_s": 62.80701266078107
+      },
+      "reference": {
+        "F_s": 61.40530539454303,
+        "P_s": 61.77151197471403,
+        "R_s": 61.19010801570587
+      },
+      "delta": {
+        "F_s": -1.04745842924161,
+        "P_s": -3.5132432671215463,
+        "R_s": 1.6169046450752012
+      },
+      "ci95": {
+        "F_s": [
+          -3.160017730990951,
+          1.123196118057003
+        ],
+        "P_s": [
+          -5.813220413070091,
+          -1.2056252934571736
+        ],
+        "R_s": [
+          -0.7824198995511306,
+          4.027749217375418
+        ]
+      },
+      "responses_changed": 459,
+      "response_change_rate": 0.8627819548872181,
+      "diagnostic_sample_F_improved": 171,
+      "diagnostic_sample_F_worsened": 196,
+      "G_mean_mapped_candidates": 1.8105263157894738,
+      "old_mean_mapped_candidates": 1.6669172932330827,
+      "G_mean_extracted_labels": 3.4530075187969924,
+      "old_mean_extracted_labels": 3.2274436090225564
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "samples": 532,
+      "G": {
+        "F_s": 60.35784696530142,
+        "P_s": 58.258268707592485,
+        "R_s": 62.80701266078107
+      },
+      "reference": {
+        "F_s": 60.44143929497455,
+        "P_s": 58.20793165173438,
+        "R_s": 63.058534152686775
+      },
+      "delta": {
+        "F_s": -0.08359232967313224,
+        "P_s": 0.05033705585810733,
+        "R_s": -0.25152149190570405
+      },
+      "ci95": {
+        "F_s": [
+          -1.8790183756278167,
+          1.627974681855796
+        ],
+        "P_s": [
+          -1.8661761509576171,
+          1.903628787524632
+        ],
+        "R_s": [
+          -2.192045796633445,
+          1.6854357187914193
+        ]
+      },
+      "responses_changed": 409,
+      "response_change_rate": 0.768796992481203,
+      "diagnostic_sample_F_improved": 162,
+      "diagnostic_sample_F_worsened": 164,
+      "G_mean_mapped_candidates": 1.8105263157894738,
+      "old_mean_mapped_candidates": 1.8327067669172932,
+      "G_mean_extracted_labels": 3.4530075187969924,
+      "old_mean_extracted_labels": 3.537593984962406
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-C",
+      "samples": 532,
+      "G": {
+        "F_s": 60.35784696530142,
+        "P_s": 58.258268707592485,
+        "R_s": 62.80701266078107
+      },
+      "reference": {
+        "F_s": 60.75725787730154,
+        "P_s": 58.02915843815818,
+        "R_s": 64.04519238855018
+      },
+      "delta": {
+        "F_s": -0.3994109120001199,
+        "P_s": 0.22911026943430723,
+        "R_s": -1.2381797277691065
+      },
+      "ci95": {
+        "F_s": [
+          -2.038848222013648,
+          1.249445338490409
+        ],
+        "P_s": [
+          -1.509982297660142,
+          1.9113983761668418
+        ],
+        "R_s": [
+          -3.173049715325155,
+          0.72667401703641
+        ]
+      },
+      "responses_changed": 335,
+      "response_change_rate": 0.6296992481203008,
+      "diagnostic_sample_F_improved": 129,
+      "diagnostic_sample_F_worsened": 132,
+      "G_mean_mapped_candidates": 1.8105263157894738,
+      "old_mean_mapped_candidates": 1.900375939849624,
+      "G_mean_extracted_labels": 3.4530075187969924,
+      "old_mean_extracted_labels": 3.693609022556391
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-D",
+      "samples": 532,
+      "G": {
+        "F_s": 60.35784696530142,
+        "P_s": 58.258268707592485,
+        "R_s": 62.80701266078107
+      },
+      "reference": {
+        "F_s": 59.05533079120324,
+        "P_s": 55.62933786405343,
+        "R_s": 63.09485484242513
+      },
+      "delta": {
+        "F_s": 1.3025161740981783,
+        "P_s": 2.628930843539057,
+        "R_s": -0.28784218164406017
+      },
+      "ci95": {
+        "F_s": [
+          -0.7871287689828607,
+          3.361875718119972
+        ],
+        "P_s": [
+          0.40629424593285945,
+          4.8634195356162655
+        ],
+        "R_s": [
+          -2.6033865456803733,
+          2.0633403076257304
+        ]
+      },
+      "responses_changed": 448,
+      "response_change_rate": 0.8421052631578947,
+      "diagnostic_sample_F_improved": 205,
+      "diagnostic_sample_F_worsened": 174,
+      "G_mean_mapped_candidates": 1.8105263157894738,
+      "old_mean_mapped_candidates": 1.9721804511278196,
+      "G_mean_extracted_labels": 3.4530075187969924,
+      "old_mean_extracted_labels": 3.287593984962406
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-E",
+      "samples": 532,
+      "G": {
+        "F_s": 60.35784696530142,
+        "P_s": 58.258268707592485,
+        "R_s": 62.80701266078107
+      },
+      "reference": {
+        "F_s": 59.1028800775205,
+        "P_s": 54.348994877502264,
+        "R_s": 64.93579404465541
+      },
+      "delta": {
+        "F_s": 1.2549668877809173,
+        "P_s": 3.909273830090221,
+        "R_s": -2.1287813838743452
+      },
+      "ci95": {
+        "F_s": [
+          -0.8122674869495422,
+          3.33271717300926
+        ],
+        "P_s": [
+          1.812003045754931,
+          6.038682381074728
+        ],
+        "R_s": [
+          -4.521815901565342,
+          0.2818913632885732
+        ]
+      },
+      "responses_changed": 404,
+      "response_change_rate": 0.7593984962406015,
+      "diagnostic_sample_F_improved": 184,
+      "diagnostic_sample_F_worsened": 160,
+      "G_mean_mapped_candidates": 1.8105263157894738,
+      "old_mean_mapped_candidates": 2.094736842105263,
+      "G_mean_extracted_labels": 3.4530075187969924,
+      "old_mean_extracted_labels": 3.357142857142857
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "samples": 532,
+      "G": {
+        "F_s": 60.35784696530142,
+        "P_s": 58.258268707592485,
+        "R_s": 62.80701266078107
+      },
+      "reference": {
+        "F_s": 59.803766790169256,
+        "P_s": 56.43938054912654,
+        "R_s": 63.71210363270333
+      },
+      "delta": {
+        "F_s": 0.5540801751321656,
+        "P_s": 1.8188881584659478,
+        "R_s": -0.9050909719222622
+      },
+      "ci95": {
+        "F_s": [
+          -1.0417361903926752,
+          2.179636697824469
+        ],
+        "P_s": [
+          0.19073475851458496,
+          3.5074917127546725
+        ],
+        "R_s": [
+          -2.8378686472611987,
+          1.0019717682506801
+        ]
+      },
+      "responses_changed": 208,
+      "response_change_rate": 0.39097744360902253,
+      "diagnostic_sample_F_improved": 98,
+      "diagnostic_sample_F_worsened": 86,
+      "G_mean_mapped_candidates": 1.8105263157894738,
+      "old_mean_mapped_candidates": 1.9481203007518797,
+      "G_mean_extracted_labels": 3.4530075187969924,
+      "old_mean_extracted_labels": 3.204887218045113
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-A",
+      "samples": 411,
+      "G": {
+        "HIT": 75.52636654316602,
+        "M": 51.709807305148125
+      },
+      "reference": {
+        "HIT": 75.77404456174189,
+        "M": 51.39919470808169
+      },
+      "delta": {
+        "HIT": -0.2476780185758587,
+        "M": 0.31061259706643973
+      },
+      "ci95": {
+        "HIT": [
+          -2.6316089747472287,
+          2.1390822718691718
+        ],
+        "M": [
+          -1.6143737027290874,
+          2.191659279767223
+        ]
+      },
+      "responses_changed": 212,
+      "response_change_rate": 0.5158150851581509,
+      "corrected_views": 56,
+      "harmed_views": 60,
+      "improved_samples": 23,
+      "worsened_samples": 23,
+      "G_mean_mapped_candidates": 1.5435523114355232,
+      "old_mean_mapped_candidates": 1.635036496350365,
+      "G_mean_extracted_labels": 3.4793187347931873,
+      "old_mean_extracted_labels": 3.5717761557177616
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-B",
+      "samples": 411,
+      "G": {
+        "HIT": 75.52636654316602,
+        "M": 51.709807305148125
+      },
+      "reference": {
+        "HIT": 75.45348424097853,
+        "M": 51.407822835777964
+      },
+      "delta": {
+        "HIT": 0.07288230218749359,
+        "M": 0.30198446937016454
+      },
+      "ci95": {
+        "HIT": [
+          -2.3598701201306884,
+          2.5056240568000825
+        ],
+        "M": [
+          -1.547156460377834,
+          2.1802112228093935
+        ]
+      },
+      "responses_changed": 203,
+      "response_change_rate": 0.49391727493917276,
+      "corrected_views": 59,
+      "harmed_views": 58,
+      "improved_samples": 24,
+      "worsened_samples": 23,
+      "G_mean_mapped_candidates": 1.5435523114355232,
+      "old_mean_mapped_candidates": 1.6369829683698296,
+      "G_mean_extracted_labels": 3.4793187347931873,
+      "old_mean_extracted_labels": 3.542579075425791
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "samples": 411,
+      "G": {
+        "HIT": 75.52636654316602,
+        "M": 51.709807305148125
+      },
+      "reference": {
+        "HIT": 73.7780033497437,
+        "M": 50.08683956757854
+      },
+      "delta": {
+        "HIT": 1.748363193422331,
+        "M": 1.6229677375695917
+      },
+      "ci95": {
+        "HIT": [
+          -0.4516354970081687,
+          3.8570750309316533
+        ],
+        "M": [
+          0.026098000798339002,
+          3.1850401829281543
+        ]
+      },
+      "responses_changed": 147,
+      "response_change_rate": 0.35766423357664234,
+      "corrected_views": 55,
+      "harmed_views": 27,
+      "improved_samples": 21,
+      "worsened_samples": 7,
+      "G_mean_mapped_candidates": 1.5435523114355232,
+      "old_mean_mapped_candidates": 1.6267639902676398,
+      "G_mean_extracted_labels": 3.4793187347931873,
+      "old_mean_extracted_labels": 3.4720194647201947
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-D",
+      "samples": 411,
+      "G": {
+        "HIT": 75.52636654316602,
+        "M": 51.709807305148125
+      },
+      "reference": {
+        "HIT": 75.38791047048672,
+        "M": 51.58963947960549
+      },
+      "delta": {
+        "HIT": 0.13845607267930493,
+        "M": 0.1201678255426386
+      },
+      "ci95": {
+        "HIT": [
+          -2.3127399730889016,
+          2.6740971389449246
+        ],
+        "M": [
+          -1.7705596876286396,
+          2.0023883952793615
+        ]
+      },
+      "responses_changed": 204,
+      "response_change_rate": 0.49635036496350365,
+      "corrected_views": 66,
+      "harmed_views": 64,
+      "improved_samples": 26,
+      "worsened_samples": 25,
+      "G_mean_mapped_candidates": 1.5435523114355232,
+      "old_mean_mapped_candidates": 1.6311435523114355,
+      "G_mean_extracted_labels": 3.4793187347931873,
+      "old_mean_extracted_labels": 3.5547445255474455
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-E",
+      "samples": 411,
+      "G": {
+        "HIT": 75.52636654316602,
+        "M": 51.709807305148125
+      },
+      "reference": {
+        "HIT": 74.28066791859106,
+        "M": 50.54094977076249
+      },
+      "delta": {
+        "HIT": 1.2456986245749535,
+        "M": 1.1688575343856367
+      },
+      "ci95": {
+        "HIT": [
+          -0.637969455754408,
+          3.0734479488108692
+        ],
+        "M": [
+          -0.30406240759183256,
+          2.617946762006005
+        ]
+      },
+      "responses_changed": 154,
+      "response_change_rate": 0.3746958637469586,
+      "corrected_views": 46,
+      "harmed_views": 26,
+      "improved_samples": 20,
+      "worsened_samples": 8,
+      "G_mean_mapped_candidates": 1.5435523114355232,
+      "old_mean_mapped_candidates": 1.6282238442822385,
+      "G_mean_extracted_labels": 3.4793187347931873,
+      "old_mean_extracted_labels": 3.491484184914842
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-F",
+      "samples": 411,
+      "G": {
+        "HIT": 75.52636654316602,
+        "M": 51.709807305148125
+      },
+      "reference": {
+        "HIT": 75.71212505709791,
+        "M": 52.32692145020218
+      },
+      "delta": {
+        "HIT": -0.18575851393188847,
+        "M": -0.617114145054054
+      },
+      "ci95": {
+        "HIT": [
+          -1.7436177231893644,
+          1.3359254302286834
+        ],
+        "M": [
+          -1.7115221857025364,
+          0.4403326754082525
+        ]
+      },
+      "responses_changed": 68,
+      "response_change_rate": 0.1654501216545012,
+      "corrected_views": 22,
+      "harmed_views": 25,
+      "improved_samples": 8,
+      "worsened_samples": 9,
+      "G_mean_mapped_candidates": 1.5435523114355232,
+      "old_mean_mapped_candidates": 1.6126520681265206,
+      "G_mean_extracted_labels": 3.4793187347931873,
+      "old_mean_extracted_labels": 3.420924574209246
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-A",
+      "samples": 457,
+      "G": {
+        "WAF": 83.01698323775429,
+        "ACC": 82.73195876288659
+      },
+      "reference": {
+        "WAF": 84.2574982760524,
+        "ACC": 84.02061855670104
+      },
+      "delta": {
+        "WAF": -1.2405150382981178,
+        "ACC": -1.2886597938144395
+      },
+      "ci95": {
+        "WAF": [
+          -3.800005666705909,
+          1.3381323093080484
+        ],
+        "ACC": [
+          -3.90625,
+          1.337078086366514
+        ]
+      },
+      "responses_changed": 256,
+      "response_change_rate": 0.5601750547045952,
+      "scored_samples": 388,
+      "corrected": 11,
+      "harmed": 16,
+      "stable_correct": 310,
+      "stable_wrong": 51,
+      "G_confusion": [
+        [
+          199,
+          49
+        ],
+        [
+          18,
+          122
+        ]
+      ],
+      "old_confusion": [
+        [
+          204,
+          44
+        ],
+        [
+          18,
+          122
+        ]
+      ]
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "samples": 457,
+      "G": {
+        "WAF": 83.01698323775429,
+        "ACC": 82.73195876288659
+      },
+      "reference": {
+        "WAF": 84.76532091230877,
+        "ACC": 84.5360824742268
+      },
+      "delta": {
+        "WAF": -1.7483376745544899,
+        "ACC": -1.8041237113402109
+      },
+      "ci95": {
+        "WAF": [
+          -3.9240329105416603,
+          0.30228008712117593
+        ],
+        "ACC": [
+          -4.0322580645161255,
+          0.26319270398217803
+        ]
+      },
+      "responses_changed": 221,
+      "response_change_rate": 0.48358862144420134,
+      "scored_samples": 388,
+      "corrected": 6,
+      "harmed": 13,
+      "stable_correct": 315,
+      "stable_wrong": 54,
+      "G_confusion": [
+        [
+          199,
+          49
+        ],
+        [
+          18,
+          122
+        ]
+      ],
+      "old_confusion": [
+        [
+          205,
+          43
+        ],
+        [
+          17,
+          123
+        ]
+      ]
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "samples": 457,
+      "G": {
+        "WAF": 83.01698323775429,
+        "ACC": 82.73195876288659
+      },
+      "reference": {
+        "WAF": 84.76532091230877,
+        "ACC": 84.5360824742268
+      },
+      "delta": {
+        "WAF": -1.7483376745544899,
+        "ACC": -1.8041237113402109
+      },
+      "ci95": {
+        "WAF": [
+          -3.7974179496590206,
+          0.25815829375306154
+        ],
+        "ACC": [
+          -3.8961038961038863,
+          0.2570859724909253
+        ]
+      },
+      "responses_changed": 178,
+      "response_change_rate": 0.38949671772428884,
+      "scored_samples": 388,
+      "corrected": 5,
+      "harmed": 12,
+      "stable_correct": 316,
+      "stable_wrong": 55,
+      "G_confusion": [
+        [
+          199,
+          49
+        ],
+        [
+          18,
+          122
+        ]
+      ],
+      "old_confusion": [
+        [
+          205,
+          43
+        ],
+        [
+          17,
+          123
+        ]
+      ]
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-D",
+      "samples": 457,
+      "G": {
+        "WAF": 83.01698323775429,
+        "ACC": 82.73195876288659
+      },
+      "reference": {
+        "WAF": 83.99742079660354,
+        "ACC": 83.76288659793815
+      },
+      "delta": {
+        "WAF": -0.9804375588492564,
+        "ACC": -1.0309278350515538
+      },
+      "ci95": {
+        "WAF": [
+          -3.34413512917918,
+          1.3152256169264838
+        ],
+        "ACC": [
+          -3.4391534391534417,
+          1.3054830287206332
+        ]
+      },
+      "responses_changed": 223,
+      "response_change_rate": 0.487964989059081,
+      "scored_samples": 388,
+      "corrected": 9,
+      "harmed": 13,
+      "stable_correct": 312,
+      "stable_wrong": 54,
+      "G_confusion": [
+        [
+          199,
+          49
+        ],
+        [
+          18,
+          122
+        ]
+      ],
+      "old_confusion": [
+        [
+          204,
+          44
+        ],
+        [
+          19,
+          121
+        ]
+      ]
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-E",
+      "samples": 457,
+      "G": {
+        "WAF": 83.01698323775429,
+        "ACC": 82.73195876288659
+      },
+      "reference": {
+        "WAF": 82.99424810388912,
+        "ACC": 82.73195876288659
+      },
+      "delta": {
+        "WAF": 0.02273513386515935,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -1.7793388728029307,
+          1.8536628271456739
+        ],
+        "ACC": [
+          -1.8276762402088753,
+          1.8421052631579005
+        ]
+      },
+      "responses_changed": 175,
+      "response_change_rate": 0.38293216630196936,
+      "scored_samples": 388,
+      "corrected": 7,
+      "harmed": 7,
+      "stable_correct": 314,
+      "stable_wrong": 60,
+      "G_confusion": [
+        [
+          199,
+          49
+        ],
+        [
+          18,
+          122
+        ]
+      ],
+      "old_confusion": [
+        [
+          201,
+          47
+        ],
+        [
+          20,
+          120
+        ]
+      ]
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-F",
+      "samples": 457,
+      "G": {
+        "WAF": 83.01698323775429,
+        "ACC": 82.73195876288659
+      },
+      "reference": {
+        "WAF": 83.02687110745049,
+        "ACC": 82.73195876288659
+      },
+      "delta": {
+        "WAF": -0.009887869696201257,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -1.2525928304923448,
+          1.2187871035506637
+        ],
+        "ACC": [
+          -1.2787723785166238,
+          1.2722646310432628
+        ]
+      },
+      "responses_changed": 58,
+      "response_change_rate": 0.12691466083150985,
+      "scored_samples": 388,
+      "corrected": 3,
+      "harmed": 3,
+      "stable_correct": 318,
+      "stable_wrong": 64,
+      "G_confusion": [
+        [
+          199,
+          49
+        ],
+        [
+          18,
+          122
+        ]
+      ],
+      "old_confusion": [
+        [
+          198,
+          50
+        ],
+        [
+          17,
+          123
+        ]
+      ]
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-A",
+      "samples": 532,
+      "G": {
+        "F_s": 60.713511032035115,
+        "P_s": 59.05449059030674,
+        "R_s": 62.583931610827
+      },
+      "reference": {
+        "F_s": 59.82515547357414,
+        "P_s": 58.203991788543476,
+        "R_s": 61.649330538734645
+      },
+      "delta": {
+        "F_s": 0.8883555584609737,
+        "P_s": 0.8504988017632664,
+        "R_s": 0.9346010720923559
+      },
+      "ci95": {
+        "F_s": [
+          -0.2048964378355128,
+          2.049217912245201
+        ],
+        "P_s": [
+          -0.32034681563639783,
+          2.1041639483775954
+        ],
+        "R_s": [
+          -0.4272384093138967,
+          2.3218581022118214
+        ]
+      },
+      "responses_changed": 273,
+      "response_change_rate": 0.5131578947368421,
+      "diagnostic_sample_F_improved": 110,
+      "diagnostic_sample_F_worsened": 89,
+      "G_mean_mapped_candidates": 1.8304511278195488,
+      "old_mean_mapped_candidates": 1.8225563909774436,
+      "G_mean_extracted_labels": 3.4398496240601504,
+      "old_mean_extracted_labels": 3.5169172932330826
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "samples": 532,
+      "G": {
+        "F_s": 60.713511032035115,
+        "P_s": 59.05449059030674,
+        "R_s": 62.583931610827
+      },
+      "reference": {
+        "F_s": 59.55436212201691,
+        "P_s": 57.80914870976186,
+        "R_s": 61.529175909148535
+      },
+      "delta": {
+        "F_s": 1.159148910018204,
+        "P_s": 1.2453418805448813,
+        "R_s": 1.054755701678467
+      },
+      "ci95": {
+        "F_s": [
+          0.05911568993140216,
+          2.2849396441764482
+        ],
+        "P_s": [
+          -0.017642931746406906,
+          2.5086970101275625
+        ],
+        "R_s": [
+          -0.2719636712298998,
+          2.4173254240703
+        ]
+      },
+      "responses_changed": 241,
+      "response_change_rate": 0.45300751879699247,
+      "diagnostic_sample_F_improved": 99,
+      "diagnostic_sample_F_worsened": 81,
+      "G_mean_mapped_candidates": 1.8304511278195488,
+      "old_mean_mapped_candidates": 1.8157894736842106,
+      "G_mean_extracted_labels": 3.4398496240601504,
+      "old_mean_extracted_labels": 3.4981203007518795
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-C",
+      "samples": 532,
+      "G": {
+        "F_s": 60.713511032035115,
+        "P_s": 59.05449059030674,
+        "R_s": 62.583931610827
+      },
+      "reference": {
+        "F_s": 60.62092402746833,
+        "P_s": 59.238337662263184,
+        "R_s": 62.20514169381178
+      },
+      "delta": {
+        "F_s": 0.09258700456679092,
+        "P_s": -0.18384707195644445,
+        "R_s": 0.3787899170152209
+      },
+      "ci95": {
+        "F_s": [
+          -0.7022744904040118,
+          0.8796839550920544
+        ],
+        "P_s": [
+          -1.056014422594235,
+          0.6495636526527322
+        ],
+        "R_s": [
+          -0.6540557215170275,
+          1.4324980620224859
+        ]
+      },
+      "responses_changed": 169,
+      "response_change_rate": 0.3176691729323308,
+      "diagnostic_sample_F_improved": 66,
+      "diagnostic_sample_F_worsened": 66,
+      "G_mean_mapped_candidates": 1.8304511278195488,
+      "old_mean_mapped_candidates": 1.8018796992481203,
+      "G_mean_extracted_labels": 3.4398496240601504,
+      "old_mean_extracted_labels": 3.4154135338345863
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-D",
+      "samples": 532,
+      "G": {
+        "F_s": 60.713511032035115,
+        "P_s": 59.05449059030674,
+        "R_s": 62.583931610827
+      },
+      "reference": {
+        "F_s": 59.77509435430074,
+        "P_s": 58.18338646890419,
+        "R_s": 61.555162882740234
+      },
+      "delta": {
+        "F_s": 0.9384166777343772,
+        "P_s": 0.871104121402555,
+        "R_s": 1.0287687280867708
+      },
+      "ci95": {
+        "F_s": [
+          -0.10990813871919441,
+          2.0208656700836967
+        ],
+        "P_s": [
+          -0.3175455357325835,
+          2.079079555247922
+        ],
+        "R_s": [
+          -0.23645176399885307,
+          2.350842560410385
+        ]
+      },
+      "responses_changed": 237,
+      "response_change_rate": 0.44548872180451127,
+      "diagnostic_sample_F_improved": 96,
+      "diagnostic_sample_F_worsened": 85,
+      "G_mean_mapped_candidates": 1.8304511278195488,
+      "old_mean_mapped_candidates": 1.8015037593984962,
+      "G_mean_extracted_labels": 3.4398496240601504,
+      "old_mean_extracted_labels": 3.424812030075188
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-E",
+      "samples": 532,
+      "G": {
+        "F_s": 60.713511032035115,
+        "P_s": 59.05449059030674,
+        "R_s": 62.583931610827
+      },
+      "reference": {
+        "F_s": 60.47560509566989,
+        "P_s": 59.436105264789475,
+        "R_s": 61.68910367530939
+      },
+      "delta": {
+        "F_s": 0.2379059363652236,
+        "P_s": -0.3816146744827331,
+        "R_s": 0.894827935517617
+      },
+      "ci95": {
+        "F_s": [
+          -0.5637937114777599,
+          1.0682364781508322
+        ],
+        "P_s": [
+          -1.2802693461952561,
+          0.5092026866548731
+        ],
+        "R_s": [
+          -0.10544460265460297,
+          1.967346688064955
+        ]
+      },
+      "responses_changed": 179,
+      "response_change_rate": 0.33646616541353386,
+      "diagnostic_sample_F_improved": 69,
+      "diagnostic_sample_F_worsened": 70,
+      "G_mean_mapped_candidates": 1.8304511278195488,
+      "old_mean_mapped_candidates": 1.7774436090225565,
+      "G_mean_extracted_labels": 3.4398496240601504,
+      "old_mean_extracted_labels": 3.3778195488721803
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "samples": 532,
+      "G": {
+        "F_s": 60.713511032035115,
+        "P_s": 59.05449059030674,
+        "R_s": 62.583931610827
+      },
+      "reference": {
+        "F_s": 60.231692120679355,
+        "P_s": 58.72176885436592,
+        "R_s": 61.9469937027904
+      },
+      "delta": {
+        "F_s": 0.48181891135575805,
+        "P_s": 0.3327217359408219,
+        "R_s": 0.6369379080366055
+      },
+      "ci95": {
+        "F_s": [
+          -0.1062575490526993,
+          1.109685592202451
+        ],
+        "P_s": [
+          -0.312468435970045,
+          1.0073759012962258
+        ],
+        "R_s": [
+          -0.03440812516806391,
+          1.3957114582671453
+        ]
+      },
+      "responses_changed": 86,
+      "response_change_rate": 0.16165413533834586,
+      "diagnostic_sample_F_improved": 32,
+      "diagnostic_sample_F_worsened": 29,
+      "G_mean_mapped_candidates": 1.8304511278195488,
+      "old_mean_mapped_candidates": 1.8199248120300753,
+      "G_mean_extracted_labels": 3.4398496240601504,
+      "old_mean_extracted_labels": 3.456766917293233
+    }
+  ],
+  "stratified_pairs": [
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-B",
+      "samples": 256,
+      "G": {
+        "HIT": 71.00777945395924,
+        "M": 49.94927086106428
+      },
+      "reference": {
+        "HIT": 70.0322418434052,
+        "M": 48.84953806410901
+      },
+      "delta": {
+        "HIT": 0.9755376105540337,
+        "M": 1.0997327969552662
+      },
+      "ci95": {
+        "HIT": [
+          -3.465147770416149,
+          5.5392803711751455
+        ],
+        "M": [
+          -2.6980838979086315,
+          4.944940924793372
+        ]
+      },
+      "responses_changed": 211,
+      "response_change_rate": 0.82421875,
+      "corrected_views": 77,
+      "harmed_views": 68,
+      "improved_samples": 32,
+      "worsened_samples": 29,
+      "G_mean_mapped_candidates": 1.453125,
+      "old_mean_mapped_candidates": 1.58515625,
+      "G_mean_extracted_labels": 3.48828125,
+      "old_mean_extracted_labels": 3.4296875,
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-B",
+      "samples": 154,
+      "G": {
+        "HIT": 74.53598484848484,
+        "M": 45.32512626262627
+      },
+      "reference": {
+        "HIT": 76.70454545454545,
+        "M": 48.93702651515152
+      },
+      "delta": {
+        "HIT": -2.168560606060599,
+        "M": -3.6119002525252517
+      },
+      "ci95": {
+        "HIT": [
+          -7.316936507936508,
+          2.865902936130541
+        ],
+        "M": [
+          -7.818091386135008,
+          0.6177732306487999
+        ]
+      },
+      "responses_changed": 113,
+      "response_change_rate": 0.7337662337662337,
+      "corrected_views": 33,
+      "harmed_views": 47,
+      "improved_samples": 9,
+      "worsened_samples": 19,
+      "G_mean_mapped_candidates": 1.6753246753246753,
+      "old_mean_mapped_candidates": 1.6987012987012986,
+      "G_mean_extracted_labels": 3.6818181818181817,
+      "old_mean_extracted_labels": 3.603896103896104,
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "samples": 256,
+      "G": {
+        "HIT": 71.00777945395924,
+        "M": 49.94927086106428
+      },
+      "reference": {
+        "HIT": 69.75123495134144,
+        "M": 47.68809220970016
+      },
+      "delta": {
+        "HIT": 1.2565445026177957,
+        "M": 2.261178651364121
+      },
+      "ci95": {
+        "HIT": [
+          -2.073838231824238,
+          4.5499334694088525
+        ],
+        "M": [
+          -0.8624679136121004,
+          5.276491110867603
+        ]
+      },
+      "responses_changed": 188,
+      "response_change_rate": 0.734375,
+      "corrected_views": 56,
+      "harmed_views": 44,
+      "improved_samples": 26,
+      "worsened_samples": 22,
+      "G_mean_mapped_candidates": 1.453125,
+      "old_mean_mapped_candidates": 1.67109375,
+      "G_mean_extracted_labels": 3.48828125,
+      "old_mean_extracted_labels": 3.71875,
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "samples": 154,
+      "G": {
+        "HIT": 74.53598484848484,
+        "M": 45.32512626262627
+      },
+      "reference": {
+        "HIT": 76.06534090909092,
+        "M": 47.98532196969697
+      },
+      "delta": {
+        "HIT": -1.5293560606060685,
+        "M": -2.6601957070707005
+      },
+      "ci95": {
+        "HIT": [
+          -5.935429200492531,
+          2.979929895974686
+        ],
+        "M": [
+          -6.079134993970974,
+          0.6839814767850474
+        ]
+      },
+      "responses_changed": 85,
+      "response_change_rate": 0.551948051948052,
+      "corrected_views": 27,
+      "harmed_views": 37,
+      "improved_samples": 9,
+      "worsened_samples": 14,
+      "G_mean_mapped_candidates": 1.6753246753246753,
+      "old_mean_mapped_candidates": 1.7298701298701298,
+      "G_mean_extracted_labels": 3.6818181818181817,
+      "old_mean_extracted_labels": 3.5844155844155843,
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-F",
+      "samples": 256,
+      "G": {
+        "HIT": 71.00777945395924,
+        "M": 49.94927086106428
+      },
+      "reference": {
+        "HIT": 71.00777945395924,
+        "M": 49.843178434446514
+      },
+      "delta": {
+        "HIT": 0.0,
+        "M": 0.10609242661775986
+      },
+      "ci95": {
+        "HIT": [
+          0.0,
+          0.0
+        ],
+        "M": [
+          0.0,
+          0.27256260936230187
+        ]
+      },
+      "responses_changed": 0,
+      "response_change_rate": 0.0,
+      "corrected_views": 0,
+      "harmed_views": 0,
+      "improved_samples": 0,
+      "worsened_samples": 0,
+      "G_mean_mapped_candidates": 1.453125,
+      "old_mean_mapped_candidates": 1.56484375,
+      "G_mean_extracted_labels": 3.48828125,
+      "old_mean_extracted_labels": 3.5,
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "MER2023",
+      "comparison": "G-F",
+      "samples": 154,
+      "G": {
+        "HIT": 74.53598484848484,
+        "M": 45.32512626262627
+      },
+      "reference": {
+        "HIT": 80.34564393939394,
+        "M": 46.090119949494955
+      },
+      "delta": {
+        "HIT": -5.809659090909092,
+        "M": -0.7649936868686869
+      },
+      "ci95": {
+        "HIT": [
+          -13.147688835025,
+          1.3297652294027609
+        ],
+        "M": [
+          -6.374888202519379,
+          4.661585721374674
+        ]
+      },
+      "responses_changed": 133,
+      "response_change_rate": 0.8636363636363636,
+      "corrected_views": 54,
+      "harmed_views": 92,
+      "improved_samples": 15,
+      "worsened_samples": 25,
+      "G_mean_mapped_candidates": 1.6753246753246753,
+      "old_mean_mapped_candidates": 1.9493506493506494,
+      "G_mean_extracted_labels": 3.6818181818181817,
+      "old_mean_extracted_labels": 3.0194805194805197,
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "samples": 298,
+      "G": {
+        "WAF": 84.212079251485,
+        "ACC": 84.21052631578947
+      },
+      "reference": {
+        "WAF": 84.21156180994022,
+        "ACC": 84.21052631578947
+      },
+      "delta": {
+        "WAF": 0.0005174415447783964,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -4.434340845513066,
+          4.488354369098532
+        ],
+        "ACC": [
+          -4.435483870967738,
+          4.489795918367346
+        ]
+      },
+      "responses_changed": 244,
+      "response_change_rate": 0.8187919463087249,
+      "scored_samples": 247,
+      "corrected": 16,
+      "harmed": 16,
+      "stable_correct": 192,
+      "stable_wrong": 23,
+      "G_confusion": [
+        [
+          103,
+          18
+        ],
+        [
+          21,
+          105
+        ]
+      ],
+      "old_confusion": [
+        [
+          102,
+          19
+        ],
+        [
+          20,
+          106
+        ]
+      ],
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "samples": 159,
+      "G": {
+        "WAF": 89.36713676258798,
+        "ACC": 90.78014184397163
+      },
+      "reference": {
+        "WAF": 89.36713676258798,
+        "ACC": 90.78014184397163
+      },
+      "delta": {
+        "WAF": 0.0,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -4.87727738792212,
+          4.688616136457262
+        ],
+        "ACC": [
+          -4.109589041095896,
+          3.759398496240596
+        ]
+      },
+      "responses_changed": 125,
+      "response_change_rate": 0.7861635220125787,
+      "scored_samples": 141,
+      "corrected": 4,
+      "harmed": 4,
+      "stable_correct": 124,
+      "stable_wrong": 9,
+      "G_confusion": [
+        [
+          124,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "old_confusion": [
+        [
+          124,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "samples": 298,
+      "G": {
+        "WAF": 84.212079251485,
+        "ACC": 84.21052631578947
+      },
+      "reference": {
+        "WAF": 82.99762394637287,
+        "ACC": 82.99595141700405
+      },
+      "delta": {
+        "WAF": 1.2144553051121276,
+        "ACC": 1.2145748987854255
+      },
+      "ci95": {
+        "WAF": [
+          -2.39941374395848,
+          5.098618169614486
+        ],
+        "ACC": [
+          -2.4096385542168646,
+          5.098039215686267
+        ]
+      },
+      "responses_changed": 211,
+      "response_change_rate": 0.7080536912751678,
+      "scored_samples": 247,
+      "corrected": 12,
+      "harmed": 9,
+      "stable_correct": 196,
+      "stable_wrong": 30,
+      "G_confusion": [
+        [
+          103,
+          18
+        ],
+        [
+          21,
+          105
+        ]
+      ],
+      "old_confusion": [
+        [
+          101,
+          20
+        ],
+        [
+          22,
+          104
+        ]
+      ],
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "samples": 159,
+      "G": {
+        "WAF": 89.36713676258798,
+        "ACC": 90.78014184397163
+      },
+      "reference": {
+        "WAF": 89.36713676258798,
+        "ACC": 90.78014184397163
+      },
+      "delta": {
+        "WAF": 0.0,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -3.362304753852641,
+          3.4284848898381775
+        ],
+        "ACC": [
+          -2.8368794326241176,
+          2.8368794326241176
+        ]
+      },
+      "responses_changed": 121,
+      "response_change_rate": 0.7610062893081762,
+      "scored_samples": 141,
+      "corrected": 2,
+      "harmed": 2,
+      "stable_correct": 126,
+      "stable_wrong": 11,
+      "G_confusion": [
+        [
+          124,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "old_confusion": [
+        [
+          124,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-F",
+      "samples": 298,
+      "G": {
+        "WAF": 84.212079251485,
+        "ACC": 84.21052631578947
+      },
+      "reference": {
+        "WAF": 83.80672980035271,
+        "ACC": 83.80566801619433
+      },
+      "delta": {
+        "WAF": 0.4053494511322753,
+        "ACC": 0.4048582995951344
+      },
+      "ci95": {
+        "WAF": [
+          -0.8406513188187367,
+          1.9546417467797454
+        ],
+        "ACC": [
+          -0.8333333333333304,
+          1.9533164828431377
+        ]
+      },
+      "responses_changed": 0,
+      "response_change_rate": 0.0,
+      "scored_samples": 247,
+      "corrected": 2,
+      "harmed": 1,
+      "stable_correct": 206,
+      "stable_wrong": 38,
+      "G_confusion": [
+        [
+          103,
+          18
+        ],
+        [
+          21,
+          105
+        ]
+      ],
+      "old_confusion": [
+        [
+          103,
+          18
+        ],
+        [
+          22,
+          104
+        ]
+      ],
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-F",
+      "samples": 159,
+      "G": {
+        "WAF": 89.36713676258798,
+        "ACC": 90.78014184397163
+      },
+      "reference": {
+        "WAF": 90.2807627562988,
+        "ACC": 90.78014184397163
+      },
+      "delta": {
+        "WAF": -0.9136259937108315,
+        "ACC": 0.0
+      },
+      "ci95": {
+        "WAF": [
+          -5.856732685819274,
+          3.479477603699742
+        ],
+        "ACC": [
+          -4.285714285714281,
+          4.285714285714281
+        ]
+      },
+      "responses_changed": 141,
+      "response_change_rate": 0.8867924528301887,
+      "scored_samples": 141,
+      "corrected": 5,
+      "harmed": 5,
+      "stable_correct": 123,
+      "stable_wrong": 8,
+      "G_confusion": [
+        [
+          124,
+          3
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "old_confusion": [
+        [
+          122,
+          5
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "samples": 304,
+      "G": {
+        "F_s": 61.52139595892759,
+        "P_s": 59.99872885650337,
+        "R_s": 63.31555278423371
+      },
+      "reference": {
+        "F_s": 61.232076380495414,
+        "P_s": 60.103886288116215,
+        "R_s": 62.64562838291653
+      },
+      "delta": {
+        "F_s": 0.2893195784321789,
+        "P_s": -0.10515743161284563,
+        "R_s": 0.669924401317179
+      },
+      "ci95": {
+        "F_s": [
+          -2.0574750288516124,
+          2.599327362545459
+        ],
+        "P_s": [
+          -2.6397062592003504,
+          2.376761563247705
+        ],
+        "R_s": [
+          -1.8723362124122553,
+          3.215352804169006
+        ]
+      },
+      "responses_changed": 235,
+      "response_change_rate": 0.7730263157894737,
+      "diagnostic_sample_F_improved": 96,
+      "diagnostic_sample_F_worsened": 96,
+      "G_mean_mapped_candidates": 1.7822368421052632,
+      "old_mean_mapped_candidates": 1.7677631578947368,
+      "G_mean_extracted_labels": 3.351973684210526,
+      "old_mean_extracted_labels": 3.4276315789473686,
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "samples": 228,
+      "G": {
+        "F_s": 58.7322155585813,
+        "P_s": 55.890648225676934,
+        "R_s": 62.10006903573346
+      },
+      "reference": {
+        "F_s": 59.261492684819586,
+        "P_s": 55.636635963372406,
+        "R_s": 63.600473568489946
+      },
+      "delta": {
+        "F_s": -0.5292771262382812,
+        "P_s": 0.254012262304526,
+        "R_s": -1.500404532756483
+      },
+      "ci95": {
+        "F_s": [
+          -3.2433763948198213,
+          2.1100908356767403
+        ],
+        "P_s": [
+          -2.6274258256685847,
+          3.0825036282211595
+        ],
+        "R_s": [
+          -4.734638906723555,
+          1.5992037439423108
+        ]
+      },
+      "responses_changed": 174,
+      "response_change_rate": 0.7631578947368421,
+      "diagnostic_sample_F_improved": 66,
+      "diagnostic_sample_F_worsened": 68,
+      "G_mean_mapped_candidates": 1.8482456140350878,
+      "old_mean_mapped_candidates": 1.919298245614035,
+      "G_mean_extracted_labels": 3.587719298245614,
+      "old_mean_extracted_labels": 3.6842105263157894,
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-C",
+      "samples": 304,
+      "G": {
+        "F_s": 61.52139595892759,
+        "P_s": 59.99872885650337,
+        "R_s": 63.31555278423371
+      },
+      "reference": {
+        "F_s": 62.217894393747564,
+        "P_s": 59.86775899119306,
+        "R_s": 65.07651167304816
+      },
+      "delta": {
+        "F_s": -0.6964984348199699,
+        "P_s": 0.1309698653103153,
+        "R_s": -1.7609588888144456
+      },
+      "ci95": {
+        "F_s": [
+          -2.5875912683452302,
+          1.207247491725553
+        ],
+        "P_s": [
+          -1.836365860776659,
+          2.178759634597147
+        ],
+        "R_s": [
+          -4.038293450289582,
+          0.47508153683117404
+        ]
+      },
+      "responses_changed": 188,
+      "response_change_rate": 0.618421052631579,
+      "diagnostic_sample_F_improved": 70,
+      "diagnostic_sample_F_worsened": 78,
+      "G_mean_mapped_candidates": 1.7822368421052632,
+      "old_mean_mapped_candidates": 1.8519736842105263,
+      "G_mean_extracted_labels": 3.351973684210526,
+      "old_mean_extracted_labels": 3.588815789473684,
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-C",
+      "samples": 228,
+      "G": {
+        "F_s": 58.7322155585813,
+        "P_s": 55.890648225676934,
+        "R_s": 62.10006903573346
+      },
+      "reference": {
+        "F_s": 58.732081403586214,
+        "P_s": 55.523571546319516,
+        "R_s": 62.62424685606294
+      },
+      "delta": {
+        "F_s": 0.00013415499509061846,
+        "P_s": 0.3670766793574143,
+        "R_s": -0.5241778203294745
+      },
+      "ci95": {
+        "F_s": [
+          -2.958479961938916,
+          2.7359531141748366
+        ],
+        "P_s": [
+          -2.5490614479463125,
+          3.1370436074071075
+        ],
+        "R_s": [
+          -4.0182666030296845,
+          2.8774248888770964
+        ]
+      },
+      "responses_changed": 147,
+      "response_change_rate": 0.6447368421052632,
+      "diagnostic_sample_F_improved": 59,
+      "diagnostic_sample_F_worsened": 54,
+      "G_mean_mapped_candidates": 1.8482456140350878,
+      "old_mean_mapped_candidates": 1.9649122807017543,
+      "G_mean_extracted_labels": 3.587719298245614,
+      "old_mean_extracted_labels": 3.8333333333333335,
+      "gate_level": 3
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "samples": 304,
+      "G": {
+        "F_s": 61.52139595892759,
+        "P_s": 59.99872885650337,
+        "R_s": 63.31555278423371
+      },
+      "reference": {
+        "F_s": 61.44617809719553,
+        "P_s": 59.90807571205509,
+        "R_s": 63.25626596444577
+      },
+      "delta": {
+        "F_s": 0.07521786173206868,
+        "P_s": 0.09065314444828276,
+        "R_s": 0.05928681978794037
+      },
+      "ci95": {
+        "F_s": [
+          -0.16773042269662863,
+          0.4030554888929172
+        ],
+        "P_s": [
+          -0.34053236598975356,
+          0.618872694099126
+        ],
+        "R_s": [
+          0.0,
+          0.18095710572521517
+        ]
+      },
+      "responses_changed": 0,
+      "response_change_rate": 0.0,
+      "diagnostic_sample_F_improved": 1,
+      "diagnostic_sample_F_worsened": 1,
+      "G_mean_mapped_candidates": 1.7822368421052632,
+      "old_mean_mapped_candidates": 1.7763157894736843,
+      "G_mean_extracted_labels": 3.351973684210526,
+      "old_mean_extracted_labels": 3.3322368421052633,
+      "gate_level": 2
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "samples": 228,
+      "G": {
+        "F_s": 58.7322155585813,
+        "P_s": 55.890648225676934,
+        "R_s": 62.10006903573346
+      },
+      "reference": {
+        "F_s": 57.329428552625906,
+        "P_s": 51.75564934821071,
+        "R_s": 64.31457086550596
+      },
+      "delta": {
+        "F_s": 1.402787005955397,
+        "P_s": 4.134998877466223,
+        "R_s": -2.214501829772497
+      },
+      "ci95": {
+        "F_s": [
+          -2.387730197286143,
+          5.173686599826065
+        ],
+        "P_s": [
+          0.10762822241115211,
+          7.969496892549588
+        ],
+        "R_s": [
+          -6.568509512110675,
+          2.0774974998662854
+        ]
+      },
+      "responses_changed": 208,
+      "response_change_rate": 0.9122807017543859,
+      "diagnostic_sample_F_improved": 97,
+      "diagnostic_sample_F_worsened": 85,
+      "G_mean_mapped_candidates": 1.8482456140350878,
+      "old_mean_mapped_candidates": 2.1771929824561402,
+      "G_mean_extracted_labels": 3.587719298245614,
+      "old_mean_extracted_labels": 3.0350877192982457,
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-B",
+      "samples": 256,
+      "G": {
+        "HIT": 74.54609992013489,
+        "M": 54.31551651038738
+      },
+      "reference": {
+        "HIT": 74.20711686928743,
+        "M": 54.245866240719366
+      },
+      "delta": {
+        "HIT": 0.3389830508474634,
+        "M": 0.06965026966802013
+      },
+      "ci95": {
+        "HIT": [
+          -2.5080741860287166,
+          3.293664622855756
+        ],
+        "M": [
+          -2.5278357733596266,
+          2.53473731385838
+        ]
+      },
+      "responses_changed": 127,
+      "response_change_rate": 0.49609375,
+      "corrected_views": 34,
+      "harmed_views": 31,
+      "improved_samples": 16,
+      "worsened_samples": 15,
+      "G_mean_mapped_candidates": 1.4515625,
+      "old_mean_mapped_candidates": 1.55234375,
+      "G_mean_extracted_labels": 3.40625,
+      "old_mean_extracted_labels": 3.51171875,
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-B",
+      "samples": 154,
+      "G": {
+        "HIT": 76.96496212121212,
+        "M": 48.012152777777786
+      },
+      "reference": {
+        "HIT": 77.26799242424242,
+        "M": 47.37452651515152
+      },
+      "delta": {
+        "HIT": -0.303030303030305,
+        "M": 0.6376262626262619
+      },
+      "ci95": {
+        "HIT": [
+          -4.82276421322348,
+          4.0076252204958
+        ],
+        "M": [
+          -2.3623870633959285,
+          3.671223819005545
+        ]
+      },
+      "responses_changed": 76,
+      "response_change_rate": 0.4935064935064935,
+      "corrected_views": 25,
+      "harmed_views": 27,
+      "improved_samples": 8,
+      "worsened_samples": 8,
+      "G_mean_mapped_candidates": 1.6948051948051948,
+      "old_mean_mapped_candidates": 1.7714285714285714,
+      "G_mean_extracted_labels": 3.5844155844155843,
+      "old_mean_extracted_labels": 3.5779220779220777,
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "samples": 256,
+      "G": {
+        "HIT": 74.54609992013489,
+        "M": 54.31551651038738
+      },
+      "reference": {
+        "HIT": 73.38598515100422,
+        "M": 52.25904891491899
+      },
+      "delta": {
+        "HIT": 1.1601147691306712,
+        "M": 2.056467595468392
+      },
+      "ci95": {
+        "HIT": [
+          -1.3141232159062732,
+          3.635215574367169
+        ],
+        "M": [
+          0.15184911784774965,
+          4.078457499771664
+        ]
+      },
+      "responses_changed": 94,
+      "response_change_rate": 0.3671875,
+      "corrected_views": 28,
+      "harmed_views": 17,
+      "improved_samples": 14,
+      "worsened_samples": 5,
+      "G_mean_mapped_candidates": 1.4515625,
+      "old_mean_mapped_candidates": 1.57265625,
+      "G_mean_extracted_labels": 3.40625,
+      "old_mean_extracted_labels": 3.4921875,
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "samples": 154,
+      "G": {
+        "HIT": 76.96496212121212,
+        "M": 48.012152777777786
+      },
+      "reference": {
+        "HIT": 74.375,
+        "M": 47.00836489898991
+      },
+      "delta": {
+        "HIT": 2.5899621212121193,
+        "M": 1.0037878787878762
+      },
+      "ci95": {
+        "HIT": [
+          -1.1879032012519886,
+          6.428644117076941
+        ],
+        "M": [
+          -1.5892439687936952,
+          3.673876108318962
+        ]
+      },
+      "responses_changed": 53,
+      "response_change_rate": 0.34415584415584416,
+      "corrected_views": 27,
+      "harmed_views": 10,
+      "improved_samples": 7,
+      "worsened_samples": 2,
+      "G_mean_mapped_candidates": 1.6948051948051948,
+      "old_mean_mapped_candidates": 1.7103896103896103,
+      "G_mean_extracted_labels": 3.5844155844155843,
+      "old_mean_extracted_labels": 3.4220779220779223,
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-F",
+      "samples": 256,
+      "G": {
+        "HIT": 74.54609992013489,
+        "M": 54.31551651038738
+      },
+      "reference": {
+        "HIT": 74.97323039607181,
+        "M": 54.49417773439424
+      },
+      "delta": {
+        "HIT": -0.427130475936921,
+        "M": -0.1786612240068597
+      },
+      "ci95": {
+        "HIT": [
+          -1.3386674441462925,
+          0.0
+        ],
+        "M": [
+          -0.5600755011715643,
+          0.0
+        ]
+      },
+      "responses_changed": 0,
+      "response_change_rate": 0.0,
+      "corrected_views": 0,
+      "harmed_views": 4,
+      "improved_samples": 0,
+      "worsened_samples": 1,
+      "G_mean_mapped_candidates": 1.4515625,
+      "old_mean_mapped_candidates": 1.5421875,
+      "G_mean_extracted_labels": 3.40625,
+      "old_mean_extracted_labels": 3.4140625,
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-F",
+      "samples": 154,
+      "G": {
+        "HIT": 76.96496212121212,
+        "M": 48.012152777777786
+      },
+      "reference": {
+        "HIT": 76.80871212121211,
+        "M": 49.251893939393945
+      },
+      "delta": {
+        "HIT": 0.15625000000001332,
+        "M": -1.239741161616159
+      },
+      "ci95": {
+        "HIT": [
+          -3.3629216941640148,
+          3.5597072432211814
+        ],
+        "M": [
+          -3.7802175894281063,
+          1.2399680116415925
+        ]
+      },
+      "responses_changed": 68,
+      "response_change_rate": 0.44155844155844154,
+      "corrected_views": 22,
+      "harmed_views": 21,
+      "improved_samples": 8,
+      "worsened_samples": 8,
+      "G_mean_mapped_candidates": 1.6948051948051948,
+      "old_mean_mapped_candidates": 1.7233766233766235,
+      "G_mean_extracted_labels": 3.5844155844155843,
+      "old_mean_extracted_labels": 3.4155844155844157,
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "samples": 298,
+      "G": {
+        "WAF": 81.66879882004125,
+        "ACC": 81.78137651821862
+      },
+      "reference": {
+        "WAF": 83.3186477095537,
+        "ACC": 83.40080971659918
+      },
+      "delta": {
+        "WAF": -1.6498488895124508,
+        "ACC": -1.619433198380571
+      },
+      "ci95": {
+        "WAF": [
+          -4.195656184934337,
+          0.7961902101543888
+        ],
+        "ACC": [
+          -4.184100418410042,
+          0.8298755186721962
+        ]
+      },
+      "responses_changed": 144,
+      "response_change_rate": 0.48322147651006714,
+      "scored_samples": 247,
+      "corrected": 3,
+      "harmed": 7,
+      "stable_correct": 199,
+      "stable_wrong": 38,
+      "G_confusion": [
+        [
+          90,
+          31
+        ],
+        [
+          14,
+          112
+        ]
+      ],
+      "old_confusion": [
+        [
+          93,
+          28
+        ],
+        [
+          13,
+          113
+        ]
+      ],
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "samples": 159,
+      "G": {
+        "WAF": 86.54255319148938,
+        "ACC": 84.39716312056737
+      },
+      "reference": {
+        "WAF": 88.12017448739277,
+        "ACC": 86.52482269503547
+      },
+      "delta": {
+        "WAF": -1.5776212959034086,
+        "ACC": -2.127659574468088
+      },
+      "ci95": {
+        "WAF": [
+          -4.713023528421322,
+          1.479113964741604
+        ],
+        "ACC": [
+          -6.338028169014076,
+          2.0833333333333264
+        ]
+      },
+      "responses_changed": 77,
+      "response_change_rate": 0.48427672955974843,
+      "scored_samples": 141,
+      "corrected": 3,
+      "harmed": 6,
+      "stable_correct": 116,
+      "stable_wrong": 16,
+      "G_confusion": [
+        [
+          109,
+          18
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "old_confusion": [
+        [
+          112,
+          15
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "samples": 298,
+      "G": {
+        "WAF": 81.66879882004125,
+        "ACC": 81.78137651821862
+      },
+      "reference": {
+        "WAF": 83.73464024433554,
+        "ACC": 83.80566801619433
+      },
+      "delta": {
+        "WAF": -2.06584142429429,
+        "ACC": -2.0242914979757165
+      },
+      "ci95": {
+        "WAF": [
+          -4.579542363395678,
+          0.31181984771822474
+        ],
+        "ACC": [
+          -4.545454545454552,
+          0.3937007874015741
+        ]
+      },
+      "responses_changed": 122,
+      "response_change_rate": 0.40939597315436244,
+      "scored_samples": 247,
+      "corrected": 2,
+      "harmed": 7,
+      "stable_correct": 200,
+      "stable_wrong": 38,
+      "G_confusion": [
+        [
+          90,
+          31
+        ],
+        [
+          14,
+          112
+        ]
+      ],
+      "old_confusion": [
+        [
+          94,
+          27
+        ],
+        [
+          13,
+          113
+        ]
+      ],
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "samples": 159,
+      "G": {
+        "WAF": 86.54255319148938,
+        "ACC": 84.39716312056737
+      },
+      "reference": {
+        "WAF": 87.5915831428404,
+        "ACC": 85.81560283687944
+      },
+      "delta": {
+        "WAF": -1.0490299513510326,
+        "ACC": -1.4184397163120588
+      },
+      "ci95": {
+        "WAF": [
+          -3.9403266700723387,
+          1.6964402576369346
+        ],
+        "ACC": [
+          -5.3040423317140935,
+          2.1897810218978186
+        ]
+      },
+      "responses_changed": 56,
+      "response_change_rate": 0.3522012578616352,
+      "scored_samples": 141,
+      "corrected": 3,
+      "harmed": 5,
+      "stable_correct": 116,
+      "stable_wrong": 17,
+      "G_confusion": [
+        [
+          109,
+          18
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "old_confusion": [
+        [
+          111,
+          16
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-F",
+      "samples": 298,
+      "G": {
+        "WAF": 81.66879882004125,
+        "ACC": 81.78137651821862
+      },
+      "reference": {
+        "WAF": 82.06429535376904,
+        "ACC": 82.18623481781377
+      },
+      "delta": {
+        "WAF": -0.3954965337278016,
+        "ACC": -0.4048582995951455
+      },
+      "ci95": {
+        "WAF": [
+          -1.2319747477873075,
+          0.0
+        ],
+        "ACC": [
+          -1.2553619774269624,
+          0.0
+        ]
+      },
+      "responses_changed": 0,
+      "response_change_rate": 0.0,
+      "scored_samples": 247,
+      "corrected": 0,
+      "harmed": 1,
+      "stable_correct": 202,
+      "stable_wrong": 44,
+      "G_confusion": [
+        [
+          90,
+          31
+        ],
+        [
+          14,
+          112
+        ]
+      ],
+      "old_confusion": [
+        [
+          90,
+          31
+        ],
+        [
+          13,
+          113
+        ]
+      ],
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-F",
+      "samples": 159,
+      "G": {
+        "WAF": 86.54255319148938,
+        "ACC": 84.39716312056737
+      },
+      "reference": {
+        "WAF": 86.0211848119156,
+        "ACC": 83.68794326241135
+      },
+      "delta": {
+        "WAF": 0.5213683795737611,
+        "ACC": 0.7092198581560294
+      },
+      "ci95": {
+        "WAF": [
+          -1.664132682924268,
+          2.8928043978948126
+        ],
+        "ACC": [
+          -2.1739130434782594,
+          4.109589041095885
+        ]
+      },
+      "responses_changed": 58,
+      "response_change_rate": 0.36477987421383645,
+      "scored_samples": 141,
+      "corrected": 3,
+      "harmed": 2,
+      "stable_correct": 116,
+      "stable_wrong": 20,
+      "G_confusion": [
+        [
+          109,
+          18
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "old_confusion": [
+        [
+          108,
+          19
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "samples": 304,
+      "G": {
+        "F_s": 61.90256741296979,
+        "P_s": 61.39852667597694,
+        "R_s": 62.590851545899454
+      },
+      "reference": {
+        "F_s": 60.86865305094429,
+        "P_s": 60.20068092065145,
+        "R_s": 61.6980115193085
+      },
+      "delta": {
+        "F_s": 1.033914362025501,
+        "P_s": 1.1978457553254884,
+        "R_s": 0.8928400265909464
+      },
+      "ci95": {
+        "F_s": [
+          -0.3566352420798912,
+          2.5513686936768347
+        ],
+        "P_s": [
+          -0.35450528119630703,
+          2.813218452127279
+        ],
+        "R_s": [
+          -0.8679845643672898,
+          2.7660621365179745
+        ]
+      },
+      "responses_changed": 140,
+      "response_change_rate": 0.4605263157894737,
+      "diagnostic_sample_F_improved": 57,
+      "diagnostic_sample_F_worsened": 50,
+      "G_mean_mapped_candidates": 1.7651315789473685,
+      "old_mean_mapped_candidates": 1.7394736842105263,
+      "G_mean_extracted_labels": 3.4407894736842106,
+      "old_mean_extracted_labels": 3.4572368421052633,
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "samples": 228,
+      "G": {
+        "F_s": 58.99589586274432,
+        "P_s": 55.88038585446744,
+        "R_s": 62.55458738305112
+      },
+      "reference": {
+        "F_s": 57.68467698851174,
+        "P_s": 54.57059693159055,
+        "R_s": 61.287497403960636
+      },
+      "delta": {
+        "F_s": 1.311218874232578,
+        "P_s": 1.3097889228768866,
+        "R_s": 1.2670899790904855
+      },
+      "ci95": {
+        "F_s": [
+          -0.3434480576369283,
+          3.0273488565391418
+        ],
+        "P_s": [
+          -0.6973090273186722,
+          3.2846774221210966
+        ],
+        "R_s": [
+          -0.6922517678989001,
+          3.405410962203772
+        ]
+      },
+      "responses_changed": 101,
+      "response_change_rate": 0.44298245614035087,
+      "diagnostic_sample_F_improved": 42,
+      "diagnostic_sample_F_worsened": 31,
+      "G_mean_mapped_candidates": 1.9175438596491228,
+      "old_mean_mapped_candidates": 1.9175438596491228,
+      "G_mean_extracted_labels": 3.43859649122807,
+      "old_mean_extracted_labels": 3.5526315789473686,
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-C",
+      "samples": 304,
+      "G": {
+        "F_s": 61.90256741296979,
+        "P_s": 61.39852667597694,
+        "R_s": 62.590851545899454
+      },
+      "reference": {
+        "F_s": 61.77256404474595,
+        "P_s": 61.75413937573112,
+        "R_s": 61.97871865300015
+      },
+      "delta": {
+        "F_s": 0.13000336822384106,
+        "P_s": -0.35561269975418197,
+        "R_s": 0.6121328928992975
+      },
+      "ci95": {
+        "F_s": [
+          -0.818494015081683,
+          1.1268766920765
+        ],
+        "P_s": [
+          -1.4607513882510137,
+          0.7581158118300214
+        ],
+        "R_s": [
+          -0.6725131264585651,
+          1.8835326651005606
+        ]
+      },
+      "responses_changed": 104,
+      "response_change_rate": 0.34210526315789475,
+      "diagnostic_sample_F_improved": 41,
+      "diagnostic_sample_F_worsened": 42,
+      "G_mean_mapped_candidates": 1.7651315789473685,
+      "old_mean_mapped_candidates": 1.707236842105263,
+      "G_mean_extracted_labels": 3.4407894736842106,
+      "old_mean_extracted_labels": 3.325657894736842,
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-C",
+      "samples": 228,
+      "G": {
+        "F_s": 58.99589586274432,
+        "P_s": 55.88038585446744,
+        "R_s": 62.55458738305112
+      },
+      "reference": {
+        "F_s": 58.93317695949906,
+        "P_s": 55.833704728292254,
+        "R_s": 62.49356969455169
+      },
+      "delta": {
+        "F_s": 0.06271890324526241,
+        "P_s": 0.04668112617518538,
+        "R_s": 0.06101768849943179
+      },
+      "ci95": {
+        "F_s": [
+          -1.3118845280407998,
+          1.4371744714450443
+        ],
+        "P_s": [
+          -1.3431308693948225,
+          1.4144413945579357
+        ],
+        "R_s": [
+          -1.6026196935741515,
+          1.890377720568702
+        ]
+      },
+      "responses_changed": 65,
+      "response_change_rate": 0.2850877192982456,
+      "diagnostic_sample_F_improved": 25,
+      "diagnostic_sample_F_worsened": 24,
+      "G_mean_mapped_candidates": 1.9175438596491228,
+      "old_mean_mapped_candidates": 1.9280701754385965,
+      "G_mean_extracted_labels": 3.43859649122807,
+      "old_mean_extracted_labels": 3.5350877192982457,
+      "gate_level": 3
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "samples": 304,
+      "G": {
+        "F_s": 61.90256741296979,
+        "P_s": 61.39852667597694,
+        "R_s": 62.590851545899454
+      },
+      "reference": {
+        "F_s": 61.84249670207444,
+        "P_s": 61.27326407319038,
+        "R_s": 62.590851545899454
+      },
+      "delta": {
+        "F_s": 0.06007071089534355,
+        "P_s": 0.12526260278655776,
+        "R_s": 0.0
+      },
+      "ci95": {
+        "F_s": [
+          0.0,
+          0.16790397270403018
+        ],
+        "P_s": [
+          0.0,
+          0.3519724535479843
+        ],
+        "R_s": [
+          0.0,
+          0.0
+        ]
+      },
+      "responses_changed": 0,
+      "response_change_rate": 0.0,
+      "diagnostic_sample_F_improved": 2,
+      "diagnostic_sample_F_worsened": 0,
+      "G_mean_mapped_candidates": 1.7651315789473685,
+      "old_mean_mapped_candidates": 1.768421052631579,
+      "G_mean_extracted_labels": 3.4407894736842106,
+      "old_mean_extracted_labels": 3.4407894736842106,
+      "gate_level": 2
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "samples": 228,
+      "G": {
+        "F_s": 58.99589586274432,
+        "P_s": 55.88038585446744,
+        "R_s": 62.55458738305112
+      },
+      "reference": {
+        "F_s": 57.97749802590945,
+        "P_s": 55.268842600672954,
+        "R_s": 61.060064105738576
+      },
+      "delta": {
+        "F_s": 1.0183978368348723,
+        "P_s": 0.6115432537944887,
+        "R_s": 1.4945232773125428
+      },
+      "ci95": {
+        "F_s": [
+          -0.3634378344695518,
+          2.502396477075982
+        ],
+        "P_s": [
+          -0.9598764864834388,
+          2.1566373222714135
+        ],
+        "R_s": [
+          -0.14498527364820185,
+          3.2988850252267117
+        ]
+      },
+      "responses_changed": 86,
+      "response_change_rate": 0.37719298245614036,
+      "diagnostic_sample_F_improved": 30,
+      "diagnostic_sample_F_worsened": 29,
+      "G_mean_mapped_candidates": 1.9175438596491228,
+      "old_mean_mapped_candidates": 1.8885964912280702,
+      "G_mean_extracted_labels": 3.43859649122807,
+      "old_mean_extracted_labels": 3.4780701754385963,
+      "gate_level": 3
+    }
+  ],
+  "appraisal_audit": {
+    "MER2023": {
+      "mean_states": 10.557177615571776,
+      "mean_graph_tokens": 152.1824817518248,
+      "dimensions": {
+        "APP_GOAL_RELEVANCE": {
+          "displayed": 334,
+          "multi_state": 124,
+          "all_allowed_states": 124
+        },
+        "APP_GOAL_CONGRUENCE": {
+          "displayed": 410,
+          "multi_state": 381,
+          "all_allowed_states": 0
+        },
+        "APP_EXPECTEDNESS": {
+          "displayed": 410,
+          "multi_state": 352,
+          "all_allowed_states": 352
+        },
+        "APP_AGENCY": {
+          "displayed": 405,
+          "multi_state": 386,
+          "all_allowed_states": 0
+        },
+        "APP_CERTAINTY": {
+          "displayed": 407,
+          "multi_state": 386,
+          "all_allowed_states": 386
+        },
+        "APP_COPING_POTENTIAL": {
+          "displayed": 409,
+          "multi_state": 335,
+          "all_allowed_states": 0
+        }
+      }
+    },
+    "SIMS": {
+      "mean_states": 10.472647702407002,
+      "mean_graph_tokens": 147.66958424507658,
+      "dimensions": {
+        "APP_GOAL_RELEVANCE": {
+          "displayed": 377,
+          "multi_state": 108,
+          "all_allowed_states": 108
+        },
+        "APP_GOAL_CONGRUENCE": {
+          "displayed": 457,
+          "multi_state": 430,
+          "all_allowed_states": 0
+        },
+        "APP_EXPECTEDNESS": {
+          "displayed": 456,
+          "multi_state": 378,
+          "all_allowed_states": 378
+        },
+        "APP_AGENCY": {
+          "displayed": 451,
+          "multi_state": 439,
+          "all_allowed_states": 0
+        },
+        "APP_CERTAINTY": {
+          "displayed": 456,
+          "multi_state": 414,
+          "all_allowed_states": 414
+        },
+        "APP_COPING_POTENTIAL": {
+          "displayed": 457,
+          "multi_state": 363,
+          "all_allowed_states": 0
+        }
+      }
+    },
+    "OVMERDPlus": {
+      "mean_states": 10.558270676691729,
+      "mean_graph_tokens": 152.26127819548873,
+      "dimensions": {
+        "APP_GOAL_RELEVANCE": {
+          "displayed": 424,
+          "multi_state": 146,
+          "all_allowed_states": 146
+        },
+        "APP_GOAL_CONGRUENCE": {
+          "displayed": 532,
+          "multi_state": 490,
+          "all_allowed_states": 0
+        },
+        "APP_EXPECTEDNESS": {
+          "displayed": 532,
+          "multi_state": 470,
+          "all_allowed_states": 470
+        },
+        "APP_AGENCY": {
+          "displayed": 530,
+          "multi_state": 504,
+          "all_allowed_states": 0
+        },
+        "APP_CERTAINTY": {
+          "displayed": 531,
+          "multi_state": 489,
+          "all_allowed_states": 489
+        },
+        "APP_COPING_POTENTIAL": {
+          "displayed": 532,
+          "multi_state": 437,
+          "all_allowed_states": 0
+        }
+      }
+    }
+  },
+  "sims_class_confusion": {
+    "base35": {
+      "A": {
+        "confusion": [
+          [
+            216,
+            32
+          ],
+          [
+            22,
+            118
+          ]
+        ],
+        "negative_recall": 0.8709677419354839,
+        "positive_recall": 0.8428571428571429,
+        "correct": 334
+      },
+      "B": {
+        "confusion": [
+          [
+            226,
+            22
+          ],
+          [
+            30,
+            110
+          ]
+        ],
+        "negative_recall": 0.9112903225806451,
+        "positive_recall": 0.7857142857142857,
+        "correct": 336
+      },
+      "C": {
+        "confusion": [
+          [
+            225,
+            23
+          ],
+          [
+            32,
+            108
+          ]
+        ],
+        "negative_recall": 0.907258064516129,
+        "positive_recall": 0.7714285714285715,
+        "correct": 333
+      },
+      "D": {
+        "confusion": [
+          [
+            224,
+            24
+          ],
+          [
+            28,
+            112
+          ]
+        ],
+        "negative_recall": 0.9032258064516129,
+        "positive_recall": 0.8,
+        "correct": 336
+      },
+      "E": {
+        "confusion": [
+          [
+            219,
+            29
+          ],
+          [
+            31,
+            109
+          ]
+        ],
+        "negative_recall": 0.8830645161290323,
+        "positive_recall": 0.7785714285714286,
+        "correct": 328
+      },
+      "F": {
+        "confusion": [
+          [
+            225,
+            23
+          ],
+          [
+            30,
+            110
+          ]
+        ],
+        "negative_recall": 0.907258064516129,
+        "positive_recall": 0.7857142857142857,
+        "correct": 335
+      },
+      "G": {
+        "confusion": [
+          [
+            227,
+            21
+          ],
+          [
+            31,
+            109
+          ]
+        ],
+        "negative_recall": 0.9153225806451613,
+        "positive_recall": 0.7785714285714286,
+        "correct": 336
+      }
+    },
+    "graph40": {
+      "A": {
+        "confusion": [
+          [
+            204,
+            44
+          ],
+          [
+            18,
+            122
+          ]
+        ],
+        "negative_recall": 0.8225806451612904,
+        "positive_recall": 0.8714285714285714,
+        "correct": 326
+      },
+      "B": {
+        "confusion": [
+          [
+            205,
+            43
+          ],
+          [
+            17,
+            123
+          ]
+        ],
+        "negative_recall": 0.8266129032258065,
+        "positive_recall": 0.8785714285714286,
+        "correct": 328
+      },
+      "C": {
+        "confusion": [
+          [
+            205,
+            43
+          ],
+          [
+            17,
+            123
+          ]
+        ],
+        "negative_recall": 0.8266129032258065,
+        "positive_recall": 0.8785714285714286,
+        "correct": 328
+      },
+      "D": {
+        "confusion": [
+          [
+            204,
+            44
+          ],
+          [
+            19,
+            121
+          ]
+        ],
+        "negative_recall": 0.8225806451612904,
+        "positive_recall": 0.8642857142857143,
+        "correct": 325
+      },
+      "E": {
+        "confusion": [
+          [
+            201,
+            47
+          ],
+          [
+            20,
+            120
+          ]
+        ],
+        "negative_recall": 0.8104838709677419,
+        "positive_recall": 0.8571428571428571,
+        "correct": 321
+      },
+      "F": {
+        "confusion": [
+          [
+            198,
+            50
+          ],
+          [
+            17,
+            123
+          ]
+        ],
+        "negative_recall": 0.7983870967741935,
+        "positive_recall": 0.8785714285714286,
+        "correct": 321
+      },
+      "G": {
+        "confusion": [
+          [
+            199,
+            49
+          ],
+          [
+            18,
+            122
+          ]
+        ],
+        "negative_recall": 0.8024193548387096,
+        "positive_recall": 0.8714285714285714,
+        "correct": 321
+      }
+    }
+  },
+  "examples": [
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "name": "video_0051_0034",
+      "reference": -1.0,
+      "direction": "harmed",
+      "gate": 3,
+      "subtitle": "Mom!",
+      "old_response": "The character's emotional state is anger, frustration, anxiety, confusion, sense of failure.",
+      "G_response": "The character's emotional state is longing, expectation, concern, care, warmth, desire, need.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: speech rate rel slow; audio: pitch variability high; audio: intonation rising; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: grimace present; visual: tearing present\nAppraisal alternatives to check: goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag circumstance (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low (tentative)",
+      "old_extracted": [
+        "anger",
+        "frustration",
+        "anxiety",
+        "confusion",
+        "sense_of_failure"
+      ],
+      "G_extracted": [
+        "longing",
+        "expectation",
+        "concern",
+        "care",
+        "warmth",
+        "desire",
+        "need"
+      ],
+      "G_reused": false,
+      "old_sentiment": "negative",
+      "G_sentiment": "positive"
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "name": "video_0015_0035",
+      "reference": -0.6,
+      "direction": "harmed",
+      "gate": 3,
+      "subtitle": "Even if this diary is true, you cannot prove me to be a murderer.",
+      "old_response": "The character's emotional state is defense, argumentation, dissatisfaction, disagreement, tense, uncertainty.",
+      "G_response": "The character's emotional state is calmness, confidence, defense.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: contrast present; audio: speech rate rel slow; audio: pitch level rel low; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc mixed OR agc congruent (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "defense",
+        "argumentation",
+        "dissatisfaction",
+        "disagreement",
+        "tense",
+        "uncertainty"
+      ],
+      "G_extracted": [
+        "calmness",
+        "confidence",
+        "defense"
+      ],
+      "G_reused": false,
+      "old_sentiment": "negative",
+      "G_sentiment": "positive"
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "name": "video_0010_0038",
+      "reference": -0.8,
+      "direction": "improved",
+      "gate": 3,
+      "subtitle": "Your mother said that Leier will influence Fang Yifan to study.",
+      "old_response": "The character's emotional state is positive, concerned, focused, pressured, anxious.",
+      "G_response": "The character's emotional state is worry, concern.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: explicit causal attribution other; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: mouth corners down\nAppraisal alternatives to check: goal relevance: agr relevant (tentative); goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "positive",
+        "concerned",
+        "focused",
+        "anxious"
+      ],
+      "G_extracted": [
+        "worry",
+        "concern"
+      ],
+      "G_reused": false,
+      "old_sentiment": "positive",
+      "G_sentiment": "negative"
+    },
+    {
+      "weight": "graph40",
+      "dataset": "SIMS",
+      "comparison": "G-B",
+      "name": "video_0024_0022",
+      "reference": -1.0,
+      "direction": "improved",
+      "gate": 3,
+      "subtitle": "That's from my father",
+      "old_response": "The character's emotional state is surprised, delighted, playful, mischievous, humorous, teasing, affectionate.",
+      "G_response": "The character's emotional state is surprised, delighted, playful, fear, anxiety, tension, concern, nervousness.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: explicit causal attribution other; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; audio: voice tense; visual: brows furrowed; visual: eyes widened; visual: eyes squinted; visual: mouth corners down; visual: grimace present\nAppraisal alternatives to check: goal relevance: agr relevant (tentative); goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag circumstance (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "surprised",
+        "delighted",
+        "playful",
+        "mischievous",
+        "humorous",
+        "teasing",
+        "affectionate"
+      ],
+      "G_extracted": [
+        "surprised",
+        "delighted",
+        "playful",
+        "fear",
+        "anxiety",
+        "tension",
+        "concern",
+        "nervousness"
+      ],
+      "G_reused": false,
+      "old_sentiment": "positive",
+      "G_sentiment": "negative"
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "name": "video_0054_0032",
+      "reference": 0.2,
+      "direction": "harmed",
+      "gate": 2,
+      "subtitle": "The feeling of special honor, feeling very afraid, how to play with him. We are unfamiliar and also haven't acted in the play",
+      "old_response": "The character's emotional state is confused, uneasy, fearful, anxious, happy, satisfied.",
+      "G_response": "The character's emotional state is confused, uneasy, uncertain.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: negation present; text: intensifier present; text: exclamation interjection; audio: speech rate rel slow; audio: pitch variability high; audio: intonation falling; audio: laughter present; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc congruent OR agc incongruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp high OR acp low (unresolved)",
+      "old_extracted": [
+        "confused",
+        "uneasy",
+        "fearful",
+        "anxious",
+        "happy",
+        "satisfied"
+      ],
+      "G_extracted": [
+        "confused",
+        "uneasy",
+        "uncertain"
+      ],
+      "G_reused": true,
+      "old_sentiment": "positive",
+      "G_sentiment": "negative"
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "name": "video_0023_0035",
+      "reference": 1.0,
+      "direction": "harmed",
+      "gate": 2,
+      "subtitle": "Caramel latte, right?",
+      "old_response": "The character's emotional state is excited, enthusiastic, uncertain, certain, able to manage emotions.",
+      "G_response": "The character's emotional state is excited, enthusiastic, uncertain, coping potential.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal alternatives to check: goal congruence: agc congruent OR agc incongruent (unresolved); expectedness: aex unexpected (tentative); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp high (tentative)",
+      "old_extracted": [
+        "excited",
+        "enthusiastic",
+        "uncertain",
+        "certain"
+      ],
+      "G_extracted": [
+        "excited",
+        "enthusiastic",
+        "uncertain",
+        "coping"
+      ],
+      "G_reused": true,
+      "old_sentiment": "positive",
+      "G_sentiment": "neutral"
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "name": "video_0010_0038",
+      "reference": -0.8,
+      "direction": "improved",
+      "gate": 3,
+      "subtitle": "Your mother said that Leier will influence Fang Yifan to study.",
+      "old_response": "The character's emotional state is worry, tension, concern, support, curiosity, focus.",
+      "G_response": "The character's emotional state is concerned, dissatisfied, tense, anxious.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: explicit causal attribution other; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: mouth corners down\nAppraisal alternatives to check: goal relevance: agr relevant (tentative); goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "worry",
+        "tension",
+        "concern",
+        "support",
+        "curiosity",
+        "focus"
+      ],
+      "G_extracted": [
+        "concerned",
+        "dissatisfied",
+        "tense",
+        "anxious"
+      ],
+      "G_reused": false,
+      "old_sentiment": "positive",
+      "G_sentiment": "negative"
+    },
+    {
+      "weight": "base35",
+      "dataset": "SIMS",
+      "comparison": "G-C",
+      "name": "video_0047_0005",
+      "reference": -1.0,
+      "direction": "improved",
+      "gate": 2,
+      "subtitle": "As a result, when we broke up, she broke the record in half, so I was very impressed.",
+      "old_response": "The character's emotional state is excited, surprised, positive, negative, overwhelmed, helpless, indifferent, flat, relaxed.",
+      "G_response": "The character's emotional state is excited, frustrated, positive assessment, self-deprecating, ironic.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: evaluation positive; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised\nAppraisal alternatives to check: goal relevance: agr relevant (tentative); goal congruence: agc congruent OR agc mixed (unresolved); expectedness: aex expected (tentative); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp high OR acp low (unresolved)",
+      "old_extracted": [
+        "excited",
+        "surprised",
+        "positive",
+        "negative",
+        "overwhelmed",
+        "helpless",
+        "indifferent",
+        "flat",
+        "relaxed"
+      ],
+      "G_extracted": [
+        "excited",
+        "frustrated",
+        "positive assessment",
+        "self-deprecating",
+        "ironic"
+      ],
+      "G_reused": true,
+      "old_sentiment": "positive",
+      "G_sentiment": "mixed"
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "name": "sample_00001000",
+      "reference": [
+        "admire",
+        "appreciate",
+        "recognize"
+      ],
+      "direction": "harmed",
+      "gate": 2,
+      "subtitle": "The family members are relatively rational, they did not completely close the door, nor did they unilaterally seek the media.",
+      "old_response": "The character's emotional state is positive, negative.",
+      "G_response": "The character's emotional state is objective, fair, neutral, anxious, tense, emotionally detached.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: negation present; text: intensifier present; audio: speech rate rel slow; audio: pitch level rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows furrowed\nAppraisal alternatives to check: goal relevance: agr irrelevant OR agr relevant (unresolved); goal congruence: agc congruent OR agc mixed (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "positive",
+        "negative"
+      ],
+      "G_extracted": [
+        "anxious",
+        "tense",
+        "emotionally detached"
+      ],
+      "G_reused": true
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "name": "sample_00001841",
+      "reference": [
+        "guilt",
+        "self-blame"
+      ],
+      "direction": "harmed",
+      "gate": 3,
+      "subtitle": "Aunt Pang would not make such extreme actions. It's all my fault.",
+      "old_response": "The character's emotional state is guilt, self-blame.",
+      "G_response": "The character's emotional state is guilt, regret, fear, anxiety.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: intensifier present; text: explicit causal attribution self; text: explicit failure loss outcome; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: lips pressed; visual: head lowered\nAppraisal alternatives to check: goal relevance: agr irrelevant OR agr relevant (unresolved); goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "guilt",
+        "self-blame"
+      ],
+      "G_extracted": [
+        "guilt",
+        "regret",
+        "fear",
+        "anxiety"
+      ],
+      "G_reused": false
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "name": "samplenew3_00052078",
+      "reference": [
+        "serious",
+        "confused",
+        "doubt"
+      ],
+      "direction": "improved",
+      "gate": 2,
+      "subtitle": "It's just that eating something bad will cause a reaction, at least it takes two or three hours.",
+      "old_response": "The character's emotional state is neutral.",
+      "G_response": "The character's emotional state is anger, frustration, disappointment.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: uncertainty hedge; audio: speech rate rel slow; audio: pitch variability high; audio: intonation rising; visual: brows raised\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [],
+      "G_extracted": [
+        "anger",
+        "frustration",
+        "disappointment"
+      ],
+      "G_reused": true
+    },
+    {
+      "weight": "graph40",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-B",
+      "name": "samplenew3_00061957",
+      "reference": [
+        "shocked",
+        "confused",
+        "surprised"
+      ],
+      "direction": "improved",
+      "gate": 2,
+      "subtitle": "What",
+      "old_response": "The character's emotional state is neutral.",
+      "G_response": "The character's emotional state is disappointment, confusion, uncertainty, doubt, puzzlement.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: rhetorical question; audio: pitch level rel high; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc congruent OR agc incongruent (unresolved); expectedness: aex unexpected (tentative); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp high OR acp low (unresolved)",
+      "old_extracted": [],
+      "G_extracted": [
+        "disappointment",
+        "confusion",
+        "uncertainty",
+        "doubt",
+        "puzzlement"
+      ],
+      "G_reused": true
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "name": "sample_00002181",
+      "reference": [
+        "joyful",
+        "happy"
+      ],
+      "direction": "harmed",
+      "gate": 3,
+      "subtitle": "",
+      "old_response": "The character's emotional state is joy, humor, positive.",
+      "G_response": "",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: pitch variability high; audio: intonation rising; audio: laughter present; visual: head lowered\nAppraisal alternatives to check: goal congruence: agc congruent OR agc incongruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low (tentative)",
+      "old_extracted": [
+        "joy",
+        "humor",
+        "positive"
+      ],
+      "G_extracted": [],
+      "G_reused": false
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "name": "samplenew3_00049640",
+      "reference": [
+        "serious",
+        "sad",
+        "nervous"
+      ],
+      "direction": "harmed",
+      "gate": 3,
+      "subtitle": "Twenty-six years old twenty",
+      "old_response": "The character's emotional state is sadness, fear, anxiety, stress.",
+      "G_response": "The character's emotional state is neutral.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: pitch variability low; audio: intonation rising; visual: brows furrowed; visual: mouth corners down; visual: head lowered\nAppraisal alternatives to check: goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low (tentative)",
+      "old_extracted": [
+        "sadness",
+        "fear",
+        "anxiety",
+        "stress"
+      ],
+      "G_extracted": [],
+      "G_reused": false
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "name": "samplenew3_00044584",
+      "reference": [
+        "uneasy",
+        "worried",
+        "afraid",
+        "concerned",
+        "anxious"
+      ],
+      "direction": "improved",
+      "gate": 3,
+      "subtitle": "Especially this matter is now very sensitive.",
+      "old_response": "The character might be experiencing a negative emotion, such as sadness, anger, or fear.",
+      "G_response": "The character's emotional state is tension, concern, stress.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation negative; text: intensifier present; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag self (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "sadness",
+        "anger",
+        "fear"
+      ],
+      "G_extracted": [
+        "tension",
+        "concern",
+        "stress"
+      ],
+      "G_reused": false
+    },
+    {
+      "weight": "base35",
+      "dataset": "OVMERDPlus",
+      "comparison": "G-F",
+      "name": "sample_00001823",
+      "reference": [
+        "concern",
+        "worry"
+      ],
+      "direction": "improved",
+      "gate": 3,
+      "subtitle": "I wanted to ask you, why did you quit? Is it because you really don't want to work in the emergency department anymore and you're really going to the United States?",
+      "old_response": "The character's emotional state is sadness, anger, fear.",
+      "G_response": "The character's emotional state is concern, worry, pressure, unease.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: intensifier present; text: rhetorical question; text: desire need; text: explicit causal attribution other; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation rising; audio: intonation flat; visual: brows furrowed; visual: mouth corners down\nAppraisal alternatives to check: goal relevance: agr irrelevant OR agr relevant (unresolved); goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "sadness",
+        "anger",
+        "fear"
+      ],
+      "G_extracted": [
+        "concern",
+        "worry",
+        "pressure",
+        "unease"
+      ],
+      "G_reused": false
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "name": "sample_00003781",
+      "reference": "sad",
+      "direction": "harmed",
+      "gate": 3,
+      "subtitle": "Start counting.",
+      "old_response": "The character's emotional state is sorrow, despair, anxiety, numbness, detachment.",
+      "G_response": "The character's emotional state is tension, anxiety, stress, difficulty, coping.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: intonation rising; visual: brows furrowed; visual: mouth corners down\nAppraisal alternatives to check: goal congruence: agc incongruent (tentative); expectedness: aex unexpected (tentative); agency: aag other (tentative); certainty: act uncertain (tentative); coping potential: acp low (tentative)",
+      "old_extracted": [
+        "sorrow",
+        "despair",
+        "anxiety",
+        "numbness",
+        "detachment"
+      ],
+      "G_extracted": [
+        "tension",
+        "anxiety",
+        "stress"
+      ],
+      "G_reused": false
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "name": "sample_00003069",
+      "reference": "worried",
+      "direction": "harmed",
+      "gate": 2,
+      "subtitle": "Take good care of yourself and drink less alcohol.",
+      "old_response": "The character's emotional state is care, advice, concern.",
+      "G_response": "The character's emotional state is care, advice, positive sentiment.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: intensifier present; text: exclamation interjection; text: desire need; audio: pitch variability low; audio: intonation falling; visual: brows raised\nAppraisal alternatives to check: goal relevance: agr irrelevant OR agr relevant (unresolved); goal congruence: agc congruent OR agc incongruent (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act certain OR act uncertain (unresolved); coping potential: acp high OR acp low (unresolved)",
+      "old_extracted": [
+        "care",
+        "concern"
+      ],
+      "G_extracted": [
+        "positive sentiment"
+      ],
+      "G_reused": true
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "name": "sample_00004046",
+      "reference": "worried",
+      "direction": "improved",
+      "gate": 3,
+      "subtitle": "Then I won't leave, you have to let Peng Jiahe know.",
+      "old_response": "The character's emotional state is firm, resolute, dissatisfaction, unwillingness.",
+      "G_response": "The character's emotional state is assertive, persistent, tense, anxious.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: exclamation interjection; text: desire need; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: head lowered\nAppraisal alternatives to check: goal relevance: agr irrelevant OR agr relevant (unresolved); goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex expected OR aex unexpected (unresolved); agency: aag self OR aag circumstance (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "firm",
+        "resolute",
+        "dissatisfaction",
+        "unwillingness"
+      ],
+      "G_extracted": [
+        "assertive",
+        "persistent",
+        "tense",
+        "anxious"
+      ],
+      "G_reused": false
+    },
+    {
+      "weight": "graph40",
+      "dataset": "MER2023",
+      "comparison": "G-C",
+      "name": "sample_00003613",
+      "reference": "worried",
+      "direction": "improved",
+      "gate": 2,
+      "subtitle": "Auntie, this isn't a trap, is it?",
+      "old_response": "The character's emotional state is curiosity, exploration, excitement, fun.",
+      "G_response": "The character's emotional state is curiosity, exploration, excitement, anxiety.",
+      "G_prompt": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag circumstance (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)",
+      "old_extracted": [
+        "curiosity",
+        "exploration",
+        "excitement",
+        "fun"
+      ],
+      "G_extracted": [
+        "curiosity",
+        "exploration",
+        "excitement",
+        "anxiety"
+      ],
+      "G_reused": true
+    }
+  ],
+  "bootstrap": {
+    "replicates": 5000,
+    "stratum_replicates": 3000,
+    "seed": 20261028,
+    "unit": "paired sample IDs; all wheel measurements kept together",
+    "limitations": "Conditional on fixed checkpoints and this generation realization; target-test exploration; no multiple-comparison adjustment or independent validation claim"
+  },
+  "notes": [
+    "OV diagnostic per-sample F transitions are not an additive decomposition of official F.",
+    "G-F generation changes only on541 gate3 samples per weight; remaining859 raw answers per weight were reused by exact prompt/weight/seed identity.",
+    "No inference path text was provided.",
+    "Same content with different wording also changes token sequence and subsequent sampled generation; this experiment measures the complete wording treatment,not an isolated cognitive mechanism."
+  ]
+}

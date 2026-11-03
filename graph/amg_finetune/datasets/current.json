@@ -1,0 +1,29 @@
+{
+  "created_at_beijing": "2026-10-22T12:44:23.533867+08:00",
+  "plan_id": "51847d3eb79bb91ec1194c70750f369406685adcbad0a76f509f68682c637198",
+  "purpose": "User-authorized AffectGPT continuation and human audit union",
+  "train": {
+    "samples": 30755,
+    "records": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/train_records.json",
+    "ids_digest": "13f7bb1089190cf6463e6dae95fc1e093b796f12a51f74ee19a9e9fd5ea3f8ed",
+    "previous_roles": {
+      "pseudo_train": 27679,
+      "pseudo_validation": 3076
+    }
+  },
+  "human_audit": {
+    "samples": 500,
+    "records": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/human_audit_500.json",
+    "csv": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/human_audit_500.csv",
+    "annotation_template": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/human_audit_500_annotation_template.csv",
+    "protocol": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/human_audit_protocol.json",
+    "ids_digest": "d7bdc5f3233aff62627deb0cd7ce6deb98830bc74b3c2b72a47e62d3f016ad1c",
+    "previous_roles": {
+      "gold_audit": 300,
+      "diagnostic_reserved": 200
+    },
+    "human_labels_populated": false
+  },
+  "independent_validation_available": false,
+  "historical_frozen_cue_and_graph_releases_preserved": true
+}

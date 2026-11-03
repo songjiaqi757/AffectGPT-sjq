@@ -1,0 +1,18 @@
+{
+  "prompt_version": "appraisal_teacher_v2.4",
+  "ontology_version": "appraisal_ontology_v2.3",
+  "annotation_schema_version": "appraisal_annotation_schema_v2.4",
+  "old_run": "runs/pilot30",
+  "new_run": "runs/pilot30_v2_4",
+  "old_prompt_sha256": "b158a3756cb04a1f28ef4b8422ec269b2b391841587934ee207b948458a3f197",
+  "new_prompt_sha256": "99c155b7486fae0c648ba6c35efcd8f00220397a39753511cdd8be4e09080cf2",
+  "original_document_sha256": "409366d116e0b8ef7b74c5bd5d67719c83f30ba246398c60361f72dbcdb63d61",
+  "sample_selection": "same_30_as_cue_pilot",
+  "modifications": [
+    "remove_person_identification_task_and_fields",
+    "strict_dimension_specific_direct_evidence_gate",
+    "new_unknown_reason_codes"
+  ],
+  "model_or_media_changes": false,
+  "labels_postprocessing": "none"
+}

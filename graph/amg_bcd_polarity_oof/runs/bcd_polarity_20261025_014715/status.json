@@ -1,0 +1,48 @@
+{
+  "phase": "complete",
+  "pid": 1078452,
+  "pgid": 1078452,
+  "plan_id": "c8f01e32aefc260cd96677bbc38c5fcd6b8f27c493ca0851bbd0c08f25deb0f3",
+  "started_at_beijing": "2026-10-25T01:52:13.288686+08:00",
+  "training": {},
+  "updated_at_beijing": "2026-10-25T09:01:58.155577+08:00",
+  "training_completed": {
+    "0": [
+      "C",
+      "D"
+    ],
+    "1": [
+      "B"
+    ]
+  },
+  "queued": {
+    "0": [],
+    "1": []
+  },
+  "inference_pids": {
+    "0": [
+      1130764,
+      1130765,
+      1130766,
+      1130767
+    ],
+    "1": [
+      1103770,
+      1103771,
+      1103772,
+      1103773
+    ]
+  },
+  "inference_jobs_complete": 45,
+  "inference_jobs_total": 45,
+  "evaluation_pids": [
+    1132173,
+    1132174
+  ],
+  "scores_complete": 45,
+  "weights": 15,
+  "predictions": 21000,
+  "scores": 45,
+  "finished_at_beijing": "2026-10-25T09:01:58.155514+08:00",
+  "summary": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/RESULTS.md"
+}

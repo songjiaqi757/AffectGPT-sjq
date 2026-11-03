@@ -1,0 +1,162 @@
+{
+  "query_source": "held-out Cue Teacher positive flags; structural validation, not Student deployment performance",
+  "objective": "mean(macro Appraisal state recall@1, sample-macro Emotion recall@5)",
+  "results": [
+    {
+      "min_support": 5,
+      "joint_support_threshold": 0,
+      "edges": 1178,
+      "objective": 0.4313953654149737,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.33706515817478827,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 5,
+      "joint_support_threshold": 1,
+      "edges": 1178,
+      "objective": 0.4313953654149737,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.33706515817478827,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 5,
+      "joint_support_threshold": 3,
+      "edges": 1178,
+      "objective": 0.43121923364937176,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.3367128946435844,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 5,
+      "joint_support_threshold": 5,
+      "edges": 1178,
+      "objective": 0.4312525558752965,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.3367795390954338,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 10,
+      "joint_support_threshold": 0,
+      "edges": 1134,
+      "objective": 0.4310288209298021,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.3363320692044451,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 10,
+      "joint_support_threshold": 1,
+      "edges": 1134,
+      "objective": 0.4310288209298021,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.3363320692044451,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 10,
+      "joint_support_threshold": 3,
+      "edges": 1134,
+      "objective": 0.4312803243969004,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.3368350761386416,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 10,
+      "joint_support_threshold": 5,
+      "edges": 1134,
+      "objective": 0.4312664401360985,
+      "appraisal_macro_state_recall_at1": 0.5257255726551592,
+      "emotion_sample_macro_recall_at5": 0.33680730761703775,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 20,
+      "joint_support_threshold": 0,
+      "edges": 1047,
+      "objective": 0.4320119332762172,
+      "appraisal_macro_state_recall_at1": 0.5282804900059922,
+      "emotion_sample_macro_recall_at5": 0.33574337654644215,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 20,
+      "joint_support_threshold": 1,
+      "edges": 1047,
+      "objective": 0.4320119332762172,
+      "appraisal_macro_state_recall_at1": 0.5282804900059922,
+      "emotion_sample_macro_recall_at5": 0.33574337654644215,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 20,
+      "joint_support_threshold": 3,
+      "edges": 1047,
+      "objective": 0.4320357348661634,
+      "appraisal_macro_state_recall_at1": 0.5282804900059922,
+      "emotion_sample_macro_recall_at5": 0.3357909797263346,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    },
+    {
+      "min_support": 20,
+      "joint_support_threshold": 5,
+      "edges": 1047,
+      "objective": 0.43197464411863484,
+      "appraisal_macro_state_recall_at1": 0.5282804900059922,
+      "emotion_sample_macro_recall_at5": 0.33566879823127743,
+      "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+      "emotion_query_coverage": 1.0,
+      "appraisal_evaluable_states": 16,
+      "emotion_evaluable_samples": 3001
+    }
+  ],
+  "selected": {
+    "min_support": 20,
+    "joint_support_threshold": 3,
+    "edges": 1047,
+    "objective": 0.4320357348661634,
+    "appraisal_macro_state_recall_at1": 0.5282804900059922,
+    "emotion_sample_macro_recall_at5": 0.3357909797263346,
+    "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+    "emotion_query_coverage": 1.0,
+    "appraisal_evaluable_states": 16,
+    "emotion_evaluable_samples": 3001
+  }
+}

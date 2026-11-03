@@ -1,0 +1,16 @@
+{
+  "sample_id": "samplenew3_00015189",
+  "modality": "visual",
+  "kind": "request_rejected",
+  "error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-26f19c65-929b-9ae3-a508-7d50ddc982fb\"}",
+  "retryable": false,
+  "errors": [
+    {
+      "attempt": 2,
+      "kind": "request_rejected",
+      "error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The video modality input does not meet the requirements because: The video file is too short.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-26f19c65-929b-9ae3-a508-7d50ddc982fb\"}"
+    }
+  ],
+  "labels_written": false,
+  "updated_unix": 1792460412.9043534
+}

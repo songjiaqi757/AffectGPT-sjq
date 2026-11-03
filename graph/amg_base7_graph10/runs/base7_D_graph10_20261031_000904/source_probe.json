@@ -1,0 +1,1474 @@
+{
+  "record": {
+    "sample_id": "samplenew3_00000004",
+    "subtitle": "Zijing, you truly are the kindest person in Jiangdong. I will thank Master Liu Qi on behalf of you.",
+    "text": {
+      "chinese": "子敬果真是江东第一善人我我替刘琪公子拜谢了",
+      "english": "Zijing, you truly are the kindest person in Jiangdong. I will thank Master Liu Qi on behalf of you."
+    },
+    "audio_path": "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset/audio/samplenew3_00000004.wav",
+    "face_path": "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset/openface_face/samplenew3_00000004/samplenew3_00000004.npy",
+    "video_path": "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset/video/samplenew3_00000004.mp4"
+  },
+  "evidence": {
+    "schema_version": "amg_query_result_v1",
+    "sample_id": "samplenew3_00000004",
+    "runtime_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+    "graph_release_id": "bfeb27136ed6b95b5cf22e6c285bd62436dbf8208156034c9b0865aa128c5abf",
+    "cue_release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+    "query_input_id": "2884ecbd98e37785d5d9252e836582bc6a76cd1a901f5d6c3e433b9c370d36c9",
+    "query_config_id": "6852804624376c269a0a0c58aaccef84ab3d9c87003f6085dce5419298af0c0d",
+    "query_result_id": "9329de4c2ebe9b8b57b148df1b42d610726026da672206972615dfff3779052d",
+    "policy_profile": "engineering",
+    "policy_status": "engineering_all_slots_pending_human_active_decision",
+    "score_semantics": "statistical association support; not calibrated probability, causal evidence or a final label",
+    "query_cues": [
+      {
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "score": 0.9999998807907104,
+        "weight": 0.9999998807907104
+      },
+      {
+        "cue_id": "TXT_INTENSIFIER_PRESENT",
+        "score": 0.9999517202377319,
+        "weight": 0.9999517202377319
+      },
+      {
+        "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+        "score": 0.9999810457229614,
+        "weight": 0.9999810457229614
+      },
+      {
+        "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+        "score": 0.9959298968315125,
+        "weight": 0.9959298968315125
+      },
+      {
+        "cue_id": "AUD_PAUSE_LONG",
+        "score": 0.976669192314148,
+        "weight": 0.976669192314148
+      },
+      {
+        "cue_id": "AUD_INTONATION_FALLING",
+        "score": 0.9976769089698792,
+        "weight": 0.9976769089698792
+      },
+      {
+        "cue_id": "AUD_INTONATION_FLAT",
+        "score": 0.6029970645904541,
+        "weight": 0.6029970645904541
+      },
+      {
+        "cue_id": "VIS_BROWS_RAISED",
+        "score": 0.9845753908157349,
+        "weight": 0.9845753908157349
+      },
+      {
+        "cue_id": "VIS_EYES_WIDENED",
+        "score": 0.7759445905685425,
+        "weight": 0.7759445905685425
+      },
+      {
+        "cue_id": "VIS_SMILE_PRESENT",
+        "score": 0.5035094618797302,
+        "weight": 0.5035094618797302
+      }
+    ],
+    "appraisal_dimensions": [
+      {
+        "dimension_id": "APP_GOAL_RELEVANCE",
+        "evidence_mass": 0.00023480654085450937,
+        "query_coverage": 0.11315755024157786,
+        "evidence_threshold": 0.0,
+        "status": "supported",
+        "state_supports": [
+          {
+            "state_id": "AGR_RELEVANT",
+            "association_support": 0.00023480654085450937,
+            "relative_support": 1.0,
+            "query_coverage": 0.11315755024157786,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_8f2371525f718ccfb837",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.0020750408642925323,
+                "support_count_groups": 1941
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AGR_IRRELEVANT",
+            "association_support": 0.0,
+            "relative_support": 0.0,
+            "query_coverage": 0.0,
+            "eligible_for_paths": false,
+            "supporting_edges": [],
+            "status": "no_graph_support"
+          }
+        ],
+        "display_candidates": [
+          {
+            "state_id": "AGR_RELEVANT",
+            "association_support": 0.00023480654085450937,
+            "relative_support": 1.0,
+            "query_coverage": 0.11315755024157786,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_8f2371525f718ccfb837",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.0020750408642925323,
+                "support_count_groups": 1941
+              }
+            ],
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "dimension_id": "APP_GOAL_CONGRUENCE",
+        "evidence_mass": 0.17307796749878288,
+        "query_coverage": 0.8868478994892651,
+        "evidence_threshold": 0.01,
+        "status": "supported",
+        "state_supports": [
+          {
+            "state_id": "AGC_CONGRUENT",
+            "association_support": 0.13177144443760255,
+            "relative_support": 0.7613415291494523,
+            "query_coverage": 0.5949412954386569,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_cb8a612a95a29af96fa2",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.030353813292458655,
+                "support_count_groups": 1376
+              },
+              {
+                "edge_id": "EDGE_a732746c2530dc386777",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.026872072834521532,
+                "support_count_groups": 644
+              },
+              {
+                "edge_id": "EDGE_a5afa395535c07af439f",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.6595786809921265,
+                "support_count_groups": 1080
+              },
+              {
+                "edge_id": "EDGE_63f00cf969fb68de6662",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.19372518695890903,
+                "support_count_groups": 1021
+              },
+              {
+                "edge_id": "EDGE_239e8da97e0e471a5c91",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.05845421236008406,
+                "support_count_groups": 554
+              },
+              {
+                "edge_id": "EDGE_04bf46f07022c5afe1bd",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.4206005521118641,
+                "support_count_groups": 574
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AGC_MIXED",
+            "association_support": 0.036365170079029625,
+            "relative_support": 0.21010860368050804,
+            "query_coverage": 0.5624221647082269,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_ccbb52927c2d6f90affc",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.014023467246443034,
+                "support_count_groups": 65
+              },
+              {
+                "edge_id": "EDGE_9c681879e47c4729cfcf",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.07027408219873905,
+                "support_count_groups": 22
+              },
+              {
+                "edge_id": "EDGE_5b612cb611c261eac3fb",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.020386451855301857,
+                "support_count_groups": 42
+              },
+              {
+                "edge_id": "EDGE_ea76e446af8674e4d051",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.024036872154101732,
+                "support_count_groups": 34
+              },
+              {
+                "edge_id": "EDGE_735d7720c3d1f503ae98",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.1944022685289383,
+                "support_count_groups": 42
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AGC_INCONGRUENT",
+            "association_support": 0.004941352982150701,
+            "relative_support": 0.028549867170039708,
+            "query_coverage": 0.2919066040506082,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_1b096b928d2274ffe8db",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.020030646910890938,
+                "support_count_groups": 720
+              },
+              {
+                "edge_id": "EDGE_43398ab2c79975016ede",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.002503457356942818,
+                "support_count_groups": 862
+              },
+              {
+                "edge_id": "EDGE_bae711236f52616352cf",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.02914497973397374,
+                "support_count_groups": 2162
+              }
+            ],
+            "status": "supported"
+          }
+        ],
+        "display_candidates": [
+          {
+            "state_id": "AGC_CONGRUENT",
+            "association_support": 0.13177144443760255,
+            "relative_support": 0.7613415291494523,
+            "query_coverage": 0.5949412954386569,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_cb8a612a95a29af96fa2",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.030353813292458655,
+                "support_count_groups": 1376
+              },
+              {
+                "edge_id": "EDGE_a732746c2530dc386777",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.026872072834521532,
+                "support_count_groups": 644
+              },
+              {
+                "edge_id": "EDGE_a5afa395535c07af439f",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.6595786809921265,
+                "support_count_groups": 1080
+              },
+              {
+                "edge_id": "EDGE_63f00cf969fb68de6662",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.19372518695890903,
+                "support_count_groups": 1021
+              },
+              {
+                "edge_id": "EDGE_239e8da97e0e471a5c91",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.05845421236008406,
+                "support_count_groups": 554
+              },
+              {
+                "edge_id": "EDGE_04bf46f07022c5afe1bd",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.4206005521118641,
+                "support_count_groups": 574
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AGC_MIXED",
+            "association_support": 0.036365170079029625,
+            "relative_support": 0.21010860368050804,
+            "query_coverage": 0.5624221647082269,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_ccbb52927c2d6f90affc",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.014023467246443034,
+                "support_count_groups": 65
+              },
+              {
+                "edge_id": "EDGE_9c681879e47c4729cfcf",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.07027408219873905,
+                "support_count_groups": 22
+              },
+              {
+                "edge_id": "EDGE_5b612cb611c261eac3fb",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.020386451855301857,
+                "support_count_groups": 42
+              },
+              {
+                "edge_id": "EDGE_ea76e446af8674e4d051",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.024036872154101732,
+                "support_count_groups": 34
+              },
+              {
+                "edge_id": "EDGE_735d7720c3d1f503ae98",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.1944022685289383,
+                "support_count_groups": 42
+              }
+            ],
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "dimension_id": "APP_EXPECTEDNESS",
+        "evidence_mass": 0.0633136501222456,
+        "query_coverage": 0.7780703410923808,
+        "evidence_threshold": 0.025,
+        "status": "supported",
+        "state_supports": [
+          {
+            "state_id": "AEX_EXPECTED",
+            "association_support": 0.058821425401803386,
+            "relative_support": 0.9290480850216556,
+            "query_coverage": 0.6902663416333881,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_89bf6d4179fc80b027cb",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.15688253790140153,
+                "support_count_groups": 1042
+              },
+              {
+                "edge_id": "EDGE_4d0ff06156cad43ed56a",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.06332178059965372,
+                "support_count_groups": 150
+              },
+              {
+                "edge_id": "EDGE_81b56687cc766fda3368",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.15111625231802464,
+                "support_count_groups": 549
+              },
+              {
+                "edge_id": "EDGE_59b0126ccc81a5f03530",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.00864063089247793,
+                "support_count_groups": 392
+              },
+              {
+                "edge_id": "EDGE_4f2e1ea3cbeca6344877",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.11610031761229038,
+                "support_count_groups": 269
+              },
+              {
+                "edge_id": "EDGE_efe477ffb2367467e7a2",
+                "cue_id": "TXT_INTENSIFIER_PRESENT",
+                "weight": 0.006563835090491921,
+                "support_count_groups": 652
+              },
+              {
+                "edge_id": "EDGE_f61b844339a084aebe30",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.08602093029767274,
+                "support_count_groups": 230
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AEX_UNEXPECTED",
+            "association_support": 0.004492224720442213,
+            "relative_support": 0.07095191497834438,
+            "query_coverage": 0.08780399945899281,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_d98f3f49fc57056a983c",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.05116196013987064,
+                "support_count_groups": 957
+              }
+            ],
+            "status": "supported"
+          }
+        ],
+        "display_candidates": [
+          {
+            "state_id": "AEX_EXPECTED",
+            "association_support": 0.058821425401803386,
+            "relative_support": 0.9290480850216556,
+            "query_coverage": 0.6902663416333881,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_89bf6d4179fc80b027cb",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.15688253790140153,
+                "support_count_groups": 1042
+              },
+              {
+                "edge_id": "EDGE_4d0ff06156cad43ed56a",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.06332178059965372,
+                "support_count_groups": 150
+              },
+              {
+                "edge_id": "EDGE_81b56687cc766fda3368",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.15111625231802464,
+                "support_count_groups": 549
+              },
+              {
+                "edge_id": "EDGE_59b0126ccc81a5f03530",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.00864063089247793,
+                "support_count_groups": 392
+              },
+              {
+                "edge_id": "EDGE_4f2e1ea3cbeca6344877",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.11610031761229038,
+                "support_count_groups": 269
+              },
+              {
+                "edge_id": "EDGE_efe477ffb2367467e7a2",
+                "cue_id": "TXT_INTENSIFIER_PRESENT",
+                "weight": 0.006563835090491921,
+                "support_count_groups": 652
+              },
+              {
+                "edge_id": "EDGE_f61b844339a084aebe30",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.08602093029767274,
+                "support_count_groups": 230
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AEX_UNEXPECTED",
+            "association_support": 0.004492224720442213,
+            "relative_support": 0.07095191497834438,
+            "query_coverage": 0.08780399945899281,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_d98f3f49fc57056a983c",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.05116196013987064,
+                "support_count_groups": 957
+              }
+            ],
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "dimension_id": "APP_AGENCY",
+        "evidence_mass": 0.06396974649304724,
+        "query_coverage": 0.7736903492476872,
+        "evidence_threshold": 0.025,
+        "status": "supported",
+        "state_supports": [
+          {
+            "state_id": "AAG_SELF",
+            "association_support": 0.038337414964726084,
+            "relative_support": 0.5993054071097954,
+            "query_coverage": 0.6858863497886944,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_0b0f771f224a56b9ca4a",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.06890164278447627,
+                "support_count_groups": 1177
+              },
+              {
+                "edge_id": "EDGE_52353e04e4d97d50dfd7",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.04993556644767523,
+                "support_count_groups": 175
+              },
+              {
+                "edge_id": "EDGE_2aa86922e45c58761217",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.015236545680090786,
+                "support_count_groups": 212
+              },
+              {
+                "edge_id": "EDGE_c4c781191df5e40a0c49",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.09135046415030956,
+                "support_count_groups": 644
+              },
+              {
+                "edge_id": "EDGE_ed61856cce27735b053c",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.07000076994299889,
+                "support_count_groups": 496
+              },
+              {
+                "edge_id": "EDGE_26856a9502c330d9dc38",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.024049156904220582,
+                "support_count_groups": 654
+              },
+              {
+                "edge_id": "EDGE_a2c8bcc8499978ff4a95",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.08025032691657544,
+                "support_count_groups": 254
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AAG_CIRCUMSTANCE",
+            "association_support": 0.025182348208078232,
+            "relative_support": 0.3936602783132064,
+            "query_coverage": 0.4069807868592529,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_c7c41b5fa408dda97fdc",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.04949556672945619,
+                "support_count_groups": 232
+              },
+              {
+                "edge_id": "EDGE_e860b56f11cf47708ef1",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.08443861696869134,
+                "support_count_groups": 45
+              },
+              {
+                "edge_id": "EDGE_8347a596453de1f9c846",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.05892949532717467,
+                "support_count_groups": 131
+              },
+              {
+                "edge_id": "EDGE_197fb617897ffe1dcf5c",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.06355706909671426,
+                "support_count_groups": 111
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AAG_OTHER",
+            "association_support": 0.0004499833202429186,
+            "relative_support": 0.007034314576998152,
+            "query_coverage": 0.08780399945899281,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_57171685beade0585cb0",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.005124861316289753,
+                "support_count_groups": 1644
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AAG_SHARED",
+            "association_support": 0.0,
+            "relative_support": 0.0,
+            "query_coverage": 0.0,
+            "eligible_for_paths": false,
+            "supporting_edges": [],
+            "status": "no_graph_support"
+          }
+        ],
+        "display_candidates": [
+          {
+            "state_id": "AAG_SELF",
+            "association_support": 0.038337414964726084,
+            "relative_support": 0.5993054071097954,
+            "query_coverage": 0.6858863497886944,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_0b0f771f224a56b9ca4a",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.06890164278447627,
+                "support_count_groups": 1177
+              },
+              {
+                "edge_id": "EDGE_52353e04e4d97d50dfd7",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.04993556644767523,
+                "support_count_groups": 175
+              },
+              {
+                "edge_id": "EDGE_2aa86922e45c58761217",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.015236545680090786,
+                "support_count_groups": 212
+              },
+              {
+                "edge_id": "EDGE_c4c781191df5e40a0c49",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.09135046415030956,
+                "support_count_groups": 644
+              },
+              {
+                "edge_id": "EDGE_ed61856cce27735b053c",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.07000076994299889,
+                "support_count_groups": 496
+              },
+              {
+                "edge_id": "EDGE_26856a9502c330d9dc38",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.024049156904220582,
+                "support_count_groups": 654
+              },
+              {
+                "edge_id": "EDGE_a2c8bcc8499978ff4a95",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.08025032691657544,
+                "support_count_groups": 254
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "AAG_CIRCUMSTANCE",
+            "association_support": 0.025182348208078232,
+            "relative_support": 0.3936602783132064,
+            "query_coverage": 0.4069807868592529,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_c7c41b5fa408dda97fdc",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.04949556672945619,
+                "support_count_groups": 232
+              },
+              {
+                "edge_id": "EDGE_e860b56f11cf47708ef1",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.08443861696869134,
+                "support_count_groups": 45
+              },
+              {
+                "edge_id": "EDGE_8347a596453de1f9c846",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.05892949532717467,
+                "support_count_groups": 131
+              },
+              {
+                "edge_id": "EDGE_197fb617897ffe1dcf5c",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.06355706909671426,
+                "support_count_groups": 111
+              }
+            ],
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "dimension_id": "APP_CERTAINTY",
+        "evidence_mass": 0.051038817032569885,
+        "query_coverage": 0.8439623217750005,
+        "evidence_threshold": 0.025,
+        "status": "supported",
+        "state_supports": [
+          {
+            "state_id": "ACT_CERTAIN",
+            "association_support": 0.042053731022085795,
+            "relative_support": 0.8239558333659976,
+            "query_coverage": 0.6202893964903989,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_b8b89b277b0420725a99",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.1767346329987049,
+                "support_count_groups": 8919
+              },
+              {
+                "edge_id": "EDGE_0df90aaac2b86b51fee4",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.02310804878361523,
+                "support_count_groups": 4532
+              },
+              {
+                "edge_id": "EDGE_978ca057736fed7068c5",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.09646329656243324,
+                "support_count_groups": 2477
+              },
+              {
+                "edge_id": "EDGE_4ad7fcbd842b7ffe0f6e",
+                "cue_id": "TXT_INTENSIFIER_PRESENT",
+                "weight": 0.060020678024739024,
+                "support_count_groups": 4744
+              },
+              {
+                "edge_id": "EDGE_3f336bbf4652427c192c",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.0018993828009115532,
+                "support_count_groups": 4758
+              },
+              {
+                "edge_id": "EDGE_6d8a39b7b4c9258583b2",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.027704544365406036,
+                "support_count_groups": 1502
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "ACT_UNCERTAIN",
+            "association_support": 0.00898508601048409,
+            "relative_support": 0.17604416663400235,
+            "query_coverage": 0.22367292528460156,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_bed23674930f59c730e6",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.02609701086767018,
+                "support_count_groups": 470
+              },
+              {
+                "edge_id": "EDGE_790bcc556617b6a34c67",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.05391619335860014,
+                "support_count_groups": 959
+              }
+            ],
+            "status": "supported"
+          }
+        ],
+        "display_candidates": [
+          {
+            "state_id": "ACT_CERTAIN",
+            "association_support": 0.042053731022085795,
+            "relative_support": 0.8239558333659976,
+            "query_coverage": 0.6202893964903989,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_b8b89b277b0420725a99",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.1767346329987049,
+                "support_count_groups": 8919
+              },
+              {
+                "edge_id": "EDGE_0df90aaac2b86b51fee4",
+                "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+                "weight": 0.02310804878361523,
+                "support_count_groups": 4532
+              },
+              {
+                "edge_id": "EDGE_978ca057736fed7068c5",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.09646329656243324,
+                "support_count_groups": 2477
+              },
+              {
+                "edge_id": "EDGE_4ad7fcbd842b7ffe0f6e",
+                "cue_id": "TXT_INTENSIFIER_PRESENT",
+                "weight": 0.060020678024739024,
+                "support_count_groups": 4744
+              },
+              {
+                "edge_id": "EDGE_3f336bbf4652427c192c",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.0018993828009115532,
+                "support_count_groups": 4758
+              },
+              {
+                "edge_id": "EDGE_6d8a39b7b4c9258583b2",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.027704544365406036,
+                "support_count_groups": 1502
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "ACT_UNCERTAIN",
+            "association_support": 0.00898508601048409,
+            "relative_support": 0.17604416663400235,
+            "query_coverage": 0.22367292528460156,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_bed23674930f59c730e6",
+                "cue_id": "AUD_PAUSE_LONG",
+                "weight": 0.02609701086767018,
+                "support_count_groups": 470
+              },
+              {
+                "edge_id": "EDGE_790bcc556617b6a34c67",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.05391619335860014,
+                "support_count_groups": 959
+              }
+            ],
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "dimension_id": "APP_COPING_POTENTIAL",
+        "evidence_mass": 0.08527341864561891,
+        "query_coverage": 0.6636333923435315,
+        "evidence_threshold": 0.0,
+        "status": "supported",
+        "state_supports": [
+          {
+            "state_id": "ACP_HIGH",
+            "association_support": 0.07284709349191737,
+            "relative_support": 0.854276686087336,
+            "query_coverage": 0.4822442946663262,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_68923d6ff03b734cfb3e",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.005633887846488506,
+                "support_count_groups": 804
+              },
+              {
+                "edge_id": "EDGE_a07d300adf08c960aa7b",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.3079890802502632,
+                "support_count_groups": 299
+              },
+              {
+                "edge_id": "EDGE_401fa209a4d96f31e23b",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.16267148032784462,
+                "support_count_groups": 489
+              },
+              {
+                "edge_id": "EDGE_d9cd5163e4894f4f7167",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.10331829283386469,
+                "support_count_groups": 314
+              },
+              {
+                "edge_id": "EDGE_1aa2413848af2346b06d",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.17839872352778913,
+                "support_count_groups": 157
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "ACP_LOW",
+            "association_support": 0.01242632515370154,
+            "relative_support": 0.145723313912664,
+            "query_coverage": 0.18138909767720535,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_40570c9d51ce56a935ec",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.011409294023178519,
+                "support_count_groups": 183
+              },
+              {
+                "edge_id": "EDGE_35c9f7929b1a5f858628",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.10293653775006532,
+                "support_count_groups": 503
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "ACP_MIXED",
+            "association_support": 0.0,
+            "relative_support": 0.0,
+            "query_coverage": 0.0,
+            "eligible_for_paths": false,
+            "supporting_edges": [],
+            "status": "no_graph_support"
+          }
+        ],
+        "display_candidates": [
+          {
+            "state_id": "ACP_HIGH",
+            "association_support": 0.07284709349191737,
+            "relative_support": 0.854276686087336,
+            "query_coverage": 0.4822442946663262,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_68923d6ff03b734cfb3e",
+                "cue_id": "AUD_INTONATION_FALLING",
+                "weight": 0.005633887846488506,
+                "support_count_groups": 804
+              },
+              {
+                "edge_id": "EDGE_a07d300adf08c960aa7b",
+                "cue_id": "TXT_EVALUATION_POSITIVE",
+                "weight": 0.3079890802502632,
+                "support_count_groups": 299
+              },
+              {
+                "edge_id": "EDGE_401fa209a4d96f31e23b",
+                "cue_id": "VIS_BROWS_RAISED",
+                "weight": 0.16267148032784462,
+                "support_count_groups": 489
+              },
+              {
+                "edge_id": "EDGE_d9cd5163e4894f4f7167",
+                "cue_id": "VIS_EYES_WIDENED",
+                "weight": 0.10331829283386469,
+                "support_count_groups": 314
+              },
+              {
+                "edge_id": "EDGE_1aa2413848af2346b06d",
+                "cue_id": "VIS_SMILE_PRESENT",
+                "weight": 0.17839872352778913,
+                "support_count_groups": 157
+              }
+            ],
+            "status": "supported"
+          },
+          {
+            "state_id": "ACP_LOW",
+            "association_support": 0.01242632515370154,
+            "relative_support": 0.145723313912664,
+            "query_coverage": 0.18138909767720535,
+            "eligible_for_paths": true,
+            "supporting_edges": [
+              {
+                "edge_id": "EDGE_40570c9d51ce56a935ec",
+                "cue_id": "AUD_INTONATION_FLAT",
+                "weight": 0.011409294023178519,
+                "support_count_groups": 183
+              },
+              {
+                "edge_id": "EDGE_35c9f7929b1a5f858628",
+                "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+                "weight": 0.10293653775006532,
+                "support_count_groups": 503
+              }
+            ],
+            "status": "supported"
+          }
+        ]
+      }
+    ],
+    "emotion_candidates": [
+      {
+        "emotion_id": "EMO10_58c48602d373404d",
+        "canonical_name": "powerful",
+        "association_score": 0.14081156671534012,
+        "direct_score": 0.09925029180555994,
+        "two_hop_score": 0.2654953914446807,
+        "direct_available": true,
+        "two_hop_available": true,
+        "direct_query_coverage": 0.4825017067673442,
+        "two_hop_query_coverage": 1.0,
+        "query_coverage": 1.0,
+        "dimension_scores": {
+          "APP_GOAL_RELEVANCE": 0.0010708713118219749,
+          "APP_GOAL_CONGRUENCE": 0.45729038048172027,
+          "APP_EXPECTEDNESS": 0.06777435798920167,
+          "APP_AGENCY": 0.047393406123949954,
+          "APP_CERTAINTY": 0.058977406938387524,
+          "APP_COPING_POTENTIAL": 0.31096565004636084
+        },
+        "dimension_evidence": {
+          "APP_GOAL_RELEVANCE": 0.00023480654085450937,
+          "APP_GOAL_CONGRUENCE": 0.17307796749878288,
+          "APP_EXPECTEDNESS": 0.0633136501222456,
+          "APP_AGENCY": 0.06396974649304724,
+          "APP_CERTAINTY": 0.051038817032569885,
+          "APP_COPING_POTENTIAL": 0.08527341864561891
+        },
+        "dimension_weight_normalizer": 0.436908406333119
+      },
+      {
+        "emotion_id": "EMO10_b113405b6f9114b2",
+        "canonical_name": "joy",
+        "association_score": 0.13170640313497756,
+        "direct_score": 0.0872850008979397,
+        "two_hop_score": 0.26497060984609117,
+        "direct_available": true,
+        "two_hop_available": true,
+        "direct_query_coverage": 0.36934960625660934,
+        "two_hop_query_coverage": 1.0,
+        "query_coverage": 1.0,
+        "dimension_scores": {
+          "APP_GOAL_RELEVANCE": 0.0012620416033314542,
+          "APP_GOAL_CONGRUENCE": 0.4357100362849654,
+          "APP_EXPECTEDNESS": 0.10974097607779403,
+          "APP_AGENCY": 0.058515313764996746,
+          "APP_CERTAINTY": 0.04452986373576645,
+          "APP_COPING_POTENTIAL": 0.32122225606426313
+        },
+        "dimension_evidence": {
+          "APP_GOAL_RELEVANCE": 0.00023480654085450937,
+          "APP_GOAL_CONGRUENCE": 0.17307796749878288,
+          "APP_EXPECTEDNESS": 0.0633136501222456,
+          "APP_AGENCY": 0.06396974649304724,
+          "APP_CERTAINTY": 0.051038817032569885,
+          "APP_COPING_POTENTIAL": 0.08527341864561891
+        },
+        "dimension_weight_normalizer": 0.436908406333119
+      },
+      {
+        "emotion_id": "EMO10_9ed142d60c4571b6",
+        "canonical_name": "genius",
+        "association_score": 0.09522787338887889,
+        "direct_score": 0.05831756511518648,
+        "two_hop_score": 0.20595879820995613,
+        "direct_available": true,
+        "two_hop_available": true,
+        "direct_query_coverage": 0.36934960625660934,
+        "two_hop_query_coverage": 1.0,
+        "query_coverage": 1.0,
+        "dimension_scores": {
+          "APP_GOAL_RELEVANCE": 0.0018152745731640607,
+          "APP_GOAL_CONGRUENCE": 0.31346249555114686,
+          "APP_EXPECTEDNESS": 0.07226742638670243,
+          "APP_AGENCY": 0.06487903323043401,
+          "APP_CERTAINTY": 0.028335130581811658,
+          "APP_COPING_POTENTIAL": 0.2997329231478023
+        },
+        "dimension_evidence": {
+          "APP_GOAL_RELEVANCE": 0.00023480654085450937,
+          "APP_GOAL_CONGRUENCE": 0.17307796749878288,
+          "APP_EXPECTEDNESS": 0.0633136501222456,
+          "APP_AGENCY": 0.06396974649304724,
+          "APP_CERTAINTY": 0.051038817032569885,
+          "APP_COPING_POTENTIAL": 0.08527341864561891
+        },
+        "dimension_weight_normalizer": 0.436908406333119
+      }
+    ],
+    "explanation_paths": [
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_944cc226980aa02c181d",
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "emotion_id": "EMO10_58c48602d373404d",
+        "association_path_score": 0.048369282756664106,
+        "edge_ids": [
+          "EDGE_944cc226980aa02c181d"
+        ],
+        "edge_weights": [
+          0.42745077684521676
+        ],
+        "edge_support_count_groups": [
+          3420
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.4825017067673442,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "two_hop",
+        "path_id": "PATH_c4293d155ebdad09313776c9",
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "appraisal_state_id": "AGC_CONGRUENT",
+        "appraisal_dimension_id": "APP_GOAL_CONGRUENCE",
+        "emotion_id": "EMO10_58c48602d373404d",
+        "association_path_score": 0.044829375850466646,
+        "edge_ids": [
+          "EDGE_a5afa395535c07af439f",
+          "EDGE_e2bae77e9b3dcef3836a"
+        ],
+        "edge_weights": [
+          0.6595786809921265,
+          0.6006376415491104
+        ],
+        "edge_support_count_groups": [
+          1080,
+          1260
+        ],
+        "joint_support_groups": 826,
+        "joint_support_ratio": 1.0,
+        "ca_state_query_coverage": 0.5949412954386569,
+        "query_coverage": 1.0,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "appraisal_evidence": true,
+          "joint_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "two_hop",
+        "path_id": "PATH_7818f36016d5558fa7f8b931",
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "appraisal_state_id": "AGC_CONGRUENT",
+        "appraisal_dimension_id": "APP_GOAL_CONGRUENCE",
+        "emotion_id": "EMO10_b113405b6f9114b2",
+        "association_path_score": 0.04271379808572197,
+        "edge_ids": [
+          "EDGE_a5afa395535c07af439f",
+          "EDGE_505dcd973fa5d562c204"
+        ],
+        "edge_weights": [
+          0.6595786809921265,
+          0.572292485833168
+        ],
+        "edge_support_count_groups": [
+          1080,
+          1558
+        ],
+        "joint_support_groups": 977,
+        "joint_support_ratio": 1.0,
+        "ca_state_query_coverage": 0.5949412954386569,
+        "query_coverage": 1.0,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "appraisal_evidence": true,
+          "joint_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_1c8bf4c8ab44cab391a8",
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "emotion_id": "EMO10_b113405b6f9114b2",
+        "association_path_score": 0.04149160918268112,
+        "edge_ids": [
+          "EDGE_1c8bf4c8ab44cab391a8"
+        ],
+        "edge_weights": [
+          0.36667115092277525
+        ],
+        "edge_support_count_groups": [
+          4041
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.36934960625660934,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "two_hop",
+        "path_id": "PATH_ac9b218a7cd45b333e393ff3",
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "appraisal_state_id": "AGC_CONGRUENT",
+        "appraisal_dimension_id": "APP_GOAL_CONGRUENCE",
+        "emotion_id": "EMO10_9ed142d60c4571b6",
+        "association_path_score": 0.030729550910921288,
+        "edge_ids": [
+          "EDGE_a5afa395535c07af439f",
+          "EDGE_9d57deaf15d93d69ae29"
+        ],
+        "edge_weights": [
+          0.6595786809921265,
+          0.41172388941049576
+        ],
+        "edge_support_count_groups": [
+          1080,
+          1086
+        ],
+        "joint_support_groups": 664,
+        "joint_support_ratio": 1.0,
+        "ca_state_query_coverage": 0.5949412954386569,
+        "query_coverage": 1.0,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "appraisal_evidence": true,
+          "joint_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_f8e797e3ab2eeb380543",
+        "cue_id": "TXT_EVALUATION_POSITIVE",
+        "emotion_id": "EMO10_9ed142d60c4571b6",
+        "association_path_score": 0.029264056208316486,
+        "edge_ids": [
+          "EDGE_f8e797e3ab2eeb380543"
+        ],
+        "edge_weights": [
+          0.25861337706446647
+        ],
+        "edge_support_count_groups": [
+          2722
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.36934960625660934,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_af8b92fdcf69218d7689",
+        "cue_id": "VIS_BROWS_RAISED",
+        "emotion_id": "EMO10_58c48602d373404d",
+        "association_path_score": 0.022043948309214002,
+        "edge_ids": [
+          "EDGE_af8b92fdcf69218d7689"
+        ],
+        "edge_weights": [
+          0.1978594597429037
+        ],
+        "edge_support_count_groups": [
+          5006
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.4825017067673442,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_05ad02f73d6f1fae6f56",
+        "cue_id": "VIS_SMILE_PRESENT",
+        "emotion_id": "EMO10_58c48602d373404d",
+        "association_path_score": 0.021338630266083607,
+        "edge_ids": [
+          "EDGE_05ad02f73d6f1fae6f56"
+        ],
+        "edge_weights": [
+          0.37452025786042215
+        ],
+        "edge_support_count_groups": [
+          2839
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.4825017067673442,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_025bb386feb5ced12d13",
+        "cue_id": "VIS_BROWS_RAISED",
+        "emotion_id": "EMO10_b113405b6f9114b2",
+        "association_path_score": 0.02108964925918379,
+        "edge_ids": [
+          "EDGE_025bb386feb5ced12d13"
+        ],
+        "edge_weights": [
+          0.1892939753830433
+        ],
+        "edge_support_count_groups": [
+          6571
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.36934960625660934,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      },
+      {
+        "path_type": "direct",
+        "path_id": "DIRECT_EDGE_357f2f130b65873992a6",
+        "cue_id": "VIS_SMILE_PRESENT",
+        "emotion_id": "EMO10_b113405b6f9114b2",
+        "association_path_score": 0.019480572940697077,
+        "edge_ids": [
+          "EDGE_357f2f130b65873992a6"
+        ],
+        "edge_weights": [
+          0.3419089749455452
+        ],
+        "edge_support_count_groups": [
+          3461
+        ],
+        "joint_support_groups": null,
+        "joint_support_ratio": null,
+        "query_coverage": 0.36934960625660934,
+        "gates": {
+          "admitted": true,
+          "query_support": true,
+          "coverage": true
+        }
+      }
+    ],
+    "coverage": {
+      "query": 1.0,
+      "selected_cue_count": 10,
+      "supported_emotion_count": 10,
+      "raw_supported_emotion_count": 10,
+      "retained_path_count": 254
+    },
+    "fallback": {
+      "required": false,
+      "reason": null,
+      "target": "original_affectgpt"
+    },
+    "node_names": {
+      "TXT_EVALUATION_POSITIVE": {
+        "name": "TXT_EVALUATION_POSITIVE",
+        "node_type": "CueType"
+      },
+      "TXT_INTENSIFIER_PRESENT": {
+        "name": "TXT_INTENSIFIER_PRESENT",
+        "node_type": "CueType"
+      },
+      "AUD_SPEECH_RATE_REL_SLOW": {
+        "name": "AUD_SPEECH_RATE_REL_SLOW",
+        "node_type": "CueType"
+      },
+      "AUD_PITCH_VARIABILITY_LOW": {
+        "name": "AUD_PITCH_VARIABILITY_LOW",
+        "node_type": "CueType"
+      },
+      "AUD_PAUSE_LONG": {
+        "name": "AUD_PAUSE_LONG",
+        "node_type": "CueType"
+      },
+      "AUD_INTONATION_FALLING": {
+        "name": "AUD_INTONATION_FALLING",
+        "node_type": "CueType"
+      },
+      "AUD_INTONATION_FLAT": {
+        "name": "AUD_INTONATION_FLAT",
+        "node_type": "CueType"
+      },
+      "VIS_BROWS_RAISED": {
+        "name": "VIS_BROWS_RAISED",
+        "node_type": "CueType"
+      },
+      "VIS_EYES_WIDENED": {
+        "name": "VIS_EYES_WIDENED",
+        "node_type": "CueType"
+      },
+      "VIS_SMILE_PRESENT": {
+        "name": "VIS_SMILE_PRESENT",
+        "node_type": "CueType"
+      },
+      "AGR_RELEVANT": {
+        "name": "AGR_RELEVANT",
+        "node_type": "AppraisalState"
+      },
+      "AGR_IRRELEVANT": {
+        "name": "AGR_IRRELEVANT",
+        "node_type": "AppraisalState"
+      },
+      "AGC_CONGRUENT": {
+        "name": "AGC_CONGRUENT",
+        "node_type": "AppraisalState"
+      },
+      "AGC_INCONGRUENT": {
+        "name": "AGC_INCONGRUENT",
+        "node_type": "AppraisalState"
+      },
+      "AGC_MIXED": {
+        "name": "AGC_MIXED",
+        "node_type": "AppraisalState"
+      },
+      "AEX_EXPECTED": {
+        "name": "AEX_EXPECTED",
+        "node_type": "AppraisalState"
+      },
+      "AEX_UNEXPECTED": {
+        "name": "AEX_UNEXPECTED",
+        "node_type": "AppraisalState"
+      },
+      "AAG_SELF": {
+        "name": "AAG_SELF",
+        "node_type": "AppraisalState"
+      },
+      "AAG_OTHER": {
+        "name": "AAG_OTHER",
+        "node_type": "AppraisalState"
+      },
+      "AAG_CIRCUMSTANCE": {
+        "name": "AAG_CIRCUMSTANCE",
+        "node_type": "AppraisalState"
+      },
+      "AAG_SHARED": {
+        "name": "AAG_SHARED",
+        "node_type": "AppraisalState"
+      },
+      "ACT_CERTAIN": {
+        "name": "ACT_CERTAIN",
+        "node_type": "AppraisalState"
+      },
+      "ACT_UNCERTAIN": {
+        "name": "ACT_UNCERTAIN",
+        "node_type": "AppraisalState"
+      },
+      "ACP_HIGH": {
+        "name": "ACP_HIGH",
+        "node_type": "AppraisalState"
+      },
+      "ACP_LOW": {
+        "name": "ACP_LOW",
+        "node_type": "AppraisalState"
+      },
+      "ACP_MIXED": {
+        "name": "ACP_MIXED",
+        "node_type": "AppraisalState"
+      },
+      "EMO10_b113405b6f9114b2": {
+        "name": "joy",
+        "node_type": "EmotionConcept"
+      },
+      "EMO10_58c48602d373404d": {
+        "name": "powerful",
+        "node_type": "EmotionConcept"
+      },
+      "EMO10_9ed142d60c4571b6": {
+        "name": "genius",
+        "node_type": "EmotionConcept"
+      }
+    }
+  }
+}

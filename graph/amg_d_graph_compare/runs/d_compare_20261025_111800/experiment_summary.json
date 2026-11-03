@@ -1,0 +1,158 @@
+{
+  "complete": true,
+  "finished_at_beijing": "2026-10-25T15:41:44.026381+08:00",
+  "plan_id": "6a3513da5dcde8fac46d11e7eb8a9baf4703c2267b44fb5a3863b40429f9cbd7",
+  "weights": 10,
+  "inference_jobs": 30,
+  "score_jobs": 30,
+  "predictions": 14000,
+  "metrics": {
+    "MER2023": "HIT",
+    "SIMS": "WAF",
+    "OVMERDPlus": "F_s"
+  },
+  "mean": "Unweighted arithmetic mean of these three primary metrics; not nine-dataset average",
+  "best": {
+    "D_continue": {
+      "MER2023_HIT": {
+        "variant": "D_continue",
+        "base_epoch": 40,
+        "epoch": 43,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7495181002308557,
+        "SIMS_WAF": 0.8497410554868502,
+        "SIMS_ACC": 0.8479381443298969,
+        "OVMERDPlus_F_s": 0.6180529548945972,
+        "OVMERDPlus_P_s": 0.6003140224456093,
+        "OVMERDPlus_R_s": 0.6382030039054518,
+        "MER2023_HIT": 0.7807602903111202
+      },
+      "SIMS_WAF": {
+        "variant": "D_continue",
+        "base_epoch": 40,
+        "epoch": 41,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7561025254839445,
+        "SIMS_WAF": 0.8944111845238163,
+        "SIMS_ACC": 0.8943298969072165,
+        "OVMERDPlus_F_s": 0.6180135314499173,
+        "OVMERDPlus_P_s": 0.6105883249785901,
+        "OVMERDPlus_R_s": 0.6280429313569332,
+        "MER2023_HIT": 0.7558828604780998
+      },
+      "OVMERDPlus_F_s": {
+        "variant": "D_continue",
+        "base_epoch": 40,
+        "epoch": 43,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7495181002308557,
+        "SIMS_WAF": 0.8497410554868502,
+        "SIMS_ACC": 0.8479381443298969,
+        "OVMERDPlus_F_s": 0.6180529548945972,
+        "OVMERDPlus_P_s": 0.6003140224456093,
+        "OVMERDPlus_R_s": 0.6382030039054518,
+        "MER2023_HIT": 0.7807602903111202
+      },
+      "single_checkpoint_mean": {
+        "variant": "D_continue",
+        "base_epoch": 40,
+        "epoch": 45,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7567090554828617,
+        "SIMS_WAF": 0.88460488298514,
+        "SIMS_ACC": 0.884020618556701,
+        "OVMERDPlus_F_s": 0.6158709613297602,
+        "OVMERDPlus_P_s": 0.6109216892269477,
+        "OVMERDPlus_R_s": 0.622319935615293,
+        "MER2023_HIT": 0.7696513221336851
+      }
+    },
+    "D_newgraph": {
+      "MER2023_HIT": {
+        "variant": "D_newgraph",
+        "base_epoch": 35,
+        "epoch": 38,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7487734164825716,
+        "SIMS_WAF": 0.8697037729734005,
+        "SIMS_ACC": 0.8685567010309279,
+        "OVMERDPlus_F_s": 0.6228469997448823,
+        "OVMERDPlus_P_s": 0.6135565832747986,
+        "OVMERDPlus_R_s": 0.633702537374068,
+        "MER2023_HIT": 0.7537694767294321
+      },
+      "SIMS_WAF": {
+        "variant": "D_newgraph",
+        "base_epoch": 35,
+        "epoch": 38,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7487734164825716,
+        "SIMS_WAF": 0.8697037729734005,
+        "SIMS_ACC": 0.8685567010309279,
+        "OVMERDPlus_F_s": 0.6228469997448823,
+        "OVMERDPlus_P_s": 0.6135565832747986,
+        "OVMERDPlus_R_s": 0.633702537374068,
+        "MER2023_HIT": 0.7537694767294321
+      },
+      "OVMERDPlus_F_s": {
+        "variant": "D_newgraph",
+        "base_epoch": 35,
+        "epoch": 38,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7487734164825716,
+        "SIMS_WAF": 0.8697037729734005,
+        "SIMS_ACC": 0.8685567010309279,
+        "OVMERDPlus_F_s": 0.6228469997448823,
+        "OVMERDPlus_P_s": 0.6135565832747986,
+        "OVMERDPlus_R_s": 0.633702537374068,
+        "MER2023_HIT": 0.7537694767294321
+      },
+      "single_checkpoint_mean": {
+        "variant": "D_newgraph",
+        "base_epoch": 35,
+        "epoch": 38,
+        "datasets_completed": 3,
+        "three_dataset_mean": 0.7487734164825716,
+        "SIMS_WAF": 0.8697037729734005,
+        "SIMS_ACC": 0.8685567010309279,
+        "OVMERDPlus_F_s": 0.6228469997448823,
+        "OVMERDPlus_P_s": 0.6135565832747986,
+        "OVMERDPlus_R_s": 0.633702537374068,
+        "MER2023_HIT": 0.7537694767294321
+      }
+    }
+  },
+  "comparison_to_previous_D": {
+    "continue_best_vs_D40_mean_pp": 1.2949704536156958,
+    "continue_epoch41_vs_D40_pp": {
+      "MER2023_HIT": 1.48972237730296,
+      "SIMS_WAF": 3.1631036092279685,
+      "OVMERDPlus_F_s": -0.9498736253589768
+    },
+    "new_best_vs_old_best_mean_pp": 0.5014065535866807,
+    "new_five_epoch_average_mean_pp": 0.2010806743186211,
+    "new_vs_old_independent_bests_pp": {
+      "MER2023_HIT": 1.231081561183578,
+      "SIMS_WAF": 0.5436952210455592,
+      "OVMERDPlus_F_s": -0.46652679586247636
+    }
+  },
+  "checkpoint_paths": {
+    "D_continue_epoch_41": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000041_loss_0.604.pth",
+    "D_continue_epoch_42": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000042_loss_0.610.pth",
+    "D_continue_epoch_43": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000043_loss_0.567.pth",
+    "D_continue_epoch_44": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000044_loss_0.583.pth",
+    "D_continue_epoch_45": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_continue/checkpoint_000045_loss_0.530.pth",
+    "D_newgraph_epoch_36": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000036_loss_0.738.pth",
+    "D_newgraph_epoch_37": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000037_loss_0.743.pth",
+    "D_newgraph_epoch_38": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000038_loss_0.695.pth",
+    "D_newgraph_epoch_39": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000039_loss_0.710.pth",
+    "D_newgraph_epoch_40": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth"
+  },
+  "caveats": [
+    "Independent best metrics can refer to different checkpoints; single_checkpoint_mean uses one shared checkpoint.",
+    "Graph effect comparison: newgraph36-40 versus previous D36-40, both original35 start. Continuation41-45 has five additional epochs.",
+    "Target test sets used for exploratory comparison across all requested checkpoints; no independent validation or repeated seeds.",
+    "DataLoader recreated with original seed42 because saved D40 has no sampler/worker states; model, polarity head, optimizer, scaler and model RNG restored."
+  ]
+}

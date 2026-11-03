@@ -1,0 +1,10 @@
+{
+  "requested_workers": 2,
+  "active_workers": 1,
+  "long_sample_peak_GiB": 64.39453125,
+  "additional_weights_minimum_GiB": 16.636799812316895,
+  "minimum_long_sample_plus_second_weights_GiB": 81.0313310623169,
+  "gpu_capacity_GiB": 80,
+  "decision": "Keep one worker under unchanged official preprocessing. Two resident independent models exceed capacity for the verified long sample.",
+  "time_beijing": "2026-11-01T23:53:14.338617+08:00"
+}

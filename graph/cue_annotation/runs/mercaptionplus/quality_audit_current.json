@@ -1,0 +1,338 @@
+{
+  "created_unix": 1792460647.708025,
+  "source": "Full completed MER-Caption+ annotations; read-only audit; original labels unchanged",
+  "total_samples": 31327,
+  "cue_state_counts": {
+    "TXT_AFFECT_WORD_POSITIVE": {
+      "negative": 30460,
+      "positive": 851,
+      "unlabeled": 4,
+      "unobservable": 11,
+      "uncertain": 1
+    },
+    "TXT_AFFECT_WORD_NEGATIVE": {
+      "positive": 5849,
+      "negative": 24735,
+      "uncertain": 693,
+      "unobservable": 46,
+      "unlabeled": 4
+    },
+    "TXT_EVALUATION_POSITIVE": {
+      "negative": 23723,
+      "positive": 5419,
+      "uncertain": 2159,
+      "unlabeled": 4,
+      "unobservable": 22
+    },
+    "TXT_EVALUATION_NEGATIVE": {
+      "positive": 8281,
+      "negative": 19442,
+      "uncertain": 3573,
+      "unobservable": 27,
+      "unlabeled": 4
+    },
+    "TXT_NEGATION_PRESENT": {
+      "positive": 10958,
+      "negative": 19523,
+      "uncertain": 810,
+      "unobservable": 32,
+      "unlabeled": 4
+    },
+    "TXT_CONTRAST_PRESENT": {
+      "negative": 27635,
+      "uncertain": 1488,
+      "positive": 2191,
+      "unlabeled": 4,
+      "unobservable": 9
+    },
+    "TXT_INTENSIFIER_PRESENT": {
+      "negative": 19012,
+      "positive": 10573,
+      "uncertain": 1730,
+      "unlabeled": 4,
+      "unobservable": 8
+    },
+    "TXT_UNCERTAINTY_HEDGE": {
+      "negative": 27790,
+      "uncertain": 1958,
+      "positive": 1568,
+      "unlabeled": 4,
+      "unobservable": 7
+    },
+    "TXT_RHETORICAL_QUESTION": {
+      "negative": 24305,
+      "uncertain": 3944,
+      "positive": 2988,
+      "unobservable": 86,
+      "unlabeled": 4
+    },
+    "TXT_EXCLAMATION_INTERJECTION": {
+      "negative": 28290,
+      "positive": 2501,
+      "uncertain": 511,
+      "unobservable": 21,
+      "unlabeled": 4
+    },
+    "TXT_DESIRE_NEED": {
+      "negative": 24828,
+      "positive": 6078,
+      "uncertain": 399,
+      "unlabeled": 4,
+      "unobservable": 18
+    },
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF": {
+      "negative": 30161,
+      "unobservable": 431,
+      "positive": 458,
+      "uncertain": 273,
+      "unlabeled": 4
+    },
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER": {
+      "uncertain": 521,
+      "negative": 28263,
+      "positive": 2223,
+      "unobservable": 316,
+      "unlabeled": 4
+    },
+    "TXT_EXPLICIT_SUCCESS_OUTCOME": {
+      "negative": 30376,
+      "positive": 508,
+      "uncertain": 419,
+      "unobservable": 20,
+      "unlabeled": 4
+    },
+    "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME": {
+      "negative": 28898,
+      "positive": 1690,
+      "uncertain": 718,
+      "unobservable": 17,
+      "unlabeled": 4
+    },
+    "AUD_SPEECH_RATE_REL_FAST": {
+      "negative": 21214,
+      "positive": 1304,
+      "unobservable": 8803,
+      "unlabeled": 5,
+      "uncertain": 1
+    },
+    "AUD_SPEECH_RATE_REL_SLOW": {
+      "positive": 7289,
+      "uncertain": 6528,
+      "negative": 7906,
+      "unobservable": 9599,
+      "unlabeled": 5
+    },
+    "AUD_PITCH_LEVEL_REL_HIGH": {
+      "unobservable": 18037,
+      "negative": 9928,
+      "uncertain": 2946,
+      "positive": 411,
+      "unlabeled": 5
+    },
+    "AUD_PITCH_LEVEL_REL_LOW": {
+      "unobservable": 18064,
+      "negative": 10221,
+      "uncertain": 1784,
+      "positive": 1253,
+      "unlabeled": 5
+    },
+    "AUD_VOCAL_INTENSITY_REL_HIGH": {
+      "unobservable": 18029,
+      "negative": 11838,
+      "uncertain": 870,
+      "positive": 585,
+      "unlabeled": 5
+    },
+    "AUD_VOCAL_INTENSITY_REL_LOW": {
+      "unobservable": 18009,
+      "uncertain": 1469,
+      "negative": 10344,
+      "positive": 1500,
+      "unlabeled": 5
+    },
+    "AUD_PITCH_VARIABILITY_HIGH": {
+      "negative": 14855,
+      "positive": 3956,
+      "uncertain": 12477,
+      "unobservable": 34,
+      "unlabeled": 5
+    },
+    "AUD_PITCH_VARIABILITY_LOW": {
+      "positive": 10848,
+      "negative": 11115,
+      "uncertain": 9324,
+      "unobservable": 35,
+      "unlabeled": 5
+    },
+    "AUD_PAUSE_LONG": {
+      "negative": 27322,
+      "positive": 3181,
+      "unobservable": 187,
+      "uncertain": 632,
+      "unlabeled": 5
+    },
+    "AUD_PAUSE_FREQUENT": {
+      "negative": 13519,
+      "unobservable": 17087,
+      "uncertain": 519,
+      "positive": 197,
+      "unlabeled": 5
+    },
+    "AUD_INTONATION_RISING": {
+      "negative": 17570,
+      "positive": 11653,
+      "uncertain": 2070,
+      "unobservable": 29,
+      "unlabeled": 5
+    },
+    "AUD_INTONATION_FALLING": {
+      "positive": 19851,
+      "negative": 10689,
+      "uncertain": 753,
+      "unobservable": 29,
+      "unlabeled": 5
+    },
+    "AUD_INTONATION_FLAT": {
+      "uncertain": 6834,
+      "negative": 22052,
+      "positive": 2404,
+      "unobservable": 32,
+      "unlabeled": 5
+    },
+    "AUD_VOICE_TENSE": {
+      "negative": 26619,
+      "positive": 2324,
+      "uncertain": 2359,
+      "unobservable": 20,
+      "unlabeled": 5
+    },
+    "AUD_VOICE_TREMBLING": {
+      "negative": 30078,
+      "uncertain": 614,
+      "positive": 607,
+      "unobservable": 23,
+      "unlabeled": 5
+    },
+    "AUD_LAUGHTER_PRESENT": {
+      "negative": 30929,
+      "positive": 378,
+      "unobservable": 11,
+      "unlabeled": 5,
+      "uncertain": 4
+    },
+    "AUD_CRYING_SOBBING_PRESENT": {
+      "negative": 30658,
+      "uncertain": 275,
+      "positive": 387,
+      "unlabeled": 5,
+      "unobservable": 2
+    },
+    "VIS_BROWS_FURROWED": {
+      "negative": 20844,
+      "positive": 10339,
+      "unobservable": 68,
+      "unlabeled": 69,
+      "uncertain": 7
+    },
+    "VIS_BROWS_RAISED": {
+      "positive": 12757,
+      "negative": 18308,
+      "uncertain": 125,
+      "unobservable": 68,
+      "unlabeled": 69
+    },
+    "VIS_EYES_WIDENED": {
+      "positive": 7902,
+      "negative": 15950,
+      "uncertain": 7324,
+      "unobservable": 82,
+      "unlabeled": 69
+    },
+    "VIS_EYES_SQUINTED": {
+      "negative": 20331,
+      "positive": 6650,
+      "uncertain": 4192,
+      "unobservable": 85,
+      "unlabeled": 69
+    },
+    "VIS_SMILE_PRESENT": {
+      "negative": 26175,
+      "positive": 4379,
+      "uncertain": 675,
+      "unobservable": 29,
+      "unlabeled": 69
+    },
+    "VIS_MOUTH_CORNERS_DOWN": {
+      "negative": 17352,
+      "positive": 10278,
+      "uncertain": 3593,
+      "unobservable": 35,
+      "unlabeled": 69
+    },
+    "VIS_LIPS_PRESSED": {
+      "negative": 26716,
+      "positive": 3420,
+      "uncertain": 1081,
+      "unobservable": 41,
+      "unlabeled": 69
+    },
+    "VIS_GRIMACE_PRESENT": {
+      "negative": 25026,
+      "uncertain": 3977,
+      "positive": 2224,
+      "unobservable": 31,
+      "unlabeled": 69
+    },
+    "VIS_TEARING_PRESENT": {
+      "negative": 25518,
+      "unobservable": 3602,
+      "positive": 902,
+      "uncertain": 1236,
+      "unlabeled": 69
+    },
+    "VIS_HEAD_LOWERED": {
+      "negative": 23562,
+      "positive": 7553,
+      "uncertain": 113,
+      "unlabeled": 69,
+      "unobservable": 30
+    }
+  },
+  "successful_audio": 31322,
+  "successful_visual": 31258,
+  "audio_duration_counts": {
+    "lt5": 27856,
+    "ge5": 3466
+  },
+  "short_audio_frequent_pause_state_counts": {
+    "negative": 11381,
+    "unobservable": 16291,
+    "uncertain": 170,
+    "positive": 14
+  },
+  "frequent_pause_confirmed_eligibility_conflicts": 11395,
+  "frequent_pause_conflicts_are_lower_bound": true,
+  "tearing_raw_state_counts": {
+    "negative": 25518,
+    "unobservable": 3602,
+    "positive": 902,
+    "uncertain": 1236
+  },
+  "tearing_raw_positive_candidates": 902,
+  "tearing_positive_candidates_gated": 0,
+  "tearing_final_state_counts": {
+    "negative": 25518,
+    "unobservable": 3602,
+    "positive": 902,
+    "uncertain": 1236,
+    "unlabeled": 69
+  },
+  "pause_tearing_overlap": 297,
+  "distinct_samples_in_either": 12000,
+  "long_pause_positive_under_one_second": 0,
+  "long_pause_impossible_examples": [],
+  "tearing_special_handling": false,
+  "quality_policy_updated_at": "2026-10-20T10:44:35+08:00",
+  "pause_special_handling": false,
+  "frequent_pause_conflicts_usage": "diagnostic_only_not_used_for_label_postprocessing"
+}

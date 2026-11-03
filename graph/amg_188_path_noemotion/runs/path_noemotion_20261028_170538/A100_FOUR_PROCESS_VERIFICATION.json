@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "A100_workers": 4,
+  "A800_workers": 4,
+  "source_only_full_window_probe_all4": true,
+  "verified_complete_four_arm_samples_by_A100_slot": {
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+  },
+  "workers": [
+    {
+      "slot": 4,
+      "pid": 1876,
+      "state": "inference",
+      "completed_active_samples": 234,
+      "generated_responses": 21,
+      "total_active_samples": 421,
+      "error": null
+    },
+    {
+      "slot": 5,
+      "pid": 1877,
+      "state": "inference",
+      "completed_active_samples": 5,
+      "generated_responses": 20,
+      "total_active_samples": 192,
+      "error": null
+    },
+    {
+      "slot": 6,
+      "pid": 1878,
+      "state": "inference",
+      "completed_active_samples": 5,
+      "generated_responses": 23,
+      "total_active_samples": 192,
+      "error": null
+    },
+    {
+      "slot": 7,
+      "pid": 1879,
+      "state": "inference",
+      "completed_active_samples": 5,
+      "generated_responses": 21,
+      "total_active_samples": 191,
+      "error": null
+    }
+  ],
+  "time_beijing": "2026-10-28T17:41:52.040340+08:00"
+}

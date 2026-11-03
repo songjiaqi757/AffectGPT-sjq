@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "partitions": {
+    "development": {
+      "original_epoch40": 512,
+      "original_epoch40_logical_answers": 7680,
+      "fixed_graph45_to54": 512,
+      "fixed_graph45_to54_logical_answers": 7680
+    },
+    "confirmation": {
+      "original_epoch40": 512,
+      "original_epoch40_logical_answers": 7680,
+      "fixed_graph45_to54": 512,
+      "fixed_graph45_to54_logical_answers": 7680
+    }
+  },
+  "total_logical_answers": 30720,
+  "unique_generation_cache_entries": 25656,
+  "exact_prompt_reuse_logical_answers": 5064,
+  "all_sample_condition_seed_memberships_valid": true,
+  "development_confirmation_ID_disjoint": true,
+  "frozen_selection_unchanged": true,
+  "code_manifest_verified": true,
+  "answer_formats": [
+    {
+      "partition": "development",
+      "checkpoint": "original_epoch40",
+      "counts": {
+        "A": 1536,
+        "B": 1536,
+        "C": 1536,
+        "S": 1536,
+        "P": 1536
+      },
+      "empty_raw": {
+        "A": 0,
+        "B": 180,
+        "C": 45,
+        "S": 55,
+        "P": 34
+      }
+    },
+    {
+      "partition": "development",
+      "checkpoint": "fixed_graph45_to54",
+      "counts": {
+        "A": 1536,
+        "B": 1536,
+        "C": 1536,
+        "S": 1536,
+        "P": 1536
+      },
+      "empty_raw": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "S": 0,
+        "P": 0
+      }
+    },
+    {
+      "partition": "confirmation",
+      "checkpoint": "original_epoch40",
+      "counts": {
+        "A": 1536,
+        "B": 1536,
+        "C": 1536,
+        "S": 1536,
+        "P": 1536
+      },
+      "empty_raw": {
+        "A": 0,
+        "B": 119,
+        "C": 36,
+        "S": 40,
+        "P": 29
+      }
+    },
+    {
+      "partition": "confirmation",
+      "checkpoint": "fixed_graph45_to54",
+      "counts": {
+        "A": 1536,
+        "B": 1536,
+        "C": 1536,
+        "S": 1536,
+        "P": 1536
+      },
+      "empty_raw": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "S": 0,
+        "P": 0
+      }
+    }
+  ],
+  "time_beijing": "2026-10-29T11:39:29.571143+08:00"
+}

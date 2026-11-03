@@ -1,0 +1,20 @@
+{
+  "schema": "blind_semantic_evidence_review_v1",
+  "samples": [],
+  "reference_labels_visible": false,
+  "teacher_predictions_visible": false,
+  "fields": [
+    "target_speaker",
+    "emotion_holder",
+    "event_time",
+    "evaluation_target",
+    "negation_scope",
+    "contrast_or_only_scope",
+    "speech_act",
+    "overall_stance",
+    "current_emotion",
+    "evidence_phrase_or_time",
+    "observable_or_abstain"
+  ],
+  "instructions": "Review current media and original text first; record ambiguity and abstain when not observable. No target-test examples or predicted answers supplied. This queue does not by itself certify independence."
+}

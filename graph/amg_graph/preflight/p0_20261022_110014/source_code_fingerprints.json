@@ -1,0 +1,441 @@
+{
+  "git_head": "fb828326ca504299fe8637ee0568727c91b54c6d",
+  "git_status_file": "/ai/sjq/AffectGPT-sjq/amg_graph/preflight/p0_20261022_110014/git_status.txt",
+  "current_sources": {
+    "amg_graph/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "amg_graph/build.py": "d709e2d1036a78f9fe4196c435e7f996df8ecafb9bba6cedb1e1a90aa905361e",
+    "amg_graph/data.py": "d5ae9d79f84d8d91d6709a42753330ec44f9a45464fcbb678cd9593e5eb0d328",
+    "amg_graph/stats.py": "d9020e3c19752192c79ce4cabaa31f756c2be23699371be547e663113df6bf9a",
+    "amg_graph/verify.py": "e2775a82eacf88777cdf12e8936b59c3de8dafffee49ca4d00eb6f086f8ac2b1",
+    "amg_graph/verify_frozen_release.py": "98392d96e47a865bb8f13338b02209d106e6b80e364631af05540f669f758b1d",
+    "cue_student/__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+    "cue_student/cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+    "cue_student/common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+    "cue_student/data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+    "cue_student/eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+    "cue_student/evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+    "cue_student/holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+    "cue_student/loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+    "cue_student/models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+    "cue_student/objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+    "cue_student/observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+    "cue_student/predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+    "cue_student/prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+    "cue_student/reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+    "cue_student/temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+    "cue_student/train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33",
+    "appraisal_annotation/annotate.py": "0f145b57c4ae3e99091daa8b228eaf164ae1b5b1830bae7af0c1b3f711fe8d38",
+    "appraisal_annotation/annotate_full.py": "61f38c0b210989026d85697b6d9de2c54f52f50febf708a267b91d9a28060632",
+    "appraisal_annotation/browser_check.py": "57be13671a0a8ddd46eff72485f6b2874bab0ef10673542e7b95e9a1552bafed",
+    "appraisal_annotation/browser_full_check.py": "63e27fa545f0863e011fcc49fb6acfea638cf4ba4dc8e4c80b690094f345da24",
+    "appraisal_annotation/finalize_results.py": "30d330a1e27a4f48589627cd75e58758a15ab3f6dfda7b5c2ab3f4008325ac72",
+    "appraisal_annotation/normalize_literal_null.py": "8b3073505bbdda9a51adfd88771c0a3c1ae2b20bf17c9654f72c89edecc90ae1",
+    "appraisal_annotation/restart_checked.py": "5a1658de526a66c342ac8085166702fb48e2cb1e8e200e96558b28b2393fe88f",
+    "appraisal_annotation/verify.py": "ac5c277acebaaa13f1ab995b30eb135916d153829f1820ab19f5f006eab8e214",
+    "appraisal_annotation/viewer.py": "28734e89f8bd745159d96bfbdc60111bdd1c9d69627d8e68203cb04f87397cfb",
+    "emotion_nodes/build.py": "b1f58601995311729dce92362aca1602e10ce1f5e63ea253c8750309d969c1f0",
+    "emotion_nodes/original_adapter.py": "52b6f4719ce441962acb4df9af89abd56cfff85eb612e28e3ea359cde3678d2c",
+    "emotion_nodes/verify.py": "c2db2b7434708f5e7681bf5d4c50b88e1132ce43da3733663498cd40e2d7eab8",
+    "amg_graph/preflight/p0_20261022_110014/run_preflight.py": "301e333d722f8204fbe72b14badb4dcf8a4fe97f54ec3e187073946a4a7d744f",
+    "amg_graph/preflight/p0_20261022_110014/checkpoint_metadata.py": "4f5a417a714671ffd115bcf22e672f5ca5aa8f7cac08e9fcc3f282442dd4f62a"
+  },
+  "cue_training_archives": {
+    "text": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "audio": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "audio_temporal": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "audio_full": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "audio_temporal_full": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "visual": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "visual_temporal": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "visual_full": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    },
+    "visual_temporal_full": {
+      "training_archive": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/source/cue_student",
+      "training_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "current_module_sha256": {
+        "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+        "cancel_diagnostic.py": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3",
+        "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+        "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+        "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71",
+        "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+        "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+        "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+        "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+        "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+        "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+        "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+        "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+        "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+        "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+        "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33"
+      },
+      "additional_current_files": {
+        "cancel_diagnostic.py": {
+          "archived": null,
+          "current": "1a8cd9bf352028aec63f5ca25331382d8f5e2c2ad6aee43513901957d2373ef3"
+        }
+      }
+    }
+  },
+  "limitation": "Core implementation directories are untracked; commit alone is insufficient, use individual SHA256 locks."
+}

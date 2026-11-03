@@ -1,0 +1,166 @@
+{
+  "schema": "amg_source_polarity_v1",
+  "created_at_beijing": "2026-10-25T00:20:23.026116+08:00",
+  "training_samples": 30755,
+  "unique_queries": 22547,
+  "batches": 177,
+  "batch_size": 128,
+  "source_records": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/train_records.json",
+  "training_plan_id": "06b8b107de36e0507f6b0815a2335096eb6a4f1df89c9ed5c3745ee5fe1a9a01",
+  "files_sha256": {
+    "/ai/sjq/AffectGPT-sjq/amg_polarity/pipeline.py": "aec21da2af01881ff8749d552af2b2af16630506055053823ff8d55fd47b67fa",
+    "/ai/sjq/AffectGPT-sjq/amg_polarity/__init__.py": "9646acd6641c228caaa8c8fc0c012d134cb9653fe669c48a0a878ce33741b085",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py": "9e91bb83029d864f816f4cdeb2cdfc9302ee3edf62c602bcaba90a604c0ad967",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/config.py": "526653bfc0525ad949ed40da28e3356b05c40a8284f974f6dcd7f0598ee8f60c",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/qwen.py": "f0dafb395df79dab38d48934da4c4ac7d7fb57817c7932723635425bfad389b1",
+    "/ai/sjq/AffectGPT-sjq/amg_inference/common.py": "9dbe92c0acdf90431a22abefbcf8017c3b9336cd63f77bab3c78f89c2f23d989",
+    "/ai/sjq/AffectGPT-sjq/amg_runtime/common.py": "3996d26a3f7d9ce17edaa2553710d9ca6954e635074eb77456baff0552226a6e",
+    "/ai/sjq/AffectGPT-sjq/amg_finetune_nogc/common.py": "884cc510edc5ead5b412fe395e9ad18dd6d56214e690ad99c807d1cea1a5ea65",
+    "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/train_records.json": "c3bbba141a75bffbf7af22aafe394318ee8bf160bea0334b1ce405c79e8db248",
+    "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/human_audit_500.json": "c9657656ae8f79ec71275ccaa9a6e3ca3c9c2388a6fc9a89ac6aafba4442ca0e",
+    "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/plan.json": "c258a25b4cf587be867778fb6a139bd0165376688b6a2b488325955664b35ecd",
+    "/ai/sjq/AffectGPT-sjq/amg_polarity/runs/source_polarity_20261025_002021/source_members.json": "0372133aac7ab636efde2cb3ae6451b57b0ae1a1ffa852590839f150c4df755b"
+  },
+  "model_assets": {
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/.gitignore": {
+      "bytes": 1,
+      "mtime_ns": 1772720087160607420
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/.gitattributes.metadata": {
+      "bytes": 100,
+      "mtime_ns": 1772720089902246059
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/LICENSE.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720092163893254
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/README.md.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720089411561017
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/config.json.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720092442148143
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/generation_config.json.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720093665865989
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/merges.txt.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720108321451875
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/model-00001-of-00004.safetensors.metadata": {
+      "bytes": 125,
+      "mtime_ns": 1772724212341240403
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/model-00002-of-00004.safetensors.metadata": {
+      "bytes": 125,
+      "mtime_ns": 1772724597108199601
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/model-00003-of-00004.safetensors.metadata": {
+      "bytes": 125,
+      "mtime_ns": 1772724062988460099
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/model-00004-of-00004.safetensors.metadata": {
+      "bytes": 125,
+      "mtime_ns": 1772724768694820451
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/model.safetensors.index.json.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720095222745617
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/tokenizer.json.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720111770737923
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/tokenizer_config.json.metadata": {
+      "bytes": 101,
+      "mtime_ns": 1772720096530116781
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.cache/huggingface/download/vocab.json.metadata": {
+      "bytes": 100,
+      "mtime_ns": 1772720103381911407
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/.gitattributes": {
+      "bytes": 1519,
+      "mtime_ns": 1772720089896784557
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/LICENSE": {
+      "bytes": 11343,
+      "mtime_ns": 1772720092154155101
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/README.md": {
+      "bytes": 6240,
+      "mtime_ns": 1772720089390830349
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/config.json": {
+      "bytes": 663,
+      "mtime_ns": 1772720092435953316
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/generation_config.json": {
+      "bytes": 243,
+      "mtime_ns": 1772720093657474210
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/merges.txt": {
+      "bytes": 1671839,
+      "mtime_ns": 1772720108313532950
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/model-00001-of-00004.safetensors": {
+      "bytes": 3945441440,
+      "mtime_ns": 1772724212333628278
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/model-00002-of-00004.safetensors": {
+      "bytes": 3864726352,
+      "mtime_ns": 1772724597098360958
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/model-00003-of-00004.safetensors": {
+      "bytes": 3864726424,
+      "mtime_ns": 1772724062979114698
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/model-00004-of-00004.safetensors": {
+      "bytes": 3556377672,
+      "mtime_ns": 1772724768685381944
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/model.safetensors.index.json": {
+      "bytes": 27752,
+      "mtime_ns": 1772720095215398041
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/tokenizer.json": {
+      "bytes": 7031645,
+      "mtime_ns": 1772720111756824209
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/tokenizer_config.json": {
+      "bytes": 7305,
+      "mtime_ns": 1772720096523872301
+    },
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct/vocab.json": {
+      "bytes": 2776833,
+      "mtime_ns": 1772720103374132767
+    }
+  },
+  "model_path": "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen2.5-7B-Instruct",
+  "gpus": [
+    0,
+    1
+  ],
+  "processes_per_gpu": 1,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512,
+    "base_seed": 42
+  },
+  "method": "Exact repository openset_to_sentiment_qwen batched prompt and Qwen25 evaluator loader; identical source ovlabel strings share a single cached pseudo label",
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "policy": "Source training ovlabel only; no graph evidence, AffectGPT predictions, target test labels, or audit500 used; invalid output retried and never defaulted to neutral; no new AffectGPT training",
+  "previous_plan_id": "9dcae69a1f4993f2561b57446f02adf225b9eebbaf1b303bcc9b85b1c7de46d0",
+  "invalid_output_policy": "Retry at most three times; preserve remaining mixed/invalid results as abstain, polarity_id=-100, valid_for_polarity_loss=false; never map invalid to neutral",
+  "revised_at_beijing": "2026-10-25T00:22:21.173146+08:00",
+  "plan_id": "abb7060ee90e5fef7e46e9a5f55e329fdf6f8d39a41eea9a6efea1e0d3381b6f"
+}

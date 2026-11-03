@@ -1,0 +1,543 @@
+{
+  "completed": true,
+  "cleanup_date": "2026-10-19",
+  "deleted_bytes": 70839577375,
+  "deleted_targets": [
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_bilingual_v1",
+      "bytes": 196795083
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_bilingual_fullaudio_v2",
+      "bytes": 8634924
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_bilingual_fullaudio_v2_1",
+      "bytes": 10780880
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_bilingual_allframes_visual_v3",
+      "bytes": 3308782
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_face_tears_review_v4",
+      "bytes": 7806948
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_bilingual_fullmedia_v5",
+      "bytes": 5774874
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_qwen38_omni_api_v1",
+      "bytes": 2328851
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runs/pilot30_qwen38_omni_api_video_file_v2",
+      "bytes": 63448985
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/setup.log",
+      "bytes": 1618
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/annotate.py",
+      "bytes": 23654
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/__pycache__",
+      "bytes": 250433
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/setup_mirror.log",
+      "bytes": 530
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/setup_proxy.log",
+      "bytes": 507
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_pilot.sh",
+      "bytes": 695
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot.log",
+      "bytes": 2500
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot.lock",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/runtime_deps",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/silero_vad_local.py",
+      "bytes": 13086
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/inference.log",
+      "bytes": 471765
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/prefetch_weights.py",
+      "bytes": 445
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/prefetch.log",
+      "bytes": 249
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/consolidate.py",
+      "bytes": 4678
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/inference_utf8.log",
+      "bytes": 749
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot.exitcode",
+      "bytes": 4
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/audio_inventory.py",
+      "bytes": 1398
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/audio_inventory.log",
+      "bytes": 378
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/audio_inventory.csv",
+      "bytes": 1357454
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/audio_inventory_summary.json",
+      "bytes": 195
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/annotate_fullaudio.py",
+      "bytes": 24276
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/prepare_fullaudio.py",
+      "bytes": 9120
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/prepare_fullaudio.log",
+      "bytes": 4584
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/cache_model_server.py",
+      "bytes": 496
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/model_cache.log",
+      "bytes": 847
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_fullaudio_pilot.sh",
+      "bytes": 1325
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/fullaudio_pipeline.log",
+      "bytes": 1237
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot_fullaudio.lock",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/fullaudio.worker0.log",
+      "bytes": 5511
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/fullaudio.worker1.log",
+      "bytes": 5574
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/PROTOCOL_REVISION_FULLAUDIO.md",
+      "bytes": 5492
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/prepare_fullaudio_v2_1.log",
+      "bytes": 4586
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/fullaudio.worker1.exitcode",
+      "bytes": 2
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/fullaudio.worker0.exitcode",
+      "bytes": 2
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/consolidate_fullaudio.py",
+      "bytes": 4980
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/audit_audio_reference.py",
+      "bytes": 1687
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/annotate_text_recheck.py",
+      "bytes": 24486
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_text_recheck.sh",
+      "bytes": 1340
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/text_recheck_pipeline.log",
+      "bytes": 911
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot_text_recheck.lock",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/text_recheck.worker0.log",
+      "bytes": 3128
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/text_recheck.worker1.log",
+      "bytes": 3063
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/finalize_pilot.py",
+      "bytes": 5093
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/text_recheck.worker0.exitcode",
+      "bytes": 2
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/text_recheck.worker1.exitcode",
+      "bytes": 2
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/finalize_pilot.log",
+      "bytes": 4486
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/annotate_visual_allframes.py",
+      "bytes": 10028
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/visual_allframes_v3_prompt.txt",
+      "bytes": 5386
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_allframes_visual_pilot.sh",
+      "bytes": 743
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot_visual_allframes.lock",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/finalize_visual_allframes.py",
+      "bytes": 7236
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/upgrade_viewer_allframes.py",
+      "bytes": 5461
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/VISUAL_ALLFRAMES_PROTOCOL.md",
+      "bytes": 2509
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/recheck_visual_static_head.py",
+      "bytes": 5214
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/json_completion_guard.py",
+      "bytes": 2325
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/annotate_visual_faces.py",
+      "bytes": 10696
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/visual_faces_v4_prompt.txt",
+      "bytes": 6503
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_faces_visual_pilot.sh",
+      "bytes": 710
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/pilot_visual_faces.lock",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/finalize_visual_faces.py",
+      "bytes": 8673
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/upgrade_viewer_faces.py",
+      "bytes": 7449
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/json_object_guard.py",
+      "bytes": 1763
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/VISUAL_FACES_PROTOCOL.md",
+      "bytes": 2473
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/prepare_main_protocol_v5.py",
+      "bytes": 11504
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/plan_history",
+      "bytes": 111175
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/main_task_queue.py",
+      "bytes": 2994
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_main_protocol_v5.py",
+      "bytes": 11733
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_main_parallel_v5.sh",
+      "bytes": 775
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/check_main_queue_v5.py",
+      "bytes": 3741
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/main_protocol_v5.lock",
+      "bytes": 0
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/upgrade_viewer_v5.py",
+      "bytes": 4113
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/recheck_main_failed_v5.py",
+      "bytes": 7019
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/verify_main_v5.py",
+      "bytes": 14126
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/publish_main_v5.py",
+      "bytes": 5901
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_main_recheck_v5.sh",
+      "bytes": 533
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/text_observable_guard.py",
+      "bytes": 629
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/recheck_text_observability_v5.py",
+      "bytes": 8067
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/run_text_observability_v5.sh",
+      "bytes": 591
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/qwen_omni_pilot30_api.py",
+      "bytes": 22681
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/audit_qwen_pilot30_api.py",
+      "bytes": 9186
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/qwen_video_file_pilot30.py",
+      "bytes": 16113
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/protocols/main_bilingual_fullmedia_v5",
+      "bytes": 384120
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/viewer.pid",
+      "bytes": 8
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/viewer.log",
+      "bytes": 353
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/verification.json",
+      "bytes": 1362
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/backup_media_fix_20261019_131434",
+      "bytes": 37084
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/build_browser_videos.py",
+      "bytes": 2867
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/video_prepare.log",
+      "bytes": 1562
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/backup_allframes_20261019_141516",
+      "bytes": 43811
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/backup_qwen_api_1792414296480369296",
+      "bytes": 55106
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/qwen_api_update_verification.json",
+      "bytes": 1191
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/backup_video_file_1792418191029351380",
+      "bytes": 38613
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/__pycache__",
+      "bytes": 13283
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00074760",
+      "bytes": 335443
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00061108",
+      "bytes": 282871
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00050157",
+      "bytes": 260283
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00099189",
+      "bytes": 208709
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00010466",
+      "bytes": 205577
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00011089",
+      "bytes": 266220
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00021303",
+      "bytes": 173482
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00095315",
+      "bytes": 173457
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00091009",
+      "bytes": 404796
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00080880",
+      "bytes": 228602
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00015005",
+      "bytes": 242863
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00023439",
+      "bytes": 149039
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00112768",
+      "bytes": 161109
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00059596",
+      "bytes": 136248
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00097004",
+      "bytes": 198488
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00090534",
+      "bytes": 191445
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00043033",
+      "bytes": 197827
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00085254",
+      "bytes": 263323
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00046623",
+      "bytes": 284054
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00050825",
+      "bytes": 191268
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00051435",
+      "bytes": 320033
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00063240",
+      "bytes": 309510
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00052265",
+      "bytes": 224087
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00058106",
+      "bytes": 186567
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00089629",
+      "bytes": 190360
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00107292",
+      "bytes": 267699
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00083058",
+      "bytes": 263743
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00075937",
+      "bytes": 132669
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00010103",
+      "bytes": 239635
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_annotation/viewer/cache/samplenew3_00088325",
+      "bytes": 283089
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/models/Qwen3-Omni-30B-A3B-Instruct",
+      "bytes": 70530595574
+    }
+  ],
+  "remaining_run": "pilot30",
+  "model_removed": true,
+  "dataset_preserved": true,
+  "paid_api_calls": 0,
+  "annotation_content_unchanged": true,
+  "labels_deleted": true,
+  "remaining_label_rows": 0,
+  "remaining_raw_responses": 0
+}

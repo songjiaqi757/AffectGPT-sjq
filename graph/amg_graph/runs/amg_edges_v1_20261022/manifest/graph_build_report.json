@@ -1,0 +1,69 @@
+{
+  "phase": "complete",
+  "release_status": "engineering_graph_pending_human_and_original_source_audit",
+  "train_samples": 27879,
+  "validation_samples": 3076,
+  "gold_samples_used": 0,
+  "node_counts": {
+    "cue": 42,
+    "appraisal_dimension": 6,
+    "appraisal_state": 16,
+    "emotion": 188,
+    "total": 252
+  },
+  "candidate_edges": 11576,
+  "estimable_edges": 10982,
+  "admitted_edges": 1047,
+  "by_relation": {
+    "CUE_TO_APPRAISAL_STATE": {
+      "candidates": 672,
+      "estimable": 672,
+      "admitted": 176
+    },
+    "CUE_TO_EMOTION": {
+      "candidates": 7896,
+      "estimable": 7735,
+      "admitted": 670
+    },
+    "APPRAISAL_STATE_TO_EMOTION": {
+      "candidates": 3008,
+      "estimable": 2575,
+      "admitted": 201
+    }
+  },
+  "fixed_has_state_edges": 16,
+  "bootstrap_replicates": 1000,
+  "bootstrap_draws_hash": "3ed4f308d9c8338d4612c4227b6959c7c3f6b9001bac1eafd19f7b6744837c92",
+  "selected_min_support": 20,
+  "selected_joint_support": 3,
+  "validation_selection": {
+    "min_support": 20,
+    "joint_support_threshold": 3,
+    "edges": 1047,
+    "objective": 0.4320357348661634,
+    "appraisal_macro_state_recall_at1": 0.5282804900059922,
+    "emotion_sample_macro_recall_at5": 0.3357909797263346,
+    "appraisal_valid_dimension_query_coverage": 0.9793546419248665,
+    "emotion_query_coverage": 1.0,
+    "appraisal_evaluable_states": 16,
+    "emotion_evaluable_samples": 3001
+  },
+  "validation_query_source": "held-out Cue Teacher positive flags; structural validation, not Student deployment performance",
+  "candidate_paths": 3186,
+  "admitted_paths": 2785,
+  "appraisal_dimension_train_valid_counts": {
+    "APP_GOAL_RELEVANCE": 12476,
+    "APP_GOAL_CONGRUENCE": 8660,
+    "APP_EXPECTEDNESS": 4679,
+    "APP_AGENCY": 8320,
+    "APP_CERTAINTY": 15499,
+    "APP_COPING_POTENTIAL": 2410
+  },
+  "emotion_train_eligible_samples": 27311,
+  "emotion_validation_eligible_samples": 3001,
+  "group_limitations": [
+    "Original video provenance not verified for all members; exact file duplicates merged, but near-duplicate/source leakage not ruled out."
+  ],
+  "human_audit_completed": false,
+  "model_calls": 0
+}

@@ -1,0 +1,60 @@
+{
+  "state": "complete",
+  "llm_gradient_checkpointing": false,
+  "base_epoch": 35,
+  "physical_gpu": "0",
+  "pid": 1078453,
+  "plan_id": "3a3697e6a39fde3b26fa43e104aaa5087656cd4ff36bc43e8226f235f7ca5428",
+  "started_at_beijing": "2026-10-25T01:52:17.939431+08:00",
+  "completed_steps": 25000,
+  "completed_epochs": 5,
+  "total_steps": 25000,
+  "additional_epochs": 5,
+  "updated_at_beijing": "2026-10-25T05:27:11.392120+08:00",
+  "current_epoch": 40,
+  "epoch_step": 5000,
+  "trainable_parameters": 57168644,
+  "gpu_memory_allocated": 18925270016,
+  "optimizer_updates": 24988,
+  "amp_skipped_steps": 12,
+  "last_loss": 0.7926037907600403,
+  "mean_loss_current_epoch": 0.6721703998371958,
+  "elapsed_training_seconds": 12609.068913698196,
+  "seconds_per_step": 0.5038291149234772,
+  "smoke_passed": true,
+  "gpu_memory_peak": 41643664896,
+  "gpu_memory_reserved": 42914021376,
+  "checkpoints": [
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/C/checkpoint_000036_loss_0.746.pth",
+      "sha256": "3b3d9dee133b109338d98cc8d4d6e0b62c368f5ec1cfaee4c180a01215115a56",
+      "epoch": 36,
+      "loss": 0.7455102696269751
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/C/checkpoint_000037_loss_0.748.pth",
+      "sha256": "cdae8840deac223e0e32512b9371103258d8b35233c3684141ed806068ba502e",
+      "epoch": 37,
+      "loss": 0.7481361504912376
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/C/checkpoint_000038_loss_0.699.pth",
+      "sha256": "d9c73b4e9f5c240ea8d0195d7b49fdfb9d4b1b14f4f3e6046b2c8a0c60b863b3",
+      "epoch": 38,
+      "loss": 0.6994390057653189
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/C/checkpoint_000039_loss_0.714.pth",
+      "sha256": "58276e1d2c44f54eba1576c903c2f5bfe126396f1be8bd92e1ac9936411781a8",
+      "epoch": 39,
+      "loss": 0.7135152575865388
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/C/checkpoint_000040_loss_0.672.pth",
+      "sha256": "fc5166f960b852c8ac27c685dc746469afc2d19cfd5ca08fd697e682d9b932e1",
+      "epoch": 40,
+      "loss": 0.6721703998371958
+    }
+  ],
+  "finished_at_beijing": "2026-10-25T05:27:11.392077+08:00"
+}

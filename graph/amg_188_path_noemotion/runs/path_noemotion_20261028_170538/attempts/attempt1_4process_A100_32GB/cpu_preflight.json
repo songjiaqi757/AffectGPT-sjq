@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "counts": {
+    "MER2023": {
+      "samples": 411,
+      "active": 146,
+      "reused_inactive": 265
+    },
+    "MER2024": {
+      "samples": 1169,
+      "active": 421,
+      "reused_inactive": 748
+    },
+    "MELD": {
+      "samples": 2610,
+      "active": 1120,
+      "reused_inactive": 1490
+    },
+    "IEMOCAPFour": {
+      "samples": 1241,
+      "active": 536,
+      "reused_inactive": 705
+    },
+    "CMUMOSI": {
+      "samples": 686,
+      "active": 194,
+      "reused_inactive": 492
+    },
+    "CMUMOSEI": {
+      "samples": 4659,
+      "active": 1592,
+      "reused_inactive": 3067
+    },
+    "SIMS": {
+      "samples": 457,
+      "active": 152,
+      "reused_inactive": 305
+    },
+    "SIMSv2": {
+      "samples": 1034,
+      "active": 401,
+      "reused_inactive": 633
+    },
+    "OVMERDPlus": {
+      "samples": 532,
+      "active": 215,
+      "reused_inactive": 317
+    }
+  },
+  "active_samples": 4777,
+  "new_generations": 19108,
+  "reused_logical_predictions": 32088,
+  "max_prompt_tokens": 525,
+  "paths_verbatim": true,
+  "only_Emotion_line_deleted": true,
+  "all_parent_C_E_P_prompt_ids_matched": true,
+  "task_counts": [
+    616,
+    578,
+    591,
+    606,
+    611,
+    604,
+    604,
+    567
+  ],
+  "CUDA_initialized": false,
+  "time_beijing": "2026-10-28T17:09:27.154979+08:00"
+}

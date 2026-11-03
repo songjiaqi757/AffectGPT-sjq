@@ -1,0 +1,27 @@
+{
+  "updated_unix": 1792601695.376075,
+  "reason": "Explicit recovery attempt of 3 provider URL rejections using identical original input; keep original raw responses and cumulative 6-attempt budget",
+  "before": [
+    {
+      "sid": "samplenew3_00051749",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-7043196b-ef2e-93cb-af47-5608442b8ccd\"}"
+    },
+    {
+      "sid": "samplenew3_00060031",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-0ad758a7-c5c7-9ed2-ad3a-4a4e88085dad\"}"
+    },
+    {
+      "sid": "samplenew3_00086235",
+      "state": "failed",
+      "attempts": 1,
+      "retryable": 0,
+      "last_error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"invalid_parameter_error\", \"param\": null, \"message\": \"The provided URL does not appear to be valid. Ensure it is correctly formatted.\", \"type\": \"invalid_request_error\"}, \"id\": \"chatcmpl-b9f58f88-ccfb-9fbe-bf87-c71bf54ab62e\"}"
+    }
+  ]
+}

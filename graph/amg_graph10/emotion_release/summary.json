@@ -1,0 +1,30 @@
+{
+  "emotion_nodes": 10,
+  "original_endpoint_count": 17,
+  "role_summary": {
+    "pseudo_train": {
+      "samples": 27679,
+      "valid_samples": 27115,
+      "empty_masked_samples": 564
+    },
+    "pseudo_validation": {
+      "samples": 3076,
+      "valid_samples": 3003,
+      "empty_masked_samples": 73
+    }
+  },
+  "train_support_samples": {
+    "fear": 14960,
+    "genius": 8879,
+    "joy": 12143,
+    "peaceful": 4001,
+    "sad": 13557,
+    "anger": 11560,
+    "surprised": 7021,
+    "powerful": 8606,
+    "bad": 6225,
+    "disgust": 3435
+  },
+  "model_calls": 0,
+  "original_cached_wheel_views_exact_match": true
+}

@@ -1,0 +1,80 @@
+{
+  "version": "five_original_level1_wheels_alias10_v1",
+  "derived_from_cue_release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "mapping": "raw openset -> original case3 independently for each wheel1..5 level1 -> set union -> explicit alias -> set dedup",
+  "aliases": {
+    "anger": [
+      "anger",
+      "angry",
+      "mad"
+    ],
+    "disgust": [
+      "disgust",
+      "disgusted"
+    ],
+    "fear": [
+      "fear",
+      "fearful",
+      "scared"
+    ],
+    "joy": [
+      "happy",
+      "joy",
+      "joyful"
+    ],
+    "sad": [
+      "sad"
+    ],
+    "surprised": [
+      "surprised"
+    ],
+    "peaceful": [
+      "peaceful"
+    ],
+    "powerful": [
+      "powerful"
+    ],
+    "bad": [
+      "bad"
+    ],
+    "genius": [
+      "genius"
+    ]
+  },
+  "empty_policy": "mask all Emotion labels; no neutral and no all-negative conversion",
+  "source_sha256": {
+    "dataset/mer2025-dataset/track2_train_mercaptionplus.csv": "230d4d33ba32ba0fd8c7207d015afbf03f165e2e19e232a38d806046ef9b8528",
+    "dataset/mer2025-dataset/track3_train_mercaptionplus.csv": "dda02825e8fad71212dc7f77dc98ec5cfc243e9871404a5383177dce970e8957",
+    "cue_student/artifacts/release_strict_all_modalities_20261020_163131/members.json": "4dfcc6d1056dafa81e70b5ec9c2db27b622ab9e1e77f748100a3268b578ef8ae",
+    "cue_student/artifacts/release_strict_all_modalities_20261020_163131/manifest.json": "0c06195f4a5c2ae365daacd876a6ba9385e8e4908c544da5ae8733d8d9014990",
+    "AffectGPT/emotion_wheel/format.csv": "ba6de7d61db8e129d1d7ef8a2aae22a9e93a2c2e3e683e6f2735d04455f016f2",
+    "AffectGPT/emotion_wheel/synonym.xlsx": "23f81f9ab1d2418aaf96775304fb5dc52c62bb5d5ef652a97471d045fc9d2e29",
+    "AffectGPT/emotion_wheel/wheel1.xlsx": "e70485d354b82a7491ff24648273182a5f4f13f92c76e6b3e4f9033f5e6afcc1",
+    "AffectGPT/emotion_wheel/wheel2.xlsx": "acc001e076a8e60440361f58dd8c05ed900c4890c84bb7d8d1df93708a7d9c87",
+    "AffectGPT/emotion_wheel/wheel3.xlsx": "d62f30bf88c17c55876634cd088eacaef98278fc25457474364439872f9dbf83",
+    "AffectGPT/emotion_wheel/wheel4.xlsx": "660260561b7fe15550f3679a01e7c783608ce3403d4c28db0a88520f68d83aea",
+    "AffectGPT/emotion_wheel/wheel5.xlsx": "2dd4595b2cf8e7628ca06a416a8e38ac831614b244f23d1ae613dc34007649f1",
+    "AffectGPT/toolkit/utils/functions.py": "7d422f9069c1f134729838e0ee08aa9bba0a310ed0b7c7d0f2d1d97ca4f7e23d",
+    "AffectGPT/toolkit/utils/read_files.py": "5c59f4887971fb58a6ead16fca4cdb1463645538d896e3d280e5449cad20adce",
+    "AffectGPT/my_affectgpt/evaluation/wheel.py": "2072ae0f6b18721cac9b51e154fac30c013cb73800366797a474f616f2631f54",
+    "AffectGPT/toolkit/utils/qwen.py": "f0dafb395df79dab38d48934da4c4ac7d7fb57817c7932723635425bfad389b1",
+    "emotion_nodes/original_adapter.py": "52b6f4719ce441962acb4df9af89abd56cfff85eb612e28e3ea359cde3678d2c",
+    "amg_graph10_rebuild/mapping.py": "0f2d1e6e3613a1cdc66c7a4de9430d6d0a0ebf142598f11ce376e34c305b4353",
+    "amg_graph10_rebuild/prepare.py": "328ecc350357ae9ec65c57ff2b768eee9ffbd2810ac9ccee6fd3f229f8a537df",
+    "amg_graph10_rebuild/original_preservation_baseline.json": "ee85afd0bae8e3cc952f78ea0cac7147825d3cba3c0178ad5cb6ce599aee50b6",
+    "emotion_nodes/runs/affectgpt_original_v1/labels.jsonl": "1bdfbd0ad4dd112f699d8f89d37cc1485d4bf67404ed0f5b159704965d3a4a1a"
+  },
+  "artifacts": {
+    "nodes.json": "7f22d78f73d3a519eb9b5295066de2ac49f0521aceaaeb792b0b68c315778c25",
+    "labels.jsonl": "91213f5cd65ddac144c3d27e4a5957f538f50504818da596b6f9534692070d45",
+    "wheel_mappings.json": "c39515713f12d7081a39be288ffc1e001090c881a79d755030bffd9082e7c48e",
+    "summary.json": "2c6e94913d100c9dc27c5c98c1a902f49cfea7171a7a6983ac72653ce3c0a1f8"
+  },
+  "graph_fit_role": "pseudo_train",
+  "validation_role": "finite 3x4 source-domain grid; no target datasets",
+  "gold_and_target_used": false,
+  "model_calls": 0,
+  "original_evaluation_resources_modified": false,
+  "original_wheel4_genius_preserved": true,
+  "release_id": "4b766576acff21d66d56267864e00264313631269a06323048c68f4bdf49991e"
+}

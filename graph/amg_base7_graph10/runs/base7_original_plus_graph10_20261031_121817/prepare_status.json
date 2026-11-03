@@ -1,0 +1,6 @@
+{
+  "state": "failed",
+  "error": "AssertionError(('MER2023', 'sample_00001998', 'audio_path', '../dataset/mer2023-dataset-process/audio/sample_00001998.wav', '/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/audio/sample_00001998.wav'))",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/prepare_original.py\", line 71, in main\n    if path is not None:assert str(Path(path))==str(Path(row[field])),(d,name,field,path,row[field])\nAssertionError: ('MER2023', 'sample_00001998', 'audio_path', '../dataset/mer2023-dataset-process/audio/sample_00001998.wav', '/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/audio/sample_00001998.wav')\n",
+  "time_beijing": "2026-10-31T12:18:34.635014+08:00"
+}

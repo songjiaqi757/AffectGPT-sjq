@@ -1,0 +1,31 @@
+{
+  "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "total": 31255,
+  "roles": {
+    "pseudo_train": {
+      "samples": 27679,
+      "groups": 27679,
+      "sample_ids_canonical_sha256": "518eb2174e118d64e4c2af9c5122951f1896ae1628c104fd59a6a7d78abc1718",
+      "group_ids_canonical_sha256": "518eb2174e118d64e4c2af9c5122951f1896ae1628c104fd59a6a7d78abc1718"
+    },
+    "pseudo_validation": {
+      "samples": 3076,
+      "groups": 3076,
+      "sample_ids_canonical_sha256": "074317fb3ba7df834011a8ed4dc608e45f4eb352fa816fe36c641887046e5beb",
+      "group_ids_canonical_sha256": "074317fb3ba7df834011a8ed4dc608e45f4eb352fa816fe36c641887046e5beb"
+    },
+    "gold_audit": {
+      "samples": 300,
+      "groups": 300,
+      "sample_ids_canonical_sha256": "8aea91a681bc3d89bd6ecf0afe48e663025a0059bff2d493ef686bafb658a318",
+      "group_ids_canonical_sha256": "8aea91a681bc3d89bd6ecf0afe48e663025a0059bff2d493ef686bafb658a318"
+    },
+    "diagnostic_reserved": {
+      "samples": 200,
+      "groups": 200,
+      "sample_ids_canonical_sha256": "ba6d65f3b166a112ceaca6ef8260b0977b2484e210e1402b18e190017b989009",
+      "group_ids_canonical_sha256": "ba6d65f3b166a112ceaca6ef8260b0977b2484e210e1402b18e190017b989009"
+    }
+  },
+  "source_group_independence": "manifest and registered exact hashes only; original/near-duplicate audit pending"
+}

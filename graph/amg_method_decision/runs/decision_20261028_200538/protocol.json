@@ -1,0 +1,42 @@
+{
+  "schema": "finite_method_decision_v1",
+  "created_at_beijing": "2026-10-28T20:05:38.604596+08:00",
+  "project": "/ai/sjq/AffectGPT-sjq",
+  "execution": "Server only; two physical single-GPU hosts, four inference workers each; serialize A100 model/checkpoint loading",
+  "scheduling": "Shared whole-sample task queue with exclusive locks; all arms for one sample stay on one GPU",
+  "phase0": "Locate media, exclude all known base/Cue/graph/continuation sample IDs and nine inspected tests; audio exact+PCM, long-text duplicate checks; preserve source-unknown flag",
+  "checkpoints": [
+    "original_epoch40",
+    "fixed_graph45_to54"
+  ],
+  "seeds": [
+    42,
+    2026,
+    2027
+  ],
+  "primary_conditions": {
+    "A": "No extra evidence",
+    "B": "Cue only",
+    "C": "Cue+original Appraisal, no Emotion/path",
+    "S": "Cue+donor-shuffled Appraisal matched in dimensionality/state-count/length; actual intervention audited",
+    "P": "Original complete frozen graph prompt"
+  },
+  "development_max": {
+    "MER_track1": 384,
+    "MER_OV": 128
+  },
+  "confirmation_max": {
+    "MER_track1": 384,
+    "MER_OV": 128
+  },
+  "selection": "Use new development only to freeze simplest candidate before opening confirmation outcomes. Never select by nine inspected tests or per-test checkpoint.",
+  "stop_rules": [
+    "If content intervention is mostly unchanged, report zero-treatment coverage and redesign before inference.",
+    "If Appraisal fails to beat Cue-only and shuffled Appraisal on new material/multiple seeds, do not expand it or retrain it.",
+    "If credible independent source grouping remains unavailable, label all confirmation as sample/media-disjoint provisional; do not assert source-independent generalization."
+  ],
+  "conditional_semantic_phase": "Only if initial arms fail to establish a useful method: text-grounded subject/time/target/negation/only/contrast evidence with exact phrase support and abstention; independently verify before expansion",
+  "conditional_training": "Only after usable separated development and reliable supervision plus a repeatable inference gain; matched no-graph control, separated valence objective, validated semantic evidence, 5000-step pilot; no automatic broad sweep",
+  "training_parallelism": "Four lanes apply to inference. Training concurrency separately capacity-tested; never assume four full trainers fit.",
+  "final_deliverable": "Adopt/reject/provisional method matrix, baseline harm, per-class HIT/M, WAF/recalls, OV P/R, uncertainty and data exposure limits"
+}

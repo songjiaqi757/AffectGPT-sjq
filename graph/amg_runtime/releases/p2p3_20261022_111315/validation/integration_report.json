@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "models_are_initially_lazy",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_three_modalities_available",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fixed_42D_outputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "exact_checkpoint_bindings",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "single_vs_batch_predictions_equal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "repeated_inference_bitwise_equal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "chinese_only_missing_language_mask",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "chinese_only_other_modalities_null",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "english_only_missing_language_mask",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "english_only_other_modalities_null",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing_all_scores_null",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing_text_reason_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "missing_media_reason_explicit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "single_missing_audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "single_missing_visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "single_missing_text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "corrupt_media_falls_back",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "long_text_all_chunks_used",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "deployment_policy_returns_empty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "requested_mask_exclusion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty_batch_is_empty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_real_cue_outputs_match_schema",
+      "passed": true,
+      "details": 12
+    },
+    {
+      "name": "all_real_graph_outputs_match_schema",
+      "passed": true,
+      "details": 12
+    },
+    {
+      "name": "real_query_is_deterministic",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "real_graph_returns_some_supported_candidates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen_graph_unchanged:graph/graph.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen_graph_unchanged:graph/paths_cue_appraisal_emotion.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fallback_adapter_invoked",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "policy_drift_rejected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "label_bearing_inference_inputs_rejected",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "check_count": 30,
+  "runtime_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+  "source_validation_sample_ids": [
+    "samplenew3_00016835",
+    "samplenew3_00034135"
+  ],
+  "derived_boundary_cases": true,
+  "cue_prediction_cases": 12,
+  "query_cases": 12,
+  "gpu_device": "cuda:0",
+  "gpu_memory": {
+    "peak_allocated_bytes": 3694184960,
+    "peak_reserved_bytes": 3776970752
+  },
+  "teacher_calls": 0,
+  "training_steps": 0,
+  "graph_updates": 0,
+  "target_datasets_used": false,
+  "full_validation_parameter_selection_performed": false,
+  "baseline_model_run": false,
+  "note": "AffectGPT callback routing tested; actual AffectGPT model integration belongs to P5. This is a source-domain engineering smoke check, not an accuracy evaluation."
+}

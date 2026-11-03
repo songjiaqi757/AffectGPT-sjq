@@ -1,0 +1,65 @@
+{
+  "updated_unix": 1792457968.9769223,
+  "original_failed_tasks": 345,
+  "technical_tasks_selected": 268,
+  "repaired_task_counts": {
+    "succeeded": 267,
+    "failed": 1
+  },
+  "validated_complete_inputs": {
+    "visual": 266,
+    "audio": 1
+  },
+  "repaired_audio": [
+    {
+      "sample_id": "samplenew3_00091781",
+      "duration_sec": 4.609,
+      "samples": 73744,
+      "sample_rate": 16000
+    }
+  ],
+  "remaining_failure_categories": {
+    "content_moderation": 73,
+    "video_too_short": 5
+  },
+  "unresolved_selected_tasks": [
+    {
+      "sample_id": "samplenew3_00080286",
+      "modality": "visual",
+      "error": "RuntimeError: HTTP 400: {\"error\": {\"code\": \"data_inspection_failed\", \"param\": null, \"message\": \"Input video data may contain inappropriate content.\", \"type\": \"data_inspection_failed\"}, \"id\": \"chatcmpl-ac466e75-da05-9c97-a712-c3975f22931b\"}"
+    }
+  ],
+  "global_state": {
+    "counts": {
+      "failed": 78,
+      "succeeded": 93903
+    },
+    "modality_counts": {
+      "text": {
+        "failed": 4,
+        "succeeded": 31323
+      },
+      "audio": {
+        "failed": 5,
+        "succeeded": 31322
+      },
+      "visual": {
+        "failed": 69,
+        "succeeded": 31258
+      }
+    },
+    "completed_samples": 31255,
+    "failed_samples": 72,
+    "retryable_failed_tasks": 0,
+    "usage_including_failed_generations": {
+      "prompt_tokens": 265580873,
+      "completion_tokens": 37528814,
+      "total_tokens": 303109687
+    },
+    "http_attempts": 94361
+  },
+  "additional_tokens": 1820342,
+  "labels_csv_bytes": 135763940,
+  "failures_csv_bytes": 23727,
+  "offline_tests_passed": 19
+}

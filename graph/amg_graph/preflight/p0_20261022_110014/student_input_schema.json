@@ -1,0 +1,14 @@
+{
+  "schema_id": "cue_predict_single_modality_input_existing_v1",
+  "format": "JSON",
+  "fields": {
+    "sample_id": "string",
+    "text": {
+      "chinese": "string or missing",
+      "english": "string or missing"
+    },
+    "audio_path": "absolute server path or missing",
+    "video_path": "absolute server path or missing"
+  },
+  "status": "existing predictor input; per-modality required fields follow config; raw Teacher masks are never input"
+}

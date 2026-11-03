@@ -1,0 +1,154 @@
+{
+  "sample_id": "samplenew3_00000004",
+  "source_graph_release_id": "75d45e203722ce060829e0db17ce7348f24ef44c024f1e99ff310f050194a420",
+  "source_query_result_id": "51e653198d3732443f026f43a54707aab417379a0b85a35b1839e599fd0db05a",
+  "source_gate_level": 2,
+  "texts": {
+    "A": "",
+    "B": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened; visual: smile present",
+    "C": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+    "D": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened; visual: smile present",
+    "E": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+    "P": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+    "H": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; audio: speech rate rel slow; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low"
+  },
+  "infos": {
+    "A": {
+      "fallback": true,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 0,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 0,
+      "appraisals_displayed": 0,
+      "ablation": "A",
+      "ablation_description": "No evidence",
+      "gate_frozen": true,
+      "graph_text_id": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+    },
+    "B": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 76,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 10,
+      "appraisals_displayed": 0,
+      "ablation": "B",
+      "ablation_description": "Cue only",
+      "gate_frozen": true,
+      "graph_text_id": "afb5d3590d08531c7a94a975cad87f2b6e87a14b08c9fa406184a37a2e6fb633"
+    },
+    "C": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 155,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 10,
+      "appraisals_displayed": 11,
+      "ablation": "C",
+      "ablation_description": "Cue+Appraisal, no paths",
+      "gate_frozen": true,
+      "graph_text_id": "f959da42a01901e798b36753a8df80c36ec2ccb0e9a83b4190042b99372df916"
+    },
+    "D": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 76,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 10,
+      "appraisals_displayed": 0,
+      "ablation": "D",
+      "ablation_description": "Cue+Emotion, no paths",
+      "gate_frozen": true,
+      "graph_text_id": "afb5d3590d08531c7a94a975cad87f2b6e87a14b08c9fa406184a37a2e6fb633"
+    },
+    "E": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 155,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 10,
+      "appraisals_displayed": 11,
+      "ablation": "E",
+      "ablation_description": "Cue+Appraisal+Emotion, no paths",
+      "gate_frozen": true,
+      "graph_text_id": "f959da42a01901e798b36753a8df80c36ec2ccb0e9a83b4190042b99372df916"
+    },
+    "P": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 155,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 10,
+      "appraisals_displayed": 11,
+      "ablation": "P",
+      "ablation_description": "Exact original complete prompt, including retained paths",
+      "gate_frozen": true,
+      "graph_text_id": "f959da42a01901e798b36753a8df80c36ec2ccb0e9a83b4190042b99372df916"
+    },
+    "H": {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "c0122cbdca954b1180d11c36c200fcb3142897da8cdda68302c4df12b33b8d03",
+      "graph_tokens": 155,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 10,
+      "appraisals_displayed": 11,
+      "ablation": "H",
+      "ablation_description": "Cue+Appraisal+exact P paths; explicit Emotion list removed",
+      "gate_frozen": true,
+      "graph_text_id": "f959da42a01901e798b36753a8df80c36ec2ccb0e9a83b4190042b99372df916",
+      "emotion_words_in_paths_retained": true
+    }
+  },
+  "expected_prompt_ids": {
+    "A": "8f2197fa9ab77cfe1a7dbb4fbad40d0c96a7ca5af33c04822a7f774ff2c3b567",
+    "B": "c883d798c2ff0dbb4520009f86447f24a07a80967e7de2a70cc63bfc3eb5cd48",
+    "C": "304ab748c8cc30f9e7a24500e662b82bfadb213c2ca47509d318f49c9315ec22",
+    "D": "c883d798c2ff0dbb4520009f86447f24a07a80967e7de2a70cc63bfc3eb5cd48",
+    "E": "304ab748c8cc30f9e7a24500e662b82bfadb213c2ca47509d318f49c9315ec22",
+    "P": "304ab748c8cc30f9e7a24500e662b82bfadb213c2ca47509d318f49c9315ec22",
+    "H": "304ab748c8cc30f9e7a24500e662b82bfadb213c2ca47509d318f49c9315ec22"
+  },
+  "bundle_id": "ce5a1803cf3e348fa7a2dd43cc85297725aeb1fde4cf69ddf8edccb85d5e317a"
+}

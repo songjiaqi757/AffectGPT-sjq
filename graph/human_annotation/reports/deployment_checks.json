@@ -1,0 +1,55 @@
+{
+  "service": "http://127.0.0.1:8766",
+  "ssh_access": "http://127.0.0.1:18766",
+  "samples": 500,
+  "pending": 500,
+  "submitted": 0,
+  "cue_nodes": 42,
+  "appraisal_dimensions": 6,
+  "appraisal_states": 16,
+  "existing_viewer_8765_ok": true,
+  "server_only_storage": true,
+  "mode": "teacher_visible_assisted_review",
+  "preflight": {
+    "samples": 500,
+    "roles": {
+      "gold_audit": 300,
+      "diagnostic_reserved": 200
+    },
+    "nodes_per_sample": 48,
+    "original_vs_current_differences": 0,
+    "errors": [],
+    "seconds": 7.46,
+    "manifest_sha256": "bde6aded5fb9d13cfba3926c3741dde2ebfb6540b57824eb2370bde2792b803b"
+  },
+  "browser": {
+    "fixed_500": true,
+    "roles_300_200": true,
+    "out_of_scope_rejected": true,
+    "cross_origin_rejected": true,
+    "incomplete_submit_rejected": true,
+    "audio_range": true,
+    "media_decode": true,
+    "autosave": true,
+    "reload_restores": true,
+    "revision_conflict": true,
+    "appraisal_valid_invalid_edit": true,
+    "all_48_nodes": true,
+    "copy_per_node": true,
+    "submit_and_next": true,
+    "teacher_unchanged": true,
+    "search_role_status_filters": true,
+    "desktop_mobile": true,
+    "javascript_errors": [],
+    "server_only_export": true,
+    "production_annotations_untouched": true
+  },
+  "storage": {
+    "parallel_writers": 12,
+    "successful_writes": 1,
+    "conflicts_prevented": 11,
+    "production_integrity": "ok",
+    "journal_mode": "delete",
+    "production_samples_untouched": true
+  }
+}

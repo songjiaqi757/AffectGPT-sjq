@@ -1,0 +1,1033 @@
+{
+  "oracle_comparisons": {
+    "MER2023": {
+      "base_epoch": 30,
+      "epoch": 39,
+      "original": 75.20215195655484,
+      "current": 79.00847586661929,
+      "difference": 3.8063239100644575,
+      "paired_bootstrap95": [
+        -0.16639228221654562,
+        7.896536265358415
+      ],
+      "bootstrap_samples": 411,
+      "improved_samples": 67,
+      "worsened_samples": 49,
+      "old_pred_labels": 1.7805352798053529,
+      "new_pred_labels": 1.8909975669099757,
+      "old_M": 52.47987616099071,
+      "new_M": 53.193456157268784,
+      "per_class": {
+        "worried": {
+          "n": 57,
+          "old_hit": 87.36842105263159,
+          "new_hit": 88.7719298245614
+        },
+        "sad": {
+          "n": 50,
+          "old_hit": 56.39999999999999,
+          "new_hit": 61.199999999999996
+        },
+        "angry": {
+          "n": 105,
+          "old_hit": 76.0,
+          "new_hit": 83.61904761904762
+        },
+        "surprise": {
+          "n": 18,
+          "old_hit": 37.5,
+          "new_hit": 41.66666666666667
+        },
+        "neutral": {
+          "n": 88,
+          "old_hit": null,
+          "new_hit": null
+        },
+        "happy": {
+          "n": 93,
+          "old_hit": 82.79569892473118,
+          "new_hit": 83.22580645161291
+        }
+      }
+    },
+    "MER2024": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 77.31453985151981,
+      "current": 79.80809637204092,
+      "difference": 2.4935565205211008,
+      "paired_bootstrap95": [
+        0.40255058760482354,
+        4.682787829547784
+      ],
+      "bootstrap_samples": 1169,
+      "improved_samples": 191,
+      "worsened_samples": 149,
+      "old_pred_labels": 1.788366124893071,
+      "new_pred_labels": 1.8092386655260906,
+      "old_M": 54.17148565781071,
+      "new_M": 55.53825815940602,
+      "per_class": {
+        "worried": {
+          "n": 159,
+          "old_hit": 86.0377358490566,
+          "new_hit": 91.44654088050315
+        },
+        "sad": {
+          "n": 317,
+          "old_hit": 71.10410094637224,
+          "new_hit": 73.05993690851736
+        },
+        "angry": {
+          "n": 163,
+          "old_hit": 85.2760736196319,
+          "new_hit": 86.99386503067484
+        },
+        "surprise": {
+          "n": 83,
+          "old_hit": 52.108433734939766,
+          "new_hit": 59.93975903614458
+        },
+        "neutral": {
+          "n": 201,
+          "old_hit": null,
+          "new_hit": null
+        },
+        "happy": {
+          "n": 246,
+          "old_hit": 81.30081300813008,
+          "new_hit": 81.70731707317073
+        }
+      }
+    },
+    "MELD": {
+      "base_epoch": 30,
+      "epoch": 39,
+      "original": 56.02342418631772,
+      "current": 58.525721240230475,
+      "difference": 2.502297053912761,
+      "paired_bootstrap95": [
+        0.5341337559248721,
+        4.420419510478643
+      ],
+      "bootstrap_samples": 2610,
+      "improved_samples": 343,
+      "worsened_samples": 289,
+      "old_pred_labels": 1.6562452107279693,
+      "new_pred_labels": 1.785287356321839,
+      "old_M": 37.37324776015626,
+      "new_M": 37.19857383524121,
+      "per_class": {
+        "disgust": {
+          "n": 68,
+          "old_hit": 12.745098039215685,
+          "new_hit": 14.215686274509803
+        },
+        "anger": {
+          "n": 345,
+          "old_hit": 49.6231884057971,
+          "new_hit": 53.565217391304344
+        },
+        "fear": {
+          "n": 50,
+          "old_hit": 54.0,
+          "new_hit": 49.2
+        },
+        "sadness": {
+          "n": 208,
+          "old_hit": 42.21153846153846,
+          "new_hit": 45.38461538461539
+        },
+        "joy": {
+          "n": 402,
+          "old_hit": 75.97014925373135,
+          "new_hit": 77.71144278606965
+        },
+        "surprise": {
+          "n": 281,
+          "old_hit": 52.22419928825622,
+          "new_hit": 55.693950177935946
+        },
+        "neutral": {
+          "n": 1256,
+          "old_hit": null,
+          "new_hit": null
+        }
+      }
+    },
+    "IEMOCAPFour": {
+      "base_epoch": 30,
+      "epoch": 39,
+      "original": 61.5169194865811,
+      "current": 60.11668611435239,
+      "difference": -1.4002333722287097,
+      "paired_bootstrap95": [
+        -4.005090888333212,
+        1.0292524790236435
+      ],
+      "bootstrap_samples": 1241,
+      "improved_samples": 199,
+      "worsened_samples": 211,
+      "old_pred_labels": 1.6692989524576953,
+      "new_pred_labels": 1.7518130539887187,
+      "old_M": 54.78413068844807,
+      "new_M": 53.1271878646441,
+      "per_class": {
+        "anger": {
+          "n": 170,
+          "old_hit": 54.470588235294116,
+          "new_hit": 53.64705882352941
+        },
+        "neutral": {
+          "n": 384,
+          "old_hit": null,
+          "new_hit": null
+        },
+        "sad": {
+          "n": 245,
+          "old_hit": 41.55102040816326,
+          "new_hit": 40.40816326530612
+        },
+        "happy": {
+          "n": 442,
+          "old_hit": 75.29411764705883,
+          "new_hit": 73.52941176470588
+        }
+      }
+    },
+    "CMUMOSI": {
+      "base_epoch": 50,
+      "epoch": 57,
+      "original": 78.29337339555752,
+      "current": 82.86353675884659,
+      "difference": 4.570163363289059,
+      "paired_bootstrap95": [
+        1.8861463665931684,
+        7.431164011744601
+      ],
+      "bootstrap_samples": 656,
+      "corrected": 58,
+      "harmed": 28,
+      "predicted_sentiment": {
+        "negative": 320,
+        "positive": 323,
+        "neutral": 38,
+        "mixed": 5
+      },
+      "confusion": {
+        "TP": 236,
+        "TN": 307,
+        "FP": 72,
+        "FN": 41
+      },
+      "original_sentiment": {
+        "negative": 262,
+        "positive": 372,
+        "neutral": 43,
+        "mixed": 9
+      },
+      "positive_recall": 0.851985559566787,
+      "negative_recall": 0.8100263852242744
+    },
+    "CMUMOSEI": {
+      "base_epoch": 50,
+      "epoch": 55,
+      "original": 79.10444506494724,
+      "current": 80.3150710939483,
+      "difference": 1.2106260290010717,
+      "paired_bootstrap95": [
+        -0.06127581886728624,
+        2.373723597131241
+      ],
+      "bootstrap_samples": 3634,
+      "corrected": 274,
+      "harmed": 229,
+      "predicted_sentiment": {
+        "positive": 2842,
+        "negative": 1210,
+        "neutral": 563,
+        "mixed": 42,
+        "excited": 1,
+        "mixed emotions": 1
+      },
+      "confusion": {
+        "TP": 1899,
+        "TN": 1017,
+        "FP": 333,
+        "FN": 385
+      },
+      "original_sentiment": {
+        "positive": 2810,
+        "negative": 1241,
+        "neutral": 593,
+        "mixed": 15
+      },
+      "positive_recall": 0.8314360770577933,
+      "negative_recall": 0.7533333333333333
+    },
+    "SIMS": {
+      "base_epoch": 35,
+      "epoch": 41,
+      "original": 86.72239910208853,
+      "current": 89.44111845238163,
+      "difference": 2.7187193502930973,
+      "paired_bootstrap95": [
+        -0.03226582565204249,
+        5.445979599920594
+      ],
+      "bootstrap_samples": 388,
+      "corrected": 20,
+      "harmed": 9,
+      "predicted_sentiment": {
+        "negative": 268,
+        "positive": 164,
+        "neutral": 20,
+        "mixed": 5
+      },
+      "confusion": {
+        "TP": 120,
+        "TN": 227,
+        "FP": 21,
+        "FN": 20
+      },
+      "original_sentiment": {
+        "negative": 258,
+        "positive": 172,
+        "mixed": 1,
+        "neutral": 26
+      },
+      "positive_recall": 0.8571428571428571,
+      "negative_recall": 0.9153225806451613
+    },
+    "SIMSv2": {
+      "base_epoch": 45,
+      "epoch": 49,
+      "original": 84.20191347372136,
+      "current": 86.07066785225358,
+      "difference": 1.8687543785322225,
+      "paired_bootstrap95": [
+        -0.006391184300278278,
+        3.7336923112265037
+      ],
+      "bootstrap_samples": 911,
+      "corrected": 47,
+      "harmed": 30,
+      "predicted_sentiment": {
+        "negative": 491,
+        "positive": 501,
+        "neutral": 37,
+        "mixed": 5
+      },
+      "confusion": {
+        "TP": 366,
+        "TN": 418,
+        "FP": 70,
+        "FN": 57
+      },
+      "original_sentiment": {
+        "negative": 495,
+        "positive": 495,
+        "mixed": 11,
+        "neutral": 33
+      },
+      "positive_recall": 0.8652482269503546,
+      "negative_recall": 0.8565573770491803
+    },
+    "OVMERDPlus": {
+      "base_epoch": 35,
+      "epoch": 40,
+      "original": 61.19463265389086,
+      "current": 62.7512267703507,
+      "difference": 1.5565941164598418,
+      "paired_bootstrap95": [
+        -0.4995858705761333,
+        3.558542059628301
+      ],
+      "bootstrap_samples": 532,
+      "improved_samples": 221,
+      "worsened_samples": 190,
+      "old_pred_labels": 1.72593984962406,
+      "new_pred_labels": 1.7733082706766918,
+      "old_P": 60.264618372082055,
+      "new_P": 61.674849127906064,
+      "old_R": 62.283044334152734,
+      "new_R": 64.00821351861399
+    }
+  },
+  "single_comparisons": {
+    "MER2023": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 72.74709435111404,
+      "current": 77.13261939806121,
+      "difference": 4.385525046947169,
+      "paired_bootstrap95": [
+        0.8784333824791996,
+        8.151939269665528
+      ],
+      "bootstrap_samples": 411,
+      "improved_samples": 63,
+      "worsened_samples": 46,
+      "old_pred_labels": 1.7815085158150852,
+      "new_pred_labels": 1.9036496350364964,
+      "old_M": 51.37862254479013,
+      "new_M": 51.371280177299575,
+      "per_class": {
+        "worried": {
+          "n": 57,
+          "old_hit": 78.24561403508771,
+          "new_hit": 86.31578947368422
+        },
+        "sad": {
+          "n": 50,
+          "old_hit": 61.6,
+          "new_hit": 59.599999999999994
+        },
+        "angry": {
+          "n": 105,
+          "old_hit": 71.23809523809524,
+          "new_hit": 81.33333333333333
+        },
+        "surprise": {
+          "n": 18,
+          "old_hit": 56.94444444444444,
+          "new_hit": 48.61111111111111
+        },
+        "neutral": {
+          "n": 88,
+          "old_hit": null,
+          "new_hit": null
+        },
+        "happy": {
+          "n": 93,
+          "old_hit": 79.56989247311827,
+          "new_hit": 80.64516129032258
+        }
+      }
+    },
+    "MER2024": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 77.31453985151981,
+      "current": 79.80809637204092,
+      "difference": 2.4935565205211008,
+      "paired_bootstrap95": [
+        0.40255058760482354,
+        4.682787829547784
+      ],
+      "bootstrap_samples": 1169,
+      "improved_samples": 191,
+      "worsened_samples": 149,
+      "old_pred_labels": 1.788366124893071,
+      "new_pred_labels": 1.8092386655260906,
+      "old_M": 54.17148565781071,
+      "new_M": 55.53825815940602,
+      "per_class": {
+        "worried": {
+          "n": 159,
+          "old_hit": 86.0377358490566,
+          "new_hit": 91.44654088050315
+        },
+        "sad": {
+          "n": 317,
+          "old_hit": 71.10410094637224,
+          "new_hit": 73.05993690851736
+        },
+        "angry": {
+          "n": 163,
+          "old_hit": 85.2760736196319,
+          "new_hit": 86.99386503067484
+        },
+        "surprise": {
+          "n": 83,
+          "old_hit": 52.108433734939766,
+          "new_hit": 59.93975903614458
+        },
+        "neutral": {
+          "n": 201,
+          "old_hit": null,
+          "new_hit": null
+        },
+        "happy": {
+          "n": 246,
+          "old_hit": 81.30081300813008,
+          "new_hit": 81.70731707317073
+        }
+      }
+    },
+    "MELD": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 56.22671003750038,
+      "current": 57.8150123607516,
+      "difference": 1.5883023232512228,
+      "paired_bootstrap95": [
+        -0.4211820323990384,
+        3.46714634412549
+      ],
+      "bootstrap_samples": 2610,
+      "improved_samples": 322,
+      "worsened_samples": 303,
+      "old_pred_labels": 1.7460536398467432,
+      "new_pred_labels": 1.8213793103448277,
+      "old_M": 36.142320168398825,
+      "new_M": 36.699183067809365,
+      "per_class": {
+        "disgust": {
+          "n": 68,
+          "old_hit": 10.294117647058822,
+          "new_hit": 18.137254901960784
+        },
+        "anger": {
+          "n": 345,
+          "old_hit": 50.3768115942029,
+          "new_hit": 56.927536231884055
+        },
+        "fear": {
+          "n": 50,
+          "old_hit": 59.599999999999994,
+          "new_hit": 46.0
+        },
+        "sadness": {
+          "n": 208,
+          "old_hit": 43.46153846153846,
+          "new_hit": 43.07692307692308
+        },
+        "joy": {
+          "n": 402,
+          "old_hit": 72.68656716417911,
+          "new_hit": 71.94029850746269
+        },
+        "surprise": {
+          "n": 281,
+          "old_hit": 56.31672597864769,
+          "new_hit": 59.252669039145914
+        },
+        "neutral": {
+          "n": 1256,
+          "old_hit": null,
+          "new_hit": null
+        }
+      }
+    },
+    "IEMOCAPFour": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 58.57642940490082,
+      "current": 59.2298716452742,
+      "difference": 0.6534422403733808,
+      "paired_bootstrap95": [
+        -1.6686715319438425,
+        3.1935214211076404
+      ],
+      "bootstrap_samples": 1241,
+      "improved_samples": 197,
+      "worsened_samples": 199,
+      "old_pred_labels": 1.7005640612409347,
+      "new_pred_labels": 1.7717969379532634,
+      "old_M": 52.088681446907806,
+      "new_M": 51.95254764683001,
+      "per_class": {
+        "anger": {
+          "n": 170,
+          "old_hit": 59.29411764705882,
+          "new_hit": 62.47058823529412
+        },
+        "neutral": {
+          "n": 384,
+          "old_hit": null,
+          "new_hit": null
+        },
+        "sad": {
+          "n": 245,
+          "old_hit": 38.12244897959184,
+          "new_hit": 42.04081632653061
+        },
+        "happy": {
+          "n": 442,
+          "old_hit": 69.63800904977376,
+          "new_hit": 67.51131221719457
+        }
+      }
+    },
+    "CMUMOSI": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 77.53729818571455,
+      "current": 79.8456510363436,
+      "difference": 2.3083528506290585,
+      "paired_bootstrap95": [
+        -0.2659985467450224,
+        5.011802584239631
+      ],
+      "bootstrap_samples": 656,
+      "corrected": 45,
+      "harmed": 30,
+      "predicted_sentiment": {
+        "negative": 294,
+        "positive": 355,
+        "neutral": 29,
+        "mixed": 7,
+        "complex": 1
+      },
+      "confusion": {
+        "TP": 240,
+        "TN": 283,
+        "FP": 96,
+        "FN": 37
+      },
+      "original_sentiment": {
+        "negative": 281,
+        "positive": 373,
+        "neutral": 27,
+        "mixed": 5
+      },
+      "positive_recall": 0.8664259927797834,
+      "negative_recall": 0.7467018469656992
+    },
+    "CMUMOSEI": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 79.80859595863905,
+      "current": 79.1060796959642,
+      "difference": -0.702516262674846,
+      "paired_bootstrap95": [
+        -1.818171263816302,
+        0.47897437398835563
+      ],
+      "bootstrap_samples": 3634,
+      "corrected": 229,
+      "harmed": 261,
+      "predicted_sentiment": {
+        "positive": 2643,
+        "negative": 1463,
+        "neutral": 496,
+        "mixed": 57
+      },
+      "confusion": {
+        "TP": 1818,
+        "TN": 1049,
+        "FP": 301,
+        "FN": 466
+      },
+      "original_sentiment": {
+        "positive": 2886,
+        "negative": 1217,
+        "neutral": 523,
+        "mixed": 33
+      },
+      "positive_recall": 0.7959719789842382,
+      "negative_recall": 0.7770370370370371
+    },
+    "SIMS": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 84.46475319440316,
+      "current": 86.03729269385927,
+      "difference": 1.572539499456116,
+      "paired_bootstrap95": [
+        -1.5445866690591679,
+        4.657685180628235
+      ],
+      "bootstrap_samples": 388,
+      "corrected": 24,
+      "harmed": 17,
+      "predicted_sentiment": {
+        "negative": 284,
+        "positive": 157,
+        "neutral": 8,
+        "mixed": 8
+      },
+      "confusion": {
+        "TP": 111,
+        "TN": 223,
+        "FP": 25,
+        "FN": 29
+      },
+      "original_sentiment": {
+        "negative": 248,
+        "positive": 182,
+        "mixed": 12,
+        "neutral": 15
+      },
+      "positive_recall": 0.7928571428571428,
+      "negative_recall": 0.8991935483870968
+    },
+    "SIMSv2": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 84.20191347372136,
+      "current": 85.69288581569944,
+      "difference": 1.4909723419780807,
+      "paired_bootstrap95": [
+        -0.6213481910013302,
+        3.5818921858758275
+      ],
+      "bootstrap_samples": 911,
+      "corrected": 52,
+      "harmed": 38,
+      "predicted_sentiment": {
+        "negative": 542,
+        "positive": 458,
+        "neutral": 22,
+        "mixed": 12
+      },
+      "confusion": {
+        "TP": 346,
+        "TN": 435,
+        "FP": 53,
+        "FN": 77
+      },
+      "original_sentiment": {
+        "negative": 495,
+        "positive": 495,
+        "mixed": 11,
+        "neutral": 33
+      },
+      "positive_recall": 0.817966903073286,
+      "negative_recall": 0.8913934426229508
+    },
+    "OVMERDPlus": {
+      "base_epoch": 45,
+      "epoch": 54,
+      "original": 61.78737146326575,
+      "current": 61.4883369597496,
+      "difference": -0.299034503516149,
+      "paired_bootstrap95": [
+        -2.5222982914181755,
+        1.904280643148953
+      ],
+      "bootstrap_samples": 532,
+      "improved_samples": 200,
+      "worsened_samples": 206,
+      "old_pred_labels": 1.761654135338346,
+      "new_pred_labels": 1.8424812030075188,
+      "old_P": 60.535291471803,
+      "new_P": 59.51178784471707,
+      "old_R": 63.27111013050812,
+      "new_R": 63.75149604253658
+    }
+  },
+  "target_prompt": {
+    "MER2023": {
+      "n": 411,
+      "levels": {
+        "2": 264,
+        "3": 146,
+        "1": 1
+      },
+      "reasons": {
+        "emotion_support_not_separated": 262,
+        "supported_full_evidence": 146,
+        "mixed_text_affect_or_evaluation": 4,
+        "weak_or_absent_graph_support": 1
+      },
+      "totals": {
+        "graph_tokens": 64334,
+        "displayed_paths": 292,
+        "appraisals_displayed": 4339,
+        "emotion_candidates_displayed": 438,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 3440
+      },
+      "mean_response_chars": 74.61800486618004,
+      "empty_responses": 0,
+      "max_response_chars": 138
+    },
+    "MER2024": {
+      "n": 1169,
+      "levels": {
+        "3": 421,
+        "2": 746,
+        "1": 2
+      },
+      "reasons": {
+        "supported_full_evidence": 421,
+        "emotion_support_not_separated": 744,
+        "mixed_text_affect_or_evaluation": 10,
+        "weak_or_absent_graph_support": 2
+      },
+      "totals": {
+        "graph_tokens": 177438,
+        "displayed_paths": 842,
+        "appraisals_displayed": 11971,
+        "emotion_candidates_displayed": 1263,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 9080
+      },
+      "mean_response_chars": 72.43798118049615,
+      "empty_responses": 0,
+      "max_response_chars": 171
+    },
+    "MELD": {
+      "n": 2610,
+      "levels": {
+        "2": 1486,
+        "3": 1120,
+        "1": 4
+      },
+      "reasons": {
+        "emotion_support_not_separated": 1478,
+        "supported_full_evidence": 1120,
+        "mixed_text_affect_or_evaluation": 17,
+        "weak_or_absent_graph_support": 4
+      },
+      "totals": {
+        "graph_tokens": 379125,
+        "displayed_paths": 2240,
+        "appraisals_displayed": 25709,
+        "emotion_candidates_displayed": 3360,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 17666
+      },
+      "mean_response_chars": 71.87164750957854,
+      "empty_responses": 0,
+      "max_response_chars": 165
+    },
+    "IEMOCAPFour": {
+      "n": 1241,
+      "levels": {
+        "2": 705,
+        "3": 536
+      },
+      "reasons": {
+        "emotion_support_not_separated": 699,
+        "supported_full_evidence": 536,
+        "mixed_text_affect_or_evaluation": 15
+      },
+      "totals": {
+        "graph_tokens": 189013,
+        "displayed_paths": 1072,
+        "appraisals_displayed": 12860,
+        "emotion_candidates_displayed": 1608,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 9319
+      },
+      "mean_response_chars": 72.4528605962933,
+      "empty_responses": 0,
+      "max_response_chars": 185
+    },
+    "CMUMOSI": {
+      "n": 686,
+      "levels": {
+        "2": 492,
+        "3": 194
+      },
+      "reasons": {
+        "emotion_support_not_separated": 491,
+        "supported_full_evidence": 194,
+        "mixed_text_affect_or_evaluation": 16
+      },
+      "totals": {
+        "graph_tokens": 101994,
+        "displayed_paths": 388,
+        "appraisals_displayed": 6988,
+        "emotion_candidates_displayed": 582,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 5442
+      },
+      "mean_response_chars": 73.53935860058309,
+      "empty_responses": 0,
+      "max_response_chars": 149
+    },
+    "CMUMOSEI": {
+      "n": 4659,
+      "levels": {
+        "2": 3065,
+        "3": 1592,
+        "0": 1,
+        "1": 1
+      },
+      "reasons": {
+        "emotion_support_not_separated": 3032,
+        "supported_full_evidence": 1592,
+        "mixed_text_affect_or_evaluation": 141,
+        "no_available_selected_cues": 1,
+        "weak_or_absent_graph_support": 1
+      },
+      "totals": {
+        "graph_tokens": 709369,
+        "displayed_paths": 3184,
+        "appraisals_displayed": 48962,
+        "emotion_candidates_displayed": 4776,
+        "subtitle_truncated": 2,
+        "omitted_evidence": 0,
+        "cues_displayed": 36511
+      },
+      "mean_response_chars": 70.63597338484654,
+      "empty_responses": 0,
+      "max_response_chars": 179
+    },
+    "SIMS": {
+      "n": 457,
+      "levels": {
+        "2": 305,
+        "3": 152
+      },
+      "reasons": {
+        "emotion_support_not_separated": 300,
+        "supported_full_evidence": 152,
+        "mixed_text_affect_or_evaluation": 10
+      },
+      "totals": {
+        "graph_tokens": 69082,
+        "displayed_paths": 304,
+        "appraisals_displayed": 4786,
+        "emotion_candidates_displayed": 456,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 3482
+      },
+      "mean_response_chars": 71.16192560175055,
+      "empty_responses": 0,
+      "max_response_chars": 126
+    },
+    "SIMSv2": {
+      "n": 1034,
+      "levels": {
+        "2": 633,
+        "3": 401
+      },
+      "reasons": {
+        "emotion_support_not_separated": 624,
+        "supported_full_evidence": 401,
+        "mixed_text_affect_or_evaluation": 19
+      },
+      "totals": {
+        "graph_tokens": 159293,
+        "displayed_paths": 802,
+        "appraisals_displayed": 10976,
+        "emotion_candidates_displayed": 1203,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 8030
+      },
+      "mean_response_chars": 70.56189555125725,
+      "empty_responses": 0,
+      "max_response_chars": 158
+    },
+    "OVMERDPlus": {
+      "n": 532,
+      "levels": {
+        "2": 317,
+        "3": 215
+      },
+      "reasons": {
+        "emotion_support_not_separated": 314,
+        "supported_full_evidence": 215,
+        "mixed_text_affect_or_evaluation": 8
+      },
+      "totals": {
+        "graph_tokens": 84072,
+        "displayed_paths": 430,
+        "appraisals_displayed": 5617,
+        "emotion_candidates_displayed": 645,
+        "subtitle_truncated": 0,
+        "omitted_evidence": 0,
+        "cues_displayed": 4414
+      },
+      "mean_response_chars": 70.0187969924812,
+      "empty_responses": 0,
+      "max_response_chars": 144
+    }
+  },
+  "checks": [
+    {
+      "dataset": "MER2023",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "MER2023",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "MER2024",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "MER2024",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "MELD",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "MELD",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "CMUMOSI",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "CMUMOSI",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "SIMS",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "SIMS",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "SIMSv2",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "SIMSv2",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "selection": "oracle_comparisons",
+      "score_reproduced": true
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "selection": "single_comparisons",
+      "score_reproduced": true
+    }
+  ],
+  "notes": "Paired bootstrap over samples,2000 replicates,seed20261027; intervals do not adjust for target-test selection of winner. OV improved_samples uses mean(P+R) direction,not official F. Individual classes with all invalid wheel GT report nan.",
+  "imports_gpu": false
+}

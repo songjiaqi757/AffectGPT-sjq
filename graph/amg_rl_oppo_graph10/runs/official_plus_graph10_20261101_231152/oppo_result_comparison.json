@@ -1,0 +1,81 @@
+{
+  "samples": 12799,
+  "rows": [
+    {
+      "dataset": "CMUMOSI",
+      "metric": "WAF",
+      "samples": 686,
+      "paper": 86.5,
+      "graph": 83.88279390164189,
+      "delta": -2.6172060983581105
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "metric": "WAF",
+      "samples": 4659,
+      "paper": 84.63,
+      "graph": 84.03345031831604,
+      "delta": -0.5965496816839533
+    },
+    {
+      "dataset": "SIMS",
+      "metric": "WAF",
+      "samples": 457,
+      "paper": 86.22,
+      "graph": 88.35449999719398,
+      "delta": 2.134499997193984
+    },
+    {
+      "dataset": "SIMSv2",
+      "metric": "WAF",
+      "samples": 1034,
+      "paper": 88.26,
+      "graph": 87.70581778265642,
+      "delta": -0.5541822173435804
+    },
+    {
+      "dataset": "MER2023",
+      "metric": "HIT",
+      "samples": 411,
+      "paper": 87.73,
+      "graph": 88.24585088565193,
+      "delta": 0.515850885651929
+    },
+    {
+      "dataset": "MER2024",
+      "metric": "HIT",
+      "samples": 1169,
+      "paper": 90.34,
+      "graph": 91.11500210113462,
+      "delta": 0.7750021011346178
+    },
+    {
+      "dataset": "MELD",
+      "metric": "HIT",
+      "samples": 2610,
+      "paper": 64.06,
+      "graph": 67.36452256339041,
+      "delta": 3.3045225633904067
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "metric": "HIT",
+      "samples": 1241,
+      "paper": 73.6,
+      "graph": 75.37922987164528,
+      "delta": 1.7792298716452848
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "metric": "F_s",
+      "samples": 532,
+      "paper": 67.16,
+      "graph": 64.88072153048951,
+      "delta": -2.279278469510487
+    }
+  ],
+  "graph_arithmetic_mean": 81.21798766134668,
+  "user_supplied_paper_mean": 81.05,
+  "user_supplied_nine_entries_arithmetic_mean": 80.94444444444444,
+  "paired_no_graph_control_available": false
+}

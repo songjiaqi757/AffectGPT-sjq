@@ -1,0 +1,287 @@
+{
+  "job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131",
+  "supervisor_pid": 21608,
+  "phase": "completed",
+  "started_at": "2026-10-20T16:42:38.145409+08:00",
+  "runs": {
+    "text": {
+      "pid": 21628,
+      "state": "completed",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/text.json",
+      "config_sha256": "566274302e4e42e2e7fcec0c8d0f36e4c6d54dcf291be0b3535232908a30fd3e",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/text",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/text.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/text.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/text",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 0,
+      "cuda_visible_devices": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "started_at": "2026-10-20T16:42:38.377781+08:00",
+      "train_samples": 27673,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "none"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 0,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "last_event": {
+        "time_unix": 1792496547.0546575,
+        "event": "complete",
+        "step": 8650,
+        "epochs": 10
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-20T19:42:33.867391+08:00"
+    },
+    "audio": {
+      "pid": 21641,
+      "state": "completed",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio.json",
+      "config_sha256": "ff6a1678b08c59a78444ca8598e39c0bcdc2df1e370e808b041166765e63f372",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/audio.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 0,
+      "cuda_visible_devices": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "started_at": "2026-10-20T16:42:40.471306+08:00",
+      "train_samples": 27679,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "none"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 2,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "last_event": {
+        "time_unix": 1792511404.2756553,
+        "event": "complete",
+        "step": 14875,
+        "epochs": 17
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-20T23:50:21.640789+08:00"
+    },
+    "visual": {
+      "pid": 21654,
+      "state": "completed",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual.json",
+      "config_sha256": "c3553a8cf118e0d8443b2e91fa550be9986c73b2939a0d4ce64eba487fd3f11d",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/visual.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 1,
+      "cuda_visible_devices": "GPU-c640c519-51f2-dca4-9e62-d1ee667f79cb",
+      "started_at": "2026-10-20T16:42:42.572819+08:00",
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "none"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "last_event": {
+        "time_unix": 1792530126.2858043,
+        "event": "complete",
+        "step": 10727,
+        "epochs": 12
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-21T05:02:19.131244+08:00"
+    },
+    "visual_temporal": {
+      "pid": 21667,
+      "state": "completed",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual_temporal.json",
+      "config_sha256": "c235791c6c4ca0db6f1caeee4822119355e229dc2696094c7bf393517d21d49b",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual_temporal",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/visual_temporal.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual_temporal.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual_temporal",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 1,
+      "cuda_visible_devices": "GPU-c640c519-51f2-dca4-9e62-d1ee667f79cb",
+      "started_at": "2026-10-20T16:42:44.672615+08:00",
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "transformer",
+        "temporal_dim": 256,
+        "temporal_heads": 4,
+        "temporal_layers": 2,
+        "temporal_ffn_dim": 1024,
+        "temporal_dropout": 0.1,
+        "temporal_time_unit_seconds": 1.0,
+        "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "last_event": {
+        "time_unix": 1792530128.2934492,
+        "event": "complete",
+        "step": 10727,
+        "epochs": 12
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-21T05:02:19.133669+08:00"
+    },
+    "audio_temporal": {
+      "pid": 21690,
+      "state": "completed",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio_temporal.json",
+      "config_sha256": "0ade2649edf5495485381c32a85d27487da56e2cac059e162ac4ec7ea97f54b5",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio_temporal",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/audio_temporal.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio_temporal.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio_temporal",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 0,
+      "cuda_visible_devices": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "started_at": "2026-10-20T16:42:46.764455+08:00",
+      "train_samples": 27679,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "transformer",
+        "temporal_dim": 256,
+        "temporal_heads": 4,
+        "temporal_layers": 2,
+        "temporal_ffn_dim": 1024,
+        "temporal_dropout": 0.1,
+        "temporal_time_unit_seconds": 1.0,
+        "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+        "audio_sample_rate": 16000,
+        "audio_feature_stride_samples": 320,
+        "audio_feature_receptive_field_samples": 400,
+        "audio_timebase": "hubert_conv_window_centers_relative_v1"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 2,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "last_event": {
+        "time_unix": 1792509523.5700092,
+        "event": "complete",
+        "step": 9626,
+        "epochs": 11
+      },
+      "returncode": 0,
+      "finished_at": "2026-10-20T23:18:56.542095+08:00"
+    }
+  },
+  "release": "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+  "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224",
+  "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+  "exclusion_policy": "all_modalities_succeeded_v1",
+  "excluded_samples": 72,
+  "failed_tasks": 78,
+  "role_counts": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "fresh_pretrained_start": true,
+  "caveat": "Engineering pseudo-label comparison. Human gold not yet available; near-duplicate/source provenance remains unverified.",
+  "updated_at": "2026-10-21T05:02:19.134906+08:00"
+}

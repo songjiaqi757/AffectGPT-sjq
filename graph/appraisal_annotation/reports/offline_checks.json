@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "validated_samples": 30,
+  "joint_input_and_leakage_checks": 30,
+  "media_range_checks": 90,
+  "invalid_schema_cases_rejected": 5,
+  "routes": [
+    "/",
+    "/tearing",
+    "/api/health",
+    "/appraisal",
+    "/appraisal/",
+    "/appraisal/assets/app.js",
+    "/appraisal/assets/style.css",
+    "/appraisal/api/bootstrap"
+  ],
+  "manifest_access_checks": true,
+  "api_called": false
+}

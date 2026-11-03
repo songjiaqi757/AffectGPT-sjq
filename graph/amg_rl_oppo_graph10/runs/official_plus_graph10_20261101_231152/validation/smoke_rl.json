@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "state": "complete",
+  "reports": [
+    {
+      "dataset": "OVMERDPlus",
+      "name": "samplenew3_00000062",
+      "response": "The character's emotional state is serious, concerned, worried, tense.",
+      "info": {
+        "fallback": false,
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+        "graph_tokens": 192,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "emotion_candidates_displayed": 0,
+        "cues_displayed": 14,
+        "appraisals_displayed": 12,
+        "prompt_sha256": "205e074fd302ae22a3a4047a041404e5e3596fc308b8296ad477f148412c5076",
+        "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+        "contract": {
+          "native_sample_ast_verified": true,
+          "only_prompt_change": "append newline + frozen D compact+gate graph evidence to official user_message",
+          "generation": {
+            "num_beams": 1,
+            "temperature": 1,
+            "do_sample": true,
+            "top_p": 0.9,
+            "max_new_tokens": 1200,
+            "max_length": 2000
+          },
+          "seed": null,
+          "full_subtitle": true
+        }
+      },
+      "elapsed": 8.94130376726389,
+      "gpu_peak_allocated_bytes": 19744047104,
+      "gpu_peak_reserved_bytes": 20268974080
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "name": "skRqBxLLJkE_0",
+      "response": "The character's emotional state is positive, joyful, concerned, excited, anxious, eager, enthusiastic, urgent.",
+      "info": {
+        "fallback": false,
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+        "graph_tokens": 173,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "emotion_candidates_displayed": 0,
+        "cues_displayed": 13,
+        "appraisals_displayed": 11,
+        "prompt_sha256": "441e425e26c8d5627ce4d8f39687c5ce0d9baf9bfbaf7a41e9a11d8b80e35a9b",
+        "graph_text": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: contrast present; text: intensifier present; text: desire need; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pause long; audio: pause frequent; audio: intonation rising; audio: intonation falling; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag other; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+        "contract": {
+          "native_sample_ast_verified": true,
+          "only_prompt_change": "append newline + frozen D compact+gate graph evidence to official user_message",
+          "generation": {
+            "num_beams": 1,
+            "temperature": 1,
+            "do_sample": true,
+            "top_p": 0.9,
+            "max_new_tokens": 1200,
+            "max_length": 2000
+          },
+          "seed": null,
+          "full_subtitle": true
+        }
+      },
+      "elapsed": 4.258740536868572,
+      "gpu_peak_allocated_bytes": 19789359104,
+      "gpu_peak_reserved_bytes": 20268974080
+    }
+  ],
+  "all_checkpoint_loads_verified": true,
+  "time": "2026-11-01T23:24:37.180888+08:00"
+}

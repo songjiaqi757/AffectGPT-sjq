@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "all_four_workers_inference": true,
+  "saved_prediction_audit": {
+    "rl": {
+      "sample": "CMUMOSEI::oQizLbmte0c_13",
+      "checkpoint": "rl_e005",
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/predictions/rl_e005_CMUMOSEI/e09768eeb528e0ba76668ab047ff2130e4e20fd8ab48352ac24f8928917fd8a4.json",
+      "response_characters": 163,
+      "graph_tokens": 139,
+      "evidence_level": 2,
+      "passed": true
+    },
+    "oppo": {
+      "sample": "CMUMOSEI::uogwnZGb-iE_2",
+      "checkpoint": "oppo_release",
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/predictions/oppo_release_CMUMOSEI/1a29ba97f6be4c63d78890e4156ca19ef025ce0acc051545435e86fa42add59e.json",
+      "response_characters": 851,
+      "graph_tokens": 172,
+      "evidence_level": 2,
+      "passed": true
+    }
+  },
+  "time": "2026-11-01T23:28:25.136916+08:00"
+}

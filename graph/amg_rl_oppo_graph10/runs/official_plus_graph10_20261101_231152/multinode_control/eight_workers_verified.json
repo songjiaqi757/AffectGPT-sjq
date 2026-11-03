@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "total_workers": 8,
+  "A800_slots": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "A100_slots": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "workers": [
+    {
+      "state": "inference",
+      "completed_samples": 5442,
+      "role": "rl",
+      "slot": 0,
+      "pid": 25899,
+      "time_beijing": "2026-11-02T15:50:02.019134+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00704",
+      "last_sample": "MER2024::samplenew_00032587",
+      "last_seconds": 3.7267243806272745
+    },
+    {
+      "state": "inference",
+      "completed_samples": 5510,
+      "role": "rl",
+      "slot": 1,
+      "pid": 25900,
+      "time_beijing": "2026-11-02T15:50:05.359522+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00672",
+      "last_sample": "MER2024::samplenew_00032135",
+      "last_seconds": 4.681273087859154
+    },
+    {
+      "state": "inference",
+      "completed_samples": 5273,
+      "role": "rl",
+      "slot": 2,
+      "pid": 25901,
+      "time_beijing": "2026-11-02T15:49:57.741994+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00864",
+      "last_sample": "MER2024::samplenew_00036087",
+      "last_seconds": 3.6071180440485477
+    },
+    {
+      "state": "inference",
+      "completed_samples": 5394,
+      "role": "rl",
+      "slot": 3,
+      "pid": 25902,
+      "time_beijing": "2026-11-02T15:49:39.202666+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00800",
+      "last_sample": "MER2024::samplenew_00034701",
+      "last_seconds": 3.495234463363886
+    },
+    {
+      "state": "inference",
+      "completed_samples": 16,
+      "role": "rl",
+      "slot": 4,
+      "pid": 268580,
+      "time_beijing": "2026-11-02T15:53:33.098581+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00736",
+      "last_sample": "MER2024::samplenew_00033574",
+      "last_seconds": 14.483196528628469
+    },
+    {
+      "state": "inference",
+      "completed_samples": 17,
+      "role": "rl",
+      "slot": 5,
+      "pid": 268581,
+      "time_beijing": "2026-11-02T15:55:11.012486+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00768",
+      "last_sample": "MER2024::samplenew_00034225",
+      "last_seconds": 4.231846692040563
+    },
+    {
+      "state": "inference",
+      "completed_samples": 4,
+      "role": "rl",
+      "slot": 6,
+      "pid": 268582,
+      "time_beijing": "2026-11-02T15:54:50.660706+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00832",
+      "last_sample": "MER2024::samplenew_00035190",
+      "last_seconds": 3.8156336918473244
+    },
+    {
+      "state": "inference",
+      "completed_samples": 6,
+      "role": "rl",
+      "slot": 7,
+      "pid": 268583,
+      "time_beijing": "2026-11-02T15:55:11.120533+08:00",
+      "checkpoint": "rl_e010",
+      "dataset": "MER2024",
+      "shard": "rl_e010_MER2024_00896",
+      "last_sample": "MER2024::samplenew_00004995",
+      "last_seconds": 6.690719481557608
+    }
+  ],
+  "new_A100_prediction_audit": {
+    "4": {
+      "pid": 268580,
+      "prediction_path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/predictions/rl_e010_MER2024/9231c7bb1c3c0ff8a64368b0fb4551d4dd81156e7efeec7a245dd650c1fb9454.json",
+      "sample_id": "MER2024::samplenew_00033574",
+      "checkpoint": "rl_e010",
+      "response_characters": 709,
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "passed": true
+    },
+    "5": {
+      "pid": 268581,
+      "prediction_path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/predictions/rl_e010_MER2024/81ef82f39ce3d1968900cfc92bbdfc8c3d6a08ede59b36b331c4f6297ed7d7a8.json",
+      "sample_id": "MER2024::samplenew_00034225",
+      "checkpoint": "rl_e010",
+      "response_characters": 70,
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "passed": true
+    },
+    "6": {
+      "pid": 268582,
+      "prediction_path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/predictions/rl_e010_MER2024/5b03b8ad31822b61f1b1e358050ed5ed014634a27a7ce03871c881ce38e3dc73.json",
+      "sample_id": "MER2024::samplenew_00035190",
+      "checkpoint": "rl_e010",
+      "response_characters": 58,
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "passed": true
+    },
+    "7": {
+      "pid": 268583,
+      "prediction_path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/predictions/rl_e010_MER2024/2204164bf8b7291578993fdb5c0ce212128c1a4c869353f9d8573c8050fcf949.json",
+      "sample_id": "MER2024::samplenew_00004995",
+      "checkpoint": "rl_e010",
+      "response_characters": 125,
+      "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+      "passed": true
+    }
+  },
+  "original_plan_id_unchanged": true,
+  "all_original_A800_processes_preserved": true,
+  "time_beijing": "2026-11-02T15:55:11.838175+08:00"
+}

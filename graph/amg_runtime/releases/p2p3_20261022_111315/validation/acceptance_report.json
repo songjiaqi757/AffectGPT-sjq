@@ -1,0 +1,69 @@
+{
+  "status": "P2_P3_engineering_complete",
+  "runtime_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+  "p0_lock_id": "76eac932b109b29455aef081a5da79a48f9f1fa3055fef718c0d1b58fa72bebb",
+  "completed_at_beijing": "2026-10-22T11:50:24.161017+08:00",
+  "P2": {
+    "implemented": true,
+    "weights_frozen": true,
+    "scores": 42,
+    "order": "Text15/Audio17/Visual10",
+    "same_original_preprocessing_and_forward": true,
+    "lossless_safetensors_exports_verified": true,
+    "threshold_status": "uncalibrated_0.5",
+    "engineering_policy_frozen": true,
+    "human_deployment_active_deferred_frozen": false
+  },
+  "P3": {
+    "implemented": true,
+    "direct_and_two_hop_queries": true,
+    "joint_support_in_scoring": true,
+    "per_dimension_abstention": true,
+    "empty_and_failure_baseline_callback": true,
+    "full_json_and_jsonl_trace": true,
+    "final_query_parameters_selected_by_P4": false
+  },
+  "validation": {
+    "unit_tests_passed": 40,
+    "integration_checks_passed": 30,
+    "real_source_prediction_cases": 12,
+    "source_validation_sample_ids": [
+      "samplenew3_00016835",
+      "samplenew3_00034135"
+    ],
+    "synthetic_dense_oracle_queries": 52,
+    "candidate_scores_compared": 2516,
+    "max_oracle_absolute_error": 5.551115123125783e-17,
+    "cli_matches_api": true,
+    "cli_empty_query_fallback": true,
+    "original_artifact_hashes_unchanged": 65,
+    "concurrent_document_metadata_changes": [
+      {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_graph/runs/amg_edges_v2_restore_diagnostic_20261022/manifest/document_revision.json",
+        "p0_sha256": "91786130631e76f0ad31e47bbed4c6036f155f94df075d89deaa96e66e4958f1",
+        "current_sha256": "68a50d5e35287a3320c716f84755ef20b04016bf0d4c966bb892897df8959fc0",
+        "classification": "Concurrent storage cleanup documentation update only",
+        "proof": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315/validation/concurrent_cleanup_verification.json"
+      }
+    ],
+    "original_checkpoint_stats_unchanged": 9
+  },
+  "no_training_or_teacher_calls": true,
+  "target_datasets_used": false,
+  "final_target_evaluation_allowed": false,
+  "pending": [
+    "P1 human Cue/Appraisal and original-source/near-duplicate audits",
+    "Formal Cue deployment active/deferred and any human calibration under the Cue protocol",
+    "P4 preregistered finite source validation parameter selection",
+    "P5 AffectGPT model integration",
+    "P6/P7 experiments and final frozen target evaluation"
+  ],
+  "entrypoints": {
+    "cue_policy": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315/cue_policy.json",
+    "query_config": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315/query_config.engineering.json",
+    "schemas": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315/schemas",
+    "code": "/ai/sjq/AffectGPT-sjq/amg_runtime",
+    "release_manifest": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315/release_manifest.json",
+    "tests": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315/validation"
+  }
+}

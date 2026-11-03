@@ -1,0 +1,482 @@
+{
+  "schema": "rl_oppo_official_plus_graph10_v1",
+  "created_at_beijing": "2026-11-01T23:16:47.555924+08:00",
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152",
+  "prior_run": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105",
+  "prior_datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/MER2023.json",
+      "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "MER2024": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/MER2024.json",
+      "sha256": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+      "samples": 1169,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "92e6e9c075bdda0a7d33a99434d0a8f4c064e235b70a89d1783fa7675720251e",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "MELD": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/MELD.json",
+      "sha256": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+      "samples": 2610,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/meld-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "d1a1f66257bfdfcd76465e106e095137439011b32fbe0bed29375f4d4158b921",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "IEMOCAPFour": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/IEMOCAPFour.json",
+      "sha256": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+      "samples": 1241,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/iemocap-process/label_4way.npz",
+      "membership_member": "whole_corpus",
+      "subtitle_sha256": "8cdae9b8509b9eca4e74b3e4f792a30660f361ee0d143caddfdb2f8b5a21751a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "CMUMOSI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/CMUMOSI.json",
+      "sha256": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+      "samples": 686,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/cmumosi-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "0ca7e39cb94c1a796d02a98f7ef9d15f7afa2228e9223b294fec2f494b1ee732",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "CMUMOSEI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/CMUMOSEI.json",
+      "sha256": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+      "samples": 4659,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/cmumosei-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "8a162df9e9b64642772776d2a98991fc4ee016ac4696cbb36d761e2b123e4821",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/SIMS.json",
+      "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMSv2": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/SIMSv2.json",
+      "sha256": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+      "samples": 1034,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/simsv2-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "ebf167aa78eca31269df229ac1cd23602a4f86d02cc7b81aa941ebf167ff0462",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/inputs/OVMERDPlus.json",
+      "sha256": "eb646f3cb8ed788ca656e68601b676fada095bc23af28795423b9c7d69a753c3",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "graph_cache_directory": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_D_graph10_20261031_000904/cache",
+  "graph_cache_plan_id": "14ab48004e9b933e3bc5ce464fdc26b57bda5368cd05f9dce555cef9a45b1958",
+  "graph_release_id": "bfeb27136ed6b95b5cf22e6c285bd62436dbf8208156034c9b0865aa128c5abf",
+  "query_config_id": "6852804624376c269a0a0c58aaccef84ab3d9c87003f6085dce5419298af0c0d",
+  "node_counts": {
+    "CueType": 42,
+    "AppraisalDimension": 6,
+    "AppraisalState": 16,
+    "EmotionConcept": 10
+  },
+  "graph_policy": "D compact+gate; exact prior format_evidence; 512 tokens; frozen graph10",
+  "graph_only_change": true,
+  "models": {
+    "rl": {
+      "checkpoints": {
+        "rl_e005": {
+          "id": "rl_e005",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000005_reward_0.546.pth",
+          "sha256": "35730b7009363184e4b1e85af8df5419efd6286903d65187a322ba7848eeb684",
+          "epoch": 5
+        },
+        "rl_e010": {
+          "id": "rl_e010",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000010_reward_0.573.pth",
+          "sha256": "1d81fb1f103e6e9d4a41e918bba6a1b8676105bbdfdee52ef46b5ae6c7ce163e",
+          "epoch": 10
+        },
+        "rl_e015": {
+          "id": "rl_e015",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000015_reward_0.589.pth",
+          "sha256": "4ae4d367988c17be795acc4c5d9126f4df3fb5847e249272f8b4c4fd6ccfc3e8",
+          "epoch": 15
+        },
+        "rl_e020": {
+          "id": "rl_e020",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000020_reward_0.599.pth",
+          "sha256": "38726ff959ee463c1ca8b7306118a76b7ce1c10a63083c14127b76c86d23024f",
+          "epoch": 20
+        },
+        "rl_e025": {
+          "id": "rl_e025",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000025_reward_0.581.pth",
+          "sha256": "505a760214ae1b17a86f8fc97a298c7076483c4226b4bea441c4e2693a3e91a6",
+          "epoch": 25
+        },
+        "rl_e030": {
+          "id": "rl_e030",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000030_reward_0.591.pth",
+          "sha256": "8ac696e869911b0786c8e144aac7229ce250f33c83832f4d07a735cd18bd84f2",
+          "epoch": 30
+        },
+        "rl_e035": {
+          "id": "rl_e035",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000035_reward_0.588.pth",
+          "sha256": "7e3f4272e885284f21c2710bf82bbcf0cd7ce01c406fbfec460c6b1429017750",
+          "epoch": 35
+        },
+        "rl_e040": {
+          "id": "rl_e040",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000040_reward_0.590.pth",
+          "sha256": "b7abf64d685e66eb73c672bce33ab3182e3c387a5e4dee6acd5fa2c769714f79",
+          "epoch": 40
+        },
+        "rl_e045": {
+          "id": "rl_e045",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000045_reward_0.577.pth",
+          "sha256": "adde12f82ea00a6f93383ea59fda87d7a8b412a3f063dd60a69b17dbfd2e3cb5",
+          "epoch": 45
+        },
+        "rl_e050": {
+          "id": "rl_e050",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000050_reward_0.597.pth",
+          "sha256": "17a5e9600f2d2f3c7a27d5e1d9254ceaa95d514594fa29f76f34a166960bfe43",
+          "epoch": 50
+        },
+        "rl_e055": {
+          "id": "rl_e055",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000055_reward_0.576.pth",
+          "sha256": "a055d558871d1862e667dd88c252a5ae714763a5517e8203a1802a01972f51ec",
+          "epoch": 55
+        },
+        "rl_e060": {
+          "id": "rl_e060",
+          "path": "/ai/sjq/AffectGPT-RL/output/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3/mercaptionplus_outputhybird_bestsetup_bestfusion_face_r1stage2_mer25ov1000_continue60_g4_formatbeta00_ovlabel_numrestrict3_20251009171/checkpoint_000060_reward_0.592.pth",
+          "sha256": "b2749f9bd848ceafab4c0579ded29e9e932a10d7c9295e188b27b9c2598d78de",
+          "epoch": 60
+        }
+      },
+      "datasets": {
+        "CMUMOSI": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_CMUMOSI.json",
+          "sha256": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+          "samples": 686
+        },
+        "CMUMOSEI": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_CMUMOSEI.json",
+          "sha256": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+          "samples": 4659
+        },
+        "SIMS": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_SIMS.json",
+          "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+          "samples": 457
+        },
+        "SIMSv2": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_SIMSv2.json",
+          "sha256": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+          "samples": 1034
+        },
+        "MER2023": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MER2023.json",
+          "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+          "samples": 411
+        },
+        "MER2024": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MER2024.json",
+          "sha256": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+          "samples": 1169
+        },
+        "MELD": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MELD.json",
+          "sha256": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+          "samples": 2610
+        },
+        "IEMOCAPFour": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_IEMOCAPFour.json",
+          "sha256": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+          "samples": 1241
+        },
+        "OVMERDPlus": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_OVMERDPlus.json",
+          "sha256": "ed10bea7f9803343313c8c0e24b98ee73a4cd7cb489df401e8b416943fb4834a",
+          "samples": 532
+        }
+      },
+      "contract": {
+        "native_sample_ast_verified": true,
+        "only_prompt_change": "append newline + frozen D compact+gate graph evidence to official user_message",
+        "generation": {
+          "num_beams": 1,
+          "temperature": 1,
+          "do_sample": true,
+          "top_p": 0.9,
+          "max_new_tokens": 1200,
+          "max_length": 2000
+        },
+        "seed": null,
+        "full_subtitle": true
+      },
+      "scoring": {
+        "OVMERDPlus": "AffectGPT-RL/statistic.py calculate_ov_zeroshot",
+        "other_eight": "original AffectGPT/evaluation.py official MER-UniBench functions; no scorer supplied for these in RL release"
+      }
+    },
+    "oppo": {
+      "checkpoints": {
+        "oppo_release": {
+          "id": "oppo_release",
+          "path": "/ai/sjq/OPPO/models/OPPO",
+          "repo": "AaronHan/OPPO",
+          "revision": "956ece96cedb24825c23cd300c248d1027497262",
+          "epoch": null,
+          "sha256": "63ef035e58fa49d88017e549e55b4be6ad40b754eb0be410af5f38860ffa004d",
+          "weight_manifest": [
+            {
+              "path": "/ai/sjq/OPPO/models/OPPO/model-00001-of-00004.safetensors",
+              "size": 4985047208,
+              "sha256": "9772afbb0058a0e8dba1ee1759f4c530cdb59ef7cbf7c81c48cd3c1e53dc0296"
+            },
+            {
+              "path": "/ai/sjq/OPPO/models/OPPO/model-00002-of-00004.safetensors",
+              "size": 4991495784,
+              "sha256": "b8383d147807f2f3048752581b384d1f9601c28d5dede11b62f7ca823b25e854"
+            },
+            {
+              "path": "/ai/sjq/OPPO/models/OPPO/model-00003-of-00004.safetensors",
+              "size": 4991495888,
+              "sha256": "6ccb6a19f4cede81fbc1729641e2d7144ee053548a76e7dbe68333aa9050a8f0"
+            },
+            {
+              "path": "/ai/sjq/OPPO/models/OPPO/model-00004-of-00004.safetensors",
+              "size": 2895739720,
+              "sha256": "b763e52b9cfe90a8c08632dc2eb8a950adeabec01badceb69fdafd5976d0fece"
+            }
+          ]
+        }
+      },
+      "datasets": {
+        "CMUMOSI": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_CMUMOSI.json",
+          "sha256": "b11efa902e0a69f303c71813b227073a0dbb8a4bf3cc752f834bbea1c25f954c",
+          "samples": 686
+        },
+        "CMUMOSEI": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_CMUMOSEI.json",
+          "sha256": "67b73deae88e163e5426729eaa69dd82444594032daa6fa52cf9666db852b8a4",
+          "samples": 4659
+        },
+        "SIMS": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_SIMS.json",
+          "sha256": "ff36a0807c873f6138847b589f52a8e07a9468b503a49f743034dff276ef37f1",
+          "samples": 457
+        },
+        "SIMSv2": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_SIMSv2.json",
+          "sha256": "3c481c303be0404398f6c988e719ecc95e33f11e127b3a4716e784fd1fd5dee4",
+          "samples": 1034
+        },
+        "MER2023": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MER2023.json",
+          "sha256": "4a10f5139ef69c7da449d40e0b65b472526b17abc580dde57bfc90ff7343e00a",
+          "samples": 411
+        },
+        "MER2024": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MER2024.json",
+          "sha256": "ec24d584159f1df3d472c45f29e247a5eefdd8cda9a87d7d4bf47b3e819b5bb0",
+          "samples": 1169
+        },
+        "MELD": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MELD.json",
+          "sha256": "373486c6e1897433801113a1cc74a4b98dcb50165e045884f42a22a09bce7c45",
+          "samples": 2610
+        },
+        "IEMOCAPFour": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_IEMOCAPFour.json",
+          "sha256": "cc21318b43796f4cfa0dbd14bc44991fd9a550bbc9a8accab4e5d6df7d6af2f1",
+          "samples": 1241
+        },
+        "OVMERDPlus": {
+          "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_OVMERDPlus.json",
+          "sha256": "4c52078ad0a2813f36e440626040faeb89a3aa3d26eecf55ed68f4cbb433b041",
+          "samples": 532
+        }
+      },
+      "contract": {
+        "native_sample_ast_verified": true,
+        "generation": {
+          "max_new_tokens": 1024,
+          "do_sample": true,
+          "temperature": 0.9,
+          "top_p": 0.9
+        },
+        "use_audio_in_video": true,
+        "use_face_video": false,
+        "official_launcher_defaults": true,
+        "only_prompt_change": "append graph evidence to existing user text content",
+        "seed": null
+      },
+      "scoring": {
+        "source": "OPPO/affect_r1/merbench/evaluation.py",
+        "answer_selection": "full",
+        "use_answer_openset": true,
+        "skip_llm": false
+      }
+    }
+  },
+  "protected_sources": {
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/common.py": "6303a47b7ea1baf2d4e6bcc1231a90cf20d73001adeb1ea34aebd018a3a86c30",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/native_rl.py": "b3d6792ef4687f79b8e6ff3c4eb7d2e3dc4bfdb596ca0effca5a0d86ee8762a8",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/native_oppo.py": "e51a27cf0360ee847fec05033e02c5cade0fd6761288f5a2bbfe3d7413a38d85",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/prepare.py": "04376b156572d9fdf0c38d7ec1ae7b5c14e8d78fdf132c49b3029d5381491a45",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/execute.py": "0534e4d1ea36ed6939bee76dd52f617176cbc3e464ac945572966c0a695998a1",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/scoring.py": "1672d16af9eef05d302405190fafdb2fb28a0c508304414a01ec44f04378c36c",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/smoke.py": "c529546ba4035c4cfcfb4af18669640db5363921f923914426037709c3e5b735",
+    "/ai/sjq/AffectGPT-RL/inference_hybird.py": "d581414f99283dcc58cbdfcdd7f22de95d4295dc61c8c4611e0a4b204c3d03c5",
+    "/ai/sjq/AffectGPT-RL/statistic.py": "6ce2d8eb7e93e5b6671206e5ca939e7e5f122dbbb26249d159e0c35a4e830305",
+    "/ai/sjq/AffectGPT-RL/config.py": "f7e39f22b855e4756324ecce6fa8944851844db1567ac7947080e99e95898a60",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/conversation/conversation_video.py": "17e4a5f253324ad216623fa193cf9a7a5ea49d4de520b6ed8ff707cb7591849a",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/models/affectgpt.py": "5d4752dc53eb00138e7886fda30403fc8218a8b9ec64553c6c6f771e343b57c2",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/models/affectgpt_r1_noref_ovlabel4.py": "b8b492c84e23108a42116b38da8082056eb67b193ece38dd226cbec90afac1bc",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/evaluation/ew_metric.py": "007e1f28d8a6b42dcc244c4364f06df4ca0d2dafe4528915ba9049b6c5770e18",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py": "9e91bb83029d864f816f4cdeb2cdfc9302ee3edf62c602bcaba90a604c0ad967",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/config.py": "526653bfc0525ad949ed40da28e3356b05c40a8284f974f6dcd7f0598ee8f60c",
+    "/ai/sjq/OPPO/affect_r1/merbench/run_inference.py": "9979630cd8c8d482db0ab9c4d64f75ef83dfe5d1323c4225181b80506268e059",
+    "/ai/sjq/OPPO/affect_r1/merbench/evaluation.py": "43b8580dad5300a5967e475d28bce43105fdef2b4cdb3222e4ed173961ca4bd5",
+    "/ai/sjq/OPPO/affect_r1/merbench/submit_merbench_infer.sh": "34deab144fb2c983a1c470a9809d4c407db3b47356a5c6c111c18a701bb21ede",
+    "/ai/sjq/OPPO/affect_r1/merbench/run_merbench_eval.sh": "95f378ac3212a05c88156896d6e3906040eda20198109a3f5b852714fa791a8e",
+    "/ai/sjq/OPPO/affect_r1/merbench/result_writer.py": "c0b1dd77ae88945a1cfe195c1594f9482355935ed3012b2f9efa396267e80324",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_bcd/policy.py": "8267157ec2ee5d069a62156ca8bf83ab922e81d6f1c59190d722949f0ec22247",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_finetune_nogc/prompts.py": "c5d0c61f4dc1443bde8608b3ec0ea6f0d02b31974b6ee41299a3762a1a3f3fd0",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_d_graph_compare/assets/graph10_20261025_110938/query_engine_config.json": "e83bdfbc9f4dcdc88fb245cf53bcea1d815deb5a0dd3d9f1fb3e6e763297ded5",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_graph10_rebuild/runs/wheel5_level1_alias10_full_20261025/graph/graph.json": "4bff1555470a23e9d0c9effe7529d58cfa6ab20f4245cd7f7aa40a652413e96c",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_graph10_rebuild/runs/wheel5_level1_alias10_full_20261025/graph/paths_cue_appraisal_emotion.csv": "6cf6084c324cd6accbb1591f8a23c75e47d9748d190fe22e9c2ed8c6fc7f3cbe",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/base_dataset.py": "22ca3e1a26f3bb43baa646ea24a42cf31476c844e22cf0ce898601be37dc5f10",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/cmumosei.py": "93aa3f948f953eb0c55dec59085b5058096309ae24a26ec5940cb8bb13024e7a",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/cmumosi.py": "39d6e9f6fffce764cba96b475589a4e6f2a9b0dea566b42b3a127a1c82bb5f0f",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/dataloader_utils.py": "a7a9168450145347813e1cdf68fb48e51c9440f9bee402b0fb47a16686c82a64",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/iemocap.py": "52359fed2d4790ebc4cbecdd7a905cee39dbbd20bb824d224af047da9216ed66",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/meld.py": "3b5f9d00f0437094872c0db11659654dfde2755f02d0d488d86f7db59872a8d4",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/mer2023.py": "d5b1ed451942ad0f2f7b4ef1faac73af634b07e4f76b2d3f4de56f81dbe22575",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/mer2024.py": "ff704d6b9249eb518eb64371769dbc10a49a83111bc8975b855aeac4fbf6390e",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/mer25ov1000_dataset.py": "a09b9507d7725878413d818e545a25f0142ed316279e46a7f2433cca7cab49ce",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/mercaptionplus_dataset.py": "0fb622512d0727d3b546fecacdbf308a49185f5ef28dca153b585eaa6d677e5f",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/ovmerdplus_dataset.py": "7ef446474330f41fb2da8a8a689d0a462302dd4004bb0df6d15115ed84261559",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/sims.py": "72bf8a0bd19f717d27ae8d9d3d52831aecc18223abe218e1aabe1b29ce704c9d",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/datasets/datasets/simsv2.py": "59e0041801ea947948f8f3b0123231052e1e62b99e97dc91eedff9f70600cf63",
+    "/ai/sjq/OPPO/affect_r1/merbench/affectgpt_local/__init__.py": "284d7dd13509e26a57ed74fbf1907e5ab1e87804ee824656b7c6fe3adda75929",
+    "/ai/sjq/OPPO/affect_r1/merbench/affectgpt_local/common.py": "b13d838ea9a0ebc026e9aea197998c331bd54757eee8c603444ad7b04c3fa97d",
+    "/ai/sjq/OPPO/affect_r1/merbench/affectgpt_local/datasets.py": "eef6c73e8cb679b4c732419183effc407bb98e0c9d410ae58e8bcbe831c34022",
+    "/ai/sjq/OPPO/affect_r1/merbench/affectgpt_local/llm_utils.py": "5b9e29cda2056a7d26be2213ba5f799359c0c035638decabadff9c998463c7da",
+    "/ai/sjq/OPPO/affect_r1/merbench/affectgpt_local/utils.py": "e479eb069d8361f57bf9e57254b864047e19b7d82d2806ab9fcb9dc77b9d4d6c",
+    "/ai/sjq/OPPO/affect_r1/merbench/affectgpt_local/wheel_metrics.py": "b3ade46c1e78692219cdf39157a457cec470828aeb5ab14146cf0e2968057304",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/evaluation/ew_metric.py": "fd799f3e303fd81589691d0ac289096d2301843e3071b9f929a40b135011d9ab",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/my_affectgpt/evaluation/wheel.py": "2072ae0f6b18721cac9b51e154fac30c013cb73800366797a474f616f2631f54",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/chatgpt.py": "4add1e03919652b06527d938787d79fd1325e54cc264736baf4dd0557ace568a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/e2e_utils.py": "c018c0f8934c1da4ce7cdf364ad9eebde98c9f263e13cf33eca957b0ce2f2e2d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/functions.py": "7d422f9069c1f134729838e0ee08aa9bba0a310ed0b7c7d0f2d1d97ca4f7e23d",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/loss.py": "8ed9745f453f77b056a8e53e476eef865b4b0251437cedf8c22c510f0769d9f4",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/metric.py": "b132ff2b7773230e60a33ffd120ddeb99a16d6f824de15634538ee866926f469",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/punctuation.py": "f595ae93b618d3a15ce41268b8de760a091164f201f2f2f4c29256932c8f3ca2",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/qwen.py": "f0dafb395df79dab38d48934da4c4ac7d7fb57817c7932723635425bfad389b1",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/read_data.py": "d3a7f7257991577690f0f5a93e25826aeeab421f2e6dd97198fdbb72c8a077e5",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/read_files.py": "5c59f4887971fb58a6ead16fca4cdb1463645538d896e3d280e5449cad20adce",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/ttsaudio_utils.py": "54f01d60fcef54648b583c436c3d86edbc1fd0ac6f7570151323de48dce0151a",
+    "/ai/sjq/AffectGPT-sjq/AffectGPT/toolkit/utils/videomae_utils.py": "e3fbd86a5f16089739070359d173b68d76957e0ab4376ddcbbf20b21e9a419eb",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/evaluation/main_wheel.py": "5b8b9bc13db555683f5be6eef4baa0661dac1802bb00dcfbc27d5b19eb9c6485",
+    "/ai/sjq/AffectGPT-RL/my_affectgpt/evaluation/wheel.py": "82fe8c77ab1bd8ee2dabe59b4cbcb7a1df6d0b6e99e1068bcb4971585a9a438a",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/chatgpt.py": "4add1e03919652b06527d938787d79fd1325e54cc264736baf4dd0557ace568a",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/e2e_utils.py": "c018c0f8934c1da4ce7cdf364ad9eebde98c9f263e13cf33eca957b0ce2f2e2d",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/functions.py": "06dd34784ee53a7138eddda0af8f75a08857aa8d2e4dba8fc9291384dcc473b2",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/loss.py": "8ed9745f453f77b056a8e53e476eef865b4b0251437cedf8c22c510f0769d9f4",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/metric.py": "b132ff2b7773230e60a33ffd120ddeb99a16d6f824de15634538ee866926f469",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/punctuation.py": "f595ae93b618d3a15ce41268b8de760a091164f201f2f2f4c29256932c8f3ca2",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/qwen.py": "ab2a434de7281770d292a12745d0946e8cf3a68a98e43cdeaf7dd6abed86ed34",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/qwen25omni.py": "673ae5749710d2d7b67df5408833060bade15bc574f15ab5025dc279fa9d43eb",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/read_data.py": "d3a7f7257991577690f0f5a93e25826aeeab421f2e6dd97198fdbb72c8a077e5",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/read_files.py": "37b7c4607a59e400030b34a5d81cf23d937c9cc8dfd8b20c783d21461d8c4410",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/ttsaudio_utils.py": "54f01d60fcef54648b583c436c3d86edbc1fd0ac6f7570151323de48dce0151a",
+    "/ai/sjq/AffectGPT-RL/toolkit/utils/videomae_utils.py": "e3fbd86a5f16089739070359d173b68d76957e0ab4376ddcbbf20b21e9a419eb",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_CMUMOSI.json": "b11efa902e0a69f303c71813b227073a0dbb8a4bf3cc752f834bbea1c25f954c",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_CMUMOSEI.json": "67b73deae88e163e5426729eaa69dd82444594032daa6fa52cf9666db852b8a4",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_SIMS.json": "ff36a0807c873f6138847b589f52a8e07a9468b503a49f743034dff276ef37f1",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_SIMSv2.json": "3c481c303be0404398f6c988e719ecc95e33f11e127b3a4716e784fd1fd5dee4",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_CMUMOSI.json": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MER2023.json": "4a10f5139ef69c7da449d40e0b65b472526b17abc580dde57bfc90ff7343e00a",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MER2024.json": "ec24d584159f1df3d472c45f29e247a5eefdd8cda9a87d7d4bf47b3e819b5bb0",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_MELD.json": "373486c6e1897433801113a1cc74a4b98dcb50165e045884f42a22a09bce7c45",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_IEMOCAPFour.json": "cc21318b43796f4cfa0dbd14bc44991fd9a550bbc9a8accab4e5d6df7d6af2f1",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/oppo_OVMERDPlus.json": "4c52078ad0a2813f36e440626040faeb89a3aa3d26eecf55ed68f4cbb433b041",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_CMUMOSEI.json": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_SIMS.json": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_SIMSv2.json": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MER2023.json": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MER2024.json": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MELD.json": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_IEMOCAPFour.json": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_OVMERDPlus.json": "ed10bea7f9803343313c8c0e24b98ee73a4cd7cb489df401e8b416943fb4834a",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/rl_original_config.json": "4c8b06dad6d9b6a2007bc986e5e960ee903e7d8714db515cf561e238378610a4",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/rl_preflight.json": "05ad086fac006d7989a73ce97521a26effd6b113868f559b7bffae267a193203",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/oppo_preflight.json": "ad6e3fa60313b1c6ef9afc50f667ec6d2ffceed96d2def874b934ff96bdd49b6",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/cache_inventory.json": "ec6dc7fe63b16d089f75df4068f5fe702e9aadf96d36d7056699c2b2cd43036f",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/validation/rl_media_equivalence.json": "ac54d53420c84bf8380be533b5f5e3075c4993c6648696339a37261eae9f3a52"
+  },
+  "cache_inventory_sha256": "ec6dc7fe63b16d089f75df4068f5fe702e9aadf96d36d7056699c2b2cd43036f",
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20"
+}

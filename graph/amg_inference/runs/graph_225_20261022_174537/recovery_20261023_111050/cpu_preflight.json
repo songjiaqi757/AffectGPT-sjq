@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "queue_tests": 5,
+  "prompt_cases": [
+    {
+      "case": "exact_training_ovlabel_prompt",
+      "passed": true,
+      "info": {
+        "fallback": false,
+        "graph_tokens": 978,
+        "omitted_evidence": 6,
+        "displayed_paths": 4,
+        "prompt_tokens": 1097,
+        "subtitle_truncated": false,
+        "prompt_id": "c25c39d571a202cd9ad6d74ffb6531ac15d62260ccb5002bb6b9cd9026c1516d"
+      }
+    },
+    {
+      "case": "literal_multimodal_markers",
+      "passed": true,
+      "info": {
+        "fallback": false,
+        "graph_tokens": 978,
+        "omitted_evidence": 6,
+        "displayed_paths": 4,
+        "prompt_tokens": 1086,
+        "subtitle_truncated": false,
+        "prompt_id": "2a96f7481952ea44f58d9a5cdc8c16749d368c3b5e1b2838af206e47e4c13033"
+      }
+    },
+    {
+      "case": "long_subtitle",
+      "passed": true,
+      "info": {
+        "fallback": false,
+        "graph_tokens": 978,
+        "omitted_evidence": 6,
+        "displayed_paths": 4,
+        "prompt_tokens": 1330,
+        "subtitle_truncated": true,
+        "prompt_id": "6f69d886b114e77cb6d30c10424bf290546f468be7f2749418c865de46a2df4f"
+      }
+    },
+    {
+      "case": "graph_abstention",
+      "passed": true,
+      "info": {
+        "fallback": true,
+        "graph_tokens": 0,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "prompt_tokens": 119,
+        "subtitle_truncated": false,
+        "prompt_id": "8f2197fa9ab77cfe1a7dbb4fbad40d0c96a7ca5af33c04822a7f774ff2c3b567"
+      }
+    }
+  ],
+  "logical_jobs": 225,
+  "datasets": 9,
+  "dataset_samples": 12799,
+  "target_generation_performed": false,
+  "gpu_capacity_test": "pending until each training queue completes",
+  "training_completion_gates_now": {
+    "0": false,
+    "1": false
+  },
+  "plan_id": "8f1d76ee2464884633c783cfa41105b11bf3dc0310afc8c3a21b5ea9f9ca3ae0",
+  "finished_at_beijing": "2026-10-22T17:53:07.597451+08:00"
+}

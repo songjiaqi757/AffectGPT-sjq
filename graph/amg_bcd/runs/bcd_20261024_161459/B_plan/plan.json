@@ -1,0 +1,239 @@
+{
+  "schema_version": "bcd_pipeline_v1",
+  "created_at_beijing": "2026-10-24T16:14:59.603640+08:00",
+  "purpose": "B compact; C compact+gate; D compact+gate+Graph-OOF",
+  "cue_release_path": "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+  "cue_release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "runtime_path": "/ai/sjq/AffectGPT-sjq/amg_runtime/releases/p2p3_20261022_111315",
+  "runtime_release_id": "9975dfee6976c0ad18e971394501d7effb6cf95a08020cc9369ab95d621786aa",
+  "query_selection_id": "4726a2985cccd3065ce77fed4e175048b744125507d4036db6d67406cf61179e",
+  "query_config_path": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/query_engine_config.json",
+  "query_config_id": "ac35200d82683b116f9cb1ad0f58d119d6eda556339edf87cf3c7f4c69c7f3ff",
+  "graph_release_id": "75d45e203722ce060829e0db17ce7348f24ef44c024f1e99ff310f050194a420",
+  "cue_profile": "engineering",
+  "training_count": 30755,
+  "audit_count": 500,
+  "training_ids_digest": "13f7bb1089190cf6463e6dae95fc1e093b796f12a51f74ee19a9e9fd5ea3f8ed",
+  "audit_ids_digest": "d7bdc5f3233aff62627deb0cd7ce6deb98830bc74b3c2b72a47e62d3f016ad1c",
+  "split_policy": "User authorized pseudo_train + pseudo_validation for AffectGPT continuation only; gold_audit + diagnostic_reserved become human_audit_500; historical frozen releases retained",
+  "independent_validation_available": false,
+  "selection_policy": "All 15 checkpoints on three authorized target sets; no target-driven gate/prompt tuning",
+  "training": {
+    "additional_epochs": 5,
+    "iters_per_epoch": 5000,
+    "batch_size": 3,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.05,
+    "seed": 42,
+    "num_workers": 4,
+    "max_sequence_tokens": 2048,
+    "prompt_token_budget": 1536,
+    "answer_token_budget": 510,
+    "graph_token_budget": 512,
+    "subtitle_token_budget": 256,
+    "amp": "fp16 with restored GradScaler",
+    "restore_optimizer": true,
+    "restore_scaler": true,
+    "lr_schedule": "constant continuation at original 1e-5; no new warmup",
+    "supervision": "Original MERCaptionPlus hybird(description/ovlabel), 50/50 random tasks",
+    "original_empty_openset_neutral_fallback_count": 543,
+    "gradient_checkpointing": false,
+    "llm_use_cache": false,
+    "certified_actual_max_tokens": 1398,
+    "cuda_allocator": "expandable_segments:True"
+  },
+  "cache": {
+    "source": "Reused accepted native single-record Cue and frozen graph cache",
+    "source_directory": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/cache",
+    "source_manifest": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/cache_manifest.json",
+    "source_manifest_sha256": "bfbaa3c36ebdf7e646986936554b2cd1adb1524b73507a3ab77d2df456ff2d83",
+    "source_cache_release_id": "d44fff353fe978c54b28e4cccf2be1a788211b0b43393bfb7aaf512fd6c82ea7",
+    "source_plan_id": "51847d3eb79bb91ec1194c70750f369406685adcbad0a76f509f68682c637198",
+    "cache_regenerated": false,
+    "shared_by_all_five_experiments": true
+  },
+  "checkpoints": [
+    {
+      "base_epoch": 35,
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "gpu": 1,
+      "output": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B",
+      "epochs": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  ],
+  "inputs": {
+    "train_records_sha256": "c3bbba141a75bffbf7af22aafe394318ee8bf160bea0334b1ce405c79e8db248",
+    "train_inputs_sha256": "c2128424f6aad28d205f9bd5b4d90ddbd65da10e2d864637de85fac47f553834",
+    "audit_records_sha256": "c9657656ae8f79ec71275ccaa9a6e3ca3c9c2388a6fc9a89ac6aafba4442ca0e",
+    "original_labels_sha256": {
+      "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset/track2_train_mercaptionplus.csv": "230d4d33ba32ba0fd8c7207d015afbf03f165e2e19e232a38d806046ef9b8528",
+      "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset/track3_train_mercaptionplus.csv": "dda02825e8fad71212dc7f77dc98ec5cfc243e9871404a5383177dce970e8957"
+    },
+    "query_config_sha256": "2ddecfcf6f844158441224d32e8c2297d46e754d36ea0a56df4de23e8c37e539",
+    "original_config_sha256": "efbcc12ea8fee6d5f9f79b946f621e8bed27defb80010f0e90c62f1a3dc88c80"
+  },
+  "limitations": [
+    "No independent validation remains after merging; old P4 metrics are parameter-selection results",
+    "Original base AffectGPT checkpoints may already have seen historical holdout members; present split does not erase earlier exposure",
+    "Engineering Cue policy, human reliability and source/near-duplicate audits remain pending",
+    "Frozen graph includes original training co-label statistics; this is in-source graph-augmented training, not out-of-fold evidence",
+    "All epochs intentionally tested on three target sets by user request; exploratory results.",
+    "Gate settings fixed before new target generation; source grouping/near-duplicate and human audits incomplete."
+  ],
+  "final_target_evaluation_allowed": false,
+  "previous_run": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029",
+  "cache_source_plan_id": "51847d3eb79bb91ec1194c70750f369406685adcbad0a76f509f68682c637198",
+  "cache_source_run": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029",
+  "source_training_run": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836",
+  "pipeline_run": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459",
+  "source_cache": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_20261022_123029/cache",
+  "target_cache": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/cache",
+  "base_checkpoint": {
+    "base_epoch": 35,
+    "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+    "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+    "gpu": 1,
+    "output": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/from_35",
+    "epochs": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  "variants": [
+    "B",
+    "C",
+    "D"
+  ],
+  "epochs": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "training_run": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459",
+  "datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/inputs/MER2023.json",
+      "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/inputs/SIMS.json",
+      "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_inference/runs/graph_225_20261022_174537/inputs/OVMERDPlus.json",
+      "sha256": "eb646f3cb8ed788ca656e68601b676fada095bc23af28795423b9c7d69a753c3",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "policy": {
+    "version": "bcd_evidence_v1",
+    "graph_token_budget": 512,
+    "target_tokens": 384,
+    "max_paths": 2,
+    "min_selected_cues": 2,
+    "min_candidate_coverage": 0.35,
+    "min_relative_candidate_gap": 0.1,
+    "min_candidate_support_cues": 2,
+    "dropout_none": 0.2,
+    "dropout_no_emotions": 0.2,
+    "scores_are_calibrated_probabilities": false,
+    "threshold_selection": "fixed engineering preset; no target tuning"
+  },
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1.0,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2736
+  },
+  "prompt_question": "Please recognize all possible emotional states of the character.",
+  "seed": 42,
+  "gpu_training_queues": {
+    "0": [
+      "B",
+      "D"
+    ],
+    "1": [
+      "C"
+    ]
+  },
+  "inference_processes_per_gpu": 4,
+  "logical_jobs": 45,
+  "dataset_samples_total": 1400,
+  "sample_predictions_total": 21000,
+  "user_authorized_all_saved_epochs_target_evaluation": true,
+  "oof_policy": {
+    "folds": 5,
+    "seed": 42,
+    "split_unit": "existing source group and exact known media duplicates",
+    "fit_pool": "original 27679 pseudo_train excluding held fold; original 3076 pseudo_validation already outside graph fitting",
+    "cue_models": "frozen existing trio; graph-only OOF",
+    "emotion_ontology": "original mapping; each fold activates only concepts observed outside held groups",
+    "inference_graph": "same original frozen full graph as C"
+  },
+  "limits": {
+    "additional_epochs": 5,
+    "iters_per_epoch": 5000,
+    "batch_size": 3,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.05,
+    "seed": 42,
+    "num_workers": 4,
+    "max_sequence_tokens": 2048,
+    "prompt_token_budget": 1536,
+    "answer_token_budget": 510,
+    "graph_token_budget": 512,
+    "subtitle_token_budget": 256,
+    "amp": "fp16 with restored GradScaler",
+    "restore_optimizer": true,
+    "restore_scaler": true,
+    "lr_schedule": "constant continuation at original 1e-5; no new warmup",
+    "supervision": "Original MERCaptionPlus hybird(description/ovlabel), 50/50 random tasks",
+    "original_empty_openset_neutral_fallback_count": 543,
+    "gradient_checkpointing": false,
+    "llm_use_cache": false,
+    "certified_actual_max_tokens": 1398,
+    "cuda_allocator": "expandable_segments:True"
+  },
+  "active_variant": "B",
+  "plan_id": "ed26b67074b7864aa55141860aa2241c49e5c5609e7972298a3d60f2abfa573c"
+}

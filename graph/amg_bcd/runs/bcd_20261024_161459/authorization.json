@@ -1,0 +1,25 @@
+{
+  "training_variants": [
+    "B",
+    "C",
+    "D"
+  ],
+  "base_epoch": 35,
+  "save_epochs": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "expected_weights": 15,
+  "target_datasets": [
+    "MER2023",
+    "SIMS",
+    "OVMERDPlus"
+  ],
+  "evaluate_all_saved_epochs": true,
+  "source": "explicit user instruction in this session",
+  "supersedes_inherited_historical_final_target_evaluation_allowed_flag": true,
+  "no_target_tuning": true
+}

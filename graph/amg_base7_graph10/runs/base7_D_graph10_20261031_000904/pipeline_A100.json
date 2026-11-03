@@ -1,0 +1,43 @@
+{
+  "node": "A100",
+  "pid": 55765,
+  "execution_id": "7ffe6ad415f5556cf13cd491b730e1e72200cf608328538f310bd004033497fc",
+  "phase": "failed",
+  "workers": [
+    {
+      "node": "A100",
+      "slot": 0,
+      "pid": 55776,
+      "completed_samples": 0,
+      "started_at_beijing": "2026-10-31T00:40:51.246113+08:00",
+      "state": "probe_ready",
+      "updated_at_beijing": "2026-10-31T00:41:29.429859+08:00"
+    },
+    {
+      "node": "A100",
+      "slot": 1,
+      "pid": 55777,
+      "completed_samples": 0,
+      "started_at_beijing": "2026-10-31T00:40:51.287592+08:00",
+      "state": "probe_ready",
+      "updated_at_beijing": "2026-10-31T00:42:30.501610+08:00"
+    },
+    {
+      "node": "A100",
+      "slot": 2,
+      "pid": 55778,
+      "completed_samples": 0,
+      "started_at_beijing": "2026-10-31T00:40:51.290234+08:00",
+      "state": "probe_ready",
+      "updated_at_beijing": "2026-10-31T00:42:01.154723+08:00"
+    }
+  ],
+  "time_beijing": "2026-10-31T00:52:45.163512+08:00",
+  "pids": {
+    "0": 56727,
+    "1": 56611,
+    "2": 56837
+  },
+  "error": "ValueError('Repeated inference failure')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/execution_v2.py\", line 193, in pipeline\n    retries[slot]+=1;require(retries[slot]<=2,'Repeated inference failure');time.sleep(3);procs[slot]=start('infer',slot)\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_runtime/common.py\", line 25, in require\n    if not test:raise ValueError(message)\nValueError: Repeated inference failure\n"
+}

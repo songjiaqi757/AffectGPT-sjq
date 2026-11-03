@@ -1,0 +1,368 @@
+[
+  {
+    "dataset": "MER2023",
+    "sample_id": "MER2023::sample_00001998",
+    "texts": {
+      "A": "",
+      "B": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; text: exclamation interjection; text: desire need; audio: intonation rising; visual: brows raised; visual: eyes squinted; visual: mouth corners down",
+      "C": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; text: exclamation interjection; text: desire need; audio: intonation rising; visual: brows raised; visual: eyes squinted; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+      "D": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; text: exclamation interjection; text: desire need; audio: intonation rising; visual: brows raised; visual: eyes squinted; visual: mouth corners down",
+      "E": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; text: exclamation interjection; text: desire need; audio: intonation rising; visual: brows raised; visual: eyes squinted; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+      "F": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; text: exclamation interjection; text: desire need; audio: intonation rising; visual: brows raised; visual: eyes squinted; visual: mouth corners down\nAppraisal alternatives to check: goal relevance: agr relevant (tentative); goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)"
+    },
+    "infos": {
+      "A": {
+        "ablation": "A",
+        "ablation_description": "No extra evidence",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 0,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": true,
+        "cues_displayed": 0,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dc55d5d70c0e54c1bbaf6fc2d4a2210c920a252f645530575ea1023d104f14db",
+        "graph_text_id": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+      },
+      "B": {
+        "ablation": "B",
+        "ablation_description": "Cue only",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 68,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 8,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dc55d5d70c0e54c1bbaf6fc2d4a2210c920a252f645530575ea1023d104f14db",
+        "graph_text_id": "8d3234f1dc5cc7c64a2a4d8ac2c4be9597c9bcf0fe185e4c383798d3768a758e"
+      },
+      "C": {
+        "ablation": "C",
+        "ablation_description": "Cue plus Appraisal",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 149,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 8,
+        "appraisals_displayed": 11,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dc55d5d70c0e54c1bbaf6fc2d4a2210c920a252f645530575ea1023d104f14db",
+        "graph_text_id": "3590e739edf220b34a9db6d05276a8fc3abfd255133fdbabd74ea1888861d330"
+      },
+      "D": {
+        "ablation": "D",
+        "ablation_description": "Cue plus emotion candidates",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 68,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 8,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dc55d5d70c0e54c1bbaf6fc2d4a2210c920a252f645530575ea1023d104f14db",
+        "graph_text_id": "8d3234f1dc5cc7c64a2a4d8ac2c4be9597c9bcf0fe185e4c383798d3768a758e"
+      },
+      "E": {
+        "ablation": "E",
+        "ablation_description": "Cue plus Appraisal plus emotions",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 149,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 8,
+        "appraisals_displayed": 11,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dc55d5d70c0e54c1bbaf6fc2d4a2210c920a252f645530575ea1023d104f14db",
+        "graph_text_id": "3590e739edf220b34a9db6d05276a8fc3abfd255133fdbabd74ea1888861d330"
+      },
+      "F": {
+        "ablation": "F",
+        "ablation_description": "Same semantic fields as E; explicit alternatives and uncertainty",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 155,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 8,
+        "appraisals_displayed": 11,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dc55d5d70c0e54c1bbaf6fc2d4a2210c920a252f645530575ea1023d104f14db",
+        "graph_text_id": "c712f66d23af50695e3c6ed1483897a41290ef4dbbd3945f22c51f6980da20ae"
+      }
+    }
+  },
+  {
+    "dataset": "SIMS",
+    "sample_id": "SIMS::video_0003_0006",
+    "texts": {
+      "A": "",
+      "B": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened",
+      "C": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+      "D": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened",
+      "E": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+      "F": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal alternatives to check: goal relevance: agr irrelevant (tentative); goal congruence: agc incongruent OR agc congruent (unresolved); expectedness: aex unexpected (tentative); agency: aag other OR aag self (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp high OR acp low (unresolved)"
+    },
+    "infos": {
+      "A": {
+        "ablation": "A",
+        "ablation_description": "No extra evidence",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 0,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": true,
+        "cues_displayed": 0,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dabe0fa4ff0cd387ea6d0fe81cb504f69e7be4d6a78ffe6e29bec0152da0ac85",
+        "graph_text_id": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+      },
+      "B": {
+        "ablation": "B",
+        "ablation_description": "Cue only",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 47,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 5,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dabe0fa4ff0cd387ea6d0fe81cb504f69e7be4d6a78ffe6e29bec0152da0ac85",
+        "graph_text_id": "b05f3062adf557a98d053985eaeb943cf9c3366d5830b68af22e46d0476fdea0"
+      },
+      "C": {
+        "ablation": "C",
+        "ablation_description": "Cue plus Appraisal",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 121,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 5,
+        "appraisals_displayed": 10,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dabe0fa4ff0cd387ea6d0fe81cb504f69e7be4d6a78ffe6e29bec0152da0ac85",
+        "graph_text_id": "0ccc11da79f3237e7a04fe85e639f9bd428e49eb3de98d53c796e8d5d7af482d"
+      },
+      "D": {
+        "ablation": "D",
+        "ablation_description": "Cue plus emotion candidates",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 47,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 5,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dabe0fa4ff0cd387ea6d0fe81cb504f69e7be4d6a78ffe6e29bec0152da0ac85",
+        "graph_text_id": "b05f3062adf557a98d053985eaeb943cf9c3366d5830b68af22e46d0476fdea0"
+      },
+      "E": {
+        "ablation": "E",
+        "ablation_description": "Cue plus Appraisal plus emotions",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 121,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 5,
+        "appraisals_displayed": 10,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dabe0fa4ff0cd387ea6d0fe81cb504f69e7be4d6a78ffe6e29bec0152da0ac85",
+        "graph_text_id": "0ccc11da79f3237e7a04fe85e639f9bd428e49eb3de98d53c796e8d5d7af482d"
+      },
+      "F": {
+        "ablation": "F",
+        "ablation_description": "Same semantic fields as E; explicit alternatives and uncertainty",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 130,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 5,
+        "appraisals_displayed": 10,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "dabe0fa4ff0cd387ea6d0fe81cb504f69e7be4d6a78ffe6e29bec0152da0ac85",
+        "graph_text_id": "f579ce8c78d13c9fa94be7af3b2ce87ffffe7c4fac527d0c5651aab64b868265"
+      }
+    }
+  },
+  {
+    "dataset": "OVMERDPlus",
+    "sample_id": "OVMERDPlus::samplenew3_00000062",
+    "texts": {
+      "A": "",
+      "B": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down",
+      "C": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+      "D": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down",
+      "E": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+      "F": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: contrast present; text: intensifier present; text: explicit causal attribution other; audio: speech rate rel fast; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal alternatives to check: goal relevance: agr irrelevant OR agr relevant (unresolved); goal congruence: agc incongruent OR agc mixed (unresolved); expectedness: aex unexpected OR aex expected (unresolved); agency: aag other OR aag circumstance (unresolved); certainty: act uncertain OR act certain (unresolved); coping potential: acp low OR acp high (unresolved)"
+    },
+    "infos": {
+      "A": {
+        "ablation": "A",
+        "ablation_description": "No extra evidence",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 0,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": true,
+        "cues_displayed": 0,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "3889982c6618c7e8a853ea8ec8233e351241514430fc84e995927f333f23d423",
+        "graph_text_id": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+      },
+      "B": {
+        "ablation": "B",
+        "ablation_description": "Cue only",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 106,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 14,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "3889982c6618c7e8a853ea8ec8233e351241514430fc84e995927f333f23d423",
+        "graph_text_id": "23ff71c332498af4f6c2ed68e22b3fc2517a271d21dafe27dcd5271d6fd51953"
+      },
+      "C": {
+        "ablation": "C",
+        "ablation_description": "Cue plus Appraisal",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 192,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 14,
+        "appraisals_displayed": 12,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "3889982c6618c7e8a853ea8ec8233e351241514430fc84e995927f333f23d423",
+        "graph_text_id": "ba82733efc3be953f0e29a2c6a7373dabcc2a0362db174d9198b9c159545a190"
+      },
+      "D": {
+        "ablation": "D",
+        "ablation_description": "Cue plus emotion candidates",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 106,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 14,
+        "appraisals_displayed": 0,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "3889982c6618c7e8a853ea8ec8233e351241514430fc84e995927f333f23d423",
+        "graph_text_id": "23ff71c332498af4f6c2ed68e22b3fc2517a271d21dafe27dcd5271d6fd51953"
+      },
+      "E": {
+        "ablation": "E",
+        "ablation_description": "Cue plus Appraisal plus emotions",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 192,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 14,
+        "appraisals_displayed": 12,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "3889982c6618c7e8a853ea8ec8233e351241514430fc84e995927f333f23d423",
+        "graph_text_id": "ba82733efc3be953f0e29a2c6a7373dabcc2a0362db174d9198b9c159545a190"
+      },
+      "F": {
+        "ablation": "F",
+        "ablation_description": "Same semantic fields as E; explicit alternatives and uncertainty",
+        "evidence_level": 2,
+        "gate_reasons": [
+          "emotion_support_not_separated"
+        ],
+        "gate_frozen": true,
+        "graph_tokens": 195,
+        "omitted_evidence": 0,
+        "displayed_paths": 0,
+        "fallback": false,
+        "cues_displayed": 14,
+        "appraisals_displayed": 12,
+        "emotion_candidates_displayed": 0,
+        "shared_semantic_id": "3889982c6618c7e8a853ea8ec8233e351241514430fc84e995927f333f23d423",
+        "graph_text_id": "39f61c9653cb40d1ff07b3e0fb74c52e4459165de5eb62c95c7bca76880948f0"
+      }
+    }
+  }
+]

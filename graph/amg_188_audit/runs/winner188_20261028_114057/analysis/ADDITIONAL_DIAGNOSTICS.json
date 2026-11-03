@@ -1,0 +1,220 @@
+{
+  "finished_at_beijing": "2026-10-28T16:09:54.405774+08:00",
+  "failure_persistence": {
+    "MER2023": {
+      "scorable_diagnostic_samples": 323,
+      "P_zero_or_wrong": 37,
+      "all_six_zero_or_wrong": 25,
+      "at_least_one_alternative_nonzero_or_correct": 12
+    },
+    "MER2024": {
+      "scorable_diagnostic_samples": 968,
+      "P_zero_or_wrong": 94,
+      "all_six_zero_or_wrong": 53,
+      "at_least_one_alternative_nonzero_or_correct": 41
+    },
+    "MELD": {
+      "scorable_diagnostic_samples": 1354,
+      "P_zero_or_wrong": 341,
+      "all_six_zero_or_wrong": 273,
+      "at_least_one_alternative_nonzero_or_correct": 68
+    },
+    "IEMOCAPFour": {
+      "scorable_diagnostic_samples": 857,
+      "P_zero_or_wrong": 227,
+      "all_six_zero_or_wrong": 172,
+      "at_least_one_alternative_nonzero_or_correct": 55
+    },
+    "CMUMOSI": {
+      "scorable_diagnostic_samples": 656,
+      "P_zero_or_wrong": 113,
+      "all_six_zero_or_wrong": 83,
+      "at_least_one_alternative_nonzero_or_correct": 30
+    },
+    "CMUMOSEI": {
+      "scorable_diagnostic_samples": 3634,
+      "P_zero_or_wrong": 722,
+      "all_six_zero_or_wrong": 521,
+      "at_least_one_alternative_nonzero_or_correct": 201
+    },
+    "SIMS": {
+      "scorable_diagnostic_samples": 388,
+      "P_zero_or_wrong": 40,
+      "all_six_zero_or_wrong": 34,
+      "at_least_one_alternative_nonzero_or_correct": 6
+    },
+    "SIMSv2": {
+      "scorable_diagnostic_samples": 911,
+      "P_zero_or_wrong": 127,
+      "all_six_zero_or_wrong": 94,
+      "at_least_one_alternative_nonzero_or_correct": 33
+    },
+    "OVMERDPlus": {
+      "scorable_diagnostic_samples": 531,
+      "P_zero_or_wrong": 56,
+      "all_six_zero_or_wrong": 44,
+      "at_least_one_alternative_nonzero_or_correct": 12
+    }
+  },
+  "neutral_separate_accuracy": {
+    "CMUMOSI": [
+      {
+        "contrast": "C-B",
+        "n": 656,
+        "corrected": 24,
+        "harmed": 16,
+        "old_accuracy_pct": 76.98170731707317,
+        "new_accuracy_pct": 78.20121951219512
+      },
+      {
+        "contrast": "E-C",
+        "n": 656,
+        "corrected": 4,
+        "harmed": 9,
+        "old_accuracy_pct": 78.20121951219512,
+        "new_accuracy_pct": 77.4390243902439
+      },
+      {
+        "contrast": "C-P",
+        "n": 656,
+        "corrected": 11,
+        "harmed": 7,
+        "old_accuracy_pct": 77.59146341463415,
+        "new_accuracy_pct": 78.20121951219512
+      }
+    ],
+    "CMUMOSEI": [
+      {
+        "contrast": "C-B",
+        "n": 3634,
+        "corrected": 108,
+        "harmed": 119,
+        "old_accuracy_pct": 75.2063841496973,
+        "new_accuracy_pct": 74.90368739680792
+      },
+      {
+        "contrast": "E-C",
+        "n": 3634,
+        "corrected": 33,
+        "harmed": 41,
+        "old_accuracy_pct": 74.90368739680792,
+        "new_accuracy_pct": 74.68354430379746
+      },
+      {
+        "contrast": "C-P",
+        "n": 3634,
+        "corrected": 38,
+        "harmed": 35,
+        "old_accuracy_pct": 74.821133736929,
+        "new_accuracy_pct": 74.90368739680792
+      }
+    ],
+    "SIMS": [
+      {
+        "contrast": "C-B",
+        "n": 388,
+        "corrected": 14,
+        "harmed": 5,
+        "old_accuracy_pct": 84.5360824742268,
+        "new_accuracy_pct": 86.85567010309278
+      },
+      {
+        "contrast": "E-C",
+        "n": 388,
+        "corrected": 1,
+        "harmed": 1,
+        "old_accuracy_pct": 86.85567010309278,
+        "new_accuracy_pct": 86.85567010309278
+      },
+      {
+        "contrast": "C-P",
+        "n": 388,
+        "corrected": 2,
+        "harmed": 1,
+        "old_accuracy_pct": 86.5979381443299,
+        "new_accuracy_pct": 86.85567010309278
+      }
+    ],
+    "SIMSv2": [
+      {
+        "contrast": "C-B",
+        "n": 911,
+        "corrected": 25,
+        "harmed": 18,
+        "old_accuracy_pct": 83.09549945115258,
+        "new_accuracy_pct": 83.86388583973655
+      },
+      {
+        "contrast": "E-C",
+        "n": 911,
+        "corrected": 5,
+        "harmed": 6,
+        "old_accuracy_pct": 83.86388583973655,
+        "new_accuracy_pct": 83.75411635565312
+      },
+      {
+        "contrast": "C-P",
+        "n": 911,
+        "corrected": 13,
+        "harmed": 12,
+        "old_accuracy_pct": 83.75411635565312,
+        "new_accuracy_pct": 83.86388583973655
+      }
+    ]
+  },
+  "source_artifact_hashes": {},
+  "dev_media_current_recheck": {
+    "MELD": {
+      "checked": 256,
+      "audio_present": 0,
+      "face_present": 0,
+      "video_present": 0,
+      "complete_triplets": 0
+    },
+    "CMUMOSI": {
+      "checked": 229,
+      "audio_present": 0,
+      "face_present": 0,
+      "video_present": 0,
+      "complete_triplets": 0
+    },
+    "CMUMOSEI": {
+      "checked": 256,
+      "audio_present": 0,
+      "face_present": 0,
+      "video_present": 0,
+      "complete_triplets": 0
+    },
+    "SIMS": {
+      "checked": 256,
+      "audio_present": 0,
+      "face_present": 0,
+      "video_present": 0,
+      "complete_triplets": 0
+    },
+    "SIMSv2": {
+      "checked": 256,
+      "audio_present": 0,
+      "face_present": 0,
+      "video_present": 0,
+      "complete_triplets": 0
+    }
+  },
+  "notes": [
+    "Failure persistence combines categorical zero-HIT, polarity error, OV zero overlap under existing mapping; not all are semantic failures.",
+    "Categorical per-sample counts omit references with no mapped wheel (including neutral); valid wheel counts vary by class. OV case quality is mean(P+R)/2 diagnostic, not additive contribution to official Fs.",
+    "Official polarity evaluation removes GT=0, then binarizes prediction>0, so predicted neutral is nonpositive. Supplemental accuracy counts predicted neutral as wrong for nonzero GT.",
+    "Resampling is conditional on one set of generations and judges; no multiplicity adjustment; inferred video/dialogue grouping is not a verified speaker-independent split."
+  ],
+  "all54_raw_prediction_hashes_match_scores": true,
+  "reading_pool": {
+    "contrast_entries": 175,
+    "unique_dataset_name_cases": 114
+  },
+  "historical_anchor_mean": 75.43340005789155,
+  "test_selected_condition_oracle_mean": 75.82263652165125,
+  "failure_total": {
+    "P_zero_or_wrong": 1757,
+    "all_six_zero_or_wrong": 1299
+  }
+}

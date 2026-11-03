@@ -1,0 +1,47 @@
+{
+  "version": "appraisal_ontology_v2.3",
+  "dimensions": {
+    "APP_GOAL_RELEVANCE": [
+      "AGR_RELEVANT",
+      "AGR_IRRELEVANT"
+    ],
+    "APP_GOAL_CONGRUENCE": [
+      "AGC_CONGRUENT",
+      "AGC_INCONGRUENT",
+      "AGC_MIXED"
+    ],
+    "APP_EXPECTEDNESS": [
+      "AEX_EXPECTED",
+      "AEX_UNEXPECTED"
+    ],
+    "APP_AGENCY": [
+      "AAG_SELF",
+      "AAG_OTHER",
+      "AAG_CIRCUMSTANCE",
+      "AAG_SHARED"
+    ],
+    "APP_CERTAINTY": [
+      "ACT_CERTAIN",
+      "ACT_UNCERTAIN"
+    ],
+    "APP_COPING_POTENTIAL": [
+      "ACP_HIGH",
+      "ACP_LOW",
+      "ACP_MIXED"
+    ]
+  },
+  "unknown_reason_codes": [
+    "appraisal_holder_unclear",
+    "causal_attribution_ambiguous",
+    "certainty_not_expressed",
+    "conflicting_evidence",
+    "coping_evidence_absent",
+    "dimension_not_applicable",
+    "event_goal_relation_unclear",
+    "evidence_indirect_only",
+    "goal_not_identifiable",
+    "insufficient_evidence",
+    "prior_expectation_not_identifiable",
+    "state_not_explicitly_supported"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "state": "failed",
+  "gpu": 0,
+  "pid": 1064261,
+  "started_at_beijing": "2026-10-25T00:20:24.470307+08:00",
+  "completed_unique_this_worker": 124,
+  "updated_at_beijing": "2026-10-25T00:21:15.856522+08:00",
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512
+  },
+  "job_id": "batch_0000",
+  "batch_unique": 128,
+  "error": "ValueError('Invalid responses after retries')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/amg_polarity/pipeline.py\", line 69, in worker\n    require(not todo,\"Invalid responses after retries\");j.update(state=\"complete\",finished_at_beijing=now());update(jobs=counts(run))\n  File \"/ai/sjq/AffectGPT-sjq/amg_runtime/common.py\", line 23, in require\n    if not test:raise ValueError(message)\nValueError: Invalid responses after retries\n"
+}

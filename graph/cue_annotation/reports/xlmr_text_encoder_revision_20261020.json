@@ -1,0 +1,27 @@
+{
+  "revised_at_beijing": "2026-10-20T11:38:57.266425+08:00",
+  "model_id": "FacebookAI/xlm-roberta-base",
+  "local_model_dir": "/ai/sjq/AffectGPT-sjq/AffectGPT/models/xlm-roberta-base",
+  "plan": "/ai/sjq/AffectGPT-sjq/方案.md",
+  "before_sha256": "1e0c5ffdac9764aaffb4a087f949a8899e14a88dce3142345dde3293f3011764",
+  "after_sha256": "fe9785d3fb6eeca7566954ae5c1d7239c2d213fd49e49dcfdc7cf3b72e7d497a",
+  "backup": "/ai/sjq/AffectGPT-sjq/cue_annotation/reports/history/方案.before_xlmr_revision_20261020_113857.md",
+  "diff": "/ai/sjq/AffectGPT-sjq/cue_annotation/reports/history/plan_xlmr_revision_20261020_113857.diff",
+  "download_status_at_revision": {
+    "status": "downloading",
+    "scope": "full_repository",
+    "repo_id": "FacebookAI/xlm-roberta-base",
+    "pid": 4146533,
+    "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "expected_files": 11,
+    "expected_bytes": 6352430498,
+    "completed_files": 3,
+    "current_file": "flax_model.msgpack",
+    "current_attempt": 1
+  },
+  "tokenizer_offline_load_passed": false,
+  "token_length_statistics": "pending; prior encoder statistics not reused",
+  "max_length": 512,
+  "max_length_status": "provisional; validate after tokenizer download",
+  "scope": "plan edit and remote verification record only; no training; existing download not started or interrupted"
+}

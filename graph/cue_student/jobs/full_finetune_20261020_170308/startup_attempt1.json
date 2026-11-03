@@ -1,0 +1,81 @@
+{
+  "job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308",
+  "supervisor_pid": 29569,
+  "phase": "startup_failed_correcting",
+  "started_at": "2026-10-20T17:13:02.679569+08:00",
+  "runs": {
+    "visual_temporal_full": {
+      "pid": 29595,
+      "state": "starting",
+      "started_at": "2026-10-20T17:13:02.757054+08:00",
+      "physical_gpu": 1,
+      "cuda_visible_devices": "GPU-c640c519-51f2-dca4-9e62-d1ee667f79cb",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/configs/visual_temporal_full.json",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/visual_temporal_full",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/visual_temporal_full.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/memory_limited_train.py",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/full_finetune_20261020_170308/configs/visual_temporal_full.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/visual_temporal_full",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "fresh_pretrained_start": true,
+      "encoder_train": "full",
+      "gradient_checkpointing": true,
+      "cuda_memory_fraction": 0.2,
+      "memory_allocator_cap_mib": 16384.0,
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "loader_optimization": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "last_event": null
+    }
+  },
+  "release": "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+  "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224",
+  "baseline_job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131",
+  "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+  "memory_budgets": {
+    "0": {
+      "existing_used_mib": 15638,
+      "new_processes": 3,
+      "max_new_allocator_mib": 49152.0,
+      "reserve_mib": 8192,
+      "total_mib": 81920
+    },
+    "1": {
+      "existing_used_mib": 3815,
+      "new_processes": 1,
+      "max_new_allocator_mib": 16384.0,
+      "reserve_mib": 8192,
+      "total_mib": 81920
+    }
+  },
+  "assignment": {
+    "audio_full": 0,
+    "audio_temporal_full": 0,
+    "visual_full": 0,
+    "visual_temporal_full": 1
+  },
+  "runner_sha256": "cdbeecf71344c29a18af0d215cc7c1f4b4b158aa94b24045df13620c1adaba1d",
+  "source_unchanged": true,
+  "startup": "Start one new process at a time and wait for its first optimizer update before starting the next; each new process has a 20% allocator cap.",
+  "updated_at": "2026-10-20T17:16:13.428248+08:00",
+  "startup_error": "Missing multiprocessing __main__ guard in memory wrapper; no first optimizer update completed."
+}

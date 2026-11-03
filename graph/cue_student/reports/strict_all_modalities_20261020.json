@@ -1,0 +1,117 @@
+{
+  "verified_at": "2026-10-20T16:46:08.648347+08:00",
+  "phase": "training",
+  "policy": "all_modalities_succeeded_v1",
+  "excluded_samples": 72,
+  "failed_tasks": 78,
+  "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224",
+  "roles": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "unit_tests": 64,
+  "integration_tests_passed": true,
+  "exclusion_intersections": {
+    "pseudo_train": [],
+    "pseudo_validation": [],
+    "gold_audit": [],
+    "diagnostic_reserved": []
+  },
+  "runs": {
+    "text": {
+      "pid": 21628,
+      "step": 200,
+      "epoch": 0,
+      "masked_bce": 0.3246037226851268,
+      "grad_norm": 0.6513999700546265,
+      "train_samples": 27673,
+      "validation_samples": 3076,
+      "encoder_train": "full",
+      "loader": {
+        "num_workers": 0,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "fresh_start": true
+    },
+    "audio": {
+      "pid": 21641,
+      "step": 167,
+      "epoch": 0,
+      "masked_bce": 0.5786149024963378,
+      "grad_norm": 0.1335059106349945,
+      "train_samples": 27679,
+      "validation_samples": 3076,
+      "encoder_train": "frozen",
+      "loader": {
+        "num_workers": 2,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "fresh_start": true
+    },
+    "visual": {
+      "pid": 21654,
+      "step": 25,
+      "epoch": 0,
+      "masked_bce": 0.683315810949906,
+      "grad_norm": 0.5236382484436035,
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "encoder_train": "frozen",
+      "loader": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "fresh_start": true
+    },
+    "visual_temporal": {
+      "pid": 21667,
+      "step": 25,
+      "epoch": 0,
+      "masked_bce": 0.6767648061116537,
+      "grad_norm": 0.9208258986473083,
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "encoder_train": "frozen",
+      "loader": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "fresh_start": true
+    },
+    "audio_temporal": {
+      "pid": 21690,
+      "step": 105,
+      "epoch": 0,
+      "masked_bce": 0.31789072657800826,
+      "grad_norm": 0.5681134462356567,
+      "train_samples": 27679,
+      "validation_samples": 3076,
+      "encoder_train": "frozen",
+      "loader": {
+        "num_workers": 2,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "fresh_start": true
+    }
+  },
+  "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+  "source_annotations_unchanged": true
+}

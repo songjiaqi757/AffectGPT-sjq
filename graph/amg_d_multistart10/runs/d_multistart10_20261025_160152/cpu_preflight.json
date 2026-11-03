@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "cpu_only": true,
+  "original_starts": {
+    "from_30": {
+      "base_epoch": 30,
+      "sha256": "73fb1c257c0482e792ecad2ca0706ecccce04639e209071793484b65a97df380",
+      "native_optimizer_groups": [
+        402,
+        10
+      ],
+      "new_head_seed": 4242,
+      "additional_epochs": 10,
+      "total_steps": 50000
+    },
+    "from_40": {
+      "base_epoch": 40,
+      "sha256": "cfcb328799605ebfa3839bd0a50a0f7f2b93efd2992550c3a7e482297c8fbfc0",
+      "native_optimizer_groups": [
+        402,
+        10
+      ],
+      "new_head_seed": 4242,
+      "additional_epochs": 10,
+      "total_steps": 50000
+    },
+    "from_45": {
+      "base_epoch": 45,
+      "sha256": "1a10c268a632969f6f2bc0f31910688c8c55f03661d99f3c46be9db69c8de480",
+      "native_optimizer_groups": [
+        402,
+        10
+      ],
+      "new_head_seed": 4242,
+      "additional_epochs": 10,
+      "total_steps": 50000
+    },
+    "from_50": {
+      "base_epoch": 50,
+      "sha256": "5cc4c9b1a42347e7ffcce995605a98996bf0905420622d1a5d59369e86263f1e",
+      "native_optimizer_groups": [
+        402,
+        10
+      ],
+      "new_head_seed": 4242,
+      "additional_epochs": 10,
+      "total_steps": 50000
+    }
+  },
+  "reused_weights": 10,
+  "new_weights": 40,
+  "training_records": 30755,
+  "audit_excluded": 500,
+  "polarity_valid": 30688,
+  "polarity_ignored": 67,
+  "paired_graph_keep_fraction": 0.4977076898065355,
+  "accepted_grouped_graph_oof_verified": true,
+  "all_D_settings_preserved": true,
+  "target_caches_verified": 12799,
+  "native_truth_counts": {
+    "MER2023": 411,
+    "MER2024": 1169,
+    "MELD": 2610,
+    "IEMOCAPFour": 1241,
+    "CMUMOSI": 686,
+    "CMUMOSEI": 4659,
+    "SIMS": 457,
+    "SIMSv2": 1034,
+    "OVMERDPlus": 532
+  },
+  "new_inference_jobs": 420,
+  "reused_jobs": 30,
+  "total_jobs": 450,
+  "shards": 10010,
+  "new_predictions": 625950,
+  "combined_predictions": 639950,
+  "exclusive_lpt": true,
+  "original_evaluation_resources_preserved": true,
+  "global_scoring_barrier": true,
+  "completed_at_beijing": "2026-10-25T16:09:06.229510+08:00"
+}

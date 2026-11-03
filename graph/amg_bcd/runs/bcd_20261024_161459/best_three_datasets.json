@@ -1,0 +1,198 @@
+{
+  "best_bcd": {
+    "MER2023": {
+      "job_id": "C_epoch_40_MER2023",
+      "variant": "C",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7721646449779223,
+      "metrics": {
+        "HIT": 0.7721646449779223
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/C/checkpoint_000040_loss_0.657.pth",
+        "sha256": "195c1a372a338ad84a924b20dae7e204fd8d2953b2d4f47239ff0d991aa66209",
+        "epoch": 40,
+        "loss": 0.6572839579030871
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/predictions/C_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "df8c515106be12ec717542db99438893766b950bbe9109114a3cb72a03f832b5",
+      "plan_id": "77b13587cd9455fc51b31830e85f13ecdf561096fbd0ab2d7c23491ab74b2d93",
+      "evaluation_resources_id": "1e0799023532c35c7d83d882d9f096658f83b892906b851f2b3b2cc25bc383e6",
+      "gpu": 0,
+      "completed_at_beijing": "2026-10-24T23:39:23.102976+08:00"
+    },
+    "SIMS": {
+      "job_id": "D_epoch_37_SIMS",
+      "variant": "D",
+      "base_epoch": 35,
+      "epoch": 37,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8746660998334927,
+      "metrics": {
+        "WAF": 0.8746660998334927,
+        "ACC": 0.8737113402061856
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/D/checkpoint_000037_loss_0.722.pth",
+        "sha256": "9b091b943112f9d917d48a7979964d79d9e46bf6984b12acf65c33e1f56c4001",
+        "epoch": 37,
+        "loss": 0.7218566797286272
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/predictions/D_epoch_37_SIMS/name2reason.npz",
+      "raw_sha256": "8f5a1489d4b83bf2d6e70cc13fdfc6e709b6d34503e200600f04967a84c4bdef",
+      "plan_id": "77b13587cd9455fc51b31830e85f13ecdf561096fbd0ab2d7c23491ab74b2d93",
+      "evaluation_resources_id": "1e0799023532c35c7d83d882d9f096658f83b892906b851f2b3b2cc25bc383e6",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-24T23:35:13.677125+08:00"
+    },
+    "OVMERDPlus": {
+      "job_id": "B_epoch_39_OVMERDPlus",
+      "variant": "B",
+      "base_epoch": 35,
+      "epoch": 39,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "main_metric": "F_s",
+      "main_score": 0.6243555060100956,
+      "metrics": {
+        "F_s": 0.6243555060100956,
+        "P_s": 0.6268270098569044,
+        "R_s": 0.622966489377626
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B/checkpoint_000039_loss_0.697.pth",
+        "sha256": "29caceb8c231a7266b430833947d8bcc6b1adb0ce00c62fd9165b01dd5a23bb7",
+        "epoch": 39,
+        "loss": 0.6967843732491136
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/predictions/B_epoch_39_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "16fd960a5265f288b6c54b7a2289b447df57a531749932dd68efcd5c03627346",
+      "plan_id": "77b13587cd9455fc51b31830e85f13ecdf561096fbd0ab2d7c23491ab74b2d93",
+      "evaluation_resources_id": "1e0799023532c35c7d83d882d9f096658f83b892906b851f2b3b2cc25bc383e6",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-24T23:36:30.206638+08:00"
+    }
+  },
+  "best_fixed_checkpoint": {
+    "variant": "D",
+    "base_epoch": 35,
+    "epoch": 38,
+    "datasets_completed": 3,
+    "three_dataset_mean": 0.7489531826821265,
+    "SIMS_WAF": 0.8672239910208853,
+    "SIMS_ACC": 0.865979381443299,
+    "OVMERDPlus_F_s": 0.6150108805802826,
+    "OVMERDPlus_P_s": 0.6038103074703338,
+    "OVMERDPlus_R_s": 0.6279819160655895,
+    "MER2023_HIT": 0.7646246764452114
+  },
+  "a_historical": [
+    {
+      "epoch": 36,
+      "mean": 0.731298839789257,
+      "MER2023": 0.7229904075521494,
+      "OVMERDPlus": 0.6086394637242314,
+      "SIMS": 0.8622666480913903
+    },
+    {
+      "epoch": 37,
+      "mean": 0.7384252118982634,
+      "MER2023": 0.7426605085519972,
+      "OVMERDPlus": 0.6128262549139147,
+      "SIMS": 0.8597888722288782
+    },
+    {
+      "epoch": 38,
+      "mean": 0.7365005659513718,
+      "MER2023": 0.7463391361721565,
+      "OVMERDPlus": 0.6185150297379274,
+      "SIMS": 0.8446475319440315
+    },
+    {
+      "epoch": 39,
+      "mean": 0.7395900038519823,
+      "MER2023": 0.7528234279043801,
+      "OVMERDPlus": 0.6135887332949292,
+      "SIMS": 0.8523578503566375
+    },
+    {
+      "epoch": 40,
+      "mean": 0.7571856233400455,
+      "MER2023": 0.7735126630462366,
+      "OVMERDPlus": 0.6281952588443297,
+      "SIMS": 0.8698489481295701
+    }
+  ],
+  "combined_prior_25_and_bcd_15": {
+    "MER2023": {
+      "source": "historical_full_graph",
+      "base_epoch": "50",
+      "epoch": "52",
+      "dataset": "MER2023",
+      "samples": "411",
+      "main_metric": "HIT",
+      "main_score": "0.7872445820433436",
+      "HIT": "0.7872445820433436",
+      "WAF": "",
+      "ACC": "",
+      "F_s": "",
+      "P_s": "",
+      "R_s": "",
+      "completed_at_beijing": "2026-10-24T15:07:49.270310+08:00"
+    },
+    "SIMS": {
+      "source": "BCD",
+      "job_id": "D_epoch_37_SIMS",
+      "variant": "D",
+      "base_epoch": 35,
+      "epoch": 37,
+      "dataset": "SIMS",
+      "samples": 457,
+      "main_metric": "WAF",
+      "main_score": 0.8746660998334927,
+      "metrics": {
+        "WAF": 0.8746660998334927,
+        "ACC": 0.8737113402061856
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/D/checkpoint_000037_loss_0.722.pth",
+        "sha256": "9b091b943112f9d917d48a7979964d79d9e46bf6984b12acf65c33e1f56c4001",
+        "epoch": 37,
+        "loss": 0.7218566797286272
+      },
+      "raw_path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/predictions/D_epoch_37_SIMS/name2reason.npz",
+      "raw_sha256": "8f5a1489d4b83bf2d6e70cc13fdfc6e709b6d34503e200600f04967a84c4bdef",
+      "plan_id": "77b13587cd9455fc51b31830e85f13ecdf561096fbd0ab2d7c23491ab74b2d93",
+      "evaluation_resources_id": "1e0799023532c35c7d83d882d9f096658f83b892906b851f2b3b2cc25bc383e6",
+      "gpu": 1,
+      "completed_at_beijing": "2026-10-24T23:35:13.677125+08:00"
+    },
+    "OVMERDPlus": {
+      "source": "historical_full_graph",
+      "base_epoch": "40",
+      "epoch": "43",
+      "dataset": "OVMERDPlus",
+      "samples": "532",
+      "main_metric": "F_s",
+      "main_score": "0.6315285499420461",
+      "HIT": "",
+      "WAF": "",
+      "ACC": "",
+      "F_s": "0.6315285499420461",
+      "P_s": "0.6193981433647214",
+      "R_s": "0.6448988207699058",
+      "completed_at_beijing": "2026-10-23T16:29:09.302952+08:00"
+    }
+  },
+  "verified": {
+    "weights": 15,
+    "scores": 45,
+    "predictions": 21000
+  }
+}

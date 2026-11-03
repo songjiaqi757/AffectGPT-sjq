@@ -1,0 +1,26 @@
+{
+  "state": "failed",
+  "gpu": 1,
+  "pid": 590496,
+  "started_at_beijing": "2026-10-22T17:53:34.779513+08:00",
+  "updated_at_beijing": "2026-10-23T10:27:05.812552+08:00",
+  "training_queue": {
+    "state": "running",
+    "gpu": 1,
+    "pid": 581656,
+    "queue": [
+      35,
+      45
+    ],
+    "completed": [
+      35
+    ],
+    "started_at_beijing": "2026-10-22T16:54:15.317955+08:00",
+    "updated_at_beijing": "2026-10-23T00:48:59.862079+08:00",
+    "current_base_epoch": 45,
+    "child_pid": 641072,
+    "log": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/train_from_45.log"
+  },
+  "error": "ValueError('Concurrent source capacity probe did not pass')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/amg_inference/controller.py\", line 72, in card\n    require(all(proc.returncode==0 for proc in children) and all(r.get(\"passed\") for r in reports),\"Concurrent source capacity probe did not pass\")\n  File \"/ai/sjq/AffectGPT-sjq/amg_runtime/common.py\", line 23, in require\n    if not test:raise ValueError(message)\nValueError: Concurrent source capacity probe did not pass\n"
+}

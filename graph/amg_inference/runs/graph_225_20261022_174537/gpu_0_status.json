@@ -1,0 +1,40 @@
+{
+  "state": "complete",
+  "gpu": 0,
+  "pid": 772856,
+  "started_at_beijing": "2026-10-23T16:35:51.492020+08:00",
+  "updated_at_beijing": "2026-10-24T13:23:39.374385+08:00",
+  "training_queue": {
+    "state": "running",
+    "gpu": 0,
+    "pid": 581655,
+    "queue": [
+      30,
+      40,
+      50
+    ],
+    "completed": [
+      30,
+      40
+    ],
+    "started_at_beijing": "2026-10-22T16:54:15.317618+08:00",
+    "updated_at_beijing": "2026-10-23T09:02:11.648540+08:00",
+    "current_base_epoch": 50,
+    "child_pid": 701964,
+    "log": "/ai/sjq/AffectGPT-sjq/amg_finetune/runs/graph_continue_no_gc_20261022_164836/train_from_50.log"
+  },
+  "jobs": {
+    "complete": 225
+  },
+  "pids": [
+    779491,
+    779492,
+    779493
+  ],
+  "worker_restarts": [
+    0,
+    0,
+    0
+  ],
+  "finished_at_beijing": "2026-10-24T13:23:39.374362+08:00"
+}

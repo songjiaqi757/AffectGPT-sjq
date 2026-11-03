@@ -1,0 +1,90 @@
+{
+  "state": "complete",
+  "llm_gradient_checkpointing": false,
+  "base_epoch": 30,
+  "physical_gpu": "0",
+  "pid": 1191444,
+  "plan_id": "3f540a56cb950c6abbe1f19680fed158386523b6da6643b37dc87711b2584f54",
+  "started_at_beijing": "2026-10-25T16:09:13.712143+08:00",
+  "completed_steps": 50000,
+  "completed_epochs": 10,
+  "total_steps": 50000,
+  "additional_epochs": 10,
+  "updated_at_beijing": "2026-10-25T22:46:26.214064+08:00",
+  "current_epoch": 40,
+  "epoch_step": 5000,
+  "trainable_parameters": 57168644,
+  "gpu_memory_allocated": 18925254656,
+  "optimizer_updates": 49979,
+  "amp_skipped_steps": 21,
+  "last_loss": 0.6695134043693542,
+  "mean_loss_current_epoch": 0.6880637714505196,
+  "elapsed_training_seconds": 23550.616962194443,
+  "seconds_per_step": 0.47074455741405485,
+  "smoke_passed": true,
+  "gpu_memory_peak": 41643664896,
+  "gpu_memory_reserved": 42920312832,
+  "checkpoints": [
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000031_loss_0.794.pth",
+      "sha256": "b703150186f313673f63caf8d30950f1297830f034589fa0ddb3d2a1dada4d52",
+      "epoch": 31,
+      "loss": 0.7940964272290468
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000032_loss_0.798.pth",
+      "sha256": "7cf751e38217f893934b25bb6d7a4727a95b1d28f99720ef4e5054cb12b7cd3b",
+      "epoch": 32,
+      "loss": 0.7976741279989481
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000033_loss_0.752.pth",
+      "sha256": "126c0e4639ed962587ea10a20eb909d276b4bf78df8e8c977ac91c152f6f3e47",
+      "epoch": 33,
+      "loss": 0.7519832771986723
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000034_loss_0.766.pth",
+      "sha256": "8aae7dec3086ba2471a99ae060606bed4543ff3be27f31b9bd0eede46139cf19",
+      "epoch": 34,
+      "loss": 0.7656450890600681
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000035_loss_0.728.pth",
+      "sha256": "09c21315043ded50d878dae1c1b216697200f04751152cfa2aaf975b3e0cdec2",
+      "epoch": 35,
+      "loss": 0.7275813212901354
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000036_loss_0.741.pth",
+      "sha256": "0d14a392b33be107525df181fef2918a404f9a8618b2cad9b9616c2f921bab76",
+      "epoch": 36,
+      "loss": 0.7405531382277608
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000037_loss_0.706.pth",
+      "sha256": "0c8f0190dbc7a63a04418a148a682f3674dd8ff3ed8dfd9aabd2afe65a9c9ef2",
+      "epoch": 37,
+      "loss": 0.706138793028891
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000038_loss_0.715.pth",
+      "sha256": "d50a844a683cc13ad0a4c9cd7b135f1e219eccdaf1ffa471ccf8d6d9d70303a4",
+      "epoch": 38,
+      "loss": 0.7150226911157369
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000039_loss_0.684.pth",
+      "sha256": "a17559ef4babd325ab8d0a84909be8b240940f949f7cefe110307d5de05029ac",
+      "epoch": 39,
+      "loss": 0.6835042600691319
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_multistart10/runs/d_multistart10_20261025_160152/from_30/checkpoint_000040_loss_0.688.pth",
+      "sha256": "93f7f8ba575318d828a74dff97e791f39651e59a832636ce87e6754e78ac6286",
+      "epoch": 40,
+      "loss": 0.6880637714505196
+    }
+  ],
+  "finished_at_beijing": "2026-10-25T22:46:26.214028+08:00"
+}

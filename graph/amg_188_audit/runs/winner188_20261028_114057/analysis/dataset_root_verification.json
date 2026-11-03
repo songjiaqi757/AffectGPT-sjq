@@ -1,0 +1,331 @@
+{
+  "checked_at_beijing": "2026-10-28T16:14:54.597129+08:00",
+  "root": "/ai/sjq/AffectGPT-sjq/dataset",
+  "datasets": {
+    "MELD": {
+      "resolved": "/ai/sjq/AffectGPT/dataset/meld-process",
+      "symlink": true,
+      "candidates": 256,
+      "folders": {
+        "subaudio": {
+          "files": 2610,
+          "extensions": {
+            ".wav": 2610
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "test_dia0_utt0.wav",
+            "test_dia0_utt1.wav",
+            "test_dia0_utt2.wav"
+          ]
+        },
+        "openface_face": {
+          "files": 2610,
+          "extensions": {
+            ".npy": 2610
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "test_dia0_utt0.npy",
+            "test_dia0_utt1.npy",
+            "test_dia0_utt2.npy"
+          ]
+        },
+        "subvideo": {
+          "files": 2610,
+          "extensions": {
+            ".mp4": 2610
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "test_dia0_utt0.mp4",
+            "test_dia0_utt1.mp4",
+            "test_dia0_utt2.mp4"
+          ]
+        }
+      },
+      "audio_names_equal_current_test": true,
+      "test_size": 2610,
+      "audio_size": 2610,
+      "audio_not_in_test": 0,
+      "test_without_audio": 0
+    },
+    "CMUMOSI": {
+      "resolved": "/ai/sjq/AffectGPT/dataset/cmumosi-process",
+      "symlink": true,
+      "candidates": 229,
+      "folders": {
+        "subaudio": {
+          "files": 686,
+          "extensions": {
+            ".wav": 686
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "c7UH_rxdZv4_1.wav",
+            "c7UH_rxdZv4_10.wav",
+            "c7UH_rxdZv4_11.wav"
+          ]
+        },
+        "openface_face": {
+          "files": 686,
+          "extensions": {
+            ".npy": 686
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "c7UH_rxdZv4_1.npy",
+            "c7UH_rxdZv4_10.npy",
+            "c7UH_rxdZv4_11.npy"
+          ]
+        },
+        "subvideo": {
+          "files": 686,
+          "extensions": {
+            ".mp4": 686
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "c7UH_rxdZv4_1.mp4",
+            "c7UH_rxdZv4_10.mp4",
+            "c7UH_rxdZv4_11.mp4"
+          ]
+        }
+      },
+      "audio_names_equal_current_test": true,
+      "test_size": 686,
+      "audio_size": 686,
+      "audio_not_in_test": 0,
+      "test_without_audio": 0
+    },
+    "CMUMOSEI": {
+      "resolved": "/ai/sjq/AffectGPT/dataset/cmumosei-process",
+      "symlink": true,
+      "candidates": 256,
+      "folders": {
+        "subaudio": {
+          "files": 4659,
+          "extensions": {
+            ".wav": 4659
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "-6rXp3zJ3kc_3.wav",
+            "-6rXp3zJ3kc_8.wav",
+            "-6rXp3zJ3kc_9.wav"
+          ]
+        },
+        "openface_face": {
+          "files": 4659,
+          "extensions": {
+            ".npy": 4659
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "-6rXp3zJ3kc_3.npy",
+            "-6rXp3zJ3kc_8.npy",
+            "-6rXp3zJ3kc_9.npy"
+          ]
+        },
+        "subvideo_new": {
+          "files": 4659,
+          "extensions": {
+            ".mp4": 4659
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "-6rXp3zJ3kc_3.mp4",
+            "-6rXp3zJ3kc_8.mp4",
+            "-6rXp3zJ3kc_9.mp4"
+          ]
+        }
+      },
+      "audio_names_equal_current_test": true,
+      "test_size": 4659,
+      "audio_size": 4659,
+      "audio_not_in_test": 0,
+      "test_without_audio": 0
+    },
+    "SIMS": {
+      "resolved": "/ai/sjq/AffectGPT/dataset/sims-process",
+      "symlink": true,
+      "candidates": 256,
+      "folders": {
+        "audio": {
+          "files": 457,
+          "extensions": {
+            ".wav": 457
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "video_0001_0003.wav",
+            "video_0001_0006.wav",
+            "video_0001_0009.wav"
+          ]
+        },
+        "openface_face": {
+          "files": 457,
+          "extensions": {
+            ".npy": 457
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "video_0001_0003.npy",
+            "video_0001_0006.npy",
+            "video_0001_0009.npy"
+          ]
+        },
+        "video": {
+          "files": 457,
+          "extensions": {
+            ".mp4": 457
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "video_0001_0003.mp4",
+            "video_0001_0006.mp4",
+            "video_0001_0009.mp4"
+          ]
+        }
+      },
+      "audio_names_equal_current_test": true,
+      "test_size": 457,
+      "audio_size": 457,
+      "audio_not_in_test": 0,
+      "test_without_audio": 0
+    },
+    "SIMSv2": {
+      "resolved": "/ai/sjq/AffectGPT/dataset/simsv2-process",
+      "symlink": true,
+      "candidates": 256,
+      "folders": {
+        "audio": {
+          "files": 1034,
+          "extensions": {
+            ".wav": 1034
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "aqgy3_0001_00005.wav",
+            "aqgy3_0001_00014.wav",
+            "aqgy3_0001_00015.wav"
+          ]
+        },
+        "openface_face": {
+          "files": 1034,
+          "extensions": {
+            ".npy": 1034
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "aqgy3_0001_00005.npy",
+            "aqgy3_0001_00014.npy",
+            "aqgy3_0001_00015.npy"
+          ]
+        },
+        "video_new": {
+          "files": 1034,
+          "extensions": {
+            ".mp4": 1034
+          },
+          "candidate_matches": {},
+          "alias_dev_names_for_val": [],
+          "examples": [
+            "aqgy3_0001_00005.mp4",
+            "aqgy3_0001_00014.mp4",
+            "aqgy3_0001_00015.mp4"
+          ]
+        }
+      },
+      "audio_names_equal_current_test": true,
+      "test_size": 1034,
+      "audio_size": 1034,
+      "audio_not_in_test": 0,
+      "test_without_audio": 0
+    }
+  },
+  "mer2025": {
+    "resolved": "/ai/sjq/AffectGPT-sjq/dataset/mer2025-dataset",
+    "media": {
+      "audio": {
+        "entries": 132171,
+        "extensions": {
+          ".wav": 132171
+        },
+        "examples": [
+          "sample_00000000.wav",
+          "sample_00000001.wav",
+          "sample_00000002.wav"
+        ]
+      },
+      "openface_face": {
+        "entries": 132172,
+        "extensions": {
+          "[directory]": 132172
+        },
+        "examples": [
+          "openface_face",
+          "samplenew3_00098101",
+          "samplenew3_00099928"
+        ]
+      },
+      "video": {
+        "entries": 132171,
+        "extensions": {
+          ".mp4": 132171
+        },
+        "examples": [
+          "samplenew4_00004004.mp4",
+          "sample_00003163.mp4",
+          "samplenew3_00022522.mp4"
+        ]
+      }
+    },
+    "tables": {
+      "track1_train_disdim.csv": {
+        "rows": 7369,
+        "columns": [
+          "name",
+          "discrete",
+          "valence"
+        ]
+      },
+      "track2_train_mercaptionplus.csv": {
+        "rows": 31327,
+        "columns": [
+          "name",
+          "openset"
+        ]
+      },
+      "track2_train_mercaption.csv": {
+        "rows": 115595,
+        "columns": [
+          "names",
+          "openset"
+        ]
+      },
+      "track2_train_ovmerd.csv": {
+        "rows": 332,
+        "columns": [
+          "name",
+          "openset"
+        ]
+      }
+    }
+  },
+  "conclusion": "The five benchmark processed media directories contain exactly current test audio membership, not selected official-val media. MER2025 source/train media exists separately; any development use needs source-training/test-overlap and exposure audit."
+}

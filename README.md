@@ -105,3 +105,9 @@ We evaluate the performance of various LLM-based baselines on OV-MERD, including
 ## 🔒 License
 
 This project is released under the Apache 2.0 license as found in the LICENSE file. The service is a research preview intended for **non-commercial use ONLY**. Please get in touch with us if you find any potential violations.
+
+
+## 图相关工程与实验
+
+图构建、标注、训练、消融实验和分析报告统一位于 [graph/](graph/README.md)。
+规范路径及当前结果见 [graph/paths.json](graph/paths.json)。图相关内容使用实际目录，旧根目录入口已移除。

@@ -1,0 +1,406 @@
+{
+  "snapshot_time": "2026-10-20T00:40:09+08:00",
+  "source": "Read-only SQLite transaction plus validated successful JSON files; live run continues",
+  "total_samples": 31327,
+  "total_tasks": 93981,
+  "task_counts": {
+    "failed": 76,
+    "pending": 72786,
+    "running": 32,
+    "succeeded": 21087
+  },
+  "modality_counts": {
+    "text": {
+      "failed": 1,
+      "pending": 24262,
+      "running": 8,
+      "succeeded": 7056
+    },
+    "audio": {
+      "failed": 2,
+      "pending": 24262,
+      "running": 8,
+      "succeeded": 7055
+    },
+    "visual": {
+      "failed": 73,
+      "pending": 24262,
+      "running": 16,
+      "succeeded": 6976
+    }
+  },
+  "completed_samples": 6973,
+  "failed_samples": 74,
+  "successful_cue_rows": 295535,
+  "state_counts": {
+    "text": {
+      "negative": 87177,
+      "positive": 14146,
+      "uncertain": 4317,
+      "unobservable": 200
+    },
+    "audio": {
+      "negative": 69346,
+      "positive": 15422,
+      "unobservable": 24105,
+      "uncertain": 11062
+    },
+    "visual": {
+      "negative": 49269,
+      "positive": 14468,
+      "uncertain": 5157,
+      "unobservable": 866
+    }
+  },
+  "cue_counts": {
+    "text": {
+      "TXT_AFFECT_WORD_POSITIVE": {
+        "negative": 6823,
+        "positive": 233
+      },
+      "TXT_AFFECT_WORD_NEGATIVE": {
+        "positive": 1309,
+        "negative": 5587,
+        "uncertain": 151,
+        "unobservable": 9
+      },
+      "TXT_EVALUATION_POSITIVE": {
+        "negative": 5273,
+        "positive": 1285,
+        "uncertain": 496,
+        "unobservable": 2
+      },
+      "TXT_EVALUATION_NEGATIVE": {
+        "positive": 1879,
+        "negative": 4359,
+        "uncertain": 813,
+        "unobservable": 5
+      },
+      "TXT_NEGATION_PRESENT": {
+        "positive": 2468,
+        "negative": 4413,
+        "uncertain": 173,
+        "unobservable": 2
+      },
+      "TXT_CONTRAST_PRESENT": {
+        "negative": 6230,
+        "uncertain": 338,
+        "positive": 488
+      },
+      "TXT_INTENSIFIER_PRESENT": {
+        "negative": 4287,
+        "positive": 2382,
+        "uncertain": 387
+      },
+      "TXT_UNCERTAINTY_HEDGE": {
+        "negative": 6266,
+        "uncertain": 432,
+        "positive": 358
+      },
+      "TXT_RHETORICAL_QUESTION": {
+        "negative": 5459,
+        "uncertain": 908,
+        "positive": 670,
+        "unobservable": 19
+      },
+      "TXT_EXCLAMATION_INTERJECTION": {
+        "negative": 6339,
+        "positive": 600,
+        "uncertain": 114,
+        "unobservable": 3
+      },
+      "TXT_DESIRE_NEED": {
+        "negative": 5642,
+        "positive": 1335,
+        "uncertain": 77,
+        "unobservable": 2
+      },
+      "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF": {
+        "negative": 6784,
+        "unobservable": 92,
+        "positive": 114,
+        "uncertain": 66
+      },
+      "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER": {
+        "uncertain": 122,
+        "negative": 6382,
+        "positive": 492,
+        "unobservable": 60
+      },
+      "TXT_EXPLICIT_SUCCESS_OUTCOME": {
+        "negative": 6847,
+        "positive": 112,
+        "uncertain": 93,
+        "unobservable": 4
+      },
+      "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME": {
+        "negative": 6486,
+        "positive": 421,
+        "uncertain": 147,
+        "unobservable": 2
+      }
+    },
+    "audio": {
+      "AUD_SPEECH_RATE_REL_FAST": {
+        "negative": 4800,
+        "positive": 285,
+        "unobservable": 1970
+      },
+      "AUD_SPEECH_RATE_REL_SLOW": {
+        "positive": 1623,
+        "uncertain": 1470,
+        "negative": 1824,
+        "unobservable": 2138
+      },
+      "AUD_PITCH_LEVEL_REL_HIGH": {
+        "unobservable": 4030,
+        "negative": 2246,
+        "uncertain": 677,
+        "positive": 102
+      },
+      "AUD_PITCH_LEVEL_REL_LOW": {
+        "unobservable": 4035,
+        "negative": 2308,
+        "uncertain": 407,
+        "positive": 305
+      },
+      "AUD_VOCAL_INTENSITY_REL_HIGH": {
+        "unobservable": 4028,
+        "negative": 2688,
+        "uncertain": 209,
+        "positive": 130
+      },
+      "AUD_VOCAL_INTENSITY_REL_LOW": {
+        "unobservable": 4023,
+        "uncertain": 350,
+        "negative": 2347,
+        "positive": 335
+      },
+      "AUD_PITCH_VARIABILITY_HIGH": {
+        "negative": 3355,
+        "positive": 954,
+        "uncertain": 2742,
+        "unobservable": 4
+      },
+      "AUD_PITCH_VARIABILITY_LOW": {
+        "positive": 2457,
+        "negative": 2521,
+        "uncertain": 2073,
+        "unobservable": 4
+      },
+      "AUD_PAUSE_LONG": {
+        "negative": 6153,
+        "positive": 727,
+        "unobservable": 43,
+        "uncertain": 132
+      },
+      "AUD_PAUSE_FREQUENT": {
+        "negative": 3085,
+        "unobservable": 3802,
+        "uncertain": 124,
+        "positive": 44
+      },
+      "AUD_INTONATION_RISING": {
+        "negative": 3959,
+        "positive": 2617,
+        "uncertain": 474,
+        "unobservable": 5
+      },
+      "AUD_INTONATION_FALLING": {
+        "positive": 4510,
+        "negative": 2401,
+        "uncertain": 139,
+        "unobservable": 5
+      },
+      "AUD_INTONATION_FLAT": {
+        "uncertain": 1552,
+        "negative": 4967,
+        "positive": 531,
+        "unobservable": 5
+      },
+      "AUD_VOICE_TENSE": {
+        "negative": 6008,
+        "positive": 521,
+        "uncertain": 522,
+        "unobservable": 4
+      },
+      "AUD_VOICE_TREMBLING": {
+        "negative": 6796,
+        "uncertain": 126,
+        "positive": 129,
+        "unobservable": 4
+      },
+      "AUD_LAUGHTER_PRESENT": {
+        "negative": 6974,
+        "positive": 76,
+        "unobservable": 4,
+        "uncertain": 1
+      },
+      "AUD_CRYING_SOBBING_PRESENT": {
+        "negative": 6914,
+        "uncertain": 64,
+        "positive": 76,
+        "unobservable": 1
+      }
+    },
+    "visual": {
+      "VIS_BROWS_FURROWED": {
+        "negative": 4676,
+        "positive": 2284,
+        "unobservable": 14,
+        "uncertain": 2
+      },
+      "VIS_BROWS_RAISED": {
+        "positive": 2880,
+        "negative": 4060,
+        "uncertain": 22,
+        "unobservable": 14
+      },
+      "VIS_EYES_WIDENED": {
+        "positive": 1774,
+        "negative": 3564,
+        "uncertain": 1624,
+        "unobservable": 14
+      },
+      "VIS_EYES_SQUINTED": {
+        "negative": 4562,
+        "positive": 1445,
+        "uncertain": 954,
+        "unobservable": 15
+      },
+      "VIS_SMILE_PRESENT": {
+        "negative": 5868,
+        "positive": 961,
+        "uncertain": 140,
+        "unobservable": 7
+      },
+      "VIS_MOUTH_CORNERS_DOWN": {
+        "negative": 3898,
+        "positive": 2264,
+        "uncertain": 807,
+        "unobservable": 7
+      },
+      "VIS_LIPS_PRESSED": {
+        "negative": 6005,
+        "positive": 736,
+        "uncertain": 227,
+        "unobservable": 8
+      },
+      "VIS_GRIMACE_PRESENT": {
+        "negative": 5633,
+        "uncertain": 872,
+        "positive": 465,
+        "unobservable": 6
+      },
+      "VIS_TEARING_PRESENT": {
+        "negative": 5715,
+        "unobservable": 776,
+        "uncertain": 485
+      },
+      "VIS_HEAD_LOWERED": {
+        "negative": 5288,
+        "positive": 1659,
+        "uncertain": 24,
+        "unobservable": 5
+      }
+    }
+  },
+  "failure_categories": {
+    "video_file_base64_over_10MB": 59,
+    "provider_data_inspection_failed": 15,
+    "provider_invalid_parameter_error": 2
+  },
+  "failure_categories_by_modality": {
+    "text": {
+      "provider_data_inspection_failed": 1
+    },
+    "audio": {
+      "provider_data_inspection_failed": 2
+    },
+    "visual": {
+      "video_file_base64_over_10MB": 59,
+      "provider_data_inspection_failed": 12,
+      "provider_invalid_parameter_error": 2
+    }
+  },
+  "all_attempt_usage": {
+    "prompt_tokens": 59346506,
+    "completion_tokens": 8421414,
+    "total_tokens": 67767920,
+    "http_attempts": 21155
+  },
+  "attempt_outcomes": {
+    "invalid_output": 12,
+    "request_rejected": 17,
+    "success": 21087,
+    "transient": 39
+  },
+  "windows": {
+    "60": {
+      "attempts": 212,
+      "successes": 211,
+      "tokens": 678709,
+      "http_429": 0
+    },
+    "300": {
+      "attempts": 1046,
+      "successes": 1042,
+      "tokens": 3361999,
+      "http_429": 0
+    }
+  },
+  "input_checks": {
+    "successful_record_files_checked": 21087,
+    "model_identity_matches": 21087,
+    "audio_complete_16k": 7055,
+    "audio_duration_under5": 6283,
+    "audio_pause_frequent_negative_under5": 2597,
+    "text_bilingual_fields": 7056,
+    "video_complete_isolated": 6976,
+    "video_h264_compatibility": 38,
+    "audio_pause_frequent_unobservable_under5": 3639,
+    "audio_pause_frequent_uncertain_under5": 44,
+    "audio_pause_frequent_positive_under5": 3
+  },
+  "tear_quality_gate": {
+    "machine_positive_held_uncertain": 200
+  },
+  "prompt_sha256": {
+    "text": "46a44e9c46a2d24a48a916e7a02211a6225caff10d66ab2d8eaad08f09536de6",
+    "audio": "cab586cf3804d378916322929e027a59c0a19122e0ac65dbf4d7da545657b500",
+    "visual": "9acbba0d5ec71bbf18906c924c1a93198d011646f1dedb48fb566b57589fb4cd"
+  },
+  "current_runtime": {
+    "workers": 32,
+    "rpm": 360,
+    "tpm": 1600000,
+    "maximum_attempts_per_round": 3,
+    "maximum_attempts_total": 6,
+    "automatic_retry_rounds": 1,
+    "on_failure": "unlabeled; y empty; mask 0; preserve other modalities",
+    "read_timeout_seconds": 240,
+    "frozen_prompts_unchanged": true,
+    "source_target_labels_excluded": true,
+    "full_dataset_explicitly_authorized": true,
+    "concurrency_history": [
+      {
+        "from_workers": 12,
+        "to_workers": 24,
+        "changed_unix": 1792421972.7717385
+      },
+      {
+        "from_workers": 24,
+        "to_workers": 32,
+        "from_rpm": 240,
+        "to_rpm": 360,
+        "changed_unix": 1792422527.3071659
+      }
+    ],
+    "live_reconfiguration": true
+  },
+  "process_active": true,
+  "phase": "running",
+  "partial_data_is_representative": false,
+  "human_accuracy_audit_completed": false,
+  "student_training_started": false
+}

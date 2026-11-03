@@ -1,0 +1,24 @@
+{
+  "schema": "amg_noemotion_prompt_policy_v1",
+  "base_policy": "bcd_evidence_v1",
+  "base_run": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105",
+  "base_evidence_levels": {
+    "2": 9176,
+    "3": 3614,
+    "1": 8,
+    "0": 1
+  },
+  "levels_unchanged": [
+    0,
+    1,
+    2
+  ],
+  "level3_changed_to": 2,
+  "removed_lines": [
+    "Emotion hypotheses:",
+    "Supporting links:"
+  ],
+  "expected_changed_samples": 3614,
+  "expected_total_samples": 12799,
+  "note": "Only samples whose baseline evidence level was 3 change. EmotionConcept candidates and all paths ending in an EmotionConcept are omitted."
+}

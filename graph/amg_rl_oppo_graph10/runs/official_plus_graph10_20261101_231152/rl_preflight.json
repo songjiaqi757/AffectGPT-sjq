@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "datasets": {
+    "CMUMOSI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_CMUMOSI.json",
+      "sha256": "167b959a1917a1cb200170c75fe6c3dcd44614c2c620f7682509b193e777c726",
+      "samples": 686
+    },
+    "CMUMOSEI": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_CMUMOSEI.json",
+      "sha256": "3c0950d947977aeb5cb0ab1ffd45de54f46806567f96802c2d0e43f6c4e1d601",
+      "samples": 4659
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_SIMS.json",
+      "sha256": "da7f4245000f375972df26d937b49000684e4a1b47e32dacddf9f4366f52ecd5",
+      "samples": 457
+    },
+    "SIMSv2": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_SIMSv2.json",
+      "sha256": "413fe75e2c6355eefbc773c8f813d9aeb96f6606de058253001d4b53fbc49b4b",
+      "samples": 1034
+    },
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MER2023.json",
+      "sha256": "04b138189e62cf2255e928df4b0f1efdaf09b2654f6fe12a8eb2e358e9524f0b",
+      "samples": 411
+    },
+    "MER2024": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MER2024.json",
+      "sha256": "d9beb69ec7bbed5db69167cb6b8d3d443692cd49d281b065fe248811e472be90",
+      "samples": 1169
+    },
+    "MELD": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_MELD.json",
+      "sha256": "d9701d6f628943e80e7f058641589acbdeef49b855305cd40714e5de465aee27",
+      "samples": 2610
+    },
+    "IEMOCAPFour": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_IEMOCAPFour.json",
+      "sha256": "2c65ef4025f885353852817a89469d271238e1b456b11388951d3731367817ac",
+      "samples": 1241
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/inputs/rl_OVMERDPlus.json",
+      "sha256": "ed10bea7f9803343313c8c0e24b98ee73a4cd7cb489df401e8b416943fb4834a",
+      "samples": 532
+    }
+  },
+  "audit": {
+    "CMUMOSI": {
+      "samples": 686,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "CMUMOSEI": {
+      "samples": 4659,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "SIMS": {
+      "samples": 457,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "SIMSv2": {
+      "samples": 1034,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "MER2023": {
+      "samples": 411,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "MER2024": {
+      "samples": 1169,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "MELD": {
+      "samples": 2610,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "IEMOCAPFour": {
+      "samples": 1241,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    },
+    "OVMERDPlus": {
+      "samples": 532,
+      "native_membership_verified": true,
+      "native_media_paths_verified": true,
+      "subtitle_source": "RL native reader"
+    }
+  },
+  "contract": {
+    "native_sample_ast_verified": true,
+    "only_prompt_change": "append newline + frozen D compact+gate graph evidence to official user_message",
+    "generation": {
+      "num_beams": 1,
+      "temperature": 1,
+      "do_sample": true,
+      "top_p": 0.9,
+      "max_new_tokens": 1200,
+      "max_length": 2000
+    },
+    "seed": null,
+    "full_subtitle": true
+  },
+  "missing_dataset_path_localization": {
+    "DATA_DIR": {
+      "CMUMOSI": "/ai/sjq/AffectGPT/dataset/cmumosi-process",
+      "CMUMOSEI": "/ai/sjq/AffectGPT/dataset/cmumosei-process",
+      "SIMS": "/ai/sjq/AffectGPT/dataset/sims-process",
+      "SIMSv2": "/ai/sjq/AffectGPT/dataset/simsv2-process",
+      "MER2023": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process",
+      "MER2024": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process",
+      "MELD": "/ai/sjq/AffectGPT/dataset/meld-process",
+      "IEMOCAPFour": "/ai/sjq/AffectGPT/dataset/iemocap-process"
+    },
+    "PATH_TO_RAW_AUDIO": {
+      "CMUMOSI": "/ai/sjq/AffectGPT/dataset/cmumosi-process/subaudio",
+      "CMUMOSEI": "/ai/sjq/AffectGPT/dataset/cmumosei-process/subaudio",
+      "SIMS": "/ai/sjq/AffectGPT/dataset/sims-process/audio",
+      "SIMSv2": "/ai/sjq/AffectGPT/dataset/simsv2-process/audio",
+      "MER2023": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/audio",
+      "MER2024": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/audio",
+      "MELD": "/ai/sjq/AffectGPT/dataset/meld-process/subaudio",
+      "IEMOCAPFour": "/ai/sjq/AffectGPT/dataset/iemocap-process/subaudio"
+    },
+    "PATH_TO_RAW_VIDEO": {
+      "CMUMOSI": "/ai/sjq/AffectGPT/dataset/cmumosi-process/subvideo",
+      "CMUMOSEI": "/ai/sjq/AffectGPT/dataset/cmumosei-process/subvideo_new",
+      "SIMS": "/ai/sjq/AffectGPT/dataset/sims-process/video",
+      "SIMSv2": "/ai/sjq/AffectGPT/dataset/simsv2-process/video_new",
+      "MER2023": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/video",
+      "MER2024": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/video",
+      "MELD": "/ai/sjq/AffectGPT/dataset/meld-process/subvideo",
+      "IEMOCAPFour": "/ai/sjq/AffectGPT/dataset/iemocap-process/subvideo-tgt"
+    },
+    "PATH_TO_RAW_FACE": {
+      "CMUMOSI": "/ai/sjq/AffectGPT/dataset/cmumosi-process/openface_face",
+      "CMUMOSEI": "/ai/sjq/AffectGPT/dataset/cmumosei-process/openface_face",
+      "SIMS": "/ai/sjq/AffectGPT/dataset/sims-process/openface_face",
+      "SIMSv2": "/ai/sjq/AffectGPT/dataset/simsv2-process/openface_face",
+      "MER2023": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/openface_face",
+      "MER2024": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/openface_face",
+      "MELD": "/ai/sjq/AffectGPT/dataset/meld-process/openface_face",
+      "IEMOCAPFour": "/ai/sjq/AffectGPT/dataset/iemocap-process/openface_face"
+    },
+    "PATH_TO_TRANSCRIPTIONS": {
+      "CMUMOSI": "/ai/sjq/AffectGPT/dataset/cmumosi-process/transcription-engchi-polish.csv",
+      "CMUMOSEI": "/ai/sjq/AffectGPT/dataset/cmumosei-process/transcription-engchi-polish.csv",
+      "SIMS": "/ai/sjq/AffectGPT/dataset/sims-process/transcription-engchi-polish.csv",
+      "SIMSv2": "/ai/sjq/AffectGPT/dataset/simsv2-process/transcription-engchi-polish.csv",
+      "MER2023": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/transcription-engchi-polish.csv",
+      "MER2024": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/transcription_merge.csv",
+      "MELD": "/ai/sjq/AffectGPT/dataset/meld-process/transcription-engchi-polish.csv",
+      "IEMOCAPFour": "/ai/sjq/AffectGPT/dataset/iemocap-process/transcription-engchi-polish.csv"
+    },
+    "PATH_TO_LABEL": {
+      "CMUMOSI": "/ai/sjq/AffectGPT/dataset/cmumosi-process/label.npz",
+      "CMUMOSEI": "/ai/sjq/AffectGPT/dataset/cmumosei-process/label.npz",
+      "SIMS": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "SIMSv2": "/ai/sjq/AffectGPT/dataset/simsv2-process/label.npz",
+      "MER2023": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "MER2024": "/ai/sjq/AffectGPT/dataset/mer2024-dataset-process/label-6way.npz",
+      "MELD": "/ai/sjq/AffectGPT/dataset/meld-process/label.npz",
+      "IEMOCAPFour": "/ai/sjq/AffectGPT/dataset/iemocap-process/label_4way.npz"
+    }
+  },
+  "config_note": "Official RL release only configures OV-MERD+; other eight existing official readers receive upstream benchmark paths at runtime. Face filenames are localized from nested to existing flat layout when required; exact prior NPY paths verified. No official source files modified."
+}

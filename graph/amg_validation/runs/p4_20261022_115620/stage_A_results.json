@@ -1,0 +1,5485 @@
+{
+  "preregistration_id": "e26564f91580a5003afe1d9af271c88f5ef95521c04be16f7af56e520c42a45a",
+  "results": [
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5088449531737773,
+        "macro_recall": 0.6218905472636815,
+        "macro_f1": 0.21338241308793457,
+        "valid_reference": 1424,
+        "predicted_on_valid": 1304,
+        "coverage": 0.9157303370786517,
+        "abstention": 0.0842696629213483,
+        "unscorable_predictions": 1217,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 343,
+            "fp": 0,
+            "fn": 1064,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.24378109452736318,
+            "f1": 0.392,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 17,
+            "fp": 944,
+            "fn": 0,
+            "positive_reference": 17,
+            "precision": 0.01768990634755463,
+            "recall": 1.0,
+            "f1": 0.034764826175869123,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.009602194787379973,
+        "macro_recall": 0.4117647058823529,
+        "macro_f1": 0.01876675603217158,
+        "valid_reference": 1424,
+        "predicted_on_valid": 729,
+        "coverage": 0.511938202247191,
+        "abstention": 0.488061797752809,
+        "unscorable_predictions": 601,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 14,
+            "fp": 715,
+            "fn": 3,
+            "positive_reference": 17,
+            "precision": 0.019204389574759947,
+            "recall": 0.8235294117647058,
+            "f1": 0.03753351206434316,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.011013215859030838,
+        "macro_recall": 0.14705882352941177,
+        "macro_f1": 0.020491803278688523,
+        "valid_reference": 1424,
+        "predicted_on_valid": 227,
+        "coverage": 0.15941011235955055,
+        "abstention": 0.8405898876404494,
+        "unscorable_predictions": 239,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 5,
+            "fp": 222,
+            "fn": 12,
+            "positive_reference": 17,
+            "precision": 0.022026431718061675,
+            "recall": 0.29411764705882354,
+            "f1": 0.040983606557377046,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.0625,
+        "macro_recall": 0.029411764705882353,
+        "macro_f1": 0.04,
+        "valid_reference": 1424,
+        "predicted_on_valid": 8,
+        "coverage": 0.0056179775280898875,
+        "abstention": 0.9943820224719101,
+        "unscorable_predictions": 13,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 7,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.125,
+            "recall": 0.058823529411764705,
+            "f1": 0.08,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "valid_reference": 1424,
+        "predicted_on_valid": 0,
+        "coverage": 0.0,
+        "abstention": 1.0,
+        "unscorable_predictions": 0,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 17,
+            "positive_reference": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5420278297852669,
+        "macro_recall": 0.5824851708878637,
+        "macro_f1": 0.5571360130432202,
+        "valid_reference": 988,
+        "predicted_on_valid": 988,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2088,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 175,
+            "fp": 101,
+            "fn": 40,
+            "positive_reference": 215,
+            "precision": 0.6340579710144928,
+            "recall": 0.813953488372093,
+            "f1": 0.7128309572301426,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 651,
+            "fp": 42,
+            "fn": 109,
+            "positive_reference": 760,
+            "precision": 0.9393939393939394,
+            "recall": 0.8565789473684211,
+            "f1": 0.8960770818995183,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05263157894736842,
+            "recall": 0.07692307692307693,
+            "f1": 0.0625,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5420278297852669,
+        "macro_recall": 0.5824851708878637,
+        "macro_f1": 0.5571360130432202,
+        "valid_reference": 988,
+        "predicted_on_valid": 988,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2086,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 175,
+            "fp": 101,
+            "fn": 40,
+            "positive_reference": 215,
+            "precision": 0.6340579710144928,
+            "recall": 0.813953488372093,
+            "f1": 0.7128309572301426,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 651,
+            "fp": 42,
+            "fn": 109,
+            "positive_reference": 760,
+            "precision": 0.9393939393939394,
+            "recall": 0.8565789473684211,
+            "f1": 0.8960770818995183,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05263157894736842,
+            "recall": 0.07692307692307693,
+            "f1": 0.0625,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5428065067948128,
+        "macro_recall": 0.5809347832909645,
+        "macro_f1": 0.5569502188646082,
+        "valid_reference": 988,
+        "predicted_on_valid": 985,
+        "coverage": 0.9969635627530364,
+        "abstention": 0.0030364372469635637,
+        "unscorable_predictions": 2064,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 174,
+            "fp": 100,
+            "fn": 41,
+            "positive_reference": 215,
+            "precision": 0.635036496350365,
+            "recall": 0.8093023255813954,
+            "f1": 0.7116564417177914,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 651,
+            "fp": 41,
+            "fn": 109,
+            "positive_reference": 760,
+            "precision": 0.9407514450867052,
+            "recall": 0.8565789473684211,
+            "f1": 0.8966942148760331,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05263157894736842,
+            "recall": 0.07692307692307693,
+            "f1": 0.0625,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5446926415736176,
+        "macro_recall": 0.5763142202554687,
+        "macro_f1": 0.5559332554599057,
+        "valid_reference": 988,
+        "predicted_on_valid": 974,
+        "coverage": 0.9858299595141701,
+        "abstention": 0.014170040485829927,
+        "unscorable_predictions": 1961,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 173,
+            "fp": 98,
+            "fn": 42,
+            "positive_reference": 215,
+            "precision": 0.6383763837638377,
+            "recall": 0.8046511627906977,
+            "f1": 0.7119341563786008,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 644,
+            "fp": 41,
+            "fn": 116,
+            "positive_reference": 760,
+            "precision": 0.9401459854014599,
+            "recall": 0.8473684210526315,
+            "f1": 0.8913494809688581,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 17,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05555555555555555,
+            "recall": 0.07692307692307693,
+            "f1": 0.06451612903225806,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5683202353505054,
+        "macro_recall": 0.4041411668706651,
+        "macro_f1": 0.4605244382978257,
+        "valid_reference": 988,
+        "predicted_on_valid": 608,
+        "coverage": 0.6153846153846154,
+        "abstention": 0.3846153846153846,
+        "unscorable_predictions": 1188,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 156,
+            "fp": 53,
+            "fn": 59,
+            "positive_reference": 215,
+            "precision": 0.7464114832535885,
+            "recall": 0.7255813953488373,
+            "f1": 0.7358490566037735,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 370,
+            "fp": 16,
+            "fn": 390,
+            "positive_reference": 760,
+            "precision": 0.9585492227979274,
+            "recall": 0.4868421052631579,
+            "f1": 0.6457242582897034,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 13,
+            "positive_reference": 13,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6111751152073732,
+        "macro_recall": 0.6369626926196269,
+        "macro_f1": 0.6051377118644068,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2579,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 130,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4009216589861751,
+            "recall": 0.635036496350365,
+            "f1": 0.4915254237288136,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 230,
+            "fp": 50,
+            "fn": 130,
+            "positive_reference": 360,
+            "precision": 0.8214285714285714,
+            "recall": 0.6388888888888888,
+            "f1": 0.71875,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6111751152073732,
+        "macro_recall": 0.6369626926196269,
+        "macro_f1": 0.6051377118644068,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2579,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 130,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4009216589861751,
+            "recall": 0.635036496350365,
+            "f1": 0.4915254237288136,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 230,
+            "fp": 50,
+            "fn": 130,
+            "positive_reference": 360,
+            "precision": 0.8214285714285714,
+            "recall": 0.6388888888888888,
+            "f1": 0.71875,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6111751152073732,
+        "macro_recall": 0.6369626926196269,
+        "macro_f1": 0.6051377118644068,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2578,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 130,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4009216589861751,
+            "recall": 0.635036496350365,
+            "f1": 0.4915254237288136,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 230,
+            "fp": 50,
+            "fn": 130,
+            "positive_reference": 360,
+            "precision": 0.8214285714285714,
+            "recall": 0.6388888888888888,
+            "f1": 0.71875,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.6298545765611634,
+        "macro_recall": 0.5447181670721817,
+        "macro_f1": 0.5723792953458026,
+        "valid_reference": 497,
+        "predicted_on_valid": 412,
+        "coverage": 0.8289738430583501,
+        "abstention": 0.1710261569416499,
+        "unscorable_predictions": 2206,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 72,
+            "fp": 95,
+            "fn": 65,
+            "positive_reference": 137,
+            "precision": 0.4311377245508982,
+            "recall": 0.5255474452554745,
+            "f1": 0.47368421052631576,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 203,
+            "fp": 42,
+            "fn": 157,
+            "positive_reference": 360,
+            "precision": 0.8285714285714286,
+            "recall": 0.5638888888888889,
+            "f1": 0.6710743801652893,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 1.0,
+        "macro_recall": 0.014760746147607463,
+        "macro_f1": 0.028985507246376812,
+        "valid_reference": 497,
+        "predicted_on_valid": 9,
+        "coverage": 0.018108651911468814,
+        "abstention": 0.9818913480885312,
+        "unscorable_predictions": 96,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 136,
+            "positive_reference": 137,
+            "precision": 1.0,
+            "recall": 0.0072992700729927005,
+            "f1": 0.014492753623188406,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 352,
+            "positive_reference": 360,
+            "precision": 1.0,
+            "recall": 0.022222222222222223,
+            "f1": 0.043478260869565216,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.30518490740669646,
+        "macro_recall": 0.332144534372126,
+        "macro_f1": 0.27916450609281823,
+        "valid_reference": 960,
+        "predicted_on_valid": 960,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2116,
+        "states": {
+          "AAG_SELF": {
+            "tp": 135,
+            "fp": 363,
+            "fn": 51,
+            "positive_reference": 186,
+            "precision": 0.2710843373493976,
+            "recall": 0.7258064516129032,
+            "f1": 0.39473684210526316,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 369,
+            "fp": 52,
+            "fn": 370,
+            "positive_reference": 739,
+            "precision": 0.8764845605700713,
+            "recall": 0.4993234100135318,
+            "f1": 0.6362068965517241,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 38,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.07317073170731707,
+            "recall": 0.10344827586206896,
+            "f1": 0.08571428571428572,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.30518490740669646,
+        "macro_recall": 0.332144534372126,
+        "macro_f1": 0.27916450609281823,
+        "valid_reference": 960,
+        "predicted_on_valid": 960,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2116,
+        "states": {
+          "AAG_SELF": {
+            "tp": 135,
+            "fp": 363,
+            "fn": 51,
+            "positive_reference": 186,
+            "precision": 0.2710843373493976,
+            "recall": 0.7258064516129032,
+            "f1": 0.39473684210526316,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 369,
+            "fp": 52,
+            "fn": 370,
+            "positive_reference": 739,
+            "precision": 0.8764845605700713,
+            "recall": 0.4993234100135318,
+            "f1": 0.6362068965517241,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 38,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.07317073170731707,
+            "recall": 0.10344827586206896,
+            "f1": 0.08571428571428572,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.3072844649442349,
+        "macro_recall": 0.3314679443856578,
+        "macro_f1": 0.2792694000696721,
+        "valid_reference": 960,
+        "predicted_on_valid": 953,
+        "coverage": 0.9927083333333333,
+        "abstention": 0.007291666666666696,
+        "unscorable_predictions": 2070,
+        "states": {
+          "AAG_SELF": {
+            "tp": 135,
+            "fp": 362,
+            "fn": 51,
+            "positive_reference": 186,
+            "precision": 0.2716297786720322,
+            "recall": 0.7258064516129032,
+            "f1": 0.3953147877013177,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 367,
+            "fp": 48,
+            "fn": 372,
+            "positive_reference": 739,
+            "precision": 0.8843373493975903,
+            "recall": 0.496617050067659,
+            "f1": 0.6360485268630849,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 38,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.07317073170731707,
+            "recall": 0.10344827586206896,
+            "f1": 0.08571428571428572,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.32013723399807686,
+        "macro_recall": 0.24133415417220458,
+        "macro_f1": 0.21726943638512786,
+        "valid_reference": 960,
+        "predicted_on_valid": 644,
+        "coverage": 0.6708333333333333,
+        "abstention": 0.3291666666666667,
+        "unscorable_predictions": 1220,
+        "states": {
+          "AAG_SELF": {
+            "tp": 114,
+            "fp": 294,
+            "fn": 72,
+            "positive_reference": 186,
+            "precision": 0.27941176470588236,
+            "recall": 0.6129032258064516,
+            "f1": 0.3838383838383838,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 184,
+            "fp": 17,
+            "fn": 555,
+            "positive_reference": 739,
+            "precision": 0.9154228855721394,
+            "recall": 0.2489851150202977,
+            "f1": 0.39148936170212767,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 32,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.08571428571428572,
+            "recall": 0.10344827586206896,
+            "f1": 0.09375,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.13043478260869565,
+        "macro_recall": 0.016129032258064516,
+        "macro_f1": 0.028708133971291867,
+        "valid_reference": 960,
+        "predicted_on_valid": 24,
+        "coverage": 0.025,
+        "abstention": 0.975,
+        "unscorable_predictions": 31,
+        "states": {
+          "AAG_SELF": {
+            "tp": 12,
+            "fp": 11,
+            "fn": 174,
+            "positive_reference": 186,
+            "precision": 0.5217391304347826,
+            "recall": 0.06451612903225806,
+            "f1": 0.11483253588516747,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 739,
+            "positive_reference": 739,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 29,
+            "positive_reference": 29,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6888354700854701,
+        "macro_recall": 0.7679159714200146,
+        "macro_f1": 0.6897054945762773,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1694,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 1382,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 930,
+            "fp": 62,
+            "fn": 393,
+            "positive_reference": 1323,
+            "precision": 0.9375,
+            "recall": 0.7029478458049887,
+            "f1": 0.8034557235421166,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 309,
+            "fp": 393,
+            "fn": 62,
+            "positive_reference": 371,
+            "precision": 0.44017094017094016,
+            "recall": 0.8328840970350404,
+            "f1": 0.575955265610438,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6888354700854701,
+        "macro_recall": 0.7679159714200146,
+        "macro_f1": 0.6897054945762773,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1694,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 1382,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 930,
+            "fp": 62,
+            "fn": 393,
+            "positive_reference": 1323,
+            "precision": 0.9375,
+            "recall": 0.7029478458049887,
+            "f1": 0.8034557235421166,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 309,
+            "fp": 393,
+            "fn": 62,
+            "positive_reference": 371,
+            "precision": 0.44017094017094016,
+            "recall": 0.8328840970350404,
+            "f1": 0.575955265610438,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6891494293865905,
+        "macro_recall": 0.7679159714200146,
+        "macro_f1": 0.6899741304277747,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1693,
+        "coverage": 0.999409681227863,
+        "abstention": 0.0005903187721369996,
+        "unscorable_predictions": 1377,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 930,
+            "fp": 62,
+            "fn": 393,
+            "positive_reference": 1323,
+            "precision": 0.9375,
+            "recall": 0.7029478458049887,
+            "f1": 0.8034557235421166,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 309,
+            "fp": 392,
+            "fn": 62,
+            "positive_reference": 371,
+            "precision": 0.44079885877318115,
+            "recall": 0.8328840970350404,
+            "f1": 0.5764925373134329,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.7022930415511559,
+        "macro_recall": 0.6018696786890857,
+        "macro_f1": 0.5748931923784576,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1214,
+        "coverage": 0.7166469893742621,
+        "abstention": 0.2833530106257379,
+        "unscorable_predictions": 1014,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 537,
+            "fp": 30,
+            "fn": 786,
+            "positive_reference": 1323,
+            "precision": 0.9470899470899471,
+            "recall": 0.40589569160997735,
+            "f1": 0.5682539682539682,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 296,
+            "fp": 351,
+            "fn": 75,
+            "positive_reference": 371,
+            "precision": 0.4574961360123648,
+            "recall": 0.7978436657681941,
+            "f1": 0.581532416502947,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.8639240506329113,
+        "macro_recall": 0.15952167030334147,
+        "macro_f1": 0.2263800683927699,
+        "valid_reference": 1694,
+        "predicted_on_valid": 170,
+        "coverage": 0.10035419126328217,
+        "abstention": 0.8996458087367178,
+        "unscorable_predictions": 108,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 12,
+            "fp": 0,
+            "fn": 1311,
+            "positive_reference": 1323,
+            "precision": 1.0,
+            "recall": 0.009070294784580499,
+            "f1": 0.017977528089887642,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 115,
+            "fp": 43,
+            "fn": 256,
+            "positive_reference": 371,
+            "precision": 0.7278481012658228,
+            "recall": 0.30997304582210244,
+            "f1": 0.43478260869565216,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.504501800720288,
+        "macro_recall": 0.47743482538121,
+        "macro_f1": 0.47582922824302126,
+        "valid_reference": 264,
+        "predicted_on_valid": 264,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2812,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 54,
+            "fp": 14,
+            "fn": 53,
+            "positive_reference": 107,
+            "precision": 0.7941176470588235,
+            "recall": 0.5046728971962616,
+            "f1": 0.6171428571428571,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 55,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7193877551020408,
+            "recall": 0.9276315789473685,
+            "f1": 0.8103448275862069,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5025641025641026,
+        "macro_recall": 0.4680890309886867,
+        "macro_f1": 0.4685677903625763,
+        "valid_reference": 264,
+        "predicted_on_valid": 260,
+        "coverage": 0.9848484848484849,
+        "abstention": 0.015151515151515138,
+        "unscorable_predictions": 2796,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 51,
+            "fp": 14,
+            "fn": 56,
+            "positive_reference": 107,
+            "precision": 0.7846153846153846,
+            "recall": 0.4766355140186916,
+            "f1": 0.5930232558139535,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 54,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7230769230769231,
+            "recall": 0.9276315789473685,
+            "f1": 0.8126801152737753,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5038065027755749,
+        "macro_recall": 0.4680890309886867,
+        "macro_f1": 0.46935071918268584,
+        "valid_reference": 264,
+        "predicted_on_valid": 259,
+        "coverage": 0.9810606060606061,
+        "abstention": 0.018939393939393923,
+        "unscorable_predictions": 2770,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 51,
+            "fp": 14,
+            "fn": 56,
+            "positive_reference": 107,
+            "precision": 0.7846153846153846,
+            "recall": 0.4766355140186916,
+            "f1": 0.5930232558139535,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 53,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7268041237113402,
+            "recall": 0.9276315789473685,
+            "f1": 0.815028901734104,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5042305658381808,
+        "macro_recall": 0.4455853418593212,
+        "macro_f1": 0.4567483798253029,
+        "valid_reference": 264,
+        "predicted_on_valid": 247,
+        "coverage": 0.9356060606060606,
+        "abstention": 0.06439393939393945,
+        "unscorable_predictions": 2613,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 48,
+            "fp": 13,
+            "fn": 59,
+            "positive_reference": 107,
+            "precision": 0.7868852459016393,
+            "recall": 0.4485981308411215,
+            "f1": 0.5714285714285714,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 135,
+            "fp": 51,
+            "fn": 17,
+            "positive_reference": 152,
+            "precision": 0.7258064516129032,
+            "recall": 0.8881578947368421,
+            "f1": 0.7988165680473372,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 0,
+      "minimum_coverage": 0.0,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5400773908236595,
+        "macro_recall": 0.15730037711100178,
+        "macro_f1": 0.23449619482496195,
+        "valid_reference": 264,
+        "predicted_on_valid": 85,
+        "coverage": 0.32196969696969696,
+        "abstention": 0.678030303030303,
+        "unscorable_predictions": 1040,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 16,
+            "fp": 2,
+            "fn": 91,
+            "positive_reference": 107,
+            "precision": 0.8888888888888888,
+            "recall": 0.14953271028037382,
+            "f1": 0.256,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 49,
+            "fp": 18,
+            "fn": 103,
+            "positive_reference": 152,
+            "precision": 0.7313432835820896,
+            "recall": 0.3223684210526316,
+            "f1": 0.4474885844748858,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5098152424942264,
+        "macro_recall": 0.6250888415067519,
+        "macro_f1": 0.21936624909782856,
+        "valid_reference": 1424,
+        "predicted_on_valid": 1218,
+        "coverage": 0.8553370786516854,
+        "abstention": 0.1446629213483146,
+        "unscorable_predictions": 1164,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 352,
+            "fp": 0,
+            "fn": 1055,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.2501776830135039,
+            "f1": 0.40022740193291645,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 17,
+            "fp": 849,
+            "fn": 0,
+            "positive_reference": 17,
+            "precision": 0.019630484988452657,
+            "recall": 1.0,
+            "f1": 0.03850509626274066,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.51,
+        "macro_recall": 0.41460763409841545,
+        "macro_f1": 0.025179512199930018,
+        "valid_reference": 1424,
+        "predicted_on_valid": 708,
+        "coverage": 0.49719101123595505,
+        "abstention": 0.502808988764045,
+        "unscorable_predictions": 578,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 1399,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.005685856432125089,
+            "f1": 0.011307420494699646,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 14,
+            "fp": 686,
+            "fn": 3,
+            "positive_reference": 17,
+            "precision": 0.02,
+            "recall": 0.8235294117647058,
+            "f1": 0.03905160390516039,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.011013215859030838,
+        "macro_recall": 0.14705882352941177,
+        "macro_f1": 0.020491803278688523,
+        "valid_reference": 1424,
+        "predicted_on_valid": 227,
+        "coverage": 0.15941011235955055,
+        "abstention": 0.8405898876404494,
+        "unscorable_predictions": 239,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 5,
+            "fp": 222,
+            "fn": 12,
+            "positive_reference": 17,
+            "precision": 0.022026431718061675,
+            "recall": 0.29411764705882354,
+            "f1": 0.040983606557377046,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.0625,
+        "macro_recall": 0.029411764705882353,
+        "macro_f1": 0.04,
+        "valid_reference": 1424,
+        "predicted_on_valid": 8,
+        "coverage": 0.0056179775280898875,
+        "abstention": 0.9943820224719101,
+        "unscorable_predictions": 13,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 7,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.125,
+            "recall": 0.058823529411764705,
+            "f1": 0.08,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "valid_reference": 1424,
+        "predicted_on_valid": 0,
+        "coverage": 0.0,
+        "abstention": 1.0,
+        "unscorable_predictions": 0,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 17,
+            "positive_reference": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5420278297852669,
+        "macro_recall": 0.5824851708878637,
+        "macro_f1": 0.5571360130432202,
+        "valid_reference": 988,
+        "predicted_on_valid": 988,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2088,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 175,
+            "fp": 101,
+            "fn": 40,
+            "positive_reference": 215,
+            "precision": 0.6340579710144928,
+            "recall": 0.813953488372093,
+            "f1": 0.7128309572301426,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 651,
+            "fp": 42,
+            "fn": 109,
+            "positive_reference": 760,
+            "precision": 0.9393939393939394,
+            "recall": 0.8565789473684211,
+            "f1": 0.8960770818995183,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05263157894736842,
+            "recall": 0.07692307692307693,
+            "f1": 0.0625,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5420278297852669,
+        "macro_recall": 0.5824851708878637,
+        "macro_f1": 0.5571360130432202,
+        "valid_reference": 988,
+        "predicted_on_valid": 988,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2086,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 175,
+            "fp": 101,
+            "fn": 40,
+            "positive_reference": 215,
+            "precision": 0.6340579710144928,
+            "recall": 0.813953488372093,
+            "f1": 0.7128309572301426,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 651,
+            "fp": 42,
+            "fn": 109,
+            "positive_reference": 760,
+            "precision": 0.9393939393939394,
+            "recall": 0.8565789473684211,
+            "f1": 0.8960770818995183,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05263157894736842,
+            "recall": 0.07692307692307693,
+            "f1": 0.0625,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5428065067948128,
+        "macro_recall": 0.5809347832909645,
+        "macro_f1": 0.5569502188646082,
+        "valid_reference": 988,
+        "predicted_on_valid": 985,
+        "coverage": 0.9969635627530364,
+        "abstention": 0.0030364372469635637,
+        "unscorable_predictions": 2064,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 174,
+            "fp": 100,
+            "fn": 41,
+            "positive_reference": 215,
+            "precision": 0.635036496350365,
+            "recall": 0.8093023255813954,
+            "f1": 0.7116564417177914,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 651,
+            "fp": 41,
+            "fn": 109,
+            "positive_reference": 760,
+            "precision": 0.9407514450867052,
+            "recall": 0.8565789473684211,
+            "f1": 0.8966942148760331,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05263157894736842,
+            "recall": 0.07692307692307693,
+            "f1": 0.0625,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5446926415736176,
+        "macro_recall": 0.5763142202554687,
+        "macro_f1": 0.5559332554599057,
+        "valid_reference": 988,
+        "predicted_on_valid": 974,
+        "coverage": 0.9858299595141701,
+        "abstention": 0.014170040485829927,
+        "unscorable_predictions": 1961,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 173,
+            "fp": 98,
+            "fn": 42,
+            "positive_reference": 215,
+            "precision": 0.6383763837638377,
+            "recall": 0.8046511627906977,
+            "f1": 0.7119341563786008,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 644,
+            "fp": 41,
+            "fn": 116,
+            "positive_reference": 760,
+            "precision": 0.9401459854014599,
+            "recall": 0.8473684210526315,
+            "f1": 0.8913494809688581,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 17,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.05555555555555555,
+            "recall": 0.07692307692307693,
+            "f1": 0.06451612903225806,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5683202353505054,
+        "macro_recall": 0.4041411668706651,
+        "macro_f1": 0.4605244382978257,
+        "valid_reference": 988,
+        "predicted_on_valid": 608,
+        "coverage": 0.6153846153846154,
+        "abstention": 0.3846153846153846,
+        "unscorable_predictions": 1188,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 156,
+            "fp": 53,
+            "fn": 59,
+            "positive_reference": 215,
+            "precision": 0.7464114832535885,
+            "recall": 0.7255813953488373,
+            "f1": 0.7358490566037735,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 370,
+            "fp": 16,
+            "fn": 390,
+            "positive_reference": 760,
+            "precision": 0.9585492227979274,
+            "recall": 0.4868421052631579,
+            "f1": 0.6457242582897034,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 13,
+            "positive_reference": 13,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6111751152073732,
+        "macro_recall": 0.6369626926196269,
+        "macro_f1": 0.6051377118644068,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2579,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 130,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4009216589861751,
+            "recall": 0.635036496350365,
+            "f1": 0.4915254237288136,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 230,
+            "fp": 50,
+            "fn": 130,
+            "positive_reference": 360,
+            "precision": 0.8214285714285714,
+            "recall": 0.6388888888888888,
+            "f1": 0.71875,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6111751152073732,
+        "macro_recall": 0.6369626926196269,
+        "macro_f1": 0.6051377118644068,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2579,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 130,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4009216589861751,
+            "recall": 0.635036496350365,
+            "f1": 0.4915254237288136,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 230,
+            "fp": 50,
+            "fn": 130,
+            "positive_reference": 360,
+            "precision": 0.8214285714285714,
+            "recall": 0.6388888888888888,
+            "f1": 0.71875,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6111751152073732,
+        "macro_recall": 0.6369626926196269,
+        "macro_f1": 0.6051377118644068,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2578,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 130,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4009216589861751,
+            "recall": 0.635036496350365,
+            "f1": 0.4915254237288136,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 230,
+            "fp": 50,
+            "fn": 130,
+            "positive_reference": 360,
+            "precision": 0.8214285714285714,
+            "recall": 0.6388888888888888,
+            "f1": 0.71875,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.6298545765611634,
+        "macro_recall": 0.5447181670721817,
+        "macro_f1": 0.5723792953458026,
+        "valid_reference": 497,
+        "predicted_on_valid": 412,
+        "coverage": 0.8289738430583501,
+        "abstention": 0.1710261569416499,
+        "unscorable_predictions": 2206,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 72,
+            "fp": 95,
+            "fn": 65,
+            "positive_reference": 137,
+            "precision": 0.4311377245508982,
+            "recall": 0.5255474452554745,
+            "f1": 0.47368421052631576,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 203,
+            "fp": 42,
+            "fn": 157,
+            "positive_reference": 360,
+            "precision": 0.8285714285714286,
+            "recall": 0.5638888888888889,
+            "f1": 0.6710743801652893,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 1.0,
+        "macro_recall": 0.014760746147607463,
+        "macro_f1": 0.028985507246376812,
+        "valid_reference": 497,
+        "predicted_on_valid": 9,
+        "coverage": 0.018108651911468814,
+        "abstention": 0.9818913480885312,
+        "unscorable_predictions": 96,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 136,
+            "positive_reference": 137,
+            "precision": 1.0,
+            "recall": 0.0072992700729927005,
+            "f1": 0.014492753623188406,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 352,
+            "positive_reference": 360,
+            "precision": 1.0,
+            "recall": 0.022222222222222223,
+            "f1": 0.043478260869565216,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.30518490740669646,
+        "macro_recall": 0.332144534372126,
+        "macro_f1": 0.27916450609281823,
+        "valid_reference": 960,
+        "predicted_on_valid": 960,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2116,
+        "states": {
+          "AAG_SELF": {
+            "tp": 135,
+            "fp": 363,
+            "fn": 51,
+            "positive_reference": 186,
+            "precision": 0.2710843373493976,
+            "recall": 0.7258064516129032,
+            "f1": 0.39473684210526316,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 369,
+            "fp": 52,
+            "fn": 370,
+            "positive_reference": 739,
+            "precision": 0.8764845605700713,
+            "recall": 0.4993234100135318,
+            "f1": 0.6362068965517241,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 38,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.07317073170731707,
+            "recall": 0.10344827586206896,
+            "f1": 0.08571428571428572,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.30518490740669646,
+        "macro_recall": 0.332144534372126,
+        "macro_f1": 0.27916450609281823,
+        "valid_reference": 960,
+        "predicted_on_valid": 960,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2116,
+        "states": {
+          "AAG_SELF": {
+            "tp": 135,
+            "fp": 363,
+            "fn": 51,
+            "positive_reference": 186,
+            "precision": 0.2710843373493976,
+            "recall": 0.7258064516129032,
+            "f1": 0.39473684210526316,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 369,
+            "fp": 52,
+            "fn": 370,
+            "positive_reference": 739,
+            "precision": 0.8764845605700713,
+            "recall": 0.4993234100135318,
+            "f1": 0.6362068965517241,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 38,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.07317073170731707,
+            "recall": 0.10344827586206896,
+            "f1": 0.08571428571428572,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.3072844649442349,
+        "macro_recall": 0.3314679443856578,
+        "macro_f1": 0.2792694000696721,
+        "valid_reference": 960,
+        "predicted_on_valid": 953,
+        "coverage": 0.9927083333333333,
+        "abstention": 0.007291666666666696,
+        "unscorable_predictions": 2070,
+        "states": {
+          "AAG_SELF": {
+            "tp": 135,
+            "fp": 362,
+            "fn": 51,
+            "positive_reference": 186,
+            "precision": 0.2716297786720322,
+            "recall": 0.7258064516129032,
+            "f1": 0.3953147877013177,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 367,
+            "fp": 48,
+            "fn": 372,
+            "positive_reference": 739,
+            "precision": 0.8843373493975903,
+            "recall": 0.496617050067659,
+            "f1": 0.6360485268630849,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 38,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.07317073170731707,
+            "recall": 0.10344827586206896,
+            "f1": 0.08571428571428572,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.32013723399807686,
+        "macro_recall": 0.24133415417220458,
+        "macro_f1": 0.21726943638512786,
+        "valid_reference": 960,
+        "predicted_on_valid": 644,
+        "coverage": 0.6708333333333333,
+        "abstention": 0.3291666666666667,
+        "unscorable_predictions": 1220,
+        "states": {
+          "AAG_SELF": {
+            "tp": 114,
+            "fp": 294,
+            "fn": 72,
+            "positive_reference": 186,
+            "precision": 0.27941176470588236,
+            "recall": 0.6129032258064516,
+            "f1": 0.3838383838383838,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 184,
+            "fp": 17,
+            "fn": 555,
+            "positive_reference": 739,
+            "precision": 0.9154228855721394,
+            "recall": 0.2489851150202977,
+            "f1": 0.39148936170212767,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 32,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.08571428571428572,
+            "recall": 0.10344827586206896,
+            "f1": 0.09375,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.13043478260869565,
+        "macro_recall": 0.016129032258064516,
+        "macro_f1": 0.028708133971291867,
+        "valid_reference": 960,
+        "predicted_on_valid": 24,
+        "coverage": 0.025,
+        "abstention": 0.975,
+        "unscorable_predictions": 31,
+        "states": {
+          "AAG_SELF": {
+            "tp": 12,
+            "fp": 11,
+            "fn": 174,
+            "positive_reference": 186,
+            "precision": 0.5217391304347826,
+            "recall": 0.06451612903225806,
+            "f1": 0.11483253588516747,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 739,
+            "positive_reference": 739,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 29,
+            "positive_reference": 29,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6888354700854701,
+        "macro_recall": 0.7679159714200146,
+        "macro_f1": 0.6897054945762773,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1694,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 1382,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 930,
+            "fp": 62,
+            "fn": 393,
+            "positive_reference": 1323,
+            "precision": 0.9375,
+            "recall": 0.7029478458049887,
+            "f1": 0.8034557235421166,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 309,
+            "fp": 393,
+            "fn": 62,
+            "positive_reference": 371,
+            "precision": 0.44017094017094016,
+            "recall": 0.8328840970350404,
+            "f1": 0.575955265610438,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6888354700854701,
+        "macro_recall": 0.7679159714200146,
+        "macro_f1": 0.6897054945762773,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1694,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 1382,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 930,
+            "fp": 62,
+            "fn": 393,
+            "positive_reference": 1323,
+            "precision": 0.9375,
+            "recall": 0.7029478458049887,
+            "f1": 0.8034557235421166,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 309,
+            "fp": 393,
+            "fn": 62,
+            "positive_reference": 371,
+            "precision": 0.44017094017094016,
+            "recall": 0.8328840970350404,
+            "f1": 0.575955265610438,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6891494293865905,
+        "macro_recall": 0.7679159714200146,
+        "macro_f1": 0.6899741304277747,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1693,
+        "coverage": 0.999409681227863,
+        "abstention": 0.0005903187721369996,
+        "unscorable_predictions": 1377,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 930,
+            "fp": 62,
+            "fn": 393,
+            "positive_reference": 1323,
+            "precision": 0.9375,
+            "recall": 0.7029478458049887,
+            "f1": 0.8034557235421166,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 309,
+            "fp": 392,
+            "fn": 62,
+            "positive_reference": 371,
+            "precision": 0.44079885877318115,
+            "recall": 0.8328840970350404,
+            "f1": 0.5764925373134329,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.7022930415511559,
+        "macro_recall": 0.6018696786890857,
+        "macro_f1": 0.5748931923784576,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1214,
+        "coverage": 0.7166469893742621,
+        "abstention": 0.2833530106257379,
+        "unscorable_predictions": 1014,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 537,
+            "fp": 30,
+            "fn": 786,
+            "positive_reference": 1323,
+            "precision": 0.9470899470899471,
+            "recall": 0.40589569160997735,
+            "f1": 0.5682539682539682,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 296,
+            "fp": 351,
+            "fn": 75,
+            "positive_reference": 371,
+            "precision": 0.4574961360123648,
+            "recall": 0.7978436657681941,
+            "f1": 0.581532416502947,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.8639240506329113,
+        "macro_recall": 0.15952167030334147,
+        "macro_f1": 0.2263800683927699,
+        "valid_reference": 1694,
+        "predicted_on_valid": 170,
+        "coverage": 0.10035419126328217,
+        "abstention": 0.8996458087367178,
+        "unscorable_predictions": 108,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 12,
+            "fp": 0,
+            "fn": 1311,
+            "positive_reference": 1323,
+            "precision": 1.0,
+            "recall": 0.009070294784580499,
+            "f1": 0.017977528089887642,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 115,
+            "fp": 43,
+            "fn": 256,
+            "positive_reference": 371,
+            "precision": 0.7278481012658228,
+            "recall": 0.30997304582210244,
+            "f1": 0.43478260869565216,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.504501800720288,
+        "macro_recall": 0.47743482538121,
+        "macro_f1": 0.47582922824302126,
+        "valid_reference": 264,
+        "predicted_on_valid": 264,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2812,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 54,
+            "fp": 14,
+            "fn": 53,
+            "positive_reference": 107,
+            "precision": 0.7941176470588235,
+            "recall": 0.5046728971962616,
+            "f1": 0.6171428571428571,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 55,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7193877551020408,
+            "recall": 0.9276315789473685,
+            "f1": 0.8103448275862069,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5025641025641026,
+        "macro_recall": 0.4680890309886867,
+        "macro_f1": 0.4685677903625763,
+        "valid_reference": 264,
+        "predicted_on_valid": 260,
+        "coverage": 0.9848484848484849,
+        "abstention": 0.015151515151515138,
+        "unscorable_predictions": 2796,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 51,
+            "fp": 14,
+            "fn": 56,
+            "positive_reference": 107,
+            "precision": 0.7846153846153846,
+            "recall": 0.4766355140186916,
+            "f1": 0.5930232558139535,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 54,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7230769230769231,
+            "recall": 0.9276315789473685,
+            "f1": 0.8126801152737753,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5038065027755749,
+        "macro_recall": 0.4680890309886867,
+        "macro_f1": 0.46935071918268584,
+        "valid_reference": 264,
+        "predicted_on_valid": 259,
+        "coverage": 0.9810606060606061,
+        "abstention": 0.018939393939393923,
+        "unscorable_predictions": 2770,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 51,
+            "fp": 14,
+            "fn": 56,
+            "positive_reference": 107,
+            "precision": 0.7846153846153846,
+            "recall": 0.4766355140186916,
+            "f1": 0.5930232558139535,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 53,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7268041237113402,
+            "recall": 0.9276315789473685,
+            "f1": 0.815028901734104,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5042305658381808,
+        "macro_recall": 0.4455853418593212,
+        "macro_f1": 0.4567483798253029,
+        "valid_reference": 264,
+        "predicted_on_valid": 247,
+        "coverage": 0.9356060606060606,
+        "abstention": 0.06439393939393945,
+        "unscorable_predictions": 2613,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 48,
+            "fp": 13,
+            "fn": 59,
+            "positive_reference": 107,
+            "precision": 0.7868852459016393,
+            "recall": 0.4485981308411215,
+            "f1": 0.5714285714285714,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 135,
+            "fp": 51,
+            "fn": 17,
+            "positive_reference": 152,
+            "precision": 0.7258064516129032,
+            "recall": 0.8881578947368421,
+            "f1": 0.7988165680473372,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 1,
+      "minimum_coverage": 0.1,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5400773908236595,
+        "macro_recall": 0.15730037711100178,
+        "macro_f1": 0.23449619482496195,
+        "valid_reference": 264,
+        "predicted_on_valid": 85,
+        "coverage": 0.32196969696969696,
+        "abstention": 0.678030303030303,
+        "unscorable_predictions": 1040,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 16,
+            "fp": 2,
+            "fn": 91,
+            "positive_reference": 107,
+            "precision": 0.8888888888888888,
+            "recall": 0.14953271028037382,
+            "f1": 0.256,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 49,
+            "fp": 18,
+            "fn": 103,
+            "positive_reference": 152,
+            "precision": 0.7313432835820896,
+            "recall": 0.3223684210526316,
+            "f1": 0.4474885844748858,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5145985401459854,
+        "macro_recall": 0.274029014590911,
+        "macro_f1": 0.09939114508246516,
+        "valid_reference": 1424,
+        "predicted_on_valid": 383,
+        "coverage": 0.26896067415730335,
+        "abstention": 0.7310393258426966,
+        "unscorable_predictions": 365,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 109,
+            "fp": 0,
+            "fn": 1298,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.07746979388770434,
+            "f1": 0.1437994722955145,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 8,
+            "fp": 266,
+            "fn": 9,
+            "positive_reference": 17,
+            "precision": 0.029197080291970802,
+            "recall": 0.47058823529411764,
+            "f1": 0.054982817869415807,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5131086142322098,
+        "macro_recall": 0.20836991513023118,
+        "macro_f1": 0.029598382373448612,
+        "valid_reference": 1424,
+        "predicted_on_valid": 274,
+        "coverage": 0.19241573033707865,
+        "abstention": 0.8075842696629214,
+        "unscorable_predictions": 229,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 1400,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.004975124378109453,
+            "f1": 0.009900990099009901,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 7,
+            "fp": 260,
+            "fn": 10,
+            "positive_reference": 17,
+            "precision": 0.026217228464419477,
+            "recall": 0.4117647058823529,
+            "f1": 0.04929577464788732,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.011695906432748537,
+        "macro_recall": 0.11764705882352941,
+        "macro_f1": 0.02127659574468085,
+        "valid_reference": 1424,
+        "predicted_on_valid": 171,
+        "coverage": 0.12008426966292135,
+        "abstention": 0.8799157303370786,
+        "unscorable_predictions": 164,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 4,
+            "fp": 167,
+            "fn": 13,
+            "positive_reference": 17,
+            "precision": 0.023391812865497075,
+            "recall": 0.23529411764705882,
+            "f1": 0.0425531914893617,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.0625,
+        "macro_recall": 0.029411764705882353,
+        "macro_f1": 0.04,
+        "valid_reference": 1424,
+        "predicted_on_valid": 8,
+        "coverage": 0.0056179775280898875,
+        "abstention": 0.9943820224719101,
+        "unscorable_predictions": 13,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 7,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.125,
+            "recall": 0.058823529411764705,
+            "f1": 0.08,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "valid_reference": 1424,
+        "predicted_on_valid": 0,
+        "coverage": 0.0,
+        "abstention": 1.0,
+        "unscorable_predictions": 0,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 17,
+            "positive_reference": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5477986758688513,
+        "macro_recall": 0.5824545711326617,
+        "macro_f1": 0.5614507214615734,
+        "valid_reference": 988,
+        "predicted_on_valid": 988,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2086,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 173,
+            "fp": 97,
+            "fn": 42,
+            "positive_reference": 215,
+            "precision": 0.6407407407407407,
+            "recall": 0.8046511627906977,
+            "f1": 0.7134020618556701,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 658,
+            "fp": 45,
+            "fn": 102,
+            "positive_reference": 760,
+            "precision": 0.9359886201991465,
+            "recall": 0.8657894736842106,
+            "f1": 0.8995215311004785,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 14,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.06666666666666667,
+            "recall": 0.07692307692307693,
+            "f1": 0.07142857142857142,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5477986758688513,
+        "macro_recall": 0.5824545711326617,
+        "macro_f1": 0.5614507214615734,
+        "valid_reference": 988,
+        "predicted_on_valid": 988,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2084,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 173,
+            "fp": 97,
+            "fn": 42,
+            "positive_reference": 215,
+            "precision": 0.6407407407407407,
+            "recall": 0.8046511627906977,
+            "f1": 0.7134020618556701,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 658,
+            "fp": 45,
+            "fn": 102,
+            "positive_reference": 760,
+            "precision": 0.9359886201991465,
+            "recall": 0.8657894736842106,
+            "f1": 0.8995215311004785,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 14,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.06666666666666667,
+            "recall": 0.07692307692307693,
+            "f1": 0.07142857142857142,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5485932162549078,
+        "macro_recall": 0.5809041835357626,
+        "macro_f1": 0.561260230415051,
+        "valid_reference": 988,
+        "predicted_on_valid": 985,
+        "coverage": 0.9969635627530364,
+        "abstention": 0.0030364372469635637,
+        "unscorable_predictions": 2064,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 172,
+            "fp": 96,
+            "fn": 43,
+            "positive_reference": 215,
+            "precision": 0.6417910447761194,
+            "recall": 0.8,
+            "f1": 0.7122153209109731,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 658,
+            "fp": 44,
+            "fn": 102,
+            "positive_reference": 760,
+            "precision": 0.9373219373219374,
+            "recall": 0.8657894736842106,
+            "f1": 0.9001367989056087,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 14,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.06666666666666667,
+            "recall": 0.07692307692307693,
+            "f1": 0.07142857142857142,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5502950459722794,
+        "macro_recall": 0.5758450240090387,
+        "macro_f1": 0.5597260223578426,
+        "valid_reference": 988,
+        "predicted_on_valid": 974,
+        "coverage": 0.9858299595141701,
+        "abstention": 0.014170040485829927,
+        "unscorable_predictions": 1961,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 171,
+            "fp": 95,
+            "fn": 44,
+            "positive_reference": 215,
+            "precision": 0.6428571428571429,
+            "recall": 0.7953488372093023,
+            "f1": 0.7110187110187111,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 650,
+            "fp": 44,
+            "fn": 110,
+            "positive_reference": 760,
+            "precision": 0.9365994236311239,
+            "recall": 0.8552631578947368,
+            "f1": 0.8940852819807428,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 1,
+            "fp": 13,
+            "fn": 12,
+            "positive_reference": 13,
+            "precision": 0.07142857142857142,
+            "recall": 0.07692307692307693,
+            "f1": 0.07407407407407407,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5664556962025317,
+        "macro_recall": 0.40168298653610773,
+        "macro_f1": 0.4598869706268274,
+        "valid_reference": 988,
+        "predicted_on_valid": 608,
+        "coverage": 0.6153846153846154,
+        "abstention": 0.3846153846153846,
+        "unscorable_predictions": 1188,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 153,
+            "fp": 51,
+            "fn": 62,
+            "positive_reference": 215,
+            "precision": 0.75,
+            "recall": 0.7116279069767442,
+            "f1": 0.7303102625298329,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 375,
+            "fp": 20,
+            "fn": 385,
+            "positive_reference": 760,
+            "precision": 0.9493670886075949,
+            "recall": 0.4934210526315789,
+            "f1": 0.6493506493506493,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 0,
+            "fp": 9,
+            "fn": 13,
+            "positive_reference": 13,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6124209173586398,
+        "macro_recall": 0.6383515815085159,
+        "macro_f1": 0.606833338489347,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2578,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 129,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4027777777777778,
+            "recall": 0.635036496350365,
+            "f1": 0.49291784702549574,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 231,
+            "fp": 50,
+            "fn": 129,
+            "positive_reference": 360,
+            "precision": 0.8220640569395018,
+            "recall": 0.6416666666666667,
+            "f1": 0.7207488299531981,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6124209173586398,
+        "macro_recall": 0.6383515815085159,
+        "macro_f1": 0.606833338489347,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2578,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 129,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4027777777777778,
+            "recall": 0.635036496350365,
+            "f1": 0.49291784702549574,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 231,
+            "fp": 50,
+            "fn": 129,
+            "positive_reference": 360,
+            "precision": 0.8220640569395018,
+            "recall": 0.6416666666666667,
+            "f1": 0.7207488299531981,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6124209173586398,
+        "macro_recall": 0.6383515815085159,
+        "macro_f1": 0.606833338489347,
+        "valid_reference": 497,
+        "predicted_on_valid": 497,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 2577,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 87,
+            "fp": 129,
+            "fn": 50,
+            "positive_reference": 137,
+            "precision": 0.4027777777777778,
+            "recall": 0.635036496350365,
+            "f1": 0.49291784702549574,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 231,
+            "fp": 50,
+            "fn": 129,
+            "positive_reference": 360,
+            "precision": 0.8220640569395018,
+            "recall": 0.6416666666666667,
+            "f1": 0.7207488299531981,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.6315016162209814,
+        "macro_recall": 0.5461070559610706,
+        "macro_f1": 0.5742574257425743,
+        "valid_reference": 497,
+        "predicted_on_valid": 412,
+        "coverage": 0.8289738430583501,
+        "abstention": 0.1710261569416499,
+        "unscorable_predictions": 2206,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 72,
+            "fp": 94,
+            "fn": 65,
+            "positive_reference": 137,
+            "precision": 0.43373493975903615,
+            "recall": 0.5255474452554745,
+            "f1": 0.4752475247524752,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 204,
+            "fp": 42,
+            "fn": 156,
+            "positive_reference": 360,
+            "precision": 0.8292682926829268,
+            "recall": 0.5666666666666667,
+            "f1": 0.6732673267326733,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 1.0,
+        "macro_recall": 0.014760746147607463,
+        "macro_f1": 0.028985507246376812,
+        "valid_reference": 497,
+        "predicted_on_valid": 9,
+        "coverage": 0.018108651911468814,
+        "abstention": 0.9818913480885312,
+        "unscorable_predictions": 96,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 136,
+            "positive_reference": 137,
+            "precision": 1.0,
+            "recall": 0.0072992700729927005,
+            "f1": 0.014492753623188406,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 352,
+            "positive_reference": 360,
+            "precision": 1.0,
+            "recall": 0.022222222222222223,
+            "f1": 0.043478260869565216,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.3032650311968236,
+        "macro_recall": 0.3287888662940781,
+        "macro_f1": 0.27767975584453797,
+        "valid_reference": 960,
+        "predicted_on_valid": 959,
+        "coverage": 0.9989583333333333,
+        "abstention": 0.0010416666666667185,
+        "unscorable_predictions": 2112,
+        "states": {
+          "AAG_SELF": {
+            "tp": 132,
+            "fp": 360,
+            "fn": 54,
+            "positive_reference": 186,
+            "precision": 0.2682926829268293,
+            "recall": 0.7096774193548387,
+            "f1": 0.3893805309734513,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 371,
+            "fp": 53,
+            "fn": 368,
+            "positive_reference": 739,
+            "precision": 0.875,
+            "recall": 0.5020297699594046,
+            "f1": 0.6380051590713671,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 40,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.06976744186046512,
+            "recall": 0.10344827586206896,
+            "f1": 0.08333333333333333,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.3032650311968236,
+        "macro_recall": 0.3287888662940781,
+        "macro_f1": 0.27767975584453797,
+        "valid_reference": 960,
+        "predicted_on_valid": 959,
+        "coverage": 0.9989583333333333,
+        "abstention": 0.0010416666666667185,
+        "unscorable_predictions": 2112,
+        "states": {
+          "AAG_SELF": {
+            "tp": 132,
+            "fp": 360,
+            "fn": 54,
+            "positive_reference": 186,
+            "precision": 0.2682926829268293,
+            "recall": 0.7096774193548387,
+            "f1": 0.3893805309734513,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 371,
+            "fp": 53,
+            "fn": 368,
+            "positive_reference": 739,
+            "precision": 0.875,
+            "recall": 0.5020297699594046,
+            "f1": 0.6380051590713671,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 40,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.06976744186046512,
+            "recall": 0.10344827586206896,
+            "f1": 0.08333333333333333,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.3048187008716705,
+        "macro_recall": 0.32811227630760986,
+        "macro_f1": 0.27764867991724135,
+        "valid_reference": 960,
+        "predicted_on_valid": 953,
+        "coverage": 0.9927083333333333,
+        "abstention": 0.007291666666666696,
+        "unscorable_predictions": 2068,
+        "states": {
+          "AAG_SELF": {
+            "tp": 132,
+            "fp": 359,
+            "fn": 54,
+            "positive_reference": 186,
+            "precision": 0.26883910386965376,
+            "recall": 0.7096774193548387,
+            "f1": 0.38995568685376664,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 369,
+            "fp": 50,
+            "fn": 370,
+            "positive_reference": 739,
+            "precision": 0.8806682577565632,
+            "recall": 0.4993234100135318,
+            "f1": 0.6373056994818653,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 40,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.06976744186046512,
+            "recall": 0.10344827586206896,
+            "f1": 0.08333333333333333,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.31752162285194035,
+        "macro_recall": 0.23864598212919383,
+        "macro_f1": 0.2154398492336856,
+        "valid_reference": 960,
+        "predicted_on_valid": 644,
+        "coverage": 0.6708333333333333,
+        "abstention": 0.3291666666666667,
+        "unscorable_predictions": 1220,
+        "states": {
+          "AAG_SELF": {
+            "tp": 112,
+            "fp": 294,
+            "fn": 74,
+            "positive_reference": 186,
+            "precision": 0.27586206896551724,
+            "recall": 0.6021505376344086,
+            "f1": 0.3783783783783784,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 184,
+            "fp": 18,
+            "fn": 555,
+            "positive_reference": 739,
+            "precision": 0.9108910891089109,
+            "recall": 0.2489851150202977,
+            "f1": 0.39107332624867164,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 3,
+            "fp": 33,
+            "fn": 26,
+            "positive_reference": 29,
+            "precision": 0.08333333333333333,
+            "recall": 0.10344827586206896,
+            "f1": 0.09230769230769231,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.13043478260869565,
+        "macro_recall": 0.016129032258064516,
+        "macro_f1": 0.028708133971291867,
+        "valid_reference": 960,
+        "predicted_on_valid": 24,
+        "coverage": 0.025,
+        "abstention": 0.975,
+        "unscorable_predictions": 31,
+        "states": {
+          "AAG_SELF": {
+            "tp": 12,
+            "fp": 11,
+            "fn": 174,
+            "positive_reference": 186,
+            "precision": 0.5217391304347826,
+            "recall": 0.06451612903225806,
+            "f1": 0.11483253588516747,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 739,
+            "positive_reference": 739,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 29,
+            "positive_reference": 29,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6878278617335418,
+        "macro_recall": 0.7643648654430326,
+        "macro_f1": 0.690975758893112,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1694,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 1381,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 942,
+            "fp": 68,
+            "fn": 381,
+            "positive_reference": 1323,
+            "precision": 0.9326732673267327,
+            "recall": 0.7120181405895691,
+            "f1": 0.8075439348478354,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 303,
+            "fp": 381,
+            "fn": 68,
+            "positive_reference": 371,
+            "precision": 0.44298245614035087,
+            "recall": 0.816711590296496,
+            "f1": 0.5744075829383887,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6878278617335418,
+        "macro_recall": 0.7643648654430326,
+        "macro_f1": 0.690975758893112,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1694,
+        "coverage": 1.0,
+        "abstention": 0.0,
+        "unscorable_predictions": 1381,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 942,
+            "fp": 68,
+            "fn": 381,
+            "positive_reference": 1323,
+            "precision": 0.9326732673267327,
+            "recall": 0.7120181405895691,
+            "f1": 0.8075439348478354,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 303,
+            "fp": 381,
+            "fn": 68,
+            "positive_reference": 371,
+            "precision": 0.44298245614035087,
+            "recall": 0.816711590296496,
+            "f1": 0.5744075829383887,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6881521534291057,
+        "macro_recall": 0.7643648654430326,
+        "macro_f1": 0.6912482482588322,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1693,
+        "coverage": 0.999409681227863,
+        "abstention": 0.0005903187721369996,
+        "unscorable_predictions": 1376,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 942,
+            "fp": 68,
+            "fn": 381,
+            "positive_reference": 1323,
+            "precision": 0.9326732673267327,
+            "recall": 0.7120181405895691,
+            "f1": 0.8075439348478354,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 303,
+            "fp": 380,
+            "fn": 68,
+            "positive_reference": 371,
+            "precision": 0.44363103953147875,
+            "recall": 0.816711590296496,
+            "f1": 0.5749525616698292,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.7015615625398739,
+        "macro_recall": 0.5994024444159215,
+        "macro_f1": 0.5826438090418353,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1214,
+        "coverage": 0.7166469893742621,
+        "abstention": 0.2833530106257379,
+        "unscorable_predictions": 1013,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 559,
+            "fp": 38,
+            "fn": 764,
+            "positive_reference": 1323,
+            "precision": 0.9363484087102177,
+            "recall": 0.42252456538170824,
+            "f1": 0.5822916666666667,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 288,
+            "fp": 329,
+            "fn": 83,
+            "positive_reference": 371,
+            "precision": 0.46677471636953,
+            "recall": 0.7762803234501348,
+            "f1": 0.582995951417004,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.7151730257320319,
+        "macro_recall": 0.15159942383662062,
+        "macro_f1": 0.22038128130252943,
+        "valid_reference": 1694,
+        "predicted_on_valid": 170,
+        "coverage": 0.10035419126328217,
+        "abstention": 0.8996458087367178,
+        "unscorable_predictions": 108,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 16,
+            "fp": 7,
+            "fn": 1307,
+            "positive_reference": 1323,
+            "precision": 0.6956521739130435,
+            "recall": 0.012093726379440665,
+            "f1": 0.0237741456166419,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 108,
+            "fp": 39,
+            "fn": 263,
+            "positive_reference": 371,
+            "precision": 0.7346938775510204,
+            "recall": 0.29110512129380056,
+            "f1": 0.416988416988417,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5034775104071479,
+        "macro_recall": 0.4743195605837023,
+        "macro_f1": 0.4731800766283525,
+        "valid_reference": 264,
+        "predicted_on_valid": 263,
+        "coverage": 0.9962121212121212,
+        "abstention": 0.0037878787878787845,
+        "unscorable_predictions": 2805,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 53,
+            "fp": 14,
+            "fn": 54,
+            "positive_reference": 107,
+            "precision": 0.7910447761194029,
+            "recall": 0.4953271028037383,
+            "f1": 0.6091954022988506,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 55,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7193877551020408,
+            "recall": 0.9276315789473685,
+            "f1": 0.8103448275862069,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5025641025641026,
+        "macro_recall": 0.4680890309886867,
+        "macro_f1": 0.4685677903625763,
+        "valid_reference": 264,
+        "predicted_on_valid": 260,
+        "coverage": 0.9848484848484849,
+        "abstention": 0.015151515151515138,
+        "unscorable_predictions": 2789,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 51,
+            "fp": 14,
+            "fn": 56,
+            "positive_reference": 107,
+            "precision": 0.7846153846153846,
+            "recall": 0.4766355140186916,
+            "f1": 0.5930232558139535,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 54,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7230769230769231,
+            "recall": 0.9276315789473685,
+            "f1": 0.8126801152737753,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5038065027755749,
+        "macro_recall": 0.4680890309886867,
+        "macro_f1": 0.46935071918268584,
+        "valid_reference": 264,
+        "predicted_on_valid": 259,
+        "coverage": 0.9810606060606061,
+        "abstention": 0.018939393939393923,
+        "unscorable_predictions": 2764,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 51,
+            "fp": 14,
+            "fn": 56,
+            "positive_reference": 107,
+            "precision": 0.7846153846153846,
+            "recall": 0.4766355140186916,
+            "f1": 0.5930232558139535,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 141,
+            "fp": 53,
+            "fn": 11,
+            "positive_reference": 152,
+            "precision": 0.7268041237113402,
+            "recall": 0.9276315789473685,
+            "f1": 0.815028901734104,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5042305658381808,
+        "macro_recall": 0.4455853418593212,
+        "macro_f1": 0.4567483798253029,
+        "valid_reference": 264,
+        "predicted_on_valid": 247,
+        "coverage": 0.9356060606060606,
+        "abstention": 0.06439393939393945,
+        "unscorable_predictions": 2610,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 48,
+            "fp": 13,
+            "fn": 59,
+            "positive_reference": 107,
+            "precision": 0.7868852459016393,
+            "recall": 0.4485981308411215,
+            "f1": 0.5714285714285714,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 135,
+            "fp": 51,
+            "fn": 17,
+            "positive_reference": 152,
+            "precision": 0.7258064516129032,
+            "recall": 0.8881578947368421,
+            "f1": 0.7988165680473372,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 2,
+      "minimum_coverage": 0.25,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5400773908236595,
+        "macro_recall": 0.15730037711100178,
+        "macro_f1": 0.23449619482496195,
+        "valid_reference": 264,
+        "predicted_on_valid": 85,
+        "coverage": 0.32196969696969696,
+        "abstention": 0.678030303030303,
+        "unscorable_predictions": 1040,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 16,
+            "fp": 2,
+            "fn": 91,
+            "positive_reference": 107,
+            "precision": 0.8888888888888888,
+            "recall": 0.14953271028037382,
+            "f1": 0.256,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 49,
+            "fp": 18,
+            "fn": 103,
+            "positive_reference": 152,
+            "precision": 0.7313432835820896,
+            "recall": 0.3223684210526316,
+            "f1": 0.4474885844748858,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5416666666666666,
+        "macro_recall": 0.03012249675989799,
+        "macro_f1": 0.035902205036587455,
+        "valid_reference": 1424,
+        "predicted_on_valid": 14,
+        "coverage": 0.009831460674157303,
+        "abstention": 0.9901685393258427,
+        "unscorable_predictions": 16,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 1405,
+            "positive_reference": 1407,
+            "precision": 1.0,
+            "recall": 0.0014214641080312722,
+            "f1": 0.0028388928317956,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 11,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.08333333333333333,
+            "recall": 0.058823529411764705,
+            "f1": 0.06896551724137931,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.041666666666666664,
+        "macro_recall": 0.029411764705882353,
+        "macro_f1": 0.034482758620689655,
+        "valid_reference": 1424,
+        "predicted_on_valid": 12,
+        "coverage": 0.008426966292134831,
+        "abstention": 0.9915730337078652,
+        "unscorable_predictions": 11,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 11,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.08333333333333333,
+            "recall": 0.058823529411764705,
+            "f1": 0.06896551724137931,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.041666666666666664,
+        "macro_recall": 0.029411764705882353,
+        "macro_f1": 0.034482758620689655,
+        "valid_reference": 1424,
+        "predicted_on_valid": 12,
+        "coverage": 0.008426966292134831,
+        "abstention": 0.9915730337078652,
+        "unscorable_predictions": 11,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 1,
+            "fp": 11,
+            "fn": 16,
+            "positive_reference": 17,
+            "precision": 0.08333333333333333,
+            "recall": 0.058823529411764705,
+            "f1": 0.06896551724137931,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "valid_reference": 1424,
+        "predicted_on_valid": 2,
+        "coverage": 0.0014044943820224719,
+        "abstention": 0.9985955056179775,
+        "unscorable_predictions": 7,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 17,
+            "positive_reference": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_RELEVANCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "valid_reference": 1424,
+        "predicted_on_valid": 0,
+        "coverage": 0.0,
+        "abstention": 1.0,
+        "unscorable_predictions": 0,
+        "states": {
+          "AGR_RELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1407,
+            "positive_reference": 1407,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AGR_IRRELEVANT": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 17,
+            "positive_reference": 17,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5592111596986111,
+        "macro_recall": 0.5248422935693438,
+        "macro_f1": 0.5328551746208793,
+        "valid_reference": 988,
+        "predicted_on_valid": 860,
+        "coverage": 0.8704453441295547,
+        "abstention": 0.12955465587044535,
+        "unscorable_predictions": 1757,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 122,
+            "fp": 66,
+            "fn": 93,
+            "positive_reference": 215,
+            "precision": 0.648936170212766,
+            "recall": 0.5674418604651162,
+            "f1": 0.6054590570719603,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 590,
+            "fp": 56,
+            "fn": 170,
+            "positive_reference": 760,
+            "precision": 0.913312693498452,
+            "recall": 0.7763157894736842,
+            "f1": 0.8392603129445235,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 3,
+            "fp": 23,
+            "fn": 10,
+            "positive_reference": 13,
+            "precision": 0.11538461538461539,
+            "recall": 0.23076923076923078,
+            "f1": 0.15384615384615385,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5592111596986111,
+        "macro_recall": 0.5248422935693438,
+        "macro_f1": 0.5328551746208793,
+        "valid_reference": 988,
+        "predicted_on_valid": 860,
+        "coverage": 0.8704453441295547,
+        "abstention": 0.12955465587044535,
+        "unscorable_predictions": 1757,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 122,
+            "fp": 66,
+            "fn": 93,
+            "positive_reference": 215,
+            "precision": 0.648936170212766,
+            "recall": 0.5674418604651162,
+            "f1": 0.6054590570719603,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 590,
+            "fp": 56,
+            "fn": 170,
+            "positive_reference": 760,
+            "precision": 0.913312693498452,
+            "recall": 0.7763157894736842,
+            "f1": 0.8392603129445235,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 3,
+            "fp": 23,
+            "fn": 10,
+            "positive_reference": 13,
+            "precision": 0.11538461538461539,
+            "recall": 0.23076923076923078,
+            "f1": 0.15384615384615385,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5585853774708264,
+        "macro_recall": 0.5232919059724445,
+        "macro_f1": 0.5316988388473071,
+        "valid_reference": 988,
+        "predicted_on_valid": 859,
+        "coverage": 0.8694331983805668,
+        "abstention": 0.13056680161943324,
+        "unscorable_predictions": 1751,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 121,
+            "fp": 66,
+            "fn": 94,
+            "positive_reference": 215,
+            "precision": 0.6470588235294118,
+            "recall": 0.5627906976744186,
+            "f1": 0.6019900497512438,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 590,
+            "fp": 56,
+            "fn": 170,
+            "positive_reference": 760,
+            "precision": 0.913312693498452,
+            "recall": 0.7763157894736842,
+            "f1": 0.8392603129445235,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 3,
+            "fp": 23,
+            "fn": 10,
+            "positive_reference": 13,
+            "precision": 0.11538461538461539,
+            "recall": 0.23076923076923078,
+            "f1": 0.15384615384615385,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.5577728304589926,
+        "macro_recall": 0.519987132410633,
+        "macro_f1": 0.5294328464292285,
+        "valid_reference": 988,
+        "predicted_on_valid": 854,
+        "coverage": 0.8643724696356275,
+        "abstention": 0.13562753036437247,
+        "unscorable_predictions": 1669,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 120,
+            "fp": 66,
+            "fn": 95,
+            "positive_reference": 215,
+            "precision": 0.6451612903225806,
+            "recall": 0.5581395348837209,
+            "f1": 0.5985037406483791,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 586,
+            "fp": 56,
+            "fn": 174,
+            "positive_reference": 760,
+            "precision": 0.9127725856697819,
+            "recall": 0.7710526315789473,
+            "f1": 0.8359486447931527,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 3,
+            "fp": 23,
+            "fn": 10,
+            "positive_reference": 13,
+            "precision": 0.11538461538461539,
+            "recall": 0.23076923076923078,
+            "f1": 0.15384615384615385,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_GOAL_CONGRUENCE",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5939110981422041,
+        "macro_recall": 0.3948341336346233,
+        "macro_f1": 0.45560231730444495,
+        "valid_reference": 988,
+        "predicted_on_valid": 540,
+        "coverage": 0.5465587044534413,
+        "abstention": 0.45344129554655865,
+        "unscorable_predictions": 1005,
+        "states": {
+          "AGC_CONGRUENT": {
+            "tp": 110,
+            "fp": 39,
+            "fn": 105,
+            "positive_reference": 215,
+            "precision": 0.738255033557047,
+            "recall": 0.5116279069767442,
+            "f1": 0.6043956043956044,
+            "evaluable": true
+          },
+          "AGC_INCONGRUENT": {
+            "tp": 336,
+            "fp": 32,
+            "fn": 424,
+            "positive_reference": 760,
+            "precision": 0.9130434782608695,
+            "recall": 0.4421052631578947,
+            "f1": 0.5957446808510638,
+            "evaluable": true
+          },
+          "AGC_MIXED": {
+            "tp": 3,
+            "fp": 20,
+            "fn": 10,
+            "positive_reference": 13,
+            "precision": 0.13043478260869565,
+            "recall": 0.23076923076923078,
+            "f1": 0.16666666666666666,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6427045177045176,
+        "macro_recall": 0.5525344687753446,
+        "macro_f1": 0.5857480648687234,
+        "valid_reference": 497,
+        "predicted_on_valid": 408,
+        "coverage": 0.8209255533199196,
+        "abstention": 0.17907444668008043,
+        "unscorable_predictions": 2091,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 73,
+            "fp": 83,
+            "fn": 64,
+            "positive_reference": 137,
+            "precision": 0.46794871794871795,
+            "recall": 0.5328467153284672,
+            "f1": 0.49829351535836175,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 206,
+            "fp": 46,
+            "fn": 154,
+            "positive_reference": 360,
+            "precision": 0.8174603174603174,
+            "recall": 0.5722222222222222,
+            "f1": 0.673202614379085,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6427045177045176,
+        "macro_recall": 0.5525344687753446,
+        "macro_f1": 0.5857480648687234,
+        "valid_reference": 497,
+        "predicted_on_valid": 408,
+        "coverage": 0.8209255533199196,
+        "abstention": 0.17907444668008043,
+        "unscorable_predictions": 2091,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 73,
+            "fp": 83,
+            "fn": 64,
+            "positive_reference": 137,
+            "precision": 0.46794871794871795,
+            "recall": 0.5328467153284672,
+            "f1": 0.49829351535836175,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 206,
+            "fp": 46,
+            "fn": 154,
+            "positive_reference": 360,
+            "precision": 0.8174603174603174,
+            "recall": 0.5722222222222222,
+            "f1": 0.673202614379085,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6427045177045176,
+        "macro_recall": 0.5525344687753446,
+        "macro_f1": 0.5857480648687234,
+        "valid_reference": 497,
+        "predicted_on_valid": 408,
+        "coverage": 0.8209255533199196,
+        "abstention": 0.17907444668008043,
+        "unscorable_predictions": 2091,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 73,
+            "fp": 83,
+            "fn": 64,
+            "positive_reference": 137,
+            "precision": 0.46794871794871795,
+            "recall": 0.5328467153284672,
+            "f1": 0.49829351535836175,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 206,
+            "fp": 46,
+            "fn": 154,
+            "positive_reference": 360,
+            "precision": 0.8174603174603174,
+            "recall": 0.5722222222222222,
+            "f1": 0.673202614379085,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.6612554112554112,
+        "macro_recall": 0.4974655312246553,
+        "macro_f1": 0.5629984356543115,
+        "valid_reference": 497,
+        "predicted_on_valid": 359,
+        "coverage": 0.7223340040241448,
+        "abstention": 0.2776659959758552,
+        "unscorable_predictions": 1873,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 64,
+            "fp": 64,
+            "fn": 73,
+            "positive_reference": 137,
+            "precision": 0.5,
+            "recall": 0.46715328467153283,
+            "f1": 0.4830188679245283,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 190,
+            "fp": 41,
+            "fn": 170,
+            "positive_reference": 360,
+            "precision": 0.8225108225108225,
+            "recall": 0.5277777777777778,
+            "f1": 0.6429780033840947,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_EXPECTEDNESS",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 1.0,
+        "macro_recall": 0.014760746147607463,
+        "macro_f1": 0.028985507246376812,
+        "valid_reference": 497,
+        "predicted_on_valid": 9,
+        "coverage": 0.018108651911468814,
+        "abstention": 0.9818913480885312,
+        "unscorable_predictions": 95,
+        "states": {
+          "AEX_EXPECTED": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 136,
+            "positive_reference": 137,
+            "precision": 1.0,
+            "recall": 0.0072992700729927005,
+            "f1": 0.014492753623188406,
+            "evaluable": true
+          },
+          "AEX_UNEXPECTED": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 352,
+            "positive_reference": 360,
+            "precision": 1.0,
+            "recall": 0.022222222222222223,
+            "f1": 0.043478260869565216,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.3029125966625967,
+        "macro_recall": 0.22371628527261533,
+        "macro_f1": 0.2386388761846493,
+        "valid_reference": 960,
+        "predicted_on_valid": 667,
+        "coverage": 0.6947916666666667,
+        "abstention": 0.3052083333333333,
+        "unscorable_predictions": 1464,
+        "states": {
+          "AAG_SELF": {
+            "tp": 81,
+            "fp": 199,
+            "fn": 105,
+            "positive_reference": 186,
+            "precision": 0.2892857142857143,
+            "recall": 0.43548387096774194,
+            "f1": 0.34763948497854075,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 314,
+            "fp": 37,
+            "fn": 425,
+            "positive_reference": 739,
+            "precision": 0.8945868945868946,
+            "recall": 0.4248985115020298,
+            "f1": 0.5761467889908257,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 1,
+            "fp": 35,
+            "fn": 28,
+            "positive_reference": 29,
+            "precision": 0.027777777777777776,
+            "recall": 0.034482758620689655,
+            "f1": 0.03076923076923077,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.3029125966625967,
+        "macro_recall": 0.22371628527261533,
+        "macro_f1": 0.2386388761846493,
+        "valid_reference": 960,
+        "predicted_on_valid": 667,
+        "coverage": 0.6947916666666667,
+        "abstention": 0.3052083333333333,
+        "unscorable_predictions": 1464,
+        "states": {
+          "AAG_SELF": {
+            "tp": 81,
+            "fp": 199,
+            "fn": 105,
+            "positive_reference": 186,
+            "precision": 0.2892857142857143,
+            "recall": 0.43548387096774194,
+            "f1": 0.34763948497854075,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 314,
+            "fp": 37,
+            "fn": 425,
+            "positive_reference": 739,
+            "precision": 0.8945868945868946,
+            "recall": 0.4248985115020298,
+            "f1": 0.5761467889908257,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 1,
+            "fp": 35,
+            "fn": 28,
+            "positive_reference": 29,
+            "precision": 0.027777777777777776,
+            "recall": 0.034482758620689655,
+            "f1": 0.03076923076923077,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.3028373015873016,
+        "macro_recall": 0.22337799027938124,
+        "macro_f1": 0.2383120044649502,
+        "valid_reference": 960,
+        "predicted_on_valid": 666,
+        "coverage": 0.69375,
+        "abstention": 0.30625,
+        "unscorable_predictions": 1449,
+        "states": {
+          "AAG_SELF": {
+            "tp": 81,
+            "fp": 199,
+            "fn": 105,
+            "positive_reference": 186,
+            "precision": 0.2892857142857143,
+            "recall": 0.43548387096774194,
+            "f1": 0.34763948497854075,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 313,
+            "fp": 37,
+            "fn": 426,
+            "positive_reference": 739,
+            "precision": 0.8942857142857142,
+            "recall": 0.42354533152909335,
+            "f1": 0.5748393021120294,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 1,
+            "fp": 35,
+            "fn": 28,
+            "positive_reference": 29,
+            "precision": 0.027777777777777776,
+            "recall": 0.034482758620689655,
+            "f1": 0.03076923076923077,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.3086976663692774,
+        "macro_recall": 0.16187195917079217,
+        "macro_f1": 0.17838480501914622,
+        "valid_reference": 960,
+        "predicted_on_valid": 466,
+        "coverage": 0.48541666666666666,
+        "abstention": 0.5145833333333334,
+        "unscorable_predictions": 1007,
+        "states": {
+          "AAG_SELF": {
+            "tp": 74,
+            "fp": 183,
+            "fn": 112,
+            "positive_reference": 186,
+            "precision": 0.28793774319066145,
+            "recall": 0.3978494623655914,
+            "f1": 0.3340857787810384,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 159,
+            "fp": 14,
+            "fn": 580,
+            "positive_reference": 739,
+            "precision": 0.9190751445086706,
+            "recall": 0.21515561569688768,
+            "f1": 0.34868421052631576,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 1,
+            "fp": 35,
+            "fn": 28,
+            "positive_reference": 29,
+            "precision": 0.027777777777777776,
+            "recall": 0.034482758620689655,
+            "f1": 0.03076923076923077,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_AGENCY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.38095238095238093,
+        "macro_recall": 0.01512324122979324,
+        "macro_f1": 0.02724572398485442,
+        "valid_reference": 960,
+        "predicted_on_valid": 23,
+        "coverage": 0.023958333333333335,
+        "abstention": 0.9760416666666667,
+        "unscorable_predictions": 31,
+        "states": {
+          "AAG_SELF": {
+            "tp": 11,
+            "fp": 10,
+            "fn": 175,
+            "positive_reference": 186,
+            "precision": 0.5238095238095238,
+            "recall": 0.05913978494623656,
+            "f1": 0.10628019323671498,
+            "evaluable": true
+          },
+          "AAG_OTHER": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 738,
+            "positive_reference": 739,
+            "precision": 1.0,
+            "recall": 0.0013531799729364006,
+            "f1": 0.002702702702702703,
+            "evaluable": true
+          },
+          "AAG_CIRCUMSTANCE": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 29,
+            "positive_reference": 29,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          },
+          "AAG_SHARED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "positive_reference": 6,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.6916249451032059,
+        "macro_recall": 0.5466492676735264,
+        "macro_f1": 0.5903369874137231,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1209,
+        "coverage": 0.7136953955135773,
+        "abstention": 0.2863046044864227,
+        "unscorable_predictions": 1015,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 694,
+            "fp": 65,
+            "fn": 629,
+            "positive_reference": 1323,
+            "precision": 0.9143610013175231,
+            "recall": 0.5245653817082389,
+            "f1": 0.6666666666666666,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 211,
+            "fp": 239,
+            "fn": 160,
+            "positive_reference": 371,
+            "precision": 0.4688888888888889,
+            "recall": 0.568733153638814,
+            "f1": 0.5140073081607796,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.6916249451032059,
+        "macro_recall": 0.5466492676735264,
+        "macro_f1": 0.5903369874137231,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1209,
+        "coverage": 0.7136953955135773,
+        "abstention": 0.2863046044864227,
+        "unscorable_predictions": 1015,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 694,
+            "fp": 65,
+            "fn": 629,
+            "positive_reference": 1323,
+            "precision": 0.9143610013175231,
+            "recall": 0.5245653817082389,
+            "f1": 0.6666666666666666,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 211,
+            "fp": 239,
+            "fn": 160,
+            "positive_reference": 371,
+            "precision": 0.4688888888888889,
+            "recall": 0.568733153638814,
+            "f1": 0.5140073081607796,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.6916249451032059,
+        "macro_recall": 0.5466492676735264,
+        "macro_f1": 0.5903369874137231,
+        "valid_reference": 1694,
+        "predicted_on_valid": 1209,
+        "coverage": 0.7136953955135773,
+        "abstention": 0.2863046044864227,
+        "unscorable_predictions": 1013,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 694,
+            "fp": 65,
+            "fn": 629,
+            "positive_reference": 1323,
+            "precision": 0.9143610013175231,
+            "recall": 0.5245653817082389,
+            "f1": 0.6666666666666666,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 211,
+            "fp": 239,
+            "fn": 160,
+            "positive_reference": 371,
+            "precision": 0.4688888888888889,
+            "recall": 0.568733153638814,
+            "f1": 0.5140073081607796,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.6995846106002044,
+        "macro_recall": 0.4594760336000228,
+        "macro_f1": 0.5239221850137343,
+        "valid_reference": 1694,
+        "predicted_on_valid": 959,
+        "coverage": 0.5661157024793388,
+        "abstention": 0.43388429752066116,
+        "unscorable_predictions": 803,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 499,
+            "fp": 50,
+            "fn": 824,
+            "positive_reference": 1323,
+            "precision": 0.9089253187613844,
+            "recall": 0.37717309145880573,
+            "f1": 0.5331196581196581,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 201,
+            "fp": 209,
+            "fn": 170,
+            "positive_reference": 371,
+            "precision": 0.4902439024390244,
+            "recall": 0.5417789757412399,
+            "f1": 0.5147247119078106,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_CERTAINTY",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.6342077371489137,
+        "macro_recall": 0.11095423494345327,
+        "macro_f1": 0.17676128590971274,
+        "valid_reference": 1694,
+        "predicted_on_valid": 139,
+        "coverage": 0.0820543093270366,
+        "abstention": 0.9179456906729634,
+        "unscorable_predictions": 91,
+        "states": {
+          "ACT_CERTAIN": {
+            "tp": 19,
+            "fp": 18,
+            "fn": 1304,
+            "positive_reference": 1323,
+            "precision": 0.5135135135135135,
+            "recall": 0.01436130007558579,
+            "f1": 0.027941176470588237,
+            "evaluable": true
+          },
+          "ACT_UNCERTAIN": {
+            "tp": 77,
+            "fp": 25,
+            "fn": 294,
+            "positive_reference": 371,
+            "precision": 0.7549019607843137,
+            "recall": 0.20754716981132076,
+            "f1": 0.32558139534883723,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.0,
+      "metrics": {
+        "macro_precision": 0.5380517503805176,
+        "macro_recall": 0.35903426791277254,
+        "macro_f1": 0.4116331096196868,
+        "valid_reference": 264,
+        "predicted_on_valid": 188,
+        "coverage": 0.7121212121212122,
+        "abstention": 0.28787878787878785,
+        "unscorable_predictions": 1871,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 35,
+            "fp": 7,
+            "fn": 72,
+            "positive_reference": 107,
+            "precision": 0.8333333333333334,
+            "recall": 0.32710280373831774,
+            "f1": 0.4697986577181208,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 114,
+            "fp": 32,
+            "fn": 38,
+            "positive_reference": 152,
+            "precision": 0.7808219178082192,
+            "recall": 0.75,
+            "f1": 0.7651006711409396,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.01,
+      "metrics": {
+        "macro_precision": 0.5380517503805176,
+        "macro_recall": 0.35903426791277254,
+        "macro_f1": 0.4116331096196868,
+        "valid_reference": 264,
+        "predicted_on_valid": 188,
+        "coverage": 0.7121212121212122,
+        "abstention": 0.28787878787878785,
+        "unscorable_predictions": 1862,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 35,
+            "fp": 7,
+            "fn": 72,
+            "positive_reference": 107,
+            "precision": 0.8333333333333334,
+            "recall": 0.32710280373831774,
+            "f1": 0.4697986577181208,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 114,
+            "fp": 32,
+            "fn": 38,
+            "positive_reference": 152,
+            "precision": 0.7808219178082192,
+            "recall": 0.75,
+            "f1": 0.7651006711409396,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.025,
+      "metrics": {
+        "macro_precision": 0.5380517503805176,
+        "macro_recall": 0.35903426791277254,
+        "macro_f1": 0.4116331096196868,
+        "valid_reference": 264,
+        "predicted_on_valid": 188,
+        "coverage": 0.7121212121212122,
+        "abstention": 0.28787878787878785,
+        "unscorable_predictions": 1858,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 35,
+            "fp": 7,
+            "fn": 72,
+            "positive_reference": 107,
+            "precision": 0.8333333333333334,
+            "recall": 0.32710280373831774,
+            "f1": 0.4697986577181208,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 114,
+            "fp": 32,
+            "fn": 38,
+            "positive_reference": 152,
+            "precision": 0.7808219178082192,
+            "recall": 0.75,
+            "f1": 0.7651006711409396,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": true
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.05,
+      "metrics": {
+        "macro_precision": 0.535164022968901,
+        "macro_recall": 0.34934005574684374,
+        "macro_f1": 0.40400061078027183,
+        "valid_reference": 264,
+        "predicted_on_valid": 184,
+        "coverage": 0.696969696969697,
+        "abstention": 0.303030303030303,
+        "unscorable_predictions": 1801,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 34,
+            "fp": 7,
+            "fn": 73,
+            "positive_reference": 107,
+            "precision": 0.8292682926829268,
+            "recall": 0.3177570093457944,
+            "f1": 0.4594594594594595,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 111,
+            "fp": 32,
+            "fn": 41,
+            "positive_reference": 152,
+            "precision": 0.7762237762237763,
+            "recall": 0.7302631578947368,
+            "f1": 0.752542372881356,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    },
+    {
+      "profile_index": 3,
+      "minimum_coverage": 0.5,
+      "dimension_id": "APP_COPING_POTENTIAL",
+      "delta": 0.1,
+      "metrics": {
+        "macro_precision": 0.5199884958297383,
+        "macro_recall": 0.14979914740121333,
+        "macro_f1": 0.2264699306952828,
+        "valid_reference": 264,
+        "predicted_on_valid": 80,
+        "coverage": 0.30303030303030304,
+        "abstention": 0.696969696969697,
+        "unscorable_predictions": 854,
+        "states": {
+          "ACP_HIGH": {
+            "tp": 15,
+            "fp": 4,
+            "fn": 92,
+            "positive_reference": 107,
+            "precision": 0.7894736842105263,
+            "recall": 0.14018691588785046,
+            "f1": 0.23809523809523808,
+            "evaluable": true
+          },
+          "ACP_LOW": {
+            "tp": 47,
+            "fp": 14,
+            "fn": 105,
+            "positive_reference": 152,
+            "precision": 0.7704918032786885,
+            "recall": 0.3092105263157895,
+            "f1": 0.4413145539906103,
+            "evaluable": true
+          },
+          "ACP_MIXED": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "positive_reference": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "evaluable": true
+          }
+        }
+      },
+      "selected": false
+    }
+  ]
+}

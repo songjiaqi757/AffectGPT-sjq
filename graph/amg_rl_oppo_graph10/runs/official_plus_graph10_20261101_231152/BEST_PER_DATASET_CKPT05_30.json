@@ -1,0 +1,106 @@
+{
+  "epochs": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "rows": [
+    {
+      "dataset": "CMUMOSI",
+      "metric": "WAF",
+      "samples": 686,
+      "best_score_percent": 76.19545367250379,
+      "best_epochs": [
+        5
+      ]
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "metric": "WAF",
+      "samples": 4659,
+      "best_score_percent": 75.06500949789412,
+      "best_epochs": [
+        20
+      ]
+    },
+    {
+      "dataset": "SIMS",
+      "metric": "WAF",
+      "samples": 457,
+      "best_score_percent": 86.79661145733427,
+      "best_epochs": [
+        20
+      ]
+    },
+    {
+      "dataset": "SIMSv2",
+      "metric": "WAF",
+      "samples": 1034,
+      "best_score_percent": 85.19573052111778,
+      "best_epochs": [
+        25
+      ]
+    },
+    {
+      "dataset": "MER2023",
+      "metric": "HIT",
+      "samples": 411,
+      "best_score_percent": 81.7621681977364,
+      "best_epochs": [
+        25
+      ]
+    },
+    {
+      "dataset": "MER2024",
+      "metric": "HIT",
+      "samples": 1169,
+      "best_score_percent": 89.59833309987394,
+      "best_epochs": [
+        25
+      ]
+    },
+    {
+      "dataset": "MELD",
+      "metric": "HIT",
+      "samples": 2610,
+      "best_score_percent": 67.29103393581106,
+      "best_epochs": [
+        15
+      ]
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "metric": "HIT",
+      "samples": 1241,
+      "best_score_percent": 75.51925320886815,
+      "best_epochs": [
+        5
+      ]
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "metric": "F_s",
+      "samples": 532,
+      "best_score_percent": 64.24270997649695,
+      "best_epochs": [
+        30
+      ]
+    }
+  ],
+  "mean_percent": 77.96292261862625,
+  "best_single_checkpoint": 15,
+  "best_single_mean_percent": 76.69847819753369,
+  "single_checkpoint_means": {
+    "5": 75.91114219783441,
+    "10": 75.23791123911296,
+    "15": 76.69847819753369,
+    "20": 75.8978266375758,
+    "25": 75.50042434281372,
+    "30": 74.8747247527476
+  },
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "reporting_note": "Per-dataset maximum over the six completed checkpoints; this is not a single fixed-checkpoint result."
+}

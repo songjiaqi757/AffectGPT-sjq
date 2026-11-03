@@ -1,0 +1,1651 @@
+{
+  "schema_version": "amg_preflight_audit_v1",
+  "p0_complete": true,
+  "status": "passed_with_explicit_downstream_gates",
+  "started_at_beijing": "2026-10-22T11:02:34.630770+08:00",
+  "finished_at_beijing": "2026-10-22T11:08:33.570278+08:00",
+  "audit_directory": "/ai/sjq/AffectGPT-sjq/amg_graph/preflight/p0_20261022_110014",
+  "lock_id": "76eac932b109b29455aef081a5da79a48f9f1fa3055fef718c0d1b58fa72bebb",
+  "checks": [
+    {
+      "name": "current_cue_release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "current_graph_release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "graph_protocol_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "graph_source_release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "role_counts",
+      "passed": true,
+      "details": {
+        "pseudo_train": 27679,
+        "pseudo_validation": 3076,
+        "gold_audit": 300,
+        "diagnostic_reserved": 200
+      }
+    },
+    {
+      "name": "unique_sample_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "release_identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sample_role_disjoint:pseudo_train:pseudo_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_group_disjoint:pseudo_train:pseudo_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:audio:pseudo_train:pseudo_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:visual:pseudo_train:pseudo_validation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sample_role_disjoint:pseudo_train:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_group_disjoint:pseudo_train:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:audio:pseudo_train:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:visual:pseudo_train:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sample_role_disjoint:pseudo_train:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_group_disjoint:pseudo_train:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:audio:pseudo_train:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:visual:pseudo_train:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sample_role_disjoint:pseudo_validation:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_group_disjoint:pseudo_validation:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:audio:pseudo_validation:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:visual:pseudo_validation:gold_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sample_role_disjoint:pseudo_validation:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_group_disjoint:pseudo_validation:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:audio:pseudo_validation:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:visual:pseudo_validation:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sample_role_disjoint:gold_audit:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "manifest_group_disjoint:gold_audit:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:audio:gold_audit:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "registered_exact_media_disjoint:visual:gold_audit:diagnostic_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "graph_member_roles_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "graph_contains_no_gold_or_reserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cue_source_artifact:samples.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cue_source_artifact:labels.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cue_source_artifact:ontology.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "cue_source_artifact:protocol.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_media_paths_and_recorded_stat_identities",
+      "passed": true,
+      "details": {
+        "paths": 62510,
+        "content_rehashed": false,
+        "resolved_media_roots": [
+          "/ai/sjq/AffectGPT/dataset/mer2025-dataset/audio",
+          "/ai/sjq/AffectGPT/dataset/mer2025-dataset/video"
+        ]
+      }
+    },
+    {
+      "name": "42_cue_order",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "verifier_uses_current_graph",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "verifier_write_redirected",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "independent_graph_verification",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "node_counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "node_order",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "edge_directions_weights_support_and_release",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "fixed_hierarchy_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "admitted_paths_exact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_path_edge_weights_and_group_support_fields",
+      "passed": true,
+      "details": 2595
+    },
+    {
+      "name": "checkpoint_training_report_status:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:text:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:text",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:text:model.safetensors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:text:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:text:tokenizer_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:text:tokenizer.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:text:sentencepiece.bpe.model",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:text",
+      "passed": true,
+      "details": [
+        "head.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:text",
+      "passed": true,
+      "details": 10
+    },
+    {
+      "name": "checkpoint_training_report_status:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:audio",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio:pytorch_model.bin",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:audio",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:audio",
+      "passed": true,
+      "details": 17
+    },
+    {
+      "name": "checkpoint_training_report_status:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:audio_temporal",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_temporal:pytorch_model.bin",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_temporal:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_temporal:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:audio_temporal",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:audio_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:audio_temporal",
+      "passed": true,
+      "details": 11
+    },
+    {
+      "name": "checkpoint_training_report_status:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_full:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:audio_full",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_full:pytorch_model.bin",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_full:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_full:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:audio_full",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:audio_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:audio_full",
+      "passed": true,
+      "details": 15
+    },
+    {
+      "name": "checkpoint_training_report_status:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:audio_temporal_full:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:audio_temporal_full",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_temporal_full:pytorch_model.bin",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_temporal_full:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:audio_temporal_full:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:audio_temporal_full",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:audio_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:audio_temporal_full",
+      "passed": true,
+      "details": 18
+    },
+    {
+      "name": "checkpoint_training_report_status:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:visual",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual:model.safetensors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual:tokenizer_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual:tokenizer.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual:special_tokens_map.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:visual",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:visual",
+      "passed": true,
+      "details": 12
+    },
+    {
+      "name": "checkpoint_training_report_status:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:visual_temporal",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal:model.safetensors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal:tokenizer_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal:tokenizer.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal:special_tokens_map.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:visual_temporal",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:visual_temporal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:visual_temporal",
+      "passed": true,
+      "details": 12
+    },
+    {
+      "name": "checkpoint_training_report_status:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_full:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:visual_full",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_full:model.safetensors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_full:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_full:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_full:tokenizer_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_full:tokenizer.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_full:special_tokens_map.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:visual_full",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:visual_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:visual_full",
+      "passed": true,
+      "details": 8
+    },
+    {
+      "name": "checkpoint_training_report_status:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:signature",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:code_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:release_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:fixed_holdout_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:cue_ids",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:train_positive",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:train_negative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_manifest:visual_temporal_full:scope",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_release:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_config:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_cue_order:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "training_support_recomputed:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_signature:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "archived_training_code_hash:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_original_cue_modules_unchanged:visual_temporal_full",
+      "passed": true,
+      "details": [
+        "cancel_diagnostic.py"
+      ]
+    },
+    {
+      "name": "encoder_manifest_binding:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal_full:model.safetensors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal_full:config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal_full:preprocessor_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal_full:tokenizer_config.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal_full:tokenizer.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "encoder_asset:visual_temporal_full:special_tokens_map.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "output_head_dimension:visual_temporal_full",
+      "passed": true,
+      "details": [
+        "head.classifier.3.bias"
+      ]
+    },
+    {
+      "name": "best_embedded_metrics:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_selection_metric:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "last_validation_ids:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "checkpoint_historical_stat_identity:visual_temporal_full",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "best_epoch_selection_recomputed:visual_temporal_full",
+      "passed": true,
+      "details": 8
+    },
+    {
+      "name": "existing_model_selection_reproduced:text",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "existing_model_selection_reproduced:audio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "existing_model_selection_reproduced:visual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "existing_selected_trio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "current_plan_has_v29_and_P0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen_source_plan_hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "recorded_runtime_package_versions",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "pointers_unchanged_during_audit",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_protected_files_unchanged",
+      "passed": true,
+      "details": {
+        "files": 66
+      }
+    }
+  ],
+  "check_count": 305,
+  "role_counts": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "graph_counts": {
+    "nodes": 252,
+    "statistical_edges": 1048,
+    "fixed_edges": 16,
+    "admitted_paths": 2595
+  },
+  "selected_runs": {
+    "text": "text",
+    "audio": "audio_full",
+    "visual": "visual_full"
+  },
+  "protected_original_files_unchanged": 66,
+  "warnings": [
+    {
+      "code": "historical_document_revision_is_v28",
+      "stage": "P0 recorded",
+      "detail": "Live v2.9 hash is separately locked; frozen build plan and old revision record are unchanged."
+    },
+    {
+      "code": "cue_code_aggregate_has_added_migration_file",
+      "stage": "P0 recorded",
+      "detail": "All original training source modules match archived code; added cancel_diagnostic.py changes the aggregate current module hash. Exact live and archive hashes are recorded."
+    },
+    {
+      "code": "uncalibrated_thresholds_and_no_active_deferred_freeze",
+      "stage": "P2",
+      "detail": "Current fixed 0.5 is an uncalibrated engineering threshold. No human calibration or deployment active/deferred artifact is claimed."
+    },
+    {
+      "code": "validation_last_cache_not_bound_to_best",
+      "stage": "P2/P4",
+      "detail": "Do not reuse validation.last.npz as best predictions; regenerate from the locked trio and store checkpoint hashes."
+    },
+    {
+      "code": "human_and_original_source_audits_pending",
+      "stage": "P1",
+      "detail": "Registered group/exact hash isolation is verified; original provenance and near duplicates remain unaudited."
+    },
+    {
+      "code": "untracked_implementation",
+      "stage": "P0 recorded",
+      "detail": "Git commit is recorded; exact source hashes are required because core directories are currently untracked."
+    }
+  ],
+  "ready_for_engineering_P2_P3": true,
+  "ready_for_final_target_evaluation": false,
+  "scope": {
+    "trained_models": 0,
+    "teacher_calls": 0,
+    "graph_rebuilds": 0,
+    "gpu_inference_runs": 0,
+    "target_labels_used": false,
+    "local_project_files_saved": false
+  },
+  "limitations": {
+    "media_verification": "62,510 paths re-statted; existing source content SHA256 used for exact-duplicate grouping; media content not rehashed in P0",
+    "checkpoint_verification": "Full-file SHA256, static metadata/signature/config/head shapes; no pickle callable executed and no forward inference in P0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "sample_count": 31255,
+  "dimension_rows": 187530,
+  "role_counts": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "by_role": {
+    "pseudo_train": {
+      "valid_dimensions": 51680,
+      "invalid_dimensions": 114394
+    },
+    "pseudo_validation": {
+      "invalid_dimensions": 12629,
+      "valid_dimensions": 5827
+    },
+    "gold_audit": {
+      "valid_dimensions": 572,
+      "invalid_dimensions": 1228
+    },
+    "diagnostic_reserved": {
+      "valid_dimensions": 364,
+      "invalid_dimensions": 836
+    }
+  },
+  "data_release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "model_annotations_changed": false,
+  "original_final_verification_preserved": true,
+  "previous_csv": "/ai/sjq/AffectGPT-sjq/appraisal_annotation/runs/mercaptionplus_v2_4/labels.no_diagnostic_split_20261022.csv",
+  "current_csv_sha256": "efcb425e9869680f4407ee3419c6f938b7c0718eb6d2b59c68d7e0647d4232c9"
+}

@@ -1,0 +1,1401 @@
+{
+  "means": {
+    "A": 75.02390385251506,
+    "B": 74.52785500967613,
+    "C": 75.54847754045355,
+    "D": 74.39426830557545,
+    "E": 75.24960499974162,
+    "P": 75.42931569176558
+  },
+  "contrasts": [
+    {
+      "dataset": "MER2023",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": -1.2566614221184658,
+      "bootstrap95_pp": [
+        -3.62583946727498,
+        1.0853695871059161
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 411,
+      "improved": 20,
+      "worsened": 27,
+      "unchanged": 276,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": -1.118205349439172,
+      "bootstrap95_pp": [
+        -3.406311399815543,
+        1.1097168567331595
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 411,
+      "improved": 19,
+      "worsened": 28,
+      "unchanged": 276,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 2.3202557986093497,
+      "bootstrap95_pp": [
+        0.3688385259600835,
+        4.408904530928076
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 410,
+      "improved": 26,
+      "worsened": 15,
+      "unchanged": 282,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": 0.12018474344008823,
+      "bootstrap95_pp": [
+        -0.9557819098611764,
+        1.1620689904032608
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 146,
+      "improved": 8,
+      "worsened": 5,
+      "unchanged": 310,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": 0.058265238796129104,
+      "bootstrap95_pp": [
+        -0.28360390753935455,
+        0.44303797468353584
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 146,
+      "improved": 3,
+      "worsened": 3,
+      "unchanged": 317,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": -0.0036542658478411205,
+      "bootstrap95_pp": [
+        -0.7908482466199842,
+        0.7583739386206706
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 146,
+      "improved": 7,
+      "worsened": 6,
+      "unchanged": 310,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": -0.054610972948287984,
+      "bootstrap95_pp": [
+        -0.8228501105083424,
+        0.7466202474774585
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 146,
+      "improved": 5,
+      "worsened": 6,
+      "unchanged": 312,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2023",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": 2.2583362939653906,
+      "bootstrap95_pp": [
+        0.21028156340583612,
+        4.382072945100922
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 411,
+      "evaluated_samples": 411,
+      "prompt_changed_samples": 410,
+      "improved": 28,
+      "worsened": 18,
+      "unchanged": 277,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": 0.029042349535401968,
+      "bootstrap95_pp": [
+        -1.3004423687515074,
+        1.3326524112688856
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 1169,
+      "improved": 94,
+      "worsened": 95,
+      "unchanged": 779,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": -1.1460522015221408,
+      "bootstrap95_pp": [
+        -2.37592955354123,
+        0.10842754620617188
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 1169,
+      "improved": 72,
+      "worsened": 89,
+      "unchanged": 807,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 1.0530886678806528,
+      "bootstrap95_pp": [
+        -0.4491238757722374,
+        2.455434278979694
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 1167,
+      "improved": 93,
+      "worsened": 83,
+      "unchanged": 792,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": -0.30604192930850926,
+      "bootstrap95_pp": [
+        -1.1602124770548936,
+        0.5027816199195508
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 421,
+      "improved": 31,
+      "worsened": 29,
+      "unchanged": 908,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.48489517672878346,
+      "bootstrap95_pp": [
+        -1.2075772895451622,
+        0.19520323941181686
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 421,
+      "improved": 25,
+      "worsened": 32,
+      "unchanged": 911,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.5488163608348695,
+      "bootstrap95_pp": [
+        -0.15479214767976257,
+        1.2922932925118717
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 421,
+      "improved": 34,
+      "worsened": 22,
+      "unchanged": 912,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": -0.06392118410608605,
+      "bootstrap95_pp": [
+        -0.8918813337725708,
+        0.7345678643205499
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 421,
+      "improved": 31,
+      "worsened": 37,
+      "unchanged": 900,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MER2024",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": 0.8742354204603786,
+      "bootstrap95_pp": [
+        -0.5607443197991102,
+        2.371325215753439
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 1169,
+      "evaluated_samples": 1169,
+      "prompt_changed_samples": 1167,
+      "improved": 91,
+      "worsened": 86,
+      "unchanged": 791,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": 1.1501677573434121,
+      "bootstrap95_pp": [
+        -0.13243643837894112,
+        2.4375836850813486
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 2610,
+      "improved": 152,
+      "worsened": 126,
+      "unchanged": 1076,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": -0.47859445967554093,
+      "bootstrap95_pp": [
+        -1.5539841618327577,
+        0.6804130996760201
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 2610,
+      "improved": 117,
+      "worsened": 136,
+      "unchanged": 1101,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": -0.39464407164679915,
+      "bootstrap95_pp": [
+        -1.5616423683381124,
+        0.7177843940643527
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 2606,
+      "improved": 112,
+      "worsened": 121,
+      "unchanged": 1121,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": -0.22314863333656731,
+      "bootstrap95_pp": [
+        -0.8648644093347602,
+        0.37391664786809203
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 1120,
+      "improved": 38,
+      "worsened": 42,
+      "unchanged": 1274,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.2346213253997531,
+      "bootstrap95_pp": [
+        -0.9265012211435231,
+        0.44140942003929096
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 1120,
+      "improved": 43,
+      "worsened": 40,
+      "unchanged": 1271,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": -0.04230790062131895,
+      "bootstrap95_pp": [
+        -0.6113668228675903,
+        0.5181704168913069
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 1120,
+      "improved": 36,
+      "worsened": 34,
+      "unchanged": 1284,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": 0.27692922602107206,
+      "bootstrap95_pp": [
+        -0.44683981431027364,
+        0.9480802503522019
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 1120,
+      "improved": 46,
+      "worsened": 49,
+      "unchanged": 1259,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "MELD",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": -0.40611676370998495,
+      "bootstrap95_pp": [
+        -1.5727630070011498,
+        0.7690897978099935
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 280,
+      "evaluated_samples": 2610,
+      "prompt_changed_samples": 2606,
+      "improved": 111,
+      "worsened": 118,
+      "unchanged": 1125,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": 1.376896149358231,
+      "bootstrap95_pp": [
+        -0.5721795259271983,
+        3.5165101393790783
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 1241,
+      "improved": 104,
+      "worsened": 81,
+      "unchanged": 672,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": -1.4702450408401346,
+      "bootstrap95_pp": [
+        -3.02032886920834,
+        0.11825725403159264
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 1241,
+      "improved": 70,
+      "worsened": 97,
+      "unchanged": 690,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 0.9101516919486463,
+      "bootstrap95_pp": [
+        -0.6347310710011234,
+        2.227511254273968
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 1241,
+      "improved": 89,
+      "worsened": 71,
+      "unchanged": 697,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": 0.2333722287047757,
+      "bootstrap95_pp": [
+        -0.7006564812604368,
+        1.1697483335674796
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 536,
+      "improved": 32,
+      "worsened": 30,
+      "unchanged": 795,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.8868144690781787,
+      "bootstrap95_pp": [
+        -1.5837438423645445,
+        -0.14792547568710993
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 536,
+      "improved": 27,
+      "worsened": 42,
+      "unchanged": 788,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.07001166861143604,
+      "bootstrap95_pp": [
+        -0.6781598062953894,
+        0.840915833141637
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 536,
+      "improved": 35,
+      "worsened": 35,
+      "unchanged": 787,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": 0.8168028004667427,
+      "bootstrap95_pp": [
+        -0.16892129805861772,
+        1.747144421843209
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 536,
+      "improved": 43,
+      "worsened": 30,
+      "unchanged": 784,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": -0.21003500583430812,
+      "bootstrap95_pp": [
+        -1.677910744857185,
+        0.9703884148324236
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 1241,
+      "prompt_changed_samples": 1241,
+      "improved": 74,
+      "worsened": 76,
+      "unchanged": 707,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": -0.007015701859258705,
+      "bootstrap95_pp": [
+        -1.7212810019285785,
+        1.695324594417108
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 686,
+      "improved": 20,
+      "worsened": 20,
+      "unchanged": 616,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": -1.1953503902646823,
+      "bootstrap95_pp": [
+        -2.967052269006501,
+        0.45745837301218817
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 686,
+      "improved": 15,
+      "worsened": 23,
+      "unchanged": 618,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 0.751936740369008,
+      "bootstrap95_pp": [
+        -1.0569395040869924,
+        2.4751571010721727
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 686,
+      "improved": 20,
+      "worsened": 15,
+      "unchanged": 621,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": 0.5957656234105491,
+      "bootstrap95_pp": [
+        -0.6651764085142283,
+        1.973257424252974
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 194,
+      "improved": 10,
+      "worsened": 6,
+      "unchanged": 640,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.1502597405731554,
+      "bootstrap95_pp": [
+        -1.102956691757123,
+        0.8262100567839341
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 194,
+      "improved": 5,
+      "worsened": 6,
+      "unchanged": 645,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.6006890923280883,
+      "bootstrap95_pp": [
+        -0.8330423206731152,
+        2.068066392263299
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 194,
+      "improved": 11,
+      "worsened": 7,
+      "unchanged": 638,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": -0.4504293517549329,
+      "bootstrap95_pp": [
+        -1.9157833607853674,
+        0.863118414874539
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 194,
+      "improved": 7,
+      "worsened": 10,
+      "unchanged": 639,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSI",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": 0.0059113763853035906,
+      "bootstrap95_pp": [
+        -1.7130094620594374,
+        1.6015042345607111
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 31,
+      "evaluated_samples": 656,
+      "prompt_changed_samples": 686,
+      "improved": 18,
+      "worsened": 18,
+      "unchanged": 620,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": -0.08557254819221427,
+      "bootstrap95_pp": [
+        -0.9472474967943814,
+        0.7785076276361975
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 4658,
+      "improved": 134,
+      "worsened": 136,
+      "unchanged": 3364,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": 0.6002075296735465,
+      "bootstrap95_pp": [
+        -0.21399002018414184,
+        1.4600590269298386
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 4658,
+      "improved": 126,
+      "worsened": 105,
+      "unchanged": 3403,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": -0.4130279220393551,
+      "bootstrap95_pp": [
+        -1.1283750754899329,
+        0.3227621182927053
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 4657,
+      "improved": 98,
+      "worsened": 113,
+      "unchanged": 3423,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": 0.018033560516894642,
+      "bootstrap95_pp": [
+        -0.36663426397718857,
+        0.436537775761703
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 1592,
+      "improved": 25,
+      "worsened": 24,
+      "unchanged": 3585,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.21681376716546907,
+      "bootstrap95_pp": [
+        -0.6489557133145829,
+        0.22179769003142452
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 1592,
+      "improved": 30,
+      "worsened": 38,
+      "unchanged": 3566,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.11520670772349195,
+      "bootstrap95_pp": [
+        -0.3033987959353049,
+        0.5420630778090528
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 1592,
+      "improved": 35,
+      "worsened": 31,
+      "unchanged": 3568,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": 0.10160705944197712,
+      "bootstrap95_pp": [
+        -0.323871306005645,
+        0.520861940216893
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 1592,
+      "improved": 33,
+      "worsened": 29,
+      "unchanged": 3572,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": -0.6478752497217188,
+      "bootstrap95_pp": [
+        -1.41248651272618,
+        0.15214390409282239
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 639,
+      "evaluated_samples": 3634,
+      "prompt_changed_samples": 4657,
+      "improved": 97,
+      "worsened": 121,
+      "unchanged": 3416,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": -3.2817020979013845,
+      "bootstrap95_pp": [
+        -5.678154015406198,
+        -1.232232046088934
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 457,
+      "improved": 4,
+      "worsened": 17,
+      "unchanged": 367,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": 0.26520537471207417,
+      "bootstrap95_pp": [
+        -1.6816434819137702,
+        2.4554631571361796
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 457,
+      "improved": 11,
+      "worsened": 10,
+      "unchanged": 367,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 3.266327377662648,
+      "bootstrap95_pp": [
+        1.282992141857329,
+        5.51595170671322
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 457,
+      "improved": 14,
+      "worsened": 1,
+      "unchanged": 373,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": -0.512529810527107,
+      "bootstrap95_pp": [
+        -1.2988199671898275,
+        0.0
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 152,
+      "improved": 0,
+      "worsened": 2,
+      "unchanged": 386,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.24983065447333752,
+      "bootstrap95_pp": [
+        -0.8120038139055965,
+        0.0
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 152,
+      "improved": 0,
+      "worsened": 1,
+      "unchanged": 387,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.0,
+      "bootstrap95_pp": [
+        -1.0431168373218591,
+        1.02677796427441
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 152,
+      "improved": 2,
+      "worsened": 2,
+      "unchanged": 384,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": 0.24983065447333752,
+      "bootstrap95_pp": [
+        -0.5931120339638171,
+        1.2024063057151848
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 152,
+      "improved": 2,
+      "worsened": 1,
+      "unchanged": 385,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMS",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": 3.5290265337164173,
+      "bootstrap95_pp": [
+        1.3793220889755593,
+        5.919723948113553
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 58,
+      "evaluated_samples": 388,
+      "prompt_changed_samples": 457,
+      "improved": 16,
+      "worsened": 2,
+      "unchanged": 370,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": -0.10511035166704819,
+      "bootstrap95_pp": [
+        -1.5449981001458923,
+        1.276749049269179
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 1034,
+      "improved": 22,
+      "worsened": 23,
+      "unchanged": 866,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": -0.447136816341942,
+      "bootstrap95_pp": [
+        -2.128853341014455,
+        1.1694619992197959
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 1034,
+      "improved": 21,
+      "worsened": 25,
+      "unchanged": 865,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 0.5508678241923248,
+      "bootstrap95_pp": [
+        -0.8419645413961002,
+        2.02686266237771
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 1034,
+      "improved": 23,
+      "worsened": 18,
+      "unchanged": 870,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": -1.0909199053312002,
+      "bootstrap95_pp": [
+        -1.9896562909305682,
+        -0.2418828807029897
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 401,
+      "improved": 3,
+      "worsened": 13,
+      "unchanged": 895,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.10647090490936151,
+      "bootstrap95_pp": [
+        -0.8769298123930791,
+        0.6701729724171755
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 401,
+      "improved": 6,
+      "worsened": 7,
+      "unchanged": 898,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.10785024872602689,
+      "bootstrap95_pp": [
+        -0.6331365182986415,
+        0.8931893870464837
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 401,
+      "improved": 11,
+      "worsened": 10,
+      "unchanged": 890,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": -0.0013793438166653793,
+      "bootstrap95_pp": [
+        -1.0088421455903027,
+        0.9969871578553056
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 401,
+      "improved": 12,
+      "worsened": 12,
+      "unchanged": 887,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "SIMSv2",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": 1.5353168246141635,
+      "bootstrap95_pp": [
+        0.20225145261627858,
+        2.949992693885528
+      ],
+      "resampling": "source-video/dialogue cluster",
+      "clusters": 144,
+      "evaluated_samples": 911,
+      "prompt_changed_samples": 1034,
+      "improved": 30,
+      "worsened": 16,
+      "unchanged": 865,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "A",
+      "reference": "P",
+      "delta_pp": -1.4687506877533174,
+      "bootstrap95_pp": [
+        -2.8510540984430777,
+        -0.08019922119741306
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 532,
+      "improved": 83,
+      "worsened": 109,
+      "unchanged": 339,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "B",
+      "reference": "A",
+      "delta_pp": 0.525731768147697,
+      "bootstrap95_pp": [
+        -0.9165913682013122,
+        2.0102893867785707
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 532,
+      "improved": 103,
+      "worsened": 102,
+      "unchanged": 326,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "C",
+      "reference": "B",
+      "delta_pp": 1.1406466700201845,
+      "bootstrap95_pp": [
+        -0.14065646848230945,
+        2.3723202504554544
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 532,
+      "improved": 109,
+      "worsened": 86,
+      "unchanged": 336,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "D",
+      "reference": "B",
+      "delta_pp": -0.036996214475215616,
+      "bootstrap95_pp": [
+        -0.9281145693108889,
+        0.8649320614639353
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 215,
+      "improved": 38,
+      "worsened": 33,
+      "unchanged": 460,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "E",
+      "reference": "C",
+      "delta_pp": -0.41841206687548427,
+      "bootstrap95_pp": [
+        -1.0373412971386455,
+        0.16273980060972965
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 215,
+      "improved": 28,
+      "worsened": 30,
+      "unchanged": 473,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "P",
+      "reference": "E",
+      "delta_pp": 0.22078431646092023,
+      "bootstrap95_pp": [
+        -0.34428771315133555,
+        0.9168655801353981
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 215,
+      "improved": 23,
+      "worsened": 30,
+      "unchanged": 478,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "C",
+      "reference": "P",
+      "delta_pp": 0.19762775041456404,
+      "bootstrap95_pp": [
+        -0.5976917916561649,
+        0.9595848890501368
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 215,
+      "improved": 39,
+      "worsened": 30,
+      "unchanged": 462,
+      "identical_prompt_violations": 0
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "condition": "E",
+      "reference": "D",
+      "delta_pp": 0.7592308176199158,
+      "bootstrap95_pp": [
+        -0.3583196638182981,
+        1.886023699046213
+      ],
+      "resampling": "sample iid; source groups unavailable",
+      "clusters": 532,
+      "evaluated_samples": 532,
+      "prompt_changed_samples": 532,
+      "improved": 91,
+      "worsened": 86,
+      "unchanged": 354,
+      "identical_prompt_violations": 0
+    }
+  ],
+  "integrity": {
+    "jobs": 54,
+    "job_states": {
+      "complete": 54
+    },
+    "barrier": {
+      "passed": true,
+      "inference_jobs": 54,
+      "all_inference_exited": true,
+      "time_beijing": "2026-10-28T14:56:33.812829+08:00"
+    },
+    "final_verification": {
+      "passed": true,
+      "jobs": 54,
+      "logical_predictions": 76794,
+      "unique_generation_inputs": 52718,
+      "unique_raw_answers": 21466,
+      "same_answer_same_extraction": true,
+      "same_openset_same_sentiment": true,
+      "score_protocol": "a8c5b5337e6ba80b82600a5aa138685dc6b2d75dd8cc12942b6f41eef8d00f8d",
+      "finished_at_beijing": "2026-10-28T15:12:57.878827+08:00"
+    },
+    "main_metric_recomputed_all54": true,
+    "identical_prompt_violations": 0,
+    "status_counters_note": "status.json retains stale progress counters (53/54 inference and partial judge counts); all job manifests, final outputs and recomputed metrics establish completion."
+  },
+  "case_selection_note": "Mechanism diagnostic from already viewed tests; selection balanced by dataset/contrast/direction, not blinded validation.",
+  "mean_contrasts": {
+    "A-P": {
+      "delta_pp": -0.40541183925051594,
+      "positive_datasets": 3,
+      "negative_datasets": 6,
+      "improved": 633,
+      "worsened": 634,
+      "prompt_changed": 12798
+    },
+    "B-A": {
+      "delta_pp": -0.49604884283892164,
+      "positive_datasets": 3,
+      "negative_datasets": 6,
+      "improved": 554,
+      "worsened": 615,
+      "prompt_changed": 12798
+    },
+    "C-B": {
+      "delta_pp": 1.0206225307774066,
+      "positive_datasets": 7,
+      "negative_datasets": 2,
+      "improved": 584,
+      "worsened": 523,
+      "prompt_changed": 12790
+    },
+    "D-B": {
+      "delta_pp": -0.1335867041006991,
+      "positive_datasets": 4,
+      "negative_datasets": 5,
+      "improved": 185,
+      "worsened": 184,
+      "prompt_changed": 4777
+    },
+    "E-C": {
+      "delta_pp": -0.29887254071193264,
+      "positive_datasets": 1,
+      "negative_datasets": 8,
+      "improved": 167,
+      "worsened": 199,
+      "prompt_changed": 4777
+    },
+    "P-E": {
+      "delta_pp": 0.17971069202396364,
+      "positive_datasets": 6,
+      "negative_datasets": 2,
+      "improved": 194,
+      "worsened": 177,
+      "prompt_changed": 4777
+    },
+    "C-P": {
+      "delta_pp": 0.11916184868796902,
+      "positive_datasets": 5,
+      "negative_datasets": 4,
+      "improved": 218,
+      "worsened": 204,
+      "prompt_changed": 4777
+    },
+    "E-D": {
+      "delta_pp": 0.8553366941661731,
+      "positive_datasets": 6,
+      "negative_datasets": 3,
+      "improved": 556,
+      "worsened": 541,
+      "prompt_changed": 12790
+    }
+  }
+}

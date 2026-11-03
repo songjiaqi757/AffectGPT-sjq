@@ -1,0 +1,50 @@
+{
+  "completed_at": "2026-10-20T16:49:10.995932+08:00",
+  "strict_exclusion_verified": true,
+  "excluded_samples": 72,
+  "failed_tasks": 78,
+  "role_counts": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "all_five_fresh_runs": {
+    "text": {
+      "pid": 21628,
+      "step": 400,
+      "epoch": 0,
+      "masked_bce": 0.2172484543012536
+    },
+    "audio": {
+      "pid": 21641,
+      "step": 390,
+      "epoch": 0,
+      "masked_bce": 0.33787120208538396
+    },
+    "visual": {
+      "pid": 21654,
+      "step": 83,
+      "epoch": 0,
+      "masked_bce": 0.5771284607094778
+    },
+    "visual_temporal": {
+      "pid": 21667,
+      "step": 83,
+      "epoch": 0,
+      "masked_bce": 0.6351300259711037
+    },
+    "audio_temporal": {
+      "pid": 21690,
+      "step": 251,
+      "epoch": 0,
+      "masked_bce": 0.2547932501892868
+    }
+  },
+  "optimization_enabled_for_all": true,
+  "old_training_artifacts_removed": true,
+  "cleanup_report": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/cleanup_report.json",
+  "unit_tests": 64,
+  "real_gpu_integration_passed": true,
+  "all_operations_server_only": true
+}

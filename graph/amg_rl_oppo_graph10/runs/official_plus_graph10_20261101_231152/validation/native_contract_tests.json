@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "rl": {
+    "native_sample_ast_verified": true,
+    "only_prompt_change": "append newline + frozen D compact+gate graph evidence to official user_message",
+    "generation": {
+      "num_beams": 1,
+      "temperature": 1,
+      "do_sample": true,
+      "top_p": 0.9,
+      "max_new_tokens": 1200,
+      "max_length": 2000
+    },
+    "seed": null,
+    "full_subtitle": true
+  },
+  "oppo": {
+    "native_sample_ast_verified": true,
+    "generation": {
+      "max_new_tokens": 1024,
+      "do_sample": true,
+      "temperature": 0.9,
+      "top_p": 0.9
+    },
+    "use_audio_in_video": true,
+    "use_face_video": false,
+    "official_launcher_defaults": true,
+    "only_prompt_change": "append graph evidence to existing user text content",
+    "seed": null
+  },
+  "rl_all_modalities_unchanged": true,
+  "rl_full_subtitle": true,
+  "rl_empty_response_preserved": true,
+  "oppo_system_and_media_unchanged": true,
+  "oppo_exact_append": true
+}

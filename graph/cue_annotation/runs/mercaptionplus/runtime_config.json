@@ -1,0 +1,28 @@
+{
+  "workers": 32,
+  "rpm": 360,
+  "tpm": 1600000,
+  "maximum_attempts_per_round": 3,
+  "maximum_attempts_total": 6,
+  "automatic_retry_rounds": 1,
+  "on_failure": "unlabeled; y empty; mask 0; preserve other modalities",
+  "read_timeout_seconds": 240,
+  "frozen_prompts_unchanged": true,
+  "source_target_labels_excluded": true,
+  "full_dataset_explicitly_authorized": true,
+  "concurrency_history": [
+    {
+      "from_workers": 12,
+      "to_workers": 24,
+      "changed_unix": 1792421972.7717385
+    },
+    {
+      "from_workers": 24,
+      "to_workers": 32,
+      "from_rpm": 240,
+      "to_rpm": 360,
+      "changed_unix": 1792422527.3071659
+    }
+  ],
+  "live_reconfiguration": true
+}

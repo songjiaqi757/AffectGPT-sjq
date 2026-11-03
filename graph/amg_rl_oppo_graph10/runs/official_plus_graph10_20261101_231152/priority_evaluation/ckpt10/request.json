@@ -1,0 +1,25 @@
+{
+  "checkpoint": "rl_e010",
+  "trigger": "All nine official checkpoint-10 inference exports complete",
+  "scoring": "Unchanged official AffectGPT-RL OV scorer and original official MER-UniBench other eight scorers; pending jobs filtered to checkpoint 10 only",
+  "gpu": "A100",
+  "pause_A100_workers": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "A800_workers_continue": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "resume_A100_workers_after_scoring": true,
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "source_sha256": {
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/priority_evaluation/ckpt10/score_checkpoint.py": "72693161ab43564b7518c4b7ee0bca808e213f6bb3fcd1a1bfe6f1ecf390c3fc",
+    "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/priority_evaluation/ckpt10/watcher.py": "eaaba331dce6fa0f33697746b45842afc1912f1a5ee9df1d45a1e998b8c23e2e"
+  },
+  "created_at_beijing": "2026-11-02T16:27:49.839759+08:00"
+}

@@ -1,0 +1,299 @@
+{
+  "baseline_job": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131",
+  "release": "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+  "release_id": "2019ab786e4e065699a3f980291b1d300a17ee1ec9a18213672f620fd2823ac7",
+  "fixed_holdout_id": "8d384d71d1aed030adb5f480f5b28a4379c48ffda9c6bc1be1648f8fc6ca8224",
+  "assignment": {
+    "audio_full": 0,
+    "audio_temporal_full": 0,
+    "visual_full": 0,
+    "visual_temporal_full": 1
+  },
+  "source_files": {
+    "__init__.py": "aa0914bfd6c2fd5ff14168a3b0186e43a93410d4d5ec52caa88ad2a790857c62",
+    "common.py": "5fd4a09b9795ccda24c782d0fe45d6354eb6c1a935647b58112422a1ec7dd25e",
+    "objectives.py": "0a75aa83798fc262c67e94372673c92fd9f841a54879e67e5282d7e8a65d8b83",
+    "prepare.py": "9c24b01061e86b92dc5ca80cf4333ffdfb5058e040338151ce51d73f3d55920d",
+    "data.py": "b1f499aee0ab90b67488059bd6476ac00dd66c0bb6491bdbb40a0200247ad302",
+    "models.py": "d53da2498c7e50fd20b804ad549aeb8cabd0091b559f52bfb24367837d413336",
+    "train.py": "b52255a342feac6e621b47fa75aae94db9c9531fadd0f4304b3381cc25f81e33",
+    "predict.py": "4e057599280bff2e184aaf04428a64ae3e461989286aee5c11c44d34bb47312e",
+    "evaluate.py": "2d4a1c013e3d5e01f4bc84216d500bd3436d67c9ebe8bebdb83adc2e98ecf900",
+    "observations.py": "7899d1b42bb026f0c5aae0893b9017a6f858ae1c7862aeb085a84213724b9bbd",
+    "holdout.py": "822e8cefbb54360c20c07de35b332e9cb67f2725f2df4c686a2e09055564e3d9",
+    "reserve_holdout.py": "ee0f8b056bb7ff945f48e195f5955a0bada8beee0b1c8f032c98b68f3f16cdea",
+    "temporal.py": "38f3bc83e622e4fb84e57c96a7d00629388c43af7c88f541cd2fa79fa1335bb6",
+    "loading.py": "1d788b1a6e943be73a5ca4cc2dca1f2ac55155f99fe2ba6d94e45f3b37ce78a2",
+    "eligibility.py": "917ae7e0c344739da444533aa5f65a0c9041cc0bb7814d05d947a7d31808bb71"
+  },
+  "baseline_runs": {
+    "text": {
+      "pid": 21628,
+      "state": "running",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/text.json",
+      "config_sha256": "566274302e4e42e2e7fcec0c8d0f36e4c6d54dcf291be0b3535232908a30fd3e",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/text",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/text.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/text.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/text",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 0,
+      "cuda_visible_devices": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "started_at": "2026-10-20T16:42:38.377781+08:00",
+      "train_samples": 27673,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "none"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 0,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "last_event": {
+        "time_unix": 1792486958.0526593,
+        "event": "train",
+        "epoch": 1,
+        "step": 1200,
+        "valid_labels": 462,
+        "masked_bce": 0.13637146186002921,
+        "grad_norm": 1.9718753099441528
+      }
+    },
+    "audio": {
+      "pid": 21641,
+      "state": "running",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio.json",
+      "config_sha256": "ff6a1678b08c59a78444ca8598e39c0bcdc2df1e370e808b041166765e63f372",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/audio.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 0,
+      "cuda_visible_devices": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "started_at": "2026-10-20T16:42:40.471306+08:00",
+      "train_samples": 27679,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "none"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 2,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "last_event": {
+        "time_unix": 1792486971.7946863,
+        "event": "train",
+        "epoch": 1,
+        "step": 1247,
+        "valid_labels": 344,
+        "masked_bce": 0.16465448432190474,
+        "grad_norm": 0.08425795286893845
+      }
+    },
+    "visual": {
+      "pid": 21654,
+      "state": "running",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual.json",
+      "config_sha256": "c3553a8cf118e0d8443b2e91fa550be9986c73b2939a0d4ce64eba487fd3f11d",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/visual.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 1,
+      "cuda_visible_devices": "GPU-c640c519-51f2-dca4-9e62-d1ee667f79cb",
+      "started_at": "2026-10-20T16:42:42.572819+08:00",
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "none"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "last_event": {
+        "time_unix": 1792486968.5423796,
+        "event": "train",
+        "epoch": 0,
+        "step": 321,
+        "valid_labels": 279,
+        "masked_bce": 0.4459075449188123,
+        "grad_norm": 0.2359076589345932
+      }
+    },
+    "visual_temporal": {
+      "pid": 21667,
+      "state": "running",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual_temporal.json",
+      "config_sha256": "c235791c6c4ca0db6f1caeee4822119355e229dc2696094c7bf393517d21d49b",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual_temporal",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/visual_temporal.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/visual_temporal.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual_temporal",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 1,
+      "cuda_visible_devices": "GPU-c640c519-51f2-dca4-9e62-d1ee667f79cb",
+      "started_at": "2026-10-20T16:42:44.672615+08:00",
+      "train_samples": 27677,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "transformer",
+        "temporal_dim": 256,
+        "temporal_heads": 4,
+        "temporal_layers": 2,
+        "temporal_ffn_dim": 1024,
+        "temporal_dropout": 0.1,
+        "temporal_time_unit_seconds": 1.0,
+        "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 4,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": 1
+      },
+      "last_event": {
+        "time_unix": 1792486968.8439252,
+        "event": "train",
+        "epoch": 0,
+        "step": 321,
+        "valid_labels": 279,
+        "masked_bce": 0.488820311843708,
+        "grad_norm": 0.2681620717048645
+      }
+    },
+    "audio_temporal": {
+      "pid": 21690,
+      "state": "running",
+      "config": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio_temporal.json",
+      "config_sha256": "0ade2649edf5495485381c32a85d27487da56e2cac059e162ac4ec7ea97f54b5",
+      "output": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio_temporal",
+      "log": "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/audio_temporal.log",
+      "command": [
+        "/ai/sjq/miniconda3/envs/vllm/bin/python",
+        "-u",
+        "-m",
+        "cue_student.train",
+        "--config",
+        "/ai/sjq/AffectGPT-sjq/cue_student/jobs/strict_all_modalities_20261020_163131/configs/audio_temporal.json",
+        "--release",
+        "/ai/sjq/AffectGPT-sjq/cue_student/artifacts/release_strict_all_modalities_20261020_163131",
+        "--output",
+        "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio_temporal",
+        "--device",
+        "cuda:0",
+        "--cpu-threads",
+        "8",
+        "--allow-unverified-groups"
+      ],
+      "physical_gpu": 0,
+      "cuda_visible_devices": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+      "started_at": "2026-10-20T16:42:46.764455+08:00",
+      "train_samples": 27679,
+      "validation_samples": 3076,
+      "temporal_architecture": {
+        "temporal_model": "transformer",
+        "temporal_dim": 256,
+        "temporal_heads": 4,
+        "temporal_layers": 2,
+        "temporal_ffn_dim": 1024,
+        "temporal_dropout": 0.1,
+        "temporal_time_unit_seconds": 1.0,
+        "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+        "audio_sample_rate": 16000,
+        "audio_feature_stride_samples": 320,
+        "audio_feature_receptive_field_samples": 400,
+        "audio_timebase": "hubert_conv_window_centers_relative_v1"
+      },
+      "fresh_pretrained_start": true,
+      "loader_optimization": {
+        "num_workers": 2,
+        "pin_memory": true,
+        "prefetch_factor": 2,
+        "persistent_workers": false,
+        "decode_threads": null
+      },
+      "last_event": {
+        "time_unix": 1792486929.6417258,
+        "event": "train",
+        "epoch": 0,
+        "step": 875,
+        "valid_labels": 331,
+        "masked_bce": 0.21748230140374866,
+        "grad_norm": 0.3606783151626587
+      }
+    }
+  }
+}

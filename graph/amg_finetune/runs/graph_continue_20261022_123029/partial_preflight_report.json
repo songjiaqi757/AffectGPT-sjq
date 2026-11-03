@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "case_indices": [
+    16,
+    10040,
+    20493,
+    30737
+  ],
+  "cases": [
+    {
+      "state": "complete",
+      "index": 16,
+      "samples": 1,
+      "invalid_modality_counts": {
+        "text": 0,
+        "audio": 0,
+        "visual": 0
+      },
+      "fallbacks": 0,
+      "truncated_answer_cases": 0,
+      "omitted_evidence_entries": 4,
+      "actual_sequence_tokens_min": 1078,
+      "actual_sequence_tokens_max": 1212,
+      "actual_sequence_tokens_mean": 1145.0,
+      "inventory_sha256": "e08669264a09fdbd0288b8bbd90e60665552d64567e7ea0675c19f82d23243c3",
+      "elapsed_seconds": 0.05460166931152344
+    },
+    {
+      "state": "complete",
+      "index": 10040,
+      "samples": 1,
+      "invalid_modality_counts": {
+        "text": 0,
+        "audio": 0,
+        "visual": 0
+      },
+      "fallbacks": 0,
+      "truncated_answer_cases": 0,
+      "omitted_evidence_entries": 10,
+      "actual_sequence_tokens_min": 1113,
+      "actual_sequence_tokens_max": 1212,
+      "actual_sequence_tokens_mean": 1162.5,
+      "inventory_sha256": "4011318f15650c730044a5ee938e5e81639a8309ad953726721757be8ab5ae7e",
+      "elapsed_seconds": 0.08037424087524414
+    },
+    {
+      "state": "complete",
+      "index": 20493,
+      "samples": 1,
+      "invalid_modality_counts": {
+        "text": 0,
+        "audio": 0,
+        "visual": 0
+      },
+      "fallbacks": 0,
+      "truncated_answer_cases": 0,
+      "omitted_evidence_entries": 0,
+      "actual_sequence_tokens_min": 1071,
+      "actual_sequence_tokens_max": 1184,
+      "actual_sequence_tokens_mean": 1127.5,
+      "inventory_sha256": "76dc05ff1e16d8bb2c3aba44bc9952264351283acdb99313cefd057cfd7c3ed8",
+      "elapsed_seconds": 0.037847042083740234
+    },
+    {
+      "state": "complete",
+      "index": 30737,
+      "samples": 1,
+      "invalid_modality_counts": {
+        "text": 0,
+        "audio": 0,
+        "visual": 0
+      },
+      "fallbacks": 0,
+      "truncated_answer_cases": 0,
+      "omitted_evidence_entries": 2,
+      "actual_sequence_tokens_min": 1116,
+      "actual_sequence_tokens_max": 1220,
+      "actual_sequence_tokens_mean": 1168.0,
+      "inventory_sha256": "d6125ab667af0c25cffdc2af63013f2b9830b83ff886de99b3be85d19d78c632",
+      "elapsed_seconds": 0.04597592353820801
+    }
+  ],
+  "semantics": "Early representative preflight only; full 30755-case gate remains mandatory"
+}

@@ -1,0 +1,1030 @@
+{
+  "partition": "development_only",
+  "semantic_counts": {
+    "semantic_changed": 357,
+    "appraisal_active": 511
+  },
+  "prompt_counts": {
+    "identical_C_S_text": 97,
+    "same_sets_different_order_text": 58
+  },
+  "output_sizes": [
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "A",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.144965277777778,
+      "mean_response_words": 8.27951388888889,
+      "unique_raw_answers": 823
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "A",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.4739583333333335,
+      "mean_response_words": 8.565104166666666,
+      "unique_raw_answers": 319
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "B",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.3125,
+      "mean_response_words": 11.975694444444445,
+      "unique_raw_answers": 845
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "B",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.2708333333333335,
+      "mean_response_words": 15.71875,
+      "unique_raw_answers": 307
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "C",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.693576388888889,
+      "mean_response_words": 12.739583333333334,
+      "unique_raw_answers": 841
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "C",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.859375,
+      "mean_response_words": 12.244791666666666,
+      "unique_raw_answers": 334
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "S",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.7039930555555554,
+      "mean_response_words": 11.71875,
+      "unique_raw_answers": 839
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "S",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.9296875,
+      "mean_response_words": 15.286458333333334,
+      "unique_raw_answers": 331
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "P",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.4557291666666665,
+      "mean_response_words": 14.089409722222221,
+      "unique_raw_answers": 800
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "P",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.578125,
+      "mean_response_words": 13.153645833333334,
+      "unique_raw_answers": 304
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.5416666666666665,
+      "mean_response_words": 8.76736111111111,
+      "unique_raw_answers": 917
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.8151041666666665,
+      "mean_response_words": 8.971354166666666,
+      "unique_raw_answers": 335
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "B",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.474826388888889,
+      "mean_response_words": 8.71875,
+      "unique_raw_answers": 895
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "B",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.8411458333333335,
+      "mean_response_words": 9.088541666666666,
+      "unique_raw_answers": 345
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "C",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.5104166666666665,
+      "mean_response_words": 8.74045138888889,
+      "unique_raw_answers": 895
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "C",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.6822916666666665,
+      "mean_response_words": 9.1015625,
+      "unique_raw_answers": 333
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "S",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.495659722222222,
+      "mean_response_words": 8.706597222222221,
+      "unique_raw_answers": 896
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "S",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.7083333333333335,
+      "mean_response_words": 9.145833333333334,
+      "unique_raw_answers": 338
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "P",
+      "task": "MER_track1_discrete",
+      "mean_extracted_labels": 3.5138888888888893,
+      "mean_response_words": 8.733506944444445,
+      "unique_raw_answers": 902
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "P",
+      "task": "MER_OV",
+      "mean_extracted_labels": 3.6901041666666665,
+      "mean_response_words": 9.0859375,
+      "unique_raw_answers": 335
+    }
+  ],
+  "response_control": [
+    {
+      "checkpoint": "original_epoch40",
+      "semantic_state_set_changed": true,
+      "samples": 357,
+      "logical_C_S_pairs": 1071,
+      "identical_raw_answers": 486
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "semantic_state_set_changed": false,
+      "samples": 155,
+      "logical_C_S_pairs": 465,
+      "identical_raw_answers": 403
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "semantic_state_set_changed": true,
+      "samples": 357,
+      "logical_C_S_pairs": 1071,
+      "identical_raw_answers": 864
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "semantic_state_set_changed": false,
+      "samples": 155,
+      "logical_C_S_pairs": 465,
+      "identical_raw_answers": 460
+    }
+  ],
+  "case_sets": [
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "C",
+      "reference_checkpoint": "original_epoch40",
+      "reference": "S",
+      "cases": [
+        {
+          "direction": "harmed",
+          "name": "sample_00005537",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "happy",
+              "valence": "1.5"
+            }
+          },
+          "subtitle": "Let's each have a cup of milk tea and also get a box of donuts.",
+          "chinese": "咱们两个人一人一杯奶茶，再来一盒甜甜圈。",
+          "delta_HIT_pp": -66.66666666666666,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "In the text, the caption reads: \"Let's have a cup of milk tea and a box of doughnuts each.\" This sentence might be a suggestion or plan proposed by a female character to someone else. Given the visual clues in the video, such as the female character's head lowered and her expression of looking down, and the audio clues describing the speaker feeling tense or anxious, we can infer that this sentence might be how the female character is asking asking for or suggesting something, possibly with a certain emotional weight. The sentence may reflect the female character's desire for a special drink and treat, possibly to change her mood or improve her feelings.",
+              "reference": "The character's emotional state is excited, joyful."
+            },
+            {
+              "seed": 2026,
+              "current": "",
+              "reference": "The character's emotional state is excited, anticipating, uncertain, confident, relaxed."
+            },
+            {
+              "seed": 2027,
+              "current": "In the text, the caption reads: \"Let's have a cup of milk tea and also a box of pastries.\" This sentence suggests that the individual has a positive attitude and desire towards food and drink, which is consistent with the relaxed and positive emotions described in the audio cues. At the same time, the woman's's lip-closing and head-lowering posture in the video clues may indicate that she is considering or pondering something, so this sentence could be a suggestion or proposal she is making to herself or others. Overall, this sentence expresses the individual's's love for food and drink, as well as her active participation in social activities.",
+              "reference": "In the text, the caption reads: \"Let's have a cup of milk tea and a box of donuts.\" This sentence might be spoken by a female speaker suggesting or proposing to someone or a group. Given the emotional cues described in the audio, such as personal desire or need, and the visual hints showing the woman lowering her head with her lips together, we can infer that this sentence may carry a casual or cheerful tone. The woman might be expressing her interest or proposing an idea that alignss with the emotional state described in the audio clues."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: desire need; audio: intonation rising; visual: lips pressed; visual: head lowered\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag other; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: desire need; audio: intonation rising; visual: lips pressed; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "harmed",
+          "name": "samplenew_00010887",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": ""
+            }
+          },
+          "subtitle": "I'm leaving, will you stay with him?",
+          "chinese": "我走了，你陪他？",
+          "delta_HIT_pp": -66.66666666666666,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is anxiety, high pressure, overwhelmed, anger, sadness, uncertainty, confusion.",
+              "reference": "The character's emotional state is anxiety, high pressure, overwhelmed, anger, sadness, uncertainty, confusion."
+            },
+            {
+              "seed": 2026,
+              "current": "",
+              "reference": "The character's emotional state is uncertain, concerned, angry."
+            },
+            {
+              "seed": 2027,
+              "current": "",
+              "reference": "The character's emotional state is sadness, anger, determination."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: desire need; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; visual: brows furrowed; visual: brows raised; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: desire need; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; visual: brows furrowed; visual: brows raised; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": false
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00004630",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-0.5"
+            }
+          },
+          "subtitle": "Wah Zai, do you really love Ye Sha Sha?",
+          "chinese": "华仔，你真的爱叶莎莎吗？",
+          "delta_HIT_pp": -46.666666666666664,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is excited, enthusiastic.",
+              "reference": "The character's emotional state is excited, enthusiastic, amused."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is excited, anticipating, tense.",
+              "reference": "The character's emotional state is excited, anticipating, mixed anxiety and surprise."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is positive, strong emotional state, uncertain.",
+              "reference": "The character's emotional state is positive, strong emotional state, uncertain emotional state."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: intensifier present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: intensifier present; text: rhetorical question; audio: intonation rising; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00005425",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-2.25"
+            }
+          },
+          "subtitle": "I'm really very sorry, miss.",
+          "chinese": "小姐真的非常不好意思。",
+          "delta_HIT_pp": 86.66666666666667,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is contrition, regret, remorse, guilt, apology, tension, anxiety, stress.",
+              "reference": "The character's emotional state is contrition, regret, guilt, remorse, sadness, melancholy."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state can be inferred to be apologetic, regretful, anxious, tense, stressed, depressed.",
+              "reference": "The character's emotional state is regret, apology, disappointment."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is sorry, apologetic, regretful, guilty, anxious, tense, uncertain, sad, disappointed.",
+              "reference": "The character's emotional state is sorry, sad."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; audio: speech rate rel slow; audio: intonation rising; visual: mouth corners down\nAppraisal hypotheses: goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag circumstance; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: intensifier present; audio: speech rate rel slow; audio: intonation rising; visual: mouth corners down\nAppraisal hypotheses: goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag other; certainty: act uncertain; certainty: act certain; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "samplenew_00037990",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": ""
+            }
+          },
+          "subtitle": "I miss you, what do you mean by your hunchback? Let me tell you, if you don't move, I won't move either. Let's see who can outlast the other? I suddenly understand now.",
+          "chinese": "我想你，你小佝偻你什么意思啊？我告诉你，你不动我也不动，我看咱俩谁能耗得过谁？我突然明白了。",
+          "delta_HIT_pp": 66.66666666666666,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is anger, frustration.",
+              "reference": "The character's emotional state is anger, frustration, anxiety, irritability, helplessness, pressure."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is anger, frustration, anxiety.",
+              "reference": ""
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is anger, frustration, annoyance.",
+              "reference": ""
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: rhetorical question; text: exclamation interjection; text: desire need; audio: speech rate rel fast; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; audio: voice tense; audio: laughter present; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: rhetorical question; text: exclamation interjection; text: desire need; audio: speech rate rel fast; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; audio: voice tense; audio: laughter present; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "samplenew_00045677",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "sad",
+              "valence": ""
+            }
+          },
+          "subtitle": "I've always known that Xiao Chen likes me, but I've never responded to him.",
+          "chinese": "一直都知道肖晨喜欢我，我从来都没有回应过他",
+          "delta_HIT_pp": 40.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is sadness, anxiety, uncertainty.",
+              "reference": "The character's emotional state is confused, conflicted, contemplative, emotionally fragile."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is uncertain, conflicted, sorrowful, defeated, reflective, thoughtful.",
+              "reference": "The character's emotional state is confused, disappointed, uncertain."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is sadness, self-doubt, uncertainty.",
+              "reference": "The character's emotional state is sadness, self-doubt, uncertainty."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: evaluation positive; text: negation present; text: contrast present; audio: speech rate rel slow; audio: pitch level rel low; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; audio: voice trembling; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: evaluation positive; text: negation present; text: contrast present; audio: speech rate rel slow; audio: pitch level rel low; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; audio: voice trembling; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": true
+        }
+      ]
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "C",
+      "reference_checkpoint": "fixed_graph45_to54",
+      "reference": "S",
+      "cases": [
+        {
+          "direction": "harmed",
+          "name": "samplenew_00020732",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "sad",
+              "valence": ""
+            }
+          },
+          "subtitle": "But what can we do? We can only accept it with a smile.",
+          "chinese": "可是又能怎么样呢？我们也只能，微笑着去接受它。",
+          "delta_HIT_pp": -53.333333333333336,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is helplessness, optimism, contemplative, reflective, facing challenges, choosing to accept and cope positively.",
+              "reference": "The character's emotional state is helplessness, optimism, contemplative, sorrowful, humorous, sarcastic."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is helplessness, resignation, contemplation, reflection, stress.",
+              "reference": "The character's emotional state is helplessness, resignation, sorrow."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is helplessness, optimism, acceptance.",
+              "reference": "The character's emotional state is helplessness, optimism, acceptance."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: evaluation positive; text: negation present; text: contrast present; text: rhetorical question; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word positive; text: evaluation positive; text: negation present; text: contrast present; text: rhetorical question; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc mixed; goal congruence: agc incongruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00001671",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "happy",
+              "valence": "2.25"
+            }
+          },
+          "subtitle": "How could your wife dare to marry you, saying you have no source of livelihood?",
+          "chinese": "你老婆怎么敢嫁给你，说你没生活来源",
+          "delta_HIT_pp": -40.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is playful, teasing, amused.",
+              "reference": "The character's emotional state is playful, teasing, positive."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is excited, amused, teasing, positive.",
+              "reference": "The character's emotional state is excited, amused, teasing, positive."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is teasing, mocking, humorous.",
+              "reference": "The character's emotional state is teasing, mocking, humorous, positive."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation negative; text: negation present; text: rhetorical question; audio: intonation rising; audio: laughter present; visual: brows raised; visual: eyes squinted; visual: smile present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation negative; text: negation present; text: rhetorical question; audio: intonation rising; audio: laughter present; visual: brows raised; visual: eyes squinted; visual: smile present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00005291",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-1.5"
+            }
+          },
+          "subtitle": "There are many good girls, can we take our time to find one?",
+          "chinese": "好姑娘多着呢，咱慢慢找，行吗？",
+          "delta_HIT_pp": -33.33333333333333,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is anxiety, irritability, frustration, hopelessness, encouragement, hope.",
+              "reference": "The character's emotional state is anxiety, irritability, frustration, hopelessness, encouragement, hope."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is urgency, frustration, disappointment.",
+              "reference": "The character's emotional state is urgency, frustration, disappointment."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is urgent, emotional, sad, hopeful, confident.",
+              "reference": "The character's emotional state is urgent, anxious, sad, disappointed."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; text: desire need; audio: speech rate rel slow; audio: pitch variability low; audio: intonation falling; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: grimace present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; text: desire need; audio: speech rate rel slow; audio: pitch variability low; audio: intonation falling; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: grimace present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00000065",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "0.25"
+            }
+          },
+          "subtitle": "Received. Continue monitoring and stay concealed.",
+          "chinese": "收到。继续监视，注意隐蔽啊。",
+          "delta_HIT_pp": 26.666666666666668,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is serious, focused, calm, satisfied, fear, anxiety, tension, stress.",
+              "reference": "The character's emotional state is serious, focused, calm, confident, tense, urgent."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is neutral, authoritative, professional.",
+              "reference": "The character's emotional state is neutral, authoritative, professional."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is neutral, cool.",
+              "reference": "The character's emotional state is neutral, cool."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: exclamation interjection; audio: pitch variability low; audio: intonation falling; visual: eyes widened\nAppraisal hypotheses: goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: exclamation interjection; audio: pitch variability low; audio: intonation falling; visual: eyes widened\nAppraisal hypotheses: goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag other; certainty: act uncertain; certainty: act certain; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00001978",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": "-3.25"
+            }
+          },
+          "subtitle": "I've noticed something off about you these past few days, did you take the wrong medication or something?",
+          "chinese": "我看你这几天就不对劲，你他妈吃错药啦?",
+          "delta_HIT_pp": 20.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is questioning, concern, negative.",
+              "reference": "The character's emotional state is questioning, concern, negative."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is questioning, observation, negative.",
+              "reference": "The character's emotional state is questioning, observation, negative."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is questioning, concern, suspicion.",
+              "reference": "The character's emotional state is questioning, concern, worry, dissatisfaction."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: rhetorical question; text: explicit causal attribution other; audio: speech rate rel fast; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; audio: voice tense; visual: brows furrowed; visual: lips pressed\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: rhetorical question; text: explicit causal attribution other; audio: speech rate rel fast; audio: pitch level rel high; audio: vocal intensity rel high; audio: pitch variability high; audio: intonation rising; audio: intonation falling; audio: voice tense; visual: brows furrowed; visual: lips pressed\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "samplenew_00063053",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "happy",
+              "valence": ""
+            }
+          },
+          "subtitle": "Liu Xing No.2, look at this name, it's so much like a hybrid wheat.",
+          "chinese": "刘星二号，瞧这名字，多么像杂交小麦啊",
+          "delta_HIT_pp": 13.333333333333334,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is excited, amused, joyful.",
+              "reference": "The character's emotional state is excited, amused, joyful."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is humorous, amused, positive.",
+              "reference": "The character's emotional state is humorous, amused, positive."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is humorous, playful, positive.",
+              "reference": "The character's emotional state is humorous, playful, amused."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; text: exclamation interjection; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: laughter present; visual: brows raised; visual: eyes widened; visual: eyes squinted; visual: smile present\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; text: exclamation interjection; audio: speech rate rel slow; audio: pitch level rel high; audio: pitch variability high; audio: intonation rising; audio: laughter present; visual: brows raised; visual: eyes widened; visual: eyes squinted; visual: smile present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        }
+      ]
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "C",
+      "reference_checkpoint": "fixed_graph45_to54",
+      "reference": "A",
+      "cases": [
+        {
+          "direction": "harmed",
+          "name": "sample_00001747",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "sad",
+              "valence": "-3.5"
+            }
+          },
+          "subtitle": "I really need someone to help me, I know you are a good person.",
+          "chinese": "我真的需要人帮我，我知道你是个好人。",
+          "delta_HIT_pp": -66.66666666666666,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is distress, anxiety, hope.",
+              "reference": "The character's emotional state is distress, plea for help, sadness, despair, hope."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is distress, plea for help, sadness, despair, hope.",
+              "reference": "The character's emotional state is distress, plea for help, sadness, distress, longing for assistance."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is distress, urgency, emotional need, desire for support.",
+              "reference": "The character's emotional state is sadness, distress, need for help."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; text: desire need; audio: speech rate rel slow; audio: pitch level rel low; audio: vocal intensity rel low; audio: pitch variability high; audio: pause long; audio: intonation falling; audio: voice tense; audio: voice trembling; audio: crying sobbing present; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag other; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: intensifier present; text: desire need; audio: speech rate rel slow; audio: pitch level rel low; audio: vocal intensity rel low; audio: pitch variability high; audio: pause long; audio: intonation falling; audio: voice tense; audio: voice trembling; audio: crying sobbing present; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00005668",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": "-2.5"
+            }
+          },
+          "subtitle": "You, can you stop making trouble?",
+          "chinese": "你，你能不能不闹了你啊?",
+          "delta_HIT_pp": -66.66666666666666,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is fear, anxiety, tension, dissatisfaction, disturbance.",
+              "reference": "The character's emotional state is fear, anxiety, tension, overwhelm, pressure, negative sentiment, anger, dissatisfaction."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is dissatisfaction, frustration, anxiety.",
+              "reference": "The character's emotional state is dissatisfaction, frustration, anxiety."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is fear, anxiety, stress, emotional distress, dissatisfaction.",
+              "reference": "The character's emotional state is fear, anxiety, stress, fear, anger, frustration."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: rhetorical question; text: exclamation interjection; text: desire need; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pause long; audio: intonation rising; audio: voice tense; visual: brows furrowed; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: rhetorical question; text: exclamation interjection; text: desire need; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pause long; audio: intonation rising; audio: voice tense; visual: brows furrowed; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00006803",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-1.0"
+            }
+          },
+          "subtitle": "I guess it's related to her strong self-esteem usually, you see how glamorous she is, she probably doesn't want us to see her.",
+          "chinese": "我猜跟她平时自尊心强有关，你看她过得多光鲜，她可能不希望我们看到她",
+          "delta_HIT_pp": -60.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is disapproval, misunderstanding, negative, anger, frustration.",
+              "reference": "The character's emotional state is disapproval, negativity, dissatisfaction, confusion, anxiety, stress."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is disapproval, negativity, discomfort, overwhelm.",
+              "reference": "The character's emotional state is disapproval, secrecy, concern."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is speculation, disdain.",
+              "reference": "The character's emotional state is speculation, evaluation."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: evaluation negative; text: negation present; text: intensifier present; text: uncertainty hedge; text: explicit causal attribution other; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high\nText contains mixed affect; overall polarity is unresolved.",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: evaluation negative; text: negation present; text: intensifier present; text: uncertainty hedge; text: explicit causal attribution other; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; audio: intonation flat; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high\nText contains mixed affect; overall polarity is unresolved.",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00000099",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": "-1.75"
+            }
+          },
+          "subtitle": "Is there any game to play while bathing? Is your phone waterproof?",
+          "chinese": "有洗澡玩游戏的吗？你手机防水的？",
+          "delta_HIT_pp": 46.666666666666664,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is excited, interested.",
+              "reference": "The character's emotional state is excited, interested."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is excited, interested, teasing, joking.",
+              "reference": "The character's emotional state is excited, interested, surprised, curious."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is excited, interested, surprised, incredulous.",
+              "reference": "The character's emotional state is excited, interested."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: pitch variability high; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: rhetorical question; audio: pitch variability high; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00005537",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "happy",
+              "valence": "1.5"
+            }
+          },
+          "subtitle": "Let's each have a cup of milk tea and also get a box of donuts.",
+          "chinese": "咱们两个人一人一杯奶茶，再来一盒甜甜圈。",
+          "delta_HIT_pp": 40.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is enthusiastic, excited, joyful, satisfied, content, positive.",
+              "reference": "The character's emotional state is excited, enthusiastic."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is excited, anticipating, positive.",
+              "reference": "The character's emotional state is excited, anticipating, positive."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is excited, anticipatory, happy, satisfied.",
+              "reference": "The character's emotional state is excited, anticipatory."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: desire need; audio: intonation rising; visual: lips pressed; visual: head lowered\nAppraisal hypotheses: goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag other; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: desire need; audio: intonation rising; visual: lips pressed; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00004710",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-1.25"
+            }
+          },
+          "subtitle": "Ah, you've been searching for so many years, how can it be so easy to give up? Can you really give up?",
+          "chinese": "唉，你都找了这么多年了，放弃哪有那么容易啊？你真的能放弃吗？",
+          "delta_HIT_pp": 40.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is concern, doubt, anxiety, uncertainty, frustration.",
+              "reference": "The character's emotional state is concern, doubt, anxiety, stress, frustration."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is dissatisfaction, disappointment, anxiety.",
+              "reference": "The character's emotional state is dissatisfaction, disappointment, frustration."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is disappointment, discontent, anxiety.",
+              "reference": "The character's emotional state is disappointment, dissatisfaction, frustration."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: intensifier present; text: rhetorical question; text: exclamation interjection; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation rising; audio: intonation falling; audio: intonation flat; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc mixed; expectedness: aex unexpected; expectedness: aex expected; agency: aag self; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: affect word negative; text: evaluation negative; text: negation present; text: intensifier present; text: rhetorical question; text: exclamation interjection; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation rising; audio: intonation falling; audio: intonation flat; visual: brows furrowed; visual: eyes widened; visual: mouth corners down\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        }
+      ]
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A",
+      "reference_checkpoint": "original_epoch40",
+      "reference": "A",
+      "cases": [
+        {
+          "direction": "harmed",
+          "name": "samplenew_00019650",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "sad",
+              "valence": ""
+            }
+          },
+          "subtitle": "Stop talking about these, get better soon.",
+          "chinese": "不说这些，快点好起来。",
+          "delta_HIT_pp": -100.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is concern, blessing, comfort.",
+              "reference": "The character's emotional state is concern, blessing, sadness."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is concern, worry, panic.",
+              "reference": "The character's emotional state is concern, blessing, sadness."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is concern, blessing, worry, care.",
+              "reference": "The character's emotional state is sadness, anger, despair."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: negation present; text: desire need; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation positive; text: negation present; text: desire need; audio: speech rate rel slow; audio: vocal intensity rel low; audio: pitch variability low; audio: pause long; audio: intonation falling; visual: brows raised; visual: eyes widened; visual: smile present\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00003853",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-0.75"
+            }
+          },
+          "subtitle": "Xiao Zhi, he is from a single-parent family, his mother has never celebrated his birthday or Children's Day with him.",
+          "chinese": "小智啊，他是单亲，他妈妈从来都没有陪他过过生日和儿童节。",
+          "delta_HIT_pp": -66.66666666666666,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is sad, frustrated.",
+              "reference": "The character's emotional state is sadness, despair, helplessness, emotional turmoil, stress."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is sad, disappointed, angry.",
+              "reference": "The character's emotional state is sad, disappointed, angry."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is sadness, anger, frustration.",
+              "reference": "The character's emotional state is sadness, anger, hopelessness, loneliness, stress, anxiety, worry."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: exclamation interjection; audio: pitch variability low; audio: intonation falling; visual: brows furrowed; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: negation present; text: exclamation interjection; audio: pitch variability low; audio: intonation falling; visual: brows furrowed; visual: mouth corners down; visual: head lowered\nAppraisal hypotheses: goal relevance: agr irrelevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": false
+        },
+        {
+          "direction": "harmed",
+          "name": "sample_00004903",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": "-3.5"
+            }
+          },
+          "subtitle": "What do you mean, Huang Landeng?",
+          "chinese": "黄兰登你什么意思？",
+          "delta_HIT_pp": -53.333333333333336,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is questioning, dissatisfaction.",
+              "reference": "The character's emotional state is questioning, dissatisfaction."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is confused, dissatisfied, frustrated.",
+              "reference": "The character's emotional state is confused, dissatisfied, frustrated, anxious, tense, angry."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is confused, dissatisfied, unhappy, fearful, anxious, tense.",
+              "reference": "The character's emotional state is anger, dissatisfaction."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: vocal intensity rel high; audio: intonation rising; audio: voice tense; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: grimace present\nAppraisal hypotheses: goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: vocal intensity rel high; audio: intonation rising; audio: voice tense; visual: brows furrowed; visual: eyes squinted; visual: mouth corners down; visual: grimace present\nAppraisal hypotheses: goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low",
+          "semantic_intervention": false
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00006065",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "worried",
+              "valence": "-0.5"
+            }
+          },
+          "subtitle": "Leave it with me, who knows it might get lost one day.",
+          "chinese": "搁我这儿，指不定哪天就丢了。",
+          "delta_HIT_pp": 100.0,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is anxiety, stress, feeling overwhelmed, concerned, worried.",
+              "reference": "The character's emotional state is comfort, assurance, availability, relaxation, contentment."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is anxious, tense, worried.",
+              "reference": "The character's emotional state is comfort, willingness, assurance."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is anxious, under pressure, concerned, uncertain.",
+              "reference": "The character's emotional state is comfort, assurance, availability."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation negative; text: uncertainty hedge; text: explicit failure loss outcome; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: evaluation negative; text: uncertainty hedge; text: explicit failure loss outcome; audio: intonation rising; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal relevance: agr irrelevant; goal relevance: agr relevant; goal congruence: agc incongruent; goal congruence: agc congruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act certain; certainty: act uncertain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00005090",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "happy",
+              "valence": "1.75"
+            }
+          },
+          "subtitle": "Sister Fan.",
+          "chinese": "樊姐。",
+          "delta_HIT_pp": 86.66666666666667,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is content, joyful.",
+              "reference": "The character's emotional state is neutral."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is excited, anticipating, nervous.",
+              "reference": "The character's emotional state is neutral."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is peaceful, content, excited, curious.",
+              "reference": "The character's emotional state is neutral."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: intonation rising; visual: brows furrowed; visual: eyes squinted; visual: smile present; visual: grimace present\nAppraisal hypotheses: goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex unexpected; expectedness: aex expected; agency: aag other; agency: aag self; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: audio: intonation rising; visual: brows furrowed; visual: eyes squinted; visual: smile present; visual: grimace present\nAppraisal hypotheses: goal congruence: agc congruent; goal congruence: agc incongruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "semantic_intervention": true
+        },
+        {
+          "direction": "improved",
+          "name": "sample_00006593",
+          "ground_truth": {
+            "MER_track1": {
+              "discrete": "angry",
+              "valence": "-1.75"
+            }
+          },
+          "subtitle": "I left the Civil Affairs Bureau, and I just thought about my departure.",
+          "chinese": "我离开民政局，我就一想我离开。",
+          "delta_HIT_pp": 73.33333333333333,
+          "per_seed": [
+            {
+              "seed": 42,
+              "current": "The character's emotional state is frustrated, angry, overwhelmed, anxious, negative.",
+              "reference": "The character's emotional state is anxiety, irritability, stress, dissatisfaction, worry, turmoil, inner conflict."
+            },
+            {
+              "seed": 2026,
+              "current": "The character's emotional state is dissatisfaction, frustration, disappointment.",
+              "reference": "The character's emotional state is anxious, tense, emotionally detached, negative, stressed, dissatisfied."
+            },
+            {
+              "seed": 2027,
+              "current": "The character's emotional state is frustrated, angry, overwhelmed, anxious, negative.",
+              "reference": "The character's emotional state is anxious, uneasy, tense."
+            }
+          ],
+          "C_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: intensifier present; audio: speech rate rel slow; audio: intonation falling; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal congruence: agc congruent; goal congruence: agc mixed; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act certain; certainty: act uncertain; coping potential: acp high; coping potential: acp low",
+          "S_evidence": "Evidence hypotheses; associations are not probabilities. Use current media to accept or reject them.\nObserved cues: text: intensifier present; audio: speech rate rel slow; audio: intonation falling; visual: brows raised; visual: eyes widened\nAppraisal hypotheses: goal congruence: agc mixed; goal congruence: agc congruent; expectedness: aex expected; expectedness: aex unexpected; agency: aag self; agency: aag circumstance; certainty: act uncertain; certainty: act certain; coping potential: acp low; coping potential: acp high",
+          "semantic_intervention": false
+        }
+      ]
+    }
+  ],
+  "time_beijing": "2026-10-29T07:55:51.482535+08:00"
+}

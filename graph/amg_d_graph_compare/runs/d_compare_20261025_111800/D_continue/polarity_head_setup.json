@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "loss_weight": 0.1,
+  "head_restored": true,
+  "optimizer_head_moments_restored": true,
+  "head_parameters": 10755,
+  "representation": "last prompt token after Qwen final norm",
+  "answer_tokens_used": false,
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "ignored_label": -100
+}

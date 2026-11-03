@@ -1,0 +1,105 @@
+{
+  "changed_unix": 1792588014.9274616,
+  "before": {
+    "workers": 32,
+    "rpm": 360,
+    "tpm": 1600000,
+    "maximum_attempts_per_round": 3,
+    "maximum_attempts_total": 6,
+    "automatic_retry_rounds": 1,
+    "read_timeout_seconds": 240,
+    "source_target_labels_excluded": true,
+    "full_dataset_explicitly_authorized": true,
+    "live_reconfiguration": true,
+    "temporary_upload_workers": 4
+  },
+  "after": {
+    "workers": 64,
+    "rpm": 360,
+    "tpm": 1600000,
+    "maximum_attempts_per_round": 3,
+    "maximum_attempts_total": 6,
+    "automatic_retry_rounds": 1,
+    "read_timeout_seconds": 240,
+    "source_target_labels_excluded": true,
+    "full_dataset_explicitly_authorized": true,
+    "live_reconfiguration": true,
+    "temporary_upload_workers": 4
+  },
+  "pid": 273141,
+  "baseline_status": {
+    "counts": {
+      "ok": 12550,
+      "pending": 18656,
+      "running": 32,
+      "failed": 17
+    },
+    "queue_counts": {
+      "failed": 17,
+      "pending": 18656,
+      "running": 32,
+      "succeeded": 12550
+    },
+    "successful_samples": 12550,
+    "completed_samples": 12550,
+    "valid_dimension_count": 23383,
+    "invalid_dimension_count": 51917,
+    "dimension_rows": 75300,
+    "retryable_failed_tasks": 15,
+    "http_attempts": 12802,
+    "usage_including_failed_generations": {
+      "prompt_tokens": 68327226,
+      "completion_tokens": 5973031,
+      "total_tokens": 74300257
+    },
+    "phase": "running",
+    "complete": false,
+    "test_complete": false,
+    "tested_samples": 12567,
+    "total_samples": 31255,
+    "total_tasks": 31255,
+    "expected_dimensions": 187530,
+    "run_id": "mercaptionplus_v2_4",
+    "run_label": "Appraisal v2.4 全量 · 32请求并发",
+    "updated_unix": 1792588011.3565419,
+    "pid": 273141,
+    "round": 1,
+    "halt_reason": "",
+    "limits": {
+      "request_concurrency": 32,
+      "rpm_limit": 360,
+      "rpm_ceiling": 360,
+      "tpm_limit": 1600000,
+      "rate_limit_events": 0
+    },
+    "prompt_version": "appraisal_teacher_v2.4",
+    "annotation_schema_version": "appraisal_annotation_schema_v2.4",
+    "ontology_version": "appraisal_ontology_v2.3",
+    "actual_input_mode": "joint_text_audio_video_single_request",
+    "human_gold_audit_completed": false,
+    "full_dataset_started": true
+  },
+  "reason": "User requested increased parallelism",
+  "post_change_observation": {
+    "observed_seconds": 60,
+    "successes_in_observation": 128,
+    "successes_per_minute": 128.0,
+    "counts": {
+      "ok": 12777,
+      "pending": 18397,
+      "running": 64,
+      "failed": 17
+    },
+    "limits": {
+      "request_concurrency": 64,
+      "rpm_limit": 360,
+      "rpm_ceiling": 360,
+      "tpm_limit": 1600000,
+      "rate_limit_events": 0
+    },
+    "phase": "running",
+    "pid": 273141,
+    "estimated_remaining_hours": 2.41,
+    "estimated_finish_shanghai": "2026-10-21T23:33:01.607154+08:00"
+  }
+}

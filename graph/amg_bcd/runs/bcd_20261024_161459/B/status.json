@@ -1,0 +1,60 @@
+{
+  "state": "complete",
+  "llm_gradient_checkpointing": false,
+  "base_epoch": 35,
+  "physical_gpu": "0",
+  "pid": 999149,
+  "plan_id": "ed26b67074b7864aa55141860aa2241c49e5c5609e7972298a3d60f2abfa573c",
+  "started_at_beijing": "2026-10-24T16:17:26.493485+08:00",
+  "completed_steps": 25000,
+  "completed_epochs": 5,
+  "total_steps": 25000,
+  "additional_epochs": 5,
+  "updated_at_beijing": "2026-10-24T19:57:16.552065+08:00",
+  "current_epoch": 40,
+  "epoch_step": 5000,
+  "trainable_parameters": 57168644,
+  "gpu_memory_allocated": 18925117440,
+  "optimizer_updates": 24991,
+  "amp_skipped_steps": 9,
+  "last_loss": 0.7653602361679077,
+  "mean_loss_current_epoch": 0.6578048863634467,
+  "elapsed_training_seconds": 12896.932578802109,
+  "seconds_per_step": 0.5153425572967529,
+  "smoke_passed": true,
+  "gpu_memory_peak": 42734477312,
+  "gpu_memory_reserved": 44088426496,
+  "checkpoints": [
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B/checkpoint_000036_loss_0.718.pth",
+      "sha256": "7e1813dbe947ddd75f9b775fa49c6f24f0fcc11c9d48755e6823192a6d2fb37d",
+      "epoch": 36,
+      "loss": 0.718092945292592
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B/checkpoint_000037_loss_0.724.pth",
+      "sha256": "73443d0d07e7331a5a6fa87b637b441c62abebe27ebab53ef3072412008f1088",
+      "epoch": 37,
+      "loss": 0.7244538046509027
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B/checkpoint_000038_loss_0.682.pth",
+      "sha256": "d3f20a0276c58c34dd9db8f2ee96f2edad6ed3bbb9cb83262626aadd9accee61",
+      "epoch": 38,
+      "loss": 0.6823323545515537
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B/checkpoint_000039_loss_0.697.pth",
+      "sha256": "29caceb8c231a7266b430833947d8bcc6b1adb0ce00c62fd9165b01dd5a23bb7",
+      "epoch": 39,
+      "loss": 0.6967843732491136
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_bcd/runs/bcd_20261024_161459/B/checkpoint_000040_loss_0.658.pth",
+      "sha256": "9ac3832920a93731fa12964d862bd5e62980e25e642ec42f6f35d0c67b42ca41",
+      "epoch": 40,
+      "loss": 0.6578048863634467
+    }
+  ],
+  "finished_at_beijing": "2026-10-24T19:57:16.552022+08:00"
+}

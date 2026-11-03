@@ -1,0 +1,61 @@
+{
+  "schema": "frozen_method_before_confirmation_v1",
+  "checkpoint": "fixed_graph45_to54",
+  "condition": "A",
+  "development_candidates": [
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "A",
+      "eligible": true,
+      "primary_mean": 0.5922134275942679
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "B",
+      "eligible": false,
+      "primary_mean": 0.574188875954693
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "C",
+      "eligible": false,
+      "primary_mean": 0.6200767256018724
+    },
+    {
+      "checkpoint": "original_epoch40",
+      "condition": "P",
+      "eligible": true,
+      "primary_mean": 0.6387820083406637
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "A",
+      "eligible": true,
+      "primary_mean": 0.6431721177984887
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "B",
+      "eligible": false,
+      "primary_mean": 0.6274535521948592
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "C",
+      "eligible": false,
+      "primary_mean": 0.6196042636007584
+    },
+    {
+      "checkpoint": "fixed_graph45_to54",
+      "condition": "P",
+      "eligible": false,
+      "primary_mean": 0.6235545586145248
+    }
+  ],
+  "rule": "Equal-weight mean of discrete HIT and OV F over 3 fixed seeds; paired 95% lower bound positive, >=2/3 seed improvements, polarity WAF guard -1pp; C must also beat B and S, with positive point deltas in both fixed weights. Graph checkpoint additionally must beat original40 A. Confirmation cannot reselect a second candidate.",
+  "source_independence_certified": false,
+  "confirmation_not_scored": true,
+  "plan_id": "0187c66020ecf84e7056d0c941036a4de6b83128a76a215d82c49fe8f36fefa3",
+  "time_beijing": "2026-10-28T21:54:04.290011+08:00",
+  "selection_id": "9d9127ba2b07c5c0355cb4345b394f707640c87bb9f1fe3e407e37fc173f42e3"
+}

@@ -1,0 +1,1661 @@
+{
+  "text": {
+    "modality": "text",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/text/best.pt",
+    "sha256": "ae8fbb8f005a3c94acf019b07be2e9aa90b3f68fd7f98ace297b955b155f76ec",
+    "bytes": 3334471456,
+    "mtime_ns": 1792496546776070993,
+    "signature": "2226eafd6c2651f7b3397a2f5c81b2a114905ed49c8b080120dd4bf2a57f9e67",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "text",
+      "model_dir": "/ai/sjq/AffectGPT-sjq/AffectGPT/models/xlm-roberta-base",
+      "encoder_train": "full",
+      "max_length": 128,
+      "text_overlap": 32,
+      "head_lr": 0.0001,
+      "encoder_lr": 2e-05,
+      "epochs": 10,
+      "patience": 3,
+      "batch_size": 4,
+      "grad_accum": 8,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 0,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false
+    },
+    "config_sha256": "566274302e4e42e2e7fcec0c8d0f36e4c6d54dcf291be0b3535232908a30fd3e",
+    "cue_ids": [
+      "TXT_AFFECT_WORD_POSITIVE",
+      "TXT_AFFECT_WORD_NEGATIVE",
+      "TXT_EVALUATION_POSITIVE",
+      "TXT_EVALUATION_NEGATIVE",
+      "TXT_NEGATION_PRESENT",
+      "TXT_CONTRAST_PRESENT",
+      "TXT_INTENSIFIER_PRESENT",
+      "TXT_UNCERTAINTY_HEDGE",
+      "TXT_RHETORICAL_QUESTION",
+      "TXT_EXCLAMATION_INTERJECTION",
+      "TXT_DESIRE_NEED",
+      "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME"
+    ],
+    "output_dimensions": 15,
+    "head_tensor_shapes": {
+      "head.0.weight": [
+        256,
+        1538
+      ],
+      "head.0.bias": [
+        256
+      ],
+      "head.3.weight": [
+        15,
+        256
+      ],
+      "head.3.bias": [
+        15
+      ]
+    },
+    "train_samples": 27673,
+    "excluded_no_supervision": 6,
+    "train_positive": [
+      753,
+      5168,
+      4777,
+      7303,
+      9675,
+      1929,
+      9341,
+      1391,
+      2629,
+      2204,
+      5371,
+      403,
+      1970,
+      448,
+      1507
+    ],
+    "train_negative": [
+      26917,
+      21856,
+      20975,
+      17210,
+      17253,
+      24428,
+      16812,
+      24547,
+      21494,
+      25006,
+      21938,
+      26652,
+      24975,
+      26841,
+      25517
+    ],
+    "best_epoch": 10,
+    "best_step": 8650,
+    "best_metrics": {
+      "macro_ap": 0.8632430462403676,
+      "masked_bce": 0.12933694116051275,
+      "macro_f1": 0.8014296242729125,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/text/validation.last.npz",
+      "sha256": "75d1cb84780b1918ade75989be384e8a50a5ada2a84c830a9c1982c7cb37447d",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": true,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT-sjq/AffectGPT/models/xlm-roberta-base",
+      "sha256": {
+        "model.safetensors": "6fd4797bc397c3b8b55d6bb5740366b57e6a3ce91c04c77f22aafc0c128e6feb",
+        "config.json": "d66ed8cd4f2a93b358c245e50736fa389ed4f35c0bae7aad0b32abb20c62b579",
+        "tokenizer_config.json": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce",
+        "tokenizer.json": "a898ea75433890f6610f4e470b8ebeb0c21dce5c8dd61f892eb09eb5919d2e2c",
+        "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "none"
+    },
+    "scope": "engineering"
+  },
+  "audio": {
+    "modality": "audio",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio/best.pt",
+    "sha256": "269a19d56fa52faa9231e3a21d2617f5eb86f12c4c8915f16a2b902148b12a8c",
+    "bytes": 3225574,
+    "mtime_ns": 1792505341281127126,
+    "signature": "161892e3179da4715b68cf1fed34a80f0ae799c7ada1683ae4bc4753705ecb63",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "audio",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "encoder_train": "frozen",
+      "head_lr": 0.001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "max_batch_units": 20,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 2,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false
+    },
+    "config_sha256": "ff6a1678b08c59a78444ca8598e39c0bcdc2df1e370e808b041166765e63f372",
+    "cue_ids": [
+      "AUD_SPEECH_RATE_REL_FAST",
+      "AUD_SPEECH_RATE_REL_SLOW",
+      "AUD_PITCH_LEVEL_REL_HIGH",
+      "AUD_PITCH_LEVEL_REL_LOW",
+      "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "AUD_VOCAL_INTENSITY_REL_LOW",
+      "AUD_PITCH_VARIABILITY_HIGH",
+      "AUD_PITCH_VARIABILITY_LOW",
+      "AUD_PAUSE_LONG",
+      "AUD_PAUSE_FREQUENT",
+      "AUD_INTONATION_RISING",
+      "AUD_INTONATION_FALLING",
+      "AUD_INTONATION_FLAT",
+      "AUD_VOICE_TENSE",
+      "AUD_VOICE_TREMBLING",
+      "AUD_LAUGHTER_PRESENT",
+      "AUD_CRYING_SOBBING_PRESENT"
+    ],
+    "output_dimensions": 17,
+    "head_tensor_shapes": {
+      "head.classifier.0.weight": [
+        256,
+        1024
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        17,
+        256
+      ],
+      "head.classifier.3.bias": [
+        17
+      ]
+    },
+    "train_samples": 27679,
+    "excluded_no_supervision": 0,
+    "train_positive": [
+      1152,
+      6437,
+      362,
+      1112,
+      518,
+      1326,
+      3511,
+      9548,
+      2805,
+      175,
+      10353,
+      17505,
+      2123,
+      2037,
+      535,
+      338,
+      344
+    ],
+    "train_negative": [
+      18754,
+      7005,
+      8781,
+      9002,
+      10454,
+      9121,
+      13081,
+      9849,
+      24145,
+      11926,
+      15489,
+      9482,
+      19530,
+      23544,
+      26573,
+      27327,
+      27090
+    ],
+    "best_epoch": 13,
+    "best_step": 11375,
+    "best_metrics": {
+      "macro_ap": 0.7888224750132005,
+      "masked_bce": 0.17076906011513046,
+      "macro_f1": 0.7044855912240555,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio/validation.last.npz",
+      "sha256": "cc97ea50e28666893828ecfa71b1149de2890b22e9f3e193f17da7a31e7de310",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "sha256": {
+        "pytorch_model.bin": "482c19cd60877832995d790ed10dd1203b1f8c86ed7a69b4bd27f470fc27ee43",
+        "config.json": "8511d73054ac289ef47a527efdfd6738d2cb60f69f2973fdc9277492d9ff854b",
+        "preprocessor_config.json": "6334d6e0c5f2084c9a99b85ddff243cbc79dbaa4aa790bcddf8c41c496fab6fb"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "none"
+    },
+    "scope": "engineering"
+  },
+  "audio_temporal": {
+    "modality": "audio",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio_temporal/best.pt",
+    "sha256": "84e019943bce55d2d4f664325fd5531b316778407ba01a48f488c01240747f1c",
+    "bytes": 23017948,
+    "mtime_ns": 1792500474411954216,
+    "signature": "01dbde5dc11de34c0235ab74d5061018ede19cc93f03f52da4902e30e9d571d6",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "audio",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "encoder_train": "frozen",
+      "head_lr": 0.001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "max_batch_units": 20,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 2,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+      "audio_feature_stride_samples": 320,
+      "audio_feature_receptive_field_samples": 400
+    },
+    "config_sha256": "0ade2649edf5495485381c32a85d27487da56e2cac059e162ac4ec7ea97f54b5",
+    "cue_ids": [
+      "AUD_SPEECH_RATE_REL_FAST",
+      "AUD_SPEECH_RATE_REL_SLOW",
+      "AUD_PITCH_LEVEL_REL_HIGH",
+      "AUD_PITCH_LEVEL_REL_LOW",
+      "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "AUD_VOCAL_INTENSITY_REL_LOW",
+      "AUD_PITCH_VARIABILITY_HIGH",
+      "AUD_PITCH_VARIABILITY_LOW",
+      "AUD_PAUSE_LONG",
+      "AUD_PAUSE_FREQUENT",
+      "AUD_INTONATION_RISING",
+      "AUD_INTONATION_FALLING",
+      "AUD_INTONATION_FLAT",
+      "AUD_VOICE_TENSE",
+      "AUD_VOICE_TREMBLING",
+      "AUD_LAUGHTER_PRESENT",
+      "AUD_CRYING_SOBBING_PRESENT"
+    ],
+    "output_dimensions": 17,
+    "head_tensor_shapes": {
+      "head.projection.0.weight": [
+        256,
+        1024
+      ],
+      "head.projection.0.bias": [
+        256
+      ],
+      "head.projection.1.weight": [
+        256
+      ],
+      "head.projection.1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.0.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.0.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.0.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.0.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.1.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.1.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.1.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.1.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.bias": [
+        256
+      ],
+      "head.transformer.norm.weight": [
+        256
+      ],
+      "head.transformer.norm.bias": [
+        256
+      ],
+      "head.classifier.0.weight": [
+        256,
+        256
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        17,
+        256
+      ],
+      "head.classifier.3.bias": [
+        17
+      ]
+    },
+    "train_samples": 27679,
+    "excluded_no_supervision": 0,
+    "train_positive": [
+      1152,
+      6437,
+      362,
+      1112,
+      518,
+      1326,
+      3511,
+      9548,
+      2805,
+      175,
+      10353,
+      17505,
+      2123,
+      2037,
+      535,
+      338,
+      344
+    ],
+    "train_negative": [
+      18754,
+      7005,
+      8781,
+      9002,
+      10454,
+      9121,
+      13081,
+      9849,
+      24145,
+      11926,
+      15489,
+      9482,
+      19530,
+      23544,
+      26573,
+      27327,
+      27090
+    ],
+    "best_epoch": 7,
+    "best_step": 6125,
+    "best_metrics": {
+      "macro_ap": 0.7719212622729071,
+      "masked_bce": 0.1795551425204763,
+      "macro_f1": 0.692821114214829,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/audio_temporal/validation.last.npz",
+      "sha256": "2d8da9f103d58bf9a2e644c4c887ff77b85f2039afeb51d4a0062b4556ebb81f",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "sha256": {
+        "pytorch_model.bin": "482c19cd60877832995d790ed10dd1203b1f8c86ed7a69b4bd27f470fc27ee43",
+        "config.json": "8511d73054ac289ef47a527efdfd6738d2cb60f69f2973fdc9277492d9ff854b",
+        "preprocessor_config.json": "6334d6e0c5f2084c9a99b85ddff243cbc79dbaa4aa790bcddf8c41c496fab6fb"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+      "audio_sample_rate": 16000,
+      "audio_feature_stride_samples": 320,
+      "audio_feature_receptive_field_samples": 400,
+      "audio_timebase": "hubert_conv_window_centers_relative_v1"
+    },
+    "scope": "engineering"
+  },
+  "audio_full": {
+    "modality": "audio",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/audio_full/best.pt",
+    "sha256": "ed06a26d36f2e067ed5838ae4c7c5347095054c7a50b5e96a0caad9cc50f6ba4",
+    "bytes": 3788938182,
+    "mtime_ns": 1792523309283486809,
+    "signature": "752aad27b228b930a0f913c267ab84d9a8e230ca3278b813dbaa792f0a33f6be",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "audio",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "encoder_train": "full",
+      "head_lr": 0.001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "max_batch_units": 20,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 2,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "gradient_checkpointing": true,
+      "cuda_memory_fraction": 0.2
+    },
+    "config_sha256": "09cc2ad313cadc9ddd11fa6df5029545ffa3a863c232c7c09607afc4e5441c16",
+    "cue_ids": [
+      "AUD_SPEECH_RATE_REL_FAST",
+      "AUD_SPEECH_RATE_REL_SLOW",
+      "AUD_PITCH_LEVEL_REL_HIGH",
+      "AUD_PITCH_LEVEL_REL_LOW",
+      "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "AUD_VOCAL_INTENSITY_REL_LOW",
+      "AUD_PITCH_VARIABILITY_HIGH",
+      "AUD_PITCH_VARIABILITY_LOW",
+      "AUD_PAUSE_LONG",
+      "AUD_PAUSE_FREQUENT",
+      "AUD_INTONATION_RISING",
+      "AUD_INTONATION_FALLING",
+      "AUD_INTONATION_FLAT",
+      "AUD_VOICE_TENSE",
+      "AUD_VOICE_TREMBLING",
+      "AUD_LAUGHTER_PRESENT",
+      "AUD_CRYING_SOBBING_PRESENT"
+    ],
+    "output_dimensions": 17,
+    "head_tensor_shapes": {
+      "head.classifier.0.weight": [
+        256,
+        1024
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        17,
+        256
+      ],
+      "head.classifier.3.bias": [
+        17
+      ]
+    },
+    "train_samples": 27679,
+    "excluded_no_supervision": 0,
+    "train_positive": [
+      1152,
+      6437,
+      362,
+      1112,
+      518,
+      1326,
+      3511,
+      9548,
+      2805,
+      175,
+      10353,
+      17505,
+      2123,
+      2037,
+      535,
+      338,
+      344
+    ],
+    "train_negative": [
+      18754,
+      7005,
+      8781,
+      9002,
+      10454,
+      9121,
+      13081,
+      9849,
+      24145,
+      11926,
+      15489,
+      9482,
+      19530,
+      23544,
+      26573,
+      27327,
+      27090
+    ],
+    "best_epoch": 11,
+    "best_step": 9626,
+    "best_metrics": {
+      "macro_ap": 0.8037129679608058,
+      "masked_bce": 0.16968938517788046,
+      "macro_f1": 0.7142593008353734,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/audio_full/validation.last.npz",
+      "sha256": "e9b59ed9c0523f52931f3c078570fd289c2fc250a936dfc94a6d98fa6beccca4",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "sha256": {
+        "pytorch_model.bin": "482c19cd60877832995d790ed10dd1203b1f8c86ed7a69b4bd27f470fc27ee43",
+        "config.json": "8511d73054ac289ef47a527efdfd6738d2cb60f69f2973fdc9277492d9ff854b",
+        "preprocessor_config.json": "6334d6e0c5f2084c9a99b85ddff243cbc79dbaa4aa790bcddf8c41c496fab6fb"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "none"
+    },
+    "scope": "engineering"
+  },
+  "audio_temporal_full": {
+    "modality": "audio",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/audio_temporal_full/best.pt",
+    "sha256": "0f56d6efdf9b89bd400437133fc0d930f4213bb44abf9d36479391b613f55650",
+    "bytes": 3808730950,
+    "mtime_ns": 1792536004440744700,
+    "signature": "6cb5ca10d433b6689b06f40d9d2c16bf01aa9cefcfdc3ab83dc9c983ff5c4eaf",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "audio",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "encoder_train": "full",
+      "head_lr": 0.001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "max_batch_units": 20,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 2,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+      "audio_feature_stride_samples": 320,
+      "audio_feature_receptive_field_samples": 400,
+      "gradient_checkpointing": true,
+      "cuda_memory_fraction": 0.2
+    },
+    "config_sha256": "155f1f09b054e49bbefb4320478b271543c3c82ac0ef7b4352608843178cb67c",
+    "cue_ids": [
+      "AUD_SPEECH_RATE_REL_FAST",
+      "AUD_SPEECH_RATE_REL_SLOW",
+      "AUD_PITCH_LEVEL_REL_HIGH",
+      "AUD_PITCH_LEVEL_REL_LOW",
+      "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "AUD_VOCAL_INTENSITY_REL_LOW",
+      "AUD_PITCH_VARIABILITY_HIGH",
+      "AUD_PITCH_VARIABILITY_LOW",
+      "AUD_PAUSE_LONG",
+      "AUD_PAUSE_FREQUENT",
+      "AUD_INTONATION_RISING",
+      "AUD_INTONATION_FALLING",
+      "AUD_INTONATION_FLAT",
+      "AUD_VOICE_TENSE",
+      "AUD_VOICE_TREMBLING",
+      "AUD_LAUGHTER_PRESENT",
+      "AUD_CRYING_SOBBING_PRESENT"
+    ],
+    "output_dimensions": 17,
+    "head_tensor_shapes": {
+      "head.projection.0.weight": [
+        256,
+        1024
+      ],
+      "head.projection.0.bias": [
+        256
+      ],
+      "head.projection.1.weight": [
+        256
+      ],
+      "head.projection.1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.0.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.0.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.0.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.0.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.1.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.1.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.1.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.1.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.bias": [
+        256
+      ],
+      "head.transformer.norm.weight": [
+        256
+      ],
+      "head.transformer.norm.bias": [
+        256
+      ],
+      "head.classifier.0.weight": [
+        256,
+        256
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        17,
+        256
+      ],
+      "head.classifier.3.bias": [
+        17
+      ]
+    },
+    "train_samples": 27679,
+    "excluded_no_supervision": 0,
+    "train_positive": [
+      1152,
+      6437,
+      362,
+      1112,
+      518,
+      1326,
+      3511,
+      9548,
+      2805,
+      175,
+      10353,
+      17505,
+      2123,
+      2037,
+      535,
+      338,
+      344
+    ],
+    "train_negative": [
+      18754,
+      7005,
+      8781,
+      9002,
+      10454,
+      9121,
+      13081,
+      9849,
+      24145,
+      11926,
+      15489,
+      9482,
+      19530,
+      23544,
+      26573,
+      27327,
+      27090
+    ],
+    "best_epoch": 14,
+    "best_step": 12250,
+    "best_metrics": {
+      "macro_ap": 0.7983993227889762,
+      "masked_bce": 0.18527094211724932,
+      "macro_f1": 0.7103667861461724,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/audio_temporal_full/validation.last.npz",
+      "sha256": "a260ff820ca169a585669d9660af207b0ec2ce32609364c99c8200f5421f8a90",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/chinese-hubert-large",
+      "sha256": {
+        "pytorch_model.bin": "482c19cd60877832995d790ed10dd1203b1f8c86ed7a69b4bd27f470fc27ee43",
+        "config.json": "8511d73054ac289ef47a527efdfd6738d2cb60f69f2973fdc9277492d9ff854b",
+        "preprocessor_config.json": "6334d6e0c5f2084c9a99b85ddff243cbc79dbaa4aa790bcddf8c41c496fab6fb"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+      "audio_sample_rate": 16000,
+      "audio_feature_stride_samples": 320,
+      "audio_feature_receptive_field_samples": 400,
+      "audio_timebase": "hubert_conv_window_centers_relative_v1"
+    },
+    "scope": "engineering"
+  },
+  "visual": {
+    "modality": "visual",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual/best.pt",
+    "sha256": "eeac8be5bb4506eaff6f4d59b4084fcbfd59a00638b1dd4a63ed179e9b4a6a79",
+    "bytes": 2416742,
+    "mtime_ns": 1792515694662538729,
+    "signature": "21007d55949d2e24c9198e7a6c1d71588f31fc446502a64db04e695790120c90",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "visual",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "encoder_train": "frozen",
+      "head_lr": 0.001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "fps": 2,
+      "spatial": "letterbox",
+      "frame_batch_size": 8,
+      "max_batch_units": 15,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 4,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": 1
+    },
+    "config_sha256": "c3553a8cf118e0d8443b2e91fa550be9986c73b2939a0d4ce64eba487fd3f11d",
+    "cue_ids": [
+      "VIS_BROWS_FURROWED",
+      "VIS_BROWS_RAISED",
+      "VIS_EYES_WIDENED",
+      "VIS_EYES_SQUINTED",
+      "VIS_SMILE_PRESENT",
+      "VIS_MOUTH_CORNERS_DOWN",
+      "VIS_LIPS_PRESSED",
+      "VIS_GRIMACE_PRESENT",
+      "VIS_TEARING_PRESENT",
+      "VIS_HEAD_LOWERED"
+    ],
+    "output_dimensions": 10,
+    "head_tensor_shapes": {
+      "head.classifier.0.weight": [
+        256,
+        768
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        10,
+        256
+      ],
+      "head.classifier.3.bias": [
+        10
+      ]
+    },
+    "train_samples": 27677,
+    "excluded_no_supervision": 2,
+    "train_positive": [
+      9165,
+      11300,
+      6978,
+      5914,
+      3888,
+      9080,
+      3024,
+      1982,
+      798,
+      6692
+    ],
+    "train_negative": [
+      18446,
+      16202,
+      14130,
+      18004,
+      23168,
+      15362,
+      23670,
+      22131,
+      22603,
+      20862
+    ],
+    "best_epoch": 8,
+    "best_step": 7151,
+    "best_metrics": {
+      "macro_ap": 0.75738286547868,
+      "masked_bce": 0.29351996265215796,
+      "macro_f1": 0.6496217857247697,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual/validation.last.npz",
+      "sha256": "97c071615376a55cdcbb4cdb4e578566da68c7b4e3e15e55be5114d9151aeaea",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "sha256": {
+        "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+        "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+        "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "none"
+    },
+    "scope": "engineering"
+  },
+  "visual_temporal": {
+    "modality": "visual",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual_temporal/best.pt",
+    "sha256": "a73cf7efed21487a54f2af08491a468cb4131e56b2b4f5a4eb2ecfc14764cae6",
+    "bytes": 22208796,
+    "mtime_ns": 1792515718470672223,
+    "signature": "74cb2ffca17474e48c34fad4bd4ef6c8cef1c1b56e393b9629b0a8c2d0497cd7",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "visual",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "encoder_train": "frozen",
+      "head_lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "fps": 2,
+      "spatial": "letterbox",
+      "frame_batch_size": 8,
+      "max_batch_units": 15,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 4,
+      "save_every_steps": 200,
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": 1
+    },
+    "config_sha256": "c235791c6c4ca0db6f1caeee4822119355e229dc2696094c7bf393517d21d49b",
+    "cue_ids": [
+      "VIS_BROWS_FURROWED",
+      "VIS_BROWS_RAISED",
+      "VIS_EYES_WIDENED",
+      "VIS_EYES_SQUINTED",
+      "VIS_SMILE_PRESENT",
+      "VIS_MOUTH_CORNERS_DOWN",
+      "VIS_LIPS_PRESSED",
+      "VIS_GRIMACE_PRESENT",
+      "VIS_TEARING_PRESENT",
+      "VIS_HEAD_LOWERED"
+    ],
+    "output_dimensions": 10,
+    "head_tensor_shapes": {
+      "head.projection.0.weight": [
+        256,
+        768
+      ],
+      "head.projection.0.bias": [
+        256
+      ],
+      "head.projection.1.weight": [
+        256
+      ],
+      "head.projection.1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.0.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.0.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.0.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.0.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.1.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.1.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.1.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.1.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.bias": [
+        256
+      ],
+      "head.transformer.norm.weight": [
+        256
+      ],
+      "head.transformer.norm.bias": [
+        256
+      ],
+      "head.classifier.0.weight": [
+        256,
+        256
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        10,
+        256
+      ],
+      "head.classifier.3.bias": [
+        10
+      ]
+    },
+    "train_samples": 27677,
+    "excluded_no_supervision": 2,
+    "train_positive": [
+      9165,
+      11300,
+      6978,
+      5914,
+      3888,
+      9080,
+      3024,
+      1982,
+      798,
+      6692
+    ],
+    "train_negative": [
+      18446,
+      16202,
+      14130,
+      18004,
+      23168,
+      15362,
+      23670,
+      22131,
+      22603,
+      20862
+    ],
+    "best_epoch": 8,
+    "best_step": 7151,
+    "best_metrics": {
+      "macro_ap": 0.7673129136913974,
+      "masked_bce": 0.2923754691726324,
+      "macro_f1": 0.6616639082341139,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/strict_all_modalities_20261020_163131/visual_temporal/validation.last.npz",
+      "sha256": "6c5e928e4986c833ce0af9e8bd33aab26ed37b8d71c5f5a8fa7f3aff116ccabf",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "sha256": {
+        "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+        "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+        "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1"
+    },
+    "scope": "engineering"
+  },
+  "visual_full": {
+    "modality": "visual",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/visual_full/best.pt",
+    "sha256": "fb03bbcc40181cd22abcfbd900d7b7269ae2da221fd7cbfcc065b1f1d83f1fff",
+    "bytes": 3650486078,
+    "mtime_ns": 1792516965759365891,
+    "signature": "2e340e7b09e97a69ce4dbe74860053a5a94c2b4ce732c63d8f4096b6488f3295",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "visual",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "encoder_train": "full",
+      "head_lr": 0.001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "fps": 2,
+      "spatial": "letterbox",
+      "frame_batch_size": 8,
+      "max_batch_units": 15,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 4,
+      "save_every_steps": 200,
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": 1,
+      "gradient_checkpointing": true,
+      "cuda_memory_fraction": 0.2
+    },
+    "config_sha256": "6bf97424eb500a670d60ae614551e5a504170ce5b794105004ecca3a40660e8d",
+    "cue_ids": [
+      "VIS_BROWS_FURROWED",
+      "VIS_BROWS_RAISED",
+      "VIS_EYES_WIDENED",
+      "VIS_EYES_SQUINTED",
+      "VIS_SMILE_PRESENT",
+      "VIS_MOUTH_CORNERS_DOWN",
+      "VIS_LIPS_PRESSED",
+      "VIS_GRIMACE_PRESENT",
+      "VIS_TEARING_PRESENT",
+      "VIS_HEAD_LOWERED"
+    ],
+    "output_dimensions": 10,
+    "head_tensor_shapes": {
+      "head.classifier.0.weight": [
+        256,
+        768
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        10,
+        256
+      ],
+      "head.classifier.3.bias": [
+        10
+      ]
+    },
+    "train_samples": 27677,
+    "excluded_no_supervision": 2,
+    "train_positive": [
+      9165,
+      11300,
+      6978,
+      5914,
+      3888,
+      9080,
+      3024,
+      1982,
+      798,
+      6692
+    ],
+    "train_negative": [
+      18446,
+      16202,
+      14130,
+      18004,
+      23168,
+      15362,
+      23670,
+      22131,
+      22603,
+      20862
+    ],
+    "best_epoch": 4,
+    "best_step": 3576,
+    "best_metrics": {
+      "macro_ap": 0.8129467637677111,
+      "masked_bce": 0.2787335030362195,
+      "macro_f1": 0.7239310304753007,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/visual_full/validation.last.npz",
+      "sha256": "6cd36c184968236595f843267df92b5114ad7e75e10a962e1ca51bddd168a8bd",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "sha256": {
+        "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+        "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+        "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "none"
+    },
+    "scope": "engineering"
+  },
+  "visual_temporal_full": {
+    "modality": "visual",
+    "checkpoint": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/visual_temporal_full/best.pt",
+    "sha256": "d230d6f3a22891e28d46bc101bb25ef953c1875ff9bdf39cbc634c930953edc5",
+    "bytes": 3670278590,
+    "mtime_ns": 1792508361737465637,
+    "signature": "df716e2f8b8c2bc3dad5e5dab15b85e114e4fdb456856123cc39fcf4b7bdce72",
+    "code_hash": "e4e521695acfeb64fd647f6da635fb49d27b203e34f203db1a64e69eb0787b76",
+    "config": {
+      "modality": "visual",
+      "model_dir": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "encoder_train": "full",
+      "head_lr": 0.0001,
+      "encoder_lr": 1e-05,
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 2,
+      "grad_accum": 16,
+      "fps": 2,
+      "spatial": "letterbox",
+      "frame_batch_size": 8,
+      "max_batch_units": 15,
+      "pooling": "mean",
+      "dropout": 0.1,
+      "precision": "bf16",
+      "weight_decay": 0.01,
+      "warmup_fraction": 0.1,
+      "clip_grad_norm": 1,
+      "seed": 42,
+      "num_workers": 4,
+      "save_every_steps": 200,
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1",
+      "pin_memory": true,
+      "prefetch_factor": 2,
+      "persistent_workers": false,
+      "decode_threads": 1,
+      "gradient_checkpointing": true,
+      "cuda_memory_fraction": 0.2
+    },
+    "config_sha256": "60681717a0639b16149d6257a172309773caf41f2110184f406cee5d31057371",
+    "cue_ids": [
+      "VIS_BROWS_FURROWED",
+      "VIS_BROWS_RAISED",
+      "VIS_EYES_WIDENED",
+      "VIS_EYES_SQUINTED",
+      "VIS_SMILE_PRESENT",
+      "VIS_MOUTH_CORNERS_DOWN",
+      "VIS_LIPS_PRESSED",
+      "VIS_GRIMACE_PRESENT",
+      "VIS_TEARING_PRESENT",
+      "VIS_HEAD_LOWERED"
+    ],
+    "output_dimensions": 10,
+    "head_tensor_shapes": {
+      "head.projection.0.weight": [
+        256,
+        768
+      ],
+      "head.projection.0.bias": [
+        256
+      ],
+      "head.projection.1.weight": [
+        256
+      ],
+      "head.projection.1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.0.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.0.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.0.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.0.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.0.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.0.norm2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_weight": [
+        768,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.in_proj_bias": [
+        768
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.weight": [
+        256,
+        256
+      ],
+      "head.transformer.layers.1.self_attn.out_proj.bias": [
+        256
+      ],
+      "head.transformer.layers.1.linear1.weight": [
+        1024,
+        256
+      ],
+      "head.transformer.layers.1.linear1.bias": [
+        1024
+      ],
+      "head.transformer.layers.1.linear2.weight": [
+        256,
+        1024
+      ],
+      "head.transformer.layers.1.linear2.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm1.bias": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.weight": [
+        256
+      ],
+      "head.transformer.layers.1.norm2.bias": [
+        256
+      ],
+      "head.transformer.norm.weight": [
+        256
+      ],
+      "head.transformer.norm.bias": [
+        256
+      ],
+      "head.classifier.0.weight": [
+        256,
+        256
+      ],
+      "head.classifier.0.bias": [
+        256
+      ],
+      "head.classifier.3.weight": [
+        10,
+        256
+      ],
+      "head.classifier.3.bias": [
+        10
+      ]
+    },
+    "train_samples": 27677,
+    "excluded_no_supervision": 2,
+    "train_positive": [
+      9165,
+      11300,
+      6978,
+      5914,
+      3888,
+      9080,
+      3024,
+      1982,
+      798,
+      6692
+    ],
+    "train_negative": [
+      18446,
+      16202,
+      14130,
+      18004,
+      23168,
+      15362,
+      23670,
+      22131,
+      22603,
+      20862
+    ],
+    "best_epoch": 4,
+    "best_step": 3576,
+    "best_metrics": {
+      "macro_ap": 0.8033839926296569,
+      "masked_bce": 0.29218899242978336,
+      "macro_f1": 0.7273594500887736,
+      "reference": "Teacher pseudo-labels; not human accuracy"
+    },
+    "last_prediction_cache": {
+      "path": "/ai/sjq/AffectGPT-sjq/cue_student/output/full_finetune_20261020_170308/visual_temporal_full/validation.last.npz",
+      "sha256": "5fe1268c8aaeddcdc0d4975bc74b0ca5c0d7b30a08a76353df94e47df68fae1c",
+      "embedded_checkpoint_identity": false,
+      "metrics_equal_to_best": false,
+      "usable_as_best_predictions": false,
+      "reason": "Cache stores no checkpoint hash; regenerate and bind to the locked checkpoint in P2/P4"
+    },
+    "encoder_assets": {
+      "directory": "/ai/sjq/AffectGPT/AffectGPT/models/clip-vit-large-patch14",
+      "sha256": {
+        "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+        "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+        "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+        "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+        "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+      }
+    },
+    "temporal_architecture": {
+      "temporal_model": "transformer",
+      "temporal_dim": 256,
+      "temporal_heads": 4,
+      "temporal_layers": 2,
+      "temporal_ffn_dim": 1024,
+      "temporal_dropout": 0.1,
+      "temporal_time_unit_seconds": 1.0,
+      "temporal_position_encoding": "index_and_elapsed_seconds_sinusoidal_v1"
+    },
+    "scope": "engineering"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "source_samples": 31327,
+  "recomputed_eligible_samples": 31255,
+  "excluded_failed_samples": 72,
+  "failed_tasks": 78,
+  "role_counts": {
+    "pseudo_train": 27679,
+    "pseudo_validation": 3076,
+    "gold_audit": 300,
+    "diagnostic_reserved": 200
+  },
+  "graph_fit_samples": 27679,
+  "selection_validation_samples": 3076,
+  "excluded_reserved_samples": 500,
+  "exact_hash_grouping_rechecked": true,
+  "all_frozen_groups_singleton": true,
+  "cross_role_group_leakage": false,
+  "raw_cue_csv_matrices_rebuilt": true,
+  "verified_cue_annotation_records": 93765,
+  "cue_annotations_ordered_sha256": "6d1ffcb51bf4f38836a97b42c689094eee19d73cc0244ef70d57527c1a5f2784",
+  "raw_media_metadata_identity_checks": 62510,
+  "raw_media_content_rehashed": false,
+  "cue_frozen_labels_match": true,
+  "split_preserved": true,
+  "target_datasets_used": false,
+  "model_calls": 0,
+  "files": {
+    "cue_annotation/runs/mercaptionplus/samples.json": "246069a2ef97edfb919113b23cb61c5f94bb57852c0af6e4104cf1e939d101d4",
+    "cue_annotation/runs/mercaptionplus/labels.csv": "26a974f93241c5506da86b25706cb13a9ddbb2604da0fb8082e1cd046020ea15",
+    "cue_annotation/runs/mercaptionplus/ontology.json": "6de0ce8885f37b4f039b123af97cca24961646cc429b63e632b2b9af3228b757",
+    "cue_annotation/runs/mercaptionplus/protocol.json": "342b9e6114e85b5345d01ce8546cf548f4c8dc576a1649124f263f3b11e96cd2",
+    "cue_student/artifacts/release_strict_all_modalities_20261020_163131/manifest.json": "0c06195f4a5c2ae365daacd876a6ba9385e8e4908c544da5ae8733d8d9014990",
+    "cue_student/artifacts/release_strict_all_modalities_20261020_163131/members.json": "4dfcc6d1056dafa81e70b5ec9c2db27b622ab9e1e77f748100a3268b578ef8ae",
+    "cue_student/artifacts/release_strict_all_modalities_20261020_163131/eligibility.json": "44d5263b3f9bcc1146d8dc57988d22a5eca4331dd0c5124c3b3fcb9224f8fddb"
+  },
+  "limitation": "Exact-media grouping uses previously verified frozen SHA256 plus current byte/mtime checks; no new near-duplicate/source provenance or human audit."
+}

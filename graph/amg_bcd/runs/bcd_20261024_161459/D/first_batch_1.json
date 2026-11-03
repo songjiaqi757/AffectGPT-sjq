@@ -1,0 +1,77 @@
+{
+  "sample_ids": [
+    "samplenew3_00031425",
+    "samplenew3_00017162",
+    "samplenew3_00033744"
+  ],
+  "prompt_info": [
+    {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 158,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 9,
+      "appraisals_displayed": 12,
+      "prompt_tokens": 268,
+      "answer_tokens": 130,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description"
+    },
+    {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated",
+        "training_emotion_dropout"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 143,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 7,
+      "appraisals_displayed": 11,
+      "prompt_tokens": 247,
+      "answer_tokens": 134,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description"
+    },
+    {
+      "fallback": false,
+      "evidence_level": 2,
+      "gate_reasons": [
+        "emotion_support_not_separated"
+      ],
+      "policy_id": "f2e7502bd082b2fa735075b1f388743eda0f98e7fa68e2f7de64caa72ffb579d",
+      "graph_tokens": 122,
+      "omitted_evidence": 0,
+      "displayed_paths": 0,
+      "emotion_candidates_displayed": 0,
+      "cues_displayed": 7,
+      "appraisals_displayed": 9,
+      "prompt_tokens": 228,
+      "answer_tokens": 9,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "ovlabel"
+    }
+  ],
+  "shape": [
+    3,
+    400
+  ],
+  "supervised_tokens": [
+    131,
+    135,
+    10
+  ],
+  "graph_tokens_masked_from_loss": true
+}

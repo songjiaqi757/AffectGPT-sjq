@@ -1,0 +1,36 @@
+{
+  "node": "A100",
+  "controller_pid": 744587,
+  "slots": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c",
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "controller_sha256": "83551a082b1d4ef445747eaf1932b739d485e640d936e26f3acf00ce4294892b",
+  "started_at_beijing": "2026-11-03T09:45:02.782236+08:00",
+  "phase": "inference",
+  "workers": 4,
+  "adopted_existing_workers": false,
+  "pids": {
+    "4": 744598,
+    "5": 744599,
+    "6": 744600,
+    "7": 744601
+  },
+  "time_beijing": "2026-11-03T13:48:55.384085+08:00",
+  "active_slots": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "retries": {
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  }
+}

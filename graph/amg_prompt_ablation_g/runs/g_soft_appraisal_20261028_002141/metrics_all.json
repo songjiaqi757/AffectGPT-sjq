@@ -1,0 +1,199 @@
+[
+  {
+    "job_id": "base35_G_epoch_35_MER2023",
+    "variant": "base35_G",
+    "base_epoch": 35,
+    "epoch": 35,
+    "dataset": "MER2023",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7245211389128559,
+    "metrics": {
+      "HIT": 0.7245211389128559,
+      "M": 0.4803848821668443,
+      "mean_extracted_labels": 3.559610705596107,
+      "empty_extracted_labels": 6
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "epoch": 35
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/base35_G_epoch_35_MER2023/name2reason.npz",
+    "raw_sha256": "d72dc928084a1baad752d5b7a99e989e9264d7082265e2a5fc49bf27bea80295",
+    "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+    "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+    "gpu": 1,
+    "completed_at_beijing": "2026-10-28T00:34:40.811403+08:00",
+    "weight": "base35",
+    "ablation": "G",
+    "HIT": 0.7245211389128559,
+    "M": 0.4803848821668443,
+    "mean_extracted_labels": 3.559610705596107,
+    "empty_extracted_labels": 6
+  },
+  {
+    "job_id": "base35_G_epoch_35_OVMERDPlus",
+    "variant": "base35_G",
+    "base_epoch": 35,
+    "epoch": 35,
+    "dataset": "OVMERDPlus",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6035784696530144,
+    "metrics": {
+      "F_s": 0.6035784696530144,
+      "P_s": 0.5825826870759251,
+      "R_s": 0.6280701266078108,
+      "mean_extracted_labels": 3.4530075187969924,
+      "empty_extracted_labels": 8
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "epoch": 35
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/base35_G_epoch_35_OVMERDPlus/name2reason.npz",
+    "raw_sha256": "b0a68afe2347b4642f76798469ecaf1c0fbff1c03768fb1b1a14012668b68954",
+    "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+    "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+    "gpu": 1,
+    "completed_at_beijing": "2026-10-28T00:34:25.600990+08:00",
+    "weight": "base35",
+    "ablation": "G",
+    "F_s": 0.6035784696530144,
+    "P_s": 0.5825826870759251,
+    "R_s": 0.6280701266078108,
+    "mean_extracted_labels": 3.4530075187969924,
+    "empty_extracted_labels": 8
+  },
+  {
+    "job_id": "base35_G_epoch_35_SIMS",
+    "variant": "base35_G",
+    "base_epoch": 35,
+    "epoch": 35,
+    "dataset": "SIMS",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8648218325493091,
+    "metrics": {
+      "WAF": 0.8648218325493091,
+      "ACC": 0.865979381443299
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e",
+      "epoch": 35
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/base35_G_epoch_35_SIMS/name2reason.npz",
+    "raw_sha256": "132c75c1656b005ddffa8f2e1e0cec8bc57af8a7837fa5bb03f96b8ef36342f8",
+    "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+    "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+    "gpu": 1,
+    "completed_at_beijing": "2026-10-28T00:34:06.541297+08:00",
+    "weight": "base35",
+    "ablation": "G",
+    "WAF": 0.8648218325493091,
+    "ACC": 0.865979381443299
+  },
+  {
+    "job_id": "graph40_G_epoch_40_MER2023",
+    "variant": "graph40_G",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "MER2023",
+    "samples": 411,
+    "main_metric": "HIT",
+    "main_score": 0.7552636654316602,
+    "metrics": {
+      "HIT": 0.7552636654316602,
+      "M": 0.5170980730514813,
+      "mean_extracted_labels": 3.4793187347931873,
+      "empty_extracted_labels": 5
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+      "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "epoch": 40,
+      "loss": 0.6698148677974939
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/graph40_G_epoch_40_MER2023/name2reason.npz",
+    "raw_sha256": "ad89635d1e45bcdad00cb33886b1d48c82430f97d9702f5db90794259f7fe4ac",
+    "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+    "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+    "gpu": 0,
+    "completed_at_beijing": "2026-10-28T00:34:42.000587+08:00",
+    "weight": "graph40",
+    "ablation": "G",
+    "HIT": 0.7552636654316602,
+    "M": 0.5170980730514813,
+    "mean_extracted_labels": 3.4793187347931873,
+    "empty_extracted_labels": 5
+  },
+  {
+    "job_id": "graph40_G_epoch_40_OVMERDPlus",
+    "variant": "graph40_G",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "OVMERDPlus",
+    "samples": 532,
+    "main_metric": "F_s",
+    "main_score": 0.6071351103203513,
+    "metrics": {
+      "F_s": 0.6071351103203513,
+      "P_s": 0.5905449059030675,
+      "R_s": 0.6258393161082701,
+      "mean_extracted_labels": 3.4398496240601504,
+      "empty_extracted_labels": 3
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+      "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "epoch": 40,
+      "loss": 0.6698148677974939
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/graph40_G_epoch_40_OVMERDPlus/name2reason.npz",
+    "raw_sha256": "0dc90fbff920d269fd46dc209040bd42e36f2b840a622d240291811513af5e1e",
+    "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+    "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+    "gpu": 0,
+    "completed_at_beijing": "2026-10-28T00:34:27.463407+08:00",
+    "weight": "graph40",
+    "ablation": "G",
+    "F_s": 0.6071351103203513,
+    "P_s": 0.5905449059030675,
+    "R_s": 0.6258393161082701,
+    "mean_extracted_labels": 3.4398496240601504,
+    "empty_extracted_labels": 3
+  },
+  {
+    "job_id": "graph40_G_epoch_40_SIMS",
+    "variant": "graph40_G",
+    "base_epoch": 35,
+    "epoch": 40,
+    "dataset": "SIMS",
+    "samples": 457,
+    "main_metric": "WAF",
+    "main_score": 0.8301698323775428,
+    "metrics": {
+      "WAF": 0.8301698323775428,
+      "ACC": 0.8273195876288659
+    },
+    "checkpoint": {
+      "path": "/ai/sjq/AffectGPT-sjq/amg_d_graph_compare/runs/d_compare_20261025_111800/D_newgraph/checkpoint_000040_loss_0.670.pth",
+      "sha256": "9c2961a1bf1c8af3fae81a7ce8f0fb0d0be7cd328d6d315206ce2faccfb19af9",
+      "epoch": 40,
+      "loss": 0.6698148677974939
+    },
+    "raw_path": "/ai/sjq/AffectGPT-sjq/amg_prompt_ablation_g/runs/g_soft_appraisal_20261028_002141/predictions/graph40_G_epoch_40_SIMS/name2reason.npz",
+    "raw_sha256": "b685142e3696d8db0254680e08789bb3caab1a1a2e367534205844fd482d52ab",
+    "plan_id": "eb6d96fa188effc39866868def6d382ed16a1ed77b98afd5a9dbf7e3d781e732",
+    "evaluation_resources_id": "55c1d8139d9bbb0e176eee5ae244eae86d151b7f6dbf94543e920ccc2e1e84ce",
+    "gpu": 0,
+    "completed_at_beijing": "2026-10-28T00:34:08.243846+08:00",
+    "weight": "graph40",
+    "ablation": "G",
+    "WAF": 0.8301698323775428,
+    "ACC": 0.8273195876288659
+  }
+]
