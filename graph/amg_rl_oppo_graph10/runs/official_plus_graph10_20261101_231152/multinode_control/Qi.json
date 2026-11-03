@@ -1,0 +1,253 @@
+{
+  "node": "Qi",
+  "phase": "inference",
+  "controller_pid": 585857,
+  "configured_workers": 7,
+  "workers": 7,
+  "slots": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "pids": {
+    "11": 585858,
+    "8": 586583,
+    "9": 586584,
+    "10": 586585,
+    "12": 586586,
+    "13": 586587,
+    "14": 586588
+  },
+  "worker_states": {
+    "8": {
+      "state": "inference",
+      "slot": 8,
+      "gpu": 0,
+      "pid": 586583,
+      "time": 1793701754.8209128,
+      "checkpoint": "rl_e040",
+      "dataset": "MER2024",
+      "shard": "rl_e040_MER2024_00192",
+      "completed_samples": 171,
+      "last_sample": "MER2024::samplenew_00013986",
+      "last_seconds": 2.128957249224186,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    },
+    "9": {
+      "state": "inference",
+      "slot": 9,
+      "gpu": 0,
+      "pid": 586584,
+      "time": 1793701764.0976074,
+      "checkpoint": "rl_e040",
+      "dataset": "MER2024",
+      "shard": "rl_e040_MER2024_00256",
+      "completed_samples": 201,
+      "last_sample": "MER2024::samplenew_00015302",
+      "last_seconds": 2.470415065996349,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    },
+    "10": {
+      "state": "inference",
+      "slot": 10,
+      "gpu": 0,
+      "pid": 586585,
+      "time": 1793701758.5180056,
+      "checkpoint": "rl_e040",
+      "dataset": "MER2024",
+      "shard": "rl_e040_MER2024_00352",
+      "completed_samples": 200,
+      "last_sample": "MER2024::samplenew_00017515",
+      "last_seconds": 2.5362330209463835,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    },
+    "11": {
+      "state": "inference",
+      "slot": 11,
+      "gpu": 1,
+      "pid": 585858,
+      "time": 1793701753.8894916,
+      "checkpoint": "rl_e040",
+      "dataset": "MER2024",
+      "shard": "rl_e040_MER2024_00064",
+      "completed_samples": 185,
+      "last_sample": "MER2024::samplenew_00000889",
+      "last_seconds": 3.00843268353492,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-ac40f187-8891-00f2-3999-959bbdcf952f",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    },
+    "12": {
+      "state": "inference",
+      "slot": 12,
+      "gpu": 1,
+      "pid": 586586,
+      "time": 1793701756.8403192,
+      "checkpoint": "rl_e040",
+      "dataset": "MER2024",
+      "shard": "rl_e040_MER2024_00320",
+      "completed_samples": 166,
+      "last_sample": "MER2024::samplenew_00016652",
+      "last_seconds": 3.228425861336291,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-ac40f187-8891-00f2-3999-959bbdcf952f",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    },
+    "13": {
+      "state": "inference",
+      "slot": 13,
+      "gpu": 1,
+      "pid": 586587,
+      "time": 1793701769.5143178,
+      "checkpoint": "rl_e040",
+      "dataset": "MER2024",
+      "shard": "rl_e040_MER2024_00288",
+      "completed_samples": 162,
+      "last_sample": "MER2024::samplenew_00015849",
+      "last_seconds": 2.6829309426248074,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-ac40f187-8891-00f2-3999-959bbdcf952f",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    },
+    "14": {
+      "state": "inference",
+      "slot": 14,
+      "gpu": 1,
+      "pid": 586588,
+      "time": 1793701769.064864,
+      "checkpoint": "rl_e040",
+      "dataset": "IEMOCAPFour",
+      "shard": "rl_e040_IEMOCAPFour_01184",
+      "completed_samples": 142,
+      "last_sample": "IEMOCAPFour::Ses05M_script03_2_M028",
+      "last_seconds": 17.117296821437776,
+      "runtime": {
+        "torch": "2.7.1+cu128",
+        "cuda": "12.8",
+        "transformers": "4.52.4",
+        "torchaudio": "2.7.1+cu128",
+        "torchvision": "0.22.1+cu128",
+        "dtype": "bfloat16",
+        "quantized": false,
+        "gpu_uuid": "GPU-ac40f187-8891-00f2-3999-959bbdcf952f",
+        "gpu_name": "NVIDIA RTX 6000D",
+        "gpu_arch": [
+          12,
+          0
+        ],
+        "bootstrap_sha256": "41823da9b6925efe6ba98cf084f5023a093e64988bf45c412ccb1e8791f0a914",
+        "unused_scoring_imports_deferred": true
+      }
+    }
+  },
+  "retries": {
+    "11": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0
+  },
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "deployment_id": "6f48f4f9f64e0052faaa148c19d1d96a17006ce312f0386f146dc38c093d49c1",
+  "time": 1793701769.8526914,
+  "own_workers_exited": false,
+  "gpu_info": "0, GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285, 65063, 96\n1, GPU-ac40f187-8891-00f2-3999-959bbdcf952f, 79922, 96",
+  "time_beijing": "2026-11-03T18:25:05.064711+08:00",
+  "broker_pid": 1452601
+}

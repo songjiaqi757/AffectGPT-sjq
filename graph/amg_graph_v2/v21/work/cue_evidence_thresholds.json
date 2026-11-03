@@ -1,0 +1,440 @@
+{
+  "cues": [
+    {
+      "cue_id": "TXT_AFFECT_WORD_POSITIVE",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "no_threshold_satisfies_all_frozen_constraints"
+    },
+    {
+      "cue_id": "TXT_AFFECT_WORD_NEGATIVE",
+      "status": "admitted",
+      "threshold": 0.3359596561108214,
+      "precision": 0.8014440433212996,
+      "recall": 0.8409090909090909,
+      "predictions": 277,
+      "prediction_groups": 277,
+      "group_precision_lcb": 0.7546937535734706,
+      "group_precision_ucb": 0.8464609197623304,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 266
+    },
+    {
+      "cue_id": "TXT_EVALUATION_POSITIVE",
+      "status": "admitted",
+      "threshold": 0.1498761248158502,
+      "precision": 0.8006644518272426,
+      "recall": 0.9305019305019305,
+      "predictions": 301,
+      "prediction_groups": 301,
+      "group_precision_lcb": 0.7548045474910394,
+      "group_precision_ucb": 0.8452068541180378,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 275
+    },
+    {
+      "cue_id": "TXT_EVALUATION_NEGATIVE",
+      "status": "admitted",
+      "threshold": 0.27224854695215217,
+      "precision": 0.8004385964912281,
+      "recall": 0.9125,
+      "predictions": 456,
+      "prediction_groups": 456,
+      "group_precision_lcb": 0.7601618262367709,
+      "group_precision_ucb": 0.8347727941108896,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 423
+    },
+    {
+      "cue_id": "TXT_NEGATION_PRESENT",
+      "status": "admitted",
+      "threshold": 0.09523300712165655,
+      "precision": 0.8015267175572519,
+      "recall": 0.974025974025974,
+      "predictions": 655,
+      "prediction_groups": 655,
+      "group_precision_lcb": 0.7711156522662984,
+      "group_precision_ucb": 0.8302611334899854,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 477
+    },
+    {
+      "cue_id": "TXT_CONTRAST_PRESENT",
+      "status": "admitted",
+      "threshold": 0.16947824284345941,
+      "precision": 0.803030303030303,
+      "recall": 0.8983050847457628,
+      "predictions": 132,
+      "prediction_groups": 132,
+      "group_precision_lcb": 0.7356887755102042,
+      "group_precision_ucb": 0.8723500967117989,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 124
+    },
+    {
+      "cue_id": "TXT_INTENSIFIER_PRESENT",
+      "status": "admitted",
+      "threshold": 0.25295031131590756,
+      "precision": 0.8,
+      "recall": 0.896421845574388,
+      "predictions": 595,
+      "prediction_groups": 595,
+      "group_precision_lcb": 0.7656217284338358,
+      "group_precision_ucb": 0.8325189053824735,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 496
+    },
+    {
+      "cue_id": "TXT_UNCERTAINTY_HEDGE",
+      "status": "admitted",
+      "threshold": 0.35508440899449206,
+      "precision": 0.8,
+      "recall": 0.7777777777777778,
+      "predictions": 70,
+      "prediction_groups": 69,
+      "group_precision_lcb": 0.7012319871908913,
+      "group_precision_ucb": 0.9,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 68
+    },
+    {
+      "cue_id": "TXT_RHETORICAL_QUESTION",
+      "status": "admitted",
+      "threshold": 0.027585282921791077,
+      "precision": 0.8,
+      "recall": 0.9936305732484076,
+      "predictions": 195,
+      "prediction_groups": 195,
+      "group_precision_lcb": 0.7409093264248704,
+      "group_precision_ucb": 0.8531018691091112,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 154
+    },
+    {
+      "cue_id": "TXT_EXCLAMATION_INTERJECTION",
+      "status": "admitted",
+      "threshold": 0.4517800844668022,
+      "precision": 0.803030303030303,
+      "recall": 0.8346456692913385,
+      "predictions": 132,
+      "prediction_groups": 132,
+      "group_precision_lcb": 0.7348446196660483,
+      "group_precision_ucb": 0.8692391304347826,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 126
+    },
+    {
+      "cue_id": "TXT_DESIRE_NEED",
+      "status": "admitted",
+      "threshold": 0.31653584582803324,
+      "precision": 0.8,
+      "recall": 0.8827586206896552,
+      "predictions": 320,
+      "prediction_groups": 320,
+      "group_precision_lcb": 0.7573595368974072,
+      "group_precision_ucb": 0.8409219623418652,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 301
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "status": "admitted",
+      "threshold": 0.5881392110658324,
+      "precision": 0.8055555555555556,
+      "recall": 0.5225225225225225,
+      "predictions": 72,
+      "prediction_groups": 72,
+      "group_precision_lcb": 0.7142857142857143,
+      "group_precision_ucb": 0.8947564807541241,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 69
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "bootstrap_threshold_activation_rate_below_minimum",
+      "unfiltered_threshold": 0.5138560039745855
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_FAST",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "no_threshold_satisfies_all_frozen_constraints"
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "status": "admitted",
+      "threshold": 0.11821748233394895,
+      "precision": 0.8009259259259259,
+      "recall": 0.9774011299435028,
+      "predictions": 432,
+      "prediction_groups": 431,
+      "group_precision_lcb": 0.7614619255210705,
+      "group_precision_ucb": 0.8370548339528119,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 360
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_HIGH",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_LOW",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "no_threshold_satisfies_all_frozen_constraints"
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_LOW",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "bootstrap_threshold_activation_rate_below_minimum",
+      "unfiltered_threshold": 0.611792717150974
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_HIGH",
+      "status": "admitted",
+      "threshold": 0.4491509795188904,
+      "precision": 0.8,
+      "recall": 0.8631578947368421,
+      "predictions": 205,
+      "prediction_groups": 205,
+      "group_precision_lcb": 0.738452380952381,
+      "group_precision_ucb": 0.8544027435637347,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 172
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+      "status": "admitted",
+      "threshold": 0.49997221362243804,
+      "precision": 0.8,
+      "recall": 0.7985212569316081,
+      "predictions": 540,
+      "prediction_groups": 540,
+      "group_precision_lcb": 0.7642722097346807,
+      "group_precision_ucb": 0.8321356816630424,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 504
+    },
+    {
+      "cue_id": "AUD_PAUSE_LONG",
+      "status": "admitted",
+      "threshold": 0.4322049733026581,
+      "precision": 0.8041958041958042,
+      "recall": 0.7098765432098766,
+      "predictions": 143,
+      "prediction_groups": 143,
+      "group_precision_lcb": 0.737171052631579,
+      "group_precision_ucb": 0.8671432871763997,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 136
+    },
+    {
+      "cue_id": "AUD_PAUSE_FREQUENT",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "AUD_INTONATION_RISING",
+      "status": "admitted",
+      "threshold": 0.43666929595184667,
+      "precision": 0.8003355704697986,
+      "recall": 0.8209982788296041,
+      "predictions": 596,
+      "prediction_groups": 596,
+      "group_precision_lcb": 0.7683273026315789,
+      "group_precision_ucb": 0.8311318305171818,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 530
+    },
+    {
+      "cue_id": "AUD_INTONATION_FALLING",
+      "status": "admitted",
+      "threshold": 0.4092102083241975,
+      "precision": 0.8003629764065335,
+      "recall": 0.9092783505154639,
+      "predictions": 1102,
+      "prediction_groups": 1101,
+      "group_precision_lcb": 0.7761373326476102,
+      "group_precision_ucb": 0.8219424460431655,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 940
+    },
+    {
+      "cue_id": "AUD_INTONATION_FLAT",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "no_threshold_satisfies_all_frozen_constraints"
+    },
+    {
+      "cue_id": "AUD_VOICE_TENSE",
+      "status": "admitted",
+      "threshold": 0.4473867407093163,
+      "precision": 0.8020833333333334,
+      "recall": 0.6637931034482759,
+      "predictions": 96,
+      "prediction_groups": 96,
+      "group_precision_lcb": 0.7231751656848306,
+      "group_precision_ucb": 0.8863636363636364,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 95
+    },
+    {
+      "cue_id": "AUD_VOICE_TREMBLING",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "AUD_LAUGHTER_PRESENT",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "AUD_CRYING_SOBBING_PRESENT",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    {
+      "cue_id": "VIS_BROWS_FURROWED",
+      "status": "admitted",
+      "threshold": 0.5087420916759211,
+      "precision": 0.8,
+      "recall": 0.754863813229572,
+      "predictions": 485,
+      "prediction_groups": 484,
+      "group_precision_lcb": 0.7621931073385624,
+      "group_precision_ucb": 0.8340596901985222,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 430
+    },
+    {
+      "cue_id": "VIS_BROWS_RAISED",
+      "status": "admitted",
+      "threshold": 0.4889788993939831,
+      "precision": 0.8006430868167203,
+      "recall": 0.784251968503937,
+      "predictions": 622,
+      "prediction_groups": 622,
+      "group_precision_lcb": 0.7682708925751344,
+      "group_precision_ucb": 0.8322543762082573,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 553
+    },
+    {
+      "cue_id": "VIS_EYES_WIDENED",
+      "status": "admitted",
+      "threshold": 0.39254939903083036,
+      "precision": 0.8014184397163121,
+      "recall": 0.8329238329238329,
+      "predictions": 423,
+      "prediction_groups": 423,
+      "group_precision_lcb": 0.765151056570548,
+      "group_precision_ucb": 0.8379218280942686,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 387
+    },
+    {
+      "cue_id": "VIS_EYES_SQUINTED",
+      "status": "admitted",
+      "threshold": 0.5214833891173603,
+      "precision": 0.8025210084033614,
+      "recall": 0.6409395973154363,
+      "predictions": 238,
+      "prediction_groups": 238,
+      "group_precision_lcb": 0.7542338149485969,
+      "group_precision_ucb": 0.8495575221238938,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 224
+    },
+    {
+      "cue_id": "VIS_SMILE_PRESENT",
+      "status": "admitted",
+      "threshold": 0.3947880295844772,
+      "precision": 0.8,
+      "recall": 0.7922705314009661,
+      "predictions": 205,
+      "prediction_groups": 205,
+      "group_precision_lcb": 0.7474481658692186,
+      "group_precision_ucb": 0.8518560039860489,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 203
+    },
+    {
+      "cue_id": "VIS_MOUTH_CORNERS_DOWN",
+      "status": "admitted",
+      "threshold": 0.4678838792562928,
+      "precision": 0.8,
+      "recall": 0.804642166344294,
+      "predictions": 520,
+      "prediction_groups": 519,
+      "group_precision_lcb": 0.7645950119809185,
+      "group_precision_ucb": 0.8355899419729207,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 470
+    },
+    {
+      "cue_id": "VIS_LIPS_PRESSED",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "no_threshold_satisfies_all_frozen_constraints"
+    },
+    {
+      "cue_id": "VIS_GRIMACE_PRESENT",
+      "status": "admitted",
+      "threshold": 0.657117112241156,
+      "precision": 0.8064516129032258,
+      "recall": 0.4807692307692308,
+      "predictions": 62,
+      "prediction_groups": 62,
+      "group_precision_lcb": 0.7030841884328358,
+      "group_precision_ucb": 0.9048095238095237,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 59
+    },
+    {
+      "cue_id": "VIS_TEARING_PRESENT",
+      "status": "deferred",
+      "threshold": null,
+      "reason": "no_threshold_satisfies_all_frozen_constraints"
+    },
+    {
+      "cue_id": "VIS_HEAD_LOWERED",
+      "status": "admitted",
+      "threshold": 0.3996351093726772,
+      "precision": 0.8,
+      "recall": 0.7978142076502732,
+      "predictions": 365,
+      "prediction_groups": 364,
+      "group_precision_lcb": 0.7579773821203016,
+      "group_precision_ucb": 0.8377729653229776,
+      "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+      "curve_index": 337
+    }
+  ]
+}

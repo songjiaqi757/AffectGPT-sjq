@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "cue_type_id",
+    "cue_index",
+    "modality_available",
+    "cue_available",
+    "cue_score_valid",
+    "cue_requested",
+    "calibration_status",
+    "admission_status",
+    "source_calibrated_score",
+    "graph_exposed",
+    "entered_prompt"
+  ],
+  "properties": {
+    "admission_status": {
+      "enum": [
+        "unavailable",
+        "not_requested",
+        "invalid_score",
+        "deferred",
+        "below_candidate",
+        "candidate_only",
+        "evidence_active"
+      ]
+    },
+    "calibration_status": {
+      "enum": [
+        "platt",
+        "identity",
+        "deferred"
+      ]
+    },
+    "source_calibrated_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "graph_exposed": {
+      "type": "boolean"
+    },
+    "entered_prompt": {
+      "type": "boolean"
+    }
+  }
+}

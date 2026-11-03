@@ -14,3 +14,8 @@
 2026-11-02 优先测评：ckpt10 九数据集官方预测全部导出后，priority_evaluation/ckpt10/watcher.py 自动暂停 A100 四路并释放显存，按官方评分函数仅评 ckpt10；A800 四路持续推理。评分写入全局 scores/ 与 CKPT10_RESULTS.md，随后 A100 自动恢复四路。最终全量评分跳过已完成的 ckpt10，不重复测评。
 
 2026-11-02 自动测评策略更新：本次 ckpt10 推理完成后，同一次释放 A100 测评 ckpt5 和 ckpt10；此后15、20、25、30、35、40、45、50、55、60每个checkpoint九数据集推理完成后都按相同方式自动测评。A800持续推理，A100测评后恢复四路；最终checkpoint完成后不再重启已无任务的worker。最终汇总复用所有已提交评分。策略和进度见 priority_evaluation/automatic/。此更新覆盖此前仅测评ckpt10的一次性策略。
+
+
+## Qi 七路加入现有八路 — 2026-11-03T18:01:16.314108+08:00
+
+新增 Qi GPU0 三路（slot8–10）、GPU1 四路（slot11–14），与 A800 四路、A100 四路共用原分片队列。Qi 的每个分片由原服务器上的 SSH broker 持有相同 flock；逐样本原子回写并验证 plan/checkpoint/graph cache/official contract。七路均已成功提交结果。官方源文件、生成参数、冻结图缓存及原 plan_id 保持不变。Qi 使用独立 Python3.10 / PyTorch2.7.1+cu128 / CUDA12.8 环境以支持 sm120；BF16、无量化。已核对全部九个数据集的成员、字幕和媒体路径，并验证实际生成、提示词和图证据与原服务器相同。每 ckpt 完成后临时释放 A100 四路做官方测评并恢复的策略继续生效。

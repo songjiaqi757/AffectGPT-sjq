@@ -35,7 +35,8 @@ def main():
   dump(c/(node+'.json'),state)
   if node=='A800' and pipeline_owner is not None:
    nodes={n:read(c/(n+'.json')) for n in SLOTS if (c/(n+'.json')).exists()}
-   dump(run/'pipeline_rl.json',dict(role='rl',pid=os.getpid(),controller='multinode_v1',workers=8,phase=state.get('phase','inference'),pids={str(k):v for k,v in pids.items()},nodes=nodes,time_beijing=now()))
+   if (c/'Qi.json').exists():nodes['Qi']=read(c/'Qi.json')
+   dump(run/'pipeline_rl.json',dict(role='rl',pid=os.getpid(),controller='multinode_v1',workers=8+(7 if 'Qi' in nodes else 0),phase=state.get('phase','inference'),pids={str(k):v for k,v in pids.items()},nodes=nodes,time_beijing=now()))
  def spawn(slot,mode='infer'):
   with (run/'logs'/('rl_'+mode+'_'+str(slot)+'.log')).open('ab',buffering=0) as log:
    z=subprocess.Popen([PYTHON,'-u','-B','-m','amg_rl_oppo_graph10.execute',mode,'--run',str(run),'--role','rl','--slot',str(slot)],cwd=GRAPH,env=env(),stdin=subprocess.DEVNULL,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
@@ -96,10 +97,15 @@ def main():
    require(other.get('phase')!='failed','A100 controller failed')
    if other.get('phase')=='gpu_released' and other.get('plan_id')==p['plan_id']:break
    update(phase='waiting_for_A100_release');time.sleep(10)
+  if (c/'Qi.json').exists():
+   while True:
+    remote=read(c/'Qi.json');require(remote.get('phase')!='failed','Qi supervisor failed')
+    if remote.get('phase')=='gpu_released' and remote.get('own_workers_exited') is True:break
+    update(phase='waiting_for_Qi_workers_exit');time.sleep(10)
   for f in (run/'jobs').glob('rl*.json'):finalize(run,p,f.stem)
   jobs=[read(f) for f in (run/'jobs').glob('rl*.json')]
   require(len(jobs)==108 and all(j['state']=='complete' for j in jobs),'Global inference jobs incomplete')
-  dump(c/'global_inference_barrier.json',dict(passed=True,inference_jobs=108,workers=8,nodes=list(SLOTS),both_gpus_released=True,all_eight_inference_workers_exited=True,plan_id=p['plan_id'],time_beijing=now()))
+  dump(c/'global_inference_barrier.json',dict(passed=True,inference_jobs=108,workers=15 if (c/'Qi.json').exists() else 8,nodes=list(SLOTS)+(['Qi'] if (c/'Qi.json').exists() else []),both_gpus_released=True,all_eight_inference_workers_exited=True,Qi_own_workers_exited=(read(c/'Qi.json').get('own_workers_exited') if (c/'Qi.json').exists() else None),plan_id=p['plan_id'],time_beijing=now()))
   update(phase='evaluation',global_inference_barrier_passed=True)
   for attempt in range(3):
    pid=spawn(0,'score');z=children[0]

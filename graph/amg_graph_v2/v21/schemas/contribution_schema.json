@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "CA",
+    "CE"
+  ],
+  "properties": {
+    "CA": {
+      "type": "object",
+      "required": [
+        "contributions",
+        "bias",
+        "logits",
+        "cue_id_order",
+        "target_id_order",
+        "provenance"
+      ],
+      "properties": {
+        "contributions": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "array",
+            "minItems": 16,
+            "maxItems": 16,
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "bias": {
+          "type": "array",
+          "minItems": 16,
+          "maxItems": 16,
+          "items": {
+            "type": "number"
+          }
+        },
+        "logits": {
+          "type": "array",
+          "minItems": 16,
+          "maxItems": 16,
+          "items": {
+            "type": "number"
+          }
+        },
+        "graph_cue_exposure_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "prompt_cue_exposure_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "CE": {
+      "type": "object",
+      "required": [
+        "contributions",
+        "bias",
+        "logits",
+        "cue_id_order",
+        "target_id_order",
+        "provenance"
+      ],
+      "properties": {
+        "contributions": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "array",
+            "minItems": 188,
+            "maxItems": 188,
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "bias": {
+          "type": "array",
+          "minItems": 188,
+          "maxItems": 188,
+          "items": {
+            "type": "number"
+          }
+        },
+        "logits": {
+          "type": "array",
+          "minItems": 188,
+          "maxItems": 188,
+          "items": {
+            "type": "number"
+          }
+        },
+        "graph_cue_exposure_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "prompt_cue_exposure_mask": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

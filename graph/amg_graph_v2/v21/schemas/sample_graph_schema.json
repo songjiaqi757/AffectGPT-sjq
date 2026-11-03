@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sample_id",
+    "nodes",
+    "edges",
+    "cue_audit",
+    "cue_signals",
+    "candidate_cues",
+    "relation_contributions",
+    "masks",
+    "modality_available",
+    "fallback"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "amg_sample_graph_v2_1"
+    },
+    "cue_audit": {
+      "type": "array",
+      "minItems": 42,
+      "maxItems": 42,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "required": [
+          "cue_type_id",
+          "cue_index",
+          "modality_available",
+          "cue_available",
+          "cue_score_valid",
+          "cue_requested",
+          "calibration_status",
+          "admission_status",
+          "source_calibrated_score",
+          "graph_exposed",
+          "entered_prompt"
+        ],
+        "properties": {
+          "admission_status": {
+            "enum": [
+              "unavailable",
+              "not_requested",
+              "invalid_score",
+              "deferred",
+              "below_candidate",
+              "candidate_only",
+              "evidence_active"
+            ]
+          },
+          "calibration_status": {
+            "enum": [
+              "platt",
+              "identity",
+              "deferred"
+            ]
+          },
+          "source_calibrated_score": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "graph_exposed": {
+            "type": "boolean"
+          },
+          "entered_prompt": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "cue_signals": {
+      "type": "array",
+      "minItems": 42,
+      "maxItems": 42
+    },
+    "masks": {
+      "type": "object",
+      "required": [
+        "available",
+        "score_valid",
+        "model",
+        "candidate",
+        "evidence",
+        "prompt"
+      ],
+      "properties": {
+        "available": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "score_valid": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "model": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "candidate": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        },
+        "prompt": {
+          "type": "array",
+          "minItems": 42,
+          "maxItems": 42,
+          "items": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "relation_contributions": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "required": [
+        "CA",
+        "CE"
+      ],
+      "properties": {
+        "CA": {
+          "type": "object",
+          "required": [
+            "contributions",
+            "bias",
+            "logits",
+            "cue_id_order",
+            "target_id_order",
+            "provenance"
+          ],
+          "properties": {
+            "contributions": {
+              "type": "array",
+              "minItems": 42,
+              "maxItems": 42,
+              "items": {
+                "type": "array",
+                "minItems": 16,
+                "maxItems": 16,
+                "items": {
+                  "type": "number"
+                }
+              }
+            },
+            "bias": {
+              "type": "array",
+              "minItems": 16,
+              "maxItems": 16,
+              "items": {
+                "type": "number"
+              }
+            },
+            "logits": {
+              "type": "array",
+              "minItems": 16,
+              "maxItems": 16,
+              "items": {
+                "type": "number"
+              }
+            },
+            "graph_cue_exposure_mask": {
+              "type": "array",
+              "minItems": 42,
+              "maxItems": 42,
+              "items": {
+                "type": "boolean"
+              }
+            },
+            "prompt_cue_exposure_mask": {
+              "type": "array",
+              "minItems": 42,
+              "maxItems": 42,
+              "items": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "CE": {
+          "type": "object",
+          "required": [
+            "contributions",
+            "bias",
+            "logits",
+            "cue_id_order",
+            "target_id_order",
+            "provenance"
+          ],
+          "properties": {
+            "contributions": {
+              "type": "array",
+              "minItems": 42,
+              "maxItems": 42,
+              "items": {
+                "type": "array",
+                "minItems": 188,
+                "maxItems": 188,
+                "items": {
+                  "type": "number"
+                }
+              }
+            },
+            "bias": {
+              "type": "array",
+              "minItems": 188,
+              "maxItems": 188,
+              "items": {
+                "type": "number"
+              }
+            },
+            "logits": {
+              "type": "array",
+              "minItems": 188,
+              "maxItems": 188,
+              "items": {
+                "type": "number"
+              }
+            },
+            "graph_cue_exposure_mask": {
+              "type": "array",
+              "minItems": 42,
+              "maxItems": 42,
+              "items": {
+                "type": "boolean"
+              }
+            },
+            "prompt_cue_exposure_mask": {
+              "type": "array",
+              "minItems": 42,
+              "maxItems": 42,
+              "items": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "instance_id",
+          "node_type",
+          "ontology_id"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "node_type": {
+                  "const": "CueEvidence"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "admission_status": {
+                  "const": "evidence_active"
+                }
+              },
+              "required": [
+                "admission_status"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "node_type": {
+                  "enum": [
+                    "AppraisalEvidence",
+                    "EmotionEvidence"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "support_status": {
+                  "const": "evidence_supported"
+                }
+              },
+              "required": [
+                "support_status"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "fallback": {
+      "type": "object",
+      "required": [
+        "required",
+        "reason"
+      ]
+    }
+  }
+}

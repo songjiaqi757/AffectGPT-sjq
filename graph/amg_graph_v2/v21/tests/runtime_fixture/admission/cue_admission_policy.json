@@ -1,0 +1,720 @@
+{
+  "cue_ids": [
+    "TXT_AFFECT_WORD_POSITIVE",
+    "TXT_AFFECT_WORD_NEGATIVE",
+    "TXT_EVALUATION_POSITIVE",
+    "TXT_EVALUATION_NEGATIVE",
+    "TXT_NEGATION_PRESENT",
+    "TXT_CONTRAST_PRESENT",
+    "TXT_INTENSIFIER_PRESENT",
+    "TXT_UNCERTAINTY_HEDGE",
+    "TXT_RHETORICAL_QUESTION",
+    "TXT_EXCLAMATION_INTERJECTION",
+    "TXT_DESIRE_NEED",
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+    "TXT_EXPLICIT_SUCCESS_OUTCOME",
+    "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+    "AUD_SPEECH_RATE_REL_FAST",
+    "AUD_SPEECH_RATE_REL_SLOW",
+    "AUD_PITCH_LEVEL_REL_HIGH",
+    "AUD_PITCH_LEVEL_REL_LOW",
+    "AUD_VOCAL_INTENSITY_REL_HIGH",
+    "AUD_VOCAL_INTENSITY_REL_LOW",
+    "AUD_PITCH_VARIABILITY_HIGH",
+    "AUD_PITCH_VARIABILITY_LOW",
+    "AUD_PAUSE_LONG",
+    "AUD_PAUSE_FREQUENT",
+    "AUD_INTONATION_RISING",
+    "AUD_INTONATION_FALLING",
+    "AUD_INTONATION_FLAT",
+    "AUD_VOICE_TENSE",
+    "AUD_VOICE_TREMBLING",
+    "AUD_LAUGHTER_PRESENT",
+    "AUD_CRYING_SOBBING_PRESENT",
+    "VIS_BROWS_FURROWED",
+    "VIS_BROWS_RAISED",
+    "VIS_EYES_WIDENED",
+    "VIS_EYES_SQUINTED",
+    "VIS_SMILE_PRESENT",
+    "VIS_MOUTH_CORNERS_DOWN",
+    "VIS_LIPS_PRESSED",
+    "VIS_GRIMACE_PRESENT",
+    "VIS_TEARING_PRESENT",
+    "VIS_HEAD_LOWERED"
+  ],
+  "cues": [
+    {
+      "cue_id": "TXT_AFFECT_WORD_POSITIVE",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_AFFECT_WORD_NEGATIVE",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EVALUATION_POSITIVE",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EVALUATION_NEGATIVE",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_NEGATION_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_CONTRAST_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_INTENSIFIER_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_UNCERTAINTY_HEDGE",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_RHETORICAL_QUESTION",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EXCLAMATION_INTERJECTION",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_DESIRE_NEED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_FAST",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_HIGH",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_LOW",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_LOW",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_HIGH",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_PAUSE_LONG",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_PAUSE_FREQUENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_RISING",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_FALLING",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_FLAT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_VOICE_TENSE",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_VOICE_TREMBLING",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_LAUGHTER_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "AUD_CRYING_SOBBING_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_BROWS_FURROWED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_BROWS_RAISED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_EYES_WIDENED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_EYES_SQUINTED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_SMILE_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_MOUTH_CORNERS_DOWN",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_LIPS_PRESSED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_GRIMACE_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_TEARING_PRESENT",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    },
+    {
+      "cue_id": "VIS_HEAD_LOWERED",
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.8
+      }
+    }
+  ]
+}
