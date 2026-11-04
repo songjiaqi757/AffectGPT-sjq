@@ -24,6 +24,8 @@ def free_mib():
 def main():
  a=argparse.ArgumentParser();a.add_argument('--run',required=True);a.add_argument('--node',choices=list(SLOTS),required=True);x=a.parse_args()
  run=Path(x.run);node=x.node;c=run/'multinode_control';p=plan(run)
+ def paused_node(name):
+  flag=c/(name+'_inference_pause.json');return flag.exists() and read(flag).get('paused',False)
  require(read(c/'cross_node_lock_test.json')['passed'],'Cross-node lock not verified')
  require(sha(__file__)==read(c/'topology.json')['source_sha256'],'Controller source changed')
  require(subprocess.check_output(['nvidia-smi','--query-gpu=uuid','--format=csv,noheader'],text=True).strip()==EXPECTED[node],'Wrong physical GPU')
@@ -36,8 +38,9 @@ def main():
   if node=='A800' and pipeline_owner is not None:
    nodes={n:read(c/(n+'.json')) for n in SLOTS if (c/(n+'.json')).exists()}
    if (c/'Qi.json').exists():nodes['Qi']=read(c/'Qi.json')
-   dump(run/'pipeline_rl.json',dict(role='rl',pid=os.getpid(),controller='multinode_v1',workers=8+(nodes['Qi'].get('configured_workers',0) if 'Qi' in nodes else 0),phase=state.get('phase','inference'),pids={str(k):v for k,v in pids.items()},nodes=nodes,time_beijing=now()))
+   dump(run/'pipeline_rl.json',dict(role='rl',pid=os.getpid(),controller='multinode_v1',workers=sum(0 if paused_node(n) else len(SLOTS[n]) for n in SLOTS)+(nodes['Qi'].get('configured_workers',0) if 'Qi' in nodes else 0),paused_inference_nodes=[n for n in SLOTS if paused_node(n)],phase=state.get('phase','inference'),pids={str(k):v for k,v in pids.items()},nodes=nodes,time_beijing=now()))
  def spawn(slot,mode='infer'):
+  require(mode!='infer' or not paused_node(node),'Inference is paused by user on '+node)
   with (run/'logs'/('rl_'+mode+'_'+str(slot)+'.log')).open('ab',buffering=0) as log:
    z=subprocess.Popen([PYTHON,'-u','-B','-m','amg_rl_oppo_graph10.execute',mode,'--run',str(run),'--role','rl','--slot',str(slot)],cwd=GRAPH,env=env(),stdin=subprocess.DEVNULL,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
   children[slot]=z;return z.pid
@@ -66,10 +69,15 @@ def main():
    pids={int(k):int(v) for k,v in prior.get('pids',{}).items()}
   if node=='A100' and not any(alive(pid,run,slot) for slot,pid in pids.items()):
    require(free_mib()<512,'A100 is occupied')
-  for slot in SLOTS[node]:
-   if slot not in pids or not alive(pids[slot],run,slot):pids[slot]=spawn(slot)
-  update(phase='inference',workers=4,adopted_existing_workers=(node=='A800'))
-  active=set(SLOTS[node])
+  if paused_node(node):
+   require(not any(alive(pid,run,slot) for slot,pid in pids.items()),'Paused node still has inference workers')
+   update(phase='paused_by_user',workers=0,active_slots=[],inference_paused=True)
+   active=set()
+  else:
+   for slot in SLOTS[node]:
+    if slot not in pids or not alive(pids[slot],run,slot):pids[slot]=spawn(slot)
+   update(phase='inference',workers=4,adopted_existing_workers=(node=='A800'))
+   active=set(SLOTS[node])
   while active:
    for slot in list(active):
     if slot in children:children[slot].poll()
@@ -83,7 +91,7 @@ def main():
    if active:time.sleep(10)
   update(phase='releasing_gpu',all_local_inference_workers_exited=True)
   deadline=time.monotonic()+180
-  while free_mib()>512:
+  while not paused_node(node) and free_mib()>512:
    require(time.monotonic()<deadline,'GPU memory not released');time.sleep(3)
   if node=='A100' and (run/'priority_evaluation/automatic/policy.json').exists():
    all_scores=all((run/'scores'/(cid+'_'+d+'.json')).exists() for cid in p['models']['rl']['checkpoints'] for d in DATASETS)
@@ -105,8 +113,12 @@ def main():
   for f in (run/'jobs').glob('rl*.json'):finalize(run,p,f.stem)
   jobs=[read(f) for f in (run/'jobs').glob('rl*.json')]
   require(len(jobs)==108 and all(j['state']=='complete' for j in jobs),'Global inference jobs incomplete')
-  dump(c/'global_inference_barrier.json',dict(passed=True,inference_jobs=108,workers=8+(read(c/'Qi.json').get('configured_workers',0) if (c/'Qi.json').exists() else 0),nodes=list(SLOTS)+(['Qi'] if (c/'Qi.json').exists() else []),both_gpus_released=True,all_eight_inference_workers_exited=True,Qi_own_workers_exited=(read(c/'Qi.json').get('own_workers_exited') if (c/'Qi.json').exists() else None),plan_id=p['plan_id'],time_beijing=now()))
+  dump(c/'global_inference_barrier.json',dict(passed=True,inference_jobs=108,workers=sum(0 if paused_node(n) else len(SLOTS[n]) for n in SLOTS)+(read(c/'Qi.json').get('configured_workers',0) if (c/'Qi.json').exists() else 0),paused_inference_nodes=[n for n in SLOTS if paused_node(n)],nodes=list(SLOTS)+(['Qi'] if (c/'Qi.json').exists() else []),both_gpus_released=True,all_eight_inference_workers_exited=True,Qi_own_workers_exited=(read(c/'Qi.json').get('own_workers_exited') if (c/'Qi.json').exists() else None),plan_id=p['plan_id'],time_beijing=now()))
   update(phase='evaluation',global_inference_barrier_passed=True)
+  all_scored=all((run/'scores'/(cid+'_'+d+'.json')).exists() for cid in p['models']['rl']['checkpoints'] for d in DATASETS)
+  if all_scored:
+   summarize(run,p);update(phase='complete',official_scoring_already_complete=True,results=str(run/'per_checkpoint_summary.csv'));return
+  require(not paused_node('A800'),'A800 paused; complete official scoring on A100 before finalization')
   for attempt in range(3):
    pid=spawn(0,'score');z=children[0]
    while z.poll() is None:summarize(run,p);time.sleep(15)

@@ -1,0 +1,118 @@
+{
+  "version": "base7_AMG_v21_unified_P4_NATIVE_generation_three_targets",
+  "created_at": "2026-11-03T21:50:40.910248+08:00",
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_NATIVE_A800_20261103_214723",
+  "training_run": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_NATIVE_A800_20261103_214723",
+  "checkpoints": {
+    "30": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000030_loss_0.768.pth",
+      "epoch": 30,
+      "sha256": "73fb1c257c0482e792ecad2ca0706ecccce04639e209071793484b65a97df380"
+    },
+    "35": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000035_loss_0.723.pth",
+      "epoch": 35,
+      "sha256": "0d0fa91f579d2540bf321630aeb05b35c2c919bb792800813968fc8352870a4e"
+    },
+    "40": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000040_loss_0.664.pth",
+      "epoch": 40,
+      "sha256": "cfcb328799605ebfa3839bd0a50a0f7f2b93efd2992550c3a7e482297c8fbfc0"
+    },
+    "45": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000045_loss_0.589.pth",
+      "epoch": 45,
+      "sha256": "1a10c268a632969f6f2bc0f31910688c8c55f03661d99f3c46be9db69c8de480"
+    },
+    "50": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000050_loss_0.556.pth",
+      "epoch": 50,
+      "sha256": "5cc4c9b1a42347e7ffcce995605a98996bf0905420622d1a5d59369e86263f1e"
+    },
+    "55": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000055_loss_0.475.pth",
+      "epoch": 55,
+      "sha256": "99823ecf1bd0d9b17b1f66ab2134ed1b67b734462e858ceb86acbd6c2ba9504d"
+    },
+    "60": {
+      "path": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz/emercoarse_highlevelfilter4_outputhybird_bestsetup_bestfusion_lz_20261014230/checkpoint_000060_loss_0.429.pth",
+      "epoch": 60,
+      "sha256": "144c0927d78219a685c112ff647644160cf0bbcab80cbe095254de970320a65b"
+    }
+  },
+  "datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_NATIVE_A800_20261103_214723/inputs/MER2023.json",
+      "sha256": "8026f8637bc50db1f24051216f50b5d65c3acf257177fa213c08defb6770a1dd",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_NATIVE_A800_20261103_214723/inputs/SIMS.json",
+      "sha256": "642c3d60ee938ade53390738329dd9341e4a2bd10c9d5cce551f63803540f768",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_NATIVE_A800_20261103_214723/inputs/OVMERDPlus.json",
+      "sha256": "fe6034fd872eea08e0ebc0da48238eae327caf86c2ebead7397d79e8e4fa5e92",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2000
+  },
+  "prompt_question": "Please recognize all possible emotional states of the character.",
+  "graph_release_id": "amg_v2_1_cue_admission_8a8994fe1e7495f0",
+  "graph_release_path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_v2_1_cue_admission_8a8994fe1e7495f0",
+  "prompt_release_id": "amg_unified_prompt_44fc7659770a1772",
+  "prompt_release_path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_unified_prompt_44fc7659770a1772",
+  "concurrency": 4,
+  "node": "A800",
+  "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+  "per_process_memory_fraction": 0.24,
+  "seed": null,
+  "seed_rule": "Native inference_hybird.py flow: no added RNG reseeding. Source-only warmup/capacity preserves all RNG states.",
+  "logical_jobs": 21,
+  "total_predictions": 9800,
+  "shard_size": 16,
+  "target_labels_used_for_prompt_selection": false,
+  "Student_retrained": false,
+  "G1_refitted": false,
+  "calibration_or_threshold_changed": false,
+  "excluded_samples": 0,
+  "ovmerd_mapping": "Repository OVMERDPlus official 532-sample test split",
+  "cache_inventory_sha256": "2342c52cdd648210748c166e16df631523b1a0a794690dc36767c6516c1fc94a",
+  "source_probe_sha256": "a73a6f6a4235e6f9f59f35bd5b66905980104a824721de58a150393cf3574084",
+  "original_config_sha256": "efbcc12ea8fee6d5f9f79b946f621e8bed27defb80010f0e90c62f1a3dc88c80",
+  "previous_superseded_run": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_A800_20261103_212659",
+  "native_generation_only_prompt_change": true,
+  "plan_id": "2f63e94097a34b26c3d6476e62d57d22aca1ad07e7a49e9fad73ed0f300b0f6f"
+}

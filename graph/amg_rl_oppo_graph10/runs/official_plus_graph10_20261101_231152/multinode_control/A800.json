@@ -1,6 +1,6 @@
 {
   "node": "A800",
-  "controller_pid": 1488447,
+  "controller_pid": 1593295,
   "slots": [
     0,
     1,
@@ -9,28 +9,28 @@
   ],
   "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
   "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
-  "controller_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
-  "started_at_beijing": "2026-11-03T19:12:50.116196+08:00",
-  "phase": "inference",
+  "controller_sha256": "eee7a956007ba2c51d5667887694d91fc28408b0c2beb21a8016fc889869d36e",
+  "started_at_beijing": "2026-11-04T00:03:33.043460+08:00",
+  "phase": "complete",
   "workers": 4,
   "adopted_existing_workers": true,
   "pids": {
-    "0": 25899,
-    "1": 25900,
-    "2": 25901,
-    "3": 25902
+    "0": 1593301,
+    "1": 1593302,
+    "2": 1593303,
+    "3": 1593304
   },
-  "time_beijing": "2026-11-03T20:54:16.495970+08:00",
-  "active_slots": [
-    0,
-    1,
-    2,
-    3
-  ],
+  "time_beijing": "2026-11-04T08:34:52.300845+08:00",
+  "active_slots": [],
   "retries": {
     "0": 0,
     "1": 0,
     "2": 0,
     "3": 0
-  }
+  },
+  "all_local_inference_workers_exited": true,
+  "gpu_released": true,
+  "global_inference_barrier_passed": true,
+  "official_scoring_already_complete": true,
+  "results": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/per_checkpoint_summary.csv"
 }

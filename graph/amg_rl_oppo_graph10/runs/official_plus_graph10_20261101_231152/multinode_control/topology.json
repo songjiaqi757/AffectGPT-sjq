@@ -22,7 +22,7 @@
     }
   },
   "source": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/multinode_control/rl_multinode.py",
-  "source_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
+  "source_sha256": "eee7a956007ba2c51d5667887694d91fc28408b0c2beb21a8016fc889869d36e",
   "semantics": "Unchanged official inference and graph. Shared queue with distributed flock. Preserve live A800 workers. Score only after eight workers exit and both GPUs release.",
   "created_at_beijing": "2026-11-02T15:45:39.827743+08:00",
   "final_scoring_gate": "Wait for per-checkpoint evaluation policy before global scoring",
@@ -30,5 +30,7 @@
   "Qi_gpu_workers": {
     "0": 0,
     "1": 4
-  }
+  },
+  "A800_inference_paused": false,
+  "configured_inference_workers": 12
 }

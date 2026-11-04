@@ -1,0 +1,108 @@
+{
+  "paused": false,
+  "requested_by_user": true,
+  "A100_inference_and_evaluation_continue": true,
+  "paused_at_beijing": "2026-11-03T21:12:58.407800+08:00",
+  "snapshot": {
+    "node": "A800",
+    "controller_pid": 1488447,
+    "slots": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
+    "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+    "controller_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
+    "started_at_beijing": "2026-11-03T19:12:50.116196+08:00",
+    "phase": "inference",
+    "workers": 4,
+    "adopted_existing_workers": true,
+    "pids": {
+      "0": 25899,
+      "1": 25900,
+      "2": 25901,
+      "3": 25902
+    },
+    "time_beijing": "2026-11-03T21:12:49.127954+08:00",
+    "active_slots": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "retries": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    }
+  },
+  "workers": {
+    "0": {
+      "state": "inference",
+      "completed_samples": 15603,
+      "role": "rl",
+      "slot": 0,
+      "pid": 25899,
+      "time_beijing": "2026-11-03T21:12:52.750147+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "CMUMOSEI",
+      "shard": "rl_e045_CMUMOSEI_03936",
+      "last_sample": "CMUMOSEI::YLK58srjhNI_8",
+      "last_seconds": 4.2137383837252855
+    },
+    "1": {
+      "state": "inference",
+      "completed_samples": 15854,
+      "role": "rl",
+      "slot": 1,
+      "pid": 25900,
+      "time_beijing": "2026-11-03T21:12:57.237441+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "CMUMOSEI",
+      "shard": "rl_e045_CMUMOSEI_03872",
+      "last_sample": "CMUMOSEI::bkX5FOX22Tw_5",
+      "last_seconds": 26.016576336696744
+    },
+    "2": {
+      "state": "inference",
+      "completed_samples": 15251,
+      "role": "rl",
+      "slot": 2,
+      "pid": 25901,
+      "time_beijing": "2026-11-03T21:11:53.306657+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "CMUMOSEI",
+      "shard": "rl_e045_CMUMOSEI_03776",
+      "last_sample": "CMUMOSEI::126872_6",
+      "last_seconds": 48.02909213863313
+    },
+    "3": {
+      "state": "inference",
+      "completed_samples": 15531,
+      "role": "rl",
+      "slot": 3,
+      "pid": 25902,
+      "time_beijing": "2026-11-03T21:12:41.269636+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "CMUMOSEI",
+      "shard": "rl_e045_CMUMOSEI_03744",
+      "last_sample": "CMUMOSEI::XDVit9ASVUg_3",
+      "last_seconds": 31.892331063747406
+    }
+  },
+  "CPU_coordinator_pid": 1525471,
+  "source_sha256": "eee7a956007ba2c51d5667887694d91fc28408b0c2beb21a8016fc889869d36e",
+  "requeued_shards": [
+    "rl_e045_CMUMOSEI_03936",
+    "rl_e045_CMUMOSEI_03872",
+    "rl_e045_CMUMOSEI_03776"
+  ],
+  "verified_at_beijing": "2026-11-03T21:15:57.528868+08:00",
+  "resume_requested_by_user": true,
+  "resumed_at_beijing": "2026-11-04T00:03:32.517384+08:00",
+  "resumed_coordinator_pid": 1593295,
+  "resume_verified_at_beijing": "2026-11-04T00:08:14.509447+08:00"
+}

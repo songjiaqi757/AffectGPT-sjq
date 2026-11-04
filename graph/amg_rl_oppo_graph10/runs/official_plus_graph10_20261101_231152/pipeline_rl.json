@@ -1,19 +1,20 @@
 {
   "role": "rl",
-  "pid": 1488447,
+  "pid": 1593295,
   "controller": "multinode_v1",
   "workers": 12,
-  "phase": "inference",
+  "paused_inference_nodes": [],
+  "phase": "complete",
   "pids": {
-    "0": 25899,
-    "1": 25900,
-    "2": 25901,
-    "3": 25902
+    "0": 1593301,
+    "1": 1593302,
+    "2": 1593303,
+    "3": 1593304
   },
   "nodes": {
     "A800": {
       "node": "A800",
-      "controller_pid": 1488447,
+      "controller_pid": 1593295,
       "slots": [
         0,
         1,
@@ -22,34 +23,34 @@
       ],
       "gpu_uuid": "GPU-be2112e9-43e2-43e7-da85-ff9198a7c875",
       "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
-      "controller_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
-      "started_at_beijing": "2026-11-03T19:12:50.116196+08:00",
-      "phase": "inference",
+      "controller_sha256": "eee7a956007ba2c51d5667887694d91fc28408b0c2beb21a8016fc889869d36e",
+      "started_at_beijing": "2026-11-04T00:03:33.043460+08:00",
+      "phase": "complete",
       "workers": 4,
       "adopted_existing_workers": true,
       "pids": {
-        "0": 25899,
-        "1": 25900,
-        "2": 25901,
-        "3": 25902
+        "0": 1593301,
+        "1": 1593302,
+        "2": 1593303,
+        "3": 1593304
       },
-      "time_beijing": "2026-11-03T20:54:16.495970+08:00",
-      "active_slots": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "time_beijing": "2026-11-04T08:34:52.300845+08:00",
+      "active_slots": [],
       "retries": {
         "0": 0,
         "1": 0,
         "2": 0,
         "3": 0
-      }
+      },
+      "all_local_inference_workers_exited": true,
+      "gpu_released": true,
+      "global_inference_barrier_passed": true,
+      "official_scoring_already_complete": true,
+      "results": "/ai/sjq/AffectGPT-sjq/graph/amg_rl_oppo_graph10/runs/official_plus_graph10_20261101_231152/per_checkpoint_summary.csv"
     },
     "A100": {
       "node": "A100",
-      "controller_pid": 933057,
+      "controller_pid": 1126766,
       "slots": [
         4,
         5,
@@ -58,34 +59,35 @@
       ],
       "gpu_uuid": "GPU-c011e801-690b-0cb9-63d8-184e68e2d39c",
       "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
-      "controller_sha256": "587ac4b1efd021021a68c23ff101bd68d11d339d80d0b42a4cacb7691fb7ee3b",
-      "started_at_beijing": "2026-11-03T19:28:03.363592+08:00",
-      "phase": "inference",
-      "workers": 4,
+      "controller_sha256": "eee7a956007ba2c51d5667887694d91fc28408b0c2beb21a8016fc889869d36e",
+      "started_at_beijing": "2026-11-04T06:28:40.259470+08:00",
+      "phase": "gpu_released",
+      "workers": 0,
       "adopted_existing_workers": false,
       "pids": {
-        "4": 933068,
-        "5": 933069,
-        "6": 933070,
-        "7": 933071
+        "4": 1126777,
+        "5": 1126778,
+        "6": 1126779,
+        "7": 1126780
       },
-      "time_beijing": "2026-11-03T20:59:12.014005+08:00",
-      "active_slots": [
-        4,
-        5,
-        6,
-        7
-      ],
+      "time_beijing": "2026-11-04T08:39:48.997936+08:00",
+      "active_slots": [],
       "retries": {
         "4": 0,
         "5": 0,
         "6": 0,
         "7": 0
-      }
+      },
+      "all_local_inference_workers_exited": true,
+      "gpu_released": true,
+      "resume_workers": 4,
+      "priority_checkpoints": [
+        "rl_e060"
+      ]
     },
     "Qi": {
       "node": "Qi",
-      "phase": "inference",
+      "phase": "gpu_released",
       "controller_pid": 665610,
       "configured_workers": 4,
       "workers": 4,
@@ -103,17 +105,12 @@
       },
       "worker_states": {
         "11": {
-          "state": "inference",
+          "state": "complete",
           "slot": 11,
           "gpu": 1,
           "pid": 585858,
-          "time": 1793710719.9362183,
-          "checkpoint": "rl_e045",
-          "dataset": "CMUMOSEI",
-          "shard": "rl_e045_CMUMOSEI_03360",
-          "completed_samples": 833,
-          "last_sample": "CMUMOSEI::MHyW857u_X8_22",
-          "last_seconds": 22.879376242868602,
+          "time": 1793752020.0112693,
+          "completed_samples": 6036,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -133,17 +130,12 @@
           }
         },
         "12": {
-          "state": "inference",
+          "state": "complete",
           "slot": 12,
           "gpu": 1,
           "pid": 586586,
-          "time": 1793710704.7583,
-          "checkpoint": "rl_e045",
-          "dataset": "CMUMOSEI",
-          "shard": "rl_e045_CMUMOSEI_03296",
-          "completed_samples": 784,
-          "last_sample": "CMUMOSEI::25640_4",
-          "last_seconds": 24.940938255749643,
+          "time": 1793752015.5284553,
+          "completed_samples": 6067,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -163,17 +155,12 @@
           }
         },
         "13": {
-          "state": "inference",
+          "state": "complete",
           "slot": 13,
           "gpu": 1,
           "pid": 586587,
-          "time": 1793710710.6241589,
-          "checkpoint": "rl_e045",
-          "dataset": "CMUMOSEI",
-          "shard": "rl_e045_CMUMOSEI_03232",
-          "completed_samples": 865,
-          "last_sample": "CMUMOSEI::KB5hSnV1emg_6",
-          "last_seconds": 25.68193486984819,
+          "time": 1793752011.7819567,
+          "completed_samples": 5893,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -193,17 +180,12 @@
           }
         },
         "14": {
-          "state": "inference",
+          "state": "complete",
           "slot": 14,
           "gpu": 1,
           "pid": 586588,
-          "time": 1793710704.6995897,
-          "checkpoint": "rl_e045",
-          "dataset": "CMUMOSEI",
-          "shard": "rl_e045_CMUMOSEI_03200",
-          "completed_samples": 791,
-          "last_sample": "CMUMOSEI::275267_9",
-          "last_seconds": 18.14560153428465,
+          "time": 1793752011.090926,
+          "completed_samples": 5774,
           "runtime": {
             "torch": "2.7.1+cu128",
             "cuda": "12.8",
@@ -231,13 +213,13 @@
       },
       "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
       "deployment_id": "6f48f4f9f64e0052faaa148c19d1d96a17006ce312f0386f146dc38c093d49c1",
-      "time": 1793710720.579345,
-      "own_workers_exited": false,
+      "time": 1793752030.2450037,
+      "own_workers_exited": true,
       "gpu0_inference_disabled": true,
-      "gpu_info": "0, GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285, 26062, 0\n1, GPU-ac40f187-8891-00f2-3999-959bbdcf952f, 79932, 96",
-      "time_beijing": "2026-11-03T20:54:15.573770+08:00",
+      "gpu_info": "0, GPU-6e75123a-3c10-3be0-2df9-1ba7e1836285, 58508, 66\n1, GPU-ac40f187-8891-00f2-3999-959bbdcf952f, 14, 0",
+      "time_beijing": "2026-11-04T08:22:44.532376+08:00",
       "broker_pid": 1488529
     }
   },
-  "time_beijing": "2026-11-03T20:54:16.503776+08:00"
+  "time_beijing": "2026-11-04T08:34:52.309356+08:00"
 }

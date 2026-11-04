@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "original_generation": {
+    "num_beams": 1,
+    "temperature": 1,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2000
+  },
+  "original_model_config_exact_match": true,
+  "full_target_texts_verified_equal": true,
+  "native_user_question_subtitle_and_media_paths_verified": 1400,
+  "no_added_per_sample_seeding": true,
+  "source_tests_restore_RNG": true,
+  "scoring_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+  "scoring_source_sha256": "9e91bb83029d864f816f4cdeb2cdfc9302ee3edf62c602bcaba90a604c0ad967",
+  "superseded_predictions_not_used": 47
+}

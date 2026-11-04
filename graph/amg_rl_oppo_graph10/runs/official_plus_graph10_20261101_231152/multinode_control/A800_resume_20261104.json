@@ -1,0 +1,84 @@
+{
+  "requested_at_beijing": "2026-11-04T00:03:32.526773+08:00",
+  "previous_CPU_coordinator": 1525471,
+  "new_coordinator": 1593295,
+  "A100_Qi_pids_before": {
+    "A100": {
+      "4": 933068,
+      "5": 933069,
+      "6": 933070,
+      "7": 933071
+    },
+    "Qi": {
+      "11": 585858,
+      "12": 586586,
+      "13": 586587,
+      "14": 586588
+    }
+  },
+  "expected_total_workers": 12,
+  "plan_id": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20",
+  "verified": true,
+  "verified_at_beijing": "2026-11-04T00:08:14.398340+08:00",
+  "workers": [
+    {
+      "state": "inference",
+      "completed_samples": 9,
+      "role": "rl",
+      "slot": 0,
+      "pid": 1593301,
+      "time_beijing": "2026-11-04T00:08:06.132687+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "IEMOCAPFour",
+      "shard": "rl_e045_IEMOCAPFour_00576",
+      "last_sample": "IEMOCAPFour::Ses05F_script03_1_M028",
+      "last_seconds": 37.32102166861296,
+      "paused_at_beijing": "2026-11-03T21:12:58.715197+08:00"
+    },
+    {
+      "state": "inference",
+      "completed_samples": 6,
+      "role": "rl",
+      "slot": 1,
+      "pid": 1593302,
+      "time_beijing": "2026-11-04T00:08:06.649685+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "IEMOCAPFour",
+      "shard": "rl_e045_IEMOCAPFour_00704",
+      "last_sample": "IEMOCAPFour::Ses05M_impro03_F014",
+      "last_seconds": 13.890546971932054,
+      "paused_at_beijing": "2026-11-03T21:12:58.719130+08:00"
+    },
+    {
+      "state": "inference",
+      "completed_samples": 10,
+      "role": "rl",
+      "slot": 2,
+      "pid": 1593303,
+      "time_beijing": "2026-11-04T00:07:59.521702+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "IEMOCAPFour",
+      "shard": "rl_e045_IEMOCAPFour_00544",
+      "last_sample": "IEMOCAPFour::Ses05F_script02_2_F037",
+      "last_seconds": 30.807187881320715,
+      "paused_at_beijing": "2026-11-03T21:12:58.723587+08:00"
+    },
+    {
+      "state": "inference",
+      "completed_samples": 5,
+      "role": "rl",
+      "slot": 3,
+      "pid": 1593304,
+      "time_beijing": "2026-11-04T00:08:05.852578+08:00",
+      "checkpoint": "rl_e045",
+      "dataset": "IEMOCAPFour",
+      "shard": "rl_e045_IEMOCAPFour_00640",
+      "last_sample": "IEMOCAPFour::Ses05M_impro01_F000",
+      "last_seconds": 33.35920283570886,
+      "paused_at_beijing": "2026-11-03T21:12:58.727110+08:00"
+    }
+  ],
+  "A100_Qi_pids_preserved": true,
+  "configured_workers": 12,
+  "plan_id_verified": "6c3fb51a075d53d8b0e40282efb9806cb4e0e588b01b7b7a5df3ee946fd1cb20"
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "unique_target_samples": 1400,
+  "checkpoints": 7,
+  "inference_groups": 21,
+  "total_predictions": 9800,
+  "target_membership_unchanged": true,
+  "excluded_samples": 0,
+  "statistics": {
+    "MER2023": 411,
+    "fallback": 0,
+    "CA_relations": 546,
+    "CE_relations": 164,
+    "SIMS": 457,
+    "OVMERDPlus": 532
+  },
+  "maximum_AMG_tokens": 666,
+  "maximum_full_prompt_tokens": 770,
+  "generation_reserve": 1200,
+  "total_context": 2000,
+  "source_only_capacity_probe": true,
+  "prompt_and_graph_frozen": true,
+  "no_target_labels_used_for_selection": true,
+  "all_target_prompt_text_identical_to_prepared_P4": true,
+  "original_generation_dict_exact_match": true,
+  "original_model_config_exact_sha256": "efbcc12ea8fee6d5f9f79b946f621e8bed27defb80010f0e90c62f1a3dc88c80",
+  "no_added_per_sample_seeding": true,
+  "source_tests_rng_isolated": true
+}

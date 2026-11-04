@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "datasets": {
+    "MER2023": {
+      "samples": 411,
+      "ground_truth_exact_match_to_original_dataset": true,
+      "official_metric_function": "calculate_discrete_zeroshot"
+    },
+    "SIMS": {
+      "samples": 457,
+      "ground_truth_exact_match_to_original_dataset": true,
+      "official_metric_function": "calculate_dimension_zeroshot"
+    },
+    "OVMERDPlus": {
+      "samples": 532,
+      "ground_truth_exact_match_to_original_dataset": true,
+      "official_metric_function": "calculate_ov_zeroshot"
+    }
+  },
+  "source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+  "source_sha256": "9e91bb83029d864f816f4cdeb2cdfc9302ee3edf62c602bcaba90a604c0ad967",
+  "local_Qwen25_extractor": "func_read_batch_calling_model(Qwen25), unchanged",
+  "target_labels_used_only_for_evaluation_alignment_not_prompt_tuning": true
+}

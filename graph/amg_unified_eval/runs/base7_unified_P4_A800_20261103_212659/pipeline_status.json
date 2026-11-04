@@ -1,0 +1,28 @@
+{
+  "pid": 1528996,
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_A800_20261103_212659",
+  "plan_id": "0ebee70e639c0bebf45ce3996633cddfa902711a64c23a59f48231cfd1ea793d",
+  "node": "A800",
+  "concurrency": 4,
+  "phase": "failed",
+  "pids": {
+    "0": 1529007,
+    "1": 1529008,
+    "2": 1529009,
+    "3": 1529010
+  },
+  "at": "2026-11-03T21:43:00.794394+08:00",
+  "worker_states": [
+    "probe_ready",
+    "probe_ready",
+    "probe_ready",
+    "probe_ready"
+  ],
+  "capacity_passed": true,
+  "predictions_completed": 43,
+  "predictions_total": 9800,
+  "inference_groups_complete": 0,
+  "retries": {},
+  "error": "KeyboardInterrupt('Pipeline stop requested')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/execute.py\", line 157, in pipeline\n    completed=sum(len(list(folder.glob('*.json'))) for folder in (run/'predictions').iterdir() if folder.is_dir());jobs_done=sum(read(f)['state']=='complete' for f in (run/'jobs').glob('*.json'));update(phase='inference',predictions_completed=completed,predictions_total=9800,inference_groups_complete=jobs_done,pids={k:v.pid for k,v in children.items()},retries=dict(retries));time.sleep(10)\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/execute.py\", line 129, in stop\n    def stop(signum,frame):raise KeyboardInterrupt('Pipeline stop requested')\nKeyboardInterrupt: Pipeline stop requested\n"
+}
