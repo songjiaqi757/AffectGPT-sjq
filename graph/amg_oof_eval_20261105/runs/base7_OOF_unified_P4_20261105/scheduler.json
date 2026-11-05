@@ -1,0 +1,8 @@
+{
+  "node_assignment": "sorted shard files, index modulo 2 mapped to A800/A100",
+  "concurrency_per_node": 4,
+  "claims": "per-node file locks; no cross-host flock assumptions",
+  "final_exports": "single A800 coordinator after both nodes complete",
+  "temporary_read_errors": "bounded retry on ESTALE,EAGAIN,ENOENT",
+  "prediction_reuse": "unchanged plan, checkpoint and cache bindings"
+}

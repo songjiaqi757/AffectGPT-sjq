@@ -1,0 +1,39 @@
+{
+  "schema_version": "amg_unified_prompt_v1",
+  "graph_release_id": "amg_v2_oof_d837c39aeb0949ca",
+  "cue_limit": 8,
+  "emotion_limit": 3,
+  "appraisal_limit": 6,
+  "minimum_absolute_coverage": 0.9,
+  "minimum_positive_coverage": 0.9,
+  "score_decimals": 2,
+  "contribution_significant_digits": 4,
+  "evidence_token_budget": 1000,
+  "default_context_limit": 2048,
+  "default_max_new_tokens": 512,
+  "max_prompt_tokens": 1536,
+  "tokenizer_model_name": "Qwen25",
+  "Student_retrained": false,
+  "G1_refitted": false,
+  "calibration_or_threshold_modified": false,
+  "AE_enabled": false,
+  "task_independent": true,
+  "source_membership_preserved": true,
+  "original_input_truncation_allowed": false,
+  "target_data_used_for_selection": false,
+  "production_condition": "P4",
+  "default_policy_status": "engineering_candidate_pending_paired_generation",
+  "budget_reduction_order": [
+    "drop_complete_low_priority_hypothesis_blocks",
+    "remove_lowest_scored_Cue_and_recompute_support",
+    "fallback_without_AMG"
+  ],
+  "generation_ablation_conditions": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ]
+}

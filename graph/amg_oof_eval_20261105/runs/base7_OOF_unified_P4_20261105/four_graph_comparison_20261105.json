@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "无图基线": {
+      "means": {
+        "MER2023": 73.621333952045,
+        "SIMS": 85.4952902697285,
+        "OVMERDPlus": 61.32455749424212
+      },
+      "mean_three": 73.48039390533854,
+      "best_per_dataset": {
+        "MER2023": [
+          75.91980916611683,
+          40
+        ],
+        "SIMS": [
+          88.16237194805902,
+          40
+        ],
+        "OVMERDPlus": [
+          62.061792283838976,
+          30
+        ]
+      },
+      "best_single_checkpoint": [
+        75.10327461286703,
+        40
+      ]
+    },
+    "10类旧图": {
+      "means": {
+        "MER2023": 73.40126594209728,
+        "SIMS": 84.1492747720549,
+        "OVMERDPlus": 55.76021619694525
+      },
+      "mean_three": 71.10358563703248,
+      "best_per_dataset": {
+        "MER2023": [
+          78.04334365325077,
+          30
+        ],
+        "SIMS": [
+          85.96226722627439,
+          30
+        ],
+        "OVMERDPlus": [
+          56.999266112019434,
+          30
+        ]
+      },
+      "best_single_checkpoint": [
+        73.66829233051487,
+        30
+      ]
+    },
+    "v2.1+P4": {
+      "means": {
+        "MER2023": 73.58180407624656,
+        "SIMS": 85.43854270815058,
+        "OVMERDPlus": 58.766873741316836
+      },
+      "mean_three": 72.59574017523799,
+      "best_per_dataset": {
+        "MER2023": [
+          76.36420849616809,
+          45
+        ],
+        "SIMS": [
+          88.08537390808502,
+          45
+        ],
+        "OVMERDPlus": [
+          60.135762605383356,
+          45
+        ]
+      },
+      "best_single_checkpoint": [
+        74.86178166987882,
+        45
+      ]
+    },
+    "OOF新图+P4": {
+      "means": {
+        "MER2023": 72.77319625002718,
+        "SIMS": 85.89686916981799,
+        "OVMERDPlus": 59.47504432288683
+      },
+      "mean_three": 72.71503658091066,
+      "best_per_dataset": {
+        "MER2023": [
+          74.53565446886262,
+          40
+        ],
+        "SIMS": [
+          87.38084888211462,
+          50
+        ],
+        "OVMERDPlus": [
+          60.451425271736255,
+          45
+        ]
+      },
+      "best_single_checkpoint": [
+        73.44460206209382,
+        45
+      ]
+    }
+  },
+  "historical_188_full_P": {
+    "MER2023": 78.8227173526874,
+    "SIMS": 89.69072164948454,
+    "OVMERDPlus": 62.72695662858674
+  },
+  "sources": {
+    "无图基线": "/ai/sjq/AffectGPT-sjq/AffectGPT/output/evaluation_20261016_2140/metrics_all.csv",
+    "10类旧图": "/ai/sjq/AffectGPT-sjq/graph/amg_base7_graph10/runs/base7_original_plus_graph10_20261031_122105/metrics_all.csv",
+    "v2.1+P4": "/ai/sjq/AffectGPT-sjq/graph/amg_unified_eval/runs/base7_unified_P4_NATIVE_A800_20261103_214723/metrics_all.csv",
+    "OOF新图+P4": "/ai/sjq/AffectGPT-sjq/graph/amg_oof_eval_20261105/runs/base7_OOF_unified_P4_20261105/metrics_all.csv"
+  },
+  "legacy_188_source": "/ai/sjq/AffectGPT-sjq/graph/amg_188_audit/runs/winner188_20261028_114057",
+  "legacy_same_checkpoint_comparable": false
+}

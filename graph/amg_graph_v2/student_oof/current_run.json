@@ -1,0 +1,62 @@
+{
+  "path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/student_oof/runs/student_oof_20261104",
+  "status": "complete",
+  "tasks": 15,
+  "concurrency": {
+    "a800": 5,
+    "a100": 2
+  },
+  "total_concurrency": 7,
+  "scaled_unix": 1793770352.0001118,
+  "allocation_reason": "A800 host RAM 128GiB; A100 host RAM 32GiB; extra text task placed on A800.",
+  "recovery_tasks": [
+    "text_fold_0",
+    "audio_fold_0",
+    "text_fold_2",
+    "audio_fold_2",
+    "visual_fold_2"
+  ],
+  "previous_all18_interrupted": true,
+  "deployment": "Reuse original full-data Text/Audio/Visual Student; only train 15 OOF fold models.",
+  "existing_student_reused": true,
+  "orchestration_sha256": "e953a065660ab9487128b97a9b9e837ca81359aa8fdc00286c931205f3079351",
+  "admission_policy": "A100 remaining audio/visual folds admitted sequentially after >=14GiB reclaimable RAM, >=18GiB GPU free, first recovery producing train updates, and unchanged OOM count.",
+  "a100_recovery_disabled": true,
+  "oom_migration_tasks": [
+    "text_fold_0",
+    "audio_fold_2",
+    "visual_fold_2"
+  ],
+  "a100_single_audio_exception": "User explicitly authorized audio_fold_2 alongside visual_fold_0; no other A100 recovery allowed.",
+  "a100_memory_guard": "CPU checkpoint model/optimizer states released after restore; pause audio below 10GiB headroom.",
+  "latest_rebalance": {
+    "tasks": [
+      "visual_fold_3",
+      "visual_fold_4"
+    ],
+    "source": "a800",
+    "target": "a100",
+    "training_source_unchanged": true,
+    "protections": [
+      "release consumed CPU resume states",
+      "serialize checkpoint writes",
+      "staged start",
+      "pause below 10GiB headroom and auto-resume"
+    ]
+  },
+  "completed_training_tasks": 15,
+  "active_training_processes": 0,
+  "oof_merge_complete": true,
+  "graph_rebuild_status": "verified_internal_oof_release",
+  "graph_release": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/student_oof/runs/student_oof_20261104/graph_rebuild_20261105/releases/amg_v2_oof_d837c39aeb0949ca",
+    "release_id": "amg_v2_oof_d837c39aeb0949ca",
+    "status": "verified_internal_oof_release",
+    "report": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/student_oof/runs/student_oof_20261104/graph_rebuild_20261105/releases/amg_v2_oof_d837c39aeb0949ca/REPORT.md",
+    "graph": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/student_oof/runs/student_oof_20261104/graph_rebuild_20261105/releases/amg_v2_oof_d837c39aeb0949ca/graph.json",
+    "viewer": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/student_oof/runs/student_oof_20261104/graph_rebuild_20261105/releases/amg_v2_oof_d837c39aeb0949ca/graph_viewer.html",
+    "cue_oof": true,
+    "deployment_full_student_retrained": false
+  },
+  "completion_recorded_unix": 1793862527.6520061
+}

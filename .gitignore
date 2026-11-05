@@ -67,3 +67,13 @@ graph/**/data_migrations/
 
 # Large gzipped runtime graphs
 *.jsonl.gz
+
+# Server-local temp dirs
+/.oof_tmp/
+
+# student_oof run outputs (105 GB checkpoints/caches)
+/graph/amg_graph_v2/student_oof/runs/
+
+# OOF eval run caches/graphs (regenerable)
+/graph/amg_oof_eval_*/runs/**/cache/
+/graph/amg_oof_eval_*/runs/**/graphs/

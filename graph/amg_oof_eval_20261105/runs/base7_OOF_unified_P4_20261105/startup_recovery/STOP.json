@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError('Node failed: {\\'A800\\': {\\'node\\': \\'A800\\', \\'pid\\': 2124667, \\'concurrency\\': 4, \\'state\\': \\'running\\', \\'at\\': \\'2026-11-05T15:30:57.350116+08:00\\', \\'pids\\': {\\'0\\': 2124673, \\'1\\': 2124674, \\'2\\': 2124675, \\'3\\': 2124676}, \\'retries\\': {}}, \\'A100\\': {\\'node\\': \\'A100\\', \\'pid\\': 15533, \\'concurrency\\': 4, \\'state\\': \\'failed\\', \\'at\\': \\'2026-11-05T15:36:00.365326+08:00\\', \\'pids\\': {\\'0\\': 15539, \\'1\\': 15540, \\'2\\': 15541, \\'3\\': 15542}, \\'retries\\': {}, \\'error\\': \"AssertionError(\\'Coordinator stopped run\\')\", \\'traceback\\': \\'Traceback (most recent call last):\\\\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_oof_eval_20261105/execute.py\", line 137, in run_node\\\\n    assert not (run/\\\\\\'STOP.json\\\\\\').exists(),\\\\\\'Coordinator stopped run\\\\\\'\\\\nAssertionError: Coordinator stopped run\\\\n\\'}}')",
+  "at": "2026-11-05T15:31:01.978556+08:00"
+}

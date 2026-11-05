@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    "A800",
+    "A100"
+  ],
+  "evaluators_per_gpu": 1,
+  "total_evaluators": 2,
+  "start_condition": "All 9800 predictions and official exports complete; all eight inference workers exited; local GPU released",
+  "partition": "Sorted 21 job IDs split by index modulo 2; no overlap",
+  "official_protocol_unchanged": true
+}

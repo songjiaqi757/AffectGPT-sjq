@@ -1,0 +1,23 @@
+{
+  "pid": 2124662,
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_oof_eval_20261105/runs/base7_OOF_unified_P4_20261105",
+  "plan_id": "a62b491d3944dc6127077d093d36fb7c304cd43b6ad54e97f5882dafdf96e30d",
+  "nodes": [
+    "A800",
+    "A100"
+  ],
+  "concurrency": 8,
+  "concurrency_per_gpu": 4,
+  "phase": "failed",
+  "predictions_completed": 67,
+  "predictions_total": 9800,
+  "at": "2026-11-05T15:31:01.943651+08:00",
+  "inference_groups_complete": 0,
+  "completed_shards": 3,
+  "node_states": {
+    "A800": "running",
+    "A100": "running"
+  },
+  "error": "AssertionError('Node failed: {\\'A800\\': {\\'node\\': \\'A800\\', \\'pid\\': 2124667, \\'concurrency\\': 4, \\'state\\': \\'running\\', \\'at\\': \\'2026-11-05T15:30:57.350116+08:00\\', \\'pids\\': {\\'0\\': 2124673, \\'1\\': 2124674, \\'2\\': 2124675, \\'3\\': 2124676}, \\'retries\\': {}}, \\'A100\\': {\\'node\\': \\'A100\\', \\'pid\\': 15533, \\'concurrency\\': 4, \\'state\\': \\'failed\\', \\'at\\': \\'2026-11-05T15:36:00.365326+08:00\\', \\'pids\\': {\\'0\\': 15539, \\'1\\': 15540, \\'2\\': 15541, \\'3\\': 15542}, \\'retries\\': {}, \\'error\\': \"AssertionError(\\'Coordinator stopped run\\')\", \\'traceback\\': \\'Traceback (most recent call last):\\\\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_oof_eval_20261105/execute.py\", line 137, in run_node\\\\n    assert not (run/\\\\\\'STOP.json\\\\\\').exists(),\\\\\\'Coordinator stopped run\\\\\\'\\\\nAssertionError: Coordinator stopped run\\\\n\\'}}')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_oof_eval_20261105/execute.py\", line 168, in pipeline\n    assert not any(v['state']=='failed' for v in nodes.values()),'Node failed: '+repr(nodes)\nAssertionError: Node failed: {'A800': {'node': 'A800', 'pid': 2124667, 'concurrency': 4, 'state': 'running', 'at': '2026-11-05T15:30:57.350116+08:00', 'pids': {'0': 2124673, '1': 2124674, '2': 2124675, '3': 2124676}, 'retries': {}}, 'A100': {'node': 'A100', 'pid': 15533, 'concurrency': 4, 'state': 'failed', 'at': '2026-11-05T15:36:00.365326+08:00', 'pids': {'0': 15539, '1': 15540, '2': 15541, '3': 15542}, 'retries': {}, 'error': \"AssertionError('Coordinator stopped run')\", 'traceback': 'Traceback (most recent call last):\\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_oof_eval_20261105/execute.py\", line 137, in run_node\\n    assert not (run/\\'STOP.json\\').exists(),\\'Coordinator stopped run\\'\\nAssertionError: Coordinator stopped run\\n'}}\n"
+}
