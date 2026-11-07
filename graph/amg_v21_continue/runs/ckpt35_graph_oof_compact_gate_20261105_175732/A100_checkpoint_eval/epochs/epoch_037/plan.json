@@ -1,0 +1,98 @@
+{
+  "version": "continuation_checkpoint36_to40_v21_P4_gate_native_A100",
+  "created_at": "2026-11-05T20:25:58.508967+08:00",
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/A100_checkpoint_eval/epochs/epoch_037",
+  "training_source_run": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732",
+  "training_source_plan_id": "5a22c2e86b8db8607f2ce757562d7d0bb3c14e77d1ede08ff0c80b61678df5c5",
+  "expected_epochs": [
+    37
+  ],
+  "datasets": {
+    "MER2023": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/A100_checkpoint_eval/inputs/MER2023.json",
+      "sha256": "8026f8637bc50db1f24051216f50b5d65c3acf257177fa213c08defb6770a1dd",
+      "samples": 411,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/mer2023-dataset-process/label-6way.npz",
+      "membership_member": "test1_corpus",
+      "subtitle_sha256": "8f773eab800f8f3080a7551f25b5bfb17e3e78cd39742414256f32901bb0be97",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "SIMS": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/A100_checkpoint_eval/inputs/SIMS.json",
+      "sha256": "642c3d60ee938ade53390738329dd9341e4a2bd10c9d5cce551f63803540f768",
+      "samples": 457,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/sims-process/label.npz",
+      "membership_member": "test_corpus",
+      "subtitle_sha256": "e3e7d327b8ecfb2b8624bb6430153550b17c66b8baceca8fca3d58d8ceaaf16a",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    },
+    "OVMERDPlus": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/A100_checkpoint_eval/inputs/OVMERDPlus.json",
+      "sha256": "fe6034fd872eea08e0ebc0da48238eae327caf86c2ebead7397d79e8e4fa5e92",
+      "samples": 532,
+      "membership_source": "/ai/sjq/AffectGPT/dataset/ovmerdplus-process/subtitle_eng.csv",
+      "membership_member": "subtitle CSV membership",
+      "subtitle_sha256": "49a139054813aa3b5d3245b6ad1fd7a6c18bbc184880c93734c3731701e83af3",
+      "missing": {
+        "audio": 0,
+        "face": 0,
+        "video": 0
+      }
+    }
+  },
+  "generation": {
+    "num_beams": 1,
+    "temperature": 1,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2000
+  },
+  "prompt_question": "Please recognize all possible emotional states of the character.",
+  "graph_release_id": "amg_v2_1_cue_admission_8a8994fe1e7495f0",
+  "graph_release_path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_v2_1_cue_admission_8a8994fe1e7495f0",
+  "prompt_release_id": "amg_unified_prompt_44fc7659770a1772",
+  "prompt_release_path": "/ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/releases/amg_unified_prompt_44fc7659770a1772",
+  "concurrency": 4,
+  "node": "A100",
+  "gpu_uuid": "GPU-93c26c4a-fb4d-1fda-fe6d-3d33d69f00b0",
+  "per_process_memory_fraction": 0.24,
+  "seed": null,
+  "seed_rule": "Original native flow; no added per-sample reseeding; source-only probes restore RNG",
+  "logical_jobs": 3,
+  "total_predictions": 1400,
+  "predictions_per_checkpoint": 1400,
+  "shard_size": 16,
+  "target_labels_used_for_prompt_selection": false,
+  "excluded_samples": 0,
+  "ovmerd_mapping": "Repository OVMERDPlus official 532-sample test split",
+  "gate_source": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/policy.py",
+  "gate_source_sha256": "21ae4cfc75671e93be2a79267300c316a270be9bc71722ffbd8543f9a37f2ea2",
+  "inference_dropout": false,
+  "additional_D_gate_applied": false,
+  "input_policy": "Exact prior v2.1 P4 packet text and complete Prompt, as explicitly confirmed by user",
+  "graph_oof_train_only": true,
+  "inference_graph": "Same v2.1 frozen full graph, no Student-OOF graph substitution",
+  "original_model_and_media_and_sampling_and_official_metrics": true,
+  "cache_inventory_sha256": "401a9c0ca0f6959b7f2fcc4db531cada4a24c3b691fdd56483db8769a085f64e",
+  "source_probe_sha256": "a73a6f6a4235e6f9f59f35bd5b66905980104a824721de58a150393cf3574084",
+  "original_config_sha256": "efbcc12ea8fee6d5f9f79b946f621e8bed27defb80010f0e90c62f1a3dc88c80",
+  "training_run": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/A100_checkpoint_eval/epochs/epoch_037",
+  "checkpoints": {
+    "37": {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/from_35/checkpoint_000037_loss_0.726.pth",
+      "sha256": "007058742f799e4ab7fa21af74cf71cd052bd95a9fd471977a4d93015b66315d",
+      "epoch": 37
+    }
+  },
+  "parent_plan_id": "ec48d213b1dc05f0490b9b255c405b1285dc05c74120934fa3243414b7ac126d",
+  "plan_id": "8390463d0ca1d6752b7fd8daac912209a05176827d9c62bcb31af95ad479fe1c"
+}

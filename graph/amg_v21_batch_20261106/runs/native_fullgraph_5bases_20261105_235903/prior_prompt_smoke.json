@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "exact_matches": 3,
+  "results": [
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/eval_cache/probe_MER2023.jsonl",
+      "sha256": "71826ba4787126d4a411b8dbec665a4d732ed85d85395daaad447794f1ce8193",
+      "samples": 1,
+      "kind": "eval",
+      "name": "probe_MER2023",
+      "maximum_sequence_tokens": 0,
+      "maximum_prompt_tokens": 484,
+      "maximum_graph_tokens": 374,
+      "prior_native_prompt_exact_matches": 1,
+      "statistics": {
+        "fallback": 0
+      }
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/eval_cache/probe_SIMS.jsonl",
+      "sha256": "661791ce25f26745530d22fee3fa989cf858d1fe65a4d55871ae4045b335c0ce",
+      "samples": 1,
+      "kind": "eval",
+      "name": "probe_SIMS",
+      "maximum_sequence_tokens": 0,
+      "maximum_prompt_tokens": 446,
+      "maximum_graph_tokens": 338,
+      "prior_native_prompt_exact_matches": 1,
+      "statistics": {
+        "fallback": 0
+      }
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/eval_cache/probe_OVMERDPlus.jsonl",
+      "sha256": "72626ca81698df2ea5c2a69a2362635f957e52fd405255342f55acc0f9c5dc73",
+      "samples": 1,
+      "kind": "eval",
+      "name": "probe_OVMERDPlus",
+      "maximum_sequence_tokens": 0,
+      "maximum_prompt_tokens": 520,
+      "maximum_graph_tokens": 395,
+      "prior_native_prompt_exact_matches": 1,
+      "statistics": {
+        "fallback": 0
+      }
+    }
+  ],
+  "at": "2026-11-06T00:17:36.605649+08:00"
+}

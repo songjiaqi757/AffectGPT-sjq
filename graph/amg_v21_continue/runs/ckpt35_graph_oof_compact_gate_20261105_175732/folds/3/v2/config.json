@@ -1,0 +1,40 @@
+{
+  "protocol": "amg_v2_reuse_existing_cue_20261103",
+  "student_retrained": false,
+  "student_oof": false,
+  "cue_input": "Unmodified original Student raw sigmoid scores; per-cue calibration only controls activation",
+  "primary_method": "G1",
+  "relation_methods": [
+    "G0_NPMI",
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "relation_C": 0.2,
+  "coefficient_bootstrap_replicates": 64,
+  "validation_bootstrap_replicates": 1000,
+  "minimum_edge_support_samples": 50,
+  "minimum_edge_support_groups": 50,
+  "minimum_absolute_weight": 0.05,
+  "minimum_fold_sign_consistency": 0.8,
+  "minimum_edge_deletion_brier_improvement": 0.0,
+  "minimum_path_joint_support": 20,
+  "cue_precision_target": 0.65,
+  "emotion_precision_target": 0.65,
+  "minimum_threshold_predictions": 10,
+  "minimum_calibration_positive": 20,
+  "minimum_calibration_negative": 20,
+  "appraisal_minimum_precision": 0.75,
+  "appraisal_margin": 0.15,
+  "appraisal_max_normalized_entropy": 0.8,
+  "appraisal_minimum_training_valid": 500,
+  "fusion_alpha_grid": [
+    0
+  ],
+  "relation_jobs": 4,
+  "seed": 20261103,
+  "task_protection": true,
+  "affectgpt_training": false,
+  "target_datasets_used": false,
+  "independent_confirmation": false
+}

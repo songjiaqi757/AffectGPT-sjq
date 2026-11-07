@@ -1,0 +1,60 @@
+{
+  "state": "complete",
+  "llm_gradient_checkpointing": false,
+  "base_epoch": 45,
+  "physical_gpu": "0",
+  "pid": 30367,
+  "plan_id": "6be24af373f90444aeb2cf828e06c5cfb9e4316a34bd8bcbd7579009d88ec8d0",
+  "started_at_beijing": "2026-11-06T06:11:24.172198+08:00",
+  "completed_steps": 25000,
+  "completed_epochs": 5,
+  "total_steps": 25000,
+  "additional_epochs": 5,
+  "updated_at_beijing": "2026-11-06T11:18:42.508192+08:00",
+  "current_epoch": 50,
+  "epoch_step": 5000,
+  "trainable_parameters": 57168644,
+  "gpu_memory_allocated": 18925127168,
+  "optimizer_updates": 24991,
+  "amp_skipped_steps": 9,
+  "last_loss": 0.7676288485527039,
+  "mean_loss_current_epoch": 0.5527801947459579,
+  "elapsed_training_seconds": 18281.556153535843,
+  "seconds_per_step": 0.7310429620361328,
+  "smoke_passed": true,
+  "gpu_memory_peak": 53582116864,
+  "gpu_memory_reserved": 55507419136,
+  "checkpoints": [
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_45/checkpoint_000046_loss_0.622.pth",
+      "sha256": "32cdd2a5769096f5bbccbdeeaa587e488b4eb151dcab351d1641bbe3c2c08c46",
+      "epoch": 46,
+      "loss": 0.6221312193393708
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_45/checkpoint_000047_loss_0.628.pth",
+      "sha256": "9878583ed9d9cce6d797e0cef83eb9dc6058708b2440067c6349730e8a2386df",
+      "epoch": 47,
+      "loss": 0.62765246399194
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_45/checkpoint_000048_loss_0.579.pth",
+      "sha256": "ea158e8a7e5df7d4e089531f948fe7c5b9f3e58fc1f84e09d0594c0a3204ed94",
+      "epoch": 48,
+      "loss": 0.5790241438135505
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_45/checkpoint_000049_loss_0.594.pth",
+      "sha256": "08cbf3f8eb045ff9a7327e03f6bb970cd4fb69e439b2a3e8fd609508698ef7e4",
+      "epoch": 49,
+      "loss": 0.5940966723874211
+    },
+    {
+      "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_45/checkpoint_000050_loss_0.553.pth",
+      "sha256": "388ab19e5ddaf6bc2431b1df21523186f96c4e2a0da6c176844623f06d343e3b",
+      "epoch": 50,
+      "loss": 0.5527801947459579
+    }
+  ],
+  "finished_at_beijing": "2026-11-06T11:18:42.508166+08:00"
+}

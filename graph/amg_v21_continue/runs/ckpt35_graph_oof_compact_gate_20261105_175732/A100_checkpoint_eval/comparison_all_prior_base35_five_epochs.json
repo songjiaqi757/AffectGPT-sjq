@@ -1,0 +1,143 @@
+{
+  "budget": "Same original checkpoint35, 5 saved epochs36–40, 25000 iterations per branch",
+  "summaries": [
+    {
+      "code": "initial_long_evidence",
+      "label": "最初长证据图（无极性辅助）",
+      "best_epoch": 40,
+      "best_checkpoint_scores": {
+        "MER2023_HIT": 77.35126630462365,
+        "SIMS_WAF": 86.98489481295701,
+        "OVMERDPlus_F_s": 62.81952588443297
+      },
+      "best_three_metric_mean": 75.71856233400455,
+      "five_checkpoint_mean": 74.0600048966184,
+      "each_dataset_five_epoch_mean": {
+        "MER2023_HIT": 74.7665228645384,
+        "SIMS_WAF": 85.77819701501015,
+        "OVMERDPlus_F_s": 61.635294810306654
+      },
+      "current_best_minus_this_best_pp": {
+        "MER2023_HIT": -1.449728467746013,
+        "SIMS_WAF": -1.3002375821647973,
+        "OVMERDPlus_F_s": 0.8150979868476824
+      },
+      "current_best_mean_delta_pp": -0.644956021021045,
+      "current_five_epoch_mean_delta_pp": 0.09251014827651716
+    },
+    {
+      "code": "old_graph_oof",
+      "label": "旧紧凑+门控+Graph-OOF D",
+      "best_epoch": 38,
+      "best_checkpoint_scores": {
+        "MER2023_HIT": 76.46246764452114,
+        "SIMS_WAF": 86.72239910208853,
+        "OVMERDPlus_F_s": 61.501088058028266
+      },
+      "best_three_metric_mean": 74.89531826821265,
+      "five_checkpoint_mean": 74.00130530747613,
+      "each_dataset_five_epoch_mean": {
+        "MER2023_HIT": 74.50646094503375,
+        "SIMS_WAF": 86.37604438179287,
+        "OVMERDPlus_F_s": 61.12141059560173
+      },
+      "current_best_minus_this_best_pp": {
+        "MER2023_HIT": -0.5609298076435039,
+        "SIMS_WAF": -1.0377418712963191,
+        "OVMERDPlus_F_s": 2.1335358132523865
+      },
+      "current_best_mean_delta_pp": 0.17828804477085214,
+      "current_five_epoch_mean_delta_pp": 0.15120973741878174
+    },
+    {
+      "code": "old_50pct_no_polarity",
+      "label": "旧Graph-OOF，50%图，无极性B",
+      "best_epoch": 40,
+      "best_checkpoint_scores": {
+        "MER2023_HIT": 76.076333553266,
+        "SIMS_WAF": 84.74047046399099,
+        "OVMERDPlus_F_s": 61.724405232154034
+      },
+      "best_three_metric_mean": 74.18040308313701,
+      "five_checkpoint_mean": 73.75796868416735,
+      "each_dataset_five_epoch_mean": {
+        "MER2023_HIT": 73.65704715018018,
+        "SIMS_WAF": 86.00864165058033,
+        "OVMERDPlus_F_s": 61.60821725174155
+      },
+      "current_best_minus_this_best_pp": {
+        "MER2023_HIT": -0.17479571638835978,
+        "SIMS_WAF": 0.9441867668012236,
+        "OVMERDPlus_F_s": 1.9102186391266187
+      },
+      "current_best_mean_delta_pp": 0.8932032298464918,
+      "current_five_epoch_mean_delta_pp": 0.3945463607275599
+    },
+    {
+      "code": "old_50pct_polarity",
+      "label": "旧Graph-OOF，50%图+极性D",
+      "best_epoch": 40,
+      "best_checkpoint_scores": {
+        "MER2023_HIT": 74.09856367050702,
+        "SIMS_WAF": 86.27801484315366,
+        "OVMERDPlus_F_s": 62.75122677035071
+      },
+      "best_three_metric_mean": 74.37593509467048,
+      "five_checkpoint_mean": 73.46961613627381,
+      "each_dataset_five_epoch_mean": {
+        "MER2023_HIT": 73.0830025884383,
+        "SIMS_WAF": 85.95524686344982,
+        "OVMERDPlus_F_s": 61.3705989569333
+      },
+      "current_best_minus_this_best_pp": {
+        "MER2023_HIT": 1.8029741663706176,
+        "SIMS_WAF": -0.5933576123614444,
+        "OVMERDPlus_F_s": 0.8833971009299404
+      },
+      "current_best_mean_delta_pp": 0.6976712183130189,
+      "current_five_epoch_mean_delta_pp": 0.6828989086210981
+    },
+    {
+      "code": "old_10class_polarity",
+      "label": "旧10类图Graph-OOF+极性",
+      "best_epoch": 38,
+      "best_checkpoint_scores": {
+        "MER2023_HIT": 75.3769476729432,
+        "SIMS_WAF": 86.97037729734005,
+        "OVMERDPlus_F_s": 62.284699974488234
+      },
+      "best_three_metric_mean": 74.87734164825716,
+      "five_checkpoint_mean": 73.67069681059243,
+      "each_dataset_five_epoch_mean": {
+        "MER2023_HIT": 73.80346140181699,
+        "SIMS_WAF": 85.77622093362749,
+        "OVMERDPlus_F_s": 61.432408096332836
+      },
+      "current_best_minus_this_best_pp": {
+        "MER2023_HIT": 0.5245901639344339,
+        "SIMS_WAF": -1.2857200665478388,
+        "OVMERDPlus_F_s": 1.3499238967924185
+      },
+      "current_best_mean_delta_pp": 0.19626466472634263,
+      "current_five_epoch_mean_delta_pp": 0.48181823430248016
+    },
+    {
+      "code": "current_v21",
+      "label": "本轮v2.1/P4 Graph-OOF（无极性辅助）",
+      "best_epoch": 40,
+      "best_checkpoint_scores": {
+        "MER2023_HIT": 75.90153783687764,
+        "SIMS_WAF": 85.68465723079221,
+        "OVMERDPlus_F_s": 63.63462387128065
+      },
+      "best_three_metric_mean": 75.0736063129835,
+      "five_checkpoint_mean": 74.15251504489491,
+      "each_dataset_five_epoch_mean": {
+        "MER2023_HIT": 75.00912551388113,
+        "SIMS_WAF": 85.71891135141686,
+        "OVMERDPlus_F_s": 61.729508269386756
+      }
+    }
+  ],
+  "caveat": "Historical descriptive comparison: graph, prompt, dropout, auxiliary loss and random streams differ. Historical generation max_length2736 versus current native2000, both max_new_tokens1200. No causal graph-version claim; no nine-dataset claim."
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "sample_id": "samplenew3_00000004",
+    "gate_level": 1,
+    "tasks": {
+      "description": {
+        "question": "Please infer the person's emotional state and provide your reasoning process.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Text] TXT_EVALUATION_POSITIVE | score=1.00 | Explicit positive evaluation of a person, event, object, or outcome.\n- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=1.00 | Slower speech relative to comparable segments from the same speaker.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.98 | Clearly limited pitch variation across the observed speech.\n- [Text] TXT_INTENSIFIER_PRESENT | score=0.98 | Explicit degree intensifier used to strengthen an expression.\n- [Audio] AUD_INTONATION_FALLING | score=0.98 | Clearly falling acoustic intonation.\n- [Visual] VIS_BROWS_RAISED | score=0.92 | Clearly raised brows, beyond habitual brow shape.\n- [Audio] AUD_PAUSE_LONG | score=0.90 | Internal long pause meeting frozen duration rules; exclude file boundaries and missing audio.\n- [Visual] VIS_EYES_WIDENED | score=0.59 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 392,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "527e2c2bf57c3e39638c9f6c6285c3009e1a4926bf7ac9a09e5be12c86348ab7"
+          }
+        }
+      },
+      "ovlabel": {
+        "question": "Please recognize all possible emotional states of the character.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Text] TXT_EVALUATION_POSITIVE | score=1.00 | Explicit positive evaluation of a person, event, object, or outcome.\n- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=1.00 | Slower speech relative to comparable segments from the same speaker.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.98 | Clearly limited pitch variation across the observed speech.\n- [Text] TXT_INTENSIFIER_PRESENT | score=0.98 | Explicit degree intensifier used to strengthen an expression.\n- [Audio] AUD_INTONATION_FALLING | score=0.98 | Clearly falling acoustic intonation.\n- [Visual] VIS_BROWS_RAISED | score=0.92 | Clearly raised brows, beyond habitual brow shape.\n- [Audio] AUD_PAUSE_LONG | score=0.90 | Internal long pause meeting frozen duration rules; exclude file boundaries and missing audio.\n- [Visual] VIS_EYES_WIDENED | score=0.59 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 392,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "e8934de4bd581cb120ef6e1bd11a0b90eedbfe227ec014373a4ab08818bac0c4"
+          }
+        }
+      }
+    }
+  },
+  {
+    "sample_id": "samplenew3_00000013",
+    "gate_level": 1,
+    "tasks": {
+      "description": {
+        "question": "Please infer the person's emotional state and provide your reasoning process.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Text] TXT_NEGATION_PRESENT | score=1.00 | Semantically functioning negation; contrast and uncertainty alone do not qualify.\n- [Audio] AUD_INTONATION_RISING | score=0.98 | Clearly rising acoustic intonation; question grammar alone is insufficient.\n- [Visual] VIS_BROWS_RAISED | score=0.96 | Clearly raised brows, beyond habitual brow shape.\n- [Text] TXT_RHETORICAL_QUESTION | score=0.95 | A question functioning rhetorically rather than requesting information.\n- [Audio] AUD_PITCH_VARIABILITY_HIGH | score=0.89 | Clearly varying pitch across the observed speech.\n- [Visual] VIS_EYES_WIDENED | score=0.86 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n- [Text] TXT_DESIRE_NEED | score=0.39 | Explicitly expressed desire, wish, hope, need, or goal.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 368,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "156b391aba038137a034ef8ee6ac14e6139c4e3cdc0c8e7d044167891bd6aebf"
+          }
+        }
+      },
+      "ovlabel": {
+        "question": "Please recognize all possible emotional states of the character.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Text] TXT_NEGATION_PRESENT | score=1.00 | Semantically functioning negation; contrast and uncertainty alone do not qualify.\n- [Audio] AUD_INTONATION_RISING | score=0.98 | Clearly rising acoustic intonation; question grammar alone is insufficient.\n- [Visual] VIS_BROWS_RAISED | score=0.96 | Clearly raised brows, beyond habitual brow shape.\n- [Text] TXT_RHETORICAL_QUESTION | score=0.95 | A question functioning rhetorically rather than requesting information.\n- [Audio] AUD_PITCH_VARIABILITY_HIGH | score=0.89 | Clearly varying pitch across the observed speech.\n- [Visual] VIS_EYES_WIDENED | score=0.86 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n- [Text] TXT_DESIRE_NEED | score=0.39 | Explicitly expressed desire, wish, hope, need, or goal.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 368,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "f3c828e209dc559182e12047b0df1ae3dc1d19b9b29130c25e7b14464791d72f"
+          }
+        }
+      }
+    }
+  },
+  {
+    "sample_id": "samplenew3_00000031",
+    "gate_level": 1,
+    "tasks": {
+      "description": {
+        "question": "Please infer the person's emotional state and provide your reasoning process.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Audio] AUD_INTONATION_RISING | score=0.99 | Clearly rising acoustic intonation; question grammar alone is insufficient.\n- [Text] TXT_RHETORICAL_QUESTION | score=0.94 | A question functioning rhetorically rather than requesting information.\n- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=0.92 | Slower speech relative to comparable segments from the same speaker.\n- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.89 | Clearly downward mouth corners, distinct from speaking or perspective effects.\n- [Visual] VIS_BROWS_FURROWED | score=0.87 | Visible inward brow contraction or furrowing; low brow position alone is insufficient.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.61 | Clearly limited pitch variation across the observed speech.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 347,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "a0915de1ed2b88999efa86689ca6f9cc97f8445266f21c28f6dc9b4b34dbea8c"
+          }
+        }
+      },
+      "ovlabel": {
+        "question": "Please recognize all possible emotional states of the character.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Audio] AUD_INTONATION_RISING | score=0.99 | Clearly rising acoustic intonation; question grammar alone is insufficient.\n- [Text] TXT_RHETORICAL_QUESTION | score=0.94 | A question functioning rhetorically rather than requesting information.\n- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=0.92 | Slower speech relative to comparable segments from the same speaker.\n- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.89 | Clearly downward mouth corners, distinct from speaking or perspective effects.\n- [Visual] VIS_BROWS_FURROWED | score=0.87 | Visible inward brow contraction or furrowing; low brow position alone is insufficient.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.61 | Clearly limited pitch variation across the observed speech.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 347,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "38241b8b87fcddd5d73fc80d7b4acab5ede16f4edb1ee0f892bae5cf9f14042b"
+          }
+        }
+      }
+    }
+  }
+]

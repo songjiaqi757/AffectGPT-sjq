@@ -1,0 +1,74 @@
+{
+  "sample_ids": [
+    "samplenew3_00026655",
+    "samplenew3_00080045",
+    "samplenew3_00040926"
+  ],
+  "prompt_info": [
+    {
+      "fallback": false,
+      "evidence_level": 1,
+      "gate_reasons": [
+        "weak_or_absent_graph_support",
+        "training_emotion_dropout"
+      ],
+      "graph_tokens": 374,
+      "prompt_tokens": 488,
+      "answer_tokens": 122,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description",
+      "fold": 2,
+      "fold_graph_id": "amg_v21_graph_oof_fold_2_f424d7e2ecfc2ee0",
+      "CA_edge_count": 0,
+      "CE_edge_count": 0,
+      "original_subtitle_preserved": true
+    },
+    {
+      "fallback": false,
+      "evidence_level": 1,
+      "gate_reasons": [
+        "weak_or_absent_graph_support"
+      ],
+      "graph_tokens": 339,
+      "prompt_tokens": 440,
+      "answer_tokens": 15,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "ovlabel",
+      "fold": 2,
+      "fold_graph_id": "amg_v21_graph_oof_fold_2_f424d7e2ecfc2ee0",
+      "CA_edge_count": 0,
+      "CE_edge_count": 0,
+      "original_subtitle_preserved": true
+    },
+    {
+      "fallback": false,
+      "evidence_level": 1,
+      "gate_reasons": [
+        "weak_or_absent_graph_support"
+      ],
+      "graph_tokens": 366,
+      "prompt_tokens": 477,
+      "answer_tokens": 140,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description",
+      "fold": 1,
+      "fold_graph_id": "amg_v21_graph_oof_fold_1_a25435af7867632f",
+      "CA_edge_count": 0,
+      "CE_edge_count": 0,
+      "original_subtitle_preserved": true
+    }
+  ],
+  "shape": [
+    3,
+    619
+  ],
+  "supervised_tokens": [
+    123,
+    16,
+    141
+  ],
+  "graph_tokens_masked_from_loss": true
+}

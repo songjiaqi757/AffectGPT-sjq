@@ -1,0 +1,1401 @@
+{
+  "sources": {
+    "长证据图续训": "/ai/sjq/AffectGPT-sjq/graph/amg_inference/runs/graph_225_20261022_174537/evaluation_all_20261023_175630/metrics_all.csv",
+    "首轮BCD": "/ai/sjq/AffectGPT-sjq/graph/amg_bcd/runs/bcd_20261024_161459/metrics_all.csv",
+    "极性BCD": "/ai/sjq/AffectGPT-sjq/graph/amg_bcd_polarity_oof/runs/bcd_polarity_20261025_014715/metrics_all.csv",
+    "新旧图续训": "/ai/sjq/AffectGPT-sjq/graph/amg_d_graph_compare/runs/d_compare_20261025_111800/metrics_all.csv",
+    "D多起点10轮": "/ai/sjq/AffectGPT-sjq/graph/amg_d_multistart10/runs/d_multistart10_20261025_160152/metrics_all.csv"
+  },
+  "results": {
+    "长证据图续训": [
+      {
+        "variant": "long",
+        "base_epoch": "30",
+        "epoch": "31",
+        "three_mean": 73.0981695816591,
+        "nine_mean": 71.20316433905299,
+        "metrics": {
+          "MER2023": 73.62127594782521,
+          "SIMS": 85.48345790296689,
+          "OVMERDPlus": 60.18977489418524
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "30",
+        "epoch": "32",
+        "three_mean": 74.31250975631697,
+        "nine_mean": 72.8208134326805,
+        "metrics": {
+          "MER2023": 73.78896614728721,
+          "SIMS": 86.19591947254963,
+          "OVMERDPlus": 62.95264364911405
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "30",
+        "epoch": "33",
+        "three_mean": 72.85687040455359,
+        "nine_mean": 72.493724169418,
+        "metrics": {
+          "MER2023": 74.12028625082473,
+          "SIMS": 83.97037186589105,
+          "OVMERDPlus": 60.479953096944996
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "30",
+        "epoch": "34",
+        "three_mean": 72.75457247568399,
+        "nine_mean": 72.10021455099104,
+        "metrics": {
+          "MER2023": 72.96208699182866,
+          "SIMS": 83.95540084012129,
+          "OVMERDPlus": 61.34622959510202
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "30",
+        "epoch": "35",
+        "three_mean": 74.2837961092832,
+        "nine_mean": 72.87258957412068,
+        "metrics": {
+          "MER2023": 76.38958534233366,
+          "SIMS": 84.26599206516488,
+          "OVMERDPlus": 62.19581092035108
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 73.1298839789257,
+        "nine_mean": 71.8523478039289,
+        "metrics": {
+          "MER2023": 72.29904075521493,
+          "SIMS": 86.22666480913904,
+          "OVMERDPlus": 60.863946372423136
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 73.84252118982634,
+        "nine_mean": 72.08725330902935,
+        "metrics": {
+          "MER2023": 74.26605085519972,
+          "SIMS": 85.97888722288782,
+          "OVMERDPlus": 61.28262549139147
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 73.65005659513719,
+        "nine_mean": 72.90890395536995,
+        "metrics": {
+          "MER2023": 74.63391361721565,
+          "SIMS": 84.46475319440316,
+          "OVMERDPlus": 61.85150297379274
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 73.95900038519822,
+        "nine_mean": 72.91705464195046,
+        "metrics": {
+          "MER2023": 75.28234279043801,
+          "SIMS": 85.23578503566375,
+          "OVMERDPlus": 61.35887332949292
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 75.71856233400455,
+        "nine_mean": 74.05633069693653,
+        "metrics": {
+          "MER2023": 77.35126630462365,
+          "SIMS": 86.98489481295701,
+          "OVMERDPlus": 62.81952588443297
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "40",
+        "epoch": "41",
+        "three_mean": 73.3711870887457,
+        "nine_mean": 71.63722735746975,
+        "metrics": {
+          "MER2023": 72.81266812160585,
+          "SIMS": 85.50967300038563,
+          "OVMERDPlus": 61.79122014424563
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "40",
+        "epoch": "42",
+        "three_mean": 74.83647129460024,
+        "nine_mean": 73.08913542055997,
+        "metrics": {
+          "MER2023": 77.02705171801249,
+          "SIMS": 85.68465723079221,
+          "OVMERDPlus": 61.79770493499601
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "40",
+        "epoch": "43",
+        "three_mean": 74.26034187069774,
+        "nine_mean": 72.7289618754982,
+        "metrics": {
+          "MER2023": 74.75775262650359,
+          "SIMS": 84.87041799138504,
+          "OVMERDPlus": 63.15285499420461
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "40",
+        "epoch": "44",
+        "three_mean": 72.8033010050373,
+        "nine_mean": 71.99109867759,
+        "metrics": {
+          "MER2023": 71.63254326752272,
+          "SIMS": 85.11682720813796,
+          "OVMERDPlus": 61.66053253945123
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "40",
+        "epoch": "45",
+        "three_mean": 74.51304835085709,
+        "nine_mean": 73.32167288689426,
+        "metrics": {
+          "MER2023": 75.45348424097853,
+          "SIMS": 86.2407567220484,
+          "OVMERDPlus": 61.844904089544336
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "45",
+        "epoch": "46",
+        "three_mean": 73.40427560169252,
+        "nine_mean": 71.90763464774452,
+        "metrics": {
+          "MER2023": 73.69781251586053,
+          "SIMS": 85.40228072356201,
+          "OVMERDPlus": 61.112733565655
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "45",
+        "epoch": "47",
+        "three_mean": 73.91700453090374,
+        "nine_mean": 72.97805004220781,
+        "metrics": {
+          "MER2023": 75.46444703852207,
+          "SIMS": 84.89008004719577,
+          "OVMERDPlus": 61.396486506993384
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "45",
+        "epoch": "48",
+        "three_mean": 72.09246727228698,
+        "nine_mean": 71.85346910148598,
+        "metrics": {
+          "MER2023": 72.19347307516621,
+          "SIMS": 83.70845245314621,
+          "OVMERDPlus": 60.375476288548526
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "45",
+        "epoch": "49",
+        "three_mean": 74.54411335908331,
+        "nine_mean": 72.94452444723275,
+        "metrics": {
+          "MER2023": 74.02568136831954,
+          "SIMS": 86.95504304389414,
+          "OVMERDPlus": 62.65161566503625
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "45",
+        "epoch": "50",
+        "three_mean": 74.31121248967645,
+        "nine_mean": 73.06237894603625,
+        "metrics": {
+          "MER2023": 76.77571943358879,
+          "SIMS": 84.97410554868502,
+          "OVMERDPlus": 61.18381248675552
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "50",
+        "epoch": "51",
+        "three_mean": 73.78606444758366,
+        "nine_mean": 71.73246774045823,
+        "metrics": {
+          "MER2023": 76.89955844287672,
+          "SIMS": 81.91799142299384,
+          "OVMERDPlus": 62.5406434768804
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "50",
+        "epoch": "52",
+        "three_mean": 75.0469327469131,
+        "nine_mean": 73.66388244654577,
+        "metrics": {
+          "MER2023": 78.72445820433435,
+          "SIMS": 84.13172820488063,
+          "OVMERDPlus": 62.284611831524316
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "50",
+        "epoch": "53",
+        "three_mean": 73.19986859526155,
+        "nine_mean": 72.67612135991968,
+        "metrics": {
+          "MER2023": 73.88722529564026,
+          "SIMS": 83.9045837202436,
+          "OVMERDPlus": 61.80779676990079
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "50",
+        "epoch": "54",
+        "three_mean": 73.72527459538438,
+        "nine_mean": 72.49454429349393,
+        "metrics": {
+          "MER2023": 74.08029234126784,
+          "SIMS": 85.64916530524103,
+          "OVMERDPlus": 61.44636613964426
+        }
+      },
+      {
+        "variant": "long",
+        "base_epoch": "50",
+        "epoch": "55",
+        "three_mean": 73.93233433319678,
+        "nine_mean": 73.37576801210102,
+        "metrics": {
+          "MER2023": 77.22011876364006,
+          "SIMS": 82.40987669780473,
+          "OVMERDPlus": 62.16700753814553
+        }
+      }
+    ],
+    "首轮BCD": [
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 73.34105696336091,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 71.83291884484596,
+          "SIMS": 86.70718171430705,
+          "OVMERDPlus": 61.48307033092972
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 72.71087625059837,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.88920468964116,
+          "SIMS": 84.4493112835665,
+          "OVMERDPlus": 60.79411277858744
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 73.11080262535708,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.64320154291225,
+          "SIMS": 83.93945263712605,
+          "OVMERDPlus": 61.749753696032926
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 74.44404884512022,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 74.6558392123027,
+          "SIMS": 86.2407567220484,
+          "OVMERDPlus": 62.43555060100956
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 74.09746972670946,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 74.90351723087855,
+          "SIMS": 86.21172214447657,
+          "OVMERDPlus": 61.17716980477328
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 71.99108370812701,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 70.259351367812,
+          "SIMS": 85.46902857644739,
+          "OVMERDPlus": 60.24487118012164
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 73.67221341870615,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.34456681723596,
+          "SIMS": 86.44347610443901,
+          "OVMERDPlus": 61.22859733444349
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 74.65193819154145,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 76.70283713140131,
+          "SIMS": 86.21172214447657,
+          "OVMERDPlus": 61.04125529874646
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 73.50734463315787,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.09155966096532,
+          "SIMS": 86.72239910208853,
+          "OVMERDPlus": 61.70807513641975
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 73.9401643630287,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 77.21646449779223,
+          "SIMS": 83.70845245314621,
+          "OVMERDPlus": 60.89557613814767
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 72.86852568935348,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 71.69080850631883,
+          "SIMS": 86.4744985311122,
+          "OVMERDPlus": 60.44027003062939
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 74.17309719497754,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.21341927625234,
+          "SIMS": 87.46660998334927,
+          "OVMERDPlus": 61.83926232533102
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 74.89531826821265,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 76.46246764452114,
+          "SIMS": 86.72239910208853,
+          "OVMERDPlus": 61.501088058028266
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 74.42035553095201,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.46444703852207,
+          "SIMS": 86.98489481295701,
+          "OVMERDPlus": 60.81172474137695
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 73.64922985388492,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.70116225955438,
+          "SIMS": 84.23181947945734,
+          "OVMERDPlus": 61.01470782264303
+        }
+      }
+    ],
+    "极性BCD": [
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 73.6158061404266,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.94381566258946,
+          "SIMS": 86.45941170115732,
+          "OVMERDPlus": 61.444191057533025
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 73.36019310913102,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.09155966096533,
+          "SIMS": 86.4266820762945,
+          "OVMERDPlus": 61.56233759013323
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 73.54166357298287,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.45378876313252,
+          "SIMS": 85.91448139992825,
+          "OVMERDPlus": 61.256720555887846
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 74.09177751515925,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.71973811094757,
+          "SIMS": 86.5021626115306,
+          "OVMERDPlus": 62.053431822999585
+        }
+      },
+      {
+        "variant": "B",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 74.18040308313701,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 76.076333553266,
+          "SIMS": 84.74047046399099,
+          "OVMERDPlus": 61.724405232154034
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 73.34190889804128,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.25341318580925,
+          "SIMS": 85.74489589650292,
+          "OVMERDPlus": 61.02741761181167
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 73.16647230792171,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.44115109374206,
+          "SIMS": 85.46902857644739,
+          "OVMERDPlus": 61.58923725357569
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 74.38054873126877,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.76308176419835,
+          "SIMS": 86.40901955158316,
+          "OVMERDPlus": 60.96954487802482
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 73.44149057711897,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.95477846013296,
+          "SIMS": 86.72239910208853,
+          "OVMERDPlus": 60.647294169135435
+        }
+      },
+      {
+        "variant": "C",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 73.22433033715836,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.6468558087601,
+          "SIMS": 85.24912144852462,
+          "OVMERDPlus": 60.77701375419037
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 72.62041356283538,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.32462061614982,
+          "SIMS": 84.98812603313606,
+          "OVMERDPlus": 60.548494039220266
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 73.04009891697704,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 71.20641526671065,
+          "SIMS": 86.22666480913904,
+          "OVMERDPlus": 61.68721667508144
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 73.37544189203182,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 73.63954727706441,
+          "SIMS": 85.85674655552586,
+          "OVMERDPlus": 60.63003184350519
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 73.93619121485433,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 74.14586611175963,
+          "SIMS": 86.4266820762945,
+          "OVMERDPlus": 61.23602545650887
+        }
+      },
+      {
+        "variant": "D",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 74.37593509467047,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 74.09856367050702,
+          "SIMS": 86.27801484315366,
+          "OVMERDPlus": 62.75122677035071
+        }
+      }
+    ],
+    "新旧图续训": [
+      {
+        "variant": "D_continue",
+        "base_epoch": "40",
+        "epoch": "41",
+        "three_mean": 75.61025254839446,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.58828604780999,
+          "SIMS": 89.44111845238163,
+          "OVMERDPlus": 61.80135314499174
+        }
+      },
+      {
+        "variant": "D_continue",
+        "base_epoch": "40",
+        "epoch": "42",
+        "three_mean": 74.26529093433724,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.47175557021774,
+          "SIMS": 85.78096618482152,
+          "OVMERDPlus": 61.54315104797248
+        }
+      },
+      {
+        "variant": "D_continue",
+        "base_epoch": "40",
+        "epoch": "43",
+        "three_mean": 74.95181002308559,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 78.07602903111201,
+          "SIMS": 84.97410554868502,
+          "OVMERDPlus": 61.80529548945972
+        }
+      },
+      {
+        "variant": "D_continue",
+        "base_epoch": "40",
+        "epoch": "44",
+        "three_mean": 72.21180181760805,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.892858955489,
+          "SIMS": 84.13172820488063,
+          "OVMERDPlus": 59.61081829245452
+        }
+      },
+      {
+        "variant": "D_continue",
+        "base_epoch": "40",
+        "epoch": "45",
+        "three_mean": 75.67090554828617,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 76.96513221336852,
+          "SIMS": 88.460488298514,
+          "OVMERDPlus": 61.587096132976015
+        }
+      },
+      {
+        "variant": "D_newgraph",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 73.21494810154603,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 72.62690960767395,
+          "SIMS": 86.00588020038107,
+          "OVMERDPlus": 61.012054496583055
+        }
+      },
+      {
+        "variant": "D_newgraph",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 72.53322554951609,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 71.12987869867533,
+          "SIMS": 85.7311551191613,
+          "OVMERDPlus": 60.73864283071162
+        }
+      },
+      {
+        "variant": "D_newgraph",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 74.87734164825716,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.3769476729432,
+          "SIMS": 86.97037729734005,
+          "OVMERDPlus": 62.284699974488234
+        }
+      },
+      {
+        "variant": "D_newgraph",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 74.13673759521356,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 74.8525605237781,
+          "SIMS": 85.42034222552874,
+          "OVMERDPlus": 62.13731003633384
+        }
+      },
+      {
+        "variant": "D_newgraph",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 73.59123115842934,
+        "nine_mean": null,
+        "metrics": {
+          "MER2023": 75.03101050601431,
+          "SIMS": 84.7533498257263,
+          "OVMERDPlus": 60.98933314354742
+        }
+      }
+    ],
+    "D多起点10轮": [
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "31",
+        "three_mean": 73.4490852020198,
+        "nine_mean": 71.64869983231037,
+        "metrics": {
+          "MER2023": 73.75242348880879,
+          "SIMS": 85.46902857644739,
+          "OVMERDPlus": 61.125803540803226
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "32",
+        "three_mean": 73.8285675888795,
+        "nine_mean": 72.01937465045711,
+        "metrics": {
+          "MER2023": 73.88722529564026,
+          "SIMS": 86.97037729734005,
+          "OVMERDPlus": 60.62810017365818
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "33",
+        "three_mean": 74.9663581982216,
+        "nine_mean": 73.35026207508852,
+        "metrics": {
+          "MER2023": 76.81205907729787,
+          "SIMS": 86.67422492629522,
+          "OVMERDPlus": 61.41279059107168
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "34",
+        "three_mean": 74.43840348959623,
+        "nine_mean": 72.20651976556347,
+        "metrics": {
+          "MER2023": 75.15850378115007,
+          "SIMS": 88.22676608749208,
+          "OVMERDPlus": 59.92994060014652
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "35",
+        "three_mean": 74.252052079449,
+        "nine_mean": 72.80793539988184,
+        "metrics": {
+          "MER2023": 73.33360401969243,
+          "SIMS": 87.24691186031393,
+          "OVMERDPlus": 62.175640358340644
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "36",
+        "three_mean": 74.18489662585884,
+        "nine_mean": 73.10615575809825,
+        "metrics": {
+          "MER2023": 74.77967822159061,
+          "SIMS": 85.66736741085992,
+          "OVMERDPlus": 62.107644245126004
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "37",
+        "three_mean": 72.96120357185252,
+        "nine_mean": 71.69916898539448,
+        "metrics": {
+          "MER2023": 72.68517484647008,
+          "SIMS": 86.22666480913904,
+          "OVMERDPlus": 59.971771059948466
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "38",
+        "three_mean": 73.78919809714341,
+        "nine_mean": 72.3025368129365,
+        "metrics": {
+          "MER2023": 73.31898695630107,
+          "SIMS": 87.39964693128667,
+          "OVMERDPlus": 60.64896040384248
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "39",
+        "three_mean": 75.63551954613106,
+        "nine_mean": 73.74680057769174,
+        "metrics": {
+          "MER2023": 79.00847586661929,
+          "SIMS": 85.64916530524103,
+          "OVMERDPlus": 62.24891746653288
+        }
+      },
+      {
+        "variant": "from_30",
+        "base_epoch": "30",
+        "epoch": "40",
+        "three_mean": 73.29462717050995,
+        "nine_mean": 72.21978127258002,
+        "metrics": {
+          "MER2023": 72.32462061614983,
+          "SIMS": 87.71488635216565,
+          "OVMERDPlus": 59.844374543214386
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "36",
+        "three_mean": 72.62041356283538,
+        "nine_mean": 71.35833251889528,
+        "metrics": {
+          "MER2023": 72.32462061614982,
+          "SIMS": 84.98812603313606,
+          "OVMERDPlus": 60.548494039220266
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "37",
+        "three_mean": 73.04009891697704,
+        "nine_mean": 71.55074593905462,
+        "metrics": {
+          "MER2023": 71.20641526671065,
+          "SIMS": 86.22666480913904,
+          "OVMERDPlus": 61.68721667508144
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "38",
+        "three_mean": 73.37544189203182,
+        "nine_mean": 72.5107071485938,
+        "metrics": {
+          "MER2023": 73.63954727706441,
+          "SIMS": 85.85674655552586,
+          "OVMERDPlus": 60.63003184350519
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "39",
+        "three_mean": 73.93619121485433,
+        "nine_mean": 72.92526034777116,
+        "metrics": {
+          "MER2023": 74.14586611175963,
+          "SIMS": 86.4266820762945,
+          "OVMERDPlus": 61.23602545650887
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "40",
+        "three_mean": 74.37593509467047,
+        "nine_mean": 73.21956490667554,
+        "metrics": {
+          "MER2023": 74.09856367050702,
+          "SIMS": 86.27801484315366,
+          "OVMERDPlus": 62.75122677035071
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "41",
+        "three_mean": 75.61025254839446,
+        "nine_mean": 73.07775739892703,
+        "metrics": {
+          "MER2023": 75.58828604780999,
+          "SIMS": 89.44111845238163,
+          "OVMERDPlus": 61.80135314499174
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "42",
+        "three_mean": 74.26529093433724,
+        "nine_mean": 72.9171398579349,
+        "metrics": {
+          "MER2023": 75.47175557021774,
+          "SIMS": 85.78096618482152,
+          "OVMERDPlus": 61.54315104797248
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "43",
+        "three_mean": 74.95181002308559,
+        "nine_mean": 73.435169364514,
+        "metrics": {
+          "MER2023": 78.07602903111201,
+          "SIMS": 84.97410554868502,
+          "OVMERDPlus": 61.80529548945972
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "44",
+        "three_mean": 72.21180181760805,
+        "nine_mean": 71.54084862881209,
+        "metrics": {
+          "MER2023": 72.892858955489,
+          "SIMS": 84.13172820488063,
+          "OVMERDPlus": 59.61081829245452
+        }
+      },
+      {
+        "variant": "from_35",
+        "base_epoch": "35",
+        "epoch": "45",
+        "three_mean": 75.67090554828617,
+        "nine_mean": 73.82544372532675,
+        "metrics": {
+          "MER2023": 76.96513221336852,
+          "SIMS": 88.460488298514,
+          "OVMERDPlus": 61.587096132976015
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "41",
+        "three_mean": 73.01225074541719,
+        "nine_mean": 71.75834443728158,
+        "metrics": {
+          "MER2023": 73.26437598335278,
+          "SIMS": 85.24912144852462,
+          "OVMERDPlus": 60.52325480437417
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "42",
+        "three_mean": 73.10277999179958,
+        "nine_mean": 71.69491221953399,
+        "metrics": {
+          "MER2023": 72.19347307516621,
+          "SIMS": 85.96410224926737,
+          "OVMERDPlus": 61.15076465096516
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "43",
+        "three_mean": 74.37680019356269,
+        "nine_mean": 72.7774301041561,
+        "metrics": {
+          "MER2023": 75.8250012688423,
+          "SIMS": 86.40901955158316,
+          "OVMERDPlus": 60.89637976026262
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "44",
+        "three_mean": 74.01602540818389,
+        "nine_mean": 72.58728556931389,
+        "metrics": {
+          "MER2023": 74.07298380957215,
+          "SIMS": 87.20300661683922,
+          "OVMERDPlus": 60.77208579814031
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "45",
+        "three_mean": 72.91433912136937,
+        "nine_mean": 72.29007285380568,
+        "metrics": {
+          "MER2023": 73.64685580876008,
+          "SIMS": 83.74967563979602,
+          "OVMERDPlus": 61.346485915551995
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "46",
+        "three_mean": 74.17565021847749,
+        "nine_mean": 73.22690524526324,
+        "metrics": {
+          "MER2023": 73.3955235243364,
+          "SIMS": 87.16967862770514,
+          "OVMERDPlus": 61.961748503390915
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "47",
+        "three_mean": 73.23016682887906,
+        "nine_mean": 72.43323221349145,
+        "metrics": {
+          "MER2023": 72.90016748718469,
+          "SIMS": 86.16169511576813,
+          "OVMERDPlus": 60.62863788368439
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "48",
+        "three_mean": 74.62960407361963,
+        "nine_mean": 73.58836435381497,
+        "metrics": {
+          "MER2023": 75.01639344262296,
+          "SIMS": 86.69112688151279,
+          "OVMERDPlus": 62.181291896723145
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "49",
+        "three_mean": 74.40447736632662,
+        "nine_mean": 73.49647040239431,
+        "metrics": {
+          "MER2023": 75.95249454397808,
+          "SIMS": 86.65646577281333,
+          "OVMERDPlus": 60.60447178218844
+        }
+      },
+      {
+        "variant": "from_40",
+        "base_epoch": "40",
+        "epoch": "50",
+        "three_mean": 72.93422880662453,
+        "nine_mean": 72.55724423434381,
+        "metrics": {
+          "MER2023": 73.7780033497437,
+          "SIMS": 86.21172214447657,
+          "OVMERDPlus": 58.812960925653314
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "46",
+        "three_mean": 71.67021749667852,
+        "nine_mean": 71.06797348675411,
+        "metrics": {
+          "MER2023": 72.38654012079378,
+          "SIMS": 82.72046313582312,
+          "OVMERDPlus": 59.903649233418655
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "47",
+        "three_mean": 72.4593727291525,
+        "nine_mean": 71.77642622636034,
+        "metrics": {
+          "MER2023": 71.63254326752272,
+          "SIMS": 84.94330968557772,
+          "OVMERDPlus": 60.8022652343571
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "48",
+        "three_mean": 73.02248691259993,
+        "nine_mean": 72.26023650132893,
+        "metrics": {
+          "MER2023": 71.51601278993047,
+          "SIMS": 85.91448139992825,
+          "OVMERDPlus": 61.63696654794107
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "49",
+        "three_mean": 73.93261791008301,
+        "nine_mean": 72.47924371378409,
+        "metrics": {
+          "MER2023": 73.26803024920063,
+          "SIMS": 86.48874586932827,
+          "OVMERDPlus": 62.04107761172012
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "50",
+        "three_mean": 73.98655251453117,
+        "nine_mean": 72.95142993883823,
+        "metrics": {
+          "MER2023": 75.71943358879359,
+          "SIMS": 84.50543918401296,
+          "OVMERDPlus": 61.734784770786966
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "51",
+        "three_mean": 74.68702092226243,
+        "nine_mean": 73.25450241895895,
+        "metrics": {
+          "MER2023": 75.8978835710298,
+          "SIMS": 86.92188673831588,
+          "OVMERDPlus": 61.24129245744163
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "52",
+        "three_mean": 72.51672253765857,
+        "nine_mean": 72.08342643619532,
+        "metrics": {
+          "MER2023": 73.01669796477694,
+          "SIMS": 84.15738382146503,
+          "OVMERDPlus": 60.37608582673373
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "53",
+        "three_mean": 73.78461770211679,
+        "nine_mean": 72.8070597772822,
+        "metrics": {
+          "MER2023": 75.7594274983505,
+          "SIMS": 85.60998039194854,
+          "OVMERDPlus": 59.98444521605132
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "54",
+        "three_mean": 74.88608301722336,
+        "nine_mean": 74.01731621974933,
+        "metrics": {
+          "MER2023": 77.13261939806121,
+          "SIMS": 86.03729269385927,
+          "OVMERDPlus": 61.4883369597496
+        }
+      },
+      {
+        "variant": "from_45",
+        "base_epoch": "45",
+        "epoch": "55",
+        "three_mean": 73.01721119891346,
+        "nine_mean": 71.78024442181126,
+        "metrics": {
+          "MER2023": 73.26437598335278,
+          "SIMS": 84.94330968557772,
+          "OVMERDPlus": 60.843947927809886
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "51",
+        "three_mean": 73.33782097068843,
+        "nine_mean": 72.0451459759007,
+        "metrics": {
+          "MER2023": 72.44115109374206,
+          "SIMS": 85.40228072356201,
+          "OVMERDPlus": 62.17003109476119
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "52",
+        "three_mean": 72.20544746821204,
+        "nine_mean": 71.79682337947935,
+        "metrics": {
+          "MER2023": 71.50504999238694,
+          "SIMS": 83.92251712188808,
+          "OVMERDPlus": 61.18877529036111
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "53",
+        "three_mean": 73.07763630989365,
+        "nine_mean": 72.67997516804516,
+        "metrics": {
+          "MER2023": 73.82165152514845,
+          "SIMS": 85.20641775796415,
+          "OVMERDPlus": 60.20483964656835
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "54",
+        "three_mean": 74.4727820209326,
+        "nine_mean": 72.59481386661172,
+        "metrics": {
+          "MER2023": 75.0200477084708,
+          "SIMS": 86.88534680603307,
+          "OVMERDPlus": 61.51295154829391
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "55",
+        "three_mean": 74.79699392219585,
+        "nine_mean": 73.31982986640048,
+        "metrics": {
+          "MER2023": 75.83230980053798,
+          "SIMS": 86.65646577281333,
+          "OVMERDPlus": 61.90220619323625
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "56",
+        "three_mean": 72.99880766956525,
+        "nine_mean": 72.46187385751495,
+        "metrics": {
+          "MER2023": 73.78165761559153,
+          "SIMS": 83.97037186589105,
+          "OVMERDPlus": 61.244393527213184
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "57",
+        "three_mean": 74.76756847435176,
+        "nine_mean": 73.3907577448416,
+        "metrics": {
+          "MER2023": 75.39887326803026,
+          "SIMS": 87.60920713187245,
+          "OVMERDPlus": 61.29462502315259
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "58",
+        "three_mean": 74.08662109450312,
+        "nine_mean": 72.93281310739239,
+        "metrics": {
+          "MER2023": 76.40420240572502,
+          "SIMS": 84.6962942323767,
+          "OVMERDPlus": 61.15936664540763
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "59",
+        "three_mean": 72.75848594552183,
+        "nine_mean": 72.23340350607295,
+        "metrics": {
+          "MER2023": 74.25874232350404,
+          "SIMS": 83.1283460220051,
+          "OVMERDPlus": 60.88836949105635
+        }
+      },
+      {
+        "variant": "from_50",
+        "base_epoch": "50",
+        "epoch": "60",
+        "three_mean": 73.42001334527937,
+        "nine_mean": 72.10648038024586,
+        "metrics": {
+          "MER2023": 73.27168451504848,
+          "SIMS": 86.27801484315366,
+          "OVMERDPlus": 60.71034067763597
+        }
+      }
+    ]
+  }
+}

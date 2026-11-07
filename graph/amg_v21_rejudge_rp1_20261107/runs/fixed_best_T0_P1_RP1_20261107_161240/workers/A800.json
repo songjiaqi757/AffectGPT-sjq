@@ -1,0 +1,28 @@
+{
+  "node": "A800",
+  "pid": 2499456,
+  "completed_this_worker": 4,
+  "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+  "judge": {
+    "model": "Qwen25",
+    "temperature": 0,
+    "top_p": 1,
+    "repetition_penalty": 1.0,
+    "max_tokens": 512
+  },
+  "state": "complete",
+  "at": "2026-11-07T16:20:09.765965+08:00",
+  "job_id": "from_50_epoch_55_IEMOCAPFour",
+  "dataset": "IEMOCAPFour",
+  "base_epoch": 50,
+  "epoch": 55,
+  "last_job": "from_50_epoch_55_IEMOCAPFour",
+  "last_score": 0.6224037339556593,
+  "last_delta_pp": 0.0,
+  "job_counts": {
+    "complete": 8,
+    "running": 1
+  },
+  "completed_total": 9,
+  "results": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/RESULTS.md"
+}

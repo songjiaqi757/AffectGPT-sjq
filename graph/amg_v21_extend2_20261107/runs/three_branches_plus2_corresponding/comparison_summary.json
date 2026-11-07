@@ -1,0 +1,251 @@
+{
+  "complete": true,
+  "scored": 10,
+  "expected": 10,
+  "comparisons": [
+    {
+      "dataset": "MELD",
+      "original_base": 40,
+      "parent_epoch": 45,
+      "epoch": 46,
+      "main_metric": "HIT",
+      "main_score": 0.5469058460417233,
+      "parent_score": 0.5833635135061156,
+      "delta_parent_pp": -3.6457667464392274,
+      "previous_best": 0.5833635135061156,
+      "delta_best_pp": -3.6457667464392274
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "original_base": 40,
+      "parent_epoch": 45,
+      "epoch": 46,
+      "main_metric": "F_s",
+      "main_score": 0.6255534305903574,
+      "parent_score": 0.6385637529180404,
+      "delta_parent_pp": -1.3010322327682955,
+      "previous_best": 0.6385637529180404,
+      "delta_best_pp": -1.3010322327682955
+    },
+    {
+      "dataset": "MELD",
+      "original_base": 40,
+      "parent_epoch": 45,
+      "epoch": 47,
+      "main_metric": "HIT",
+      "main_score": 0.5564756165463952,
+      "parent_score": 0.5833635135061156,
+      "delta_parent_pp": -2.688789695972038,
+      "previous_best": 0.5833635135061156,
+      "delta_best_pp": -2.688789695972038
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "original_base": 40,
+      "parent_epoch": 45,
+      "epoch": 47,
+      "main_metric": "F_s",
+      "main_score": 0.6001277929424674,
+      "parent_score": 0.6385637529180404,
+      "delta_parent_pp": -3.843595997557292,
+      "previous_best": 0.6385637529180404,
+      "delta_best_pp": -3.843595997557292
+    },
+    {
+      "dataset": "MER2024",
+      "original_base": 50,
+      "parent_epoch": 55,
+      "epoch": 56,
+      "main_metric": "HIT",
+      "main_score": 0.74754470747537,
+      "parent_score": 0.7874597282532567,
+      "delta_parent_pp": -3.9915020777886667,
+      "previous_best": 0.7874597282532567,
+      "delta_best_pp": -3.9915020777886667
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "original_base": 50,
+      "parent_epoch": 55,
+      "epoch": 56,
+      "main_metric": "HIT",
+      "main_score": 0.5799299883313885,
+      "parent_score": 0.6224037339556593,
+      "delta_parent_pp": -4.247374562427075,
+      "previous_best": 0.6224037339556593,
+      "delta_best_pp": -4.247374562427075
+    },
+    {
+      "dataset": "MER2023",
+      "original_base": 35,
+      "parent_epoch": 40,
+      "epoch": 41,
+      "main_metric": "HIT",
+      "main_score": 0.7463025935136781,
+      "parent_score": 0.7866619296553825,
+      "delta_parent_pp": -4.035933614170439,
+      "previous_best": 0.7866619296553825,
+      "delta_best_pp": -4.035933614170439
+    },
+    {
+      "dataset": "MER2024",
+      "original_base": 50,
+      "parent_epoch": 55,
+      "epoch": 57,
+      "main_metric": "HIT",
+      "main_score": 0.7496689545688004,
+      "parent_score": 0.7874597282532567,
+      "delta_parent_pp": -3.779077368445627,
+      "previous_best": 0.7874597282532567,
+      "delta_best_pp": -3.779077368445627
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "original_base": 50,
+      "parent_epoch": 55,
+      "epoch": 57,
+      "main_metric": "HIT",
+      "main_score": 0.5761960326721121,
+      "parent_score": 0.6224037339556593,
+      "delta_parent_pp": -4.620770128354723,
+      "previous_best": 0.6224037339556593,
+      "delta_best_pp": -4.620770128354723
+    },
+    {
+      "dataset": "MER2023",
+      "original_base": 35,
+      "parent_epoch": 40,
+      "epoch": 42,
+      "main_metric": "HIT",
+      "main_score": 0.7489986296503071,
+      "parent_score": 0.7866619296553825,
+      "delta_parent_pp": -3.766330000507545,
+      "previous_best": 0.7866619296553825,
+      "delta_best_pp": -3.766330000507545
+    }
+  ],
+  "dataset_best": [
+    {
+      "dataset": "MER2023",
+      "previous_best": 0.7866619296553825,
+      "new_best": 0.7489986296503071,
+      "retained_best": 0.7866619296553825,
+      "new_checkpoint": {
+        "dataset": "MER2023",
+        "original_base": 35,
+        "parent_epoch": 40,
+        "epoch": 42,
+        "main_metric": "HIT",
+        "main_score": 0.7489986296503071,
+        "parent_score": 0.7866619296553825,
+        "delta_parent_pp": -3.766330000507545,
+        "previous_best": 0.7866619296553825,
+        "delta_best_pp": -3.766330000507545
+      }
+    },
+    {
+      "dataset": "MER2024",
+      "previous_best": 0.7874597282532567,
+      "new_best": 0.7496689545688004,
+      "retained_best": 0.7874597282532567,
+      "new_checkpoint": {
+        "dataset": "MER2024",
+        "original_base": 50,
+        "parent_epoch": 55,
+        "epoch": 57,
+        "main_metric": "HIT",
+        "main_score": 0.7496689545688004,
+        "parent_score": 0.7874597282532567,
+        "delta_parent_pp": -3.779077368445627,
+        "previous_best": 0.7874597282532567,
+        "delta_best_pp": -3.779077368445627
+      }
+    },
+    {
+      "dataset": "MELD",
+      "previous_best": 0.5833635135061156,
+      "new_best": 0.5564756165463952,
+      "retained_best": 0.5833635135061156,
+      "new_checkpoint": {
+        "dataset": "MELD",
+        "original_base": 40,
+        "parent_epoch": 45,
+        "epoch": 47,
+        "main_metric": "HIT",
+        "main_score": 0.5564756165463952,
+        "parent_score": 0.5833635135061156,
+        "delta_parent_pp": -2.688789695972038,
+        "previous_best": 0.5833635135061156,
+        "delta_best_pp": -2.688789695972038
+      }
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "previous_best": 0.6224037339556593,
+      "new_best": 0.5799299883313885,
+      "retained_best": 0.6224037339556593,
+      "new_checkpoint": {
+        "dataset": "IEMOCAPFour",
+        "original_base": 50,
+        "parent_epoch": 55,
+        "epoch": 56,
+        "main_metric": "HIT",
+        "main_score": 0.5799299883313885,
+        "parent_score": 0.6224037339556593,
+        "delta_parent_pp": -4.247374562427075,
+        "previous_best": 0.6224037339556593,
+        "delta_best_pp": -4.247374562427075
+      }
+    },
+    {
+      "dataset": "CMUMOSI",
+      "previous_best": 0.8256995739535186,
+      "new_best": null,
+      "retained_best": 0.8256995739535186,
+      "new_checkpoint": null
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "previous_best": 0.7975986598970195,
+      "new_best": null,
+      "retained_best": 0.7975986598970195,
+      "new_checkpoint": null
+    },
+    {
+      "dataset": "SIMS",
+      "previous_best": 0.8892605105981487,
+      "new_best": null,
+      "retained_best": 0.8892605105981487,
+      "new_checkpoint": null
+    },
+    {
+      "dataset": "SIMSv2",
+      "previous_best": 0.8672743235843202,
+      "new_best": null,
+      "retained_best": 0.8672743235843202,
+      "new_checkpoint": null
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "previous_best": 0.6385637529180404,
+      "new_best": 0.6255534305903574,
+      "retained_best": 0.6385637529180404,
+      "new_checkpoint": {
+        "dataset": "OVMERDPlus",
+        "original_base": 40,
+        "parent_epoch": 45,
+        "epoch": 46,
+        "main_metric": "F_s",
+        "main_score": 0.6255534305903574,
+        "parent_score": 0.6385637529180404,
+        "delta_parent_pp": -1.3010322327682955,
+        "previous_best": 0.6385637529180404,
+        "delta_best_pp": -1.3010322327682955
+      }
+    }
+  ],
+  "previous_nine_dataset_best_mean": 0.7553650807023846,
+  "retained_nine_dataset_best_mean": 0.7553650807023846,
+  "delta_pp": 0.0,
+  "at": "2026-11-07T20:51:53.115992+08:00"
+}

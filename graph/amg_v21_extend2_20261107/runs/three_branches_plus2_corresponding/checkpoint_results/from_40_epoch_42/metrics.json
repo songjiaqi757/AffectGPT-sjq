@@ -1,0 +1,38 @@
+{
+  "base_epoch": 40,
+  "epoch": 42,
+  "checkpoint": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_extend2_20261107/runs/three_branches_plus2_corresponding/from_40/checkpoint_000042_loss_0.592.pth",
+    "sha256": "8c99047541ba6a41e950c02f48cb8aef0e0aa42c1653aec316a848d68b3c9ef7",
+    "epoch": 42,
+    "loss": 0.5924653600819408
+  },
+  "datasets": [
+    {
+      "base_epoch": 40,
+      "epoch": 42,
+      "dataset": "MER2023",
+      "samples": 411,
+      "main_metric": "HIT",
+      "main_score": 0.7489986296503071,
+      "metrics": {
+        "HIT": 0.7489986296503071
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_extend2_20261107/runs/three_branches_plus2_corresponding/from_40/checkpoint_000042_loss_0.592.pth",
+        "sha256": "8c99047541ba6a41e950c02f48cb8aef0e0aa42c1653aec316a848d68b3c9ef7",
+        "epoch": 42,
+        "loss": 0.5924653600819408
+      },
+      "plan_id": "6c14db096ce6288f237d522f48bed1f2ba991247a51d781779416a58fdb675eb",
+      "raw_sha256": "3f96eaa0df499ce3a6b3dd83d05d1865741b0e131562eeed39fcb1ad06a2f58e",
+      "official_evaluation_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "completed_at": "2026-11-07T20:56:50.777045+08:00",
+      "node": "A100",
+      "dispatch": "checkpoint_complete_nine_datasets"
+    }
+  ],
+  "complete": true,
+  "completed_at": "2026-11-07T20:56:50.828971+08:00",
+  "node": "A100"
+}

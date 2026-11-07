@@ -1,0 +1,109 @@
+{
+  "complete": true,
+  "samples": 30755,
+  "plan_id": "5a22c2e86b8db8607f2ce757562d7d0bb3c14e77d1ede08ff0c80b61678df5c5",
+  "folds": [
+    {
+      "complete": true,
+      "fold": 0,
+      "samples": 6141,
+      "sha256": "1ae9637ad7ebd547621c0e40ddd7fb16cb357091b6b79390e6057dea34544ada",
+      "graph_id": "amg_v21_graph_oof_fold_0_d5f1e3c88b8f9733",
+      "maximum_sequence_tokens": 990,
+      "maximum_prompt_tokens": 800,
+      "cpu_prompt_checks": 36846,
+      "levels": {
+        "1": 5739,
+        "3": 393,
+        "2": 9
+      },
+      "original_subtitles_preserved": true,
+      "graph_only_oof": true,
+      "Student_retrained": false,
+      "AE_enabled": false,
+      "created_at_beijing": "2026-11-05T18:26:12.001665+08:00"
+    },
+    {
+      "complete": true,
+      "fold": 1,
+      "samples": 6158,
+      "sha256": "6999c3987d95076a7b8457f2201d118f1863a8ac8d00e680e870922800d60f67",
+      "graph_id": "amg_v21_graph_oof_fold_1_a25435af7867632f",
+      "maximum_sequence_tokens": 959,
+      "maximum_prompt_tokens": 799,
+      "cpu_prompt_checks": 36948,
+      "levels": {
+        "1": 5733,
+        "3": 425
+      },
+      "original_subtitles_preserved": true,
+      "graph_only_oof": true,
+      "Student_retrained": false,
+      "AE_enabled": false,
+      "created_at_beijing": "2026-11-05T18:31:06.049510+08:00"
+    },
+    {
+      "complete": true,
+      "fold": 2,
+      "samples": 6153,
+      "sha256": "c5bf4e7a2966642cac2d9e4580ec074ede6e6c73f9fffc0f390d121666a6d4eb",
+      "graph_id": "amg_v21_graph_oof_fold_2_f424d7e2ecfc2ee0",
+      "maximum_sequence_tokens": 953,
+      "maximum_prompt_tokens": 800,
+      "cpu_prompt_checks": 36918,
+      "levels": {
+        "1": 5687,
+        "3": 448,
+        "2": 18
+      },
+      "original_subtitles_preserved": true,
+      "graph_only_oof": true,
+      "Student_retrained": false,
+      "AE_enabled": false,
+      "created_at_beijing": "2026-11-05T18:26:10.884986+08:00"
+    },
+    {
+      "complete": true,
+      "fold": 3,
+      "samples": 6149,
+      "sha256": "7b7a68ddee6467135ff081781caa1fbefa148962549fd9d93a9c25bde23ad7fc",
+      "graph_id": "amg_v21_graph_oof_fold_3_49a188cff2c162f7",
+      "maximum_sequence_tokens": 943,
+      "maximum_prompt_tokens": 798,
+      "cpu_prompt_checks": 36894,
+      "levels": {
+        "1": 5643,
+        "3": 500,
+        "2": 6
+      },
+      "original_subtitles_preserved": true,
+      "graph_only_oof": true,
+      "Student_retrained": false,
+      "AE_enabled": false,
+      "created_at_beijing": "2026-11-05T18:31:05.651722+08:00"
+    },
+    {
+      "complete": true,
+      "fold": 4,
+      "samples": 6154,
+      "sha256": "9df31c766238840cb974e939a8342a00d9e6a260264e009c09165995fdf6fcfd",
+      "graph_id": "amg_v21_graph_oof_fold_4_154295062abd84b0",
+      "maximum_sequence_tokens": 958,
+      "maximum_prompt_tokens": 796,
+      "cpu_prompt_checks": 36924,
+      "levels": {
+        "1": 5856,
+        "3": 298
+      },
+      "original_subtitles_preserved": true,
+      "graph_only_oof": true,
+      "Student_retrained": false,
+      "AE_enabled": false,
+      "created_at_beijing": "2026-11-05T18:26:01.054865+08:00"
+    }
+  ],
+  "graph_version": "v2.1",
+  "format": "P4",
+  "graph_only": true,
+  "cue_student_oof": false
+}

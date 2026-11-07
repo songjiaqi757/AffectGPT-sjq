@@ -1,0 +1,41 @@
+{
+  "job_id": "from_40_epoch_45_OVMERDPlus",
+  "base_epoch": 40,
+  "epoch": 45,
+  "dataset": "OVMERDPlus",
+  "samples": 532,
+  "checkpoint": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_40/checkpoint_000045_loss_0.606.pth",
+    "sha256": "a9f663b5b9deb8cde80e67585e8f2169e5aa4e47743443e5d2345d8a49852137",
+    "epoch": 45,
+    "loss": 0.6062258082658053
+  },
+  "main_metric": "F_s",
+  "main_score": 0.6385637529180404,
+  "metrics": {
+    "F_s": 0.6385637529180404,
+    "P_s": 0.6103355780372542,
+    "R_s": 0.6708397645092125
+  },
+  "baseline_main_score": 0.6385637529180404,
+  "baseline_metrics": {
+    "F_s": 0.6385637529180404,
+    "P_s": 0.6103355780372542,
+    "R_s": 0.6708397645092125
+  },
+  "delta_pp": 0.0,
+  "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_20261107/runs/judge_T0_P1_20261107_141120/score_inputs/from_40_epoch_45_OVMERDPlus/name2reason.npz",
+  "raw_sha256": "6dcb5d4885bed3c15016cde42fe7482fcedeab1bcadf3a760b5ab7d241e2342c",
+  "binding": "06fed1f08ade633ebf074eb008b23e9d404122c202fe980f46a2517e4b416522",
+  "plan_id": "a994a19871291310758f5a783e6c8a7ab322da1712362a95e141589c8d21414c",
+  "judge": {
+    "model": "Qwen25",
+    "temperature": 0,
+    "top_p": 1,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512
+  },
+  "node": "A100",
+  "elapsed_seconds": 19.664551431313157,
+  "completed_at": "2026-11-07T14:25:07.024288+08:00"
+}

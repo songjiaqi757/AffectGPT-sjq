@@ -1,0 +1,21 @@
+{
+  "authorized": true,
+  "epochs": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "node": "A100",
+  "datasets": [
+    "MER2023",
+    "SIMS",
+    "OVMERDPlus"
+  ],
+  "input_contract": "Exact same prior v2.1 P4 packets and complete Prompts; no added D evidence filtering or inference dropout",
+  "original_native_generation": true,
+  "official_evaluation": true,
+  "run": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/runs/ckpt35_graph_oof_compact_gate_20261105_175732/A100_checkpoint_eval",
+  "created_at": "2026-11-05T19:11:21.202218+08:00"
+}

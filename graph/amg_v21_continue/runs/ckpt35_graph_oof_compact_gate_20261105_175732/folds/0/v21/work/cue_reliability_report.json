@@ -1,0 +1,4618 @@
+{
+  "bins": 10,
+  "bin_strategy": "Fixed equal-width [0,1] bins, counts reported",
+  "cues": [
+    {
+      "cue_id": "TXT_AFFECT_WORD_POSITIVE",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "TXT_AFFECT_WORD_NEGATIVE",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 901,
+          "observed_frequency": 0.01997780244173141,
+          "mean_score": 0.005456946635068942
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 33,
+          "observed_frequency": 0.18181818181818182,
+          "mean_score": 0.1457283514918703
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 14,
+          "observed_frequency": 0.21428571428571427,
+          "mean_score": 0.2508104698998587
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 9,
+          "observed_frequency": 0.2222222222222222,
+          "mean_score": 0.3275020486778683
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 6,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.44751859704653424
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 11,
+          "observed_frequency": 0.5454545454545454,
+          "mean_score": 0.5512382659045133
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 9,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.6492553353309631
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 12,
+          "observed_frequency": 0.75,
+          "mean_score": 0.7483386745055517
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 16,
+          "observed_frequency": 0.5625,
+          "mean_score": 0.8562009930610657
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 154,
+          "observed_frequency": 0.8831168831168831,
+          "mean_score": 0.9845090485238409
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 858,
+          "observed_frequency": 0.01048951048951049,
+          "mean_score": 0.015520563742652883
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 65,
+          "observed_frequency": 0.2153846153846154,
+          "mean_score": 0.14301597381525918
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 32,
+          "observed_frequency": 0.15625,
+          "mean_score": 0.24375131112611986
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 14,
+          "observed_frequency": 0.35714285714285715,
+          "mean_score": 0.3584443282700734
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 19,
+          "observed_frequency": 0.631578947368421,
+          "mean_score": 0.45200027495215334
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 15,
+          "observed_frequency": 0.7333333333333333,
+          "mean_score": 0.5590051298556479
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 21,
+          "observed_frequency": 0.5714285714285714,
+          "mean_score": 0.6567656820999203
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 21,
+          "observed_frequency": 0.8571428571428571,
+          "mean_score": 0.7477037927172467
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 25,
+          "observed_frequency": 0.84,
+          "mean_score": 0.8535040331020438
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 95,
+          "observed_frequency": 0.9368421052631579,
+          "mean_score": 0.9744865512817481
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_EVALUATION_POSITIVE",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 872,
+          "observed_frequency": 0.01834862385321101,
+          "mean_score": 0.0043497493415721785
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 12,
+          "observed_frequency": 0.08333333333333333,
+          "mean_score": 0.16451880956689516
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 12,
+          "observed_frequency": 0.25,
+          "mean_score": 0.25103558599948883
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 5,
+          "observed_frequency": 0.2,
+          "mean_score": 0.3271258771419525
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 4,
+          "observed_frequency": 0.25,
+          "mean_score": 0.43598516285419464
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 5,
+          "observed_frequency": 0.4,
+          "mean_score": 0.5573314428329468
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 3,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.6645774046579996
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 4,
+          "observed_frequency": 0.75,
+          "mean_score": 0.7647716701030731
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 9,
+          "observed_frequency": 0.7777777777777778,
+          "mean_score": 0.8400324384371439
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 178,
+          "observed_frequency": 0.9550561797752809,
+          "mean_score": 0.9932425611474541
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 838,
+          "observed_frequency": 0.015513126491646777,
+          "mean_score": 0.013543405588200491
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 36,
+          "observed_frequency": 0.08333333333333333,
+          "mean_score": 0.13616733714281312
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 22,
+          "observed_frequency": 0.18181818181818182,
+          "mean_score": 0.25178305700394366
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 8,
+          "observed_frequency": 0.125,
+          "mean_score": 0.3329461426142918
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.4462221664450866
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 7,
+          "observed_frequency": 0.8571428571428571,
+          "mean_score": 0.5542612592774292
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 7,
+          "observed_frequency": 0.7142857142857143,
+          "mean_score": 0.6412931074181235
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 12,
+          "observed_frequency": 0.8333333333333334,
+          "mean_score": 0.7502679452634825
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 19,
+          "observed_frequency": 0.8947368421052632,
+          "mean_score": 0.8485195173914254
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 147,
+          "observed_frequency": 0.9727891156462585,
+          "mean_score": 0.977824316936917
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_EVALUATION_NEGATIVE",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 685,
+          "observed_frequency": 0.035036496350364967,
+          "mean_score": 0.006041808338386109
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 28,
+          "observed_frequency": 0.35714285714285715,
+          "mean_score": 0.152312948767628
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 20,
+          "observed_frequency": 0.45,
+          "mean_score": 0.24904611110687255
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 16,
+          "observed_frequency": 0.375,
+          "mean_score": 0.353029889985919
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 11,
+          "observed_frequency": 0.6363636363636364,
+          "mean_score": 0.45468752763488074
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.5647458136081696
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 16,
+          "observed_frequency": 0.6875,
+          "mean_score": 0.6684702038764954
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 14,
+          "observed_frequency": 0.5714285714285714,
+          "mean_score": 0.749847378049578
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 17,
+          "observed_frequency": 0.7647058823529411,
+          "mean_score": 0.8584282222916099
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 237,
+          "observed_frequency": 0.9324894514767933,
+          "mean_score": 0.9889372131995511
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 601,
+          "observed_frequency": 0.026622296173044926,
+          "mean_score": 0.022845249734329078
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 62,
+          "observed_frequency": 0.08064516129032258,
+          "mean_score": 0.14149722477945137
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 37,
+          "observed_frequency": 0.2702702702702703,
+          "mean_score": 0.2446757238584344
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 35,
+          "observed_frequency": 0.37142857142857144,
+          "mean_score": 0.3464254425536706
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 25,
+          "observed_frequency": 0.48,
+          "mean_score": 0.4457976830708891
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 20,
+          "observed_frequency": 0.6,
+          "mean_score": 0.5605207565147489
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 24,
+          "observed_frequency": 0.625,
+          "mean_score": 0.6392716199777525
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 25,
+          "observed_frequency": 0.76,
+          "mean_score": 0.7583738712597383
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 45,
+          "observed_frequency": 0.8,
+          "mean_score": 0.8576954034997684
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 178,
+          "observed_frequency": 0.9775280898876404,
+          "mean_score": 0.9715357257595271
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_NEGATION_PRESENT",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 680,
+          "observed_frequency": 0.022058823529411766,
+          "mean_score": 0.00906055352132619
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 23,
+          "observed_frequency": 0.13043478260869565,
+          "mean_score": 0.14214532206887784
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 16,
+          "observed_frequency": 0.4375,
+          "mean_score": 0.25145606230944395
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 5,
+          "observed_frequency": 0.4,
+          "mean_score": 0.33042166829109193
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 10,
+          "observed_frequency": 0.4,
+          "mean_score": 0.44066019356250763
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 14,
+          "observed_frequency": 0.35714285714285715,
+          "mean_score": 0.5567899516650608
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 9,
+          "observed_frequency": 0.2222222222222222,
+          "mean_score": 0.6533010535769992
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.7671041488647461
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 18,
+          "observed_frequency": 0.7777777777777778,
+          "mean_score": 0.8415571649869283
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 378,
+          "observed_frequency": 0.9761904761904762,
+          "mean_score": 0.9943509198144883
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 655,
+          "observed_frequency": 0.0183206106870229,
+          "mean_score": 0.01806072365611847
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 45,
+          "observed_frequency": 0.13333333333333333,
+          "mean_score": 0.1378452178425531
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 20,
+          "observed_frequency": 0.35,
+          "mean_score": 0.24260819657125315
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 16,
+          "observed_frequency": 0.5,
+          "mean_score": 0.3476125326249263
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 16,
+          "observed_frequency": 0.3125,
+          "mean_score": 0.44664179336168375
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 11,
+          "observed_frequency": 0.2727272727272727,
+          "mean_score": 0.5542559194961668
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 18,
+          "observed_frequency": 0.7222222222222222,
+          "mean_score": 0.6529978246056829
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 11,
+          "observed_frequency": 0.8181818181818182,
+          "mean_score": 0.7529031038844415
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 29,
+          "observed_frequency": 0.8620689655172413,
+          "mean_score": 0.8579184504625857
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 340,
+          "observed_frequency": 0.9882352941176471,
+          "mean_score": 0.9908606362570377
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_CONTRAST_PRESENT",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1030,
+          "observed_frequency": 0.008737864077669903,
+          "mean_score": 0.0022714609881922
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 12,
+          "observed_frequency": 0.08333333333333333,
+          "mean_score": 0.1432911635686954
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 4,
+          "observed_frequency": 0.25,
+          "mean_score": 0.269978329539299
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 4,
+          "observed_frequency": 0.25,
+          "mean_score": 0.3752354606986046
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 1,
+          "observed_frequency": 0.0,
+          "mean_score": 0.40922078490257263
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 2,
+          "observed_frequency": 0.5,
+          "mean_score": 0.5534785985946655
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 1,
+          "observed_frequency": 0.0,
+          "mean_score": 0.6918097138404846
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 2,
+          "observed_frequency": 0.5,
+          "mean_score": 0.7181910276412964
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 6,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.8550019462903341
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 72,
+          "observed_frequency": 0.9722222222222222,
+          "mean_score": 0.9940126828021474
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1029,
+          "observed_frequency": 0.008746355685131196,
+          "mean_score": 0.0066816502859624325
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 14,
+          "observed_frequency": 0.14285714285714285,
+          "mean_score": 0.14865139599201616
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 7,
+          "observed_frequency": 0.14285714285714285,
+          "mean_score": 0.259796128052426
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 3,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.3640953587192905
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 2,
+          "observed_frequency": 0.0,
+          "mean_score": 0.4812521070139192
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 2,
+          "observed_frequency": 0.5,
+          "mean_score": 0.5493163381912411
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 5,
+          "observed_frequency": 0.4,
+          "mean_score": 0.6439754931960402
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 2,
+          "observed_frequency": 0.5,
+          "mean_score": 0.7591473264206591
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 9,
+          "observed_frequency": 0.8888888888888888,
+          "mean_score": 0.8559225406951992
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 61,
+          "observed_frequency": 1.0,
+          "mean_score": 0.979312408772531
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_INTENSIFIER_PRESENT",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 626,
+          "observed_frequency": 0.05750798722044728,
+          "mean_score": 0.009892434087049923
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 33,
+          "observed_frequency": 0.21212121212121213,
+          "mean_score": 0.1398783770926071
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 20,
+          "observed_frequency": 0.3,
+          "mean_score": 0.23264330998063087
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 12,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.3546868984897931
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.45452797040343285
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 10,
+          "observed_frequency": 0.0,
+          "mean_score": 0.5556042671203614
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 15,
+          "observed_frequency": 0.26666666666666666,
+          "mean_score": 0.6437888622283936
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 22,
+          "observed_frequency": 0.5,
+          "mean_score": 0.741953971711072
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 15,
+          "observed_frequency": 0.6,
+          "mean_score": 0.8694467306137085
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 364,
+          "observed_frequency": 0.9093406593406593,
+          "mean_score": 0.9908525946449049
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 530,
+          "observed_frequency": 0.033962264150943396,
+          "mean_score": 0.03654423889550219
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 102,
+          "observed_frequency": 0.18627450980392157,
+          "mean_score": 0.1438124035108816
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 47,
+          "observed_frequency": 0.2553191489361702,
+          "mean_score": 0.2435139783253867
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 23,
+          "observed_frequency": 0.4782608695652174,
+          "mean_score": 0.35316687174332495
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 31,
+          "observed_frequency": 0.2903225806451613,
+          "mean_score": 0.4568229984892879
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 22,
+          "observed_frequency": 0.5454545454545454,
+          "mean_score": 0.5440887647194631
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 26,
+          "observed_frequency": 0.6153846153846154,
+          "mean_score": 0.6536271134892538
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 48,
+          "observed_frequency": 0.7083333333333334,
+          "mean_score": 0.7547330491670952
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 51,
+          "observed_frequency": 0.8627450980392157,
+          "mean_score": 0.8531349714547403
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 245,
+          "observed_frequency": 0.9795918367346939,
+          "mean_score": 0.9736345852699746
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_UNCERTAINTY_HEDGE",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1037,
+          "observed_frequency": 0.007714561234329798,
+          "mean_score": 0.0031655719189266586
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 13,
+          "observed_frequency": 0.23076923076923078,
+          "mean_score": 0.13792307044451052
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 4,
+          "observed_frequency": 0.25,
+          "mean_score": 0.2549707740545273
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 4,
+          "observed_frequency": 0.5,
+          "mean_score": 0.35749200731515884
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 5,
+          "observed_frequency": 0.6,
+          "mean_score": 0.4715105354785919
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 3,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.5658750732739767
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 2,
+          "observed_frequency": 0.0,
+          "mean_score": 0.6536243259906769
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 3,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.7626535296440125
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 2,
+          "observed_frequency": 1.0,
+          "mean_score": 0.8556917309761047
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 41,
+          "observed_frequency": 0.926829268292683,
+          "mean_score": 0.9851502412702979
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1029,
+          "observed_frequency": 0.007774538386783284,
+          "mean_score": 0.0077775155375960775
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 20,
+          "observed_frequency": 0.15,
+          "mean_score": 0.14991381247405117
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 8,
+          "observed_frequency": 0.25,
+          "mean_score": 0.25177243627138923
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 3,
+          "observed_frequency": 1.0,
+          "mean_score": 0.31957676396075896
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 5,
+          "observed_frequency": 0.4,
+          "mean_score": 0.46160270183909236
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 5,
+          "observed_frequency": 0.2,
+          "mean_score": 0.5562276281153397
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 1,
+          "observed_frequency": 1.0,
+          "mean_score": 0.6172588735611538
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 4,
+          "observed_frequency": 0.5,
+          "mean_score": 0.7503931307581476
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 9,
+          "observed_frequency": 0.8888888888888888,
+          "mean_score": 0.8420773737722701
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 30,
+          "observed_frequency": 0.9666666666666667,
+          "mean_score": 0.9768740219765479
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_RHETORICAL_QUESTION",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 888,
+          "observed_frequency": 0.0022522522522522522,
+          "mean_score": 0.0022385898410243106
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 4,
+          "observed_frequency": 0.25,
+          "mean_score": 0.1253766305744648
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 4,
+          "observed_frequency": 0.5,
+          "mean_score": 0.25066182389855385
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 1,
+          "observed_frequency": 0.0,
+          "mean_score": 0.378459095954895
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "observed_frequency": null,
+          "mean_score": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 4,
+          "observed_frequency": 0.75,
+          "mean_score": 0.5708979815244675
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "observed_frequency": null,
+          "mean_score": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 4,
+          "observed_frequency": 0.75,
+          "mean_score": 0.7556802928447723
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 1,
+          "observed_frequency": 1.0,
+          "mean_score": 0.8031737804412842
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 122,
+          "observed_frequency": 0.9836065573770492,
+          "mean_score": 0.994119647096415
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 887,
+          "observed_frequency": 0.0011273957158962795,
+          "mean_score": 0.0029546682817171693
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 5,
+          "observed_frequency": 0.4,
+          "mean_score": 0.13613958153486794
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 3,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.2638442813499029
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 1,
+          "observed_frequency": 0.0,
+          "mean_score": 0.3492795668564365
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 1,
+          "observed_frequency": 0.0,
+          "mean_score": 0.416578296381722
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 2,
+          "observed_frequency": 1.0,
+          "mean_score": 0.5447134357758345
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 2,
+          "observed_frequency": 0.5,
+          "mean_score": 0.6448471903305135
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 4,
+          "observed_frequency": 0.75,
+          "mean_score": 0.7383559733977731
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 2,
+          "observed_frequency": 1.0,
+          "mean_score": 0.868439033928784
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 121,
+          "observed_frequency": 0.9834710743801653,
+          "mean_score": 0.9942331674015247
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_EXCLAMATION_INTERJECTION",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1015,
+          "observed_frequency": 0.0049261083743842365,
+          "mean_score": 0.0020765520117630764
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 11,
+          "observed_frequency": 0.36363636363636365,
+          "mean_score": 0.13573967733166434
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 7,
+          "observed_frequency": 0.0,
+          "mean_score": 0.23691972664424352
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 5,
+          "observed_frequency": 0.2,
+          "mean_score": 0.3453053891658783
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 6,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.43941543499628705
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 7,
+          "observed_frequency": 0.42857142857142855,
+          "mean_score": 0.5464896730014256
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 12,
+          "observed_frequency": 0.5833333333333334,
+          "mean_score": 0.6438603897889456
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 5,
+          "observed_frequency": 0.4,
+          "mean_score": 0.7312187910079956
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 16,
+          "observed_frequency": 0.75,
+          "mean_score": 0.863163098692894
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 78,
+          "observed_frequency": 0.8846153846153846,
+          "mean_score": 0.9748756350615085
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1010,
+          "observed_frequency": 0.0039603960396039604,
+          "mean_score": 0.005063693779524068
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 15,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.13034788005391967
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 11,
+          "observed_frequency": 0.09090909090909091,
+          "mean_score": 0.23739126275135608
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 10,
+          "observed_frequency": 0.4,
+          "mean_score": 0.3618626996493114
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 11,
+          "observed_frequency": 0.5454545454545454,
+          "mean_score": 0.45954052315605587
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 10,
+          "observed_frequency": 0.6,
+          "mean_score": 0.5397864501985266
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 7,
+          "observed_frequency": 0.5714285714285714,
+          "mean_score": 0.667893741484692
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 13,
+          "observed_frequency": 0.7692307692307693,
+          "mean_score": 0.7382393348476879
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 31,
+          "observed_frequency": 0.8387096774193549,
+          "mean_score": 0.8608600406014746
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 44,
+          "observed_frequency": 0.9318181818181818,
+          "mean_score": 0.9611394433632907
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_DESIRE_NEED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 890,
+          "observed_frequency": 0.021348314606741574,
+          "mean_score": 0.006099135056085762
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 30,
+          "observed_frequency": 0.13333333333333333,
+          "mean_score": 0.1355820079644521
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 6,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.24404228230317435
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 6,
+          "observed_frequency": 0.5,
+          "mean_score": 0.3344443639119466
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.45419496297836304
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 12,
+          "observed_frequency": 0.5,
+          "mean_score": 0.540245920419693
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 16,
+          "observed_frequency": 0.4375,
+          "mean_score": 0.6355267949402332
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 16,
+          "observed_frequency": 0.625,
+          "mean_score": 0.7395746819674969
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 22,
+          "observed_frequency": 0.6363636363636364,
+          "mean_score": 0.8484064936637878
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 169,
+          "observed_frequency": 0.9171597633136095,
+          "mean_score": 0.9868373116092569
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 849,
+          "observed_frequency": 0.020023557126030624,
+          "mean_score": 0.01618691797938797
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 60,
+          "observed_frequency": 0.08333333333333333,
+          "mean_score": 0.1414477462318451
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 19,
+          "observed_frequency": 0.15789473684210525,
+          "mean_score": 0.2354202552075495
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 15,
+          "observed_frequency": 0.5333333333333333,
+          "mean_score": 0.3567507650224736
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 20,
+          "observed_frequency": 0.5,
+          "mean_score": 0.44759898749321503
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 27,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.544078958783637
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 18,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.6492624878347386
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 22,
+          "observed_frequency": 0.7727272727272727,
+          "mean_score": 0.7574131910946746
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 27,
+          "observed_frequency": 0.8148148148148148,
+          "mean_score": 0.8565229919398107
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 118,
+          "observed_frequency": 0.9576271186440678,
+          "mean_score": 0.9732742365457443
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1018,
+          "observed_frequency": 0.0068762278978389,
+          "mean_score": 0.00392807085693622
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 20,
+          "observed_frequency": 0.35,
+          "mean_score": 0.14257215969264508
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 14,
+          "observed_frequency": 0.5714285714285714,
+          "mean_score": 0.23357643080609186
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 7,
+          "observed_frequency": 0.2857142857142857,
+          "mean_score": 0.353011178118842
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 6,
+          "observed_frequency": 0.5,
+          "mean_score": 0.4645398457845052
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 9,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.543241043885549
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 8,
+          "observed_frequency": 0.5,
+          "mean_score": 0.634943462908268
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 14,
+          "observed_frequency": 0.42857142857142855,
+          "mean_score": 0.7458660134247371
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 14,
+          "observed_frequency": 0.35714285714285715,
+          "mean_score": 0.8449366901602063
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 48,
+          "observed_frequency": 0.8958333333333334,
+          "mean_score": 0.9797554214795431
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 996,
+          "observed_frequency": 0.0050200803212851405,
+          "mean_score": 0.008672589547479034
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 39,
+          "observed_frequency": 0.23076923076923078,
+          "mean_score": 0.1414315475737614
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 20,
+          "observed_frequency": 0.45,
+          "mean_score": 0.23619831261273924
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 11,
+          "observed_frequency": 0.45454545454545453,
+          "mean_score": 0.3548189835554817
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 15,
+          "observed_frequency": 0.5333333333333333,
+          "mean_score": 0.4370786396616552
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 16,
+          "observed_frequency": 0.3125,
+          "mean_score": 0.5545214507118801
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 13,
+          "observed_frequency": 0.46153846153846156,
+          "mean_score": 0.6421082677981238
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 6,
+          "observed_frequency": 1.0,
+          "mean_score": 0.7470100031007053
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 14,
+          "observed_frequency": 0.7142857142857143,
+          "mean_score": 0.850181645697672
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 28,
+          "observed_frequency": 0.9642857142857143,
+          "mean_score": 0.9596669000234275
+        }
+      ]
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1085,
+          "observed_frequency": 0.010138248847926268,
+          "mean_score": 0.002772413328584655
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 14,
+          "observed_frequency": 0.21428571428571427,
+          "mean_score": 0.15125568211078644
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 8,
+          "observed_frequency": 0.5,
+          "mean_score": 0.25843099132180214
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 5,
+          "observed_frequency": 0.2,
+          "mean_score": 0.34748037457466124
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 4,
+          "observed_frequency": 0.5,
+          "mean_score": 0.43438441306352615
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 8,
+          "observed_frequency": 0.125,
+          "mean_score": 0.5429401397705078
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 4,
+          "observed_frequency": 0.5,
+          "mean_score": 0.6468781530857086
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 4,
+          "observed_frequency": 0.25,
+          "mean_score": 0.7341881990432739
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 3,
+          "observed_frequency": 1.0,
+          "mean_score": 0.8617841998736063
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 35,
+          "observed_frequency": 0.8285714285714286,
+          "mean_score": 0.9668840595654079
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1068,
+          "observed_frequency": 0.008426966292134831,
+          "mean_score": 0.0076955368461384226
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 25,
+          "observed_frequency": 0.12,
+          "mean_score": 0.13893556543789554
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 14,
+          "observed_frequency": 0.5,
+          "mean_score": 0.2343415758311789
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 11,
+          "observed_frequency": 0.2727272727272727,
+          "mean_score": 0.35168005180411877
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 9,
+          "observed_frequency": 0.1111111111111111,
+          "mean_score": 0.4683637289413014
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 5,
+          "observed_frequency": 0.6,
+          "mean_score": 0.5306774459180442
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 6,
+          "observed_frequency": 0.5,
+          "mean_score": 0.6658447340529274
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 8,
+          "observed_frequency": 0.875,
+          "mean_score": 0.7449649366289903
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 9,
+          "observed_frequency": 0.7777777777777778,
+          "mean_score": 0.8561567126764883
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 15,
+          "observed_frequency": 0.9333333333333333,
+          "mean_score": 0.9559620209846948
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_FAST",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 775,
+          "observed_frequency": 0.014193548387096775,
+          "mean_score": 0.0030370916537604577
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 16,
+          "observed_frequency": 0.3125,
+          "mean_score": 0.13476180285215378
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 9,
+          "observed_frequency": 0.4444444444444444,
+          "mean_score": 0.2517235196299023
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 6,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.33158225814501446
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 10,
+          "observed_frequency": 0.8,
+          "mean_score": 0.4570332705974579
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 2,
+          "observed_frequency": 0.5,
+          "mean_score": 0.5319146513938904
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 2,
+          "observed_frequency": 1.0,
+          "mean_score": 0.6553570926189423
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 6,
+          "observed_frequency": 1.0,
+          "mean_score": 0.7316526373227438
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 2,
+          "observed_frequency": 1.0,
+          "mean_score": 0.8278652429580688
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 11,
+          "observed_frequency": 1.0,
+          "mean_score": 0.965442565354434
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 744,
+          "observed_frequency": 0.008064516129032258,
+          "mean_score": 0.006033194123240398
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 20,
+          "observed_frequency": 0.15,
+          "mean_score": 0.1419493709995856
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 12,
+          "observed_frequency": 0.25,
+          "mean_score": 0.26244329132919103
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 9,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.36774565453698993
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 6,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.43158488803381295
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 9,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.5589613177680233
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 6,
+          "observed_frequency": 0.5,
+          "mean_score": 0.6443282991195173
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 12,
+          "observed_frequency": 0.75,
+          "mean_score": 0.7482035082149796
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 6,
+          "observed_frequency": 1.0,
+          "mean_score": 0.8718958839293368
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 15,
+          "observed_frequency": 1.0,
+          "mean_score": 0.9666771451622902
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 252,
+          "observed_frequency": 0.03968253968253968,
+          "mean_score": 0.006642604988414988
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 12,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.14153517161806425
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 8,
+          "observed_frequency": 0.0,
+          "mean_score": 0.25013672560453415
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 9,
+          "observed_frequency": 0.4444444444444444,
+          "mean_score": 0.3423547347386678
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 12,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.44310009727875393
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 8,
+          "observed_frequency": 0.625,
+          "mean_score": 0.5591231361031532
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 11,
+          "observed_frequency": 0.45454545454545453,
+          "mean_score": 0.6632057374173944
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.72927625477314
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 18,
+          "observed_frequency": 0.6111111111111112,
+          "mean_score": 0.8443413476149241
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 240,
+          "observed_frequency": 0.9625,
+          "mean_score": 0.9918260403366026
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 235,
+          "observed_frequency": 0.02553191489361702,
+          "mean_score": 0.01920799412634616
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 19,
+          "observed_frequency": 0.2631578947368421,
+          "mean_score": 0.13923312783632558
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 15,
+          "observed_frequency": 0.06666666666666667,
+          "mean_score": 0.24307836729742566
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 16,
+          "observed_frequency": 0.25,
+          "mean_score": 0.34151528859178887
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 21,
+          "observed_frequency": 0.42857142857142855,
+          "mean_score": 0.44551602126730666
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 14,
+          "observed_frequency": 0.42857142857142855,
+          "mean_score": 0.5347241260151178
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 18,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.6476522697857303
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 19,
+          "observed_frequency": 0.7368421052631579,
+          "mean_score": 0.7431848884989896
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 25,
+          "observed_frequency": 0.92,
+          "mean_score": 0.8664629431424719
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 196,
+          "observed_frequency": 0.9846938775510204,
+          "mean_score": 0.9816274712259532
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_HIGH",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_LOW",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_LOW",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 333,
+          "observed_frequency": 0.015015015015015015,
+          "mean_score": 0.012177560865692525
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 23,
+          "observed_frequency": 0.08695652173913043,
+          "mean_score": 0.1388823688030243
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 16,
+          "observed_frequency": 0.25,
+          "mean_score": 0.2478869017213583
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 8,
+          "observed_frequency": 0.375,
+          "mean_score": 0.3269992619752884
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 8,
+          "observed_frequency": 0.25,
+          "mean_score": 0.44517675787210464
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 6,
+          "observed_frequency": 0.5,
+          "mean_score": 0.531388541062673
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 10,
+          "observed_frequency": 0.4,
+          "mean_score": 0.6484677612781524
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 3,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.761977473894755
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 15,
+          "observed_frequency": 0.8,
+          "mean_score": 0.854912257194519
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 26,
+          "observed_frequency": 0.9230769230769231,
+          "mean_score": 0.9658017639930432
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 335,
+          "observed_frequency": 0.014925373134328358,
+          "mean_score": 0.015079140480925981
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 27,
+          "observed_frequency": 0.14814814814814814,
+          "mean_score": 0.14000367024297689
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 17,
+          "observed_frequency": 0.23529411764705882,
+          "mean_score": 0.23688812845523066
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 12,
+          "observed_frequency": 0.4166666666666667,
+          "mean_score": 0.3608556001186849
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 7,
+          "observed_frequency": 0.42857142857142855,
+          "mean_score": 0.4679629258604878
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 6,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.5335970520302433
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 6,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.6684221633246961
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 12,
+          "observed_frequency": 0.8333333333333334,
+          "mean_score": 0.7414319958896066
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 10,
+          "observed_frequency": 0.7,
+          "mean_score": 0.8484350464250457
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 16,
+          "observed_frequency": 1.0,
+          "mean_score": 0.9514227032498528
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_HIGH",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 487,
+          "observed_frequency": 0.008213552361396304,
+          "mean_score": 0.0075895666567303965
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 27,
+          "observed_frequency": 0.2222222222222222,
+          "mean_score": 0.13933946330238273
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 17,
+          "observed_frequency": 0.35294117647058826,
+          "mean_score": 0.25486307985642376
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 13,
+          "observed_frequency": 0.46153846153846156,
+          "mean_score": 0.34404323880489057
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 10,
+          "observed_frequency": 0.2,
+          "mean_score": 0.4598147809505463
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 19,
+          "observed_frequency": 0.6842105263157895,
+          "mean_score": 0.5498439324529547
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 12,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.6576635589202245
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 19,
+          "observed_frequency": 0.631578947368421,
+          "mean_score": 0.7606107937662225
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 26,
+          "observed_frequency": 0.9230769230769231,
+          "mean_score": 0.8525345738117511
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 86,
+          "observed_frequency": 0.9418604651162791,
+          "mean_score": 0.9669851120128188
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 476,
+          "observed_frequency": 0.008403361344537815,
+          "mean_score": 0.009908081214987515
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 32,
+          "observed_frequency": 0.125,
+          "mean_score": 0.14192436875282266
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 19,
+          "observed_frequency": 0.2631578947368421,
+          "mean_score": 0.25331279326632844
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 15,
+          "observed_frequency": 0.5333333333333333,
+          "mean_score": 0.34058685424174046
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 16,
+          "observed_frequency": 0.4375,
+          "mean_score": 0.4576147815047651
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 20,
+          "observed_frequency": 0.55,
+          "mean_score": 0.5526346706122364
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 13,
+          "observed_frequency": 0.38461538461538464,
+          "mean_score": 0.6639541045058637
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 21,
+          "observed_frequency": 0.8095238095238095,
+          "mean_score": 0.756804526050281
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 34,
+          "observed_frequency": 0.9411764705882353,
+          "mean_score": 0.853444587645838
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 70,
+          "observed_frequency": 0.9285714285714286,
+          "mean_score": 0.9596310711713033
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 281,
+          "observed_frequency": 0.09608540925266904,
+          "mean_score": 0.02870037937546934
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 59,
+          "observed_frequency": 0.3559322033898305,
+          "mean_score": 0.14115585146819132
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 58,
+          "observed_frequency": 0.3620689655172414,
+          "mean_score": 0.24905986236087208
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 44,
+          "observed_frequency": 0.5227272727272727,
+          "mean_score": 0.3462917906316844
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 41,
+          "observed_frequency": 0.5853658536585366,
+          "mean_score": 0.447849320202339
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 42,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.5524304792994544
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 26,
+          "observed_frequency": 0.7307692307692307,
+          "mean_score": 0.6551108887562385
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 34,
+          "observed_frequency": 0.7058823529411765,
+          "mean_score": 0.748287064187667
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 60,
+          "observed_frequency": 0.75,
+          "mean_score": 0.8537045270204544
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 194,
+          "observed_frequency": 0.9432989690721649,
+          "mean_score": 0.9676739524320229
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 149,
+          "observed_frequency": 0.026845637583892617,
+          "mean_score": 0.040875788084877566
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 86,
+          "observed_frequency": 0.16279069767441862,
+          "mean_score": 0.1470299489928464
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 81,
+          "observed_frequency": 0.24691358024691357,
+          "mean_score": 0.24565401886965507
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 49,
+          "observed_frequency": 0.3673469387755102,
+          "mean_score": 0.3557791000141019
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 64,
+          "observed_frequency": 0.5,
+          "mean_score": 0.4544411422619967
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 60,
+          "observed_frequency": 0.55,
+          "mean_score": 0.5470677151967805
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 56,
+          "observed_frequency": 0.6607142857142857,
+          "mean_score": 0.6458208543269758
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 54,
+          "observed_frequency": 0.7592592592592593,
+          "mean_score": 0.7547869687179785
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 88,
+          "observed_frequency": 0.8295454545454546,
+          "mean_score": 0.8574480025167239
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 152,
+          "observed_frequency": 0.9407894736842105,
+          "mean_score": 0.9539233494243532
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_PAUSE_LONG",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 926,
+          "observed_frequency": 0.014038876889848811,
+          "mean_score": 0.007957146971767862
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 41,
+          "observed_frequency": 0.14634146341463414,
+          "mean_score": 0.14134442987965373
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 27,
+          "observed_frequency": 0.14814814814814814,
+          "mean_score": 0.24921439643259402
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 26,
+          "observed_frequency": 0.15384615384615385,
+          "mean_score": 0.34827997707403624
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 12,
+          "observed_frequency": 0.4166666666666667,
+          "mean_score": 0.4543868924180667
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 15,
+          "observed_frequency": 0.4,
+          "mean_score": 0.5392245531082154
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 16,
+          "observed_frequency": 0.75,
+          "mean_score": 0.6547284238040447
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 18,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.7599978744983673
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 19,
+          "observed_frequency": 0.7368421052631579,
+          "mean_score": 0.8434596657752991
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 61,
+          "observed_frequency": 0.9180327868852459,
+          "mean_score": 0.9735813424235484
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 902,
+          "observed_frequency": 0.013303769401330377,
+          "mean_score": 0.011534869748256927
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 68,
+          "observed_frequency": 0.11764705882352941,
+          "mean_score": 0.1379927565485083
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 35,
+          "observed_frequency": 0.2,
+          "mean_score": 0.24698683997070475
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 27,
+          "observed_frequency": 0.2222222222222222,
+          "mean_score": 0.34195484295012846
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 22,
+          "observed_frequency": 0.5,
+          "mean_score": 0.4471266603007592
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 17,
+          "observed_frequency": 0.7058823529411765,
+          "mean_score": 0.5433298486300909
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 23,
+          "observed_frequency": 0.6956521739130435,
+          "mean_score": 0.6481948239390118
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 10,
+          "observed_frequency": 0.8,
+          "mean_score": 0.7467191204735927
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 19,
+          "observed_frequency": 0.8947368421052632,
+          "mean_score": 0.8445649619177353
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 38,
+          "observed_frequency": 0.9210526315789473,
+          "mean_score": 0.9673686426141836
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_PAUSE_FREQUENT",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "AUD_INTONATION_RISING",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 448,
+          "observed_frequency": 0.0625,
+          "mean_score": 0.025766036148435693
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 68,
+          "observed_frequency": 0.20588235294117646,
+          "mean_score": 0.13667864089503007
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 51,
+          "observed_frequency": 0.35294117647058826,
+          "mean_score": 0.24885471340487986
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 36,
+          "observed_frequency": 0.4166666666666667,
+          "mean_score": 0.34809328450096977
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 33,
+          "observed_frequency": 0.2727272727272727,
+          "mean_score": 0.44619068232449616
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 24,
+          "observed_frequency": 0.75,
+          "mean_score": 0.5506950492660204
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 33,
+          "observed_frequency": 0.48484848484848486,
+          "mean_score": 0.6462358940731395
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 55,
+          "observed_frequency": 0.6,
+          "mean_score": 0.7544299656694585
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 61,
+          "observed_frequency": 0.7213114754098361,
+          "mean_score": 0.8532999304474377
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 299,
+          "observed_frequency": 0.9096989966555183,
+          "mean_score": 0.9738571956803568
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 327,
+          "observed_frequency": 0.039755351681957186,
+          "mean_score": 0.03990167486504362
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 150,
+          "observed_frequency": 0.11333333333333333,
+          "mean_score": 0.14503488453645957
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 70,
+          "observed_frequency": 0.3142857142857143,
+          "mean_score": 0.2503683576832294
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 60,
+          "observed_frequency": 0.38333333333333336,
+          "mean_score": 0.3499860696127964
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 44,
+          "observed_frequency": 0.45454545454545453,
+          "mean_score": 0.4440148808428979
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 50,
+          "observed_frequency": 0.62,
+          "mean_score": 0.5526250740949215
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 65,
+          "observed_frequency": 0.5538461538461539,
+          "mean_score": 0.6500571485180001
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 66,
+          "observed_frequency": 0.7575757575757576,
+          "mean_score": 0.7522483072423208
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 96,
+          "observed_frequency": 0.8645833333333334,
+          "mean_score": 0.8522830864184403
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 180,
+          "observed_frequency": 0.9555555555555556,
+          "mean_score": 0.957073119135372
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_INTONATION_FALLING",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 178,
+          "observed_frequency": 0.12359550561797752,
+          "mean_score": 0.043631304872975674
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 91,
+          "observed_frequency": 0.3076923076923077,
+          "mean_score": 0.15373352972360757
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 71,
+          "observed_frequency": 0.38028169014084506,
+          "mean_score": 0.2506843882967049
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 53,
+          "observed_frequency": 0.5283018867924528,
+          "mean_score": 0.35301464739835486
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 55,
+          "observed_frequency": 0.6363636363636364,
+          "mean_score": 0.45486000017686323
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 41,
+          "observed_frequency": 0.36585365853658536,
+          "mean_score": 0.554103665235566
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 50,
+          "observed_frequency": 0.6,
+          "mean_score": 0.6483351719379425
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 62,
+          "observed_frequency": 0.7096774193548387,
+          "mean_score": 0.7441520815895449
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 88,
+          "observed_frequency": 0.7954545454545454,
+          "mean_score": 0.8526922647248615
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 478,
+          "observed_frequency": 0.9267782426778243,
+          "mean_score": 0.9734180221747155
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 57,
+          "observed_frequency": 0.017543859649122806,
+          "mean_score": 0.06646753121926097
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 77,
+          "observed_frequency": 0.16883116883116883,
+          "mean_score": 0.15103559451165388
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 90,
+          "observed_frequency": 0.28888888888888886,
+          "mean_score": 0.24447982972280752
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 102,
+          "observed_frequency": 0.30392156862745096,
+          "mean_score": 0.3488282842775227
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 78,
+          "observed_frequency": 0.5384615384615384,
+          "mean_score": 0.4503666292430107
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 80,
+          "observed_frequency": 0.5125,
+          "mean_score": 0.5488623888448059
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 88,
+          "observed_frequency": 0.6477272727272727,
+          "mean_score": 0.6491229604728466
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 96,
+          "observed_frequency": 0.7604166666666666,
+          "mean_score": 0.7523922169203338
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 164,
+          "observed_frequency": 0.8414634146341463,
+          "mean_score": 0.8565051294193148
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 335,
+          "observed_frequency": 0.9552238805970149,
+          "mean_score": 0.9561818629052755
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_INTONATION_FLAT",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 725,
+          "observed_frequency": 0.023448275862068966,
+          "mean_score": 0.015273192734613108
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 54,
+          "observed_frequency": 0.14814814814814814,
+          "mean_score": 0.14562444002540023
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 28,
+          "observed_frequency": 0.21428571428571427,
+          "mean_score": 0.24374486452766828
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 25,
+          "observed_frequency": 0.4,
+          "mean_score": 0.3405952119827271
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 24,
+          "observed_frequency": 0.5416666666666666,
+          "mean_score": 0.44574929897983867
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 13,
+          "observed_frequency": 0.46153846153846156,
+          "mean_score": 0.5394092064637405
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 11,
+          "observed_frequency": 0.36363636363636365,
+          "mean_score": 0.6596637747504495
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 15,
+          "observed_frequency": 0.6,
+          "mean_score": 0.7422080834706625
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 13,
+          "observed_frequency": 0.8461538461538461,
+          "mean_score": 0.8607745445691622
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 17,
+          "observed_frequency": 0.9411764705882353,
+          "mean_score": 0.9465799822526819
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 704,
+          "observed_frequency": 0.02130681818181818,
+          "mean_score": 0.022516227635035406
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 71,
+          "observed_frequency": 0.14084507042253522,
+          "mean_score": 0.14553763494644792
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 37,
+          "observed_frequency": 0.2702702702702703,
+          "mean_score": 0.246907955983993
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 30,
+          "observed_frequency": 0.4666666666666667,
+          "mean_score": 0.34789468341741187
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 23,
+          "observed_frequency": 0.4782608695652174,
+          "mean_score": 0.43924891341405886
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 12,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.5598716281297076
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 15,
+          "observed_frequency": 0.4666666666666667,
+          "mean_score": 0.6469827030795106
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 12,
+          "observed_frequency": 0.8333333333333334,
+          "mean_score": 0.7505576355072162
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 15,
+          "observed_frequency": 0.8666666666666667,
+          "mean_score": 0.8617949838655474
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 6,
+          "observed_frequency": 1.0,
+          "mean_score": 0.9329810612196946
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_VOICE_TENSE",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 982,
+          "observed_frequency": 0.015274949083503055,
+          "mean_score": 0.006719488430452473
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 28,
+          "observed_frequency": 0.14285714285714285,
+          "mean_score": 0.13518769054540566
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 17,
+          "observed_frequency": 0.4117647058823529,
+          "mean_score": 0.24056805670261383
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 6,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.34810948371887207
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 7,
+          "observed_frequency": 0.5714285714285714,
+          "mean_score": 0.44219708868435453
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 7,
+          "observed_frequency": 1.0,
+          "mean_score": 0.5433998959405082
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 4,
+          "observed_frequency": 1.0,
+          "mean_score": 0.6621537506580353
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 9,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.7559305363231235
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 12,
+          "observed_frequency": 0.8333333333333334,
+          "mean_score": 0.8456128338972727
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 31,
+          "observed_frequency": 0.9354838709677419,
+          "mean_score": 0.966852564965525
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 941,
+          "observed_frequency": 0.009564293304994687,
+          "mean_score": 0.00960771671717388
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 51,
+          "observed_frequency": 0.1568627450980392,
+          "mean_score": 0.1377014511027608
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 22,
+          "observed_frequency": 0.22727272727272727,
+          "mean_score": 0.2431796596758631
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 14,
+          "observed_frequency": 0.35714285714285715,
+          "mean_score": 0.33779467779597255
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 8,
+          "observed_frequency": 0.25,
+          "mean_score": 0.46481897908305286
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 7,
+          "observed_frequency": 0.7142857142857143,
+          "mean_score": 0.5489004646566733
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 7,
+          "observed_frequency": 1.0,
+          "mean_score": 0.6478952693401124
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 12,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.7615930041232373
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 10,
+          "observed_frequency": 0.8,
+          "mean_score": 0.855352761988143
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 31,
+          "observed_frequency": 0.9354838709677419,
+          "mean_score": 0.9603896802287987
+        }
+      ]
+    },
+    {
+      "cue_id": "AUD_VOICE_TREMBLING",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "AUD_LAUGHTER_PRESENT",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "AUD_CRYING_SOBBING_PRESENT",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "VIS_BROWS_FURROWED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 642,
+          "observed_frequency": 0.0514018691588785,
+          "mean_score": 0.014832225131709419
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 62,
+          "observed_frequency": 0.1774193548387097,
+          "mean_score": 0.14538219330772276
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 35,
+          "observed_frequency": 0.4,
+          "mean_score": 0.23397050883088794
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 31,
+          "observed_frequency": 0.3225806451612903,
+          "mean_score": 0.356367088133289
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 23,
+          "observed_frequency": 0.43478260869565216,
+          "mean_score": 0.4452670022197392
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 23,
+          "observed_frequency": 0.4782608695652174,
+          "mean_score": 0.5469810703526372
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 25,
+          "observed_frequency": 0.44,
+          "mean_score": 0.6544746112823486
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 43,
+          "observed_frequency": 0.5116279069767442,
+          "mean_score": 0.7538057177565819
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 41,
+          "observed_frequency": 0.6829268292682927,
+          "mean_score": 0.8582899032569513
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 264,
+          "observed_frequency": 0.9090909090909091,
+          "mean_score": 0.9756951623342254
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 534,
+          "observed_frequency": 0.03745318352059925,
+          "mean_score": 0.031409141817497516
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 124,
+          "observed_frequency": 0.14516129032258066,
+          "mean_score": 0.14175013359503333
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 74,
+          "observed_frequency": 0.21621621621621623,
+          "mean_score": 0.2448788760047499
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 46,
+          "observed_frequency": 0.391304347826087,
+          "mean_score": 0.3580547978554449
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 41,
+          "observed_frequency": 0.43902439024390244,
+          "mean_score": 0.4518816832707805
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 41,
+          "observed_frequency": 0.4878048780487805,
+          "mean_score": 0.558044621328607
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 50,
+          "observed_frequency": 0.6,
+          "mean_score": 0.6473781027242428
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 60,
+          "observed_frequency": 0.85,
+          "mean_score": 0.7521315748352072
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 68,
+          "observed_frequency": 0.7794117647058824,
+          "mean_score": 0.8497084772421601
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 151,
+          "observed_frequency": 0.9668874172185431,
+          "mean_score": 0.9567170336430647
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_BROWS_RAISED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 559,
+          "observed_frequency": 0.08050089445438283,
+          "mean_score": 0.015578559465620164
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 85,
+          "observed_frequency": 0.4235294117647059,
+          "mean_score": 0.14603732210748335
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 44,
+          "observed_frequency": 0.38636363636363635,
+          "mean_score": 0.24552601338787514
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 34,
+          "observed_frequency": 0.47058823529411764,
+          "mean_score": 0.3481530678622863
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 26,
+          "observed_frequency": 0.5384615384615384,
+          "mean_score": 0.455202389221925
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 28,
+          "observed_frequency": 0.6785714285714286,
+          "mean_score": 0.5468609077589852
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 35,
+          "observed_frequency": 0.6285714285714286,
+          "mean_score": 0.6543741089957101
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 46,
+          "observed_frequency": 0.6956521739130435,
+          "mean_score": 0.7525183053120322
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 60,
+          "observed_frequency": 0.8333333333333334,
+          "mean_score": 0.849535291393598
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 268,
+          "observed_frequency": 0.8992537313432836,
+          "mean_score": 0.9708667259607742
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 352,
+          "observed_frequency": 0.03125,
+          "mean_score": 0.036465215058146434
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 139,
+          "observed_frequency": 0.1366906474820144,
+          "mean_score": 0.1468511884304326
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 77,
+          "observed_frequency": 0.23376623376623376,
+          "mean_score": 0.2448379112373966
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 80,
+          "observed_frequency": 0.4375,
+          "mean_score": 0.34432564953508776
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 62,
+          "observed_frequency": 0.41935483870967744,
+          "mean_score": 0.4428472847657775
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 53,
+          "observed_frequency": 0.5471698113207547,
+          "mean_score": 0.5495749168177213
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 60,
+          "observed_frequency": 0.6166666666666667,
+          "mean_score": 0.656866277228428
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 78,
+          "observed_frequency": 0.7692307692307693,
+          "mean_score": 0.7462125879504722
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 111,
+          "observed_frequency": 0.8738738738738738,
+          "mean_score": 0.8504683819672038
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 173,
+          "observed_frequency": 0.9248554913294798,
+          "mean_score": 0.9466591646864991
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_EYES_WIDENED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 498,
+          "observed_frequency": 0.04216867469879518,
+          "mean_score": 0.012905206255055417
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 34,
+          "observed_frequency": 0.23529411764705882,
+          "mean_score": 0.1532202718012473
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 24,
+          "observed_frequency": 0.20833333333333334,
+          "mean_score": 0.237459655230244
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 20,
+          "observed_frequency": 0.4,
+          "mean_score": 0.35012746751308443
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 18,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.45810170306099784
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 14,
+          "observed_frequency": 0.5,
+          "mean_score": 0.5531840664999825
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 14,
+          "observed_frequency": 0.5,
+          "mean_score": 0.6504049812044416
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 22,
+          "observed_frequency": 0.4090909090909091,
+          "mean_score": 0.7531669546257366
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 32,
+          "observed_frequency": 0.59375,
+          "mean_score": 0.8549139238893986
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 238,
+          "observed_frequency": 0.9201680672268907,
+          "mean_score": 0.9861691208446727
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 441,
+          "observed_frequency": 0.02947845804988662,
+          "mean_score": 0.027703398756291745
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 73,
+          "observed_frequency": 0.136986301369863,
+          "mean_score": 0.14016677531440266
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 45,
+          "observed_frequency": 0.28888888888888886,
+          "mean_score": 0.24536862692112424
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 35,
+          "observed_frequency": 0.34285714285714286,
+          "mean_score": 0.34923159983143826
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 22,
+          "observed_frequency": 0.5,
+          "mean_score": 0.4469453954912007
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 29,
+          "observed_frequency": 0.5172413793103449,
+          "mean_score": 0.5523383454586803
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 35,
+          "observed_frequency": 0.6,
+          "mean_score": 0.6548230620567048
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 26,
+          "observed_frequency": 0.7692307692307693,
+          "mean_score": 0.750824546278696
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 51,
+          "observed_frequency": 0.8431372549019608,
+          "mean_score": 0.8550977161118377
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 157,
+          "observed_frequency": 0.9617834394904459,
+          "mean_score": 0.9648204056753007
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_EYES_SQUINTED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 616,
+          "observed_frequency": 0.04383116883116883,
+          "mean_score": 0.016580933371939225
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 75,
+          "observed_frequency": 0.2,
+          "mean_score": 0.14055148790280025
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 39,
+          "observed_frequency": 0.20512820512820512,
+          "mean_score": 0.24253363830920976
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 31,
+          "observed_frequency": 0.3548387096774194,
+          "mean_score": 0.35332411623770194
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 29,
+          "observed_frequency": 0.3448275862068966,
+          "mean_score": 0.45130148118939895
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 32,
+          "observed_frequency": 0.4375,
+          "mean_score": 0.5598128773272038
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 31,
+          "observed_frequency": 0.5806451612903226,
+          "mean_score": 0.6512338076868365
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 22,
+          "observed_frequency": 0.6818181818181818,
+          "mean_score": 0.7495785436846993
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 48,
+          "observed_frequency": 0.8125,
+          "mean_score": 0.8513557327290376
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 95,
+          "observed_frequency": 0.9157894736842105,
+          "mean_score": 0.9610840113539445
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 532,
+          "observed_frequency": 0.03759398496240601,
+          "mean_score": 0.027825647165070137
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 122,
+          "observed_frequency": 0.13934426229508196,
+          "mean_score": 0.14960147898724843
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 60,
+          "observed_frequency": 0.15,
+          "mean_score": 0.24504203682119266
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 48,
+          "observed_frequency": 0.3541666666666667,
+          "mean_score": 0.34864348990863575
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 43,
+          "observed_frequency": 0.32558139534883723,
+          "mean_score": 0.45098996185665036
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 45,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.546319873056017
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 31,
+          "observed_frequency": 0.7096774193548387,
+          "mean_score": 0.6448383197583838
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 51,
+          "observed_frequency": 0.8235294117647058,
+          "mean_score": 0.7478668894204803
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 43,
+          "observed_frequency": 0.9069767441860465,
+          "mean_score": 0.8491883906452795
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 43,
+          "observed_frequency": 0.9069767441860465,
+          "mean_score": 0.9494534364885314
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_SMILE_PRESENT",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 941,
+          "observed_frequency": 0.025504782146652496,
+          "mean_score": 0.0063222465458233415
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 32,
+          "observed_frequency": 0.125,
+          "mean_score": 0.14022565842606127
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 23,
+          "observed_frequency": 0.30434782608695654,
+          "mean_score": 0.23157214535319287
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 17,
+          "observed_frequency": 0.4117647058823529,
+          "mean_score": 0.3499290557468639
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 11,
+          "observed_frequency": 0.36363636363636365,
+          "mean_score": 0.441389568827369
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 11,
+          "observed_frequency": 0.7272727272727273,
+          "mean_score": 0.5372800881212408
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 15,
+          "observed_frequency": 0.6,
+          "mean_score": 0.6417608102162679
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 10,
+          "observed_frequency": 0.7,
+          "mean_score": 0.743720805644989
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 11,
+          "observed_frequency": 0.8181818181818182,
+          "mean_score": 0.8566152832724832
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 97,
+          "observed_frequency": 0.9484536082474226,
+          "mean_score": 0.9820040396808349
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 892,
+          "observed_frequency": 0.014573991031390135,
+          "mean_score": 0.014639968458071511
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 53,
+          "observed_frequency": 0.22641509433962265,
+          "mean_score": 0.14093613282529174
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 32,
+          "observed_frequency": 0.15625,
+          "mean_score": 0.24795523394557858
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 24,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.33448726646062116
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 22,
+          "observed_frequency": 0.36363636363636365,
+          "mean_score": 0.4452218891467982
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 14,
+          "observed_frequency": 0.6428571428571429,
+          "mean_score": 0.5456609263429832
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 16,
+          "observed_frequency": 0.625,
+          "mean_score": 0.63616233844281
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 14,
+          "observed_frequency": 0.8571428571428571,
+          "mean_score": 0.7492764069759454
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 17,
+          "observed_frequency": 0.7647058823529411,
+          "mean_score": 0.8567335900007873
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 84,
+          "observed_frequency": 0.9642857142857143,
+          "mean_score": 0.9723330409579918
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_MOUTH_CORNERS_DOWN",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 470,
+          "observed_frequency": 0.059574468085106386,
+          "mean_score": 0.02369224078868567
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 77,
+          "observed_frequency": 0.16883116883116883,
+          "mean_score": 0.14671092044997525
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 50,
+          "observed_frequency": 0.3,
+          "mean_score": 0.2482813200354576
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 34,
+          "observed_frequency": 0.38235294117647056,
+          "mean_score": 0.35140083993182464
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 34,
+          "observed_frequency": 0.3235294117647059,
+          "mean_score": 0.46338409886640664
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 30,
+          "observed_frequency": 0.4666666666666667,
+          "mean_score": 0.5527043660481771
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 42,
+          "observed_frequency": 0.5238095238095238,
+          "mean_score": 0.6438988120782942
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 50,
+          "observed_frequency": 0.82,
+          "mean_score": 0.754433753490448
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 57,
+          "observed_frequency": 0.631578947368421,
+          "mean_score": 0.8600636009584394
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 217,
+          "observed_frequency": 0.9262672811059908,
+          "mean_score": 0.9755941242116937
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 380,
+          "observed_frequency": 0.03684210526315789,
+          "mean_score": 0.03550234052903098
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 124,
+          "observed_frequency": 0.1693548387096774,
+          "mean_score": 0.1430827281478688
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 77,
+          "observed_frequency": 0.22077922077922077,
+          "mean_score": 0.24380276788406932
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 55,
+          "observed_frequency": 0.32727272727272727,
+          "mean_score": 0.3464725258733401
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 47,
+          "observed_frequency": 0.425531914893617,
+          "mean_score": 0.4491334457532131
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 55,
+          "observed_frequency": 0.4727272727272727,
+          "mean_score": 0.545104907693533
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 63,
+          "observed_frequency": 0.7777777777777778,
+          "mean_score": 0.6511848041139224
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 49,
+          "observed_frequency": 0.7142857142857143,
+          "mean_score": 0.7572230632778688
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 72,
+          "observed_frequency": 0.8472222222222222,
+          "mean_score": 0.8565621251490848
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 139,
+          "observed_frequency": 0.9568345323741008,
+          "mean_score": 0.9645028367365373
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_LIPS_PRESSED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 783,
+          "observed_frequency": 0.038314176245210725,
+          "mean_score": 0.02496244021608879
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 135,
+          "observed_frequency": 0.17037037037037037,
+          "mean_score": 0.13880397622232085
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 67,
+          "observed_frequency": 0.11940298507462686,
+          "mean_score": 0.24222119730799946
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 53,
+          "observed_frequency": 0.33962264150943394,
+          "mean_score": 0.35602321546032745
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 38,
+          "observed_frequency": 0.42105263157894735,
+          "mean_score": 0.44001589715480804
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 24,
+          "observed_frequency": 0.5,
+          "mean_score": 0.5443844671050707
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 18,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.6437206102742089
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 15,
+          "observed_frequency": 0.4,
+          "mean_score": 0.7462246656417847
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 8,
+          "observed_frequency": 0.875,
+          "mean_score": 0.8447235226631165
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 4,
+          "observed_frequency": 1.0,
+          "mean_score": 0.9405419230461121
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 726,
+          "observed_frequency": 0.028925619834710745,
+          "mean_score": 0.03298118991717433
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 197,
+          "observed_frequency": 0.16243654822335024,
+          "mean_score": 0.13960959412211207
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 83,
+          "observed_frequency": 0.1686746987951807,
+          "mean_score": 0.24279822519247612
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 68,
+          "observed_frequency": 0.38235294117647056,
+          "mean_score": 0.34515405301694313
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 32,
+          "observed_frequency": 0.53125,
+          "mean_score": 0.45006871452633124
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 19,
+          "observed_frequency": 0.47368421052631576,
+          "mean_score": 0.548631692447446
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 12,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.6434175147373272
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 4,
+          "observed_frequency": 0.75,
+          "mean_score": 0.7490628885866184
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 3,
+          "observed_frequency": 1.0,
+          "mean_score": 0.8367727746097967
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 1,
+          "observed_frequency": 1.0,
+          "mean_score": 0.9146663674257739
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_GRIMACE_PRESENT",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 923,
+          "observed_frequency": 0.015167930660888408,
+          "mean_score": 0.005687838940915712
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 23,
+          "observed_frequency": 0.43478260869565216,
+          "mean_score": 0.13592118964247082
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 6,
+          "observed_frequency": 0.16666666666666666,
+          "mean_score": 0.23770943532387415
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 10,
+          "observed_frequency": 0.4,
+          "mean_score": 0.34797153174877166
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 9,
+          "observed_frequency": 0.7777777777777778,
+          "mean_score": 0.44514713684717816
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 8,
+          "observed_frequency": 0.25,
+          "mean_score": 0.540843166410923
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 5,
+          "observed_frequency": 0.6,
+          "mean_score": 0.6548131704330444
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 3,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.7286939223607382
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 10,
+          "observed_frequency": 0.6,
+          "mean_score": 0.8426685690879822
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 31,
+          "observed_frequency": 1.0,
+          "mean_score": 0.984673136664975
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 889,
+          "observed_frequency": 0.01124859392575928,
+          "mean_score": 0.01255334225791757
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 38,
+          "observed_frequency": 0.13157894736842105,
+          "mean_score": 0.14274310154048397
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 20,
+          "observed_frequency": 0.45,
+          "mean_score": 0.2331829061747616
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 11,
+          "observed_frequency": 0.36363636363636365,
+          "mean_score": 0.3589111359782169
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 11,
+          "observed_frequency": 0.6363636363636364,
+          "mean_score": 0.4470070088684041
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 8,
+          "observed_frequency": 0.25,
+          "mean_score": 0.5505457849493389
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 8,
+          "observed_frequency": 0.5,
+          "mean_score": 0.6433710682407261
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 7,
+          "observed_frequency": 0.7142857142857143,
+          "mean_score": 0.7634692902057031
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 9,
+          "observed_frequency": 0.6666666666666666,
+          "mean_score": 0.8489814805354512
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 27,
+          "observed_frequency": 1.0,
+          "mean_score": 0.9784159967318172
+        }
+      ]
+    },
+    {
+      "cue_id": "VIS_TEARING_PRESENT",
+      "raw": null,
+      "OOF": null
+    },
+    {
+      "cue_id": "VIS_HEAD_LOWERED",
+      "raw": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 785,
+          "observed_frequency": 0.022929936305732482,
+          "mean_score": 0.014768702300983016
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 73,
+          "observed_frequency": 0.2876712328767123,
+          "mean_score": 0.1432764445469804
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 24,
+          "observed_frequency": 0.2916666666666667,
+          "mean_score": 0.24830174321929613
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 30,
+          "observed_frequency": 0.3,
+          "mean_score": 0.3394967218240102
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 16,
+          "observed_frequency": 0.4375,
+          "mean_score": 0.4406155087053776
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 19,
+          "observed_frequency": 0.5789473684210527,
+          "mean_score": 0.5504542714671085
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 18,
+          "observed_frequency": 0.5555555555555556,
+          "mean_score": 0.6503647135363685
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 34,
+          "observed_frequency": 0.7058823529411765,
+          "mean_score": 0.754991212311913
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 31,
+          "observed_frequency": 0.7419354838709677,
+          "mean_score": 0.8480134760179827
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 155,
+          "observed_frequency": 0.9612903225806452,
+          "mean_score": 0.9734108851801965
+        }
+      ],
+      "OOF": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 743,
+          "observed_frequency": 0.021534320323014805,
+          "mean_score": 0.023141303522871484
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 87,
+          "observed_frequency": 0.1724137931034483,
+          "mean_score": 0.14345581920055328
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 44,
+          "observed_frequency": 0.2727272727272727,
+          "mean_score": 0.2409819295320524
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 33,
+          "observed_frequency": 0.3333333333333333,
+          "mean_score": 0.34649594557720126
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 19,
+          "observed_frequency": 0.3684210526315789,
+          "mean_score": 0.4371578634384412
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 27,
+          "observed_frequency": 0.48148148148148145,
+          "mean_score": 0.5472339507154348
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 25,
+          "observed_frequency": 0.68,
+          "mean_score": 0.6546448952820042
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 38,
+          "observed_frequency": 0.7894736842105263,
+          "mean_score": 0.7488580239706181
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 42,
+          "observed_frequency": 0.8333333333333334,
+          "mean_score": 0.8576715400092664
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 127,
+          "observed_frequency": 0.968503937007874,
+          "mean_score": 0.9713471051482973
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "complete": true,
+  "scored_jobs": 9,
+  "expected_jobs": 9,
+  "selected_pairs": 9,
+  "distinct_checkpoints": 7,
+  "judge": {
+    "model": "Qwen25",
+    "temperature": 0,
+    "top_p": 1,
+    "repetition_penalty": 1.0,
+    "max_tokens": 512
+  },
+  "previous_judge": {
+    "model": "Qwen25",
+    "temperature": 0,
+    "top_p": 1,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512
+  },
+  "native_reference_mean": 0.754855399426177,
+  "previous_T0_P1_RP105_mean": 0.7553650807023846,
+  "current_fixed_pairs_mean": 0.753977788582207,
+  "delta_vs_previous_pp": -0.138729212017763,
+  "delta_vs_native_pp": -0.08776108439699781,
+  "results": [
+    {
+      "job_id": "from_35_epoch_40_MER2023",
+      "base_epoch": 35,
+      "epoch": 40,
+      "dataset": "MER2023",
+      "samples": 411,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_35/checkpoint_000040_loss_0.661.pth",
+        "sha256": "a3bb5658e4519994f0805f4b328d66992e153c53a918115596e2da47e8340643",
+        "epoch": 40,
+        "loss": 0.6614399573519826
+      },
+      "main_metric": "HIT",
+      "main_score": 0.7866619296553825,
+      "metrics": {
+        "HIT": 0.7866619296553825
+      },
+      "baseline_main_score": 0.7866619296553825,
+      "baseline_metrics": {
+        "HIT": 0.7866619296553825
+      },
+      "delta_pp": 0.0,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_35_epoch_40_MER2023/name2reason.npz",
+      "raw_sha256": "b7883e3742d122af36a7db6ae21c01eb04cb068a28358cb9d5d16f9a1671d781",
+      "binding": "dfcf9b3d324d18e6f9767633a9cff323a27dd3bd13d71729a496feb485af9d2b",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A800",
+      "elapsed_seconds": 14.701633671298623,
+      "completed_at": "2026-11-07T16:16:53.301316+08:00",
+      "HIT": 0.7866619296553825,
+      "native_reference_score": 0.7866619296553825,
+      "previous_score": 0.7866619296553825,
+      "current_score": 0.7866619296553825,
+      "delta_vs_previous_pp": 0.0,
+      "delta_vs_native_pp": 0.0
+    },
+    {
+      "job_id": "from_50_epoch_55_MER2024",
+      "base_epoch": 50,
+      "epoch": 55,
+      "dataset": "MER2024",
+      "samples": 1169,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_50/checkpoint_000055_loss_0.499.pth",
+        "sha256": "8a2c5564fac9751bf69a2c1082060da60a0a743bc5ed15c475892a6c2c537393",
+        "epoch": 55,
+        "loss": 0.49917581005841494
+      },
+      "main_metric": "HIT",
+      "main_score": 0.7872337395526918,
+      "metrics": {
+        "HIT": 0.7872337395526918
+      },
+      "baseline_main_score": 0.7874597282532567,
+      "baseline_metrics": {
+        "HIT": 0.7874597282532567
+      },
+      "delta_pp": -0.022598870056489417,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_50_epoch_55_MER2024/name2reason.npz",
+      "raw_sha256": "fd7b6ca4960092e99d818e053afbbce6545e2b9a679c05e013e70280db37859a",
+      "binding": "88017aa4557d0bed8c2e559b9b3c3237e6ef3ae159566ecc5307164a41c5c5aa",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A100",
+      "elapsed_seconds": 40.85129950195551,
+      "completed_at": "2026-11-07T16:25:14.266067+08:00",
+      "HIT": 0.7872337395526918,
+      "native_reference_score": 0.7874597282532567,
+      "previous_score": 0.7874597282532567,
+      "current_score": 0.7872337395526918,
+      "delta_vs_previous_pp": -0.022598870056489417,
+      "delta_vs_native_pp": -0.022598870056489417
+    },
+    {
+      "job_id": "from_40_epoch_45_MELD",
+      "base_epoch": 40,
+      "epoch": 45,
+      "dataset": "MELD",
+      "samples": 2610,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_40/checkpoint_000045_loss_0.606.pth",
+        "sha256": "a9f663b5b9deb8cde80e67585e8f2169e5aa4e47743443e5d2345d8a49852137",
+        "epoch": 45,
+        "loss": 0.6062258082658053
+      },
+      "main_metric": "HIT",
+      "main_score": 0.5832158030186709,
+      "metrics": {
+        "HIT": 0.5832158030186709
+      },
+      "baseline_main_score": 0.5833635135061156,
+      "baseline_metrics": {
+        "HIT": 0.5833635135061156
+      },
+      "delta_pp": -0.01477104874446633,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_40_epoch_45_MELD/name2reason.npz",
+      "raw_sha256": "a713c719e003c215b5f6e35042ef416060bcf479f95149f384d4232940b6a7b0",
+      "binding": "f11bdd16dc7d6e0e7e0c6e62c37605d64739827428123f24dec98af44726b203",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A800",
+      "elapsed_seconds": 91.54347158409655,
+      "completed_at": "2026-11-07T16:18:24.944795+08:00",
+      "HIT": 0.5832158030186709,
+      "native_reference_score": 0.5833635135061156,
+      "previous_score": 0.5833635135061156,
+      "current_score": 0.5832158030186709,
+      "delta_vs_previous_pp": -0.01477104874446633,
+      "delta_vs_native_pp": -0.01477104874446633
+    },
+    {
+      "job_id": "from_50_epoch_55_IEMOCAPFour",
+      "base_epoch": 50,
+      "epoch": 55,
+      "dataset": "IEMOCAPFour",
+      "samples": 1241,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_50/checkpoint_000055_loss_0.499.pth",
+        "sha256": "8a2c5564fac9751bf69a2c1082060da60a0a743bc5ed15c475892a6c2c537393",
+        "epoch": 55,
+        "loss": 0.49917581005841494
+      },
+      "main_metric": "HIT",
+      "main_score": 0.6224037339556593,
+      "metrics": {
+        "HIT": 0.6224037339556593
+      },
+      "baseline_main_score": 0.6224037339556593,
+      "baseline_metrics": {
+        "HIT": 0.6224037339556593
+      },
+      "delta_pp": 0.0,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_50_epoch_55_IEMOCAPFour/name2reason.npz",
+      "raw_sha256": "2f7ee464b5ebebb6e983d90da0dfdd5720e592ca4e6d6a54d5f1a000027a404f",
+      "binding": "75877aa78ee596863b11965fd75d807e5ca8c06dd15b58efa9a4c3aecd4cfb0d",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A800",
+      "elapsed_seconds": 43.11901684105396,
+      "completed_at": "2026-11-07T16:19:29.394410+08:00",
+      "HIT": 0.6224037339556593,
+      "native_reference_score": 0.6228704784130689,
+      "previous_score": 0.6224037339556593,
+      "current_score": 0.6224037339556593,
+      "delta_vs_previous_pp": 0.0,
+      "delta_vs_native_pp": -0.04667444574095736
+    },
+    {
+      "job_id": "from_50_epoch_53_CMUMOSI",
+      "base_epoch": 50,
+      "epoch": 53,
+      "dataset": "CMUMOSI",
+      "samples": 686,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_50/checkpoint_000053_loss_0.526.pth",
+        "sha256": "0ec4838e889882079c8d30fb54c70e58cfd1b5ee6dc6bb0eabc6b79a5031cb12",
+        "epoch": 53,
+        "loss": 0.5257548624284566
+      },
+      "main_metric": "WAF",
+      "main_score": 0.8241734288443301,
+      "metrics": {
+        "WAF": 0.8241734288443301,
+        "ACC": 0.823170731707317
+      },
+      "baseline_main_score": 0.8256995739535186,
+      "baseline_metrics": {
+        "WAF": 0.8256995739535186,
+        "ACC": 0.8246951219512195
+      },
+      "delta_pp": -0.15261451091884704,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_50_epoch_53_CMUMOSI/name2reason.npz",
+      "raw_sha256": "d4d8e73039da7e056f4694ec5648fe614cf35acd83c172199170a85c15f2e025",
+      "binding": "7b0dd0765daa2640675d916b03f5cc78e55351668f16c8f306f6c777bbf3192c",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A100",
+      "elapsed_seconds": 31.826156992465258,
+      "completed_at": "2026-11-07T16:24:33.319005+08:00",
+      "WAF": 0.8241734288443301,
+      "ACC": 0.823170731707317,
+      "native_reference_score": 0.8241734288443301,
+      "previous_score": 0.8256995739535186,
+      "current_score": 0.8241734288443301,
+      "delta_vs_previous_pp": -0.15261451091884704,
+      "delta_vs_native_pp": 0.0
+    },
+    {
+      "job_id": "from_35_epoch_39_CMUMOSEI",
+      "base_epoch": 35,
+      "epoch": 39,
+      "dataset": "CMUMOSEI",
+      "samples": 4659,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_35/checkpoint_000039_loss_0.701.pth",
+        "sha256": "057263c71307f41e1590dfc766edae8b7c1e453b8fae9463b54f191cace61c84",
+        "epoch": 39,
+        "loss": 0.7007332542166114
+      },
+      "main_metric": "WAF",
+      "main_score": 0.7971385252901774,
+      "metrics": {
+        "WAF": 0.7971385252901774,
+        "ACC": 0.7952669235002752
+      },
+      "baseline_main_score": 0.7975986598970195,
+      "baseline_metrics": {
+        "WAF": 0.7975986598970195,
+        "ACC": 0.7955421023665382
+      },
+      "delta_pp": -0.0460134606842133,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_35_epoch_39_CMUMOSEI/name2reason.npz",
+      "raw_sha256": "54eb892ece9ab39d6141981d8931914ef67ae2e8037a2603b3d4ccf6c23af5e3",
+      "binding": "afd34d6140bfd5dfccf62539d2d0520911fa16619a65a531e07b3cbe456dd35d",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A100",
+      "elapsed_seconds": 203.35190216451883,
+      "completed_at": "2026-11-07T16:23:41.941799+08:00",
+      "WAF": 0.7971385252901774,
+      "ACC": 0.7952669235002752,
+      "native_reference_score": 0.7973547492062308,
+      "previous_score": 0.7975986598970195,
+      "current_score": 0.7971385252901774,
+      "delta_vs_previous_pp": -0.0460134606842133,
+      "delta_vs_native_pp": -0.02162239160534707
+    },
+    {
+      "job_id": "from_45_epoch_47_SIMS",
+      "base_epoch": 45,
+      "epoch": 47,
+      "dataset": "SIMS",
+      "samples": 457,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_45/checkpoint_000047_loss_0.628.pth",
+        "sha256": "9878583ed9d9cce6d797e0cef83eb9dc6058708b2440067c6349730e8a2386df",
+        "epoch": 47,
+        "loss": 0.62765246399194
+      },
+      "main_metric": "WAF",
+      "main_score": 0.886770514285782,
+      "metrics": {
+        "WAF": 0.886770514285782,
+        "ACC": 0.8865979381443299
+      },
+      "baseline_main_score": 0.8892605105981487,
+      "baseline_metrics": {
+        "WAF": 0.8892605105981487,
+        "ACC": 0.8891752577319587
+      },
+      "delta_pp": -0.24899963123666824,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_45_epoch_47_SIMS/name2reason.npz",
+      "raw_sha256": "d1374781c4688060ffafe884b91b97739eafe28e4762eb1d6a68ab5682da918b",
+      "binding": "d1e0c9685331e893f9b16912b6a7e7ba6f2cb0e2e5eee9a57ace1aa9d0ec0f98",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A800",
+      "elapsed_seconds": 21.169873798266053,
+      "completed_at": "2026-11-07T16:18:46.175976+08:00",
+      "WAF": 0.886770514285782,
+      "ACC": 0.8865979381443299,
+      "native_reference_score": 0.8892605105981487,
+      "previous_score": 0.8892605105981487,
+      "current_score": 0.886770514285782,
+      "delta_vs_previous_pp": -0.24899963123666824,
+      "delta_vs_native_pp": -0.24899963123666824
+    },
+    {
+      "job_id": "from_35_epoch_38_SIMSv2",
+      "base_epoch": 35,
+      "epoch": 38,
+      "dataset": "SIMSv2",
+      "samples": 1034,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_35/checkpoint_000038_loss_0.687.pth",
+        "sha256": "eaa92d31b308367924b5a39e07ba5a34d767ecd675bc70cf9229b1b8d2d9ba22",
+        "epoch": 38,
+        "loss": 0.6870281576037407
+      },
+      "main_metric": "WAF",
+      "main_score": 0.8596386697191292,
+      "metrics": {
+        "WAF": 0.8596386697191292,
+        "ACC": 0.8594950603732162
+      },
+      "baseline_main_score": 0.8672743235843202,
+      "baseline_metrics": {
+        "WAF": 0.8672743235843202,
+        "ACC": 0.867178924259056
+      },
+      "delta_pp": -0.763565386519105,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_35_epoch_38_SIMSv2/name2reason.npz",
+      "raw_sha256": "97256790bb869f97d85791ae3b4b3009e191efdeb72cbc13ccbeb2dfe54cc82d",
+      "binding": "ad9274705bdb458578d0c82e5926d6fd977fa5b2995a339878b34cd8b802f6af",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A100",
+      "elapsed_seconds": 48.477131471037865,
+      "completed_at": "2026-11-07T16:20:18.445324+08:00",
+      "WAF": 0.8596386697191292,
+      "ACC": 0.8594950603732162,
+      "native_reference_score": 0.8639905034410185,
+      "previous_score": 0.8672743235843202,
+      "current_score": 0.8596386697191292,
+      "delta_vs_previous_pp": -0.763565386519105,
+      "delta_vs_native_pp": -0.4351833721889298
+    },
+    {
+      "job_id": "from_40_epoch_45_OVMERDPlus",
+      "base_epoch": 40,
+      "epoch": 45,
+      "dataset": "OVMERDPlus",
+      "samples": 532,
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_40/checkpoint_000045_loss_0.606.pth",
+        "sha256": "a9f663b5b9deb8cde80e67585e8f2169e5aa4e47743443e5d2345d8a49852137",
+        "epoch": 45,
+        "loss": 0.6062258082658053
+      },
+      "main_metric": "F_s",
+      "main_score": 0.6385637529180404,
+      "metrics": {
+        "F_s": 0.6385637529180404,
+        "P_s": 0.6103355780372542,
+        "R_s": 0.6708397645092125
+      },
+      "baseline_main_score": 0.6385637529180404,
+      "baseline_metrics": {
+        "F_s": 0.6385637529180404,
+        "P_s": 0.6103355780372542,
+        "R_s": 0.6708397645092125
+      },
+      "delta_pp": 0.0,
+      "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_rp1_20261107/runs/fixed_best_T0_P1_RP1_20261107_161240/score_inputs/from_40_epoch_45_OVMERDPlus/name2reason.npz",
+      "raw_sha256": "6dcb5d4885bed3c15016cde42fe7482fcedeab1bcadf3a760b5ab7d241e2342c",
+      "binding": "4a29e427beefede77c5af1aa6efffbfe2a66758c27b48f3e78d863b01ac382d3",
+      "plan_id": "f4d016a2e469f759ad4be0d4eba1c7bad04e86ab47d117f9010b9b2f9fbc9174",
+      "judge": {
+        "model": "Qwen25",
+        "temperature": 0,
+        "top_p": 1,
+        "repetition_penalty": 1.0,
+        "max_tokens": 512
+      },
+      "node": "A100",
+      "elapsed_seconds": 19.41281994059682,
+      "completed_at": "2026-11-07T16:24:01.426777+08:00",
+      "F_s": 0.6385637529180404,
+      "P_s": 0.6103355780372542,
+      "R_s": 0.6708397645092125,
+      "native_reference_score": 0.6385637529180404,
+      "previous_score": 0.6385637529180404,
+      "current_score": 0.6385637529180404,
+      "delta_vs_previous_pp": 0.0,
+      "delta_vs_native_pp": 0.0
+    }
+  ],
+  "checkpoint_choices_frozen": true,
+  "at": "2026-11-07T16:20:28.552095+08:00"
+}

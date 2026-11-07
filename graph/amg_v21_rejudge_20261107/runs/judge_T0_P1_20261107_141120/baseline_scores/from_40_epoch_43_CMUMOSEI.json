@@ -1,0 +1,24 @@
+{
+  "base_epoch": 40,
+  "epoch": 43,
+  "dataset": "CMUMOSEI",
+  "samples": 4659,
+  "main_metric": "WAF",
+  "main_score": 0.7883739662695405,
+  "metrics": {
+    "WAF": 0.7883739662695405,
+    "ACC": 0.7875619152449091
+  },
+  "checkpoint": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_40/checkpoint_000043_loss_0.633.pth",
+    "sha256": "d85c16956700da51f0daf830cf90d6d960d4a24a48d7f1b5440a48dce6aa5332",
+    "epoch": 43,
+    "loss": 0.6330196369200944
+  },
+  "plan_id": "6be24af373f90444aeb2cf828e06c5cfb9e4316a34bd8bcbd7579009d88ec8d0",
+  "raw_sha256": "5eaf1a4efd6d0b5f22a7b5a2a74ddd94fb7407ba11bf21c6465c7b4b9dbcb48a",
+  "official_evaluation_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+  "completed_at": "2026-11-07T01:04:30.476237+08:00",
+  "node": "A100",
+  "dispatch": "checkpoint_complete_nine_datasets"
+}

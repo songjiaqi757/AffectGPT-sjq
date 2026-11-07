@@ -1,0 +1,30 @@
+         560020 function calls (559834 primitive calls) in 0.426 seconds
+
+   Ordered by: cumulative time
+   List reduced from 290 to 22 due to restriction <22>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        5    0.000    0.000    0.427    0.085 <stdin>:10(probe)
+       10    0.000    0.000    0.275    0.028 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/unified_prompt/integration.py:11(prepare)
+       10    0.000    0.000    0.275    0.028 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/unified_prompt/integration.py:15(_prepare)
+       10    0.000    0.000    0.203    0.020 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/unified_prompt/adapter.py:108(build)
+       10    0.000    0.000    0.203    0.020 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/unified_prompt/adapter.py:93(_build)
+       50    0.000    0.000    0.186    0.004 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:2606(encode)
+       50    0.000    0.000    0.186    0.004 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:3010(encode_plus)
+       50    0.000    0.000    0.186    0.004 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/tokenization_utils.py:744(_encode_plus)
+       50    0.000    0.000    0.183    0.004 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/tokenization_utils.py:766(get_input_ids)
+       40    0.000    0.000    0.139    0.003 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/unified_prompt/integration.py:19(count)
+       10    0.000    0.000    0.123    0.012 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/numpy/lib/npyio.py:235(__getitem__)
+       10    0.003    0.000    0.121    0.012 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/numpy/lib/format.py:738(read_array)
+      165    0.000    0.000    0.117    0.001 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/zipfile.py:921(read)
+      155    0.000    0.000    0.117    0.001 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/numpy/lib/format.py:951(_read_bytes)
+      145    0.002    0.000    0.116    0.001 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/zipfile.py:1003(_read1)
+       50    0.001    0.000    0.113    0.002 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/tokenization_utils.py:622(tokenize)
+      145    0.095    0.001    0.095    0.001 {method 'decompress' of 'zlib.Decompress' objects}
+       70    0.000    0.000    0.079    0.001 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/common.py:14(digest)
+       10    0.000    0.000    0.079    0.008 /ai/sjq/AffectGPT-sjq/graph/amg_graph_v2/unified_prompt/adapter.py:106(_packet)
+      170    0.019    0.000    0.079    0.000 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/site-packages/transformers/models/qwen2/tokenization_qwen2.py:262(_tokenize)
+       70    0.000    0.000    0.074    0.001 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/json/__init__.py:183(dumps)
+       70    0.000    0.000    0.074    0.001 /ai/sjq/miniconda3/envs/vllm/lib/python3.10/json/encoder.py:182(encode)
+
+

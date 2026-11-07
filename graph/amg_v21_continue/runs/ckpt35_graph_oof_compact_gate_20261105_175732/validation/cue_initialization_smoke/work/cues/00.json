@@ -1,0 +1,105 @@
+{
+  "cue_index": 0,
+  "cue_id": "TEST_CUE",
+  "calibration": {
+    "method": "deferred",
+    "reason": "insufficient_class_or_group_support_for_crossfit",
+    "trace": []
+  },
+  "valid_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "label_provenance": "Existing source Teacher pseudo-labels; no new human labels or audit-based tuning",
+  "policy": {
+    "candidate": {
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    "evidence": {
+      "status": "deferred",
+      "threshold": null,
+      "reason": "insufficient_class_or_group_support_for_crossfit"
+    },
+    "evidence_without_stability": {
+      "status": "deferred",
+      "threshold": null
+    },
+    "legacy_threshold": null,
+    "stability": {
+      "status": "not_applicable_calibrator_deferred"
+    }
+  },
+  "nested_group_cv": {
+    "outer_fold_count": 0,
+    "traces": [],
+    "metrics": {
+      "T0_refit_workflow": {
+        "valid": 5,
+        "positive": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "predictions": 0,
+        "prediction_groups": 0,
+        "precision": null,
+        "recall": null,
+        "f1": 0.0
+      },
+      "T1": {
+        "valid": 5,
+        "positive": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "predictions": 0,
+        "prediction_groups": 0,
+        "precision": null,
+        "recall": null,
+        "f1": 0.0
+      },
+      "T2": {
+        "valid": 5,
+        "positive": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "predictions": 0,
+        "prediction_groups": 0,
+        "precision": null,
+        "recall": null,
+        "f1": 0.0
+      },
+      "T3": {
+        "valid": 5,
+        "positive": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "predictions": 0,
+        "prediction_groups": 0,
+        "precision": null,
+        "recall": null,
+        "f1": 0.0
+      },
+      "T4": {
+        "valid": 5,
+        "positive": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "predictions": 0,
+        "prediction_groups": 0,
+        "precision": null,
+        "recall": null,
+        "f1": 0.0
+      }
+    },
+    "selected_calibration_metrics": null,
+    "scope": "Outer groups held out from calibrator fitting, calibrator selection, threshold search and threshold stability; historically exposed source pseudo-labels, not external independent audit"
+  }
+}

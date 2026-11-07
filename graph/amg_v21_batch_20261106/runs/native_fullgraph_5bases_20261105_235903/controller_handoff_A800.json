@@ -1,0 +1,44 @@
+{
+  "previous_controller": {
+    "at": "2026-11-06T10:51:36.333132+08:00",
+    "pid": 2217138,
+    "node": "A800",
+    "completed_training": [
+      35,
+      40
+    ],
+    "inference_workers_exited": false,
+    "phase": "training",
+    "base_epoch": 50,
+    "training_pid": 2289127
+  },
+  "training_before": {
+    "state": "training",
+    "llm_gradient_checkpointing": false,
+    "base_epoch": 50,
+    "physical_gpu": "0",
+    "pid": 2289127,
+    "plan_id": "6be24af373f90444aeb2cf828e06c5cfb9e4316a34bd8bcbd7579009d88ec8d0",
+    "started_at_beijing": "2026-11-06T10:51:40.763610+08:00",
+    "completed_steps": 810,
+    "completed_epochs": 0,
+    "total_steps": 25000,
+    "additional_epochs": 5,
+    "updated_at_beijing": "2026-11-06T11:05:07.478921+08:00",
+    "current_epoch": 51,
+    "epoch_step": 810,
+    "trainable_parameters": 57168644,
+    "gpu_memory_allocated": 18925126144,
+    "optimizer_updates": 810,
+    "amp_skipped_steps": 0,
+    "last_loss": 0.7196149230003357,
+    "mean_loss_current_epoch": 0.583922903423692,
+    "elapsed_training_seconds": 574.0477976799011,
+    "seconds_per_step": 0.7087009847900014,
+    "smoke_passed": true,
+    "gpu_memory_peak": 51055419392,
+    "gpu_memory_reserved": 52823064576
+  },
+  "action": "Replace controller, adopt unchanged live training PID",
+  "at": "2026-11-06T11:05:10.300010+08:00"
+}

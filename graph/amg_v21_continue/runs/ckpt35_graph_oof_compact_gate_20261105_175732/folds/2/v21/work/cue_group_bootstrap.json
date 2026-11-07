@@ -1,0 +1,8 @@
+{
+  "replicates": 1000,
+  "unit": "Known source groups including conservative long-transcript proxies",
+  "method": "Multinomial group resampling; inner resampling compresses groups with identical (TP,prediction) counts, which is distribution-exact",
+  "precision_intervals": "Per-Cue marginal; not a simultaneous 42-Cue guarantee",
+  "stability_method": "Each resample searches all tied-score-aware candidate thresholds and recomputes its Group Bootstrap precision LCB; fixed-threshold CI and selection stability are distinct",
+  "conditional_on": "Fixed OOF calibration scores; nested group CV separately measures calibration and policy selection uncertainty"
+}

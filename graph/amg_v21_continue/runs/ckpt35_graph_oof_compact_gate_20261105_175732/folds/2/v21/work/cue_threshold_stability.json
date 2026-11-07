@@ -1,0 +1,1079 @@
+{
+  "cues": [
+    {
+      "cue_id": "TXT_AFFECT_WORD_POSITIVE",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "TXT_AFFECT_WORD_NEGATIVE",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.1385610326442305,
+        "threshold_q25": 0.12095080688939265,
+        "threshold_q75": 0.15760939843712257,
+        "threshold_lower": 0.09829726536573269,
+        "threshold_upper": 0.1846571845512282,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.3593202056140367,
+        "threshold_q25": 0.28530677181774994,
+        "threshold_q75": 0.4173423044925185,
+        "threshold_lower": 0.25616635128771653,
+        "threshold_upper": 0.5543307815540387,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_EVALUATION_POSITIVE",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.05580841293603379,
+        "threshold_q25": 0.050029024950567665,
+        "threshold_q75": 0.05873063948622659,
+        "threshold_lower": 0.04166175927104057,
+        "threshold_upper": 0.07863957317853669,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.14187463987236454,
+        "threshold_q25": 0.12029104366106305,
+        "threshold_q75": 0.15810161957355065,
+        "threshold_lower": 0.10682605328758704,
+        "threshold_upper": 0.25646017259980114,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_EVALUATION_NEGATIVE",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.08973530119699988,
+        "threshold_q25": 0.08138956958180121,
+        "threshold_q75": 0.098986926650008,
+        "threshold_lower": 0.06737127768984576,
+        "threshold_upper": 0.12185749576799612,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.2693203885876378,
+        "threshold_q25": 0.24940464105637727,
+        "threshold_q75": 0.3046467594810638,
+        "threshold_lower": 0.20083019955421366,
+        "threshold_upper": 0.3763563091654523,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_NEGATION_PRESENT",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.027380546398249314,
+        "threshold_q25": 0.025458756093933554,
+        "threshold_q75": 0.029520238954647313,
+        "threshold_lower": 0.021124571913407747,
+        "threshold_upper": 0.03622730220827721,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.09173222253309327,
+        "threshold_q25": 0.0867502403658842,
+        "threshold_q75": 0.10060856605945259,
+        "threshold_lower": 0.07604272397680838,
+        "threshold_upper": 0.11273401130423667,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_CONTRAST_PRESENT",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.0222861859947443,
+        "threshold_q25": 0.016914913430809975,
+        "threshold_q75": 0.026355354115366936,
+        "threshold_lower": 0.010013571009039879,
+        "threshold_upper": 0.034618835896253586,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.06371499598026276,
+        "threshold_q25": 0.053403329104185104,
+        "threshold_q75": 0.09138210862874985,
+        "threshold_lower": 0.034618835896253586,
+        "threshold_upper": 0.15713684260845184,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_INTENSIFIER_PRESENT",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.08079323034334844,
+        "threshold_q25": 0.07147995304123976,
+        "threshold_q75": 0.08690226747841089,
+        "threshold_lower": 0.060762872856176146,
+        "threshold_upper": 0.09740944853396233,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.2474851334872347,
+        "threshold_q25": 0.21375314232567205,
+        "threshold_q75": 0.2607551244127455,
+        "threshold_lower": 0.1830444674574474,
+        "threshold_upper": 0.315342941386553,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_UNCERTAINTY_HEDGE",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.10970578342676163,
+        "threshold_q25": 0.09009299427270889,
+        "threshold_q75": 0.14128141105175018,
+        "threshold_lower": 0.0558026971295476,
+        "threshold_upper": 0.3584653437137604,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 722,
+        "failed_replicates": 278,
+        "activation_rate": 0.722,
+        "threshold_median": 0.3584653437137604,
+        "threshold_q25": 0.22953522205352783,
+        "threshold_q75": 0.528046727180481,
+        "threshold_lower": 0.1200256198644638,
+        "threshold_upper": 0.5563995838165283,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 278
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_RHETORICAL_QUESTION",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.007815888151526451,
+        "threshold_q25": 0.006903838831931353,
+        "threshold_q75": 0.009708477184176445,
+        "threshold_lower": 0.004755199886858463,
+        "threshold_upper": 0.014957086183130741,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.027585282921791077,
+        "threshold_q25": 0.021287351846694946,
+        "threshold_q75": 0.035678550601005554,
+        "threshold_lower": 0.01640303246676922,
+        "threshold_upper": 0.06187598779797554,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_EXCLAMATION_INTERJECTION",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.1271945168764042,
+        "threshold_q25": 0.09055351181558506,
+        "threshold_q75": 0.1656729000644751,
+        "threshold_lower": 0.035573661827582016,
+        "threshold_upper": 0.260521555224858,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 999,
+        "failed_replicates": 1,
+        "activation_rate": 0.999,
+        "threshold_median": 0.46652459986852063,
+        "threshold_q25": 0.4132792891731835,
+        "threshold_q75": 0.5502034381464412,
+        "threshold_lower": 0.260521555224858,
+        "threshold_upper": 0.6639260752502241,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 1
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_DESIRE_NEED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.11448631229553903,
+        "threshold_q25": 0.09445176296437034,
+        "threshold_q75": 0.12235162656105629,
+        "threshold_lower": 0.08026629080318878,
+        "threshold_upper": 0.15198673893844658,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.3219804237216581,
+        "threshold_q25": 0.22893327110868514,
+        "threshold_q75": 0.37428469152079274,
+        "threshold_lower": 0.18324847777387154,
+        "threshold_upper": 0.4470599201743157,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 998,
+        "failed_replicates": 2,
+        "activation_rate": 0.998,
+        "threshold_median": 0.29924131140299215,
+        "threshold_q25": 0.22272653275503065,
+        "threshold_q75": 0.3288472771452989,
+        "threshold_lower": 0.13959431773322825,
+        "threshold_upper": 0.6306275786475056,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 2
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 618,
+        "failed_replicates": 382,
+        "activation_rate": 0.618,
+        "threshold_median": 0.6136540958259932,
+        "threshold_q25": 0.5895562785243998,
+        "threshold_q75": 0.6377054163712161,
+        "threshold_lower": 0.4752290143473847,
+        "threshold_upper": 0.6879674916160782,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 382
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 986,
+        "failed_replicates": 14,
+        "activation_rate": 0.986,
+        "threshold_median": 0.40978270194606603,
+        "threshold_q25": 0.33366097964306185,
+        "threshold_q75": 0.45787191846470726,
+        "threshold_lower": 0.16428509939624056,
+        "threshold_upper": 0.5320309269722088,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 14
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 117,
+        "failed_replicates": 883,
+        "activation_rate": 0.117,
+        "threshold_median": 0.4733267491562613,
+        "threshold_q25": 0.4338016343303761,
+        "threshold_q75": 0.5267162454878875,
+        "threshold_lower": 0.3371147922324823,
+        "threshold_upper": 0.5353853965363934,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 883
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_FAST",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 995,
+        "failed_replicates": 5,
+        "activation_rate": 0.995,
+        "threshold_median": 0.3297097068467092,
+        "threshold_q25": 0.27638780030176224,
+        "threshold_q75": 0.4704902897493505,
+        "threshold_lower": 0.14373116673313474,
+        "threshold_upper": 0.5309153296672964,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 5
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 205,
+        "failed_replicates": 795,
+        "activation_rate": 0.205,
+        "threshold_median": 0.5016633096575486,
+        "threshold_q25": 0.4704902897493505,
+        "threshold_q75": 0.5071514246232259,
+        "threshold_lower": 0.30968528238406956,
+        "threshold_upper": 0.5386554075742477,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 795
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.016101175779583577,
+        "threshold_q25": 0.012100997724439646,
+        "threshold_q75": 0.019966135204975123,
+        "threshold_lower": 0.007918002587423421,
+        "threshold_upper": 0.035132748124134264,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.11780024154296209,
+        "threshold_q25": 0.09761847084683074,
+        "threshold_q75": 0.16092915004192482,
+        "threshold_lower": 0.08267208287376858,
+        "threshold_upper": 0.25797364612779927,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_HIGH",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_LOW",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 660,
+        "failed_replicates": 340,
+        "activation_rate": 0.66,
+        "threshold_median": 0.3747906982898712,
+        "threshold_q25": 0.33982762694358826,
+        "threshold_q75": 0.4012185335159302,
+        "threshold_lower": 0.2465333193540573,
+        "threshold_upper": 0.474631130695343,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 340
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 2,
+        "failed_replicates": 998,
+        "activation_rate": 0.002,
+        "threshold_median": 0.3185243457555771,
+        "threshold_q25": 0.30434998124837875,
+        "threshold_q75": 0.3326987102627754,
+        "threshold_lower": 0.29159305319190026,
+        "threshold_upper": 0.3454556383192539,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 998
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_LOW",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 990,
+        "failed_replicates": 10,
+        "activation_rate": 0.99,
+        "threshold_median": 0.30321571230888367,
+        "threshold_q25": 0.24438242241740227,
+        "threshold_q75": 0.411583811044693,
+        "threshold_lower": 0.16132023930549622,
+        "threshold_upper": 0.6627964973449707,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 10
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 250,
+        "failed_replicates": 750,
+        "activation_rate": 0.25,
+        "threshold_median": 0.500518798828125,
+        "threshold_q25": 0.42919009923934937,
+        "threshold_q75": 0.6325027346611023,
+        "threshold_lower": 0.33982762694358826,
+        "threshold_upper": 0.7130321860313416,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 750
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_HIGH",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.11436853557825089,
+        "threshold_q25": 0.09534945338964462,
+        "threshold_q75": 0.12852513790130615,
+        "threshold_lower": 0.06465348601341248,
+        "threshold_upper": 0.20817892253398895,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.4675748646259308,
+        "threshold_q25": 0.39326852560043335,
+        "threshold_q75": 0.5640984773635864,
+        "threshold_lower": 0.26435837149620056,
+        "threshold_upper": 0.6242935061454773,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.15301868809719288,
+        "threshold_q25": 0.14001583722025812,
+        "threshold_q75": 0.17829171498685295,
+        "threshold_lower": 0.10731253133760553,
+        "threshold_upper": 0.2109304106529008,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.4962953540926693,
+        "threshold_q25": 0.44056833439552545,
+        "threshold_q75": 0.5176537007728254,
+        "threshold_lower": 0.3833203666766711,
+        "threshold_upper": 0.579618229574066,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_PAUSE_LONG",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.2633252476966074,
+        "threshold_q25": 0.2456764970924648,
+        "threshold_q75": 0.28201386607410833,
+        "threshold_lower": 0.17430076352712157,
+        "threshold_upper": 0.3393580450071568,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 990,
+        "failed_replicates": 10,
+        "activation_rate": 0.99,
+        "threshold_median": 0.41501106337752297,
+        "threshold_q25": 0.40192079592062063,
+        "threshold_q75": 0.4599486391439966,
+        "threshold_lower": 0.3334850239323433,
+        "threshold_upper": 0.7003968678279361,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 10
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_PAUSE_FREQUENT",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "AUD_INTONATION_RISING",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.18320848284371052,
+        "threshold_q25": 0.16604983514316754,
+        "threshold_q75": 0.19336522444185622,
+        "threshold_lower": 0.146419414722496,
+        "threshold_upper": 0.22157594067606012,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.45208613009633286,
+        "threshold_q25": 0.42322367811962786,
+        "threshold_q75": 0.47778414810179093,
+        "threshold_lower": 0.3647570255697881,
+        "threshold_upper": 0.587257738190152,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_FALLING",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.05693353959776659,
+        "threshold_q25": 0.03136218796012009,
+        "threshold_q75": 0.0787767005542841,
+        "threshold_lower": 0.03136218796012009,
+        "threshold_upper": 0.1153093189303423,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.4238587642415187,
+        "threshold_q25": 0.38651350672404666,
+        "threshold_q75": 0.4511913881466528,
+        "threshold_lower": 0.3430947836967395,
+        "threshold_upper": 0.5172204607272228,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_FLAT",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 857,
+        "failed_replicates": 143,
+        "activation_rate": 0.857,
+        "threshold_median": 0.3839877247810364,
+        "threshold_q25": 0.3407045006752014,
+        "threshold_q75": 0.49060168862342834,
+        "threshold_lower": 0.2681012809276581,
+        "threshold_upper": 0.7341195344924927,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 143
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 36,
+        "failed_replicates": 964,
+        "activation_rate": 0.036,
+        "threshold_median": 0.553022563457489,
+        "threshold_q25": 0.49002213031053543,
+        "threshold_q75": 0.6132366061210632,
+        "threshold_lower": 0.3839877247810364,
+        "threshold_upper": 0.6800292134284973,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 964
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_VOICE_TENSE",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.2303552466689493,
+        "threshold_q25": 0.19133717713446768,
+        "threshold_q75": 0.24455997024447382,
+        "threshold_lower": 0.13991497567242656,
+        "threshold_upper": 0.3378028067784606,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 965,
+        "failed_replicates": 35,
+        "activation_rate": 0.965,
+        "threshold_median": 0.4535889309387173,
+        "threshold_q25": 0.40314386770180083,
+        "threshold_q75": 0.5041379298879245,
+        "threshold_lower": 0.3004124023932165,
+        "threshold_upper": 0.7444420801596294,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 35
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "AUD_VOICE_TREMBLING",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "AUD_LAUGHTER_PRESENT",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "AUD_CRYING_SOBBING_PRESENT",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "VIS_BROWS_FURROWED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.17266914969520974,
+        "threshold_q25": 0.1669066366751466,
+        "threshold_q75": 0.19244624171645025,
+        "threshold_lower": 0.1376442695248372,
+        "threshold_upper": 0.223318306005508,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.48483419477424583,
+        "threshold_q25": 0.454536186143129,
+        "threshold_q75": 0.5485244856340832,
+        "threshold_lower": 0.3650730694042423,
+        "threshold_upper": 0.5797805555044139,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_BROWS_RAISED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.19649461151062886,
+        "threshold_q25": 0.18031910642055307,
+        "threshold_q75": 0.2218871416131814,
+        "threshold_lower": 0.14991577080091434,
+        "threshold_upper": 0.25619382692218173,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.49135443686889657,
+        "threshold_q25": 0.4555342688639979,
+        "threshold_q75": 0.5442146120304219,
+        "threshold_lower": 0.4152762262706258,
+        "threshold_upper": 0.603511827041897,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_EYES_WIDENED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.15551833153844333,
+        "threshold_q25": 0.14460963717479705,
+        "threshold_q75": 0.16622121733614237,
+        "threshold_lower": 0.1159785626595718,
+        "threshold_upper": 0.20672522822174114,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.3816381154562405,
+        "threshold_q25": 0.3613426363218744,
+        "threshold_q75": 0.4270268999773579,
+        "threshold_lower": 0.31246989189965463,
+        "threshold_upper": 0.5160073368380015,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_EYES_SQUINTED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.28960464268119945,
+        "threshold_q25": 0.26090269577226055,
+        "threshold_q75": 0.3337082418942242,
+        "threshold_lower": 0.2215970099961788,
+        "threshold_upper": 0.39885156143257855,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.5206365275937263,
+        "threshold_q25": 0.5019759177289518,
+        "threshold_q75": 0.5684248725948795,
+        "threshold_lower": 0.4557964395556141,
+        "threshold_upper": 0.724743604856311,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_SMILE_PRESENT",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.18426506076416685,
+        "threshold_q25": 0.16125399008610167,
+        "threshold_q75": 0.2048037643903165,
+        "threshold_lower": 0.1099096058834289,
+        "threshold_upper": 0.26451545532472825,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.41457405844708384,
+        "threshold_q25": 0.3848594812565607,
+        "threshold_q75": 0.4746464866166168,
+        "threshold_lower": 0.30464724440986063,
+        "threshold_upper": 0.5350467421102043,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_MOUTH_CORNERS_DOWN",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.18187239293733154,
+        "threshold_q25": 0.15357582087131158,
+        "threshold_q75": 0.2005206206389674,
+        "threshold_lower": 0.1285892302312498,
+        "threshold_upper": 0.242005640665907,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.45037631837004827,
+        "threshold_q25": 0.4361890875992636,
+        "threshold_q75": 0.46658671091784476,
+        "threshold_lower": 0.3624885742740554,
+        "threshold_upper": 0.5340242265849144,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_LIPS_PRESSED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 321,
+        "failed_replicates": 679,
+        "activation_rate": 0.321,
+        "threshold_median": 0.4636710314090427,
+        "threshold_q25": 0.4372686934710835,
+        "threshold_q75": 0.5016940320522393,
+        "threshold_lower": 0.37016491629909465,
+        "threshold_upper": 0.5466741522315355,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 679
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 0,
+        "failed_replicates": 1000,
+        "activation_rate": 0.0,
+        "threshold_median": null,
+        "threshold_q25": null,
+        "threshold_q75": null,
+        "threshold_lower": null,
+        "threshold_upper": null,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 1000
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_GRIMACE_PRESENT",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 995,
+        "failed_replicates": 5,
+        "activation_rate": 0.995,
+        "threshold_median": 0.2741414234147837,
+        "threshold_q25": 0.22565963610705694,
+        "threshold_q75": 0.35736482136864794,
+        "threshold_lower": 0.14902530207821002,
+        "threshold_upper": 0.6105542730717917,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 5
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 448,
+        "failed_replicates": 552,
+        "activation_rate": 0.448,
+        "threshold_median": 0.5445282027878059,
+        "threshold_q25": 0.49110493815941125,
+        "threshold_q75": 0.6355536594427046,
+        "threshold_lower": 0.35752336254933553,
+        "threshold_upper": 0.7148241598965377,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {
+          "no_threshold_satisfies_resampled_precision_support_group_LCB": 552
+        },
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    },
+    {
+      "cue_id": "VIS_TEARING_PRESENT",
+      "status": "not_applicable_calibrator_deferred"
+    },
+    {
+      "cue_id": "VIS_HEAD_LOWERED",
+      "candidate": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.15443559337515889,
+        "threshold_q25": 0.13820302095864923,
+        "threshold_q75": 0.16578875993691422,
+        "threshold_lower": 0.12248909355566398,
+        "threshold_upper": 0.18968102487628907,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      },
+      "evidence": {
+        "replicates": 1000,
+        "successful_replicates": 1000,
+        "failed_replicates": 0,
+        "activation_rate": 1.0,
+        "threshold_median": 0.4225087604068509,
+        "threshold_q25": 0.3691059887281237,
+        "threshold_q75": 0.4471793909210285,
+        "threshold_lower": 0.32343221547906403,
+        "threshold_upper": 0.49948647985785216,
+        "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+        "failure_reasons": {},
+        "CI_replicates_per_resampled_threshold": 1000
+      }
+    }
+  ],
+  "replicates": 1000,
+  "inner_precision_ci_replicates": 1000,
+  "failed_replicates_retained": true
+}

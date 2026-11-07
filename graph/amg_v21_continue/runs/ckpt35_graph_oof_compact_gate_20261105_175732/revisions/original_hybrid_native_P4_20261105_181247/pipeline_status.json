@@ -1,0 +1,7 @@
+{
+  "state": "failed",
+  "pid": 2161476,
+  "time_beijing": "2026-11-05T18:05:30.669391+08:00",
+  "error": "ValueError('Fold 0 failed: NameError(\"name \\'traces\\' is not defined\")')",
+  "traceback": "Traceback (most recent call last):\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_v21_continue/coordinator.py\", line 14, in main\n    s=read(f);stages[k]=s[\"state\"];require(s[\"state\"]!=\"failed\",\"Fold \"+str(k)+\" failed: \"+str(s.get(\"error\")))\n  File \"/ai/sjq/AffectGPT-sjq/graph/amg_runtime/common.py\", line 25, in require\n    if not test:raise ValueError(message)\nValueError: Fold 0 failed: NameError(\"name 'traces' is not defined\")\n"
+}

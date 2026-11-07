@@ -1,0 +1,37 @@
+{
+  "job_id": "from_50_epoch_55_IEMOCAPFour",
+  "base_epoch": 50,
+  "epoch": 55,
+  "dataset": "IEMOCAPFour",
+  "samples": 1241,
+  "checkpoint": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_batch_20261106/runs/native_fullgraph_5bases_20261105_235903/from_50/checkpoint_000055_loss_0.499.pth",
+    "sha256": "8a2c5564fac9751bf69a2c1082060da60a0a743bc5ed15c475892a6c2c537393",
+    "epoch": 55,
+    "loss": 0.49917581005841494
+  },
+  "main_metric": "HIT",
+  "main_score": 0.6224037339556593,
+  "metrics": {
+    "HIT": 0.6224037339556593
+  },
+  "baseline_main_score": 0.6228704784130689,
+  "baseline_metrics": {
+    "HIT": 0.6228704784130689
+  },
+  "delta_pp": -0.04667444574095736,
+  "raw_path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_rejudge_20261107/runs/judge_T0_P1_20261107_141120/score_inputs/from_50_epoch_55_IEMOCAPFour/name2reason.npz",
+  "raw_sha256": "2f7ee464b5ebebb6e983d90da0dfdd5720e592ca4e6d6a54d5f1a000027a404f",
+  "binding": "6b7a83d8f43fa81bfd7338811adacd2e5ceeab70b77cf48c08feb46405ac85a9",
+  "plan_id": "a994a19871291310758f5a783e6c8a7ab322da1712362a95e141589c8d21414c",
+  "judge": {
+    "model": "Qwen25",
+    "temperature": 0,
+    "top_p": 1,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512
+  },
+  "node": "A800",
+  "elapsed_seconds": 43.57199136540294,
+  "completed_at": "2026-11-07T14:20:54.577393+08:00"
+}

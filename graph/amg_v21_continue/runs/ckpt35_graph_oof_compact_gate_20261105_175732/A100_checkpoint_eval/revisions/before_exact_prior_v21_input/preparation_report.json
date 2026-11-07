@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "samples": 1400,
+  "baseline_prompt_exact_matches": 1400,
+  "graph_gate_levels": {
+    "1": 1359,
+    "3": 40,
+    "2": 1
+  },
+  "same_training_gate": true,
+  "same_training_P4_adapter": true,
+  "inference_dropout": false,
+  "maximum_full_prompt_tokens": 770,
+  "maximum_graph_tokens": 666,
+  "original_native_generation": {
+    "num_beams": 1,
+    "temperature": 1,
+    "do_sample": true,
+    "top_p": 0.9,
+    "max_new_tokens": 1200,
+    "max_length": 2000
+  },
+  "original_config_identical_to_training": true,
+  "tests_unchanged": true,
+  "official_evaluation_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+  "all_files_on_server": true,
+  "at": "2026-11-05T19:06:12.766590+08:00"
+}

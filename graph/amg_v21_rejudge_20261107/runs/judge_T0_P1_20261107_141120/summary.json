@@ -1,0 +1,169 @@
+{
+  "complete": true,
+  "scored_jobs": 225,
+  "expected_jobs": 225,
+  "baseline_best_mean": 0.7548553994261769,
+  "greedy_fixed_original_winners_mean": 0.7553650807023846,
+  "greedy_reselected_best_mean": 0.7553650807023846,
+  "original_winners_evaluated": 9,
+  "dataset_best": [
+    {
+      "dataset": "MER2023",
+      "main_metric": "HIT",
+      "baseline_best_score": 0.7866619296553825,
+      "baseline_base_epoch": 35,
+      "baseline_epoch": 40,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.7866619296553825,
+      "new_base_epoch": 35,
+      "new_epoch": 40,
+      "new_metrics": {
+        "HIT": 0.7866619296553825
+      },
+      "delta_pp": 0.0
+    },
+    {
+      "dataset": "MER2024",
+      "main_metric": "HIT",
+      "baseline_best_score": 0.7874597282532567,
+      "baseline_base_epoch": 50,
+      "baseline_epoch": 55,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.7874597282532567,
+      "new_base_epoch": 50,
+      "new_epoch": 55,
+      "new_metrics": {
+        "HIT": 0.7874597282532567
+      },
+      "delta_pp": 0.0
+    },
+    {
+      "dataset": "MELD",
+      "main_metric": "HIT",
+      "baseline_best_score": 0.5833635135061156,
+      "baseline_base_epoch": 40,
+      "baseline_epoch": 45,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.5833635135061156,
+      "new_base_epoch": 40,
+      "new_epoch": 45,
+      "new_metrics": {
+        "HIT": 0.5833635135061156
+      },
+      "delta_pp": 0.0
+    },
+    {
+      "dataset": "IEMOCAPFour",
+      "main_metric": "HIT",
+      "baseline_best_score": 0.6228704784130689,
+      "baseline_base_epoch": 50,
+      "baseline_epoch": 55,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.6224037339556593,
+      "new_base_epoch": 50,
+      "new_epoch": 55,
+      "new_metrics": {
+        "HIT": 0.6224037339556593
+      },
+      "delta_pp": -0.04667444574095736
+    },
+    {
+      "dataset": "CMUMOSI",
+      "main_metric": "WAF",
+      "baseline_best_score": 0.8241734288443301,
+      "baseline_base_epoch": 50,
+      "baseline_epoch": 53,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.8256995739535186,
+      "new_base_epoch": 50,
+      "new_epoch": 53,
+      "new_metrics": {
+        "WAF": 0.8256995739535186,
+        "ACC": 0.8246951219512195
+      },
+      "delta_pp": 0.15261451091884704
+    },
+    {
+      "dataset": "CMUMOSEI",
+      "main_metric": "WAF",
+      "baseline_best_score": 0.7973547492062308,
+      "baseline_base_epoch": 35,
+      "baseline_epoch": 39,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.7975986598970195,
+      "new_base_epoch": 35,
+      "new_epoch": 39,
+      "new_metrics": {
+        "WAF": 0.7975986598970195,
+        "ACC": 0.7955421023665382
+      },
+      "delta_pp": 0.024391069078866234
+    },
+    {
+      "dataset": "SIMS",
+      "main_metric": "WAF",
+      "baseline_best_score": 0.8892605105981487,
+      "baseline_base_epoch": 45,
+      "baseline_epoch": 47,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.8892605105981487,
+      "new_base_epoch": 45,
+      "new_epoch": 47,
+      "new_metrics": {
+        "WAF": 0.8892605105981487,
+        "ACC": 0.8891752577319587
+      },
+      "delta_pp": 0.0
+    },
+    {
+      "dataset": "SIMSv2",
+      "main_metric": "WAF",
+      "baseline_best_score": 0.8639905034410185,
+      "baseline_base_epoch": 35,
+      "baseline_epoch": 38,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.8672743235843202,
+      "new_base_epoch": 35,
+      "new_epoch": 38,
+      "new_metrics": {
+        "WAF": 0.8672743235843202,
+        "ACC": 0.867178924259056
+      },
+      "delta_pp": 0.3283820143301752
+    },
+    {
+      "dataset": "OVMERDPlus",
+      "main_metric": "F_s",
+      "baseline_best_score": 0.6385637529180404,
+      "baseline_base_epoch": 40,
+      "baseline_epoch": 45,
+      "evaluated": 25,
+      "expected": 25,
+      "new_best_score": 0.6385637529180404,
+      "new_base_epoch": 40,
+      "new_epoch": 45,
+      "new_metrics": {
+        "F_s": 0.6385637529180404,
+        "P_s": 0.6103355780372542,
+        "R_s": 0.6708397645092125
+      },
+      "delta_pp": 0.0
+    }
+  ],
+  "judge": {
+    "model": "Qwen25",
+    "temperature": 0,
+    "top_p": 1,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512
+  },
+  "at": "2026-11-07T16:05:04.310805+08:00"
+}

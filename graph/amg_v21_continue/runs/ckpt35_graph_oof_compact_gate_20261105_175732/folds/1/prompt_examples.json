@@ -1,0 +1,98 @@
+[
+  {
+    "sample_id": "samplenew3_00000025",
+    "gate_level": 1,
+    "tasks": {
+      "description": {
+        "question": "Please infer the person's emotional state and provide your reasoning process.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Text] TXT_EVALUATION_POSITIVE | score=1.00 | Explicit positive evaluation of a person, event, object, or outcome.\n- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.94 | Clearly downward mouth corners, distinct from speaking or perspective effects.\n- [Visual] VIS_BROWS_FURROWED | score=0.94 | Visible inward brow contraction or furrowing; low brow position alone is insufficient.\n- [Visual] VIS_HEAD_LOWERED | score=0.83 | Head visibly lowered relative to the torso or pose; downward gaze alone is insufficient.\n- [Audio] AUD_INTONATION_FALLING | score=0.74 | Clearly falling acoustic intonation.\n- [Visual] VIS_EYES_WIDENED | score=0.67 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 347,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "09c0dc903c0fec6aa0f379347c7001d13db20a241a1a26a6493963fec331e3a0"
+          }
+        }
+      },
+      "ovlabel": {
+        "question": "Please recognize all possible emotional states of the character.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Text] TXT_EVALUATION_POSITIVE | score=1.00 | Explicit positive evaluation of a person, event, object, or outcome.\n- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.94 | Clearly downward mouth corners, distinct from speaking or perspective effects.\n- [Visual] VIS_BROWS_FURROWED | score=0.94 | Visible inward brow contraction or furrowing; low brow position alone is insufficient.\n- [Visual] VIS_HEAD_LOWERED | score=0.83 | Head visibly lowered relative to the torso or pose; downward gaze alone is insufficient.\n- [Audio] AUD_INTONATION_FALLING | score=0.74 | Clearly falling acoustic intonation.\n- [Visual] VIS_EYES_WIDENED | score=0.67 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 347,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "36a86eec51c649e5133d7decbd618972c0d23ddb931f2280ea939a717b8af616"
+          }
+        }
+      }
+    }
+  },
+  {
+    "sample_id": "samplenew3_00000028",
+    "gate_level": 1,
+    "tasks": {
+      "description": {
+        "question": "Please infer the person's emotional state and provide your reasoning process.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Visual] VIS_EYES_WIDENED | score=0.98 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n- [Audio] AUD_INTONATION_RISING | score=0.94 | Clearly rising acoustic intonation; question grammar alone is insufficient.\n- [Audio] AUD_PITCH_VARIABILITY_HIGH | score=0.82 | Clearly varying pitch across the observed speech.\n- [Visual] VIS_BROWS_RAISED | score=0.80 | Clearly raised brows, beyond habitual brow shape.\n- [Text] TXT_INTENSIFIER_PRESENT | score=0.71 | Explicit degree intensifier used to strengthen an expression.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 304,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "b335badd04e5e7037c75672919c3f079ebe356131000725870733719ccdbb6d1"
+          }
+        }
+      },
+      "ovlabel": {
+        "question": "Please recognize all possible emotional states of the character.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Visual] VIS_EYES_WIDENED | score=0.98 | Clearly increased eye opening, beyond camera distance or habitual appearance.\n- [Audio] AUD_INTONATION_RISING | score=0.94 | Clearly rising acoustic intonation; question grammar alone is insufficient.\n- [Audio] AUD_PITCH_VARIABILITY_HIGH | score=0.82 | Clearly varying pitch across the observed speech.\n- [Visual] VIS_BROWS_RAISED | score=0.80 | Clearly raised brows, beyond habitual brow shape.\n- [Text] TXT_INTENSIFIER_PRESENT | score=0.71 | Explicit degree intensifier used to strengthen an expression.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 304,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "559dbd2e2a6b0b60efc508a4fe085207174f51e6fab8ac6ae0eb4be53a34bce6"
+          }
+        }
+      }
+    }
+  },
+  {
+    "sample_id": "samplenew3_00000029",
+    "gate_level": 1,
+    "tasks": {
+      "description": {
+        "question": "Please infer the person's emotional state and provide your reasoning process.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=1.00 | Slower speech relative to comparable segments from the same speaker.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.93 | Clearly limited pitch variation across the observed speech.\n- [Text] TXT_RHETORICAL_QUESTION | score=0.89 | A question functioning rhetorically rather than requesting information.\n- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.82 | Clearly downward mouth corners, distinct from speaking or perspective effects.\n- [Audio] AUD_INTONATION_FALLING | score=0.79 | Clearly falling acoustic intonation.\n- [Audio] AUD_PAUSE_LONG | score=0.61 | Internal long pause meeting frozen duration rules; exclude file boundaries and missing audio.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 337,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "7f93efeb3de53dda03ac60dfdffb77753d0c0779bccd1c0d094e1bea30ac9a6a"
+          }
+        }
+      },
+      "ovlabel": {
+        "question": "Please recognize all possible emotional states of the character.",
+        "levels": {
+          "1": {
+            "text": "You are an expert multimodal affective understanding assistant.\nTreat the original video, audio and text as primary evidence. AMG evidence is auxiliary and must be verified against the original input.\nCue scores are source-domain calibrated detector scores, not emotion probabilities or target-domain guarantees.\nCA (Cue to Appraisal) and CE (Cue to Emotion) are signed conditional predictive associations, not causal relations. Sample contributions are logit terms, not probabilities.\nTreat Appraisal and Emotion nodes as hypotheses. The two branches are parallel; do not assume Appraisal causes Emotion.\nUse unrestricted natural-language emotion vocabulary. Answer the user's actual question.\n\n[AMG EVIDENCE — AUXILIARY]\nCue scores (source-domain calibrated detector scores):\n- [Audio] AUD_SPEECH_RATE_REL_SLOW | score=1.00 | Slower speech relative to comparable segments from the same speaker.\n- [Audio] AUD_PITCH_VARIABILITY_LOW | score=0.93 | Clearly limited pitch variation across the observed speech.\n- [Text] TXT_RHETORICAL_QUESTION | score=0.89 | A question functioning rhetorically rather than requesting information.\n- [Visual] VIS_MOUTH_CORNERS_DOWN | score=0.82 | Clearly downward mouth corners, distinct from speaking or perspective effects.\n- [Audio] AUD_INTONATION_FALLING | score=0.79 | Clearly falling acoustic intonation.\n- [Audio] AUD_PAUSE_LONG | score=0.61 | Internal long pause meeting frozen duration rules; exclude file boundaries and missing audio.\n\n[END OF AMG EVIDENCE]",
+            "graph_tokens": 337,
+            "fallback": false,
+            "CA_edge_count": 0,
+            "CE_edge_count": 0,
+            "full_prompt_sha256": "46ce1eb5c908faa616c688754bf44f7d6ecb38211cc680c76a368245ac03bfdc"
+          }
+        }
+      }
+    }
+  }
+]

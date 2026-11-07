@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "version": "checkpoint_complete_nine_dataset_A100_only",
+  "user_request": "每完成一个checkpoint的完整的9个数据集的推理就在A100上测评一下",
+  "node": "A100",
+  "datasets_required": [
+    "MER2023",
+    "MER2024",
+    "MELD",
+    "IEMOCAPFour",
+    "CMUMOSI",
+    "CMUMOSEI",
+    "SIMS",
+    "SIMSv2",
+    "OVMERDPlus"
+  ],
+  "checkpoint_identity": [
+    "base_epoch",
+    "epoch",
+    "sha256"
+  ],
+  "pause_A100_inference_at_sample_boundary": true,
+  "A800_continues": true,
+  "resume_four_way_A100_inference_after_evaluation": true,
+  "global_all_inference_barrier_removed_for_scoring": true,
+  "original_training_processes_preserved": true,
+  "at": "2026-11-06T11:03:52.038765+08:00"
+}

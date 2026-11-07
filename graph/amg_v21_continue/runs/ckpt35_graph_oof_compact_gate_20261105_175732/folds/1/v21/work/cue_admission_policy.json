@@ -1,0 +1,3104 @@
+{
+  "schema_version": "amg_v21_cue_admission",
+  "cue_ids": [
+    "TXT_AFFECT_WORD_POSITIVE",
+    "TXT_AFFECT_WORD_NEGATIVE",
+    "TXT_EVALUATION_POSITIVE",
+    "TXT_EVALUATION_NEGATIVE",
+    "TXT_NEGATION_PRESENT",
+    "TXT_CONTRAST_PRESENT",
+    "TXT_INTENSIFIER_PRESENT",
+    "TXT_UNCERTAINTY_HEDGE",
+    "TXT_RHETORICAL_QUESTION",
+    "TXT_EXCLAMATION_INTERJECTION",
+    "TXT_DESIRE_NEED",
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+    "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+    "TXT_EXPLICIT_SUCCESS_OUTCOME",
+    "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+    "AUD_SPEECH_RATE_REL_FAST",
+    "AUD_SPEECH_RATE_REL_SLOW",
+    "AUD_PITCH_LEVEL_REL_HIGH",
+    "AUD_PITCH_LEVEL_REL_LOW",
+    "AUD_VOCAL_INTENSITY_REL_HIGH",
+    "AUD_VOCAL_INTENSITY_REL_LOW",
+    "AUD_PITCH_VARIABILITY_HIGH",
+    "AUD_PITCH_VARIABILITY_LOW",
+    "AUD_PAUSE_LONG",
+    "AUD_PAUSE_FREQUENT",
+    "AUD_INTONATION_RISING",
+    "AUD_INTONATION_FALLING",
+    "AUD_INTONATION_FLAT",
+    "AUD_VOICE_TENSE",
+    "AUD_VOICE_TREMBLING",
+    "AUD_LAUGHTER_PRESENT",
+    "AUD_CRYING_SOBBING_PRESENT",
+    "VIS_BROWS_FURROWED",
+    "VIS_BROWS_RAISED",
+    "VIS_EYES_WIDENED",
+    "VIS_EYES_SQUINTED",
+    "VIS_SMILE_PRESENT",
+    "VIS_MOUTH_CORNERS_DOWN",
+    "VIS_LIPS_PRESSED",
+    "VIS_GRIMACE_PRESENT",
+    "VIS_TEARING_PRESENT",
+    "VIS_HEAD_LOWERED"
+  ],
+  "cues": [
+    {
+      "cue_id": "TXT_AFFECT_WORD_POSITIVE",
+      "cue_index": 0,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "TXT_AFFECT_WORD_NEGATIVE",
+      "cue_index": 1,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.5402893728479706,
+        "intercept": -0.43205138387289194,
+        "converged": true,
+        "fold_slope_cv": 0.029912181630814223,
+        "fold_count": 5,
+        "positive": 207,
+        "negative": 996,
+        "positive_groups": 207,
+        "negative_groups": 995,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.002996691766737272,
+          "q95_absolute_difference": 0.01587336470271211,
+          "mean_oof": 0.17179371078400293,
+          "mean_final": 0.17206982545974006
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.150260727375191,
+        "precision": 0.6508474576271186,
+        "recall": 0.927536231884058,
+        "predictions": 295,
+        "prediction_groups": 295,
+        "group_precision_lcb": 0.598562862799802,
+        "group_precision_ucb": 0.7013901378896882,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 278
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.33259185560445265,
+        "precision": 0.8009259259259259,
+        "recall": 0.8357487922705314,
+        "predictions": 216,
+        "prediction_groups": 216,
+        "group_precision_lcb": 0.7473974004834015,
+        "group_precision_ucb": 0.8523883928571429,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 205
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.33259185560445265,
+        "precision": 0.8009259259259259,
+        "recall": 0.8357487922705314,
+        "predictions": 216,
+        "prediction_groups": 216,
+        "group_precision_lcb": 0.7473974004834015,
+        "group_precision_ucb": 0.8523883928571429,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 205
+      },
+      "legacy_threshold": 0.150260727375191,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.14888712905827675,
+          "threshold_q25": 0.12608088681300608,
+          "threshold_q75": 0.16084996345743632,
+          "threshold_lower": 0.09794404652524141,
+          "threshold_upper": 0.19906855920434102,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.31418831489354443,
+          "threshold_q25": 0.28682602699825777,
+          "threshold_q75": 0.3753539556418025,
+          "threshold_lower": 0.2390084791257393,
+          "threshold_upper": 0.5264318697662494,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_EVALUATION_POSITIVE",
+      "cue_index": 2,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.5981486978455878,
+        "intercept": -0.4839164783380579,
+        "converged": true,
+        "fold_slope_cv": 0.04042097748043518,
+        "fold_count": 5,
+        "positive": 204,
+        "negative": 941,
+        "positive_groups": 204,
+        "negative_groups": 940,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.002459966110764459,
+          "q95_absolute_difference": 0.01034438047332967,
+          "mean_oof": 0.17793849042315651,
+          "mean_final": 0.17816593882039689
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.05184190986408973,
+        "precision": 0.6503267973856209,
+        "recall": 0.9754901960784313,
+        "predictions": 306,
+        "prediction_groups": 306,
+        "group_precision_lcb": 0.5947645037396402,
+        "group_precision_ucb": 0.7000084175084175,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 283
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.13959787302011725,
+        "precision": 0.8024691358024691,
+        "recall": 0.9558823529411765,
+        "predictions": 243,
+        "prediction_groups": 243,
+        "group_precision_lcb": 0.7471253186636254,
+        "group_precision_ucb": 0.8505759049935613,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 224
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.13959787302011725,
+        "precision": 0.8024691358024691,
+        "recall": 0.9558823529411765,
+        "predictions": 243,
+        "prediction_groups": 243,
+        "group_precision_lcb": 0.7471253186636254,
+        "group_precision_ucb": 0.8505759049935613,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 224
+      },
+      "legacy_threshold": 0.05184190986408973,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.05184190986408973,
+          "threshold_q25": 0.044997100151621526,
+          "threshold_q75": 0.05942189074075099,
+          "threshold_lower": 0.03871475795442396,
+          "threshold_upper": 0.07713810840405941,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.13775081849973786,
+          "threshold_q25": 0.12341698376148863,
+          "threshold_q75": 0.16622620810507532,
+          "threshold_lower": 0.10622181885254946,
+          "threshold_upper": 0.2159651198781525,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_EVALUATION_NEGATIVE",
+      "cue_index": 3,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.5204056894862459,
+        "intercept": -0.038260403970223684,
+        "converged": true,
+        "fold_slope_cv": 0.019662162814666033,
+        "fold_count": 5,
+        "positive": 317,
+        "negative": 766,
+        "positive_groups": 317,
+        "negative_groups": 765,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0024752984786057513,
+          "q95_absolute_difference": 0.010096720435287285,
+          "mean_oof": 0.29261786901694875,
+          "mean_final": 0.2927054477587374
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.0869856529121584,
+        "precision": 0.6509635974304069,
+        "recall": 0.9589905362776026,
+        "predictions": 467,
+        "prediction_groups": 467,
+        "group_precision_lcb": 0.606983167245176,
+        "group_precision_ucb": 0.6948124636557472,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 436
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.26912295973091954,
+        "precision": 0.8011049723756906,
+        "recall": 0.9148264984227129,
+        "predictions": 362,
+        "prediction_groups": 362,
+        "group_precision_lcb": 0.7601024827713732,
+        "group_precision_ucb": 0.8415285108312016,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 337
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.26912295973091954,
+        "precision": 0.8011049723756906,
+        "recall": 0.9148264984227129,
+        "predictions": 362,
+        "prediction_groups": 362,
+        "group_precision_lcb": 0.7601024827713732,
+        "group_precision_ucb": 0.8415285108312016,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 337
+      },
+      "legacy_threshold": 0.0869856529121584,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.08666352982907337,
+          "threshold_q25": 0.07834810986250658,
+          "threshold_q75": 0.09893890471594265,
+          "threshold_lower": 0.06418639897816628,
+          "threshold_upper": 0.12650140436372329,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.265801000077959,
+          "threshold_q25": 0.24149343413089872,
+          "threshold_q75": 0.29769833622367514,
+          "threshold_lower": 0.20438826209441435,
+          "threshold_upper": 0.3622113997103035,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_NEGATION_PRESENT",
+      "cue_index": 4,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6425456151418735,
+        "intercept": -0.3810066325246758,
+        "converged": true,
+        "fold_slope_cv": 0.022227811805495584,
+        "fold_count": 5,
+        "positive": 429,
+        "negative": 772,
+        "positive_groups": 429,
+        "negative_groups": 771,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0020375752708279155,
+          "q95_absolute_difference": 0.008096233306012057,
+          "mean_oof": 0.35699572009252,
+          "mean_final": 0.3572023313905236
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.0292115620348884,
+        "precision": 0.650381679389313,
+        "recall": 0.993006993006993,
+        "predictions": 655,
+        "prediction_groups": 655,
+        "group_precision_lcb": 0.6161042438929957,
+        "group_precision_ucb": 0.6856396319153424,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 518
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.09902878262719418,
+        "precision": 0.8011472275334608,
+        "recall": 0.9766899766899767,
+        "predictions": 523,
+        "prediction_groups": 523,
+        "group_precision_lcb": 0.7677533740384179,
+        "group_precision_ucb": 0.8336917903216612,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 402
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.09902878262719418,
+        "precision": 0.8011472275334608,
+        "recall": 0.9766899766899767,
+        "predictions": 523,
+        "prediction_groups": 523,
+        "group_precision_lcb": 0.7677533740384179,
+        "group_precision_ucb": 0.8336917903216612,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 402
+      },
+      "legacy_threshold": 0.0292115620348884,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.0292115620348884,
+          "threshold_q25": 0.02725880015676072,
+          "threshold_q75": 0.03284854096612921,
+          "threshold_lower": 0.02364160590963325,
+          "threshold_upper": 0.04015869203604438,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.09814183637033434,
+          "threshold_q25": 0.09214604786093811,
+          "threshold_q75": 0.10509046000857106,
+          "threshold_lower": 0.07895775356580337,
+          "threshold_upper": 0.12034750263212941,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_CONTRAST_PRESENT",
+      "cue_index": 5,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.7021481896444297,
+        "intercept": -0.2995196205311126,
+        "converged": true,
+        "fold_slope_cv": 0.0633291774716143,
+        "fold_count": 5,
+        "positive": 95,
+        "negative": 1077,
+        "positive_groups": 95,
+        "negative_groups": 1076,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0018764073670811488,
+          "q95_absolute_difference": 0.009311554606331636,
+          "mean_oof": 0.08098290970203592,
+          "mean_final": 0.0810580206264163
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.06515712663508885,
+        "precision": 0.6518518518518519,
+        "recall": 0.9263157894736842,
+        "predictions": 135,
+        "prediction_groups": 135,
+        "group_precision_lcb": 0.5648790050371294,
+        "group_precision_ucb": 0.7364443084455324,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 132
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.16840554641606248,
+        "precision": 0.8018867924528302,
+        "recall": 0.8947368421052632,
+        "predictions": 106,
+        "prediction_groups": 106,
+        "group_precision_lcb": 0.7192403177755711,
+        "group_precision_ucb": 0.8773584905660378,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 104
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.16840554641606248,
+        "precision": 0.8018867924528302,
+        "recall": 0.8947368421052632,
+        "predictions": 106,
+        "prediction_groups": 106,
+        "group_precision_lcb": 0.7192403177755711,
+        "group_precision_ucb": 0.8773584905660378,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 104
+      },
+      "legacy_threshold": 0.06515712663508885,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.06515712663508885,
+          "threshold_q25": 0.057471814966802606,
+          "threshold_q75": 0.06907805380360571,
+          "threshold_lower": 0.04219765458126881,
+          "threshold_upper": 0.09862995474793554,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.16840554641606248,
+          "threshold_q25": 0.13026804643271886,
+          "threshold_q75": 0.19487823464012452,
+          "threshold_lower": 0.0971406019525308,
+          "threshold_upper": 0.3117242676357377,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_INTENSIFIER_PRESENT",
+      "cue_index": 6,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.4646866599157226,
+        "intercept": -0.5500404184276139,
+        "converged": true,
+        "fold_slope_cv": 0.02209784732597983,
+        "fold_count": 5,
+        "positive": 415,
+        "negative": 759,
+        "positive_groups": 415,
+        "negative_groups": 758,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.004416167399070924,
+          "q95_absolute_difference": 0.017114355934519227,
+          "mean_oof": 0.35371493209817156,
+          "mean_final": 0.35349233383784573
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.08559856382144783,
+        "precision": 0.6514657980456026,
+        "recall": 0.963855421686747,
+        "predictions": 614,
+        "prediction_groups": 613,
+        "group_precision_lcb": 0.6135948409214432,
+        "group_precision_ucb": 0.6909780300534015,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 530
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.25090620156084487,
+        "precision": 0.8,
+        "recall": 0.8963855421686747,
+        "predictions": 465,
+        "prediction_groups": 465,
+        "group_precision_lcb": 0.7628624591292377,
+        "group_precision_ucb": 0.8369149595150658,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 392
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.25090620156084487,
+        "precision": 0.8,
+        "recall": 0.8963855421686747,
+        "predictions": 465,
+        "prediction_groups": 465,
+        "group_precision_lcb": 0.7628624591292377,
+        "group_precision_ucb": 0.8369149595150658,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 392
+      },
+      "legacy_threshold": 0.08559856382144783,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.08559856382144783,
+          "threshold_q25": 0.07673570954405623,
+          "threshold_q75": 0.09465432694007266,
+          "threshold_lower": 0.06451759577223917,
+          "threshold_upper": 0.11043624876321104,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.2510833431538639,
+          "threshold_q25": 0.23158020295835316,
+          "threshold_q75": 0.2965853359289405,
+          "threshold_lower": 0.19856031502902,
+          "threshold_upper": 0.3842908519030194,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_UNCERTAINTY_HEDGE",
+      "cue_index": 7,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6571988684621297,
+        "intercept": -0.5352240503792578,
+        "converged": true,
+        "fold_slope_cv": 0.04572014039356081,
+        "fold_count": 5,
+        "positive": 54,
+        "negative": 1098,
+        "positive_groups": 54,
+        "negative_groups": 1097,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0019180310774817222,
+          "q95_absolute_difference": 0.009769591308230519,
+          "mean_oof": 0.046509201206490575,
+          "mean_final": 0.04687499999905467
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.17949582597256283,
+        "precision": 0.6716417910447762,
+        "recall": 0.8333333333333334,
+        "predictions": 67,
+        "prediction_groups": 66,
+        "group_precision_lcb": 0.5555128205128206,
+        "group_precision_ucb": 0.782608695652174,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 63
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.1613329692689359,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 998,
+          "failed_replicates": 2,
+          "activation_rate": 0.998,
+          "threshold_median": 0.17418593447749717,
+          "threshold_q25": 0.11846190943772056,
+          "threshold_q75": 0.21248061673878504,
+          "threshold_lower": 0.08555072053427708,
+          "threshold_upper": 0.442857789216881,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 2
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 388,
+          "failed_replicates": 612,
+          "activation_rate": 0.388,
+          "threshold_median": 0.2760063867338178,
+          "threshold_q25": 0.24649052551429587,
+          "threshold_q75": 0.442857789216881,
+          "threshold_lower": 0.18198261865718365,
+          "threshold_upper": 0.4952735747496272,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 612
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_RHETORICAL_QUESTION",
+      "cue_index": 8,
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0,
+        "status": "source_pseudolabel_identity_accepted_by_frozen_rule",
+        "fold_slope_cv": 0.05538222498741662,
+        "fold_count": 5,
+        "positive": 126,
+        "negative": 944,
+        "positive_groups": 126,
+        "negative_groups": 943,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0,
+          "q95_absolute_difference": 0.0,
+          "mean_oof": 0.11805726338276878,
+          "mean_final": 0.11805726338276878
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.008847354911267757,
+        "precision": 0.6544502617801047,
+        "recall": 0.9920634920634921,
+        "predictions": 191,
+        "prediction_groups": 191,
+        "group_precision_lcb": 0.586913290513834,
+        "group_precision_ucb": 0.7177953437155891,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 155
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.03308597952127457,
+        "precision": 0.8064516129032258,
+        "recall": 0.9920634920634921,
+        "predictions": 155,
+        "prediction_groups": 155,
+        "group_precision_lcb": 0.7421034241788959,
+        "group_precision_ucb": 0.8639126305792972,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 130
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.03308597952127457,
+        "precision": 0.8064516129032258,
+        "recall": 0.9920634920634921,
+        "predictions": 155,
+        "prediction_groups": 155,
+        "group_precision_lcb": 0.7421034241788959,
+        "group_precision_ucb": 0.8639126305792972,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 130
+      },
+      "legacy_threshold": 0.008847354911267757,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.008847354911267757,
+          "threshold_q25": 0.007815888151526451,
+          "threshold_q75": 0.011331753805279732,
+          "threshold_lower": 0.005220125429332256,
+          "threshold_upper": 0.016914913430809975,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.03308597952127457,
+          "threshold_q25": 0.02843603305518627,
+          "threshold_q75": 0.042087726294994354,
+          "threshold_lower": 0.018833130598068237,
+          "threshold_upper": 0.06562894452363251,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_EXCLAMATION_INTERJECTION",
+      "cue_index": 9,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6746957184508664,
+        "intercept": -0.3324236425418467,
+        "converged": true,
+        "fold_slope_cv": 0.028676447385391723,
+        "fold_count": 5,
+        "positive": 102,
+        "negative": 1102,
+        "positive_groups": 102,
+        "negative_groups": 1101,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0023076416493871157,
+          "q95_absolute_difference": 0.009765798121313528,
+          "mean_oof": 0.08508525223900422,
+          "mean_final": 0.08471760795014405
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.0659661013020252,
+        "precision": 0.6530612244897959,
+        "recall": 0.9411764705882353,
+        "predictions": 147,
+        "prediction_groups": 147,
+        "group_precision_lcb": 0.5763888888888888,
+        "group_precision_ucb": 0.7287132914615515,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 143
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.39919753352911713,
+        "precision": 0.8,
+        "recall": 0.8627450980392157,
+        "predictions": 110,
+        "prediction_groups": 110,
+        "group_precision_lcb": 0.7221955128205129,
+        "group_precision_ucb": 0.875,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 106
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.39919753352911713,
+        "precision": 0.8,
+        "recall": 0.8627450980392157,
+        "predictions": 110,
+        "prediction_groups": 110,
+        "group_precision_lcb": 0.7221955128205129,
+        "group_precision_ucb": 0.875,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 106
+      },
+      "legacy_threshold": 0.0659661013020252,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.06433490018739754,
+          "threshold_q25": 0.049900495319640206,
+          "threshold_q75": 0.07596188409841033,
+          "threshold_lower": 0.037660456524142426,
+          "threshold_upper": 0.19966342702793208,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 997,
+          "failed_replicates": 3,
+          "activation_rate": 0.997,
+          "threshold_median": 0.39255527778752736,
+          "threshold_q25": 0.3059016606197214,
+          "threshold_q75": 0.48968441743533536,
+          "threshold_lower": 0.19966342702793208,
+          "threshold_upper": 0.7192557139147703,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 3
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_DESIRE_NEED",
+      "cue_index": 10,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.554441527072859,
+        "intercept": -0.5425160247068553,
+        "converged": true,
+        "fold_slope_cv": 0.03458731481774558,
+        "fold_count": 5,
+        "positive": 228,
+        "negative": 985,
+        "positive_groups": 228,
+        "negative_groups": 984,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0032150615840343118,
+          "q95_absolute_difference": 0.012591308213686501,
+          "mean_oof": 0.18803342801143547,
+          "mean_final": 0.18796372629356795
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.0949155626083644,
+        "precision": 0.6506024096385542,
+        "recall": 0.9473684210526315,
+        "predictions": 332,
+        "prediction_groups": 332,
+        "group_precision_lcb": 0.6022311702458761,
+        "group_precision_ucb": 0.6991227172745409,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 320
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.32955778061227015,
+        "precision": 0.8007968127490039,
+        "recall": 0.881578947368421,
+        "predictions": 251,
+        "prediction_groups": 251,
+        "group_precision_lcb": 0.7519183367270389,
+        "group_precision_ucb": 0.8464654883565087,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 241
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.32955778061227015,
+        "precision": 0.8007968127490039,
+        "recall": 0.881578947368421,
+        "predictions": 251,
+        "prediction_groups": 251,
+        "group_precision_lcb": 0.7519183367270389,
+        "group_precision_ucb": 0.8464654883565087,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 241
+      },
+      "legacy_threshold": 0.0949155626083644,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.09566162953158032,
+          "threshold_q25": 0.08585086200007812,
+          "threshold_q75": 0.1103011804553969,
+          "threshold_lower": 0.0721040957120579,
+          "threshold_upper": 0.14017040563134664,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.32955778061227015,
+          "threshold_q25": 0.2516861132312514,
+          "threshold_q75": 0.40535870087486553,
+          "threshold_lower": 0.18554940208731585,
+          "threshold_upper": 0.4818575792706174,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_SELF",
+      "cue_index": 11,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_CAUSAL_ATTRIBUTION_OTHER",
+      "cue_index": 12,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.567267789184602,
+        "intercept": -0.539130618082227,
+        "converged": true,
+        "fold_slope_cv": 0.0625973181914338,
+        "fold_count": 5,
+        "positive": 87,
+        "negative": 1115,
+        "positive_groups": 87,
+        "negative_groups": 1114,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.005119662674001647,
+          "q95_absolute_difference": 0.030984940117982078,
+          "mean_oof": 0.07183737788574104,
+          "mean_final": 0.07237936747710226
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.3051528019401775,
+        "precision": 0.6521739130434783,
+        "recall": 0.6896551724137931,
+        "predictions": 92,
+        "prediction_groups": 92,
+        "group_precision_lcb": 0.5612244897959183,
+        "group_precision_ucb": 0.7525773195876289,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 90
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "bootstrap_threshold_activation_rate_below_minimum",
+        "unfiltered_threshold": 0.6269942604162412
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.6269942604162412,
+        "precision": 0.8235294117647058,
+        "recall": 0.4827586206896552,
+        "predictions": 51,
+        "prediction_groups": 51,
+        "group_precision_lcb": 0.7141558441558442,
+        "group_precision_ucb": 0.9245400943396227,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 49
+      },
+      "legacy_threshold": 0.3051528019401775,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 999,
+          "failed_replicates": 1,
+          "activation_rate": 0.999,
+          "threshold_median": 0.3051528019401775,
+          "threshold_q25": 0.2501380195508661,
+          "threshold_q75": 0.41444243803639136,
+          "threshold_lower": 0.15665381994206445,
+          "threshold_upper": 0.5707339103433541,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 1
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 571,
+          "failed_replicates": 429,
+          "activation_rate": 0.571,
+          "threshold_median": 0.5596223485387675,
+          "threshold_q25": 0.5021623361068738,
+          "threshold_q75": 0.6170886321827661,
+          "threshold_lower": 0.42088959681238064,
+          "threshold_upper": 0.6760016945477967,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 429
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_SUCCESS_OUTCOME",
+      "cue_index": 13,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "TXT_EXPLICIT_FAILURE_LOSS_OUTCOME",
+      "cue_index": 14,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.5709540081926767,
+        "intercept": -0.6376837535474079,
+        "converged": true,
+        "fold_slope_cv": 0.040736664962125045,
+        "fold_count": 5,
+        "positive": 57,
+        "negative": 1152,
+        "positive_groups": 57,
+        "negative_groups": 1151,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0016838784205605785,
+          "q95_absolute_difference": 0.006504675234733754,
+          "mean_oof": 0.04726741673133955,
+          "mean_final": 0.04714640194531939
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.35176369551865266,
+        "precision": 0.6842105263157895,
+        "recall": 0.6842105263157895,
+        "predictions": 57,
+        "prediction_groups": 57,
+        "group_precision_lcb": 0.5625,
+        "group_precision_ucb": 0.8039322250639387,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 55
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.32985947115295716,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 974,
+          "failed_replicates": 26,
+          "activation_rate": 0.974,
+          "threshold_median": 0.3457226759757644,
+          "threshold_q25": 0.29890876595086857,
+          "threshold_q75": 0.3889235055295882,
+          "threshold_lower": 0.1502144765233365,
+          "threshold_upper": 0.5114423220492507,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 26
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 141,
+          "failed_replicates": 859,
+          "activation_rate": 0.141,
+          "threshold_median": 0.41002706747958845,
+          "threshold_q25": 0.38539897577711596,
+          "threshold_q75": 0.5029102468519506,
+          "threshold_lower": 0.33589040937099346,
+          "threshold_upper": 0.5648276063644155,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 859
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_FAST",
+      "cue_index": 15,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.8145242206869807,
+        "intercept": 0.7404321335749251,
+        "converged": true,
+        "fold_slope_cv": 0.055757964842132864,
+        "fold_count": 5,
+        "positive": 54,
+        "negative": 834,
+        "positive_groups": 54,
+        "negative_groups": 833,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.004173161468328966,
+          "q95_absolute_difference": 0.026643817690562722,
+          "mean_oof": 0.06097617462412086,
+          "mean_final": 0.06081081080844752
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.4155158153265974,
+        "precision": 0.6842105263157895,
+        "recall": 0.7222222222222222,
+        "predictions": 57,
+        "prediction_groups": 57,
+        "group_precision_lcb": 0.5640625,
+        "group_precision_ucb": 0.8070175438596491,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 56
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.3363879635962431,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 960,
+          "failed_replicates": 40,
+          "activation_rate": 0.96,
+          "threshold_median": 0.37592086009801456,
+          "threshold_q25": 0.2481165160281227,
+          "threshold_q75": 0.4849219460900505,
+          "threshold_lower": 0.13362788486791682,
+          "threshold_upper": 0.5710586694096935,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 40
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 77,
+          "failed_replicates": 923,
+          "activation_rate": 0.077,
+          "threshold_median": 0.4409432299851973,
+          "threshold_q25": 0.4155158153265974,
+          "threshold_q75": 0.5191066973855493,
+          "threshold_lower": 0.33067094325436325,
+          "threshold_upper": 0.563647333181477,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 923
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_SPEECH_RATE_REL_SLOW",
+      "cue_index": 16,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.579500196193607,
+        "intercept": -0.269057794968851,
+        "converged": true,
+        "fold_slope_cv": 0.04310479812905763,
+        "fold_count": 5,
+        "positive": 284,
+        "negative": 315,
+        "positive_groups": 283,
+        "negative_groups": 315,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.004297818692169208,
+          "q95_absolute_difference": 0.018345051231411155,
+          "mean_oof": 0.4739247056420396,
+          "mean_final": 0.47412353893536247
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.011738291724642828,
+        "precision": 0.651270207852194,
+        "recall": 0.9929577464788732,
+        "predictions": 433,
+        "prediction_groups": 432,
+        "group_precision_lcb": 0.6056214624193761,
+        "group_precision_ucb": 0.6953512074061681,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 374
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.10315912210328361,
+        "precision": 0.8017241379310345,
+        "recall": 0.9823943661971831,
+        "predictions": 348,
+        "prediction_groups": 347,
+        "group_precision_lcb": 0.7596329889627693,
+        "group_precision_ucb": 0.8415592190090256,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 293
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.10315912210328361,
+        "precision": 0.8017241379310345,
+        "recall": 0.9823943661971831,
+        "predictions": 348,
+        "prediction_groups": 347,
+        "group_precision_lcb": 0.7596329889627693,
+        "group_precision_ucb": 0.8415592190090256,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 293
+      },
+      "legacy_threshold": 0.011738291724642828,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.011738291724642828,
+          "threshold_q25": 0.008881661979564182,
+          "threshold_q75": 0.01580649517611855,
+          "threshold_lower": 0.006882304467018183,
+          "threshold_upper": 0.027023896976195977,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.10315912210328361,
+          "threshold_q25": 0.09144117423843555,
+          "threshold_q75": 0.14693372435126686,
+          "threshold_lower": 0.06631640957390074,
+          "threshold_upper": 0.20618183081579208,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_HIGH",
+      "cue_index": 17,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_LEVEL_REL_LOW",
+      "cue_index": 18,
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0,
+        "status": "source_pseudolabel_identity_accepted_by_frozen_rule",
+        "fold_slope_cv": 0.08050668325054454,
+        "fold_count": 5,
+        "positive": 49,
+        "negative": 407,
+        "positive_groups": 49,
+        "negative_groups": 407,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0,
+          "q95_absolute_difference": 0.0,
+          "mean_oof": 0.10750389729116057,
+          "mean_final": 0.10750389729116057
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.34687307476997375,
+        "precision": 0.6862745098039216,
+        "recall": 0.7142857142857143,
+        "predictions": 51,
+        "prediction_groups": 51,
+        "group_precision_lcb": 0.5554421768707484,
+        "group_precision_ucb": 0.8108530405405405,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 50
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.3048688769340515,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 955,
+          "failed_replicates": 45,
+          "activation_rate": 0.955,
+          "threshold_median": 0.34687307476997375,
+          "threshold_q25": 0.28378137946128845,
+          "threshold_q75": 0.39326852560043335,
+          "threshold_lower": 0.20434190332889557,
+          "threshold_upper": 0.5484316945075989,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 45
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 57,
+          "failed_replicates": 943,
+          "activation_rate": 0.057,
+          "threshold_median": 0.4012185335159302,
+          "threshold_q25": 0.3747906982898712,
+          "threshold_q75": 0.4201236963272095,
+          "threshold_lower": 0.2958398759365082,
+          "threshold_upper": 0.5205192923545838,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 943
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_HIGH",
+      "cue_index": 19,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "AUD_VOCAL_INTENSITY_REL_LOW",
+      "cue_index": 20,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.8389144205769021,
+        "intercept": -0.6801629211699035,
+        "converged": true,
+        "fold_slope_cv": 0.02264040984334055,
+        "fold_count": 5,
+        "positive": 55,
+        "negative": 415,
+        "positive_groups": 55,
+        "negative_groups": 415,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.005178039741186162,
+          "q95_absolute_difference": 0.0250504502480959,
+          "mean_oof": 0.1158905032359365,
+          "mean_final": 0.11702127651882395
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.303645796065148,
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "predictions": 66,
+        "prediction_groups": 66,
+        "group_precision_lcb": 0.5516296646197449,
+        "group_precision_ucb": 0.7742049068605179,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 63
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.2979499949927067,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 951,
+          "failed_replicates": 49,
+          "activation_rate": 0.951,
+          "threshold_median": 0.303645796065148,
+          "threshold_q25": 0.23242101547065097,
+          "threshold_q75": 0.47445673080818307,
+          "threshold_lower": 0.1626751731727787,
+          "threshold_upper": 0.5779465732410858,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 49
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 63,
+          "failed_replicates": 937,
+          "activation_rate": 0.063,
+          "threshold_median": 0.47445673080818307,
+          "threshold_q25": 0.3146664821164669,
+          "threshold_q75": 0.5120911094386115,
+          "threshold_lower": 0.27500868926266736,
+          "threshold_upper": 0.5459877111671683,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 937
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_HIGH",
+      "cue_index": 21,
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0,
+        "status": "source_pseudolabel_identity_accepted_by_frozen_rule",
+        "fold_slope_cv": 0.05038450581103394,
+        "fold_count": 5,
+        "positive": 159,
+        "negative": 573,
+        "positive_groups": 159,
+        "negative_groups": 572,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0,
+          "q95_absolute_difference": 0.0,
+          "mean_oof": 0.20860445939091923,
+          "mean_final": 0.20860445939091923
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.06560483574867249,
+        "precision": 0.65,
+        "recall": 0.9811320754716981,
+        "predictions": 240,
+        "prediction_groups": 240,
+        "group_precision_lcb": 0.5870378425402348,
+        "group_precision_ucb": 0.7123343131273917,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 213
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.28219619393348694,
+        "precision": 0.8033707865168539,
+        "recall": 0.89937106918239,
+        "predictions": 178,
+        "prediction_groups": 178,
+        "group_precision_lcb": 0.7453305235137533,
+        "group_precision_ucb": 0.8623218237438167,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 160
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.28219619393348694,
+        "precision": 0.8033707865168539,
+        "recall": 0.89937106918239,
+        "predictions": 178,
+        "prediction_groups": 178,
+        "group_precision_lcb": 0.7453305235137533,
+        "group_precision_ucb": 0.8623218237438167,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 160
+      },
+      "legacy_threshold": 0.06560483574867249,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.06560483574867249,
+          "threshold_q25": 0.05665242671966553,
+          "threshold_q75": 0.08632347732782364,
+          "threshold_lower": 0.03210070729255676,
+          "threshold_upper": 0.12170668020844458,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.28140559792518616,
+          "threshold_q25": 0.25534364581108093,
+          "threshold_q75": 0.3250918686389923,
+          "threshold_lower": 0.18010666966438293,
+          "threshold_upper": 0.47816330194473267,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_PITCH_VARIABILITY_LOW",
+      "cue_index": 22,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.7126648807679401,
+        "intercept": 0.3330860833618401,
+        "converged": true,
+        "fold_slope_cv": 0.017303817190491566,
+        "fold_count": 5,
+        "positive": 436,
+        "negative": 435,
+        "positive_groups": 436,
+        "negative_groups": 435,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.003869274084705209,
+          "q95_absolute_difference": 0.010922311836582023,
+          "mean_oof": 0.5006797062736275,
+          "mean_final": 0.5005740528140527
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.15429456045674841,
+        "precision": 0.6505295007564297,
+        "recall": 0.9862385321100917,
+        "predictions": 661,
+        "prediction_groups": 661,
+        "group_precision_lcb": 0.6153846153846154,
+        "group_precision_ucb": 0.6889303139955644,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 626
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.5020803367533446,
+        "precision": 0.8009259259259259,
+        "recall": 0.7935779816513762,
+        "predictions": 432,
+        "prediction_groups": 432,
+        "group_precision_lcb": 0.7626245463543384,
+        "group_precision_ucb": 0.8377105542296472,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 412
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.5020803367533446,
+        "precision": 0.8009259259259259,
+        "recall": 0.7935779816513762,
+        "predictions": 432,
+        "prediction_groups": 432,
+        "group_precision_lcb": 0.7626245463543384,
+        "group_precision_ucb": 0.8377105542296472,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 412
+      },
+      "legacy_threshold": 0.15429456045674841,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.15209671746330355,
+          "threshold_q25": 0.12851080919496644,
+          "threshold_q75": 0.17528889985630947,
+          "threshold_lower": 0.09726263971860033,
+          "threshold_upper": 0.21177084857582876,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.5005848867324628,
+          "threshold_q25": 0.47194897563266486,
+          "threshold_q75": 0.523741132577887,
+          "threshold_lower": 0.3990803786419761,
+          "threshold_upper": 0.5796908855340135,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_PAUSE_LONG",
+      "cue_index": 23,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6735770993593664,
+        "intercept": -0.5863594067705632,
+        "converged": true,
+        "fold_slope_cv": 0.04203651112245351,
+        "fold_count": 5,
+        "positive": 126,
+        "negative": 1069,
+        "positive_groups": 125,
+        "negative_groups": 1069,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0034987119879264276,
+          "q95_absolute_difference": 0.018028884044140384,
+          "mean_oof": 0.10552122350461533,
+          "mean_final": 0.10543933052090541
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.28073589040584424,
+        "precision": 0.6533333333333333,
+        "recall": 0.7777777777777778,
+        "predictions": 150,
+        "prediction_groups": 150,
+        "group_precision_lcb": 0.5734242424242424,
+        "group_precision_ucb": 0.730509904622157,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 146
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.5364844792273203,
+        "precision": 0.8021978021978022,
+        "recall": 0.5793650793650794,
+        "predictions": 91,
+        "prediction_groups": 91,
+        "group_precision_lcb": 0.7194655667144907,
+        "group_precision_ucb": 0.8823685857321651,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 87
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.5364844792273203,
+        "precision": 0.8021978021978022,
+        "recall": 0.5793650793650794,
+        "predictions": 91,
+        "prediction_groups": 91,
+        "group_precision_lcb": 0.7194655667144907,
+        "group_precision_ucb": 0.8823685857321651,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 87
+      },
+      "legacy_threshold": 0.28073589040584424,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.28073589040584424,
+          "threshold_q25": 0.25925734711313975,
+          "threshold_q75": 0.30286774957125895,
+          "threshold_lower": 0.22293322357347425,
+          "threshold_upper": 0.34748628300944123,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 989,
+          "failed_replicates": 11,
+          "activation_rate": 0.989,
+          "threshold_median": 0.5364844792273203,
+          "threshold_q25": 0.39956006566212915,
+          "threshold_q75": 0.580292505303448,
+          "threshold_lower": 0.33574104703833557,
+          "threshold_upper": 0.6305088189946353,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 11
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_PAUSE_FREQUENT",
+      "cue_index": 24,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_RISING",
+      "cue_index": 25,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6876216079752727,
+        "intercept": -0.14267760953631742,
+        "converged": true,
+        "fold_slope_cv": 0.03960602815549802,
+        "fold_count": 5,
+        "positive": 459,
+        "negative": 681,
+        "positive_groups": 459,
+        "negative_groups": 680,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0090317159586944,
+          "q95_absolute_difference": 0.02523605276758241,
+          "mean_oof": 0.40260113827289246,
+          "mean_final": 0.4026315787363785
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.16216127932438032,
+        "precision": 0.6501501501501501,
+        "recall": 0.9433551198257081,
+        "predictions": 666,
+        "prediction_groups": 666,
+        "group_precision_lcb": 0.6150343249427918,
+        "group_precision_ucb": 0.6877904296514844,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 607
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.4270442503953164,
+        "precision": 0.8008474576271186,
+        "recall": 0.8235294117647058,
+        "predictions": 472,
+        "prediction_groups": 472,
+        "group_precision_lcb": 0.7630406671664168,
+        "group_precision_ucb": 0.8357955465587045,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 423
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.4270442503953164,
+        "precision": 0.8008474576271186,
+        "recall": 0.8235294117647058,
+        "predictions": 472,
+        "prediction_groups": 472,
+        "group_precision_lcb": 0.7630406671664168,
+        "group_precision_ucb": 0.8357955465587045,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 423
+      },
+      "legacy_threshold": 0.16216127932438032,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.16216127932438032,
+          "threshold_q25": 0.15187163236863183,
+          "threshold_q75": 0.1769903906817639,
+          "threshold_lower": 0.12522112635279192,
+          "threshold_upper": 0.20319259450618538,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.4257457543309779,
+          "threshold_q25": 0.38484245467243616,
+          "threshold_q75": 0.4556047607411922,
+          "threshold_lower": 0.35266990884806104,
+          "threshold_upper": 0.5553126848398046,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_FALLING",
+      "cue_index": 26,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.666432115222047,
+        "intercept": 0.11918673980240489,
+        "converged": true,
+        "fold_slope_cv": 0.020808494722060943,
+        "fold_count": 5,
+        "positive": 776,
+        "negative": 426,
+        "positive_groups": 775,
+        "negative_groups": 426,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.006604058829580176,
+          "q95_absolute_difference": 0.01724839736177383,
+          "mean_oof": 0.6457496393526376,
+          "mean_final": 0.6455906821962671
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.03249957981279852,
+        "precision": 0.6501677852348994,
+        "recall": 0.9987113402061856,
+        "predictions": 1192,
+        "prediction_groups": 1191,
+        "group_precision_lcb": 0.6236327145447467,
+        "group_precision_ucb": 0.6764848117548112,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 1048
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.3782725182352522,
+        "precision": 0.8004434589800443,
+        "recall": 0.9304123711340206,
+        "predictions": 902,
+        "prediction_groups": 901,
+        "group_precision_lcb": 0.775435610560076,
+        "group_precision_ucb": 0.8270917928696112,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 789
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.3782725182352522,
+        "precision": 0.8004434589800443,
+        "recall": 0.9304123711340206,
+        "predictions": 902,
+        "prediction_groups": 901,
+        "group_precision_lcb": 0.775435610560076,
+        "group_precision_ucb": 0.8270917928696112,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 789
+      },
+      "legacy_threshold": 0.03249957981279852,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.03249957981279852,
+          "threshold_q25": 0.018443586390817945,
+          "threshold_q75": 0.05121621257894265,
+          "threshold_lower": 0.018443586390817945,
+          "threshold_upper": 0.08238499281240923,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.3782725182352522,
+          "threshold_q25": 0.351352421302618,
+          "threshold_q75": 0.4052134094171172,
+          "threshold_lower": 0.30186034194808276,
+          "threshold_upper": 0.4572730855962521,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_INTONATION_FLAT",
+      "cue_index": 27,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.749252739835747,
+        "intercept": -0.24028667280902138,
+        "converged": true,
+        "fold_slope_cv": 0.04080196699999123,
+        "fold_count": 5,
+        "positive": 107,
+        "negative": 849,
+        "positive_groups": 107,
+        "negative_groups": 849,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0035274852460109945,
+          "q95_absolute_difference": 0.01357649775722565,
+          "mean_oof": 0.1118952394713264,
+          "mean_final": 0.11192468620064752
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.5743327749224226,
+        "precision": 0.6956521739130435,
+        "recall": 0.29906542056074764,
+        "predictions": 46,
+        "prediction_groups": 46,
+        "group_precision_lcb": 0.5531774916013438,
+        "group_precision_ucb": 0.8157894736842105,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 45
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.4696689432953509,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 906,
+          "failed_replicates": 94,
+          "activation_rate": 0.906,
+          "threshold_median": 0.4696689432953509,
+          "threshold_q25": 0.3466151303167598,
+          "threshold_q75": 0.592491871771062,
+          "threshold_lower": 0.27197752220527394,
+          "threshold_upper": 0.6569969202906164,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 94
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 23,
+          "failed_replicates": 977,
+          "activation_rate": 0.023,
+          "threshold_median": 0.514160985559469,
+          "threshold_q25": 0.48781639254002956,
+          "threshold_q75": 0.5743327749224226,
+          "threshold_lower": 0.4603743323860114,
+          "threshold_upper": 0.6363106269408091,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 977
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_VOICE_TENSE",
+      "cue_index": 28,
+      "calibration": {
+        "method": "identity",
+        "slope": 1.0,
+        "intercept": 0.0,
+        "status": "source_pseudolabel_identity_accepted_by_frozen_rule",
+        "fold_slope_cv": 0.03202582777603312,
+        "fold_count": 5,
+        "positive": 94,
+        "negative": 1050,
+        "positive_groups": 94,
+        "negative_groups": 1049,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0,
+          "q95_absolute_difference": 0.0,
+          "mean_oof": 0.0724915739326685,
+          "mean_final": 0.0724915739326685
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.14608724415302277,
+        "precision": 0.6517857142857143,
+        "recall": 0.776595744680851,
+        "predictions": 112,
+        "prediction_groups": 112,
+        "group_precision_lcb": 0.5643251946553878,
+        "group_precision_ucb": 0.7407407407407407,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 106
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.42679935693740845,
+        "precision": 0.8,
+        "recall": 0.6808510638297872,
+        "predictions": 80,
+        "prediction_groups": 80,
+        "group_precision_lcb": 0.7031063988095239,
+        "group_precision_ucb": 0.8888888888888888,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 77
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.42679935693740845,
+        "precision": 0.8,
+        "recall": 0.6808510638297872,
+        "predictions": 80,
+        "prediction_groups": 80,
+        "group_precision_lcb": 0.7031063988095239,
+        "group_precision_ucb": 0.8888888888888888,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 77
+      },
+      "legacy_threshold": 0.14608724415302277,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.14608724415302277,
+          "threshold_q25": 0.13117322325706482,
+          "threshold_q75": 0.19314736127853394,
+          "threshold_lower": 0.09534945338964462,
+          "threshold_upper": 0.2806163728237152,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 968,
+          "failed_replicates": 32,
+          "activation_rate": 0.968,
+          "threshold_median": 0.42679935693740845,
+          "threshold_q25": 0.3354596793651581,
+          "threshold_q75": 0.4561674892902374,
+          "threshold_lower": 0.22815649211406708,
+          "threshold_upper": 0.7634837031364441,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 32
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "AUD_VOICE_TREMBLING",
+      "cue_index": 29,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "AUD_LAUGHTER_PRESENT",
+      "cue_index": 30,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "AUD_CRYING_SOBBING_PRESENT",
+      "cue_index": 31,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "VIS_BROWS_FURROWED",
+      "cue_index": 32,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.5255124296448275,
+        "intercept": -0.2569145736313209,
+        "converged": true,
+        "fold_slope_cv": 0.02636470118137041,
+        "fold_count": 5,
+        "positive": 414,
+        "negative": 816,
+        "positive_groups": 413,
+        "negative_groups": 816,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.005278929676546597,
+          "q95_absolute_difference": 0.016105156632620025,
+          "mean_oof": 0.336640078021615,
+          "mean_final": 0.33658536585494386
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.1913921740593822,
+        "precision": 0.65,
+        "recall": 0.9106280193236715,
+        "predictions": 580,
+        "prediction_groups": 579,
+        "group_precision_lcb": 0.6119618366129994,
+        "group_precision_ucb": 0.6909428932441112,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 540
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.5313353007724543,
+        "precision": 0.8010471204188482,
+        "recall": 0.7391304347826086,
+        "predictions": 382,
+        "prediction_groups": 381,
+        "group_precision_lcb": 0.7590003035707509,
+        "group_precision_ucb": 0.8425233595800524,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 348
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.5313353007724543,
+        "precision": 0.8010471204188482,
+        "recall": 0.7391304347826086,
+        "predictions": 382,
+        "prediction_groups": 381,
+        "group_precision_lcb": 0.7590003035707509,
+        "group_precision_ucb": 0.8425233595800524,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 348
+      },
+      "legacy_threshold": 0.1913921740593822,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.19262587350251859,
+          "threshold_q25": 0.18112785512932025,
+          "threshold_q75": 0.21603438271993736,
+          "threshold_lower": 0.1529871364939493,
+          "threshold_upper": 0.2477085702964905,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.5313353007724543,
+          "threshold_q25": 0.487048688915273,
+          "threshold_q75": 0.554275970920168,
+          "threshold_lower": 0.4236492641852523,
+          "threshold_upper": 0.5895242287048057,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_BROWS_RAISED",
+      "cue_index": 33,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.5111871242246269,
+        "intercept": 0.3212078429035264,
+        "converged": true,
+        "fold_slope_cv": 0.0035846638758459805,
+        "fold_count": 5,
+        "positive": 518,
+        "negative": 710,
+        "positive_groups": 518,
+        "negative_groups": 709,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0032166373370642815,
+          "q95_absolute_difference": 0.00797744671537735,
+          "mean_oof": 0.4219520231225721,
+          "mean_final": 0.42182410423119904
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.20199032834143993,
+        "precision": 0.650200267022697,
+        "recall": 0.9401544401544402,
+        "predictions": 749,
+        "prediction_groups": 749,
+        "group_precision_lcb": 0.6174845365283966,
+        "group_precision_ucb": 0.6838641247945453,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 680
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.49772427915670536,
+        "precision": 0.8,
+        "recall": 0.7722007722007722,
+        "predictions": 500,
+        "prediction_groups": 500,
+        "group_precision_lcb": 0.7660681011145097,
+        "group_precision_ucb": 0.8336674362924632,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 451
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.49772427915670536,
+        "precision": 0.8,
+        "recall": 0.7722007722007722,
+        "predictions": 500,
+        "prediction_groups": 500,
+        "group_precision_lcb": 0.7660681011145097,
+        "group_precision_ucb": 0.8336674362924632,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 451
+      },
+      "legacy_threshold": 0.20199032834143993,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.20199032834143993,
+          "threshold_q25": 0.1918273360227705,
+          "threshold_q75": 0.21443436842327368,
+          "threshold_lower": 0.15477904424644554,
+          "threshold_upper": 0.23675078438418665,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.500914624947777,
+          "threshold_q25": 0.4577438191555503,
+          "threshold_q75": 0.5257060596169993,
+          "threshold_lower": 0.41573121119525436,
+          "threshold_upper": 0.5934351929565261,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_EYES_WIDENED",
+      "cue_index": 34,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.505123250742324,
+        "intercept": -0.2720918196694434,
+        "converged": true,
+        "fold_slope_cv": 0.043465203975760945,
+        "fold_count": 5,
+        "positive": 345,
+        "negative": 606,
+        "positive_groups": 345,
+        "negative_groups": 605,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.007065924673046676,
+          "q95_absolute_difference": 0.02092837628987157,
+          "mean_oof": 0.3631073723662584,
+          "mean_final": 0.36277602454218816
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.13398640459490002,
+        "precision": 0.650197628458498,
+        "recall": 0.9536231884057971,
+        "predictions": 506,
+        "prediction_groups": 506,
+        "group_precision_lcb": 0.6090351303005053,
+        "group_precision_ucb": 0.6924837773756786,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 481
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.4047469174403183,
+        "precision": 0.8,
+        "recall": 0.8347826086956521,
+        "predictions": 360,
+        "prediction_groups": 360,
+        "group_precision_lcb": 0.7576580568920401,
+        "group_precision_ucb": 0.8419457028564803,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 340
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.4047469174403183,
+        "precision": 0.8,
+        "recall": 0.8347826086956521,
+        "predictions": 360,
+        "prediction_groups": 360,
+        "group_precision_lcb": 0.7576580568920401,
+        "group_precision_ucb": 0.8419457028564803,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 340
+      },
+      "legacy_threshold": 0.13398640459490002,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.13398640459490002,
+          "threshold_q25": 0.11855725570475326,
+          "threshold_q75": 0.14868412838140674,
+          "threshold_lower": 0.0959677940793811,
+          "threshold_upper": 0.18466089538129465,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.4047469174403183,
+          "threshold_q25": 0.36525806381391523,
+          "threshold_q75": 0.4377973706751735,
+          "threshold_lower": 0.2903529425832399,
+          "threshold_upper": 0.5085815775342196,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_EYES_SQUINTED",
+      "cue_index": 35,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6319100269682741,
+        "intercept": -0.17010705211696245,
+        "converged": true,
+        "fold_slope_cv": 0.01765909009644233,
+        "fold_count": 5,
+        "positive": 239,
+        "negative": 806,
+        "positive_groups": 239,
+        "negative_groups": 806,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0041291930135140265,
+          "q95_absolute_difference": 0.017906923517897806,
+          "mean_oof": 0.2283221866818454,
+          "mean_final": 0.22870813380803962
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.2965160156837033,
+        "precision": 0.6517241379310345,
+        "recall": 0.7907949790794979,
+        "predictions": 290,
+        "prediction_groups": 290,
+        "group_precision_lcb": 0.5973450974129672,
+        "group_precision_ucb": 0.7097902097902098,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 272
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.5240444522101416,
+        "precision": 0.8,
+        "recall": 0.6192468619246861,
+        "predictions": 185,
+        "prediction_groups": 185,
+        "group_precision_lcb": 0.7409326424870466,
+        "group_precision_ucb": 0.8555326176713459,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 168
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.5240444522101416,
+        "precision": 0.8,
+        "recall": 0.6192468619246861,
+        "predictions": 185,
+        "prediction_groups": 185,
+        "group_precision_lcb": 0.7409326424870466,
+        "group_precision_ucb": 0.8555326176713459,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 168
+      },
+      "legacy_threshold": 0.2965160156837033,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.2965160156837033,
+          "threshold_q25": 0.2789527482598788,
+          "threshold_q75": 0.31318241259108226,
+          "threshold_lower": 0.23422732419275238,
+          "threshold_upper": 0.3678367837563189,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.5240444522101416,
+          "threshold_q25": 0.5099051115748051,
+          "threshold_q75": 0.6018386963986613,
+          "threshold_lower": 0.43742341754189606,
+          "threshold_upper": 0.6827811419496937,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_SMILE_PRESENT",
+      "cue_index": 36,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.7084537161030247,
+        "intercept": 0.12428529426602512,
+        "converged": true,
+        "fold_slope_cv": 0.03762979647026124,
+        "fold_count": 5,
+        "positive": 169,
+        "negative": 1035,
+        "positive_groups": 169,
+        "negative_groups": 1034,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.002898341089265771,
+          "q95_absolute_difference": 0.01295530848329067,
+          "mean_oof": 0.14005173303066545,
+          "mean_final": 0.14036544864347472
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.19905324573011499,
+        "precision": 0.6502242152466368,
+        "recall": 0.8579881656804734,
+        "predictions": 223,
+        "prediction_groups": 223,
+        "group_precision_lcb": 0.5905162151067324,
+        "group_precision_ucb": 0.7130434782608696,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 215
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.38801625485131547,
+        "precision": 0.8023952095808383,
+        "recall": 0.7928994082840237,
+        "predictions": 167,
+        "prediction_groups": 167,
+        "group_precision_lcb": 0.7383090171127688,
+        "group_precision_ucb": 0.8592601898380793,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 163
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.38801625485131547,
+        "precision": 0.8023952095808383,
+        "recall": 0.7928994082840237,
+        "predictions": 167,
+        "prediction_groups": 167,
+        "group_precision_lcb": 0.7383090171127688,
+        "group_precision_ucb": 0.8592601898380793,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 163
+      },
+      "legacy_threshold": 0.19905324573011499,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.18545212565980312,
+          "threshold_q25": 0.16555655477865205,
+          "threshold_q75": 0.20744974574807665,
+          "threshold_lower": 0.1086534126383644,
+          "threshold_upper": 0.24144913768168655,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.38362650893398953,
+          "threshold_q25": 0.33483254456930545,
+          "threshold_q75": 0.43976299214568304,
+          "threshold_lower": 0.2961167051713318,
+          "threshold_upper": 0.5447525880209294,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_MOUTH_CORNERS_DOWN",
+      "cue_index": 37,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6438043393141949,
+        "intercept": -0.20759372403537202,
+        "converged": true,
+        "fold_slope_cv": 0.0038695009883764953,
+        "fold_count": 5,
+        "positive": 413,
+        "negative": 680,
+        "positive_groups": 412,
+        "negative_groups": 680,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.006231328767299441,
+          "q95_absolute_difference": 0.01913037428477033,
+          "mean_oof": 0.37766135282052254,
+          "mean_final": 0.37785910339037393
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.20043526244951126,
+        "precision": 0.6510416666666666,
+        "recall": 0.9079903147699758,
+        "predictions": 576,
+        "prediction_groups": 575,
+        "group_precision_lcb": 0.6108224020371581,
+        "group_precision_ucb": 0.6899099883855981,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 537
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.47815694372724965,
+        "precision": 0.800982800982801,
+        "recall": 0.7893462469733656,
+        "predictions": 407,
+        "prediction_groups": 406,
+        "group_precision_lcb": 0.760520421817255,
+        "group_precision_ucb": 0.8383203724368811,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 377
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.47815694372724965,
+        "precision": 0.800982800982801,
+        "recall": 0.7893462469733656,
+        "predictions": 407,
+        "prediction_groups": 406,
+        "group_precision_lcb": 0.760520421817255,
+        "group_precision_ucb": 0.8383203724368811,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 377
+      },
+      "legacy_threshold": 0.20043526244951126,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.20043526244951126,
+          "threshold_q25": 0.18209436935216655,
+          "threshold_q75": 0.22050906382390895,
+          "threshold_lower": 0.14902243917443006,
+          "threshold_upper": 0.2551736492408738,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.4778447585358533,
+          "threshold_q25": 0.4602424184850557,
+          "threshold_q75": 0.4967390047062683,
+          "threshold_lower": 0.3641690973460856,
+          "threshold_upper": 0.5550744943511252,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_LIPS_PRESSED",
+      "cue_index": 38,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6664890834018279,
+        "intercept": -0.5615905127391684,
+        "converged": true,
+        "fold_slope_cv": 0.03935036358061133,
+        "fold_count": 5,
+        "positive": 126,
+        "negative": 1056,
+        "positive_groups": 126,
+        "negative_groups": 1055,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.005680317924221745,
+          "q95_absolute_difference": 0.021995117302701067,
+          "mean_oof": 0.10639780359892294,
+          "mean_final": 0.10659898476245398
+        }
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.5016918193923169,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 131,
+          "failed_replicates": 869,
+          "activation_rate": 0.131,
+          "threshold_median": 0.43917603466557387,
+          "threshold_q25": 0.4292921640973668,
+          "threshold_q75": 0.4803805471687468,
+          "threshold_lower": 0.3496690830503058,
+          "threshold_upper": 0.5016918193923169,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 869
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 0,
+          "failed_replicates": 1000,
+          "activation_rate": 0.0,
+          "threshold_median": null,
+          "threshold_q25": null,
+          "threshold_q75": null,
+          "threshold_lower": null,
+          "threshold_upper": null,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 1000
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_GRIMACE_PRESENT",
+      "cue_index": 39,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.6370226706334717,
+        "intercept": -0.29198648642155056,
+        "converged": true,
+        "fold_slope_cv": 0.011462851507682273,
+        "fold_count": 5,
+        "positive": 83,
+        "negative": 989,
+        "positive_groups": 83,
+        "negative_groups": 988,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0031070082327853614,
+          "q95_absolute_difference": 0.01732109761454102,
+          "mean_oof": 0.07738167145812923,
+          "mean_final": 0.07742537313370167
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.2655066377699117,
+        "precision": 0.651685393258427,
+        "recall": 0.6987951807228916,
+        "predictions": 89,
+        "prediction_groups": 89,
+        "group_precision_lcb": 0.5604285714285714,
+        "group_precision_ucb": 0.7419437978051214,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 86
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "no_threshold_satisfies_all_frozen_constraints"
+      },
+      "legacy_threshold": 0.2655066377699117,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.2908859185216001,
+          "threshold_q25": 0.2329505621694271,
+          "threshold_q75": 0.34296148818238303,
+          "threshold_lower": 0.1548737584797893,
+          "threshold_upper": 0.6095458609914508,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 462,
+          "failed_replicates": 538,
+          "activation_rate": 0.462,
+          "threshold_median": 0.5195698931339857,
+          "threshold_q25": 0.4963081926407281,
+          "threshold_q75": 0.6120411486017168,
+          "threshold_lower": 0.34818023735450804,
+          "threshold_upper": 0.6599469727621468,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {
+            "no_threshold_satisfies_resampled_precision_support_group_LCB": 538
+          },
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    },
+    {
+      "cue_id": "VIS_TEARING_PRESENT",
+      "cue_index": 40,
+      "calibration": {
+        "method": "deferred",
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "candidate": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence": {
+        "status": "deferred",
+        "threshold": null,
+        "reason": "insufficient_class_or_group_support_for_crossfit"
+      },
+      "evidence_without_stability": {
+        "status": "deferred",
+        "threshold": null
+      },
+      "legacy_threshold": null,
+      "stability": {
+        "status": "not_applicable_calibrator_deferred"
+      }
+    },
+    {
+      "cue_id": "VIS_HEAD_LOWERED",
+      "cue_index": 41,
+      "calibration": {
+        "method": "platt",
+        "status": "source_pseudolabel_oof_calibrated",
+        "slope": 0.724235634444683,
+        "intercept": -0.03439339362305652,
+        "converged": true,
+        "fold_slope_cv": 0.021023461922777056,
+        "fold_count": 5,
+        "positive": 292,
+        "negative": 935,
+        "positive_groups": 291,
+        "negative_groups": 935,
+        "oof_vs_final_score_shift": {
+          "mean_absolute_difference": 0.0026189125793889293,
+          "q95_absolute_difference": 0.01040682321027947,
+          "mean_oof": 0.23768492462747626,
+          "mean_final": 0.23797881009455588
+        }
+      },
+      "candidate": {
+        "status": "admitted",
+        "threshold": 0.16163513089048068,
+        "precision": 0.6503667481662592,
+        "recall": 0.910958904109589,
+        "predictions": 409,
+        "prediction_groups": 408,
+        "group_precision_lcb": 0.604407504705834,
+        "group_precision_ucb": 0.6960013921113689,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 387
+      },
+      "evidence": {
+        "status": "admitted",
+        "threshold": 0.42935190428401476,
+        "precision": 0.8,
+        "recall": 0.7671232876712328,
+        "predictions": 280,
+        "prediction_groups": 279,
+        "group_precision_lcb": 0.7480158297686837,
+        "group_precision_ucb": 0.8469801137371278,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 262
+      },
+      "evidence_without_stability": {
+        "status": "admitted",
+        "threshold": 0.42935190428401476,
+        "precision": 0.8,
+        "recall": 0.7671232876712328,
+        "predictions": 280,
+        "prediction_groups": 279,
+        "group_precision_lcb": 0.7480158297686837,
+        "group_precision_ucb": 0.8469801137371278,
+        "fixed_threshold_zero_prediction_bootstrap_replicates": 0,
+        "curve_index": 262
+      },
+      "legacy_threshold": 0.16163513089048068,
+      "stability": {
+        "candidate": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.16163513089048068,
+          "threshold_q25": 0.14149403479972675,
+          "threshold_q75": 0.18018763742675092,
+          "threshold_lower": 0.12426763873117003,
+          "threshold_upper": 0.2159090539943628,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        },
+        "evidence": {
+          "replicates": 1000,
+          "successful_replicates": 1000,
+          "failed_replicates": 0,
+          "activation_rate": 1.0,
+          "threshold_median": 0.43627222021407314,
+          "threshold_q25": 0.3920038672605197,
+          "threshold_q75": 0.470316217985641,
+          "threshold_lower": 0.3414249964452955,
+          "threshold_upper": 0.5240354057681418,
+          "quantile_scope": "Conditional on feasible threshold; failures retained in activation denominator",
+          "failure_reasons": {},
+          "CI_replicates_per_resampled_threshold": 1000
+        }
+      }
+    }
+  ],
+  "label_provenance": "Existing source Teacher pseudo-labels; no new human labels or audit-based tuning",
+  "candidate_enters_prompt": false,
+  "preserve_g1_input_distribution": true,
+  "human_precision_guarantee": false
+}

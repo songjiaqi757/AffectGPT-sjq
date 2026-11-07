@@ -1,0 +1,61 @@
+{
+  "base_epoch": 55,
+  "epoch": 56,
+  "checkpoint": {
+    "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_extend2_20261107/runs/three_branches_plus2_corresponding/from_55/checkpoint_000056_loss_0.420.pth",
+    "sha256": "6b22648bfba22fc1d7a05bd4b2a18c22c09c2365ccc74871ecd744b3094eb37c",
+    "epoch": 56,
+    "loss": 0.4196435688458383
+  },
+  "datasets": [
+    {
+      "base_epoch": 55,
+      "epoch": 56,
+      "dataset": "MER2024",
+      "samples": 1169,
+      "main_metric": "HIT",
+      "main_score": 0.74754470747537,
+      "metrics": {
+        "HIT": 0.74754470747537
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_extend2_20261107/runs/three_branches_plus2_corresponding/from_55/checkpoint_000056_loss_0.420.pth",
+        "sha256": "6b22648bfba22fc1d7a05bd4b2a18c22c09c2365ccc74871ecd744b3094eb37c",
+        "epoch": 56,
+        "loss": 0.4196435688458383
+      },
+      "plan_id": "6c14db096ce6288f237d522f48bed1f2ba991247a51d781779416a58fdb675eb",
+      "raw_sha256": "b835cad2ddce818445c5561b4e30ad733d51412f6d848e097c1993e00d51afc4",
+      "official_evaluation_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "completed_at": "2026-11-07T20:00:45.804750+08:00",
+      "node": "A100",
+      "dispatch": "checkpoint_complete_nine_datasets"
+    },
+    {
+      "base_epoch": 55,
+      "epoch": 56,
+      "dataset": "IEMOCAPFour",
+      "samples": 1241,
+      "main_metric": "HIT",
+      "main_score": 0.5799299883313885,
+      "metrics": {
+        "HIT": 0.5799299883313885
+      },
+      "checkpoint": {
+        "path": "/ai/sjq/AffectGPT-sjq/graph/amg_v21_extend2_20261107/runs/three_branches_plus2_corresponding/from_55/checkpoint_000056_loss_0.420.pth",
+        "sha256": "6b22648bfba22fc1d7a05bd4b2a18c22c09c2365ccc74871ecd744b3094eb37c",
+        "epoch": 56,
+        "loss": 0.4196435688458383
+      },
+      "plan_id": "6c14db096ce6288f237d522f48bed1f2ba991247a51d781779416a58fdb675eb",
+      "raw_sha256": "3d6535419076c19f45d068be030943cf18949490683ca99ec854598dc43d94d7",
+      "official_evaluation_source": "/ai/sjq/AffectGPT-sjq/AffectGPT/evaluation.py",
+      "completed_at": "2026-11-07T20:01:28.470626+08:00",
+      "node": "A100",
+      "dispatch": "checkpoint_complete_nine_datasets"
+    }
+  ],
+  "complete": true,
+  "completed_at": "2026-11-07T20:01:28.493623+08:00",
+  "node": "A100"
+}

@@ -1,0 +1,74 @@
+{
+  "sample_ids": [
+    "samplenew3_00031425",
+    "samplenew3_00017162",
+    "samplenew3_00033744"
+  ],
+  "prompt_info": [
+    {
+      "fallback": false,
+      "evidence_level": 3,
+      "gate_reasons": [
+        "supported_full_evidence"
+      ],
+      "graph_tokens": 410,
+      "prompt_tokens": 520,
+      "answer_tokens": 130,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description",
+      "fold": 3,
+      "fold_graph_id": "amg_v21_graph_oof_fold_3_49a188cff2c162f7",
+      "CA_edge_count": 0,
+      "CE_edge_count": 0,
+      "original_subtitle_preserved": true
+    },
+    {
+      "fallback": false,
+      "evidence_level": 1,
+      "gate_reasons": [
+        "weak_or_absent_graph_support",
+        "training_emotion_dropout"
+      ],
+      "graph_tokens": 375,
+      "prompt_tokens": 479,
+      "answer_tokens": 134,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "description",
+      "fold": 0,
+      "fold_graph_id": "amg_v21_graph_oof_fold_0_d5f1e3c88b8f9733",
+      "CA_edge_count": 0,
+      "CE_edge_count": 0,
+      "original_subtitle_preserved": true
+    },
+    {
+      "fallback": false,
+      "evidence_level": 1,
+      "gate_reasons": [
+        "weak_or_absent_graph_support"
+      ],
+      "graph_tokens": 347,
+      "prompt_tokens": 453,
+      "answer_tokens": 9,
+      "answer_truncated": false,
+      "subtitle_truncated": false,
+      "label_type": "ovlabel",
+      "fold": 0,
+      "fold_graph_id": "amg_v21_graph_oof_fold_0_d5f1e3c88b8f9733",
+      "CA_edge_count": 0,
+      "CE_edge_count": 0,
+      "original_subtitle_preserved": true
+    }
+  ],
+  "shape": [
+    3,
+    652
+  ],
+  "supervised_tokens": [
+    131,
+    135,
+    10
+  ],
+  "graph_tokens_masked_from_loss": true
+}

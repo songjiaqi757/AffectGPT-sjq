@@ -1,0 +1,16 @@
+{
+  "unit": "known_source_groups",
+  "replicates": 64,
+  "group_count": 22057,
+  "training_rows": 22128,
+  "maximum_known_group_size": 7,
+  "row_bootstrap_equivalent": false,
+  "row_bootstrap_report": "Known group bootstrap used; row bootstrap not used for admission.",
+  "limitation": "Manifest provenance mostly unknown; union exact audio/video SHA256 and supplied group IDs. Near duplicates and original-source independence not fully verified.",
+  "refitted_relations": [
+    "CA",
+    "CE",
+    "AE"
+  ],
+  "AE_crossfit_probability_inputs": "Fixed cross-fitted Appraisal predictions in bootstrap; conditional relation-parameter uncertainty, not full pipeline retraining uncertainty"
+}
